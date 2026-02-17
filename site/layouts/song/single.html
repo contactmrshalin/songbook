@@ -21,8 +21,8 @@
     {{ $coverThumb = .Filter (slice images.AutoOrient (images.Process "fit 220x220")) }}
   {{ end }}
 
-  <section class="songbook-song" data-songbook-song>
-    <div class="songbook-page {{ if $bg }}songbook-page--has-bg{{ end }}" {{ if $bg }}style="--songbook-bg: url('{{ $bg }}');"{{ end }}>
+  <section class="songbook-song {{ if $bg }}songbook-song--has-bg{{ end }}" {{ if $bg }}style="--songbook-bg: url('{{ $bg }}');"{{ end }} data-songbook-song>
+    <div class="songbook-page {{ if $bg }}songbook-page--has-bg{{ end }}">
       <div class="songbook-page__inner">
         <header class="songbook-header">
         {{ with $coverThumb }}

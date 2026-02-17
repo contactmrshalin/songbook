@@ -73,6 +73,29 @@ html.light .songbook-pill{
 .songbook-song{
   position: relative;
   z-index: 1;
+  isolation: isolate;
+}
+.songbook-song--has-bg::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--songbook-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .12;
+  filter: saturate(1.05) contrast(1.05);
+}
+.songbook-song--has-bg::after{
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  /* light veil like the PDF */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.14), rgba(255,255,255,0.55));
 }
 
 /* centered PDF-like page column */
