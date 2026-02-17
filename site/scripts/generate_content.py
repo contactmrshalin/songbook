@@ -69,8 +69,9 @@ def _copy_image(rel_path: str, dst_dir: Path) -> str:
     return filename
 
 
-def _toml_escape(s: str) -> str:
-    return s.replace("\\", "\\\\").replace('"', '\\"')
+def _yaml_quote(s: str) -> str:
+    # Double-quoted YAML string with basic escaping.
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n") + '"'
 
 
 def build() -> None:
@@ -88,8 +89,8 @@ def build() -> None:
     # Ensure section index exists (branch bundle) so the theme can list children if needed.
     (SONGS_SECTION_DIR / "_index.md").write_text(
         "---\n"
-        'title = "Songs"\n'
-        'description = "All songs"\n'
+        'title: "Songs"\n'
+        'description: "All songs"\n'
         "---\n",
         encoding="utf-8",
     )
@@ -138,24 +139,23 @@ def build() -> None:
 
         front_matter_lines: list[str] = []
         front_matter_lines.append("---")
-        front_matter_lines.append(f'title = "{_toml_escape(title)}"')
-        front_matter_lines.append('type = "song"')
+        front_matter_lines.append(f"title: {_yaml_quote(title)}")
+        front_matter_lines.append('type: "song"')
         if info_lines:
             # show first line as description
-            front_matter_lines.append(f'description = "{_toml_escape(info_lines[0])}"')
+            front_matter_lines.append(f"description: {_yaml_quote(info_lines[0])}")
 
-        # Mark cover image for theme card thumbnail
+        # Mark cover image for theme card thumbnail (hugo-theme-gallery uses Resources cover param)
         if cover_filename:
-            front_matter_lines.append("resources = [")
-            front_matter_lines.append("  {")
-            front_matter_lines.append(f'    src = "{_toml_escape(cover_filename)}",')
-            front_matter_lines.append("    params = { cover = true }")
-            front_matter_lines.append("  }")
-            front_matter_lines.append("]")
+            front_matter_lines.append("resources:")
+            front_matter_lines.append(f"  - src: {_yaml_quote(cover_filename)}")
+            front_matter_lines.append("    params:")
+            front_matter_lines.append("      cover: true")
 
-        # Store song data for custom layout
-        front_matter_lines.append("[params]")
-        front_matter_lines.append(f'songJson = """{payload_json}"""')
+        # Store song data for custom layout (JSON string)
+        front_matter_lines.append("params:")
+        front_matter_lines.append("  songJson: |")
+        front_matter_lines.append(f"    {payload_json}")
         front_matter_lines.append("---")
 
         content_md = "\n".join(front_matter_lines) + "\n\n"

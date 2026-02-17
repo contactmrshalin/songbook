@@ -27,6 +27,7 @@ site/content/songs/
 # OS / editor
 .vscode/
 .idea/
+.hugo_build.lock
 
 # Keep this file tracked (do not ignore)
 !.gitignore
