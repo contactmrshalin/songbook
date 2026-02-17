@@ -11,6 +11,30 @@ All formats are generated from **songs.json**.
 
 ---
 
+## 🌐 Website (GitHub Pages)
+
+This repo can also generate a **static website** with **one page per song** (lyrics + Indian notation, and Western when present).
+
+### Build locally
+
+```bash
+python build_website.py
+```
+
+Preview it:
+
+```bash
+python -m http.server -d dist 8000
+```
+
+Then open `http://localhost:8000`.
+
+### Deploy (gh-pages branch)
+
+A GitHub Actions workflow at `.github/workflows/deploy-gh-pages.yml` builds the site and publishes `dist/` to the `gh-pages` branch on every push to `main`.
+
+---
+
 ## 📂 Folder Structure
 
 ```
