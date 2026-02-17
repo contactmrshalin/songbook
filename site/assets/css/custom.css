@@ -54,28 +54,28 @@
 }
 
 /* Song page */
-.songbook-song{
-  position: relative;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-.songbook-song--has-bg::before{
-  content:"";
-  position:absolute;
-  inset:0;
+.songbook-bg{
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
   background-image: var(--songbook-bg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: .12; /* PDF-like faint background */
+  opacity: .14; /* faint like PDF */
   filter: saturate(1.05) contrast(1.05);
-  transform: scale(1.02);
 }
-.songbook-song--has-bg::after{
+.songbook-bg::after{
   content:"";
   position:absolute;
   inset:0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.65));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.72));
+}
+
+.songbook-song{
+  position: relative;
+  z-index: 1;
 }
 .songbook-song__hero,
 .songbook-song__body{
@@ -131,30 +131,30 @@
 }
 .songbook-section{
   margin-top: 1rem;
-  border: 1px solid color-mix(in oklab, var(--border-color, rgba(255,255,255,0.15)) 80%, transparent);
-  border-radius: 1rem;
-  background: rgba(0,0,0,0.20);
-  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 .songbook-section__title{
   margin: 0;
-  padding: .65rem .85rem;
+  padding: .35rem 0 .35rem;
   font-size: .95rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  border-bottom: 1px solid color-mix(in oklab, var(--border-color, rgba(255,255,255,0.15)) 80%, transparent);
-  background: rgba(255,255,255,0.03);
+  border-bottom: 0;
+  background: transparent;
+  opacity: .9;
 }
 .songbook-lines{
-  padding: .75rem;
+  padding: .25rem 0 0;
   display: grid;
-  gap: .65rem;
+  gap: .45rem;
 }
 .songbook-line{
-  border: 1px solid rgba(255,255,255,0.10);
-  border-radius: .9rem;
-  background: rgba(0,0,0,0.22);
-  padding: .65rem .7rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: .15rem 0;
 }
 .songbook-line__row{
   display:grid;
