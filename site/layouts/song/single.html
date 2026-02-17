@@ -21,9 +21,10 @@
     {{ $coverThumb = .Filter (slice images.AutoOrient (images.Process "fit 220x220")) }}
   {{ end }}
 
-  <section class="songbook-song {{ if $bg }}songbook-song--has-bg{{ end }}" {{ if $bg }}style="--songbook-bg: url('{{ $bg }}');"{{ end }} data-songbook-song>
-    <div class="songbook-page">
-      <header class="songbook-header">
+  <section class="songbook-song" data-songbook-song>
+    <div class="songbook-page {{ if $bg }}songbook-page--has-bg{{ end }}" {{ if $bg }}style="--songbook-bg: url('{{ $bg }}');"{{ end }}>
+      <div class="songbook-page__inner">
+        <header class="songbook-header">
         {{ with $coverThumb }}
           <img class="songbook-header__cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }} cover" />
         {{ end }}
@@ -37,18 +38,18 @@
             </div>
           {{ end }}
         </div>
-      </header>
+        </header>
 
-      <div class="songbook-toolbar">
+        <div class="songbook-toolbar">
         <a class="songbook-btn" href="{{ "/" | relURL }}">Back to Index</a>
         <div class="songbook-btn-group" role="group" aria-label="Notation mode">
           <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="indian">Indian</button>
           <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="western">Western</button>
           <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="both">Both</button>
         </div>
-      </div>
+        </div>
 
-      <div class="songbook-body">
+        <div class="songbook-body">
       {{ range ($song.sections | default (slice)) }}
         <section class="songbook-section">
           <h2 class="songbook-section__title">{{ .name }}</h2>
@@ -65,6 +66,7 @@
           </div>
         </section>
       {{ end }}
+        </div>
       </div>
     </div>
   </section>
