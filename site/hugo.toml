@@ -4,7 +4,9 @@ title = "Songbook"
 enableRobotsTXT = true
 
 # Important for GitHub Pages project sites (/<repo>/)
-relativeURLs = true
+# Do NOT enable relativeURLs here; it causes duplicated `/songbook/songbook/...` paths
+# when deployed under a subpath. We pass the correct baseURL in CI.
+relativeURLs = false
 canonifyURLs = false
 
 theme = "gallery"
