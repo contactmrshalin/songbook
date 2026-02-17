@@ -1,0 +1,21 @@
+{{ $gallery := partial "get-gallery.html" . }}
+{{ with $gallery }}
+  {{ $song := dict }}
+  {{ with .page.Params.songJson }}
+    {{ $song = . | transform.Unmarshal }}
+  {{ end }}
+  {{ $subtitle := "" }}
+  {{ with (index ($song.info | default (slice)) 0) }}
+    {{ $subtitle = . }}
+  {{ end }}
+  <a class="card songbook-card" href="{{ .page.RelPermalink }}" title="{{ .page.Title }}" data-songbook-card data-songbook-hay="{{ printf "%s %s %s" .page.Title .page.RelPermalink $subtitle | plainify }}">
+    <figure style="background-color: {{ .color }}">
+      <img class="lazyload" width="{{ .thumbnail.Width }}" height="{{ .thumbnail.Height }}" data-src="{{ .thumbnail.RelPermalink }}" alt="{{ .page.Title }}" />
+    </figure>
+    <div>
+      <h2>{{ .page.Title }}</h2>
+      <p class="songbook-card__subtitle">{{ $subtitle }}</p>
+    </div>
+  </a>
+{{ end }}
+

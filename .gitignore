@@ -17,6 +17,9 @@ output/
 output_clean/
 output_min/
 dist/
+site/public/
+site/resources/
+site/content/songs/
 
 # Archives / exports
 *.zip

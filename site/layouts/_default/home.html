@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ partial "title.html" . }}
+
+  {{ $songsSection := site.GetPage "section" "songs" }}
+  {{ $songs := slice }}
+  {{ with $songsSection }}
+    {{ $songs = where .RegularPages "Params.private" "ne" true }}
+  {{ end }}
+
+  <section class="songbook-search">
+    <label class="songbook-search__label" for="songbookSearch">Search songs</label>
+    <input id="songbookSearch" class="songbook-search__input" type="search" placeholder="Search by title / movie / singer..." autocomplete="off" data-songbook-search />
+    <div class="songbook-search__meta">
+      <span class="songbook-pill"><span data-songbook-count>{{ len $songs }}</span> songs</span>
+      <span class="songbook-pill">Toggle: <button class="songbook-toggle" type="button" data-notation-mode="indian">Indian</button> <button class="songbook-toggle" type="button" data-notation-mode="western">Western</button> <button class="songbook-toggle" type="button" data-notation-mode="both">Both</button></span>
+    </div>
+  </section>
+
+  <section class="galleries" data-songbook-grid>
+    {{ range $songs }}
+      {{ partial "album-card.html" . }}
+    {{ end }}
+  </section>
+{{ end }}
+

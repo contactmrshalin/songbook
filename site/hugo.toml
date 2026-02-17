@@ -1,0 +1,28 @@
+baseURL = "/"
+languageCode = "en"
+title = "Songbook"
+enableRobotsTXT = true
+
+# Important for GitHub Pages project sites (/<repo>/)
+relativeURLs = true
+canonifyURLs = false
+
+theme = "gallery"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+defaultTheme = "dark"
+description = "Songbook (generated from songs.json)"
+title = "Songbook"
+
+[outputs]
+home = ["HTML", "RSS"]
+page = ["HTML"]
+section = ["HTML"]
+
+[menu]
+[[menu.footer]]
+name = "Home"
+url = "/"
+weight = 1

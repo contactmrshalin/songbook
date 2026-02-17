@@ -1,0 +1,78 @@
+{{ define "main" }}
+  {{ $song := dict }}
+  {{ with .Params.songJson }}
+    {{ $song = . | transform.Unmarshal }}
+  {{ end }}
+
+  {{ $bg := "" }}
+  {{ with $song.background }}
+    {{ $res := $.Resources.GetMatch . }}
+    {{ with $res }}
+      {{ $bg = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+
+  <section class="songbook-song {{ if $bg }}songbook-song--has-bg{{ end }}" {{ if $bg }}style="--songbook-bg: url('{{ $bg }}');"{{ end }} data-songbook-song>
+    <header class="songbook-song__hero">
+      <div class="songbook-song__hero-inner">
+        <h1 class="songbook-song__title">{{ .Title }}</h1>
+        {{ with $song.info }}
+          <div class="songbook-song__info">
+            {{ range . }}
+              <div class="songbook-song__info-line">{{ . }}</div>
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <div class="songbook-song__toolbar">
+          <a class="songbook-btn" href="{{ "/" | relURL }}">← All songs</a>
+          <div class="songbook-btn-group" role="group" aria-label="Notation mode">
+            <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="indian">Indian</button>
+            <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="western">Western</button>
+            <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="both">Both</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="songbook-song__body">
+      {{ range ($song.sections | default (slice)) }}
+        <section class="songbook-section">
+          <h2 class="songbook-section__title">{{ .name }}</h2>
+          <div class="songbook-lines">
+            {{ range (.lines | default (slice)) }}
+              <article class="songbook-line">
+                <div class="songbook-line__row">
+                  <div class="songbook-block songbook-block--lyrics">
+                    <div class="songbook-label">Lyrics</div>
+                    <pre class="songbook-pre">{{ .lyrics }}</pre>
+                  </div>
+
+                  <div class="songbook-block songbook-block--indian notation-indian">
+                    <div class="songbook-label">Indian</div>
+                    <pre class="songbook-pre songbook-pre--mono">{{ .indian }}</pre>
+                  </div>
+
+                  {{ with .western }}
+                    <div class="songbook-block songbook-block--western notation-western">
+                      <div class="songbook-label">Western</div>
+                      <pre class="songbook-pre songbook-pre--mono">{{ . }}</pre>
+                    </div>
+                  {{ end }}
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ with .Content }}
+    <!-- Keep for optional notes; usually empty for generated songs -->
+    <section class="prose">
+      {{ . }}
+    </section>
+  {{ end }}
+{{ end }}
+
