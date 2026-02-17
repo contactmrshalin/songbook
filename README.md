@@ -13,25 +13,24 @@ All formats are generated from **songs.json**.
 
 ## 🌐 Website (GitHub Pages)
 
-This repo can also generate a **static website** with **one page per song** (lyrics + Indian notation, and Western when present).
+This repo can generate a **Hugo** website (using `hugo-theme-gallery`) with **one page per song**, PDF-like styling, and an **Indian / Western / Both** toggle.
 
 ### Build locally
 
 ```bash
-python build_website.py
+python site/scripts/generate_content.py
+hugo server --source site --disableFastRender
 ```
 
-Preview it:
-
-```bash
-python -m http.server -d dist 8000
-```
-
-Then open `http://localhost:8000`.
+Then open `http://localhost:1313`.
 
 ### Deploy (gh-pages branch)
 
-A GitHub Actions workflow at `.github/workflows/deploy-gh-pages.yml` builds the site and publishes `dist/` to the `gh-pages` branch on every push to `main`.
+A GitHub Actions workflow at `.github/workflows/deploy-gh-pages.yml` runs on every push to `main`:
+
+- generates Hugo content from `songs.json`
+- builds the site into `site/public/`
+- publishes to the `gh-pages` branch (GitHub Pages)
 
 ---
 

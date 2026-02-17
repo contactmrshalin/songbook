@@ -54,7 +54,13 @@
 }
 
 /* Song page */
-.songbook-bg{
+.songbook-song{
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
+}
+.songbook-song--has-bg::before{
+  content:"";
   position: fixed;
   inset: 0;
   z-index: 0;
@@ -66,16 +72,14 @@
   opacity: .14; /* faint like PDF */
   filter: saturate(1.05) contrast(1.05);
 }
-.songbook-bg::after{
+.songbook-song--has-bg::after{
   content:"";
-  position:absolute;
-  inset:0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.72));
-}
-
-.songbook-song{
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  /* lighter overlay so the photo shows through (glass look) */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.16), rgba(255,255,255,0.42));
 }
 
 /* centered PDF-like page column */
@@ -83,7 +87,22 @@
   margin: 0 auto;
   width: 100%;
   max-width: 860px;
+  position: relative;
+  z-index: 1;
+  padding: 1.25rem 1.5rem 2.25rem;
+  border-radius: 1rem;
+  background: rgba(255,255,255,0.32);
+  border: 1px solid rgba(255,255,255,0.38);
+  backdrop-filter: blur(14px) saturate(175%);
+  -webkit-backdrop-filter: blur(14px) saturate(175%);
+  color: rgba(0,0,0,0.90);
+  box-shadow:
+    0 18px 55px rgba(0,0,0,0.22),
+    inset 0 1px 0 rgba(255,255,255,0.20);
 }
+.songbook-page a{ color: inherit; }
+.songbook-page a:hover{ opacity: .85; }
+.songbook-page code{ color: inherit; }
 
 .songbook-header{
   display:flex;
@@ -127,14 +146,14 @@
   gap:.45rem;
   padding: .55rem .75rem;
   border-radius: .75rem;
-  border: 1px solid color-mix(in oklab, var(--border-color, rgba(255,255,255,0.15)) 85%, transparent);
-  background: rgba(255,255,255,0.04);
-  color: inherit;
+  border: 1px solid rgba(0,0,0,0.14);
+  background: rgba(0,0,0,0.03);
+  color: rgba(0,0,0,0.86);
   text-decoration: none;
   cursor: pointer;
 }
 .songbook-btn--ghost{
-  background: rgba(0,0,0,0.18);
+  background: rgba(0,0,0,0.06);
 }
 .songbook-btn-group{
   display:inline-flex;
@@ -201,7 +220,8 @@ html.notation--both .notation-indian{ display:block; }
 
 /* Active button hint */
 button[data-notation-mode].is-active{
-  border-color: rgba(125, 211, 252, 0.55);
-  color: rgb(125, 211, 252);
+  border-color: rgba(0, 0, 0, 0.35);
+  color: rgba(0,0,0,0.95);
+  background: rgba(0,0,0,0.10);
 }
 
