@@ -1,0 +1,4513 @@
+{
+  "book_title": "Famous Bollywood Songs",
+  "book_meta": {
+    "creator": "Shalin Shah",
+    "publisher": "Self-published",
+    "language": "en",
+    "isbn": "",
+    "cover_image": "images/cover.png",
+    "ornaments": "~ meend, ^ kan, : hold, ' higher octave"
+  },
+  "songs": [
+    {
+      "id": "lag-ja-gale",
+      "title": "Lag Ja Gale",
+      "info": [
+        "Movie: Woh Kaun Thi (1964)",
+        "Singer: Lata Mangeshkar",
+        "Lyrics: Raja Mehdi Ali Khan",
+        "Music: Madan Mohan",
+        "Based on Raag: Pahadi"
+      ],
+      "thumbnail": "images/lag_ja_gale_thumb1.png",
+      "background": "images/lag_ja_gale_bg.jpeg",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Lag | ja | gale | ki | phir | ye",
+              "indian": "Pa.Pa. | Ga | Re Ga… | Ga~Re | ReGa ReGa | Ga"
+            },
+            {
+              "lyrics": "hasin | raat",
+              "indian": "Ga ReGa ReGa | ReGa{MaGaReSa}Sa"
+            },
+            {
+              "lyrics": "ho | na | ho…….o",
+              "indian": "Sa{ReMaGa} | Re | Re…(Ga)Re Ni(Sa)Ni Dha(Ni)Dha Pa"
+            },
+            {
+              "lyrics": "Shayad | phir | is | janam | mein",
+              "indian": "Pa. Dha. | Dha. | Dha.Dha. | Ni~Re NiDhaPaDha | Pa"
+            },
+            {
+              "lyrics": "Mulakat | ho | na | ho",
+              "indian": "Pa.Pa.~Pa' Pa'Dha' | MaPa MaDhaPa | Ma | Ga… Re {SaReGaReSa}"
+            },
+            {
+              "lyrics": "Lag | jaa | gale | se | ae",
+              "indian": "Pa.Pa. | Ga | Re Ga… | Ga | Ga"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Humko | mili | hai | aaj | ye",
+              "indian": "Sa Pa | Ma Pa | Pa | Sa'Dha'Pa'Ma Ma | Ma"
+            },
+            {
+              "lyrics": "ghadiya | naseeb | se",
+              "indian": "Sa Ma Ma | DhaPaMa DhaPaMaGa | Ga"
+            },
+            {
+              "lyrics": "Jee bhar ke dekh leejiye",
+              "indian": "Sa…Pa…Ma..Pa…Ma..Sa'…Dha…Ma..Ma…"
+            },
+            {
+              "lyrics": "Humko qareeb se",
+              "indian": "Sa..Ma..Ma…Dha..Pa..Ma..Pa…Ma..Ga…"
+            },
+            {
+              "lyrics": "Phir aap ke | Naseeb mein",
+              "indian": "Pa | Ga Re Ga | Ga ReGa ReGa Ga | Ga"
+            },
+            {
+              "lyrics": "Yeh baat ho na ho",
+              "indian": "ReGa ReGa | ReGa{MaGaReSa}Sa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "hamein-tum-se-pyar-kitna-movie-kudrat-1981-singer-kishore-kumar-lyrics-majrooh-sultanpuri-music-r-d-burman-raag-bhairavi-based-format-lyrics-indian-sargam-western-letters",
+      "title": "Hamein Tum Se Pyar Kitna",
+      "info": [
+        "Movie: Kudrat (1981)",
+        "Singer: Kishore Kumar",
+        "Music: R. D. Burman"
+      ],
+      "thumbnail": "images/humein_tumse_pyar_kitna_thumb.jpeg",
+      "background": "images/humein_tumse_pyar_kitna_thumb.jpeg",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Hamein tum se pyar kitna",
+              "indian": "Ga..Ma…Pa..Pa..Dha…Dha..Dha..Dha..."
+            },
+            {
+              "lyrics": "Ye hum nahin jaante",
+              "indian": "Ni..NiRe'..NiPa.. PaMa'DhaPa…"
+            },
+            {
+              "lyrics": "Magar jee nahin sakte",
+              "indian": "Ni..Dha…Pa..Ma.Ga..Ma.Pa..Ma..Ga..Re.."
+            },
+            {
+              "lyrics": "",
+              "indian": "Ni..Dha…Pa..Ga.Ga..Ma.Pa..Ga..Ma..Re.."
+            },
+            {
+              "lyrics": "Tumhaare bina",
+              "indian": "Re..Pa…Re…Pa..Ga…Dha(k) Dha"
+            },
+            {
+              "lyrics": "Hamein tum se pyar",
+              "indian": "Ga..Ma…Pa..Pa..Dha…"
+            },
+            {
+              "lyrics": "Suna gham judaai ka",
+              "indian": "Ga'..Sa'..Re'.Ga'.Sa'.Sa'..Re'.Ga'..Ga'..Ga'.."
+            },
+            {
+              "lyrics": "Uthaate hain log",
+              "indian": "Dha..Sa'…Dha…Dha(k)..Dha…"
+            },
+            {
+              "lyrics": "Jaane Zindagi kaise",
+              "indian": "Ga'..Sa'..Re'.Ga'.Sa'.Sa'..Re'.Ga'..Ga'..Ga'.."
+            },
+            {
+              "lyrics": "Bitaate hain log",
+              "indian": "Dha..Sa'…Dha…Dha(k)..Dha…"
+            },
+            {
+              "lyrics": "Din bhi yahaan to lage",
+              "indian": "Dha.Ni..Sa'..Re'.Re'..Re'…Ni..Dha..Pa.."
+            },
+            {
+              "lyrics": "Baras ke samaan",
+              "indian": "Pa..Sa'…Pa…Sa'..Dha…Pa..Ma.Pa.Ga."
+            },
+            {
+              "lyrics": "Hamein tum se pyar kitna",
+              "indian": "Ga..Ma…Pa..Pa..Dha…Dha..Dha..Dha..Dha.."
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "bade-achche-lagte-hain",
+      "title": "Bade Achche Lagte Hain",
+      "info": [],
+      "thumbnail": "images/bade_achhe_lagte_hain_thumb.jpeg",
+      "background": "images/bade_achhe_lagte_hain_thumb.jpeg",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Bade achche lagte hain",
+              "indian": "Re Ga~ Sa Ni (Dha) Ni Sa: Ga"
+            },
+            {
+              "lyrics": "Yeh dharti yeh nadiya",
+              "indian": "Ga Ga Pa~ Ma Re Re Ma Ga"
+            },
+            {
+              "lyrics": "Yeh raina aur tum",
+              "indian": "Sa Sa Ga Re~ Ni Ni Sa:"
+            },
+            {
+              "lyrics": "Hum tum kitne paas hain kitne",
+              "indian": "Sa Sa Sa Sa~ Sa Ga Re Ga Re Sa Ni"
+            },
+            {
+              "lyrics": "Door hain chaand sitare",
+              "indian": "Ni Ni~ Ni Dha Ni Ni Sa:"
+            },
+            {
+              "lyrics": "Sach poochho to",
+              "indian": "Ga~ Ga Ga Ga"
+            },
+            {
+              "lyrics": "Man ko jhoote",
+              "indian": "Ga Pa~ Ma Ga Re"
+            },
+            {
+              "lyrics": "Lagte hain yeh saare",
+              "indian": "Re Re Ma(T)~ Ma(T) Ma(T) Pa:"
+            },
+            {
+              "lyrics": "Magar sachche lagte hain",
+              "indian": "Re Ga~ Sa Ni (Dha) Ni Sa: Ga"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "ajeeb-daastaan-hai-yeh",
+      "title": "Ajeeb Daastaan Hai Yeh",
+      "info": [
+        "Movie: Dil Apna Aur Preet Parai (1960)",
+        "Singer: Lata Mangeshkar",
+        "Lyricist: Shailendra",
+        "Music Director: Shankar–Jaikishan",
+        "Raag: Yaman (light / film usage)"
+      ],
+      "thumbnail": "images/ajeeb_dastan.png",
+      "background": "images/ajeeb_dastan.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Ajeeb daastaan hai yeh",
+              "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+            },
+            {
+              "lyrics": "Kahan shuru kahan khatam",
+              "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+            },
+            {
+              "lyrics": "Yeh manzilen hain kaunsi",
+              "indian": "Dha Pa Dha Pa Ma Ga Re Ga Re"
+            },
+            {
+              "lyrics": "Na woh samajh sake na hum",
+              "indian": "Sa': Sa' Re' Sa' Dha Pa Re Ma Sa:"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Yeh roshni ke saath kyun",
+              "indian": "Ma Pa Dha Ni(k)~Dha Ni(k) Pa Ni(k):"
+            },
+            {
+              "lyrics": "Dhuaan utha chiraag se",
+              "indian": "Re'~Sa' Re' Sa' Ni(k): Ni(k) Re' Sa'"
+            },
+            {
+              "lyrics": "Yeh khwaab dekhti hoon main",
+              "indian": "Ga' Ga' Re' Ga' Re' Ga' Sa' Ni(k)"
+            },
+            {
+              "lyrics": "Ke jaag padi hoon khwaab se",
+              "indian": "Sa' Sa' Re' Sa' Dha Pa Re Ma Sa:"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA (REPEAT)",
+          "lines": [
+            {
+              "lyrics": "Ajeeb daastaan hai yeh",
+              "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+            },
+            {
+              "lyrics": "Kahan shuru kahan khatam",
+              "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "ajeeb-daastaan-hai-yeh_ankita_nath",
+      "title": "Ajeeb Daastaan Hai Yeh",
+      "info": [
+        "Movie: Dil Apna Aur Preet Parai (1960)",
+        "Singer: Lata Mangeshkar",
+        "Lyricist: Shailendra",
+        "Music Director: Shankar–Jaikishan",
+        "Raag: Yaman (light / film usage)"
+      ],
+      "thumbnail": "images/ajeeb_dastan.png",
+      "background": "images/ajeeb_dastan.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Ajeeb daastaan hai yeh",
+              "indian": "Dha PaDha PaGa ReSa Ga"
+            },
+            {
+              "lyrics": "Kahan shuru kahan khatam",
+              "indian": "Dha PaDha PaGa ReSa Re"
+            },
+            {
+              "lyrics": "Yeh manzilen hain kaunsi",
+              "indian": "Ga ReGa ReSa NiDha Ni Dha"
+            },
+            {
+              "lyrics": "Na woh samajh sake na hum",
+              "indian": "Pa PaDha PaGa ReSaDha Sa Pa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Yeh roshni ke saath kyun",
+              "indian": "Sa ReGa MaGa MaRe Ma"
+            },
+            {
+              "lyrics": "Dhuaan utha chiraag se",
+              "indian": "Dha PaDha PaMa MaDha Pa"
+            },
+            {
+              "lyrics": "Yeh roshni ke saath kyun",
+              "indian": "Sa ReGa MaGa MaRe Ma"
+            },
+            {
+              "lyrics": "Dhuaan utha chiraag se",
+              "indian": "Dha PaDha PaMa MaDha Pa"
+            },
+            {
+              "lyrics": "Yeh khwaab dekhti hoon main",
+              "indian": "Ni NiDha NiDha NiDha Pa Ma"
+            },
+            {
+              "lyrics": "Ke jaag padi hoon khwaab se",
+              "indian": "Pa PaDha PaGa ReSa Sa Pa"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA (REPEAT)",
+          "lines": [
+            {
+              "lyrics": "Ajeeb daastaan hai yeh",
+              "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+            },
+            {
+              "lyrics": "Kahan shuru kahan khatam",
+              "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "kora_kagaz_tha_yeh_man_mera",
+      "title": "Kora Kagaz Tha Yeh Man Mera",
+      "thumbnail": "images/kora_kagaz_tha_yeh_man_mera.png",
+      "background": "images/kora_kagaz_tha_yeh_man_mera.png",
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "टूट ना जाये सपने मैं डरता हूँ",
+              "indian": "Ga Re Ga Re Sa — Ni Dha Ni Dha Pa"
+            },
+            {
+              "lyrics": "निश दिन सपनो में देखा करता हूँ",
+              "indian": "Pa Dha Sa Sa Re Ga Sa Re"
+            },
+            {
+              "lyrics": "टूट ना जाये सपने मैं डरता हूँ",
+              "indian": "Ga Re Ga Re Sa — Ni Dha Ni Dha Pa"
+            },
+            {
+              "lyrics": "निश दिन सपनो में देखा करता हूँ",
+              "indian": "Pa Dha Sa Sa Re Sa — Sa"
+            }
+          ]
+        },
+        {
+          "name": "Bridge",
+          "lines": [
+            {
+              "lyrics": "Pa Dha Ga Re",
+              "indian": "Pa Dha Ga Re"
+            },
+            {
+              "lyrics": "Pa Dha Re Sa",
+              "indian": "Pa Dha Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "Antara 1",
+          "lines": [
+            {
+              "lyrics": "नैना कजरारे ",
+              "indian": "Ga Ga Ga Ga Ga Ma Ga Re"
+            },
+            {
+              "lyrics": "मतवारे",
+              "indian": "Re Re Re Ga Re Sa"
+            },
+            {
+              "lyrics": "ये इशारे",
+              "indian": "Sa Sa Re — Sa Dha — Ni Dha Pa"
+            }
+          ]
+        },
+        {
+          "name": "Antara Flow",
+          "lines": [
+            {
+              "lyrics": "कोरा कागज़ था ये मन मेरा मेरा मेरा",
+              "indian": "Pa Dha Sa — ReGa ReGa — Re Sa Dha Pa Dha Re"
+            },
+            {
+              "lyrics": "लिख लिया नाम इसपे तेरा तेरा तेरा",
+              "indian": "Pa Dha Sa Sa — ReGa ReGa — Re Sa Ni Dha Ni Sa"
+            },
+            {
+              "lyrics": "कोरा कागज़ था ये मन मेरा",
+              "indian": "Pa Dha Sa — Re Ga Re Ga — Re Sa Dha Pa Dha Re"
+            },
+            {
+              "lyrics": "लिख लिया नाम इसपे तेरा",
+              "indian": "Pa Dha Sa Sa — Re Ga Re Ga — Re Sa Ni Dha Ni Sa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "piyu-bole",
+      "title": "Piyu Bole (Piya Bole)",
+      "info": [
+        "Movie: Parineeta (2005).",
+        "Singers: Sonu Nigam and Shreya Ghoshal.",
+        "Music Director: Shantanu Moitra.",
+        "Lyricist: Swanand Kirkire."
+      ],
+      "thumbnail": "images/piyu_bole_thumb.png",
+      "background": "images/piyu_bole_bg.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Piyu bole piya bole",
+              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+            },
+            {
+              "lyrics": "Hmm hmm hmm hmm jaanu na",
+              "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+            },
+            {
+              "lyrics": "Jiya dole hole hole",
+              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+            },
+            {
+              "lyrics": "Kyon yeh dole jaanu na",
+              "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+            },
+            {
+              "lyrics": "Dil ki jo baatein hain",
+              "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+            },
+            {
+              "lyrics": "Baatein jo dil ki hain",
+              "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+            },
+            {
+              "lyrics": "Dil hi mein rakhna piya",
+              "indian": "Sa..Pa..Ma..Ga.Re.Ga..Ma..Ga…Re.Sa.."
+            },
+            {
+              "lyrics": "Lab to na kholoon main",
+              "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+            },
+            {
+              "lyrics": "Kholoon na lab to par",
+              "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+            },
+            {
+              "lyrics": "Aakhon se sab keh diya",
+              "indian": "Sa..Pa..Ma..Ga.Re.Ga..Ma..Ga…Re.Sa.."
+            },
+            {
+              "lyrics": "Piyu bole piya bole",
+              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+            },
+            {
+              "lyrics": "Kya yeh bole jaanu na",
+              "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+            },
+            {
+              "lyrics": "Jiya dole hole hole",
+              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+            },
+            {
+              "lyrics": "Kyon yeh dole jaanu na",
+              "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "hum-honge-kamyaab",
+      "title": "Hum Honge Kamyaab",
+      "info": [
+        "Type: Patriotic / motivational song",
+        "Language: Hindi"
+      ],
+      "thumbnail": "images/hum_honge_kamyab_thumb.png",
+      "background": "images/hum_honge_kamyab_bg.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Hum | honge | kamyaab",
+              "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga"
+            },
+            {
+              "lyrics": "Hum | honge | kamyaab",
+              "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga"
+            },
+            {
+              "lyrics": "Hum | honge | kamyaab",
+              "indian": "Ga Ma | Pa Pa | Dha Ni Sa:"
+            },
+            {
+              "lyrics": "Ek | din",
+              "indian": "Sa'~Re' Sa' | Ni: Dha~Ni Dha Pa"
+            },
+            {
+              "lyrics": "Ho ho | man | me | hai | vishwas",
+              "indian": "Dha Ni | Sa': | Sa': | Ni | Dha Pa"
+            },
+            {
+              "lyrics": "Pura | hai | vishwas",
+              "indian": "Dha Dha | Pa: | Ma Ga"
+            },
+            {
+              "lyrics": "Hum | honge | kamyaab | ek din",
+              "indian": "Ga Ma | Pa Pa | Sa Ma Ga | Re Re Sa:"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "saare-jahan-se-achchha",
+      "title": "Saare Jahan Se Achchha",
+      "info": [
+        "Poet: Muhammad Iqbal",
+        "Released/Written: 16 Aug 1904"
+      ],
+      "thumbnail": "images/sare_jahan_se_achha.png",
+      "background": "images/sare_jahan_se_achha.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Saare | jahaan | se | achchha",
+              "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+            },
+            {
+              "lyrics": "hindostaan | hamaara | hamara",
+              "indian": "Pa.Dha. Sa Re Ga(k) | Ma Ga(k) Ga(k) | Re Re~(Ma)Ga(k) Re Sa"
+            },
+            {
+              "lyrics": "Saare | jahaan | se | achchha",
+              "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+            },
+            {
+              "lyrics": "Ham | bulabulen | hain | isaki,",
+              "indian": "Ga(k) Ma | Pa PaPa | Ga(k) | Ma Dha Pa"
+            },
+            {
+              "lyrics": "ye | gul sitaan | hamaara | hamara",
+              "indian": "Ga(k)Ma | Pa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+            },
+            {
+              "lyrics": "Saare | jahaan | se | achchha",
+              "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 1",
+          "lines": [
+            {
+              "lyrics": "Parabat | wo | sabase | uncha,",
+              "indian": "Ga(k) Ga(k)Ga(k) | Ga(k) | Ga(k)Ma Ga(k)~Re | Re~Sa Sa"
+            },
+            {
+              "lyrics": "hamasaaya | asamaan | ka",
+              "indian": "Pa.Dha. SaRe | Ga(k) Ma Ga(k)| Ga(k)"
+            },
+            {
+              "lyrics": "Wo | sntari | hamaara,",
+              "indian": "Ga(k) Ma | Pa PaPa | Ga(k) | Ma Dha Pa"
+            },
+            {
+              "lyrics": "wo | paasabaan | hamaara | hamara",
+              "indian": "Ga(k)Ma | Pa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+            },
+            {
+              "lyrics": "Saare | jahaan | se | achchha",
+              "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 2",
+          "lines": [
+            {
+              "lyrics": "Godi | men | khelati | hain",
+              "indian": "SaPa Pa | Pa | PaDha Ga(k)Pa | Ma~Ga(k) (Re)Ga(k)"
+            },
+            {
+              "lyrics": "isaki | hazaaro | nadiyaan",
+              "indian": "SaPa Pa | Pa Pa Dha | Ga(k)Pa Ma~Ga(k) (Re)Ga(k)"
+            },
+            {
+              "lyrics": "Gulashan | hai | jinake | dam | se",
+              "indian": "Ma MaMa | Ma | MaMa Ga(k)~Ma | Ga(k)~Re | Sa~Dha. Sa~Re"
+            },
+            {
+              "lyrics": "Gulashan | hai | jinake | dam | se",
+              "indian": "Ma MaMa | Ma | MaMa Ga(k)~Ma | Ga(k)~Re | Sa"
+            },
+            {
+              "lyrics": "rashq-e-jina | hamaara | hamara",
+              "indian": "Ga(k)Ma MaDhaPa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+            },
+            {
+              "lyrics": "Saare | jahaan | se | achchha",
+              "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 3",
+          "lines": [
+            {
+              "lyrics": "Mazahab | nahin | sikhaata",
+              "indian": "Ni.Ni.Ni. | Ni.Ni. | Ni.Ni.~Sa Sa"
+            },
+            {
+              "lyrics": "apas | men | bair | rakhana",
+              "indian": "SaPa Pa | Pa | Pa Dha | Ga(k)Pa Ma~Ga(k) (Re)Ga(k)"
+            },
+            {
+              "lyrics": "Hindi | hain | ham (x3)",
+              "indian": "Sa'Sa' | Sa' | Sa'"
+            },
+            {
+              "lyrics": "watan | hai,",
+              "indian": "Pa Ga(k)Pa | Ma~Ga(k) (Re)Ga(k)"
+            },
+            {
+              "lyrics": "hindostaan | hamaara | hamara",
+              "indian": "Ga(k)Ma DhaPa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+            },
+            {
+              "lyrics": "Saare | jahaan | se | achchha …",
+              "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "yeh-raatein-yeh-mausam",
+      "title": "Yeh Raatein Yeh Mausam",
+      "export": false,
+      "info": [
+        "Movie: Dilli Ka Thug",
+        "Singers: Asha Bhosle & Kishor Kumar",
+        "Piano Notes: www.pianobajao.com",
+        "Notes By: Ankush Harmukh",
+        "Scale (Sa=C): C Flute"
+      ],
+      "thumbnail": "images/yeh_raatein_yeh_mausam_thumb.png",
+      "background": "images/yeh_raatein_yeh_mausam_bg.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            },
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 1",
+          "lines": [
+            {
+              "lyrics": "Kaha do dilon ne",
+              "indian": "Ni(k) Sa'  Sa'  Ni(k) Sa' Sa' Re(k)'"
+            },
+            {
+              "lyrics": "Ki milkar Kabhi hum",
+              "indian": "Re(k)' Sa' Ni(k)  Dha(k) Ni(k) Sa'"
+            },
+            {
+              "lyrics": "Na honge juda",
+              "indian": "Sa'  Dha(k) Ni(k)  Dha(k) Pa"
+            },
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            }
+          ]
+        },
+        {
+          "name": "MUSIC",
+          "lines": [
+            {
+              "lyrics": "Music",
+              "indian": "Sa' Re(k)'  Sa' Dha(k)'"
+            },
+            {
+              "lyrics": "Music",
+              "indian": "Ni(k)' Dha(k)' Ni(k)' Dha(k)'  Pa' Ma' Dha(k)'"
+            },
+            {
+              "lyrics": "Music",
+              "indian": "Sa' Re(k)'  Sa' Pa'"
+            },
+            {
+              "lyrics": "Music",
+              "indian": "Pa' Ma' Pa' Ma' Ga' Sa' Ma'"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 2",
+          "lines": [
+            {
+              "lyrics": "Yeh kya baat hai",
+              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Aaj ki chandni mein",
+              "indian": "Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Yeh kya baat hai",
+              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Aaj ki chandni mein",
+              "indian": "Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Ke hum kho gaye",
+              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Pyar ki ragini mein",
+              "indian": "Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Yeh baahon mein baahen",
+              "indian": "Sa'  Ga(k)' Ga(k)' Ga(k)'  Ga(k)' Ga(k)' Re' Ga(k)'"
+            },
+            {
+              "lyrics": "Yeh behki nigahen",
+              "indian": "Sa'  Ga(k)' Ga(k)'  Ga(k)' Ga(k)' Re' Ga(k)'"
+            },
+            {
+              "lyrics": "Lo aane laga zindagi ka maza",
+              "indian": "Sa' Ga(k)' Re(k)'  Sa' Ni(k)  Dha(k) Pa Ma  Pa Sa' Dha(k)"
+            },
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 3",
+          "lines": [
+            {
+              "lyrics": "Sitaron ki mehfil",
+              "indian": "Sa'  Sa' Ma' Ma'  Ga(k)' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "ne karke ishara",
+              "indian": "Ni(k)  Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Kaha ab to saara",
+              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+            },
+            {
+              "lyrics": "jahan hai tumhara",
+              "indian": "Ni(k) Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Mohabbat jawan ho,",
+              "indian": "Sa' Sa' Ga(k)' Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+            },
+            {
+              "lyrics": "khula aasman ho",
+              "indian": "Sa' Ga(k)'  Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+            },
+            {
+              "lyrics": "Kare koyi dil aarzoo aur kya",
+              "indian": "Sa' Ga(k)' Re(k)'  Sa' Ni(k)  Dha(k) Pa Ma  Pa Ni(k) Dha(k)"
+            },
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 4",
+          "lines": [
+            {
+              "lyrics": "Kasam hai tumhe tum",
+              "indian": "Sa' Sa' Ma' Ma'  Ga(k)' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "agar mujhse roothe",
+              "indian": "Ni(k) Ni(k) Sa'  Dha' Ni(k) Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Rahe saans jab tak,",
+              "indian": "Sa' Sa' Ma' Ma'  Ga(k)' Re(k)' Sa'"
+            },
+            {
+              "lyrics": "yeh bandhan na toote",
+              "indian": "Ni(k) Ni(k) Sa' Dha'  Ni(k) Re(k)' Sa'"
+            },
+            {
+              "lyrics": "Tumhein dil diya hai,",
+              "indian": "Sa' Sa' Ga(k)' Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+            },
+            {
+              "lyrics": "yeh vaada kiya hai",
+              "indian": "Sa' Ga(k)' Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+            },
+            {
+              "lyrics": "Sanam main tumhaari rahoongi sada",
+              "indian": "Sa' Ga(k)' Re(k)'  Sa' Ni(k)  Dha(k) Pa Ma  Pa Ni(k) Dha(k)"
+            },
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            }
+          ]
+        },
+        {
+          "name": "ENDING",
+          "lines": [
+            {
+              "lyrics": "Kaha do dilon ne",
+              "indian": "Ni(k) Sa'  Sa'  Ni(k) Sa' Sa' Re(k)'"
+            },
+            {
+              "lyrics": "Ki milkar Kabhi hum",
+              "indian": "Re(k)' Sa' Ni(k)  Dha(k) Ni(k) Sa'"
+            },
+            {
+              "lyrics": "Na honge juda",
+              "indian": "Sa'  Dha(k) Ni(k)  Dha(k) Pa"
+            },
+            {
+              "lyrics": "Yeh raaten yeh mausam",
+              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+            },
+            {
+              "lyrics": "Nadi ka kinara",
+              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+            },
+            {
+              "lyrics": "Yeh chanchal hawa",
+              "indian": "Sa Pa Pa  Ma Ma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ek-pyar-ka-nagma-hai",
+      "title": "Ek Pyar Ka Nagma Hai",
+      "info": [
+        "Movie: Shor (1972)",
+        "Singers: Lata Mangeshkar, Mukesh",
+        "Lyricist: Santosh Anand",
+        "Music Director: Laxmikant Pyarelal",
+        "Raag: Yaman Kalyan (based)"
+      ],
+      "thumbnail": "images/ek_pyar_ka_nagma_hai.png",
+      "background": "images/ek_pyar_ka_nagma_hai_bg.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Ek pyaar ka nagmaa haii",
+              "indian": "Sa..Re..Ga…Ma..Pa..Ma..Ma..Ga..Ga.."
+            },
+            {
+              "lyrics": "Mauzon ki rawani haii",
+              "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+            },
+            {
+              "lyrics": "Zindagi aur kuch bhii nahii",
+              "indian": "Ga..Ma..Pa..Ni…Dha..Pa..Ma..Pa..Dha.."
+            },
+            {
+              "lyrics": "Terii meri kahani haii",
+              "indian": "Pa..Ma..Re…Pa…Pa..Ma…Dha.Pa.Ma..Ga.."
+            },
+            {
+              "lyrics": "(Repeat) Ek pyaar ka nagmaa haii",
+              "indian": "Sa..Re..Ga…Ma..Pa..Ma..Ma..Ga..Ga.."
+            },
+            {
+              "lyrics": "(Repeat) Mauzon ki rawani haii",
+              "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+            }
+          ]
+        },
+        {
+          "name": "MUSIC",
+          "lines": [
+            {
+              "lyrics": "Laaa laa la la la laa",
+              "indian": "Sa..Re..Dha(k)..Sa..Ga..Ma…"
+            },
+            {
+              "lyrics": "Laaa laa la la la laa",
+              "indian": "Ga..Ga..Ga..Re..Re..Ga…"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 1",
+          "lines": [
+            {
+              "lyrics": "Kuch pakar khonaa haii",
+              "indian": "Pa..Pa..Sa'…Sa'..Sa'..Sa'…Re'..Sa'..Ni.."
+            },
+            {
+              "lyrics": "Kuch khokar paana hai",
+              "indian": "Pa..Pa..Sa'…Sa'..Sa'..Sa'…Ga'.Re'.Sa'..Ni.."
+            },
+            {
+              "lyrics": "Jeewan ka matlab toh",
+              "indian": "Pa…Ni(k)…Ni(k)…Ni(k)..Sa'..Ni(k)..Pa..Dha…"
+            },
+            {
+              "lyrics": "Aana or jaana hai",
+              "indian": "Dha..Sa'..Dha..Sa'..Ni..Dha..Pa…Dha..Pa..Pa..Ga.."
+            },
+            {
+              "lyrics": "Doo pal kee jeewan see",
+              "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+            },
+            {
+              "lyrics": "Ek umra churanii hai",
+              "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": 7,
+      "title": "Yeh Haseen Waadiyan (Version 2 - Sine Style)",
+      "info": [
+        {
+          "label": "movie",
+          "value": "Roja"
+        },
+        {
+          "label": "composer",
+          "value": "A R Rahman"
+        },
+        {
+          "label": "singers",
+          "value": "S. P. Balasubrahmanyam, K. S. Chithra"
+        },
+        {
+          "label": "lyrics",
+          "value": "P. K. Mishra"
+        },
+        {
+          "label": "instrument",
+          "value": "Flute (Bansuri)"
+        },
+        {
+          "label": "notes_system",
+          "value": "S R G Ma' Pa Dha Ni (^ = sustain, ' = upper octave)"
+        },
+        {
+          "label": "source",
+          "value": "User provided Sine notation version"
+        }
+      ],
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Ye haseen waadiyan",
+              "indian": "PaDh Sa niSanisa Dh"
+            },
+            {
+              "lyrics": "Ye khula aasmaan",
+              "indian": "PaDh Re(Sa) SaniSa^^^Dh"
+            },
+            {
+              "lyrics": "Aa gaye hum kahan ae mere saajna",
+              "indian": "PaDh Sa niSqnisa Sa^Dh Padha^^ Re(Sa) SaniSa^^ Dh"
+            },
+            {
+              "lyrics": "In baharon mein dil ki kali khil gayi",
+              "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+            },
+            {
+              "lyrics": "Mujhko tum jo mile har khushi mil gayi",
+              "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+            },
+            {
+              "lyrics": "Tere hothon pe hain husn ki bijliyan",
+              "indian": "PaDh Sa niSanisa Dh | PaDh Re(Sa) SaniSa^^^Dh"
+            },
+            {
+              "lyrics": "Tere daaman ki khushboo se mehke chaman",
+              "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+            }
+          ]
+        },
+        {
+          "name": "Cross",
+          "lines": [
+            {
+              "lyrics": "Meri jaane jaan main teri chandni",
+              "indian": "GaMa'Pa.....Ma'GaMa'^^^Ni...NiNiGa^^ReGa^^^Re"
+            },
+            {
+              "lyrics": "Ched lo tum aaj koi pyaar ki raagini",
+              "indian": "GaMa'PaDhPa.......Ma'Ma'GaMa'Ni ...NiNiGaPaMa'Dh^^^^Pa"
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Ye bandhan hai pyaar ka",
+              "indian": "Re....SamaRe ReSa SaniSaniSa Dh"
+            },
+            {
+              "lyrics": "Dekho toote na sajni",
+              "indian": "PaDhRe SamaRe SaniSa^^^Dh"
+            },
+            {
+              "lyrics": "Tere aanchal ki chhaon ke tale",
+              "indian": "ReRe PanininiSa SaDhDh"
+            },
+            {
+              "lyrics": "Meri manzil mujhe mil gayi",
+              "indian": "ReReninininini SaSa^^^Dh"
+            },
+            {
+              "lyrics": "Teri palkon ki chhaon ke tale",
+              "indian": "ReRe PanininiSa SaDdhDh"
+            },
+            {
+              "lyrics": "Mohabbat mujhe mil gayi",
+              "indian": "ReRe DhPamaReSaniDh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chura-liya-hai-tumne-jo-dil-ko",
+      "title": "Chura Liya Hai Tumne Jo Dil Ko",
+      "info": [
+        "Movie: Yaadon Ki Baaraat (1973)",
+        "Singers: Asha Bhosle, Mohammed Rafi",
+        "Lyricist: Majrooh Sultanpuri",
+        "Music Director: R. D. Burman"
+      ],
+      "thumbnail": "images/chura-liya-hai-tumne-jo-dil-ko.png",
+      "background": "images/chura-liya-hai-tumne-jo-dil-ko.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Chura liya hai tumne jo dil ko",
+              "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re"
+            },
+            {
+              "lyrics": "Nazar nahin churaana sanam",
+              "indian": "Dha Dha Sa Ni Dha Dha - Ni - Dha:"
+            },
+            {
+              "lyrics": "(Repeat line)",
+              "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA EXTENSION",
+          "lines": [
+            {
+              "lyrics": "Badal ke meri tum zindagani",
+              "indian": "Dha Dha Sa Ni Dha - Dha Ni~Dha -"
+            },
+            {
+              "lyrics": "Kahin badal na jaana sanam",
+              "indian": "Re~Re Re Re Ni~Dha | Re~Re Re Re Ni"
+            }
+          ]
+        },
+        {
+          "name": "INTERLUDE (as written)",
+          "lines": [
+            {
+              "lyrics": "Instrumental phrase",
+              "indian": "Re Re Re Re Ni / Re Re Re Re Ni"
+            },
+            {
+              "lyrics": "High filler",
+              "indian": "Re Re Re Dha Sa Ni | Dha Sa Ni Dha Dha"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Gham tera ho gham mera",
+              "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Ni Sa Sa Sa"
+            },
+            {
+              "lyrics": "Dil mein jo bas jaaye",
+              "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Dha Dha Dha"
+            },
+            {
+              "lyrics": "Hum rahe ho",
+              "indian": "Re Re Re Ni~Dha / Re Re Re Ni"
+            },
+            {
+              "lyrics": "Aaj tum",
+              "indian": "Re Re Re Re Dha Sa Ni Dha Sa Ni Dha Dha"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "yeh-shaam-mastani",
+      "title": "Yeh Shaam Mastani",
+      "info": [
+        "Movie: Kati Patang (1971)",
+        "Singer: Kishore Kumar",
+        "Lyricist: Anand Bakshi",
+        "Music Director: R. D. Burman",
+        "Raag: Yaman (light / film usage)"
+      ],
+      "thumbnail": "images/yeh_shaam_mastani_thumb.png",
+      "background": "images/yeh_shaam_mastani_thumb.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Yeh shaam mastani",
+              "indian": "Pa - Sa - Re Sa Dha Pa"
+            },
+            {
+              "lyrics": "Madahosh kiye jaaye",
+              "indian": "Pa Pa Sa: SaRe SaRe Ga"
+            },
+            {
+              "lyrics": "Mujhe dor koi kheenche",
+              "indian": "Ga Ga Ga Pa: Pa Dha Pa Ma Ga Ma"
+            },
+            {
+              "lyrics": "Teri ore liye jaaye",
+              "indian": "Ma Ga | Ga Ma Ga Re | Pa Pa | Ga Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "REPEAT PHRASES (as board bracket)",
+          "lines": [
+            {
+              "lyrics": "[Phrase 1]",
+              "indian": "Pa Ga Re: Ga Sa"
+            },
+            {
+              "lyrics": "[Phrase 2] x2",
+              "indian": "Pa Ga Re Ga Sa Pa Dha Pa (x2)"
+            },
+            {
+              "lyrics": "[Phrase 3]",
+              "indian": "Pa Re Sa Re Ga Sa: Ga Ma Pa:"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA (as board)",
+          "lines": [
+            {
+              "lyrics": "Door rehti hai tu",
+              "indian": "Dha: Ma Pa Dha Pa"
+            },
+            {
+              "lyrics": "Mere paas aati nahin",
+              "indian": "Sa Sa Dha: Ma Pa Dha Pa"
+            },
+            {
+              "lyrics": "(Repeat line) Honthon pe tere kabhi pyaas…",
+              "indian": "Sa Sa (Repeat line)"
+            },
+            {
+              "lyrics": "Aisa lage",
+              "indian": "Ni Dha Pa Ma"
+            },
+            {
+              "lyrics": "Jaise ke tu",
+              "indian": "Dha Pa Ma Ga Re"
+            },
+            {
+              "lyrics": "Hans ke zehar koi piye jaaye",
+              "indian": "Re Re Ma(T) Ma(T) Pa Ma Ga Pa Sa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "ek-ladki-ko-dekha-to",
+      "title": "Ek Ladki Ko Dekha To Aisa Laga",
+      "info": [
+        "Movie: 1942 - A Love Story (1994)",
+        "Singer: Kumar Sanu",
+        "Lyricist: Javed Akhtar",
+        "Music Director: R. D. Burman",
+        "Raag: Yaman / Desh (light)"
+      ],
+      "thumbnail": "images/ek-ladki-ko-dekha-to.png",
+      "background": "images/1942_a_love_story_bg.png",
+      "sections": [
+        {
+          "name": "MUSIC (Intro)",
+          "lines": [
+            {
+              "lyrics": "Instrumental",
+              "indian": "Sa Re Ga Re Sa Pa. | Sa Re Sa Re Pa. (x2)"
+            },
+            {
+              "lyrics": "Resolution",
+              "indian": "Sa Sa Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Ek ladki ko, dekha to, aisa laga",
+              "indian": "Sa Sa Ni Sa Re, Ni Sa Re, Ni Re Ni Sa"
+            },
+            {
+              "lyrics": "Jaise khilta gulaab",
+              "indian": "Sa Sa Ni. Sa Ni Pa Ni~Dha"
+            },
+            {
+              "lyrics": "Jaise shayar ka khwaab",
+              "indian": "Ni Sa Ni. Sa Ni Pa Ni~Dha"
+            },
+            {
+              "lyrics": "Jaise ujli kiran",
+              "indian": "Ni Sa DhaDhaGa Dha Pa"
+            },
+            {
+              "lyrics": "Jaise van mein hiran",
+              "indian": "Pa Pa Ga Ma DhaSaDha Pa Pa"
+            },
+            {
+              "lyrics": "Jaise chandni raat",
+              "indian": "Pa Pa GaMaDha Pa Pa"
+            },
+            {
+              "lyrics": "Jaise narmi ki baat",
+              "indian": "Dha Dha GaGaDha Pa Pa Pa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Jaise mandir mein ho ek",
+              "indian": "Pa Pa Pa.NiSaGa Re Pa. Ni SaGaRe~Sa"
+            },
+            {
+              "lyrics": "jalta diya, ho....",
+              "indian": "Pa. Ni Sa Ga Re Sa: Sa: Sa: Sa:"
+            }
+          ]
+        },
+        {
+          "name": "ENDING PHRASE",
+          "lines": [
+            {
+              "lyrics": "Music1",
+              "indian": "Pa Ni Re Sa' Sa' Sa' Sa'"
+            },
+            {
+              "lyrics": "Music1-Repeat",
+              "indian": "Pa Ni Re Sa' Sa' Sa' Sa'"
+            },
+            {
+              "lyrics": "Music2",
+              "indian": "Pa Sa Pa Dha"
+            },
+            {
+              "lyrics": "Music3",
+              "indian": "Ga Ma Dha Pa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "ud_ja_kaale_kawan",
+      "title": "Ud Ja Kaale Kawan",
+      "movie": "Gadar – Ek Prem Katha",
+      "year": "2001",
+      "thumbnail": "images/udd_ja_kaale_kaawan.png",
+      "background": "images/udd_ja_kaale_kaawan.png",
+      "info": [
+        "Singer: Udit Narayan, Alka Yagnik",
+        "Composer: Uttam Singh",
+        "Lyricist: Anand Bakshi"
+      ],
+      "sections": [
+        {
+          "name": "Mukhda – Line 1",
+          "lines": [
+            {
+              "lyrics": "Ud ja kale kawan",
+              "indian": "Ga Ga Ma Pa Dha Pa Ma~Ga Re Sa. Re Ga Ma Pa Dha Pa Dha—"
+            },
+            {
+              "lyrics": "Tere muh vich khand pawan",
+              "indian": "Ga Ga Ma Pa Dha Pa Ma~Ga Re Sa. (Re)Ga Ma Pa Dha—"
+            }
+          ]
+        },
+        {
+          "name": "Antara 1 – Bagho Mein Tere",
+          "lines": [
+            {
+              "lyrics": "Bagho mein tere jhoole pad gaye",
+              "indian": "Ga Ga Ga Ga Pa Pa Dha Ni Sa' Re' Ga' Re' Sa' Re' Ga' Ma' Dha' Pa' Ma' Ga'"
+            },
+            {
+              "lyrics": "Transition (Khatka)",
+              "indian": "Ma' (Dha')Pa' Ga' Re'"
+            },
+            {
+              "lyrics": "Continuation",
+              "indian": "Ma' Dha' Ga' Re' Ga' Re' Sa' Re' Ga' Ma' Pa' Dha' Pa' Ga'"
+            },
+            {
+              "lyrics": "Pakkiyan mithiyan ambiyan",
+              "indian": "Sa' Re' Sa' Sa' Dha' Sa' Dha' Sa' Ni' Dha' Sa' Dha' Re' Sa' Dha'—"
+            }
+          ]
+        },
+        {
+          "name": "Yeh Chhoti Si Zindagi",
+          "lines": [
+            {
+              "lyrics": "Yeh chhoti si zindagi",
+              "indian": "Dha' Sa' Dha' Sa' Dha' Sa'—"
+            }
+          ]
+        },
+        {
+          "name": "Mere Sab Sapne",
+          "lines": [
+            {
+              "lyrics": "Mere sab sapne",
+              "indian": "Re' Sa' Ni Dha Dha Pa Dha Ni Re' Sa' Dha Pa—"
+            },
+            {
+              "lyrics": "Raatan lambiyan lambiyan",
+              "indian": "Ma' Pa' Dha' Pa' Ma' Pa' Ma' Pa' Dha' Pa' Ma' Pa'—"
+            }
+          ]
+        },
+        {
+          "name": "Hum Toh Thehre Pardesi",
+          "lines": [
+            {
+              "lyrics": "Hum toh thehre pardesi",
+              "indian": "Ma' Ga' Ma' Dha' Re' Ga' Sa' Re' Ga' Ma' Pa' Dha' Pa' Sa'' Re'' Pa' Pa'—"
+            },
+            {
+              "lyrics": "Teri meri ek jindagi",
+              "indian": "Dha' Pa' Ma' Dha' Re' Ga' Re' Sa' Re' Ga' Ma' Pa' Ma' Ga' Re' Ga' Re' Sa'~Re' Ga' Ma' Pa' Ma' Ga' Re' Ga' Re' Sa'—"
+            }
+          ]
+        },
+        {
+          "name": "Antara 2",
+          "lines": [
+            {
+              "lyrics": "Kitni haseen hai teri meri prem kahani",
+              "indian": "Ga' Pa' Dha' Dha' Ni' Dha' Pa' Ma' Pa' Dha' Pa' Dha'—"
+            },
+            {
+              "lyrics": "Hai pani sada",
+              "indian": "Ga' Ga' Ga' Ga' Ga' Re' Ga' Ma' Ga' Re' Ga' Ma' Ga' Ma' Pa'~"
+            },
+            {
+              "lyrics": "Nahi re dil se dil gar",
+              "indian": "Sa' Re' Sa' Ni Dha Pa Dha Ma Pa Dha—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajeeb_daastan_hai_yeh",
+      "title": "Ajeeb Daastan Hai Yeh",
+      "thumbnail": "images/ajeeb_dastan.png",
+      "background": "images/ajeeb_dastan.png",
+      "info": [
+        "Movie: Dil Apna Aur Preet Parai",
+        "Year: 1960",
+        "Singer: Lata Mangeshkar",
+        "Composer: Shankar–Jaikishan",
+        "Lyricist: Shailendra"
+      ],
+      "sections": [
+        {
+          "name": "Part 1",
+          "lines": [
+            {
+              "lyrics": "Ajeeb daastan hai yeh",
+              "indian": "Dha Pa Dha Pa Ga Re Sa Ga"
+            }
+          ]
+        },
+        {
+          "name": "Part 1 (Variation)",
+          "lines": [
+            {
+              "lyrics": "Kahaan shuru kahaan khatam",
+              "indian": "Dha Pa Dha Pa Ga Re Sa Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "Part 2",
+          "lines": [
+            {
+              "lyrics": "Yeh manzilen hain kaun si",
+              "indian": "Ga Re Ga Re Sa Ni Dha Ni Dha"
+            }
+          ]
+        },
+        {
+          "name": "Part 3",
+          "lines": [
+            {
+              "lyrics": "Na woh samajh sake na hum",
+              "indian": "Pa Pa Dha Pa Ga Re Dha Sa Pa"
+            }
+          ]
+        },
+        {
+          "name": "Part 4 (Antara)",
+          "lines": [
+            {
+              "lyrics": "Yeh roshni ke saath kyon",
+              "indian": "Sa Re Ga Ma Ga Ma Re Ma"
+            }
+          ]
+        },
+        {
+          "name": "Part 5",
+          "lines": [
+            {
+              "lyrics": "Dhuan utha charagh se",
+              "indian": "Dha Pa Dha Pa Ma Ma Dha Pa"
+            }
+          ]
+        },
+        {
+          "name": "Part 6",
+          "lines": [
+            {
+              "lyrics": "Yeh khwab dekhti hoon main",
+              "indian": "Ni Ni Dha Ni Dha Ni Dha Pa Ma"
+            }
+          ]
+        },
+        {
+          "name": "Ending Sequence",
+          "lines": [
+            {
+              "lyrics": "Repeat structure",
+              "indian": "Repeat Part 3 → Part 1 → Part 1 (Variation) → Part 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hare_krishna_dhun",
+      "title": "Hare Krishna Hare Krishna Dhun",
+      "thumbnail": "images/hare_krishna_dhun.png",
+      "background": "images/hare_krishna_dhun.png",
+      "info": [
+        "Type: Devotional Dhun",
+        "Mantra: Hare Krishna Hare Krishna Krishna Krishna Hare Hare",
+        "Tradition: ISKCON / Bhajan Style",
+        "Scale: Based on tutorial (Sa assumed as base)"
+      ],
+      "sections": [
+        {
+          "name": "Part 1",
+          "lines": [
+            {
+              "lyrics": "Hare Krishna Hare Krishna",
+              "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+            }
+          ]
+        },
+        {
+          "name": "Part 2",
+          "lines": [
+            {
+              "lyrics": "Krishna Krishna Hare Hare",
+              "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+            }
+          ]
+        },
+        {
+          "name": "Repeat Cycle",
+          "lines": [
+            {
+              "lyrics": "Hare Krishna Hare Krishna",
+              "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+            },
+            {
+              "lyrics": "Krishna Krishna Hare Hare",
+              "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+            }
+          ]
+        },
+        {
+          "name": "Variation Phrase",
+          "lines": [
+            {
+              "lyrics": "Hare Rama Hare Rama",
+              "indian": "Ni Dha Pa Ni Dha Pa"
+            },
+            {
+              "lyrics": "Rama Rama Hare Hare",
+              "indian": "Pa Dha Ni Sa' Ni Dha Pa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meri_jhopdi_ke_bhag",
+      "title": "Meri Jhopdi Ke Bhag Aaj Khul Jayenge",
+      "subtitle": "Raam Ayenge Bhajan",
+      "thumbnail": "images/meri_jhopdi_ke_bhag.png",
+      "background": "images/meri_jhopdi_ke_bhag.png",
+      "info": [
+        "Type: Devotional Bhajan",
+        "Theme: Lord Ram Arrival",
+        "Style: Simple Bhajan Tune",
+        "Scale: Sa based (as per tutorial)"
+      ],
+      "sections": [
+        {
+          "name": "Part 1",
+          "lines": [
+            {
+              "lyrics": "Meri jhopdi ke bhag",
+              "indian": "Sa Sa Sa Re Re Ga Ga"
+            }
+          ]
+        },
+        {
+          "name": "Part 2",
+          "lines": [
+            {
+              "lyrics": "Aaj khul jayenge",
+              "indian": "Re Sa Sa Re Re Ga Ga"
+            }
+          ]
+        },
+        {
+          "name": "Part 3",
+          "lines": [
+            {
+              "lyrics": "Raam ayenge",
+              "indian": "Re Sa Re Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "Part 4 – Main Chorus",
+          "lines": [
+            {
+              "lyrics": "Raam ayenge ayenge Raam ayenge",
+              "indian": "Pa Pa Pa Dha Pa Ma Ga Re Ma Ga Re Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "Repetition",
+          "lines": [
+            {
+              "lyrics": "Raam ayenge ayenge Raam ayenge",
+              "indian": "Pa Pa Pa Dha Pa Ma Ga Re Ma Ga Re Sa Sa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-tenu-samjhawan-ki",
+      "title": "Main Tenu Samjhaawan Ki",
+      "info": [
+        "Movie: Humpty Sharma Ki Dulhania (2014)",
+        "Song (aka): Samjhawan / Main Tenu Samjhawan Ki",
+        "Singers: Arijit Singh, Shreya Ghoshal",
+        "Lyrics: Ahmad Anees, Kumaar"
+      ],
+      "thumbnail": "images/main-tenu-samjhawan-ki.png",
+      "background": "images/main-tenu-samjhawan-ki.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Main tenu samjhaawan ki",
+              "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa"
+            },
+            {
+              "lyrics": "(x2) Main tenu samjhaawan ki",
+              "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa (x2)"
+            },
+            {
+              "lyrics": "Main karun intezaar tera",
+              "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa"
+            },
+            {
+              "lyrics": "Tu ki jaane pyaar mera",
+              "indian": "Pa: Ga: | Pa Dha Dha: Dha | Ni Ni Pa"
+            },
+            {
+              "lyrics": "Tu dil tu (yoon) jaan meri",
+              "indian": "Pa Pa Ni: Sa' Re | Sa': Dha: Ma: Ma Pa Ga"
+            }
+          ]
+        },
+        {
+          "name": "STANZA",
+          "lines": [
+            {
+              "lyrics": "Mere dil ne chun laiyaa ne",
+              "indian": "Ga Ma Pa Pa, Dha Dha Dha, Dha: Dha: -"
+            },
+            {
+              "lyrics": "Tu jo mere naal ture",
+              "indian": "Ga Ma Pa Pa, Pa Dha Dha, Dha Sa Ni Dha -"
+            },
+            {
+              "lyrics": "Jeena mera (haay)",
+              "indian": "Pa Ni Sa': - Ni: -"
+            },
+            {
+              "lyrics": "Retbaar mera",
+              "indian": "Pa Dha: Dha: Ma Ni Pa -"
+            },
+            {
+              "lyrics": "Main karun intezaar tera (repeat)",
+              "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa"
+            }
+          ]
+        }
+      ],
+      "export": false
+    },
+    {
+      "id": "hero-flute-tune",
+      "title": "Hero Flute Tune",
+      "info": [
+        "Type: Instrumental (flute)",
+        "Note: comma-prefix like ,S indicates lower octave"
+      ],
+      "thumbnail": "images/hero-theme-flute.png",
+      "background": "images/hero-theme-flute_bg.png",
+      "sections": [
+        {
+          "name": "EASY (Simple)",
+          "lines": [
+            {
+              "lyrics": "Phrase 1 (x2)",
+              "indian": "Re Dha: Ni Dha  Ni Dha  Ma Re~ Ma: Ga Re (x2)"
+            },
+            {
+              "lyrics": "Phrase 2",
+              "indian": "Ma Ma Ga~ Dha(k) Dha Ni: | Ni Re Sa,  Ni Dha Dha(k) Ma Ga"
+            }
+          ]
+        },
+        {
+          "name": "EXPERT (Next Level)",
+          "lines": [
+            {
+              "lyrics": "Phrase 1 (x2)",
+              "indian": "Re Dha: Ni Re Sa Re Sa Dha,  Sa Re Sa Dha: Ma Re: Ma: Ga Re (x2)"
+            },
+            {
+              "lyrics": "Phrase 2",
+              "indian": "Re Ma Ma Ga,  Dha Dha Ni:  Ni Re Re Sa:"
+            },
+            {
+              "lyrics": "Ending",
+              "indian": "Ni Dha Dha~ Ma Ga"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "hothon-se-chhu-lo-tum",
+      "title": "Hothon Se Chhu Lo Tum",
+      "info": [
+        "Song: Hothon Se Chhu Lo Tum"
+      ],
+      "thumbnail": "images/hothon_se_chhu_lo_tum_thumb.png",
+      "background": "images/hothon_se_chhu_lo_tum_bg.png",
+      "sections": [
+        {
+          "name": "MAIN PHRASE",
+          "lines": [
+            {
+              "lyrics": "Phrase 1",
+              "indian": "Ga Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Phrase 2",
+              "indian": "Sa Re Sa Ni"
+            },
+            {
+              "lyrics": "Phrase 3",
+              "indian": "Ni Sa Sa Re Re Sa"
+            },
+            {
+              "lyrics": "Phrase 4",
+              "indian": "Ga : Re Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "TIVRA MA PHRASE",
+          "lines": [
+            {
+              "lyrics": "Phrase 5",
+              "indian": "Ga Ma(T) Ma(T) Pa Pa"
+            },
+            {
+              "lyrics": "Phrase 6",
+              "indian": "Ma(T) Dha Pa  Ma(T) Ga"
+            },
+            {
+              "lyrics": "Phrase 7",
+              "indian": "Ga Ma(T) Ma(T) Pa Pa"
+            }
+          ]
+        },
+        {
+          "name": "ENDING",
+          "lines": [
+            {
+              "lyrics": "Phrase 8",
+              "indian": "Ga Re Sa  Re Ga"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "tum-hi-ho-aashiqui2",
+      "title": "Tum Hi Ho",
+      "thumbnail": "images/tum_hi_ho_thumb.png",
+      "background": "images/tum_hi_ho_thumb.png",
+      "info": [
+        "Movie: Aashiqui 2 (2013)",
+        "Singer: Arijit Singh",
+        "Scale: Sa = C",
+        "Style: Soft romantic / legato",
+        "Symbols: : hold, ~ slide"
+      ],
+      "sections": [
+        {
+          "name": "PART 1 – Hum tere bin ab reh nahi sakte",
+          "lines": [
+            {
+              "lyrics": "Hum tere bin ab reh nahi sakte",
+              "indian": "Ga: Dha Pa Ma Ga Ma Ga Re Sa Re Ga Ma Ga: Ga"
+            }
+          ]
+        },
+        {
+          "name": "PART 2 – Tere bina kya wajood mera",
+          "lines": [
+            {
+              "lyrics": "Tere bina kya wajood mera",
+              "indian": "Re: Re Sa Re Re Sa Ni: Dha Pa Dha Pa"
+            }
+          ]
+        },
+        {
+          "name": "PART 3 – Tujhse juda gar ho jayenge",
+          "lines": [
+            {
+              "lyrics": "Tujhse juda gar ho jayenge",
+              "indian": "Ga Ga Dha Pa Ma Ga Ma Ga Re Sa Re Ga: Ga Sa"
+            }
+          ]
+        },
+        {
+          "name": "PART 4 – Toh khud se hi ho jayenge judaa",
+          "lines": [
+            {
+              "lyrics": "Toh khud se hi ho jayenge judaa",
+              "indian": "Re: Re Sa Re Re Sa Ni Sa Ni Dha Pa Dha Pa"
+            }
+          ]
+        },
+        {
+          "name": "PART 5 – Kyunki tum hi ho",
+          "lines": [
+            {
+              "lyrics": "Kyunki tum hi ho",
+              "indian": "Sa Re Ga: Sa Re:: Ga: Sa Re::"
+            }
+          ]
+        },
+        {
+          "name": "PART 6 – Zindagi ab tum hi ho",
+          "lines": [
+            {
+              "lyrics": "Zindagi ab tum hi ho",
+              "indian": "Ni: Re Sa: Ni Dha Ni: Pa Dha: Ni Sa Re"
+            }
+          ]
+        },
+        {
+          "name": "PART 7 – Chain bhi mera dard bhi",
+          "lines": [
+            {
+              "lyrics": "Chain bhi mera dard bhi",
+              "indian": "Ga: Sa Re: Ga: Sa Re:"
+            }
+          ]
+        },
+        {
+          "name": "PART 8 – Meri aashiqui ab tum hi ho",
+          "lines": [
+            {
+              "lyrics": "Meri aashiqui ab tum hi ho",
+              "indian": "Ni Ni: Re Sa: Ni Dha Ni: Pa Dha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mashup_patriotic_songs",
+      "title": "Patriotic Songs Mashup",
+      "info": [
+        "Songs: Jahaan se Achchha, Aye Mere Watan k Logon, Jan Gan Man"
+      ],
+      "thumbnail": "images/mashup_patriotic_songs.jpg",
+      "background": "images/mashup_patriotic_songs.jpg",
+      "sections": [
+        {
+          "name": "Song 1",
+          "lines": [
+            {
+              "lyrics": "Sare jahan se achchha...",
+              "indian": "Ma.. Ma Ga Re Ga.. Re(k) Re.. Re.."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Hindustaan Hamaara...",
+              "indian": "Dha Ni Re.. Ga Ma(T).. Pa Ma(T).. Ma(T)"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Hamaara...",
+              "indian": "Ga Pa Ma(T) Ga Re"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Sare jahan se achchha...",
+              "indian": "Ma.. Ma Ga Re Ga.. Re(k) Re.. Re.."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Hindustaan Hamaara...",
+              "indian": "Dha Ni Re.. Ga Ma(T).. Pa Ma(T).. Ma(T)"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Hamaara...",
+              "indian": "Ga Pa Ma(T) Ga Re"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Hum bulbule hai uski...",
+              "indian": "Ma(T) Pa Dha.. Dha Dha.. Ma(T) PaNiDha"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Yeh gulsitaan hamaara...",
+              "indian": "Ma(T) Pa Dha.. Pa Ma.. Ga Re Re Re"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Hamaara...",
+              "indian": "Re Re(k) Ni Dha"
+            }
+          ]
+        },
+        {
+          "name": "Song 2",
+          "lines": [
+            {
+              "lyrics": "Ae mere watan ke logon...",
+              "indian": "Dha Dha Re.. Re Re Re.. Ga Re Sa Sa.. Sa.."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Zara aankh me bharlo paani...",
+              "indian": "Dha Dha Re.. Re Re Re.. Ga Re Sa Sa.. Sa.."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Jo shahid huye hai unki...",
+              "indian": "DhaSa SaGa GaGaGaMaGaRe ReGaGaMa(T)"
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Zara yaad karo kurbaani",
+              "indian": "Ma(T) Ga Ga Re ReReSa GaReRe Re.."
+            }
+          ]
+        },
+        {
+          "name": "Song 3",
+          "lines": [
+            {
+              "lyrics": "Jai hind, Jai Hind, Jai Hind",
+              "indian": "Pa Ma(T) Pa.. Ma(T) Ga Ma(T).. Ga Re Ga.."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "lyrics": "Jai Jai Jai Jai Hain",
+              "indian": "Dha Dha Ni Ni Re(k) Re(k) Ni Re(k) Re.."
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "yeh-jo-desh-hai-tera-swades",
+      "title": "Yeh Jo Des Hai Tera",
+      "thumbnail": "images/yeh-jo-desh-hai-tera-swades.png",
+      "background": "images/yeh-jo-desh-hai-tera-swades.png",
+      "info": [
+        "Movie: Swades (2004)",
+        "Music: A.R. Rahman",
+        "Lyrics: Javed Akhtar",
+        "Scale (as given): Sa = C# (C# bass/middle flute)",
+        "Ornaments: ~ meend, : hold"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Ye jo des hai tera",
+              "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…"
+            },
+            {
+              "lyrics": "Swades hai tera",
+              "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…"
+            },
+            {
+              "lyrics": "Tujhe hai pukaara..",
+              "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga…."
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA CONT.",
+          "lines": [
+            {
+              "lyrics": "Ye woh bandhan hai jo kabhi toot",
+              "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…"
+            },
+            {
+              "lyrics": "Nahin sakta",
+              "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…"
+            },
+            {
+              "lyrics": "Mitti ki jo khushboo",
+              "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…"
+            },
+            {
+              "lyrics": "Tu kaise bhoolaayega",
+              "indian": "Ni(k)..Sa..Re…Ga..Ga..Re…Sa…Sa…"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Tu chaahe kahin jaaye",
+              "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…"
+            },
+            {
+              "lyrics": "Tu laut ke aayega",
+              "indian": "Ni(k)..Sa..Re…Pa..Ma..Ga…Re…Sa…"
+            },
+            {
+              "lyrics": "Nayi nayi raahon mein",
+              "indian": "Sa.Sa…Sa.Sa…Sa..Sa..Sa…"
+            },
+            {
+              "lyrics": "Dabi dabi aahon mein",
+              "indian": "Sa..Ga…Re..Ga…Sa…Re…Sa..Ni(k)..Dha(k).."
+            },
+            {
+              "lyrics": "Khoye khoye dilse tere",
+              "indian": "Sa..Ni(k)…Sa..Ni(k)…Ni(k)..Ni(k)…Ga.Re.."
+            },
+            {
+              "lyrics": "Koyi ye kahega",
+              "indian": "Sa..Ni(k)…Sa…Ga..Re…Re.."
+            }
+          ]
+        },
+        {
+          "name": "REPEAT (MUKHDA)",
+          "lines": [
+            {
+              "lyrics": "Ye jo des hai tera",
+              "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…"
+            },
+            {
+              "lyrics": "Swades hai tera",
+              "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…"
+            },
+            {
+              "lyrics": "Tujhe hai pukaara..",
+              "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga…."
+            },
+            {
+              "lyrics": "Ye woh bandhan hai jo kabhi toot",
+              "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…"
+            },
+            {
+              "lyrics": "Nahin sakta",
+              "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "rimjhim-gire-saawan",
+      "title": "Rimjhim Gire Saawan",
+      "thumbnail": "images/rimjhim_gire_saawan_thumb.png",
+      "background": "images/rimjhim_gire_saawan_thumb.png",
+      "info": [
+        "Movie: Manzil (1979)",
+        "Singer: Kishore Kumar",
+        "Music Director: R.D. Burman",
+        "Lyricist: Yogesh"
+      ],
+      "sections": [
+        {
+          "name": "PART 1 – MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Rimjhim gire saawan",
+              "indian": "Dha.SaReGaMaDha Ga: GaGa:"
+            },
+            {
+              "lyrics": "Sulag sulag jaaye mann",
+              "indian": "MaGaRe MaGaRe ReRe(k)Re:"
+            },
+            {
+              "lyrics": "Bheege aaj is mausam mein",
+              "indian": "Ni(k)RePa Ma(T)Pa Ma(T)PaMa(T)Pa Ga:"
+            },
+            {
+              "lyrics": "Lagi kaisi ye agan",
+              "indian": "GaPaSa' NiDha GaMa GaMa Dha Ga:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o-re-piya-aaja-nachle",
+      "title": "O Re Piya",
+      "thumbnail": "images/o_re_piya_thumb.png",
+      "background": "images/o_re_piya_thumb.png",
+      "info": [
+        "Movie: Aaja Nachle (2007)",
+        "Singer: Rahat Fateh Ali Khan",
+        "Music Director: Salim–Sulaiman",
+        "Lyricist: Jaideep Sahni",
+        "Raag feel: Kafi / Bhairavi mix (folk–sufi style)",
+        "Scale: Sa = C",
+        "Ornaments: ~ meend, : hold, (k) kan"
+      ],
+      "sections": [
+        {
+          "name": "ALAAP (Flute Intro)",
+          "lines": [
+            {
+              "lyrics": "Aaah...",
+              "indian": "Sa~Re Ga~Re Sa:  Sa~Ni(k) Sa:"
+            },
+            {
+              "lyrics": "Hmmmmm",
+              "indian": "Re Ga Ma~Ga Re Sa:"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "O re piya",
+              "indian": "Sa Re Ga~Re Sa:"
+            },
+            {
+              "lyrics": "Haaye…",
+              "indian": "Ni(k)~Sa:"
+            },
+            {
+              "lyrics": "O re piya",
+              "indian": "Sa Re Ga~Re Sa:"
+            },
+            {
+              "lyrics": "Haaye…",
+              "indian": "Ni(k)~Sa:"
+            },
+            {
+              "lyrics": "Udne laga kyon mann baawra",
+              "indian": "Ga Ma Pa Ma Ga Re  Sa~Ni(k) Sa Re Ga:"
+            },
+            {
+              "lyrics": "Aaya kahaan se mann baawra",
+              "indian": "Ga Ma Pa Ma Ga Re  Sa~Ni(k) Sa:"
+            }
+          ]
+        },
+        {
+          "name": "BRIDGE",
+          "lines": [
+            {
+              "lyrics": "Dole re dole re mann mora",
+              "indian": "Re Ga Ma Pa Ma Ga Re  Sa:"
+            },
+            {
+              "lyrics": "Jhoome re jhoome re tan mora",
+              "indian": "Re Ga Ma Pa Dha~Pa Ma Ga Re:"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 1",
+          "lines": [
+            {
+              "lyrics": "Naina thag lenge",
+              "indian": "Ma Pa Dha Pa Ma Ga Re"
+            },
+            {
+              "lyrics": "Chain chura lenge",
+              "indian": "Ma Pa Dha Ni(k) Dha Pa Ma:"
+            },
+            {
+              "lyrics": "Bairi piya bole",
+              "indian": "Ga Ma Pa Ma Ga Re Sa"
+            },
+            {
+              "lyrics": "O re piya haaye",
+              "indian": "Sa Re Ga~Re Sa:  Ni(k)~Sa:"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 2 (Higher Pitch)",
+          "lines": [
+            {
+              "lyrics": "Sajna aa bhi jaa",
+              "indian": "Pa Dha Ni(k) Sa'~Ni(k) Dha Pa:"
+            },
+            {
+              "lyrics": "Dil mein samaa jaa",
+              "indian": "Pa Dha Ni(k) Sa' Re' Sa' Ni(k) Dha"
+            },
+            {
+              "lyrics": "O re piya",
+              "indian": "Sa' Ni(k) Dha Pa Ma Ga Re Sa:"
+            }
+          ]
+        },
+        {
+          "name": "ENDING ALAAP",
+          "lines": [
+            {
+              "lyrics": "Aaah haaye…",
+              "indian": "Sa Re Ga Ma~Ga Re Sa  Ni(k)~Sa:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mere-mehboob-qayamat-hogi",
+      "title": "Mere Mehboob Qayamat Hogi",
+      "thumbnail": "images/mere-mehboob-qayamat-hogi.png",
+      "background": "images/mere-mehboob-qayamat-hogi.png",
+      "info": [
+        "Movie: Mr. X In Bombay (1964)",
+        "Singer: Kishore Kumar",
+        "Music Director: Laxmikant–Pyarelal",
+        "Scale: Sa = C",
+        "Difficulty: Beginner–Intermediate"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Teri gali mein aata sanam",
+              "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:"
+            },
+            {
+              "lyrics": "Nagma wafa ka gaata sanam",
+              "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:"
+            },
+            {
+              "lyrics": "Tujhse suna na jaata sanam",
+              "indian": "Re' Re' Re' Sa' | Ni Dha Ni Dha Dha:"
+            },
+            {
+              "lyrics": "Phir aaj idhar",
+              "indian": "Ga' Ga' Ga' Pa' Ma' Ga' Ma' Re':"
+            },
+            {
+              "lyrics": "Aaya hoon magar",
+              "indian": "Re' Re' Re' Ma' | Ma' Ga' Ma' Re':"
+            }
+          ]
+        },
+        {
+          "name": "HOOK LINE",
+          "lines": [
+            {
+              "lyrics": "Ye kehne main deewana",
+              "indian": "Sa' Sa' Ga' Re' Ga' | Sa' Ni Sa' Dha:"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Khatm bas aaj ye wahshat hogi",
+              "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Ni::"
+            },
+            {
+              "lyrics": "Mere mehboob qayamat hogi",
+              "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Dha::"
+            },
+            {
+              "lyrics": "Aaj rusva teri galiyon mein",
+              "indian": "Dha Ni Sa' Ni Dha Dha Dha Ni Ni Re Dha Pa"
+            },
+            {
+              "lyrics": "Mohabbat hogi",
+              "indian": "Ga Ma Pa Ga Ma Dha Pa: Ni Dha"
+            }
+          ]
+        },
+        {
+          "name": "REPEAT / ENDING",
+          "lines": [
+            {
+              "lyrics": "Mere mehboob qayamat hogi",
+              "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha::"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "chhu-kar-mere-mann-ko",
+      "title": "Chhu Kar Mere Mann Ko",
+      "info": [
+        "Movie: Yaarana (1981)",
+        "Singer: Kishore Kumar",
+        "Lyricist: Anjaan",
+        "Music Director: Rajesh Roshan"
+      ],
+      "thumbnail": "images/chhu_kar_mere_mann_ko_thumb.png",
+      "background": "images/chhu_kar_mere_mann_ko_thumb.png",
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Chookar | mere man | ko",
+              "indian": "Ga Ga | Re Sa Ni | Re"
+            },
+            {
+              "lyrics": "kiya | tune, | kya | isharaa",
+              "indian": "Pa Dha | Ni Ni | Sa | Re Ga Sa"
+            },
+            {
+              "lyrics": "Badalaaa | ye | mausam",
+              "indian": "Pa Pa | Dha Pa | Ma Dha"
+            },
+            {
+              "lyrics": "lage | pyaaraa | jag | saaraa",
+              "indian": "Ni | Ni | Dha Ni | Sa' Sa'"
+            },
+            {
+              "lyrics": "Chookar | mere man | ko (alt take)",
+              "indian": "Ga Ga | Ga Ga Ma | Re"
+            },
+            {
+              "lyrics": "kiya | tune, | kya | isharaa",
+              "indian": "Pa Dha | Ni Ni | Sa | Re Ga Sa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA (from provided images)",
+          "lines": [
+            {
+              "lyrics": "Tu | jo | kahe | jeevan | bhar",
+              "indian": "Ga | Ma | Ma Ga | Sa Pa | Ga"
+            },
+            {
+              "lyrics": "tere | liye | main | gaauun (version 1)",
+              "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha Sa'"
+            },
+            {
+              "lyrics": "tere | liye | main | gaauun (version 2)",
+              "indian": "Pa Dha | Ni(k) Dha | Ma | Ga Re Ga Pa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "sandese-aate-hain",
+      "title": "Sandese Aate Hain",
+      "info": [
+        "Movie: Border (1997)",
+        "Singers: Sonu Nigam, Roop Kumar Rathod",
+        "Music Director: Anu Malik",
+        "Lyricist: Javed Akhtar"
+      ],
+      "thumbnail": "images/sandese_aate_hain.png",
+      "background": "images/sandese_aate_hain.png",
+      "sections": [
+        {
+          "name": "INTRO",
+          "lines": [
+            {
+              "lyrics": "Ooo  hoo hoo  hoo",
+              "indian": "Ga Ma Dha Pa"
+            },
+            {
+              "lyrics": "Hoo hoo hoo oohoo ho",
+              "indian": "Ma Ga Re Ga Pa Ma"
+            },
+            {
+              "lyrics": "Hoo hoo hoo ",
+              "indian": "Sa Re Ga"
+            },
+            {
+              "lyrics": "Oohh Oohh Oohh",
+              "indian": "Re Sa Ni Dha Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Sandese aate hain, humein tadpaate hain",
+              "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga"
+            },
+            {
+              "lyrics": "Jo chitthi aati hai, wo poochhe jaati hai",
+              "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga"
+            },
+            {
+              "lyrics": "Ke ghar kab aaoge, ke ghar kab aaoge",
+              "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha"
+            },
+            {
+              "lyrics": "Likho kab aaoge",
+              "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha"
+            },
+            {
+              "lyrics": "Ke tum bin ye ghar soona, soona hai",
+              "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa Ma Ga"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "meri_bheegi_bheegi_si",
+      "title": "Meri Bheegi Bheegi Si",
+      "thumbnail": "images/meri_bheegi_bheegi_si.png",
+      "background": "images/meri_bheegi_bheegi_si.png",
+      "info": [
+        "Movie: Anamika",
+        "Year: 1973",
+        "Singer: Kishore Kumar",
+        "Composer: R. D. Burman",
+        "Lyricist: Majrooh Sultanpuri"
+      ],
+      "sections": [
+        {
+          "name": "Part 1 – Main Theme",
+          "lines": [
+            {
+              "lyrics": "Meri bheegi bheegi si palkon pe reh gaye",
+              "indian": ".Pa .Dha(k) Sa Sa Sa Sa Sa— .Pa .Dha(k) Sa .Dha(k) .Pa .Ma .Ma"
+            },
+            {
+              "lyrics": "Jaise mere sapne bikhar ke",
+              "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .Ma .Ma .Ma .Pa .Dha(k) .Ni—"
+            }
+          ]
+        },
+        {
+          "name": "Part 2 – Reflective Line",
+          "lines": [
+            {
+              "lyrics": "Jale man tera bhi kisi ke milan ko",
+              "indian": "Re Sa Ga(k) (Re)— Sa Sa Sa .Pa .Dha(k) .Ni(k) .Dha(k) .Pa .Ma .Ma"
+            },
+            {
+              "lyrics": "Anamika tu bhi tarse",
+              "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .Ma— .Ma .Ma .Pa .Dha(k) .Pa—"
+            }
+          ]
+        },
+        {
+          "name": "Part 3 – Repeat Theme",
+          "lines": [
+            {
+              "lyrics": "Meri bheegi bheegi si",
+              "indian": ".Pa .Dha(k) Sa Sa Sa Sa Sa—"
+            }
+          ]
+        },
+        {
+          "name": "Verse – Tujhe bin jaane bin pehchane",
+          "lines": [
+            {
+              "lyrics": "Tujhe bin jaane bin pehchane",
+              "indian": "Sa Sa Re Ga(k) Sa Ga(k) Re(Sa)— Sa— Re Ga(k) Sa Ga(k) Re"
+            },
+            {
+              "lyrics": "Maine hriday se lagaya",
+              "indian": "Sa— Re Ga(k) Ma— Ga(k) Re Sa— Re— Ga(k)—"
+            }
+          ]
+        },
+        {
+          "name": "Bridge – Par mere pyaar ke",
+          "lines": [
+            {
+              "lyrics": "Par mere pyaar ke badle mein toone",
+              "indian": "Pa Re Re Re Re— Re Re Ma Re Re Sa Sa— Sa—"
+            },
+            {
+              "lyrics": "Mujhko yeh din dikhlaaya",
+              "indian": "Ga(k) Re Re Sa Sa— .Ni .Ni Sa— Re—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meri_bheegi_bheegi_si_1",
+      "title": "Meri Bheegi Bheegi Si",
+      "movie": "Anamika",
+      "year": "1973",
+      "info": [
+        "Singer: Kishore Kumar",
+        "Composer: R.D. Burman",
+        "Scale: Tutorial Based",
+        "Legend: . = lower octave, ' = higher octave, () = kan, ~ = meend, — = hold"
+      ],
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Meri bheegi bheegi si",
+              "indian": "Ni' Sa' Ga' Ga' Ga' Ga' Ga'—"
+            },
+            {
+              "lyrics": "Palkon pe reh gaye",
+              "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—"
+            }
+          ]
+        },
+        {
+          "name": "Continuation",
+          "lines": [
+            {
+              "lyrics": "Jaise mere sapne bikhar ke",
+              "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—"
+            },
+            {
+              "lyrics": "Jaise mere sapne",
+              "indian": "Ni' Sa' ga'—"
+            }
+          ]
+        },
+        {
+          "name": "Bridge Phrase",
+          "lines": [
+            {
+              "lyrics": "Jale man tera bhi",
+              "indian": "Ma' Ga' Pa'— Ma' Ga' Ga'—"
+            }
+          ]
+        },
+        {
+          "name": "Repeat Mukhda Pattern",
+          "lines": [
+            {
+              "lyrics": "Meri bheegi bheegi si",
+              "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—"
+            },
+            {
+              "lyrics": "Palkon pe reh gaye",
+              "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—"
+            }
+          ]
+        },
+        {
+          "name": "Ending Phrase",
+          "lines": [
+            {
+              "lyrics": "Anamika…",
+              "indian": "Ni' Re' Sa' Ni'—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saiyaara-title-song-2025",
+      "title": "Saiyaara (Title Song)",
+      "thumbnail": "images/saiyaara-title-song-2025.png",
+      "background": "images/saiyaara-title-song-2025.png",
+      "info": [
+        "Movie: Saiyaara (2025)",
+        "Singer: Faheem Abdullah",
+        "Music: Tanishk Bagchi, Faheem Abdullah, Arslan Nizami",
+        "Lyrics: Irshad Kamil"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Tu paas hai mere",
+              "indian": "Pa Pa Pa Pa Ma Ga(k)"
+            },
+            {
+              "lyrics": "Paas hai aise",
+              "indian": "Ma.. Ma.. Ma.. Ma. Pa Ma Ga(k)"
+            },
+            {
+              "lyrics": "Mera koi ehsaas",
+              "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni"
+            },
+            {
+              "lyrics": "Hai jaise",
+              "indian": "Ni Ni Sa Sa Re Ga"
+            },
+            {
+              "lyrics": "Tu paas hai mere paas",
+              "indian": "Ga Ga Ga Pa: Ma Ga Re Re"
+            },
+            {
+              "lyrics": "Hai aise",
+              "indian": "Re Re Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Mera koi ehsaas",
+              "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:"
+            },
+            {
+              "lyrics": "Hai jaise",
+              "indian": "Sa Sa Ni Dha"
+            }
+          ]
+        },
+        {
+          "name": "PRE-CHORUS",
+          "lines": [
+            {
+              "lyrics": "Haaye main mar hi jaaun",
+              "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+            },
+            {
+              "lyrics": "Jo tujhko na paaun",
+              "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+            },
+            {
+              "lyrics": "Baaton mein teri main",
+              "indian": "Ma Ma Ma Ma Re Re Ga Re Ga Ni"
+            },
+            {
+              "lyrics": "Raatein bitaaun",
+              "indian": "Ni Sa Sa Ni Ni Sa"
+            },
+            {
+              "lyrics": "Honthon pe lamha lamha",
+              "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+            },
+            {
+              "lyrics": "Hai naam tera haaye",
+              "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+            },
+            {
+              "lyrics": "Tujhko hi gaaun main",
+              "indian": "Ma Ma Ma Ma Re Re Ga Re Ga Ni"
+            },
+            {
+              "lyrics": "Tujhko pukaaroon",
+              "indian": "Ni Ni Ni Sa Re Pa Ga:"
+            }
+          ]
+        },
+        {
+          "name": "OOO HOOK",
+          "lines": [
+            {
+              "lyrics": "Ooo…",
+              "indian": "Re Pa Ga: Re Dha Pa: Ma Ga:"
+            },
+            {
+              "lyrics": "Ooo…",
+              "indian": "Re Sa Ma Ga Re Sa Ni:"
+            },
+            {
+              "lyrics": "Ooo…",
+              "indian": "Sa: Re: Sa: Re:"
+            }
+          ]
+        },
+        {
+          "name": "CHORUS",
+          "lines": [
+            {
+              "lyrics": "Saiyaara tu toh badla",
+              "indian": "Ga Ga Ga Ga: Re Sa Re Re:"
+            },
+            {
+              "lyrics": "Nahin hai",
+              "indian": "Re Re: Ga Re Sa"
+            },
+            {
+              "lyrics": "Mausam zara sa rootha",
+              "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni"
+            },
+            {
+              "lyrics": "Hua hai",
+              "indian": "Ni Ni Sa Sa Re Ga"
+            },
+            {
+              "lyrics": "Saiyaara tu toh badla",
+              "indian": "Ga Ga Ga Pa: Ma Ga Re Re:"
+            },
+            {
+              "lyrics": "Nahin hai",
+              "indian": "Re Re Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Mausam zara sa rootha",
+              "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:"
+            },
+            {
+              "lyrics": "Hua hai",
+              "indian": "Sa Sa Ni Dha:"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "raja_ko_rani_se_pyaar_ho_gaya",
+      "title": "Raja Ko Rani Se Pyaar Ho Gaya",
+      "movie": "Akele Hum Akele Tum",
+      "year": "1995",
+      "thumbnail": "images/raja_ko_rani_se_pyaar_ho_gaya.png",
+      "background": "images/raja_ko_rani_se_pyaar_ho_gaya.png",
+      "info": [
+        "Singer: Alka Yagnik, Udit Narayan",
+        "Composer: Jatin-Lalit",
+        "Lyricist: Majrooh Sultanpuri",
+        "Notation Source: Sargam-style pattern (tutorial aligned)"
+      ],
+      "sections": [
+        {
+          "name": "Chorus – Raja ko rani se pyaar ho gaya",
+          "lines": [
+            {
+              "lyrics": "Raja ko rani se pyaar ho gaya",
+              "indian": "Ga Dha Sa' Ni Dha Sa' Ni Ma _ _ Pa Ma Ga"
+            },
+            {
+              "lyrics": "Pehli nazar mein pehla pyaar ho gaya",
+              "indian": "Ga Dha Sa' Ni Dha Ga' Sa'  Re_ _ Re'Ga' Re"
+            }
+          ]
+        },
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "lyrics": "Dil jigar dono ghaayal huye",
+              "indian": "Re' Re' Ga' Ma' __ Ga' Re' Sa' Sa' Re' Ga'"
+            },
+            {
+              "lyrics": "Teer-e-nazar dil le paar ho gaya",
+              "indian": "Pa Ga Sa Ni, Ni Sa ReGa Sa SaRe Ni NiSa Dha Ni SaNi Dha"
+            },
+            {
+              "lyrics": "O, Rani ko dekho",
+              "indian": "Ga' _ _ Ga' Re' Sa' Re' Ga'"
+            },
+            {
+              "lyrics": "Nazrein mili toh",
+              "indian": "NiSa' _ Re'Sa' NiDha Dha"
+            },
+            {
+              "lyrics": "aankhen, churane lagi",
+              "indian": "Re' Re' Re' ma' , GaRe ReGa Ga Re Sa ReGa"
+            },
+            {
+              "lyrics": "Ho karti bhi kya woh",
+              "indian": "Ga' _ _ Ga' Re' Sa' Re' Ga'"
+            },
+            {
+              "lyrics": "Sar ko jhuka ke kangna ghumane lagi",
+              "indian": "NiSa' _ Re'Sa' NiDha Dha"
+            },
+            {
+              "lyrics": "aankhen, churane lagi",
+              "indian": "Re' Re' Re' ma' , GaRe ReGa Ga"
+            },
+            {
+              "lyrics": "O, Raja ne aisa jaadu chalaya",
+              "indian": "Ma' Ma Re Sa Ni Dha Pa Ni Sa Re Ma Ma Ga"
+            },
+            {
+              "lyrics": "Raja ne aisa jaadu chalaya",
+              "indian": "Ma Re Sa Ni Dha Pa Ni Sa Re Ma Ma Ga"
+            },
+            {
+              "lyrics": "Na karte karte",
+              "indian": "Ga Ni Ni Ni"
+            },
+            {
+              "lyrics": "ikraar ho gaya",
+              "indian": "Ni Sa ReGa Sa SaRe Ni NiSa Dha Ni SaNi Dha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "om_namah_shivay_dhun",
+      "title": "Om Namah Shivay Dhun",
+      "background": "images/om_namah_shivay_dhun.png",
+      "thumbnail": "images/om_namah_shivay_dhun.png",
+      "info": [
+        "Type: Bhajan / Dhun",
+        "Notation Style: Indian Sargam"
+      ],
+      "sections": [
+        {
+          "name": "Opening Chant",
+          "lines": [
+            {
+              "lyrics": "Om Namah Shivay Om Namah Shivay",
+              "indian": "Ni ReGa GaGa Re Ga, GaRe ReGaPaGa Re~Ni."
+            }
+          ]
+        },
+        {
+          "name": "Har Har Bole",
+          "lines": [
+            {
+              "lyrics": "Har Har Bole Namah Shivay",
+              "indian": "Ni. Dha. Re Ni. Dha.Pa. Pa.Dha. Ni.Re ReGa"
+            }
+          ]
+        },
+        {
+          "name": "Flute Interlude",
+          "lines": [
+            {
+              "lyrics": "Flute",
+              "indian": "Dha Pa Ni Dha Re Ni Ga Re Pa Ga Dha Pa Ni"
+            }
+          ]
+        },
+        {
+          "name": "Jata Dharay Shiv",
+          "lines": [
+            {
+              "lyrics": "Jata Dharay Shiv Jata Dharay",
+              "indian": "Ga Ga Ga Ga Pa Dha Ni Ni Ni NiReNiDha Ni"
+            }
+          ]
+        },
+        {
+          "name": "Ending Har Har",
+          "lines": [
+            {
+              "lyrics": "Har Har Bole Namah Shivay",
+              "indian": "Dha Dha Dha DhaPa PaDha NiDha PaGa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o-sanam-lucky-ali",
+      "title": "O Sanam",
+      "thumbnail": "images/o-sanam-lucky-ali.png",
+      "background": "images/o-sanam-lucky-ali.png",
+      "info": [
+        "Artist: Lucky Ali",
+        "Lyrics: Syed Aslam Noor",
+        "Music: Lucky Ali",
+        "Scale (JSON standard): Sa = C",
+        "Source flute scale (original): G bass/middle"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Hmmm…………….",
+              "indian": "Pa…Ga.Ma.Dha.Pa.Ma…Ga..Re.."
+            },
+            {
+              "lyrics": "R…M. M..M..P..G..M..P…",
+              "indian": "Re…Ma. Ma..Ma..Pa..Ga..Ma..Pa…"
+            },
+            {
+              "lyrics": "P..m..G..m..G..S..",
+              "indian": "Pa..Ma..Ga..Ma..Ga..Sa.."
+            },
+            {
+              "lyrics": "Shaam sawere teri yaadein aati hain",
+              "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…"
+            },
+            {
+              "lyrics": "Aake dil ko mere yun tadpaati hain",
+              "indian": "Ga…Ga…Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+            },
+            {
+              "lyrics": "O Sanam mohabbat ki kasam…",
+              "indian": "Ma…Sa.Re.Re.. p..Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA (repeat)",
+          "lines": []
+        },
+        {
+          "name": "VERSE 2",
+          "lines": [
+            {
+              "lyrics": "Milke bichhad naa to dastoor ho gaya",
+              "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…"
+            },
+            {
+              "lyrics": "Yadoon mein teri majboor ho gaya",
+              "indian": "Ga..Ga..Ga..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+            },
+            {
+              "lyrics": "O Sanam teri yadoon ki kasam",
+              "indian": "Ma…Sa.Re.Re.. p.p.Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+            }
+          ]
+        },
+        {
+          "name": "VERSE 3",
+          "lines": [
+            {
+              "lyrics": "Samjhe zamaana ke dil hai khilona",
+              "indian": "p…p…Ga..Ga…Ga..Sa..Re…Re…Sa..Re..Sa..Ga..Re.."
+            },
+            {
+              "lyrics": "Jaana hai ab kya hai dil ka lagana",
+              "indian": "Dha(k)…Sa…Sa…Sa.. Ma..Ga..Re…Re…Sa..Re..Sa..Ga..Re.."
+            },
+            {
+              "lyrics": "Nazron se ab naa humko girana",
+              "indian": "Dha(k)…Dha(k)…p..Dha(k).. Ma…Re…Re…Sa..Re..Sa..Ga..Re.."
+            },
+            {
+              "lyrics": "Mar bhi gaye to bhul na jaana",
+              "indian": "Dha(k)…Sa…Sa…Sa.. Dha..Pa..Pa…Pa…Ga.Pa.Pa..Ga.Re.Sa.."
+            }
+          ]
+        },
+        {
+          "name": "VERSE 4",
+          "lines": [
+            {
+              "lyrics": "Aankhon mein basi ho par door ho kahin",
+              "indian": "Ga..Ga..Ga..Re..Re..Re.. Sa..Ma…Sa..Re..Re…"
+            },
+            {
+              "lyrics": "Dil ke kareeb ho ye mujhko hai yakin",
+              "indian": "Ga..Ga..Ga..Re…Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+            },
+            {
+              "lyrics": "O Sanam tere pyar ki kasam",
+              "indian": "Ma…Sa.Re.Re…p..p..Ma…Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "zara-zara",
+      "title": "Zara Zara",
+      "thumbnail": "images/zara_zara_thumb.png",
+      "background": "images/zara_zara_thumb.png",
+      "info": [
+        "Song: Zara Zara",
+        "Movie: Rehnaa Hai Terre Dil Mein (2001)",
+        "Scale (Western): Sa = C"
+      ],
+      "sections": [
+        {
+          "name": "FLUTE INTERLUDE",
+          "lines": [
+            {
+              "lyrics": "Flute Interlude",
+              "indian": "Ga: Ga: Ga:: Ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:"
+            },
+            {
+              "lyrics": "Variation",
+              "indian": "Sa Re Ga: Ga: Ga:: Ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:"
+            },
+            {
+              "lyrics": "Pickup",
+              "indian": "Dha Sa: Sa: Sa: Sa: | Re: Re: Re: Re: | Ga: Pa Dha: Ni:"
+            },
+            {
+              "lyrics": "Run",
+              "indian": "Dha Pa Ma Ga: Ma Ga Re Ga Ma Re Sa Ni"
+            }
+          ]
+        },
+        {
+          "name": "HOOK LINE (STHAYI)",
+          "lines": [
+            {
+              "lyrics": "Zara Zara Behekta Hai, Mehekta Hai",
+              "indian": "Ni Sa Ni Sa: Sa Ni Sa Re Ni Sa Sa Ni Sa Re Ni Sa"
+            },
+            {
+              "lyrics": "Aaj To Mera Tan Badan",
+              "indian": "Ni Ni Ga Re Ga Sa Ni: Sa Ni Sa"
+            },
+            {
+              "lyrics": "Main Pyaasi Hoon, Mujhe Bhar Le Apni Baahon Mein",
+              "indian": "Sa Ni Sa Re Ni Sa | Sa Ni Sa Re Ni Sa Dha Sa Ni Dha Pa Dha"
+            }
+          ]
+        },
+        {
+          "name": "BRIDGE",
+          "lines": [
+            {
+              "lyrics": "Hai, Meri Kasam, Tujhko Sana, Door Kahin Na Jaa",
+              "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa Ma | Ma: Pa Ma Ga: Ni: Ni Dha:"
+            },
+            {
+              "lyrics": "Yeh Doori, Kehti Hai, Paas Mere Aaja Re",
+              "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa Ma | Ma: Pa Ma Ga: Ni: Ni Dha:"
+            },
+            {
+              "lyrics": "Flute Interlude Again",
+              "indian": "(Repeat FLUTE INiTEReLUDhaE)"
+            }
+          ]
+        },
+        {
+          "name": "VERSE (ANTARA)",
+          "lines": [
+            {
+              "lyrics": "Yuhin Baras Baras Kali Ghataa Barse",
+              "indian": "Dha Sa Re Ga: Re Ga: Re Ga:: Re Ga:: Sa Ni"
+            },
+            {
+              "lyrics": "Hum Yaar Bheeg Jaayein, Iss Chaahat Ki Baarish Mein",
+              "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga Ma Ga Re Ga:"
+            },
+            {
+              "lyrics": "Meri Khulee Khulee Lato Ko Suljhaye",
+              "indian": "Dha Sa Re Ga: Re Ga: Re Ga:: Re Ga:: Sa Ni"
+            },
+            {
+              "lyrics": "Tu Apni Ungliyon Se, Main To Hoon Isee, Khwaahish Mein",
+              "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga Ma Ga Re Ga:"
+            },
+            {
+              "lyrics": "Sardee Ki, Raaton Mein, Hum Soyein Rahe Ek Chaadar Mein",
+              "indian": "Ga Dha Dha Ga | Ga Ni Ni Ga | Ga Sa: Sa Ni Ni Dha Dha Pa Pa Dha Dha"
+            },
+            {
+              "lyrics": "Hum Dono, Tanha Ho, Na Koi Bhi Rahe Is Ghar Mein",
+              "indian": "Ga Dha Dha Ga: | Ga Pa Pa Re: | Re Ma: Ga Re Sa Ni Sa Ni"
+            }
+          ]
+        },
+        {
+          "name": "SOLO",
+          "lines": [
+            {
+              "lyrics": "Solo (Part 1)",
+              "indian": "Ga Ga Pa Dha Pa Dha: | Pa Dha Ni Sa Ni Dha: | Pa Ma Pa Ma Ga Ga: | Sa Ga Pa Dha Pa Dha:"
+            },
+            {
+              "lyrics": "Solo (Part 2)",
+              "indian": "Sa Sa Ni Ni Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Re Ga:: Pa | Sa Sa Ni Ni Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Re Ga:"
+            },
+            {
+              "lyrics": "Solo Ending",
+              "indian": "Sa Dha: | Sa Ni Pa Ma Ga: Re | Ma Ma Ga Ga Re Re Sa Re Ga: | Sa Dha: | Ni Sa Re Sa Ni Dha: | Sa Sa Ni Ni Dha Dha Sa Re Ga::::"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "humko-humise-chura-lo",
+      "title": "Humko Humise Chura Lo",
+      "thumbnail": "images/humko_humise_thumb.png",
+      "background": "images/humko_humise_thumb.png",
+      "info": [
+        "Movie: Mohabbatein (2000)",
+        "Singers: Lata Mangeshkar, Udit Narayan",
+        "Music Director: Jatin–Lalit",
+        "Lyricist: Anand Bakshi",
+        "Raag Feel: Yaman / Kalyan",
+        "Scale: Sa = C"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Humko humise chura lo",
+              "indian": "Dha Ga Re  Re Ga  Re Sa  Sa Re  Re Ni"
+            },
+            {
+              "lyrics": "Dil mein kahin tum chhupa lo",
+              "indian": "Pa Re^ Sa  Sa Re  Dha Sa Ni  Ni Sa Sa^ Dha"
+            },
+            {
+              "lyrics": "Humko humise chura lo (variation)",
+              "indian": "Dha Ga Re  Re Ga  Re Sa  Sa Re Re  Ga^^ Ni"
+            },
+            {
+              "lyrics": "Dil mein kahin tum chhupa lo (variation)",
+              "indian": "Pa Re^ Sa  Sa Re  Sa Sa Ni  Ni Sa Sa Ga^^ Dha"
+            }
+          ]
+        },
+        {
+          "name": "CROSS (04:08)",
+          "lines": [
+            {
+              "lyrics": "Hum akele kho na jaayein",
+              "indian": "Sa Ni  Dha Ni Dha  Ni Dha  Pa Dha Pa"
+            },
+            {
+              "lyrics": "Door tumse ho na jaayein",
+              "indian": "Sa Ni  Dha Ni Sa^^ Dha  Ni Dha Pa Dha Pa"
+            },
+            {
+              "lyrics": "Paas aao gale se laga lo",
+              "indian": "Ga Ma Ga Re  Ga Sa  Sa Sa Re  Ga^^ Sa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA (06:39)",
+          "lines": [
+            {
+              "lyrics": "Ye dil dhadka do",
+              "indian": "Sa Ni  Ni Sa  Ni^ Dha  Dha Ni Dha^ Pa  Pa Pa Dha Pa Dha"
+            },
+            {
+              "lyrics": "Zulfein bikhra do",
+              "indian": "Ni Dha  Dha Ni Dha^^  Pa Pa  Ma Ma  Dha Pa"
+            },
+            {
+              "lyrics": "Sharma ke apna",
+              "indian": "Dha^^ Pa  Pa Dha Ma  Ma Ga Ga Pa Ma"
+            },
+            {
+              "lyrics": "Aanchal lehra do",
+              "indian": "Sa Ni  Ni Sa  Ni Dha  Dha Ni Pa  Pa Pa Dha Pa Dha"
+            }
+          ]
+        },
+        {
+          "name": "CROSS 2 (09:40)",
+          "lines": [
+            {
+              "lyrics": "Hum zulfein to bikhra dein",
+              "indian": "Ni Sa Re  Ma Ga Re  Sa Ga Re"
+            },
+            {
+              "lyrics": "Din mein raat na ho jaaye",
+              "indian": "Ni Sa Re  Re Ma  Ga Re Re"
+            },
+            {
+              "lyrics": "Hum aanchal to lehra dein",
+              "indian": "Dha Ni  Sa Sa Re  Sa Ni  Sa Re Sa"
+            },
+            {
+              "lyrics": "Par barsaat na ho jaaye",
+              "indian": "Dha Ni  Sa Sa Ga  Re Re  Sa Sa"
+            },
+            {
+              "lyrics": "Paas aao gale se laga lo (repeat)",
+              "indian": "Ga Ma Ga Re  Ga Sa  Sa Sa Re Ga^^ Ma  Ni Sa Ni Dha"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "saawan-ka-mahina-pawan-kare-shor",
+      "title": "Saawan Ka Mahina Pawan Kare Shor",
+      "thumbnail": "images/saawan_ka_mahina_thumb.png",
+      "background": "images/saawan_ka_mahina_thumb.png",
+      "info": [
+        "Movie: Milan (1967)",
+        "Singers: Lata Mangeshkar, Mukesh",
+        "Music Director: Laxmikant–Pyarelal",
+        "Lyricist: Anand Bakshi",
+        "Scale (Western): Sa = C",
+        "Ornaments: ~ meend, : hold, (k)=kan, ' = high octave"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Saawan ka mahina",
+              "indian": "Dha Pa Pa  Ga Ga Ga  Re Re Ga"
+            },
+            {
+              "lyrics": "Pawan kare shor",
+              "indian": "Re Re Re  Ga Re Sa  Re~Pa'  (x2)"
+            },
+            {
+              "lyrics": "Jiyara re jhoome aise",
+              "indian": "Re Re Re  Ma Ma  Ma Ga  Re Ga Re  Sa Ni"
+            },
+            {
+              "lyrics": "Jaise banma naache mor",
+              "indian": "Ni Ni  Sa Re Ga  Re Ga Re Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "FLUTE MUSIC",
+          "lines": [
+            {
+              "lyrics": "Flute Music",
+              "indian": "Pa:  Pa Pa  Pa Dha Ni  Dha Ni Dha  Pa Re,  Ga Ma Ga  Ma Ga Re Sa  Sa Dha Pa Dha~Pa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Ram gajab dhaaye, ye purvaiya",
+              "indian": "Pa Pa Pa  Pa Pa Pa Pa  Sa,  Sa Re  Re Pa Pa Pa Pa"
+            },
+            {
+              "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
+              "indian": "Pa Dha Pa Ma  Ga Pa Ma Ga Re,  Ma Re Ma  Ga Ga Ga"
+            },
+            {
+              "lyrics": "Ram gajab dhaaye, ye purvaiya",
+              "indian": "Pa Pa Pa  Pa Pa Pa Pa  Sa,  Sa Re  Re Pa Pa Pa Pa"
+            },
+            {
+              "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
+              "indian": "Pa Dha Pa Ma  Ga Pa Ma Ga Re,  Ma Ga Re~  Ga Re Sa Sa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "abhi-na-jao-chhod-kar",
+      "title": "Abhi Na Jao Chhod Kar",
+      "info": [
+        "Movie: Hum Dono (1961)",
+        "Singers: Mohammed Rafi, Asha Bhosle",
+        "Lyricist: Sahir Ludhianvi",
+        "Music Director: Jaidev",
+        "Raag: Yaman (film usage)"
+      ],
+      "thumbnail": "images/abhi_na_jao_chhodkar.png",
+      "background": "images/abhi_na_jao_chhodkar.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Abhi na jao chhod kar",
+              "indian": "Ga Ga Ma Ga Ga~Re Ga~Re Sa Ni(k) Dha(k) Ni(k) Re:"
+            },
+            {
+              "lyrics": "Ke dil abhi bhara nahi",
+              "indian": "Re Re Ga Ni(k) Re Pa Ma Ga~Re Ga Re Sa Ga:"
+            },
+            {
+              "lyrics": "Abhi na jao chhod kar",
+              "indian": "Ga Ga Ma Ga Ga~Re Ga~Re Sa Ni(k) Dha(k) Ni(k) Re:"
+            },
+            {
+              "lyrics": "Ke dil abhi bhara nahi",
+              "indian": "Re Ma Ma Pa Ma Ga~Re Ga Re Sa:"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Abhi abhi to aayi ho",
+              "indian": "Ga Ga Ga Ma Ga Pa Ma Ga Pa Ma"
+            },
+            {
+              "lyrics": "Abhi abhi to…",
+              "indian": "Ga~Re Ga~Re Ga Ma Pa:"
+            },
+            {
+              "lyrics": "Abhi abhi to aayi ho",
+              "indian": "Ga Ga Ga Ma Ga Pa Ma Ga Pa Ma"
+            },
+            {
+              "lyrics": "Bahar banke chhayi ho",
+              "indian": "Ga~Re Ga~Re Ga Ma Ga Pa Ma Ga Pa Ma"
+            },
+            {
+              "lyrics": "Hawa zara mehak to le",
+              "indian": "Sa Ga Ga Ga Ni Dha Pa Ma Pa Ma"
+            },
+            {
+              "lyrics": "Nazar zara behak to le",
+              "indian": "Ga Ga Ga Ma Ga Pa Ma Ga Pa Ma"
+            },
+            {
+              "lyrics": "Yeh shaam dhal to le zara",
+              "indian": "Ma Dha Dha Ni(k) Dha Sa' Ni(k) Ma Sa' Ni(k):"
+            },
+            {
+              "lyrics": "Yeh shaam dhal to le zara",
+              "indian": "Ma Dha Dha Ni(k) Dha Sa' Ni(k) Dha Sa' Ni(k)"
+            },
+            {
+              "lyrics": "Yeh dil sambhal to le zara",
+              "indian": "Ma Dha Dha Ni(k) Dha Sa' Ni(k) Dha Sa' Ni(k)"
+            },
+            {
+              "lyrics": "Main thodi der jee to loon",
+              "indian": "Ga Ga Ga Ma Pa Sa' Ni(k) Dha Pa Ma Ga"
+            },
+            {
+              "lyrics": "Nashe ke ghoont pee to loon",
+              "indian": "Ga Ga Ga~Re Ga Ma Ga Pa Ma Ga Pa Ma"
+            },
+            {
+              "lyrics": "Nashe ke ghoont pee to loon",
+              "indian": "Ga Ga Ga~Re Ga Ma Ga Pa Ma Ga Pa Ma"
+            },
+            {
+              "lyrics": "Abhi to kuchh kaha nahi",
+              "indian": "Ga Ga Ma Pa Ni Sa' Sa' Ni(k) Dha Ni(k) Dha Pa"
+            },
+            {
+              "lyrics": "Abhi to kuchh suna nahi",
+              "indian": "Ma Ga~Re Ga Ma Pa Ma Ga Ma Re Sa: (na-hi)"
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA (REPEAT)",
+          "lines": [
+            {
+              "lyrics": "Abhi na jao chhod kar",
+              "indian": "Ga Ga Ma Ga Ga~Re Ga~Re Sa Ni(k) Dha(k) Ni(k) Re:"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "ae-watan-watan-mere",
+      "title": "Ae Watan Watan Mere",
+      "info": [
+        "Movie: Raazi (2018)",
+        "Singer: Arijit Singh",
+        "Music Director: Shankar–Ehsaan–Loy",
+        "Lyricist: Gulzar",
+        "Scale: A (Sa = A), Western mapping: Sa=A, Re=B",
+        "Ornaments: ~ meend (glide), : hold (sustain), ( ) kan (grace)"
+      ],
+      "thumbnail": "images/ae_watan_thumb.png",
+      "background": "images/ae_watan_thumb.png",
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Ae watan, watan mere, aabaad rahe tu",
+              "indian": "Sa Re Ga | Ga Ga | Ga Ga Ga | Ga Ma | Dha | Dha Ni Dha | Pa"
+            },
+            {
+              "lyrics": "Main jahan rahoon, jahaan main yaad rahe tu",
+              "indian": "Ga Pa S' Ni | Dha Pa | Ma: Ma: Ma: | Sa, Ma: Ma: | Pa | Dha Ni Dha | Pa"
+            },
+            {
+              "lyrics": "Main jahan rahoon, jahaan main yaad rahe tu",
+              "indian": "Ga Pa S' Ni | Dha Pa | Ma: Ma: Ma: | Re Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Ae watan, mere watan (2x)",
+              "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 1",
+          "lines": [
+            {
+              "lyrics": "Tu hi meri manzil hai, pehchan tujhi se",
+              "indian": "Ga Ma Dha | Dha Dha | Dha Pa | Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha"
+            },
+            {
+              "lyrics": "Pahunchu main jahaan bhi meri buniyad rahe tu",
+              "indian": "Ga Ma | Ni Ni Ni | Ni Dha | Ni Ni | Ni | Ni S' Ni | Ni Dha | R' R' | S'"
+            },
+            {
+              "lyrics": "(music phrase)",
+              "indian": "Pa Pa | R' | R' R' R' | S' | R' R' | Ga' | R' | S' Dha | R' R' | S'"
+            },
+            {
+              "lyrics": "(music phrase to chorus)",
+              "indian": "Ga Ma | Pa S' Ni | Dha Pa Dha Pa | Ma: Ma: Ma: Ma: Re | Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Ae watan, mere watan (2x)",
+              "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 2",
+          "lines": [
+            {
+              "lyrics": "Tujhpe koi gham ki aanch aane nahin doon",
+              "indian": "Ga Ga Ga | Ma Dha Pa | Dha Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha"
+            },
+            {
+              "lyrics": "Kurbaan meri jaan tujhpe shaad rahe tu",
+              "indian": "Ga Ga Ma | Ni Dha | Ni Ni Ni | Ni Dha | Ni Ni | R' | R' Ga' | R' | S'"
+            },
+            {
+              "lyrics": "(music phrase to chorus)",
+              "indian": "Pa Pa | R' R' R' R' | S' | R' R' | Ga' R' | S' Dha | R' R' | S'"
+            },
+            {
+              "lyrics": "(music phrase to chorus)",
+              "indian": "Ga Ma | Pa S' Ni | Dha Pa Dha Pa | Ma: Ma: Ma: Ma: Re | Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Ae watan, mere watan (2x)",
+              "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)"
+            }
+          ]
+        },
+        {
+          "name": "EXTRA (as in PDF)",
+          "lines": [
+            {
+              "lyrics": "Lab pe aati hai duaa bann ke tamanna meri (Ae watan, mere watan)",
+              "indian": "Pa Pa S' S' S' | S' S' Ni Dha | Dha Ni | R' Ga' R' S' S' S'"
+            },
+            {
+              "lyrics": "Zindagi shamma ki soorat ho khudaya meri (Ae watan, mere watan)",
+              "indian": "Pa Pa S' Ni | R' Dha Pa Pa | Pa Ma: | Dha Pa Ma"
+            },
+            {
+              "lyrics": "(ending phrase)",
+              "indian": "Ma Ga Ga | Pa Ma | Re Sa Re | Sa Re Ga | Ga Ma Dha Pa | Sa Re Ga Pa Re Ga Re Sa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "teri-mitti",
+      "title": "Teri Mitti",
+      "export": false,
+      "info": [
+        "Movie: Kesari",
+        "Singer: B Praak",
+        "Music Director: Arko",
+        "Lyricist: Manoj Muntashir",
+        "Raag feel: Bhairavi / patriotic folk blend",
+        "Scale: C",
+        "Ornaments: ~ meend, : hold, ( ) kan"
+      ],
+      "thumbnail": "placeholder://song_thumb",
+      "sections": [
+        {
+          "name": "INTRO",
+          "lines": [
+            {
+              "lyrics": "",
+              "indian": "Re Ga, Ma Ga Re Ga"
+            },
+            {
+              "lyrics": "",
+              "indian": "Re Ga Re Pa: Dha Pa : Re :"
+            },
+            {
+              "lyrics": "",
+              "indian": "Re Ga, Pa Ma Ga Re Ga"
+            },
+            {
+              "lyrics": "",
+              "indian": "Re Ga Re Pa: Dha : Re : Ga Re Sa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Ga Re Re Re Ga Ga, Ga Re Re Re Ga Ga"
+            },
+            {
+              "lyrics": "",
+              "indian": "Ga Re Re Re Re Ga Re Sa Dha, Dha Sa Sa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Sa Ni Ni Ni Sa Sa, Sa Ni Re Sa Sa Ni Dha Dha Dha Pa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Pa Pa Pa Pa Pa Re Re Ga Re Sa Sa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Re' Re' Re' Re' Ga' Ga', Re' Re' Re' Re' Ga' Ga'"
+            },
+            {
+              "lyrics": "",
+              "indian": "Sa' Ni Ni Ni Sa' Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Dha Pa Pa Dha Dha Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Pa Dha, Dha Pa Pa Dha Ni Dha Ma Ga Ga Pa"
+            },
+            {
+              "lyrics": "",
+              "indian": "Re Ga, Ma Ga Re Ga"
+            },
+            {
+              "lyrics": "",
+              "indian": "Re Ga Re Pa: Dha Pa : Re :"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yeh-haseen-waadiyan",
+      "title": "Yeh Haseen Waadiyan",
+      "info": [
+        "Movie: Roja",
+        "Composer: A R Rahman",
+        "Instrument: Flute (Bansuri)",
+        "Scale: D Natural (works on any Sa)",
+        "Notes System: S R G Ma(t) P Dha(k) Ni (k = komal, t = tivra)"
+      ],
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Ye haseen waadiyan",
+              "indian": "PaDh Sa niSanisa Dh"
+            },
+            {
+              "lyrics": "Ye khula aasmaan",
+              "indian": "PaDh Re(Sa) SaniSa^^^Dh"
+            },
+            {
+              "lyrics": "Aa gaye hum kahan ae mere saajna",
+              "indian": "PaDh Sa niSqnisa Sa^Dh Padha^^ Re(Sa) SaniSa^^ Dh"
+            },
+            {
+              "lyrics": "In baharon mein dil ki kali khil gayi",
+              "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+            },
+            {
+              "lyrics": "Mujhko tum jo mile har khushi mil gayi",
+              "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+            },
+            {
+              "lyrics": "Tere hothon pe hain husn ki bijliyan",
+              "indian": "PaDh Sa niSanisa Dh | PaDh Re(Sa) SaniSa^^^Dh"
+            },
+            {
+              "lyrics": "Tere daaman ki khushboo se mehke chaman",
+              "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+            }
+          ]
+        },
+        {
+          "name": "Cross",
+          "lines": [
+            {
+              "lyrics": "Meri jaane jaan main teri chandni",
+              "indian": "GaMa'Pa.....Ma'GaMa'^^^Ni...NiNiGa^^ReGa^^^Re"
+            },
+            {
+              "lyrics": "Ched lo tum aaj koi pyaar ki raagini",
+              "indian": "GaMa'PaDhPa.......Ma'Ma'GaMa'Ni ...NiNiGaPaMa'Dh^^^^Pa"
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Ye bandhan hai pyaar ka",
+              "indian": "Re....SamaRe ReSa SaniSaniSa Dh"
+            },
+            {
+              "lyrics": "Dekho toote na sajni",
+              "indian": "PaDhRe SamaRe SaniSa^^^Dh"
+            },
+            {
+              "lyrics": "Tere aanchal ki chhaon ke tale",
+              "indian": "ReRe PanininiSa SaDhDh"
+            },
+            {
+              "lyrics": "Meri manzil mujhe mil gayi",
+              "indian": "ReReninininini SaSa^^^Dh"
+            },
+            {
+              "lyrics": "Teri palkon ki chhaon ke tale",
+              "indian": "ReRe PanininiSa SaDdhDh"
+            },
+            {
+              "lyrics": "Mohabbat mujhe mil gayi",
+              "indian": "ReRe DhPamaReSaniDh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "namo_namo_ji_shankara",
+      "title": "Namo Namo Ji Shankara",
+      "thumbnail": "images/namo_namo_ji_shankara.png",
+      "background": "images/namo_namo_ji_shankara.png",
+      "info": [
+        "Movie: Kedarnath",
+        "Year: 2018",
+        "Singer: Amit Trivedi",
+        "Composer: Amit Trivedi",
+        "Lyricist: Amitabh Bhattacharya"
+      ],
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Jai ho jai ho Shankara",
+              "indian": "Dha Dha Sa Sa Re Re Ga~Re~Sa:"
+            },
+            {
+              "lyrics": "Aadi dev Shankara",
+              "indian": "Re Ga Ma Pa, Ga Re ReGaRe~Sa:"
+            },
+            {
+              "lyrics": "Tere jaap ke bina",
+              "indian": "Dha Dha Sa Sa Re Pa Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Chale ye saans kis tarah",
+              "indian": "Re Re Ga Ma Pa, Ga Re Re Ga Re Sa"
+            },
+            {
+              "lyrics": "Mera karm tu hi jaane",
+              "indian": "Sa'Sa'Sa'Re NiNi DhaPa"
+            },
+            {
+              "lyrics": "Kya bura hai kya bhala",
+              "indian": "PaDhaPa MaMa Dha Pa"
+            },
+            {
+              "lyrics": "Tere Raste pe Main to",
+              "indian": "Sa'Sa'Sa'Re NiNi DhaPa"
+            },
+            {
+              "lyrics": "Aankh moond ke chalaa",
+              "indian": "PaDhaPa MaMaMa Dha Pa"
+            },
+            {
+              "lyrics": "Tere naam ki jot ne",
+              "indian": "PaPa PaDhaPaDhaPa MaGaRe PaDhaPaDhaPa MaGaRe"
+            },
+            {
+              "lyrics": "Saara har liya tamas mera",
+              "indian": "Re Ga Ga Ma Ga Re Re SaSa"
+            }
+          ]
+        },
+        {
+          "name": "Chorus",
+          "lines": [
+            {
+              "lyrics": "Namo Namo ji Shankara",
+              "indian": "Re Re GaGaGa ReGaGa"
+            },
+            {
+              "lyrics": "Bholenath Shankara",
+              "indian": "Re GaGaGa ReGaGa"
+            },
+            {
+              "lyrics": "Hey Trilokinath Shambhu",
+              "indian": "ReRe ReRe ReRe ReRe"
+            },
+            {
+              "lyrics": "Hey Shivay Shankara",
+              "indian": "ReSa Ga ReSaSa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yeh-haseen-waadiyan-2",
+      "title": "Yeh Haseen Waadiyan",
+      "info": [
+        "Movie: Roja",
+        "Composer: A R Rahman",
+        "Instrument: Flute (Bansuri)",
+        "Scale: D Natural (works on any Sa)",
+        "Notes System: S R G Ma(t) P Dha(k) Ni (k = komal, t = tivra)"
+      ],
+      "sections": [
+        {
+          "name": "Part 1",
+          "lines": [
+            {
+              "lyrics": "Intro phrase",
+              "indian": "Dha Ni Re Sa Re Sa Re Ni..."
+            }
+          ]
+        },
+        {
+          "name": "Part 2",
+          "lines": [
+            {
+              "lyrics": "Continuation phrase",
+              "indian": "Dha Ni Ni Ga.. Re Sa Sa Re Re Ni"
+            }
+          ]
+        },
+        {
+          "name": "Part 3",
+          "lines": [
+            {
+              "lyrics": "Main theme build",
+              "indian": "Dha Ni Ga Ga Re Ma(T) Ma(T) Ga Re Re(k) Re Re(k) Re Re(k) Ni"
+            }
+          ]
+        },
+        {
+          "name": "Part 4",
+          "lines": [
+            {
+              "lyrics": "Higher phrase",
+              "indian": "Ma(T) Dha(k) Dha........ Dha(k) Dha Dha(k)... Ga Re(k)"
+            }
+          ]
+        },
+        {
+          "name": "Part 5",
+          "lines": [
+            {
+              "lyrics": "Bridge run",
+              "indian": "Re(k).. Ma(T)... Ga Ma(T)..."
+            }
+          ]
+        },
+        {
+          "name": "Part 6",
+          "lines": [
+            {
+              "lyrics": "Ending phrase",
+              "indian": "Re(k) Re(k) Ma(T).. Dha(k)... Dha.. Ni.........."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaise-main-kahu-tujhse",
+      "title": "Kaise Main Kahu Tujhse",
+      "info": [
+        "Movie: Rehnaa Hai Terre Dil Mein (RHTDM)"
+      ],
+      "sections": [
+        {
+          "name": "Chapter 1 (Music)",
+          "lines": [
+            {
+              "lyrics": "Instrumental Phrase 1",
+              "indian": "Ga... Dha... (Dha Dha) (Pa Dha Ni Dha Ni Dha Pa)"
+            },
+            {
+              "lyrics": "Instrumental Phrase 2",
+              "indian": "Ga... Dha... (Dha Dha) (Pa Dha Ni Dha Ni Dha Pa Dha Ni...)"
+            }
+          ]
+        },
+        {
+          "name": "Chapter 2 (Song)",
+          "lines": [
+            {
+              "lyrics": "Kaise mai kahu tujhase",
+              "indian": "Sa... Re... Ga (Ma Ga) Re... Sa... Ni... Dha... Pa... Dha... Re..."
+            },
+            {
+              "lyrics": "Rehna hai tere dil me",
+              "indian": "Sa... Re... Ga... Dha... Pa... Ga... Re... Sa... Dha... Pa... Dha..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jan_gan_mana_anthem",
+      "title": "Jana Gana Mana",
+      "info": [
+        "type: National Anthem"
+      ],
+      "thumbnail": "images/jan_gan_mana_anthem.png",
+      "background": "images/jan_gan_mana_anthem.png",
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Jana Gana Mana Adhinayak jaya hee",
+              "indian": "Sa.Re.Ga.Ga.Ga.Ga.Ga.Ga.Ga..Ga.Ga.Re.Ga.Ma…"
+            },
+            {
+              "lyrics": "Bharat Bhagya Vidhataa",
+              "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa…"
+            }
+          ]
+        },
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "lyrics": "Punjab- Singhu-Gujrat-Marathaa",
+              "indian": "Sa..Pa..Pa.Pa..Pa.Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa.."
+            },
+            {
+              "lyrics": "Dravida utkhal bangaa",
+              "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…"
+            },
+            {
+              "lyrics": "Vindhya-Himachal Yamuna-Gangaa",
+              "indian": "Ga..Ga.Ga..Ga..Ga.Re..Pa.Pa.Pa..Ma.Ma.."
+            },
+            {
+              "lyrics": "Uchchhala-Jaladhi Tarangaa",
+              "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa.."
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Tava Subha Naame Jagee",
+              "indian": "Sa.Re.Ga.Ga..Ga..Ga..Re.Ga.Ma.."
+            },
+            {
+              "lyrics": "Tava Subha Ashisa Magee",
+              "indian": "Ga.Ma.Pa.Pa..Ma..Ma.Ga..Re.Ma.Ga"
+            },
+            {
+              "lyrics": "Gahe Tava Jaya Gathaa..",
+              "indian": "Ga..Ga..Re..Re.Re..Ni(k).Re.Sa.."
+            }
+          ]
+        },
+        {
+          "name": "Ending",
+          "lines": [
+            {
+              "lyrics": "Jana-Gana-Magal Dayaka, Jaya Hee",
+              "indian": "Pa.Pa.Pa.Pa.Pa..Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa.."
+            },
+            {
+              "lyrics": "Bharata-Bhagya-Vidhataa..",
+              "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…"
+            },
+            {
+              "lyrics": "Jaya He, Jaya He, Jaya hee…",
+              "indian": "Sa'.Ni.Sa'… Ni.Dha.Ni… Dha.Pa.Dha…"
+            },
+            {
+              "lyrics": "Jaya, Jaya , Jaya Haii",
+              "indian": "Sa.Sa.Re.Re.Ga.Ga.Re.Ga.Ma…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghar-se-nikalte-hi",
+      "title": "Ghar Se Nikalte Hi",
+      "info": [
+        "Movie: Papa Kehte Hai",
+        "Singer: Lata Mangeshkar",
+        "Music Director: Shankar–Ehsaan–Loy",
+        "Lyricist: Gulzar"
+      ],
+      "thumbnail": "images/ghar-se-nikalte-hi.png",
+      "background": "images/ghar-se-nikalte-hi.png",
+      "sections": [
+        {
+          "name": "Intro",
+          "lines": [
+            {
+              "lyrics": "Instrumental",
+              "indian": "Sa Re Ga Ma | Ga Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Ghar se nikalte hi",
+              "indian": "Sa Re Ga Ma | Pa Ma Ga Re"
+            },
+            {
+              "lyrics": "Kuch door chalte hi",
+              "indian": "Sa Re Ga Ma | Pa Dha Pa Ma"
+            },
+            {
+              "lyrics": "Raste mein hai uska ghar",
+              "indian": "Ma Pa Dha Ni | Dha Pa Ma Ga | Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "Mukhda Repeat",
+          "lines": [
+            {
+              "lyrics": "Kal subah dekha to",
+              "indian": "Sa Re Ga Ma | Pa Ma Ga Re"
+            },
+            {
+              "lyrics": "Baal banaati woh",
+              "indian": "Sa Re Ga Ma | Pa Dha Pa Ma"
+            },
+            {
+              "lyrics": "Khidki mein aayi nazar",
+              "indian": "Ma Pa Dha Ni | Sa' Ni Dha Pa | Ma Ga Re Sa"
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Masoom chehra neechi nigahein",
+              "indian": "Ga Ma Pa Dha | Ni Dha Pa Ma | Ga Ma Pa Dha | Ni Sa'"
+            },
+            {
+              "lyrics": "Bholi si ladki bholi adaayein",
+              "indian": "Sa' Ni Dha Pa | Ma Ga Re Sa | Re Ga Ma Pa | Dha Pa Ma"
+            },
+            {
+              "lyrics": "Na apsara hai na woh pari hai",
+              "indian": "Ga Ma Pa Dha | Ni Sa' Ni Dha | Pa Ma Ga Re | Sa"
+            },
+            {
+              "lyrics": "Lekin yeh uski jaadugari hai",
+              "indian": "Re Ga Ma Pa | Dha Ni Sa' | Ni Dha Pa Ma | Ga Re Sa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ae-mere-pyare-watan",
+      "title": "Ae Mere Pyare Watan",
+      "thumbnail": "images/ae-mere-pyare-watan.png",
+      "background": "images/ae-mere-pyare-watan.png",
+      "info": [
+        "Movie: Kabuliwala",
+        "Singer: Lata Mangeshkar",
+        "Music Director: Shankar–Ehsaan–Loy",
+        "Lyricist: Gulzar"
+      ],
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Aye mere pyaare watan",
+              "indian": "Sa Sa Sa Sa Ga Re Ga Ma Ga Re"
+            },
+            {
+              "lyrics": "Aye mere bichhade chaman",
+              "indian": "Re Ga Re Sa Sa Ga Re Ga Ma Ga Re"
+            },
+            {
+              "lyrics": "Tujh pe dil qurbaan",
+              "indian": "Re Re Ma Ga Re Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Tu hi meri aarazu",
+              "indian": "Ni(k)(k) Ni(k)(k) Sa Sa Pa Ma Pa Ma Ga"
+            },
+            {
+              "lyrics": "Tu hi meri aabroo",
+              "indian": "Ga Ga Ga Re Ga Ma Ga Ma Ga Re"
+            },
+            {
+              "lyrics": "Tu hi meri jaan",
+              "indian": "Re Ga Re Sa Sa"
+            }
+          ]
+        },
+        {
+          "name": "Bridge",
+          "lines": [
+            {
+              "lyrics": "Tere daaman",
+              "indian": "Pa Pa Pa Pa"
+            },
+            {
+              "lyrics": "Se jo aaye",
+              "indian": "Pa Dha(k) Dha(k) Sa' Ni Sa' Ni Dha(k) Pa"
+            },
+            {
+              "lyrics": "Un havaaon ko salaam",
+              "indian": "Pa Dha(k) Pa Ma Ma Ga Re Ga Ma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kal-ho-na-ho-title",
+      "title": "Kal Ho Naa Ho",
+      "thumbnail": "images/kal_ho_na_ho_thumb.png",
+      "background": "images/kal_ho_na_ho_thumb.png",
+      "info": [
+        "Movie: Kal Ho Naa Ho (2003)",
+        "Singer: Sonu Nigam",
+        "Music Director: Shankar–Ehsaan–Loy",
+        "Lyricist: Javed Akhtar",
+        "Raag feel: Yaman / Kalyan",
+        "Scale: Sa = C",
+        "Ornaments: ~ meend, : hold"
+      ],
+      "sections": [
+        {
+          "name": "MUKHDA",
+          "lines": [
+            {
+              "lyrics": "Har ghadi badal rahi hai roop zindagi",
+              "indian": "Sa Ni Sa Ni Sa Ni Sa Ga Re Sa Ni Dha Ni Dha Ni"
+            },
+            {
+              "lyrics": "Chaav hai kabhi kabhi hai dhoop zindagi",
+              "indian": "Sa Ni Sa Ni Sa Ni Sa Ga Re Sa Ni Dha Ni Dha Ni"
+            },
+            {
+              "lyrics": "Har pal yahan jee bhar jiyo",
+              "indian": "Pa Dha Sa Dha MaPaDhaPa"
+            },
+            {
+              "lyrics": "Jo hai samaa kal ho naa ho",
+              "indian": "Pa Dha Sa Dha PaMa MaNi(k)DhaPa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 1",
+          "lines": [
+            {
+              "lyrics": "Chaahe jo tumhe poore dil se",
+              "indian": "NiSaMaGaRe NiDhaNiSa"
+            },
+            {
+              "lyrics": "milta hai woh mushkil se",
+              "indian": "NiSaMaGaReGaRe NiDhaNiSaDhaPa"
+            },
+            {
+              "lyrics": "Aisa jo koi kahin hai",
+              "indian": "NiSaMaGaRe NiDhaNiSa"
+            },
+            {
+              "lyrics": "bas wohi sabse haseen hai",
+              "indian": "NiSaMaGaReGaRe NiDhaNiSaDhaPa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA 2 (Climax line)",
+          "lines": [
+            {
+              "lyrics": "Us haath ko tum thaam lo",
+              "indian": "Pa Dha Sa Dha MaPaDhaPa"
+            },
+            {
+              "lyrics": "woh meherbaan kal ho naa ho",
+              "indian": "Pa Dha Sa Dha PaMa MaNi(k)DhaPa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "gum-hai-kisi-ke-pyar-mein",
+      "title": "Gum Hai Kisi Ke Pyar Mein",
+      "info": [
+        "Movie: Raampur Ka Lakshman (1972)",
+        "Singer: Lata Mangeshkar, Kishore Kumar",
+        "Lyricist: Majrooh Sultanpuri",
+        "Music Director: Rahul Dev Burman (R. D. Burman)"
+      ],
+      "thumbnail": "images/gum_hai_thumb.png",
+      "background": "images/gum_hai_thumb.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Gum hai | kisike | pyaar | mein",
+              "indian": "Ga(k) | Re | Ga(k)Re~Sa | Sa Sa | Sa~Pa,"
+            },
+            {
+              "lyrics": "Dil | subah | shaam",
+              "indian": "Sa Re | Ga(k) Ga(k)~Ma(T) | Ga(k) | Ga(k) Re(k)..Sa Re(k)"
+            },
+            {
+              "lyrics": "Par | tumhe | likh | nahin | paaun",
+              "indian": "Ni | Ni Ma(T) | Ni | Sa. | Ni Ni.~Pa."
+            },
+            {
+              "lyrics": "Main | usaka | naam",
+              "indian": "Pa. | Ni. Ni. | Sa…"
+            },
+            {
+              "lyrics": "Haaye | raam",
+              "indian": "Ga(k)MaGa(k) | Re…"
+            },
+            {
+              "lyrics": "Haaye | raam",
+              "indian": "Ga(k)MaGa(k) | Re…"
+            },
+            {
+              "lyrics": "Kah | daalun | apane",
+              "indian": "PaPa | Pa Ni(k) Dha(k)' | Dha(k)'~PaMa(T)~Re"
+            },
+            {
+              "lyrics": "sab | haal | dil | ke",
+              "indian": "ReRe | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)"
+            },
+            {
+              "lyrics": "Aur | kar | dun | jiwan",
+              "indian": "Ma(T)Ma(T) | Ma(T) | Ma(T) | Ni Ni Ma(T)Ma(T)"
+            },
+            {
+              "lyrics": "usake | hawaale",
+              "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re (Ma){Ga(k)Re}…Ma"
+            },
+            {
+              "lyrics": "Phir | chhod | de | chaahe",
+              "indian": "Ma(T) Ma(T) | Ma(T) Ma(T) | Ma(T) | Pa Ma(T) Pa Ma(T)"
+            },
+            {
+              "lyrics": "apana | bana | le",
+              "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re {SaNiSa}"
+            },
+            {
+              "lyrics": "Main | to | usaka | re",
+              "indian": "Pa. | Sa | Ga(k)Re… | (Sa)Re"
+            },
+            {
+              "lyrics": "hua | diwaana",
+              "indian": "Ga(k)ReSa | Ga(k)ReSa Sa"
+            },
+            {
+              "lyrics": "Ab | to | jaisa | bhi",
+              "indian": "Pa. | Sa | Ga(k)Re…Ga(k) | (Sa)Re"
+            },
+            {
+              "lyrics": "mera | ho | anjaam | hooo",
+              "indian": "Ga(k)ReSa | Ga(k) | Re Sa Sa | (Re)Ga(k)"
+            },
+            {
+              "lyrics": "(Repeat)",
+              "indian": "GuMa hai kisike…"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Socha | hai | ek | din",
+              "indian": "PaPa | Pa | Dha(k)Dha(k) | PaMa(T)"
+            },
+            {
+              "lyrics": "main | usase | mil | ke",
+              "indian": "Re | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)"
+            }
+          ]
+        }
+      ],
+      "export": true
+    },
+    {
+      "id": "tujhe-dekha-to-yeh-jaana-sanam",
+      "title": "Tujhe Dekha To Yeh Jaana Sanam",
+      "info": [
+        "Movie: Dilwale Dulhania Le Jayenge (1995) (add/confirm)",
+        "Singer: Lata Mangeshkar 🎤",
+        "Music Director: Rahul Dev Burman (R. D. Burman) 🎼",
+        "Lyricist: Anand Bakshi ✍️"
+      ],
+      "thumbnail": "images/tujhe_dekha_to_ye_jana_sanam_thumb.png",
+      "background": "images/tujhe_dekha_to_ye_jana_sanam_bg.png",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Tujhe dekha to yeh jaana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Pyaar hota hai deewana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+            },
+            {
+              "lyrics": "Ab yahan se kahan jaaye hum",
+              "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+            },
+            {
+              "lyrics": "Teri baahon mein mar jaaye hum",
+              "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa"
+            },
+            {
+              "lyrics": "Tujhe dekha to yeh jaana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Pyaar hota hai deewana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+            },
+            {
+              "lyrics": "Ab yahan se kahan jaaye hum",
+              "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+            },
+            {
+              "lyrics": "Teri baahon mein mar jaaye hum",
+              "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
+            },
+            {
+              "lyrics": "Tujhe dekha to yeh jaana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa"
+            }
+          ]
+        },
+        {
+          "name": "INTERLUDE",
+          "lines": [
+            {
+              "lyrics": "(Interlude)",
+              "indian": "Pa Dha Ni' Dha Pa Dha  Sa Pa"
+            },
+            {
+              "lyrics": "(Interlude)",
+              "indian": "Pa Dha Ni' Dha Pa Dha  Sa Pa"
+            },
+            {
+              "lyrics": "(Interlude)",
+              "indian": "Ni' Re' Ni' Pa Ni' Ni' Ni' Ni' Ni' Sa'' Sa'' Re''"
+            },
+            {
+              "lyrics": "(Interlude)",
+              "indian": "Re' Re' Pa Ni' Re' Sa'' Ga'' Ma(T)'' Sa'' Ma(T)'' Sa'' Re''"
+            },
+            {
+              "lyrics": "(Interlude)",
+              "indian": "Pa Dha Re' Sa'' Ni' Re' Pa"
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Aankhen meri",
+              "indian": "Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+            },
+            {
+              "lyrics": "sapne tere",
+              "indian": "Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Dil mera, yaadein teri",
+              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+            },
+            {
+              "lyrics": "(repeat)",
+              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+            },
+            {
+              "lyrics": "O, mera hai kya",
+              "indian": "Pa Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Sab kuch tera",
+              "indian": "Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Jaan teri, saansein teri",
+              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+            },
+            {
+              "lyrics": "(repeat)",
+              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+            },
+            {
+              "lyrics": "Meri aankhon mein aansu tere aa gaye",
+              "indian": "Pa Dha Pa Dha Pa Dha Dha Ga Ma(T) Sa Pa  Pa Dha Pa Dha Pa Dha Ma(T) Ga Dha"
+            },
+            {
+              "lyrics": "Muskuraane lage saare gham",
+              "indian": "Dha Dha Dha Re' Re' Ni' Re' Ni' Pa Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
+            }
+          ]
+        },
+        {
+          "name": "CHORUS (REPEAT)",
+          "lines": [
+            {
+              "lyrics": "Tujhe dekha to yeh jaana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Pyaar hota hai deewana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+            },
+            {
+              "lyrics": "Ab yahan se kahan jaaye hum",
+              "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+            },
+            {
+              "lyrics": "Teri baahon mein mar jaaye hum",
+              "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa"
+            },
+            {
+              "lyrics": "Tujhe dekha to yeh jaana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+            },
+            {
+              "lyrics": "Pyaar hota hai deewana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+            },
+            {
+              "lyrics": "Ab yahan se kahan jaaye hum",
+              "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+            },
+            {
+              "lyrics": "Teri baahon mein mar jaaye hum",
+              "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
+            },
+            {
+              "lyrics": "Tujhe dekha to yeh jaana sanam",
+              "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa"
+            }
+          ]
+        }
+      ],
+      "export": true
+    }
+  ]
+}

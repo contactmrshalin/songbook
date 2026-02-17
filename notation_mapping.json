@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "description": "Indian sargam ↔ token ↔ Western mapping used by the Songbook Pipeline. Edit this file to update mappings going forward.",
+  "octave_markers": {
+    "low": ".",
+    "middle": "",
+    "high": "'"
+  },
+  "accidental_markers": {
+    "komal": "(k)",
+    "tivra": "(T)"
+  },
+  "word_to_token": {
+    "Sa": "S",
+    "Re": "R",
+    "Ga": "G",
+    "Ma": "m",
+    "Pa": "P",
+    "Dha": "D",
+    "Ni": "N"
+  },
+  "komal_word_to_token": {
+    "Re": "r",
+    "Ga": "g",
+    "Dha": "d",
+    "Ni": "n"
+  },
+  "tivra_word_to_token": {
+    "Ma": "M"
+  },
+  "token_to_western": {
+    "S": { "step": "C", "alter": 0 },
+    "R": { "step": "D", "alter": 0 },
+    "G": { "step": "E", "alter": 0 },
+    "m": { "step": "F", "alter": 0 },
+    "M": { "step": "F", "alter": 1 },
+    "P": { "step": "G", "alter": 0 },
+    "D": { "step": "A", "alter": 0 },
+    "N": { "step": "B", "alter": 0 },
+
+    "r": { "step": "D", "alter": -1 },
+    "g": { "step": "E", "alter": -1 },
+    "d": { "step": "A", "alter": -1 },
+    "n": { "step": "B", "alter": -1 }
+  }
+}

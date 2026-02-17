@@ -1,0 +1,29 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Generated outputs (can be regenerated)
+output/
+output_clean/
+output_min/
+dist/
+
+# Archives / exports
+*.zip
+
+# OS / editor
+.vscode/
+.idea/
+
+# Keep this file tracked (do not ignore)
+!.gitignore

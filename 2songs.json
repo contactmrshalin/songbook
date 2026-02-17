@@ -1,0 +1,377 @@
+{
+  "book_title": "My Favorite Songs",
+  "songs": [
+    {
+      "id": "hamein-tum-se-pyar-kitna-movie-kudrat-1981-singer-kishore-kumar-lyrics-majrooh-sultanpuri-music-r-d-burman-raag-bhairavi-based-format-lyrics-indian-sargam-western-letters",
+      "title": "Hamein Tum Se Pyar Kitna",
+      "info": [
+        "Movie: Kudrat (1981)",
+        "Singer: Kishore Kumar",
+        "Music: R. D. Burman"
+      ],
+      "thumbnail": "images/humein_tumse_pyar_kitna_thumb.jpeg",
+      "background": "images/humein_tumse_pyar_kitna_thumb.jpeg",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Hamein tum se pyar kitna",
+              "indian": "G..m…P..P..D…D..D..D...",
+              "western": "E..F..G..G..A…A..A..A..A..",
+              "tokens": ["G","m","P","P","D","D","D","D","D"]
+            },
+            {
+              "lyrics": "Ye hum nahin jaante",
+              "indian": "N..NR’..NP.. PM’DP…",
+              "western": "B..B..D’..B..A..G.. G..F..G…",
+              "tokens": ["N","N","R'","N","P","P","M'","D","P","D"]
+            },
+            {
+              "lyrics": "Magar jee nahin sakte",
+              "indian": "N..D…P..m.G..m.P..m..G..R..",
+              "western": "",
+              "tokens": ["N","D","P","m","G","m","P","m","G","R"]
+            },
+            {
+              "lyrics": "",
+              "indian": "N..D…P..G.G..m.P..G..m..R..",
+              "western": "B..A…G..F.E..F.G..F..E..D..",
+              "tokens": ["N","D","P","G","G","m","P","G","m","R"]
+            },
+            {
+              "lyrics": "Tumhaare bina",
+              "indian": "R..P…R…P..G…Dha(k) Dha",
+              "western": "D..G…D…G..E…",
+              "tokens": ["R","P","R","P","G","Dha(k)","Dha"]
+            },
+            {
+              "lyrics": "Hamein tum se pyar",
+              "indian": "G..m…P..P..D…",
+              "western": "E..F..G..G..A…",
+              "tokens": ["G","m","P","P","D"]
+            },
+            
+            {
+              "lyrics": "Suna gham judaai ka",
+              "indian": "G’..S’..R’.G’.S’.S’..R’.G’..G’..G’..",
+              "western": "C’..C’..D’..E’..C’..C’..D’..E’..E’..E’..",
+              "tokens": ["G'","S'","R'","G'","S'","S'","R'","G'","G'","G'"]
+            },
+            {
+              "lyrics": "Uthaate hain log",
+              "indian": "D..S’…D…D(K)..D…",
+              "western": "A..C’…A…A..A♭..A..",
+              "tokens": ["D","S'","D","D(k)","D"]
+            },
+            {
+              "lyrics": "Jaane Zindagi kaise",
+              "indian": "G’..S’..R’.G’.S’.S’..R’.G’..G’..G’..",
+              "western": "C’..C’..D’..E’..C’..C’..D’..E’..E’..E’..",
+              "tokens": ["G'","S'","R'","G'","S'","S'","R'","G'","G'","G'"]
+            },
+            {
+              "lyrics": "Bitaate hain log",
+              "indian": "D..S’…D…D(K)..D…",
+              "western": "A..C’…A…A..A♭..A..",
+              "tokens": ["D","S'","D","D(k)","D"]
+            },
+            {
+              "lyrics": "Din bhi yahaan to lage",
+              "indian": "D.N..S’..R’.R’..R’…N..D..P..",
+              "western": "A.B..C’..D’..D’..D’…B..A..G..",
+              "tokens": ["D","N","S'","R'","R'","R'","N","D","P","D"]
+            },
+            {
+              "lyrics": "Baras ke samaan",
+              "indian": "P..S’…P…S’..D…P..m.P.G.",
+              "western": "G..C’…G…C’..A…F.G.E..",
+              "tokens": ["P","S'","P","S'","D","P","m","P","G"]
+            },
+            {
+              "lyrics": "Hamein tum se pyar kitna",
+              "indian": "G..m…P..P..D…D..D..D..D..",
+              "western": "E..F..G..G..A…A..A..A..A..",
+              "tokens": ["G","m","P","P","D","D","D","D","D","D"]
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "id": "bade-achche-lagte-hain",
+      "title": "Bade Achche Lagte Hain",
+      "info": [],
+      "thumbnail": "images/bade_achhe_lagte_hain_thumb.jpeg",
+      "background": "images/bade_achhe_lagte_hain_thumb.jpeg",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Bade achche lagte hain",
+              "indian": "RE GA~ SA NI (DHA) NI SA— GA",
+              "western": "D E~ C B (A) B C— E",
+              "tokens": ["R","G~S","N","(D)N","S:","G"]
+            },
+            {
+              "lyrics": "Yeh dharti yeh nadiya",
+              "indian": "GA GA PA~ MA RE RE MA GA",
+              "western": "E E G~ F D D F E",
+              "tokens": ["G","G","P~m","R","R","m","G"]
+            },
+            {
+              "lyrics": "Yeh raina aur tum",
+              "indian": "SA SA GA RE~ NI NI SA—",
+              "western": "C C E D~ B B C—",
+              "tokens": ["S","S","G","R~N","N","S:"]
+            },
+            {
+              "lyrics": "Hum tum kitne paas hain kitne",
+              "indian": "SA SA SA SA~ SA GA RE GA RE SA NI",
+              "western": "C C C C~ C E D E D C B",
+              "tokens": ["S","S","S","S~S","G","R","G","R","S","N"]
+            },
+            {
+              "lyrics": "Door hain chaand sitare",
+              "indian": "NI NI~ NI DHA NI NI SA—",
+              "western": "B B~ B A B B C—",
+              "tokens": ["N","N~N","D","N","N","S:"]
+            },
+            {
+              "lyrics": "Sach poochho to",
+              "indian": "GA~ GA GA GA",
+              "western": "E~ E E E",
+              "tokens": ["G~G","G","G"]
+            },
+            {
+              "lyrics": "Man ko jhoote",
+              "indian": "GA PA~ MA GA RE",
+              "western": "E G~ F E D",
+              "tokens": ["G","P~m","G","R"]
+            },
+            {
+              "lyrics": "Lagte hain yeh saare",
+              "indian": "RE RE MA~ MA MA PA—",
+              "western": "D D F~ F F G—",
+              "tokens": ["R","R","m~m","m","P:"]
+            },
+            {
+              "lyrics": "Magar sachche lagte hain",
+              "indian": "RE GA~ SA NI (DHA) NI SA— GA",
+              "western": "D E~ C B (A) B C— E",
+              "tokens": ["R","G~S","N","(D)N","S:","G"]
+            }
+          ]
+        }
+      ]
+    },{
+      "id": "gulabi-aankhen-jo-teri-dekhi",
+      "title": "Gulabi Aankhen Jo Teri Dekhi",
+      "info": [
+        "Movie: The Train (1970)",
+        "Singer: Kishore Kumar",
+        "Lyricist: Anand Bakshi",
+        "Music Director: R. D. Burman",
+        "Raag: Khamaj (light)"      ],
+      "thumbnail": "images/gulabi_aankhen_thumb.png",
+      "background": "images/gulabi_aankhen_bg.jpg",
+      "sections": [
+        {
+          "name": "STHAYI",
+          "lines": [
+            {
+              "lyrics": "Gulabi aankhen jo teri dekhi",
+              "indian": "S R G M | M G R S | R G M P | M G R",
+              "western": "A B C D | D C B A | B C D E | D C B",
+              "tokens": [
+                "S",
+                "R",
+                "G",
+                "M",
+                "M",
+                "G",
+                "R",
+                "S",
+                "R",
+                "G",
+                "M",
+                "P",
+                "M",
+                "G",
+                "R"
+              ]
+            },
+            {
+              "lyrics": "Sharabi yeh dil ho gaya",
+              "indian": "G M P | P D P M | G R S…",
+              "western": "C D E | E F E D | C B A:",
+              "tokens": [
+                "G",
+                "M",
+                "P",
+                "P",
+                "D",
+                "P",
+                "M",
+                "G",
+                "R",
+                "S:"
+              ]
+            },
+            {
+              "lyrics": "Sambhalo mujhko o mere yaaron",
+              "indian": "S R G M | M G R S | R G M P",
+              "western": "A B C D | D C B A | B C D E",
+              "tokens": [
+                "S",
+                "R",
+                "G",
+                "M",
+                "M",
+                "G",
+                "R",
+                "S",
+                "R",
+                "G",
+                "M",
+                "P"
+              ]
+            },
+            {
+              "lyrics": "Sambhalna mushkil ho gaya",
+              "indian": "M P D | D P M G | R S…",
+              "western": "D E F | F E D C | B A:",
+              "tokens": [
+                "M",
+                "P",
+                "D",
+                "D",
+                "P",
+                "M",
+                "G",
+                "R",
+                "S:"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANTARA",
+          "lines": [
+            {
+              "lyrics": "Dil mein mere khwab tere",
+              "indian": "P D P M | G R S | R G M",
+              "western": "E F E D | C B A | B C D",
+              "tokens": [
+                "P",
+                "D",
+                "P",
+                "M",
+                "G",
+                "R",
+                "S",
+                "R",
+                "G",
+                "M"
+              ]
+            },
+            {
+              "lyrics": "Tasveer jaise ho deewar pe",
+              "indian": "M P D | D P M | G R S…",
+              "western": "D E F | F E D | C B A:",
+              "tokens": [
+                "M",
+                "P",
+                "D",
+                "D",
+                "P",
+                "M",
+                "G",
+                "R",
+                "S:"
+              ]
+            },
+            {
+              "lyrics": "Tujhpe fida main kyon hua",
+              "indian": "S R G M | M G R S | R G",
+              "western": "A B C D | D C B A | B C",
+              "tokens": [
+                "S",
+                "R",
+                "G",
+                "M",
+                "M",
+                "G",
+                "R",
+                "S",
+                "R",
+                "G"
+              ]
+            },
+            {
+              "lyrics": "Aata hai gussa mujhe pyaar pe",
+              "indian": "M P D | P M G | R S…",
+              "western": "D E F | E D C | B A:",
+              "tokens": [
+                "M",
+                "P",
+                "D",
+                "P",
+                "M",
+                "G",
+                "R",
+                "S:"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUKHDA (REPEAT)",
+          "lines": [
+            {
+              "lyrics": "Gulabi aankhen jo teri dekhi",
+              "indian": "S R G M | M G R S | R G M P | M G R",
+              "western": "A B C D | D C B A | B C D E | D C B",
+              "tokens": [
+                "S",
+                "R",
+                "G",
+                "M",
+                "M",
+                "G",
+                "R",
+                "S",
+                "R",
+                "G",
+                "M",
+                "P",
+                "M",
+                "G",
+                "R"
+              ]
+            },
+            {
+              "lyrics": "Sharabi yeh dil ho gaya",
+              "indian": "G M P | P D P M | G R S…",
+              "western": "C D E | E F E D | C B A:",
+              "tokens": [
+                "G",
+                "M",
+                "P",
+                "P",
+                "D",
+                "P",
+                "M",
+                "G",
+                "R",
+                "S:"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
