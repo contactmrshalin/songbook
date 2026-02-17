@@ -12,63 +12,64 @@
     {{ end }}
   {{ end }}
 
+  {{/* cover image (thumbnail) for PDF-like header */}}
+  {{ $images := where (.Resources.ByType "image") "Params.hidden" "ne" true }}
+  {{ $covers := where (.Resources.ByType "image") "Params.cover" "eq" true }}
+  {{ $cover := (index $covers 0) | default (index $images 0) }}
+  {{ $coverThumb := "" }}
+  {{ with $cover }}
+    {{ $coverThumb = .Filter (slice images.AutoOrient (images.Process "fit 220x220")) }}
+  {{ end }}
+
   {{ if $bg }}
     <div class="songbook-bg" style="--songbook-bg: url('{{ $bg }}');" aria-hidden="true"></div>
   {{ end }}
 
   <section class="songbook-song" data-songbook-song>
-    <header class="songbook-song__hero">
-      <div class="songbook-song__hero-inner">
-        <h1 class="songbook-song__title">{{ .Title }}</h1>
-        {{ with $song.info }}
-          <div class="songbook-song__info">
-            {{ range . }}
-              <div class="songbook-song__info-line">{{ . }}</div>
-            {{ end }}
-          </div>
+    <div class="songbook-page">
+      <header class="songbook-header">
+        {{ with $coverThumb }}
+          <img class="songbook-header__cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }} cover" />
         {{ end }}
+        <div class="songbook-header__meta">
+          <h1 class="songbook-header__title">{{ .Title }}</h1>
+          {{ with $song.info }}
+            <div class="songbook-header__info">
+              {{ range . }}
+                <div class="songbook-header__info-line">{{ . }}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </header>
 
-        <div class="songbook-song__toolbar">
-          <a class="songbook-btn" href="{{ "/" | relURL }}">← All songs</a>
-          <div class="songbook-btn-group" role="group" aria-label="Notation mode">
-            <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="indian">Indian</button>
-            <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="western">Western</button>
-            <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="both">Both</button>
-          </div>
+      <div class="songbook-toolbar">
+        <a class="songbook-btn" href="{{ "/" | relURL }}">Back to Index</a>
+        <div class="songbook-btn-group" role="group" aria-label="Notation mode">
+          <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="indian">Indian</button>
+          <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="western">Western</button>
+          <button class="songbook-btn songbook-btn--ghost" type="button" data-notation-mode="both">Both</button>
         </div>
       </div>
-    </header>
 
-    <div class="songbook-song__body">
+      <div class="songbook-body">
       {{ range ($song.sections | default (slice)) }}
         <section class="songbook-section">
           <h2 class="songbook-section__title">{{ .name }}</h2>
-          <div class="songbook-lines">
+          <div class="songbook-two-col">
             {{ range (.lines | default (slice)) }}
-              <article class="songbook-line">
-                <div class="songbook-line__row">
-                  <div class="songbook-block songbook-block--lyrics">
-                    <div class="songbook-label">Lyrics</div>
-                    <pre class="songbook-pre">{{ .lyrics }}</pre>
-                  </div>
-
-                  <div class="songbook-block songbook-block--indian notation-indian">
-                    <div class="songbook-label">Indian</div>
-                    <pre class="songbook-pre songbook-pre--mono">{{ .indian }}</pre>
-                  </div>
-
-                  {{ with .western }}
-                    <div class="songbook-block songbook-block--western notation-western">
-                      <div class="songbook-label">Western</div>
-                      <pre class="songbook-pre songbook-pre--mono">{{ . }}</pre>
-                    </div>
-                  {{ end }}
-                </div>
-              </article>
+              <div class="songbook-line">
+                <div class="songbook-lyric">{{ .lyrics }}</div>
+                <div class="songbook-notation songbook-notation--indian notation-indian">{{ .indian }}</div>
+                {{ with .western }}
+                  <div class="songbook-notation songbook-notation--western notation-western">{{ . }}</div>
+                {{ end }}
+              </div>
             {{ end }}
           </div>
         </section>
       {{ end }}
+      </div>
     </div>
   </section>
 

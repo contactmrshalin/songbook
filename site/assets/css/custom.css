@@ -77,28 +77,43 @@
   position: relative;
   z-index: 1;
 }
-.songbook-song__hero,
-.songbook-song__body{
-  position: relative;
-  z-index: 1;
+
+/* centered PDF-like page column */
+.songbook-page{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 860px;
 }
-.songbook-song__hero{
-  padding: 1.2rem 1rem 1rem;
+
+.songbook-header{
+  display:flex;
+  gap: 1.25rem;
+  align-items: flex-start;
 }
-.songbook-song__title{
+.songbook-header__cover{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: .35rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.22);
+}
+.songbook-header__title{
   margin: 0;
+  font-size: 2rem;
+  line-height: 1.15;
 }
-.songbook-song__info{
-  margin-top: .75rem;
-  display: grid;
-  gap: .25rem;
-  opacity: .9;
+.songbook-header__info{
+  margin-top: .5rem;
+  display:grid;
+  gap: .15rem;
+  opacity: .92;
 }
-.songbook-song__info-line{
-  font-size: .95rem;
-  opacity: .85;
+.songbook-header__info-line{
+  font-size: 1rem;
+  opacity: .88;
 }
-.songbook-song__toolbar{
+
+.songbook-toolbar{
   margin-top: .9rem;
   display:flex;
   gap: .6rem;
@@ -126,66 +141,56 @@
   gap: .4rem;
 }
 
-.songbook-song__body{
-  padding: 0 1rem 1.25rem;
+.songbook-body{
+  margin-top: 1.35rem;
 }
 .songbook-section{
-  margin-top: 1rem;
+  margin-top: 1.35rem;
   border: 0;
   border-radius: 0;
   background: transparent;
 }
 .songbook-section__title{
   margin: 0;
-  padding: .35rem 0 .35rem;
-  font-size: .95rem;
+  padding: .25rem 0 .55rem;
+  font-size: 1.35rem;
   letter-spacing: .08em;
   text-transform: uppercase;
   border-bottom: 0;
   background: transparent;
-  opacity: .9;
+  opacity: .92;
 }
-.songbook-lines{
-  padding: .25rem 0 0;
-  display: grid;
-  gap: .45rem;
+
+/* two-column flow like your PDF */
+.songbook-two-col{
+  column-count: 1;
+  column-gap: 3rem;
 }
+@media (min-width: 900px){
+  .songbook-two-col{ column-count: 2; }
+}
+
 .songbook-line{
   border: 0;
   border-radius: 0;
   background: transparent;
-  padding: .15rem 0;
-}
-.songbook-line__row{
-  display:grid;
-  gap: .65rem;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 980px){
-  .songbook-line__row{
-    grid-template-columns: 1fr 1fr;
-  }
-  .songbook-line__row:has(.notation-western){
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  padding: .1rem 0 .55rem;
+  break-inside: avoid;
 }
 
-.songbook-label{
-  font-size: .72rem;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-  opacity: .7;
-  margin-bottom: .35rem;
+.songbook-lyric{
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  margin-bottom: .15rem;
 }
-.songbook-pre{
-  margin: 0;
+.songbook-notation{
   white-space: pre-wrap;
   word-break: break-word;
-  line-height: 1.35;
-}
-.songbook-pre--mono{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: .95rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  opacity: .92;
 }
 
 /* Notation toggle modes (set on <html>) */
