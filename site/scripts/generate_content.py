@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 from pathlib import Path
 from typing import Any
@@ -24,10 +25,13 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SONGS_JSON = REPO_ROOT / "songs.json"
 IMAGES_DIR = REPO_ROOT / "images"
+NOTATION_MAPPING_JSON = REPO_ROOT / "notation_mapping.json"
 
 SITE_DIR = REPO_ROOT / "site"
 CONTENT_DIR = SITE_DIR / "content"
 SONGS_SECTION_DIR = CONTENT_DIR / "songs"
+
+_NOTE_RE = re.compile(r"(Sa|Re|Ga|Ma|Pa|Dha|Ni)(\((?:k|T)\))?([.']?)")
 
 
 def _read_json(path: Path) -> dict[str, Any]:
@@ -74,11 +78,63 @@ def _yaml_quote(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n") + '"'
 
 
+def _token_to_note_name(step: str, alter: int) -> str:
+    if alter == 1:
+        return f"{step}#"
+    if alter == -1:
+        return f"{step}b"
+    return step
+
+
+def _indian_to_western(indian: str, mapping: dict[str, Any]) -> str:
+    """
+    Best-effort conversion for display:
+    - Sa/Re/Ga/Ma/Pa/Dha/Ni -> C/D/E/F/G/A/B (with flats/sharps for komal/tivra)
+    - preserves separators/ornaments/braces
+    - preserves octave markers '.' and "'" when written as suffixes
+    """
+    if not indian or not mapping:
+        return ""
+
+    word_to_token = mapping.get("word_to_token", {})
+    komal_word_to_token = mapping.get("komal_word_to_token", {})
+    tivra_word_to_token = mapping.get("tivra_word_to_token", {})
+    token_to_western = mapping.get("token_to_western", {})
+
+    def repl(m: re.Match[str]) -> str:
+        word = m.group(1)
+        acc = m.group(2) or ""
+        octv = m.group(3) or ""
+
+        if acc == "(k)":
+            tok = komal_word_to_token.get(word) or word_to_token.get(word)
+        elif acc == "(T)":
+            tok = tivra_word_to_token.get(word) or word_to_token.get(word)
+        else:
+            tok = word_to_token.get(word)
+
+        if not tok:
+            return m.group(0)
+        tw = token_to_western.get(tok)
+        if not isinstance(tw, dict):
+            return m.group(0)
+
+        step = str(tw.get("step") or "")
+        alter = int(tw.get("alter") or 0)
+        if not step:
+            return m.group(0)
+
+        return _token_to_note_name(step, alter) + octv
+
+    return _NOTE_RE.sub(repl, indian)
+
+
 def build() -> None:
     if not SONGS_JSON.exists():
         raise SystemExit(f"Missing {SONGS_JSON}")
 
     data = _read_json(SONGS_JSON)
+    mapping = _read_json(NOTATION_MAPPING_JSON) if NOTATION_MAPPING_JSON.exists() else {}
     songs = data.get("songs") or []
     if not isinstance(songs, list):
         raise SystemExit("songs.json: 'songs' must be a list")
@@ -128,11 +184,32 @@ def build() -> None:
 
         # Build a compact JSON payload for rendering in custom layout.
         sections = s.get("sections") if isinstance(s.get("sections"), list) else []
+        # Ensure each line has western notation for the website toggle.
+        enriched_sections: list[dict[str, Any]] = []
+        for sec in sections:
+            if not isinstance(sec, dict):
+                continue
+            lines = sec.get("lines") if isinstance(sec.get("lines"), list) else []
+            new_lines: list[dict[str, Any]] = []
+            for ln in lines:
+                if not isinstance(ln, dict):
+                    continue
+                indian = str(ln.get("indian") or "")
+                western_val = ln.get("western")
+                if (western_val is None or str(western_val).strip() == "") and indian and mapping:
+                    western_val = _indian_to_western(indian, mapping)
+                new_ln = dict(ln)
+                if western_val and str(western_val).strip():
+                    new_ln["western"] = str(western_val)
+                new_lines.append(new_ln)
+            new_sec = dict(sec)
+            new_sec["lines"] = new_lines
+            enriched_sections.append(new_sec)
         payload = {
             "id": sid,
             "title": title,
             "info": info_lines,
-            "sections": sections,
+            "sections": enriched_sections,
             "background": bg_filename,
         }
         payload_json = json.dumps(payload, ensure_ascii=False)
