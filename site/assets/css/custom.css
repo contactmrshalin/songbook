@@ -53,6 +53,22 @@
   opacity: .78;
 }
 
+/* Light theme tweaks (the theme sets <html class="light">) */
+html.light .songbook-search{
+  border-color: rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.55);
+}
+html.light .songbook-search__input{
+  border-color: rgba(0,0,0,0.14);
+  background: rgba(255,255,255,0.78);
+  color: rgba(0,0,0,0.90);
+}
+html.light .songbook-pill{
+  border-color: rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.55);
+  color: rgba(0,0,0,0.75);
+}
+
 /* Song page */
 .songbook-song{
   position: relative;

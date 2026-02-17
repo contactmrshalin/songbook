@@ -14,7 +14,7 @@ theme = "gallery"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-defaultTheme = "dark"
+defaultTheme = "light"
 description = "Songbook (generated from songs.json)"
 title = "Songbook"
 
