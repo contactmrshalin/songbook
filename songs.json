@@ -12,6 +12,8 @@
     {
       "id": "dil_kya_kare",
       "title": "Dil Kya Kare Jab Kisi Se Pyaar Ho Jaye",
+      "thumbnail":"images/dil_kya_kare.png",
+      "background":"images/dil_kya_kare.png",
       "sections": [
         {
           "name": "Mukhda",
