@@ -10,6 +10,79 @@
   },
   "songs": [
     {
+      "id": "dil_kya_kare",
+      "title": "Dil Kya Kare Jab Kisi Se Pyaar Ho Jaye",
+      "sections": [
+        {
+          "name": "Mukhda",
+          "lines": [
+            {
+              "lyrics": "Dil kya kare jab kisi se",
+              "indian": "Ga Dha Ni Sa Ni Dha Ni Re"
+            },
+            {
+              "lyrics": "Kisi ko pyar ho jaye",
+              "indian": "Dha SaDha SaDha SaReSa Dha _ Dha"
+            },
+            {
+              "lyrics": "Jane kahan kab kisi ko",
+              "indian": "Ga Dha NiDha Ni GaRe Re"
+            },
+            {
+              "lyrics": "Kisi se pyar ho jaye",
+              "indian": "Dha SaDha SaDha SaReSa Dha _ Dha"
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Unchi unchi diwaron se",
+              "indian": "Ga' Re' Ga' Ga'Re'Ga' Ga Re Re ReSaNi"
+            },
+            {
+              "lyrics": "Is duniya ki rasme",
+              "indian": "ni niRe ReSaReGa _ReSa SaSa Sa "
+            },
+            {
+              "lyrics": "Na kuch tere, bas main julie",
+              "indian": "Ga _GaRe Ga GaReGa, _ Ga Re Re ReSaNi"
+            },
+            {
+              "lyrics": "Na kuch mere bas main",
+              "indian": "ni niRe ReSaReGa _ReSa SaSa Sa _ Ni Dha"
+            }
+          ]
+        },
+        {
+          "name": "Antara",
+          "lines": [
+            {
+              "lyrics": "Jaise parbat pe,ghata jhuktihai",
+              "indian": "GaGa _GaDha Dha PaGa, Ga _GaDha Dha Pa"
+            },
+            {
+              "lyrics": "Jaise saagarmein, lehar uthti hai",
+              "indian": "GaGa _GaDha Dha PaGa,Ga _GaDha Dha Pa"
+            },
+            {
+              "lyrics": "Aise kisi chehre pe, nigaahrukti hai",
+              "indian": "Sa NiSaNi SaNi SaSa, Ni DhaPa DhaPa __ Ga _ReSa"
+            },
+            {
+              "lyrics": "Ho rok nahin sakti nazron ko",
+              "indian": " Ga Ga Re Ga GaReGa Ga Re Re ReSaNi"
+            },
+            {
+              "lyrics": "Duniya bhar ki rasmein",
+              "indian": "ni niRe ReSaReGa _ReSa SaSa Sa _ Ni Dha"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lag-ja-gale",
       "title": "Lag Ja Gale",
       "info": [
@@ -452,7 +525,7 @@
           "lines": [
             {
               "lyrics": "Piyu bole piya bole",
-              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+              "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
             },
             {
               "lyrics": "Hmm hmm hmm hmm jaanu na",
@@ -460,7 +533,7 @@
             },
             {
               "lyrics": "Jiya dole hole hole",
-              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+              "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
             },
             {
               "lyrics": "Kyon yeh dole jaanu na",
@@ -492,7 +565,7 @@
             },
             {
               "lyrics": "Piyu bole piya bole",
-              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+              "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
             },
             {
               "lyrics": "Kya yeh bole jaanu na",
@@ -500,7 +573,7 @@
             },
             {
               "lyrics": "Jiya dole hole hole",
-              "indian": "Sa..Ni(k)..Sa..Re…  Ga.Re..Ga..Pa.Ma..Ga…"
+              "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
             },
             {
               "lyrics": "Kyon yeh dole jaanu na",
@@ -701,27 +774,27 @@
           "lines": [
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             },
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             }
           ]
         },
@@ -730,27 +803,27 @@
           "lines": [
             {
               "lyrics": "Kaha do dilon ne",
-              "indian": "Ni(k) Sa'  Sa'  Ni(k) Sa' Sa' Re(k)'"
+              "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'"
             },
             {
               "lyrics": "Ki milkar Kabhi hum",
-              "indian": "Re(k)' Sa' Ni(k)  Dha(k) Ni(k) Sa'"
+              "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'"
             },
             {
               "lyrics": "Na honge juda",
-              "indian": "Sa'  Dha(k) Ni(k)  Dha(k) Pa"
+              "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa"
             },
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             }
           ]
         },
@@ -759,15 +832,15 @@
           "lines": [
             {
               "lyrics": "Music",
-              "indian": "Sa' Re(k)'  Sa' Dha(k)'"
+              "indian": "Sa' Re(k)' Sa' Dha(k)'"
             },
             {
               "lyrics": "Music",
-              "indian": "Ni(k)' Dha(k)' Ni(k)' Dha(k)'  Pa' Ma' Dha(k)'"
+              "indian": "Ni(k)' Dha(k)' Ni(k)' Dha(k)' Pa' Ma' Dha(k)'"
             },
             {
               "lyrics": "Music",
-              "indian": "Sa' Re(k)'  Sa' Pa'"
+              "indian": "Sa' Re(k)' Sa' Pa'"
             },
             {
               "lyrics": "Music",
@@ -780,51 +853,51 @@
           "lines": [
             {
               "lyrics": "Yeh kya baat hai",
-              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "Aaj ki chandni mein",
-              "indian": "Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+              "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
             },
             {
               "lyrics": "Yeh kya baat hai",
-              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "Aaj ki chandni mein",
-              "indian": "Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+              "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
             },
             {
               "lyrics": "Ke hum kho gaye",
-              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "Pyar ki ragini mein",
-              "indian": "Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+              "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
             },
             {
               "lyrics": "Yeh baahon mein baahen",
-              "indian": "Sa'  Ga(k)' Ga(k)' Ga(k)'  Ga(k)' Ga(k)' Re' Ga(k)'"
+              "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'"
             },
             {
               "lyrics": "Yeh behki nigahen",
-              "indian": "Sa'  Ga(k)' Ga(k)'  Ga(k)' Ga(k)' Re' Ga(k)'"
+              "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'"
             },
             {
               "lyrics": "Lo aane laga zindagi ka maza",
-              "indian": "Sa' Ga(k)' Re(k)'  Sa' Ni(k)  Dha(k) Pa Ma  Pa Sa' Dha(k)"
+              "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Sa' Dha(k)"
             },
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             }
           ]
         },
@@ -833,43 +906,43 @@
           "lines": [
             {
               "lyrics": "Sitaron ki mehfil",
-              "indian": "Sa'  Sa' Ma' Ma'  Ga(k)' Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "ne karke ishara",
-              "indian": "Ni(k)  Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+              "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
             },
             {
               "lyrics": "Kaha ab to saara",
-              "indian": "Sa'  Sa' Ma'  Ma' Ga(k)'  Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "jahan hai tumhara",
-              "indian": "Ni(k) Ni(k) Sa' Dha'  Ni(k) Sa' Sa' Re(k)' Sa'"
+              "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
             },
             {
               "lyrics": "Mohabbat jawan ho,",
-              "indian": "Sa' Sa' Ga(k)' Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+              "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
             },
             {
               "lyrics": "khula aasman ho",
-              "indian": "Sa' Ga(k)'  Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+              "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
             },
             {
               "lyrics": "Kare koyi dil aarzoo aur kya",
-              "indian": "Sa' Ga(k)' Re(k)'  Sa' Ni(k)  Dha(k) Pa Ma  Pa Ni(k) Dha(k)"
+              "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)"
             },
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             }
           ]
         },
@@ -878,43 +951,43 @@
           "lines": [
             {
               "lyrics": "Kasam hai tumhe tum",
-              "indian": "Sa' Sa' Ma' Ma'  Ga(k)' Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "agar mujhse roothe",
-              "indian": "Ni(k) Ni(k) Sa'  Dha' Ni(k) Re(k)' Sa'"
+              "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'"
             },
             {
               "lyrics": "Rahe saans jab tak,",
-              "indian": "Sa' Sa' Ma' Ma'  Ga(k)' Re(k)' Sa'"
+              "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
             },
             {
               "lyrics": "yeh bandhan na toote",
-              "indian": "Ni(k) Ni(k) Sa' Dha'  Ni(k) Re(k)' Sa'"
+              "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'"
             },
             {
               "lyrics": "Tumhein dil diya hai,",
-              "indian": "Sa' Sa' Ga(k)' Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+              "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
             },
             {
               "lyrics": "yeh vaada kiya hai",
-              "indian": "Sa' Ga(k)' Ga(k)'  Re' Ga(k)' Re' Ga(k)'"
+              "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
             },
             {
               "lyrics": "Sanam main tumhaari rahoongi sada",
-              "indian": "Sa' Ga(k)' Re(k)'  Sa' Ni(k)  Dha(k) Pa Ma  Pa Ni(k) Dha(k)"
+              "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)"
             },
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             }
           ]
         },
@@ -923,27 +996,27 @@
           "lines": [
             {
               "lyrics": "Kaha do dilon ne",
-              "indian": "Ni(k) Sa'  Sa'  Ni(k) Sa' Sa' Re(k)'"
+              "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'"
             },
             {
               "lyrics": "Ki milkar Kabhi hum",
-              "indian": "Re(k)' Sa' Ni(k)  Dha(k) Ni(k) Sa'"
+              "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'"
             },
             {
               "lyrics": "Na honge juda",
-              "indian": "Sa'  Dha(k) Ni(k)  Dha(k) Pa"
+              "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa"
             },
             {
               "lyrics": "Yeh raaten yeh mausam",
-              "indian": "Ma Dha(k) Pa  Ma Dha(k) Pa"
+              "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
             },
             {
               "lyrics": "Nadi ka kinara",
-              "indian": "Ma Dha(k) Pa  Ma Ga Ga"
+              "indian": "Ma Dha(k) Pa Ma Ga Ga"
             },
             {
               "lyrics": "Yeh chanchal hawa",
-              "indian": "Sa Pa Pa  Ma Ma"
+              "indian": "Sa Pa Pa Ma Ma"
             }
           ]
         }
@@ -1791,11 +1864,11 @@
           "lines": [
             {
               "lyrics": "Phrase 1 (x2)",
-              "indian": "Re Dha: Ni Dha  Ni Dha  Ma Re~ Ma: Ga Re (x2)"
+              "indian": "Re Dha: Ni Dha Ni Dha Ma Re~ Ma: Ga Re (x2)"
             },
             {
               "lyrics": "Phrase 2",
-              "indian": "Ma Ma Ga~ Dha(k) Dha Ni: | Ni Re Sa,  Ni Dha Dha(k) Ma Ga"
+              "indian": "Ma Ma Ga~ Dha(k) Dha Ni: | Ni Re Sa, Ni Dha Dha(k) Ma Ga"
             }
           ]
         },
@@ -1804,11 +1877,11 @@
           "lines": [
             {
               "lyrics": "Phrase 1 (x2)",
-              "indian": "Re Dha: Ni Re Sa Re Sa Dha,  Sa Re Sa Dha: Ma Re: Ma: Ga Re (x2)"
+              "indian": "Re Dha: Ni Re Sa Re Sa Dha, Sa Re Sa Dha: Ma Re: Ma: Ga Re (x2)"
             },
             {
               "lyrics": "Phrase 2",
-              "indian": "Re Ma Ma Ga,  Dha Dha Ni:  Ni Re Re Sa:"
+              "indian": "Re Ma Ma Ga, Dha Dha Ni: Ni Re Re Sa:"
             },
             {
               "lyrics": "Ending",
@@ -1858,7 +1931,7 @@
             },
             {
               "lyrics": "Phrase 6",
-              "indian": "Ma(T) Dha Pa  Ma(T) Ga"
+              "indian": "Ma(T) Dha Pa Ma(T) Ga"
             },
             {
               "lyrics": "Phrase 7",
@@ -1871,7 +1944,7 @@
           "lines": [
             {
               "lyrics": "Phrase 8",
-              "indian": "Ga Re Sa  Re Ga"
+              "indian": "Ga Re Sa Re Ga"
             }
           ]
         }
@@ -2263,7 +2336,7 @@
           "lines": [
             {
               "lyrics": "Aaah...",
-              "indian": "Sa~Re Ga~Re Sa:  Sa~Ni(k) Sa:"
+              "indian": "Sa~Re Ga~Re Sa: Sa~Ni(k) Sa:"
             },
             {
               "lyrics": "Hmmmmm",
@@ -2292,11 +2365,11 @@
             },
             {
               "lyrics": "Udne laga kyon mann baawra",
-              "indian": "Ga Ma Pa Ma Ga Re  Sa~Ni(k) Sa Re Ga:"
+              "indian": "Ga Ma Pa Ma Ga Re Sa~Ni(k) Sa Re Ga:"
             },
             {
               "lyrics": "Aaya kahaan se mann baawra",
-              "indian": "Ga Ma Pa Ma Ga Re  Sa~Ni(k) Sa:"
+              "indian": "Ga Ma Pa Ma Ga Re Sa~Ni(k) Sa:"
             }
           ]
         },
@@ -2305,7 +2378,7 @@
           "lines": [
             {
               "lyrics": "Dole re dole re mann mora",
-              "indian": "Re Ga Ma Pa Ma Ga Re  Sa:"
+              "indian": "Re Ga Ma Pa Ma Ga Re Sa:"
             },
             {
               "lyrics": "Jhoome re jhoome re tan mora",
@@ -2330,7 +2403,7 @@
             },
             {
               "lyrics": "O re piya haaye",
-              "indian": "Sa Re Ga~Re Sa:  Ni(k)~Sa:"
+              "indian": "Sa Re Ga~Re Sa: Ni(k)~Sa:"
             }
           ]
         },
@@ -2356,7 +2429,7 @@
           "lines": [
             {
               "lyrics": "Aaah haaye…",
-              "indian": "Sa Re Ga Ma~Ga Re Sa  Ni(k)~Sa:"
+              "indian": "Sa Re Ga Ma~Ga Re Sa Ni(k)~Sa:"
             }
           ]
         }
@@ -2519,7 +2592,7 @@
           "name": "INTRO",
           "lines": [
             {
-              "lyrics": "Ooo  hoo hoo  hoo",
+              "lyrics": "Ooo hoo hoo hoo",
               "indian": "Ga Ma Dha Pa"
             },
             {
@@ -2877,7 +2950,7 @@
             },
             {
               "lyrics": "Pehli nazar mein pehla pyaar ho gaya",
-              "indian": "Ga Dha Sa' Ni Dha Ga' Sa'  Re_ _ Re'Ga' Re"
+              "indian": "Ga Dha Sa' Ni Dha Ga' Sa' Re_ _ Re'Ga' Re"
             }
           ]
         },
@@ -3231,19 +3304,19 @@
           "lines": [
             {
               "lyrics": "Humko humise chura lo",
-              "indian": "Dha Ga Re  Re Ga  Re Sa  Sa Re  Re Ni"
+              "indian": "Dha Ga Re Re Ga Re Sa Sa Re Re Ni"
             },
             {
               "lyrics": "Dil mein kahin tum chhupa lo",
-              "indian": "Pa Re^ Sa  Sa Re  Dha Sa Ni  Ni Sa Sa^ Dha"
+              "indian": "Pa Re^ Sa Sa Re Dha Sa Ni Ni Sa Sa^ Dha"
             },
             {
               "lyrics": "Humko humise chura lo (variation)",
-              "indian": "Dha Ga Re  Re Ga  Re Sa  Sa Re Re  Ga^^ Ni"
+              "indian": "Dha Ga Re Re Ga Re Sa Sa Re Re Ga^^ Ni"
             },
             {
               "lyrics": "Dil mein kahin tum chhupa lo (variation)",
-              "indian": "Pa Re^ Sa  Sa Re  Sa Sa Ni  Ni Sa Sa Ga^^ Dha"
+              "indian": "Pa Re^ Sa Sa Re Sa Sa Ni Ni Sa Sa Ga^^ Dha"
             }
           ]
         },
@@ -3252,15 +3325,15 @@
           "lines": [
             {
               "lyrics": "Hum akele kho na jaayein",
-              "indian": "Sa Ni  Dha Ni Dha  Ni Dha  Pa Dha Pa"
+              "indian": "Sa Ni Dha Ni Dha Ni Dha Pa Dha Pa"
             },
             {
               "lyrics": "Door tumse ho na jaayein",
-              "indian": "Sa Ni  Dha Ni Sa^^ Dha  Ni Dha Pa Dha Pa"
+              "indian": "Sa Ni Dha Ni Sa^^ Dha Ni Dha Pa Dha Pa"
             },
             {
               "lyrics": "Paas aao gale se laga lo",
-              "indian": "Ga Ma Ga Re  Ga Sa  Sa Sa Re  Ga^^ Sa"
+              "indian": "Ga Ma Ga Re Ga Sa Sa Sa Re Ga^^ Sa"
             }
           ]
         },
@@ -3269,19 +3342,19 @@
           "lines": [
             {
               "lyrics": "Ye dil dhadka do",
-              "indian": "Sa Ni  Ni Sa  Ni^ Dha  Dha Ni Dha^ Pa  Pa Pa Dha Pa Dha"
+              "indian": "Sa Ni Ni Sa Ni^ Dha Dha Ni Dha^ Pa Pa Pa Dha Pa Dha"
             },
             {
               "lyrics": "Zulfein bikhra do",
-              "indian": "Ni Dha  Dha Ni Dha^^  Pa Pa  Ma Ma  Dha Pa"
+              "indian": "Ni Dha Dha Ni Dha^^ Pa Pa Ma Ma Dha Pa"
             },
             {
               "lyrics": "Sharma ke apna",
-              "indian": "Dha^^ Pa  Pa Dha Ma  Ma Ga Ga Pa Ma"
+              "indian": "Dha^^ Pa Pa Dha Ma Ma Ga Ga Pa Ma"
             },
             {
               "lyrics": "Aanchal lehra do",
-              "indian": "Sa Ni  Ni Sa  Ni Dha  Dha Ni Pa  Pa Pa Dha Pa Dha"
+              "indian": "Sa Ni Ni Sa Ni Dha Dha Ni Pa Pa Pa Dha Pa Dha"
             }
           ]
         },
@@ -3290,23 +3363,23 @@
           "lines": [
             {
               "lyrics": "Hum zulfein to bikhra dein",
-              "indian": "Ni Sa Re  Ma Ga Re  Sa Ga Re"
+              "indian": "Ni Sa Re Ma Ga Re Sa Ga Re"
             },
             {
               "lyrics": "Din mein raat na ho jaaye",
-              "indian": "Ni Sa Re  Re Ma  Ga Re Re"
+              "indian": "Ni Sa Re Re Ma Ga Re Re"
             },
             {
               "lyrics": "Hum aanchal to lehra dein",
-              "indian": "Dha Ni  Sa Sa Re  Sa Ni  Sa Re Sa"
+              "indian": "Dha Ni Sa Sa Re Sa Ni Sa Re Sa"
             },
             {
               "lyrics": "Par barsaat na ho jaaye",
-              "indian": "Dha Ni  Sa Sa Ga  Re Re  Sa Sa"
+              "indian": "Dha Ni Sa Sa Ga Re Re Sa Sa"
             },
             {
               "lyrics": "Paas aao gale se laga lo (repeat)",
-              "indian": "Ga Ma Ga Re  Ga Sa  Sa Sa Re Ga^^ Ma  Ni Sa Ni Dha"
+              "indian": "Ga Ma Ga Re Ga Sa Sa Sa Re Ga^^ Ma Ni Sa Ni Dha"
             }
           ]
         }
@@ -3332,19 +3405,19 @@
           "lines": [
             {
               "lyrics": "Saawan ka mahina",
-              "indian": "Dha Pa Pa  Ga Ga Ga  Re Re Ga"
+              "indian": "Dha Pa Pa Ga Ga Ga Re Re Ga"
             },
             {
               "lyrics": "Pawan kare shor",
-              "indian": "Re Re Re  Ga Re Sa  Re~Pa'  (x2)"
+              "indian": "Re Re Re Ga Re Sa Re~Pa' (x2)"
             },
             {
               "lyrics": "Jiyara re jhoome aise",
-              "indian": "Re Re Re  Ma Ma  Ma Ga  Re Ga Re  Sa Ni"
+              "indian": "Re Re Re Ma Ma Ma Ga Re Ga Re Sa Ni"
             },
             {
               "lyrics": "Jaise banma naache mor",
-              "indian": "Ni Ni  Sa Re Ga  Re Ga Re Sa Sa"
+              "indian": "Ni Ni Sa Re Ga Re Ga Re Sa Sa"
             }
           ]
         },
@@ -3353,7 +3426,7 @@
           "lines": [
             {
               "lyrics": "Flute Music",
-              "indian": "Pa:  Pa Pa  Pa Dha Ni  Dha Ni Dha  Pa Re,  Ga Ma Ga  Ma Ga Re Sa  Sa Dha Pa Dha~Pa"
+              "indian": "Pa: Pa Pa Pa Dha Ni Dha Ni Dha Pa Re, Ga Ma Ga Ma Ga Re Sa Sa Dha Pa Dha~Pa"
             }
           ]
         },
@@ -3362,19 +3435,19 @@
           "lines": [
             {
               "lyrics": "Ram gajab dhaaye, ye purvaiya",
-              "indian": "Pa Pa Pa  Pa Pa Pa Pa  Sa,  Sa Re  Re Pa Pa Pa Pa"
+              "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa"
             },
             {
               "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
-              "indian": "Pa Dha Pa Ma  Ga Pa Ma Ga Re,  Ma Re Ma  Ga Ga Ga"
+              "indian": "Pa Dha Pa Ma Ga Pa Ma Ga Re, Ma Re Ma Ga Ga Ga"
             },
             {
               "lyrics": "Ram gajab dhaaye, ye purvaiya",
-              "indian": "Pa Pa Pa  Pa Pa Pa Pa  Sa,  Sa Re  Re Pa Pa Pa Pa"
+              "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa"
             },
             {
               "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
-              "indian": "Pa Dha Pa Ma  Ga Pa Ma Ga Re,  Ma Ga Re~  Ga Re Sa Sa"
+              "indian": "Pa Dha Pa Ma Ga Pa Ma Ga Re, Ma Ga Re~ Ga Re Sa Sa"
             }
           ]
         }
@@ -4400,11 +4473,11 @@
           "lines": [
             {
               "lyrics": "(Interlude)",
-              "indian": "Pa Dha Ni' Dha Pa Dha  Sa Pa"
+              "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa"
             },
             {
               "lyrics": "(Interlude)",
-              "indian": "Pa Dha Ni' Dha Pa Dha  Sa Pa"
+              "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa"
             },
             {
               "lyrics": "(Interlude)",
@@ -4425,39 +4498,39 @@
           "lines": [
             {
               "lyrics": "Aankhen meri",
-              "indian": "Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+              "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
             },
             {
               "lyrics": "sapne tere",
-              "indian": "Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+              "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
             },
             {
               "lyrics": "Dil mera, yaadein teri",
-              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+              "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
             },
             {
               "lyrics": "(repeat)",
-              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+              "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
             },
             {
               "lyrics": "O, mera hai kya",
-              "indian": "Pa Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+              "indian": "Pa Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
             },
             {
               "lyrics": "Sab kuch tera",
-              "indian": "Pa Dha Sa'' Sa'' Pa  Pa Dha Ni' Pa"
+              "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
             },
             {
               "lyrics": "Jaan teri, saansein teri",
-              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+              "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
             },
             {
               "lyrics": "(repeat)",
-              "indian": "Dha Pa Dha Ni'  Ma(T) Ma(T) Ni' Pa"
+              "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
             },
             {
               "lyrics": "Meri aankhon mein aansu tere aa gaye",
-              "indian": "Pa Dha Pa Dha Pa Dha Dha Ga Ma(T) Sa Pa  Pa Dha Pa Dha Pa Dha Ma(T) Ga Dha"
+              "indian": "Pa Dha Pa Dha Pa Dha Dha Ga Ma(T) Sa Pa Pa Dha Pa Dha Pa Dha Ma(T) Ga Dha"
             },
             {
               "lyrics": "Muskuraane lage saare gham",
