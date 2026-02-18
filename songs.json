@@ -12,8 +12,8 @@
     {
       "id": "dil_kya_kare",
       "title": "Dil Kya Kare Jab Kisi Se Pyaar Ho Jaye",
-      "thumbnail":"images/dil_kya_kare.png",
-      "background":"images/dil_kya_kare.png",
+      "thumbnail": "images/dil_kya_kare.png",
+      "background": "images/dil_kya_kare.png",
       "sections": [
         {
           "name": "Mukhda",
@@ -1481,8 +1481,8 @@
       "export": true
     },
     {
+      "title": "Ud Ja Kale Kawan",
       "id": "ud_ja_kaale_kawan",
-      "title": "Ud Ja Kaale Kawan",
       "movie": "Gadar – Ek Prem Katha",
       "year": "2001",
       "thumbnail": "images/udd_ja_kaale_kaawan.png",
@@ -1494,88 +1494,44 @@
       ],
       "sections": [
         {
-          "name": "Mukhda – Line 1",
+          "name": "Mukhda",
           "lines": [
             {
-              "lyrics": "Ud ja kale kawan",
-              "indian": "Ga Ga Ma Pa Dha Pa Ma~Ga Re Sa. Re Ga Ma Pa Dha Pa Dha—"
+              "lyrics": "Udd Ja Kale Kawan Tere",
+              "indian": "Re.Re.Re.GaReRe.Re. nidhapadha"
             },
             {
-              "lyrics": "Tere muh vich khand pawan",
-              "indian": "Ga Ga Ma Pa Dha Pa Ma~Ga Re Sa. (Re)Ga Ma Pa Dha—"
+              "lyrics": "Munh Vich Khand Paavan",
+              "indian": "Re.Re.Re.GaReRe."
+            },
+            {
+              "lyrics": "Baagon Mein Phir Jhule Pad Gaye",
+              "indian": "Ni..NiNi..NiDha Dha..Ni...DhaPaPa.."
+            },
+            {
+              "lyrics": "Pak Gaya Mithiyan Ambiyan",
+              "indian": "Pa..DhaPaGaRe GaPaPa..Pa.."
             }
           ]
         },
         {
-          "name": "Antara 1 – Bagho Mein Tere",
+          "name": "Antara",
           "lines": [
             {
-              "lyrics": "Bagho mein tere jhoole pad gaye",
-              "indian": "Ga Ga Ga Ga Pa Pa Dha Ni Sa' Re' Ga' Re' Sa' Re' Ga' Ma' Dha' Pa' Ma' Ga'"
+              "lyrics": "Yeh Chhoti Si Zindagi Te",
+              "indian": "Pa..PaPa..PaMa(t) Ma(t)DhaPa Ma(t)GaGaSa."
             },
             {
-              "lyrics": "Transition (Khatka)",
-              "indian": "Ma' (Dha')Pa' Ga' Re'"
+              "lyrics": "Raataan Lambiyan Lambiyan",
+              "indian": "SaReReRe...GaRe..ReRe"
             },
             {
-              "lyrics": "Continuation",
-              "indian": "Ma' Dha' Ga' Re' Ga' Re' Sa' Re' Ga' Ma' Pa' Dha' Pa' Ga'"
+              "lyrics": "Oh Ghar Aaja Pardesi",
+              "indian": "Renidha dhapa padhadhaReRe"
             },
             {
-              "lyrics": "Pakkiyan mithiyan ambiyan",
-              "indian": "Sa' Re' Sa' Sa' Dha' Sa' Dha' Sa' Ni' Dha' Sa' Dha' Re' Sa' Dha'—"
-            }
-          ]
-        },
-        {
-          "name": "Yeh Chhoti Si Zindagi",
-          "lines": [
-            {
-              "lyrics": "Yeh chhoti si zindagi",
-              "indian": "Dha' Sa' Dha' Sa' Dha' Sa'—"
-            }
-          ]
-        },
-        {
-          "name": "Mere Sab Sapne",
-          "lines": [
-            {
-              "lyrics": "Mere sab sapne",
-              "indian": "Re' Sa' Ni Dha Dha Pa Dha Ni Re' Sa' Dha Pa—"
-            },
-            {
-              "lyrics": "Raatan lambiyan lambiyan",
-              "indian": "Ma' Pa' Dha' Pa' Ma' Pa' Ma' Pa' Dha' Pa' Ma' Pa'—"
-            }
-          ]
-        },
-        {
-          "name": "Hum Toh Thehre Pardesi",
-          "lines": [
-            {
-              "lyrics": "Hum toh thehre pardesi",
-              "indian": "Ma' Ga' Ma' Dha' Re' Ga' Sa' Re' Ga' Ma' Pa' Dha' Pa' Sa'' Re'' Pa' Pa'—"
-            },
-            {
-              "lyrics": "Teri meri ek jindagi",
-              "indian": "Dha' Pa' Ma' Dha' Re' Ga' Re' Sa' Re' Ga' Ma' Pa' Ma' Ga' Re' Ga' Re' Sa'~Re' Ga' Ma' Pa' Ma' Ga' Re' Ga' Re' Sa'—"
-            }
-          ]
-        },
-        {
-          "name": "Antara 2",
-          "lines": [
-            {
-              "lyrics": "Kitni haseen hai teri meri prem kahani",
-              "indian": "Ga' Pa' Dha' Dha' Ni' Dha' Pa' Ma' Pa' Dha' Pa' Dha'—"
-            },
-            {
-              "lyrics": "Hai pani sada",
-              "indian": "Ga' Ga' Ga' Ga' Ga' Re' Ga' Ma' Ga' Re' Ga' Ma' Ga' Ma' Pa'~"
-            },
-            {
-              "lyrics": "Nahi re dil se dil gar",
-              "indian": "Sa' Re' Sa' Ni Dha Pa Dha Ma Pa Dha—"
+              "lyrics": "Ke Teri Meri Ek Jindri",
+              "indian": "ReSaReSaNi dhanidhapapa"
             }
           ]
         }
