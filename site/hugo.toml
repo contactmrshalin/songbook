@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
 defaultTheme = "light"
-description = "Songbook (generated from songs.json)"
+description = "Songbook (generated from song data)"
 title = "Songbook"
 
 [outputs]

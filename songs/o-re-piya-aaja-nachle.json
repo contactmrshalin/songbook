@@ -1,0 +1,119 @@
+{
+  "id": "o-re-piya-aaja-nachle",
+  "title": "O Re Piya",
+  "thumbnail": "images/o_re_piya_thumb.png",
+  "background": "images/o_re_piya_thumb.png",
+  "info": [
+    "Movie: Aaja Nachle (2007)",
+    "Singer: Rahat Fateh Ali Khan",
+    "Music Director: Salim–Sulaiman",
+    "Lyricist: Jaideep Sahni",
+    "Raag feel: Kafi / Bhairavi mix (folk–sufi style)",
+    "Scale: Sa = C",
+    "Ornaments: ~ meend, : hold, (k) kan"
+  ],
+  "sections": [
+    {
+      "name": "ALAAP (Flute Intro)",
+      "lines": [
+        {
+          "lyrics": "Aaah...",
+          "indian": "Sa~Re Ga~Re Sa: Sa~Ni(k) Sa:"
+        },
+        {
+          "lyrics": "Hmmmmm",
+          "indian": "Re Ga Ma~Ga Re Sa:"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "O re piya",
+          "indian": "Sa Re Ga~Re Sa:"
+        },
+        {
+          "lyrics": "Haaye…",
+          "indian": "Ni(k)~Sa:"
+        },
+        {
+          "lyrics": "O re piya",
+          "indian": "Sa Re Ga~Re Sa:"
+        },
+        {
+          "lyrics": "Haaye…",
+          "indian": "Ni(k)~Sa:"
+        },
+        {
+          "lyrics": "Udne laga kyon mann baawra",
+          "indian": "Ga Ma Pa Ma Ga Re Sa~Ni(k) Sa Re Ga:"
+        },
+        {
+          "lyrics": "Aaya kahaan se mann baawra",
+          "indian": "Ga Ma Pa Ma Ga Re Sa~Ni(k) Sa:"
+        }
+      ]
+    },
+    {
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "lyrics": "Dole re dole re mann mora",
+          "indian": "Re Ga Ma Pa Ma Ga Re Sa:"
+        },
+        {
+          "lyrics": "Jhoome re jhoome re tan mora",
+          "indian": "Re Ga Ma Pa Dha~Pa Ma Ga Re:"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Naina thag lenge",
+          "indian": "Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Chain chura lenge",
+          "indian": "Ma Pa Dha Ni(k) Dha Pa Ma:"
+        },
+        {
+          "lyrics": "Bairi piya bole",
+          "indian": "Ga Ma Pa Ma Ga Re Sa"
+        },
+        {
+          "lyrics": "O re piya haaye",
+          "indian": "Sa Re Ga~Re Sa: Ni(k)~Sa:"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2 (Higher Pitch)",
+      "lines": [
+        {
+          "lyrics": "Sajna aa bhi jaa",
+          "indian": "Pa Dha Ni(k) Sa'~Ni(k) Dha Pa:"
+        },
+        {
+          "lyrics": "Dil mein samaa jaa",
+          "indian": "Pa Dha Ni(k) Sa' Re' Sa' Ni(k) Dha"
+        },
+        {
+          "lyrics": "O re piya",
+          "indian": "Sa' Ni(k) Dha Pa Ma Ga Re Sa:"
+        }
+      ]
+    },
+    {
+      "name": "ENDING ALAAP",
+      "lines": [
+        {
+          "lyrics": "Aaah haaye…",
+          "indian": "Sa Re Ga Ma~Ga Re Sa Ni(k)~Sa:"
+        }
+      ]
+    }
+  ]
+}

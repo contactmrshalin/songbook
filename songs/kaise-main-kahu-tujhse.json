@@ -1,0 +1,35 @@
+{
+  "id": "kaise-main-kahu-tujhse",
+  "title": "Kaise Main Kahu Tujhse",
+  "info": [
+    "Movie: Rehnaa Hai Terre Dil Mein (RHTDM)"
+  ],
+  "sections": [
+    {
+      "name": "Chapter 1 (Music)",
+      "lines": [
+        {
+          "lyrics": "Instrumental Phrase 1",
+          "indian": "Ga... Dha... (Dha Dha) (Pa Dha Ni Dha Ni Dha Pa)"
+        },
+        {
+          "lyrics": "Instrumental Phrase 2",
+          "indian": "Ga... Dha... (Dha Dha) (Pa Dha Ni Dha Ni Dha Pa Dha Ni...)"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 2 (Song)",
+      "lines": [
+        {
+          "lyrics": "Kaise mai kahu tujhase",
+          "indian": "Sa... Re... Ga (Ma Ga) Re... Sa... Ni... Dha... Pa... Dha... Re..."
+        },
+        {
+          "lyrics": "Rehna hai tere dil me",
+          "indian": "Sa... Re... Ga... Dha... Pa... Ga... Re... Sa... Dha... Pa... Dha..."
+        }
+      ]
+    }
+  ]
+}

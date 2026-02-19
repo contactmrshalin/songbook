@@ -1,0 +1,78 @@
+{
+  "id": "ghar-se-nikalte-hi",
+  "title": "Ghar Se Nikalte Hi",
+  "info": [
+    "Movie: Papa Kehte Hai",
+    "Singer: Lata Mangeshkar",
+    "Music Director: Shankar–Ehsaan–Loy",
+    "Lyricist: Gulzar"
+  ],
+  "thumbnail": "images/ghar-se-nikalte-hi.png",
+  "background": "images/ghar-se-nikalte-hi.png",
+  "sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        {
+          "lyrics": "Instrumental",
+          "indian": "Sa Re Ga Ma | Ga Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Ghar se nikalte hi",
+          "indian": "Sa Re Ga Ma | Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Kuch door chalte hi",
+          "indian": "Sa Re Ga Ma | Pa Dha Pa Ma"
+        },
+        {
+          "lyrics": "Raste mein hai uska ghar",
+          "indian": "Ma Pa Dha Ni | Dha Pa Ma Ga | Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Mukhda Repeat",
+      "lines": [
+        {
+          "lyrics": "Kal subah dekha to",
+          "indian": "Sa Re Ga Ma | Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Baal banaati woh",
+          "indian": "Sa Re Ga Ma | Pa Dha Pa Ma"
+        },
+        {
+          "lyrics": "Khidki mein aayi nazar",
+          "indian": "Ma Pa Dha Ni | Sa' Ni Dha Pa | Ma Ga Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Masoom chehra neechi nigahein",
+          "indian": "Ga Ma Pa Dha | Ni Dha Pa Ma | Ga Ma Pa Dha | Ni Sa'"
+        },
+        {
+          "lyrics": "Bholi si ladki bholi adaayein",
+          "indian": "Sa' Ni Dha Pa | Ma Ga Re Sa | Re Ga Ma Pa | Dha Pa Ma"
+        },
+        {
+          "lyrics": "Na apsara hai na woh pari hai",
+          "indian": "Ga Ma Pa Dha | Ni Sa' Ni Dha | Pa Ma Ga Re | Sa"
+        },
+        {
+          "lyrics": "Lekin yeh uski jaadugari hai",
+          "indian": "Re Ga Ma Pa | Dha Ni Sa' | Ni Dha Pa Ma | Ga Re Sa"
+        }
+      ]
+    }
+  ]
+}

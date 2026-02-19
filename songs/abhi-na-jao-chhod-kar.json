@@ -1,0 +1,107 @@
+{
+  "id": "abhi-na-jao-chhod-kar",
+  "title": "Abhi Na Jao Chhod Kar",
+  "info": [
+    "Movie: Hum Dono (1961)",
+    "Singers: Mohammed Rafi, Asha Bhosle",
+    "Lyricist: Sahir Ludhianvi",
+    "Music Director: Jaidev",
+    "Raag: Yaman (film usage)"
+  ],
+  "thumbnail": "images/abhi_na_jao_chhodkar.png",
+  "background": "images/abhi_na_jao_chhodkar.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Abhi na jao chhod kar",
+          "indian": "Ga Ga Ma Ga Ga~Re Ga~Re Sa Ni(k) Dha(k) Ni(k) Re:"
+        },
+        {
+          "lyrics": "Ke dil abhi bhara nahi",
+          "indian": "Re Re Ga Ni(k) Re Pa Ma Ga~Re Ga Re Sa Ga:"
+        },
+        {
+          "lyrics": "Abhi na jao chhod kar",
+          "indian": "Ga Ga Ma Ga Ga~Re Ga~Re Sa Ni(k) Dha(k) Ni(k) Re:"
+        },
+        {
+          "lyrics": "Ke dil abhi bhara nahi",
+          "indian": "Re Ma Ma Pa Ma Ga~Re Ga Re Sa:"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Abhi abhi to aayi ho",
+          "indian": "Ga Ga Ga Ma Ga Pa Ma Ga Pa Ma"
+        },
+        {
+          "lyrics": "Abhi abhi to…",
+          "indian": "Ga~Re Ga~Re Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Abhi abhi to aayi ho",
+          "indian": "Ga Ga Ga Ma Ga Pa Ma Ga Pa Ma"
+        },
+        {
+          "lyrics": "Bahar banke chhayi ho",
+          "indian": "Ga~Re Ga~Re Ga Ma Ga Pa Ma Ga Pa Ma"
+        },
+        {
+          "lyrics": "Hawa zara mehak to le",
+          "indian": "Sa Ga Ga Ga Ni Dha Pa Ma Pa Ma"
+        },
+        {
+          "lyrics": "Nazar zara behak to le",
+          "indian": "Ga Ga Ga Ma Ga Pa Ma Ga Pa Ma"
+        },
+        {
+          "lyrics": "Yeh shaam dhal to le zara",
+          "indian": "Ma Dha Dha Ni(k) Dha Sa' Ni(k) Ma Sa' Ni(k):"
+        },
+        {
+          "lyrics": "Yeh shaam dhal to le zara",
+          "indian": "Ma Dha Dha Ni(k) Dha Sa' Ni(k) Dha Sa' Ni(k)"
+        },
+        {
+          "lyrics": "Yeh dil sambhal to le zara",
+          "indian": "Ma Dha Dha Ni(k) Dha Sa' Ni(k) Dha Sa' Ni(k)"
+        },
+        {
+          "lyrics": "Main thodi der jee to loon",
+          "indian": "Ga Ga Ga Ma Pa Sa' Ni(k) Dha Pa Ma Ga"
+        },
+        {
+          "lyrics": "Nashe ke ghoont pee to loon",
+          "indian": "Ga Ga Ga~Re Ga Ma Ga Pa Ma Ga Pa Ma"
+        },
+        {
+          "lyrics": "Nashe ke ghoont pee to loon",
+          "indian": "Ga Ga Ga~Re Ga Ma Ga Pa Ma Ga Pa Ma"
+        },
+        {
+          "lyrics": "Abhi to kuchh kaha nahi",
+          "indian": "Ga Ga Ma Pa Ni Sa' Sa' Ni(k) Dha Ni(k) Dha Pa"
+        },
+        {
+          "lyrics": "Abhi to kuchh suna nahi",
+          "indian": "Ma Ga~Re Ga Ma Pa Ma Ga Ma Re Sa: (na-hi)"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (REPEAT)",
+      "lines": [
+        {
+          "lyrics": "Abhi na jao chhod kar",
+          "indian": "Ga Ga Ma Ga Ga~Re Ga~Re Sa Ni(k) Dha(k) Ni(k) Re:"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

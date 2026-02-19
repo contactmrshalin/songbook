@@ -1,0 +1,68 @@
+{
+  "id": "saawan-ka-mahina-pawan-kare-shor",
+  "title": "Saawan Ka Mahina Pawan Kare Shor",
+  "thumbnail": "images/saawan_ka_mahina_thumb.png",
+  "background": "images/saawan_ka_mahina_thumb.png",
+  "info": [
+    "Movie: Milan (1967)",
+    "Singers: Lata Mangeshkar, Mukesh",
+    "Music Director: Laxmikant–Pyarelal",
+    "Lyricist: Anand Bakshi",
+    "Scale (Western): Sa = C",
+    "Ornaments: ~ meend, : hold, (k)=kan, ' = high octave"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Saawan ka mahina",
+          "indian": "Dha Pa Pa Ga Ga Ga Re Re Ga"
+        },
+        {
+          "lyrics": "Pawan kare shor",
+          "indian": "Re Re Re Ga Re Sa Re~Pa' (x2)"
+        },
+        {
+          "lyrics": "Jiyara re jhoome aise",
+          "indian": "Re Re Re Ma Ma Ma Ga Re Ga Re Sa Ni"
+        },
+        {
+          "lyrics": "Jaise banma naache mor",
+          "indian": "Ni Ni Sa Re Ga Re Ga Re Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "FLUTE MUSIC",
+      "lines": [
+        {
+          "lyrics": "Flute Music",
+          "indian": "Pa: Pa Pa Pa Dha Ni Dha Ni Dha Pa Re, Ga Ma Ga Ma Ga Re Sa Sa Dha Pa Dha~Pa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Ram gajab dhaaye, ye purvaiya",
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
+          "indian": "Pa Dha Pa Ma Ga Pa Ma Ga Re, Ma Re Ma Ga Ga Ga"
+        },
+        {
+          "lyrics": "Ram gajab dhaaye, ye purvaiya",
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
+          "indian": "Pa Dha Pa Ma Ga Pa Ma Ga Re, Ma Ga Re~ Ga Re Sa Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

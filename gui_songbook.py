@@ -128,8 +128,16 @@ class App:
                 messagebox.showerror("Extract failed", f"{Path(f).name}\n\n{e}")
                 return
 
-        merge_songs_into_json(DEFAULT_SONGS_JSON, songs)
-        messagebox.showinfo("Done", f"Added/updated {len(songs)} song(s) into:\n{DEFAULT_SONGS_JSON}")
+        # Use per-song layout if it exists
+        songs_dir = APP_DIR / "songs"
+        if (songs_dir.is_dir() and any(songs_dir.glob("*.json"))) or (APP_DIR / "book.json").exists():
+            from convert_docx_to_json import save_song_to_dir
+            for s in songs:
+                save_song_to_dir(APP_DIR, s)
+            messagebox.showinfo("Done", f"Saved {len(songs)} song(s) to:\n{songs_dir}")
+        else:
+            merge_songs_into_json(DEFAULT_SONGS_JSON, songs)
+            messagebox.showinfo("Done", f"Added/updated {len(songs)} song(s) into:\n{DEFAULT_SONGS_JSON}")
 
     def build(self):
         script = APP_DIR / "build_songbook.py"

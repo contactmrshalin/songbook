@@ -1,0 +1,57 @@
+{
+  "id": "om_namah_shivay_dhun",
+  "title": "Om Namah Shivay Dhun",
+  "background": "images/om_namah_shivay_dhun.png",
+  "thumbnail": "images/om_namah_shivay_dhun.png",
+  "info": [
+    "Type: Bhajan / Dhun",
+    "Notation Style: Indian Sargam"
+  ],
+  "sections": [
+    {
+      "name": "Opening Chant",
+      "lines": [
+        {
+          "lyrics": "Om Namah Shivay Om Namah Shivay",
+          "indian": "Ni ReGa GaGa Re Ga, GaRe ReGaPaGa Re~Ni."
+        }
+      ]
+    },
+    {
+      "name": "Har Har Bole",
+      "lines": [
+        {
+          "lyrics": "Har Har Bole Namah Shivay",
+          "indian": "Ni. Dha. Re Ni. Dha.Pa. Pa.Dha. Ni.Re ReGa"
+        }
+      ]
+    },
+    {
+      "name": "Flute Interlude",
+      "lines": [
+        {
+          "lyrics": "Flute",
+          "indian": "Dha Pa Ni Dha Re Ni Ga Re Pa Ga Dha Pa Ni"
+        }
+      ]
+    },
+    {
+      "name": "Jata Dharay Shiv",
+      "lines": [
+        {
+          "lyrics": "Jata Dharay Shiv Jata Dharay",
+          "indian": "Ga Ga Ga Ga Pa Dha Ni Ni Ni NiReNiDha Ni"
+        }
+      ]
+    },
+    {
+      "name": "Ending Har Har",
+      "lines": [
+        {
+          "lyrics": "Har Har Bole Namah Shivay",
+          "indian": "Dha Dha Dha DhaPa PaDha NiDha PaGa"
+        }
+      ]
+    }
+  ]
+}

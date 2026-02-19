@@ -1,0 +1,135 @@
+{
+  "id": "mashup_patriotic_songs",
+  "title": "Patriotic Songs Mashup",
+  "info": [
+    "Songs: Jahaan se Achchha, Aye Mere Watan k Logon, Jan Gan Man"
+  ],
+  "thumbnail": "images/mashup_patriotic_songs.jpg",
+  "background": "images/mashup_patriotic_songs.jpg",
+  "sections": [
+    {
+      "name": "Song 1",
+      "lines": [
+        {
+          "lyrics": "Sare jahan se achchha...",
+          "indian": "Ma.. Ma Ga Re Ga.. Re(k) Re.. Re.."
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Hindustaan Hamaara...",
+          "indian": "Dha Ni Re.. Ga Ma(T).. Pa Ma(T).. Ma(T)"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Hamaara...",
+          "indian": "Ga Pa Ma(T) Ga Re"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Sare jahan se achchha...",
+          "indian": "Ma.. Ma Ga Re Ga.. Re(k) Re.. Re.."
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Hindustaan Hamaara...",
+          "indian": "Dha Ni Re.. Ga Ma(T).. Pa Ma(T).. Ma(T)"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Hamaara...",
+          "indian": "Ga Pa Ma(T) Ga Re"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Hum bulbule hai uski...",
+          "indian": "Ma(T) Pa Dha.. Dha Dha.. Ma(T) PaNiDha"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Yeh gulsitaan hamaara...",
+          "indian": "Ma(T) Pa Dha.. Pa Ma.. Ga Re Re Re"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Hamaara...",
+          "indian": "Re Re(k) Ni Dha"
+        }
+      ]
+    },
+    {
+      "name": "Song 2",
+      "lines": [
+        {
+          "lyrics": "Ae mere watan ke logon...",
+          "indian": "Dha Dha Re.. Re Re Re.. Ga Re Sa Sa.. Sa.."
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Zara aankh me bharlo paani...",
+          "indian": "Dha Dha Re.. Re Re Re.. Ga Re Sa Sa.. Sa.."
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Jo shahid huye hai unki...",
+          "indian": "DhaSa SaGa GaGaGaMaGaRe ReGaGaMa(T)"
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Zara yaad karo kurbaani",
+          "indian": "Ma(T) Ga Ga Re ReReSa GaReRe Re.."
+        }
+      ]
+    },
+    {
+      "name": "Song 3",
+      "lines": [
+        {
+          "lyrics": "Jai hind, Jai Hind, Jai Hind",
+          "indian": "Pa Ma(T) Pa.. Ma(T) Ga Ma(T).. Ga Re Ga.."
+        }
+      ]
+    },
+    {
+      "lines": [
+        {
+          "lyrics": "Jai Jai Jai Jai Hain",
+          "indian": "Dha Dha Ni Ni Re(k) Re(k) Ni Re(k) Re.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

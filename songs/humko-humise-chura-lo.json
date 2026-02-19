@@ -1,0 +1,101 @@
+{
+  "id": "humko-humise-chura-lo",
+  "title": "Humko Humise Chura Lo",
+  "thumbnail": "images/humko_humise_thumb.png",
+  "background": "images/humko_humise_thumb.png",
+  "info": [
+    "Movie: Mohabbatein (2000)",
+    "Singers: Lata Mangeshkar, Udit Narayan",
+    "Music Director: Jatin–Lalit",
+    "Lyricist: Anand Bakshi",
+    "Raag Feel: Yaman / Kalyan",
+    "Scale: Sa = C"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Humko humise chura lo",
+          "indian": "Dha Ga Re Re Ga Re Sa Sa Re Re Ni"
+        },
+        {
+          "lyrics": "Dil mein kahin tum chhupa lo",
+          "indian": "Pa Re^ Sa Sa Re Dha Sa Ni Ni Sa Sa^ Dha"
+        },
+        {
+          "lyrics": "Humko humise chura lo (variation)",
+          "indian": "Dha Ga Re Re Ga Re Sa Sa Re Re Ga^^ Ni"
+        },
+        {
+          "lyrics": "Dil mein kahin tum chhupa lo (variation)",
+          "indian": "Pa Re^ Sa Sa Re Sa Sa Ni Ni Sa Sa Ga^^ Dha"
+        }
+      ]
+    },
+    {
+      "name": "CROSS (04:08)",
+      "lines": [
+        {
+          "lyrics": "Hum akele kho na jaayein",
+          "indian": "Sa Ni Dha Ni Dha Ni Dha Pa Dha Pa"
+        },
+        {
+          "lyrics": "Door tumse ho na jaayein",
+          "indian": "Sa Ni Dha Ni Sa^^ Dha Ni Dha Pa Dha Pa"
+        },
+        {
+          "lyrics": "Paas aao gale se laga lo",
+          "indian": "Ga Ma Ga Re Ga Sa Sa Sa Re Ga^^ Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA (06:39)",
+      "lines": [
+        {
+          "lyrics": "Ye dil dhadka do",
+          "indian": "Sa Ni Ni Sa Ni^ Dha Dha Ni Dha^ Pa Pa Pa Dha Pa Dha"
+        },
+        {
+          "lyrics": "Zulfein bikhra do",
+          "indian": "Ni Dha Dha Ni Dha^^ Pa Pa Ma Ma Dha Pa"
+        },
+        {
+          "lyrics": "Sharma ke apna",
+          "indian": "Dha^^ Pa Pa Dha Ma Ma Ga Ga Pa Ma"
+        },
+        {
+          "lyrics": "Aanchal lehra do",
+          "indian": "Sa Ni Ni Sa Ni Dha Dha Ni Pa Pa Pa Dha Pa Dha"
+        }
+      ]
+    },
+    {
+      "name": "CROSS 2 (09:40)",
+      "lines": [
+        {
+          "lyrics": "Hum zulfein to bikhra dein",
+          "indian": "Ni Sa Re Ma Ga Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Din mein raat na ho jaaye",
+          "indian": "Ni Sa Re Re Ma Ga Re Re"
+        },
+        {
+          "lyrics": "Hum aanchal to lehra dein",
+          "indian": "Dha Ni Sa Sa Re Sa Ni Sa Re Sa"
+        },
+        {
+          "lyrics": "Par barsaat na ho jaaye",
+          "indian": "Dha Ni Sa Sa Ga Re Re Sa Sa"
+        },
+        {
+          "lyrics": "Paas aao gale se laga lo (repeat)",
+          "indian": "Ga Ma Ga Re Ga Sa Sa Sa Re Ga^^ Ma Ni Sa Ni Dha"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

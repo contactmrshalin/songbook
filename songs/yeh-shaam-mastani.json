@@ -1,0 +1,83 @@
+{
+  "id": "yeh-shaam-mastani",
+  "title": "Yeh Shaam Mastani",
+  "info": [
+    "Movie: Kati Patang (1971)",
+    "Singer: Kishore Kumar",
+    "Lyricist: Anand Bakshi",
+    "Music Director: R. D. Burman",
+    "Raag: Yaman (light / film usage)"
+  ],
+  "thumbnail": "images/yeh_shaam_mastani_thumb.png",
+  "background": "images/yeh_shaam_mastani_thumb.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yeh shaam mastani",
+          "indian": "Pa - Sa - Re Sa Dha Pa"
+        },
+        {
+          "lyrics": "Madahosh kiye jaaye",
+          "indian": "Pa Pa Sa: SaRe SaRe Ga"
+        },
+        {
+          "lyrics": "Mujhe dor koi kheenche",
+          "indian": "Ga Ga Ga Pa: Pa Dha Pa Ma Ga Ma"
+        },
+        {
+          "lyrics": "Teri ore liye jaaye",
+          "indian": "Ma Ga | Ga Ma Ga Re | Pa Pa | Ga Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "REPEAT PHRASES (as board bracket)",
+      "lines": [
+        {
+          "lyrics": "[Phrase 1]",
+          "indian": "Pa Ga Re: Ga Sa"
+        },
+        {
+          "lyrics": "[Phrase 2] x2",
+          "indian": "Pa Ga Re Ga Sa Pa Dha Pa (x2)"
+        },
+        {
+          "lyrics": "[Phrase 3]",
+          "indian": "Pa Re Sa Re Ga Sa: Ga Ma Pa:"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA (as board)",
+      "lines": [
+        {
+          "lyrics": "Door rehti hai tu",
+          "indian": "Dha: Ma Pa Dha Pa"
+        },
+        {
+          "lyrics": "Mere paas aati nahin",
+          "indian": "Sa Sa Dha: Ma Pa Dha Pa"
+        },
+        {
+          "lyrics": "(Repeat line) Honthon pe tere kabhi pyaas…",
+          "indian": "Sa Sa (Repeat line)"
+        },
+        {
+          "lyrics": "Aisa lage",
+          "indian": "Ni Dha Pa Ma"
+        },
+        {
+          "lyrics": "Jaise ke tu",
+          "indian": "Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Hans ke zehar koi piye jaaye",
+          "indian": "Re Re Ma(T) Ma(T) Pa Ma Ga Pa Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

@@ -180,7 +180,46 @@ def _normalize_indian_text(s: str) -> str:
     return out
 
 
+def _normalize_song_sections(song: Dict[str, Any]) -> int:
+    """Normalize indian notation lines in a single song dict. Returns count of changed lines."""
+    changed = 0
+    for section in (song.get("sections") or []):
+        if not isinstance(section, dict):
+            continue
+        for line in (section.get("lines") or []):
+            if not isinstance(line, dict):
+                continue
+            indian = line.get("indian")
+            if not isinstance(indian, str):
+                continue
+            new_indian = _normalize_indian_text(indian)
+            if new_indian != indian:
+                line["indian"] = new_indian
+                changed += 1
+    return changed
+
+
 def main() -> None:
+    # Try per-song layout first
+    songs_dir = ROOT / "songs"
+    if songs_dir.is_dir() and any(songs_dir.glob("*.json")):
+        # Process each song file individually
+        changed = 0
+        for song_path in sorted(songs_dir.glob("*.json")):
+            data = json.loads(song_path.read_text(encoding="utf-8"))
+            if not isinstance(data, dict):
+                continue
+            file_changed = _normalize_song_sections(data)
+            if file_changed:
+                song_path.write_text(
+                    json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+                    encoding="utf-8",
+                )
+                changed += file_changed
+        print(f"Updated {changed} indian lines across songs/ directory.")
+        return
+
+    # Legacy fallback: read/write songs.json
     if not SONGS_JSON.exists():
         raise SystemExit(f"Missing: {SONGS_JSON}")
 
@@ -193,19 +232,7 @@ def main() -> None:
     for song in songs:
         if not isinstance(song, dict):
             continue
-        for section in (song.get("sections") or []):
-            if not isinstance(section, dict):
-                continue
-            for line in (section.get("lines") or []):
-                if not isinstance(line, dict):
-                    continue
-                indian = line.get("indian")
-                if not isinstance(indian, str):
-                    continue
-                new_indian = _normalize_indian_text(indian)
-                if new_indian != indian:
-                    line["indian"] = new_indian
-                    changed += 1
+        changed += _normalize_song_sections(song)
 
     # Write backup + updated file
     backup = SONGS_JSON.with_suffix(".json.bak")

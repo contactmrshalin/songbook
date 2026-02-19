@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-Generate Hugo content bundles from ../songs.json
+Generate Hugo content bundles from song data.
+
+Supports two layouts (via the shared ``load_songs`` module):
+  1. Per-song files  (preferred): book.json + songs/<id>.json
+  2. Legacy monolith (fallback):  songs.json
 
 Creates:
   site/content/songs/<id>/index.md
@@ -18,6 +22,7 @@ import json
 import os
 import re
 import shutil
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -130,14 +135,25 @@ def _indian_to_western(indian: str, mapping: dict[str, Any]) -> str:
 
 
 def build() -> None:
-    if not SONGS_JSON.exists():
-        raise SystemExit(f"Missing {SONGS_JSON}")
+    # Try per-song layout via shared loader
+    songs: list = []
+    songs_dir = REPO_ROOT / "songs"
+    if songs_dir.is_dir() and any(songs_dir.glob("*.json")):
+        sys.path.insert(0, str(REPO_ROOT))
+        try:
+            from load_songs import load_all_songs
+            songs = load_all_songs(REPO_ROOT)
+        except ImportError:
+            raise SystemExit("Per-song layout detected but load_songs.py not found in project root.")
+    elif SONGS_JSON.exists():
+        data = _read_json(SONGS_JSON)
+        songs = data.get("songs") or []
+    else:
+        raise SystemExit(f"Missing song data: need either songs/ directory or {SONGS_JSON}")
 
-    data = _read_json(SONGS_JSON)
     mapping = _read_json(NOTATION_MAPPING_JSON) if NOTATION_MAPPING_JSON.exists() else {}
-    songs = data.get("songs") or []
     if not isinstance(songs, list):
-        raise SystemExit("songs.json: 'songs' must be a list")
+        raise SystemExit("songs data must be a list")
 
     # Rebuild songs section from scratch (generated)
     _clean_dir(SONGS_SECTION_DIR)

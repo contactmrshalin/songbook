@@ -1,0 +1,57 @@
+{
+  "title": "Ud Ja Kale Kawan",
+  "id": "ud_ja_kaale_kawan",
+  "movie": "Gadar – Ek Prem Katha",
+  "year": "2001",
+  "thumbnail": "images/udd_ja_kaale_kaawan.png",
+  "background": "images/udd_ja_kaale_kaawan.png",
+  "info": [
+    "Singer: Udit Narayan, Alka Yagnik",
+    "Composer: Uttam Singh",
+    "Lyricist: Anand Bakshi"
+  ],
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Udd Ja Kale Kawan Tere",
+          "indian": "Re.Re.Re.GaReRe.Re. nidhapadha"
+        },
+        {
+          "lyrics": "Munh Vich Khand Paavan",
+          "indian": "Re.Re.Re.GaReRe."
+        },
+        {
+          "lyrics": "Baagon Mein Phir Jhule Pad Gaye",
+          "indian": "Ni..NiNi..NiDha Dha..Ni...DhaPaPa.."
+        },
+        {
+          "lyrics": "Pak Gaya Mithiyan Ambiyan",
+          "indian": "Pa..DhaPaGaRe GaPaPa..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Yeh Chhoti Si Zindagi Te",
+          "indian": "Pa..PaPa..PaMa(T) Ma(T)DhaPa Ma(T)GaGaSa."
+        },
+        {
+          "lyrics": "Raataan Lambiyan Lambiyan",
+          "indian": "SaReReRe...GaRe..ReRe"
+        },
+        {
+          "lyrics": "Oh Ghar Aaja Pardesi",
+          "indian": "Renidha dhapa padhadhaReRe"
+        },
+        {
+          "lyrics": "Ke Teri Meri Ek Jindri",
+          "indian": "ReSaReSaNi dhanidhapapa"
+        }
+      ]
+    }
+  ]
+}

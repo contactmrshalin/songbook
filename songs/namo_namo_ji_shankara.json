@@ -1,0 +1,81 @@
+{
+  "id": "namo_namo_ji_shankara",
+  "title": "Namo Namo Ji Shankara",
+  "thumbnail": "images/namo_namo_ji_shankara.png",
+  "background": "images/namo_namo_ji_shankara.png",
+  "info": [
+    "Movie: Kedarnath",
+    "Year: 2018",
+    "Singer: Amit Trivedi",
+    "Composer: Amit Trivedi",
+    "Lyricist: Amitabh Bhattacharya"
+  ],
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Jai ho jai ho Shankara",
+          "indian": "Dha Dha Sa Sa Re Re Ga~Re~Sa:"
+        },
+        {
+          "lyrics": "Aadi dev Shankara",
+          "indian": "Re Ga Ma Pa, Ga Re ReGaRe~Sa:"
+        },
+        {
+          "lyrics": "Tere jaap ke bina",
+          "indian": "Dha Dha Sa Sa Re Pa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Chale ye saans kis tarah",
+          "indian": "Re Re Ga Ma Pa, Ga Re Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Mera karm tu hi jaane",
+          "indian": "Sa'Sa'Sa'Re NiNi DhaPa"
+        },
+        {
+          "lyrics": "Kya bura hai kya bhala",
+          "indian": "PaDhaPa MaMa Dha Pa"
+        },
+        {
+          "lyrics": "Tere Raste pe Main to",
+          "indian": "Sa'Sa'Sa'Re NiNi DhaPa"
+        },
+        {
+          "lyrics": "Aankh moond ke chalaa",
+          "indian": "PaDhaPa MaMaMa Dha Pa"
+        },
+        {
+          "lyrics": "Tere naam ki jot ne",
+          "indian": "PaPa PaDhaPaDhaPa MaGaRe PaDhaPaDhaPa MaGaRe"
+        },
+        {
+          "lyrics": "Saara har liya tamas mera",
+          "indian": "Re Ga Ga Ma Ga Re Re SaSa"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Namo Namo ji Shankara",
+          "indian": "Re Re GaGaGa ReGaGa"
+        },
+        {
+          "lyrics": "Bholenath Shankara",
+          "indian": "Re GaGaGa ReGaGa"
+        },
+        {
+          "lyrics": "Hey Trilokinath Shambhu",
+          "indian": "ReRe ReRe ReRe ReRe"
+        },
+        {
+          "lyrics": "Hey Shivay Shankara",
+          "indian": "ReSa Ga ReSaSa"
+        }
+      ]
+    }
+  ]
+}

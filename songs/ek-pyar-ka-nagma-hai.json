@@ -1,0 +1,87 @@
+{
+  "id": "ek-pyar-ka-nagma-hai",
+  "title": "Ek Pyar Ka Nagma Hai",
+  "info": [
+    "Movie: Shor (1972)",
+    "Singers: Lata Mangeshkar, Mukesh",
+    "Lyricist: Santosh Anand",
+    "Music Director: Laxmikant Pyarelal",
+    "Raag: Yaman Kalyan (based)"
+  ],
+  "thumbnail": "images/ek_pyar_ka_nagma_hai.png",
+  "background": "images/ek_pyar_ka_nagma_hai_bg.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Ek pyaar ka nagmaa haii",
+          "indian": "Sa..Re..Ga…Ma..Pa..Ma..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Mauzon ki rawani haii",
+          "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Zindagi aur kuch bhii nahii",
+          "indian": "Ga..Ma..Pa..Ni…Dha..Pa..Ma..Pa..Dha.."
+        },
+        {
+          "lyrics": "Terii meri kahani haii",
+          "indian": "Pa..Ma..Re…Pa…Pa..Ma…Dha.Pa.Ma..Ga.."
+        },
+        {
+          "lyrics": "(Repeat) Ek pyaar ka nagmaa haii",
+          "indian": "Sa..Re..Ga…Ma..Pa..Ma..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "(Repeat) Mauzon ki rawani haii",
+          "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "lines": [
+        {
+          "lyrics": "Laaa laa la la la laa",
+          "indian": "Sa..Re..Dha(k)..Sa..Ga..Ma…"
+        },
+        {
+          "lyrics": "Laaa laa la la la laa",
+          "indian": "Ga..Ga..Ga..Re..Re..Ga…"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Kuch pakar khonaa haii",
+          "indian": "Pa..Pa..Sa'…Sa'..Sa'..Sa'…Re'..Sa'..Ni.."
+        },
+        {
+          "lyrics": "Kuch khokar paana hai",
+          "indian": "Pa..Pa..Sa'…Sa'..Sa'..Sa'…Ga'.Re'.Sa'..Ni.."
+        },
+        {
+          "lyrics": "Jeewan ka matlab toh",
+          "indian": "Pa…Ni(k)…Ni(k)…Ni(k)..Sa'..Ni(k)..Pa..Dha…"
+        },
+        {
+          "lyrics": "Aana or jaana hai",
+          "indian": "Dha..Sa'..Dha..Sa'..Ni..Dha..Pa…Dha..Pa..Pa..Ga.."
+        },
+        {
+          "lyrics": "Doo pal kee jeewan see",
+          "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Ek umra churanii hai",
+          "indian": "Sa..Re..Ga..Ga..Ma..Pa..Ma..Ma..Ga..Ga.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

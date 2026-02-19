@@ -1,0 +1,267 @@
+{
+  "id": "yeh-raatein-yeh-mausam",
+  "title": "Yeh Raatein Yeh Mausam",
+  "export": false,
+  "info": [
+    "Movie: Dilli Ka Thug",
+    "Singers: Asha Bhosle & Kishor Kumar",
+    "Piano Notes: www.pianobajao.com",
+    "Notes By: Ankush Harmukh",
+    "Scale (Sa=C): C Flute"
+  ],
+  "thumbnail": "images/yeh_raatein_yeh_mausam_thumb.png",
+  "background": "images/yeh_raatein_yeh_mausam_bg.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        },
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Kaha do dilon ne",
+          "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'"
+        },
+        {
+          "lyrics": "Ki milkar Kabhi hum",
+          "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'"
+        },
+        {
+          "lyrics": "Na honge juda",
+          "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa"
+        },
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "lines": [
+        {
+          "lyrics": "Music",
+          "indian": "Sa' Re(k)' Sa' Dha(k)'"
+        },
+        {
+          "lyrics": "Music",
+          "indian": "Ni(k)' Dha(k)' Ni(k)' Dha(k)' Pa' Ma' Dha(k)'"
+        },
+        {
+          "lyrics": "Music",
+          "indian": "Sa' Re(k)' Sa' Pa'"
+        },
+        {
+          "lyrics": "Music",
+          "indian": "Pa' Ma' Pa' Ma' Ga' Sa' Ma'"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Yeh kya baat hai",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Aaj ki chandni mein",
+          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Yeh kya baat hai",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Aaj ki chandni mein",
+          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Ke hum kho gaye",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Pyar ki ragini mein",
+          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Yeh baahon mein baahen",
+          "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'"
+        },
+        {
+          "lyrics": "Yeh behki nigahen",
+          "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'"
+        },
+        {
+          "lyrics": "Lo aane laga zindagi ka maza",
+          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Sa' Dha(k)"
+        },
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 3",
+      "lines": [
+        {
+          "lyrics": "Sitaron ki mehfil",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "ne karke ishara",
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Kaha ab to saara",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "jahan hai tumhara",
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Mohabbat jawan ho,",
+          "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+        },
+        {
+          "lyrics": "khula aasman ho",
+          "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+        },
+        {
+          "lyrics": "Kare koyi dil aarzoo aur kya",
+          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)"
+        },
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 4",
+      "lines": [
+        {
+          "lyrics": "Kasam hai tumhe tum",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "agar mujhse roothe",
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Rahe saans jab tak,",
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+        },
+        {
+          "lyrics": "yeh bandhan na toote",
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'"
+        },
+        {
+          "lyrics": "Tumhein dil diya hai,",
+          "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+        },
+        {
+          "lyrics": "yeh vaada kiya hai",
+          "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+        },
+        {
+          "lyrics": "Sanam main tumhaari rahoongi sada",
+          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)"
+        },
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        }
+      ]
+    },
+    {
+      "name": "ENDING",
+      "lines": [
+        {
+          "lyrics": "Kaha do dilon ne",
+          "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'"
+        },
+        {
+          "lyrics": "Ki milkar Kabhi hum",
+          "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'"
+        },
+        {
+          "lyrics": "Na honge juda",
+          "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa"
+        },
+        {
+          "lyrics": "Yeh raaten yeh mausam",
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+        },
+        {
+          "lyrics": "Nadi ka kinara",
+          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Yeh chanchal hawa",
+          "indian": "Sa Pa Pa Ma Ma"
+        }
+      ]
+    }
+  ]
+}

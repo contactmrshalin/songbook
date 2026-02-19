@@ -431,6 +431,282 @@
       "export": true
     },
     {
+      "id": "hori_khele_raghuveera_awadh_mein",
+      "title": "Hori Khele Raghuveera Awadh Mein",
+      "info": [
+        "Movie: Baghban"      ],
+      "image": "images/holi.png",
+      "thumbnail":"images/holi.png",
+      "background":"images/holi.png",
+      "notation_style": "Indian Classical (Sargam)",
+      "sections": [
+        {
+          "name": "Chorus",
+          "lines": [
+            {
+              "lyrics": "Hori khele raghuveera",
+              "indian": "S’..S’..S’..S’..S’..R’..N..N..N..D..P..P..D.."
+            },
+            {
+              "lyrics": "Hori khele raghuveera",
+              "indian": "N..N..S’..N..D..D..P..P..P.."
+            },
+            {
+              "lyrics": "Hori khele raghuveera awadh mein",
+              "indian": "S’..S’..S’..S’..S’..R’..N..N..N..D..P..P..D.."
+            },
+            {
+              "lyrics": "Hori khele raghuveera",
+              "indian": "N..N..S’..N..D..D..P..P..P.."
+            }
+          ]
+        },
+        {
+          "name": "Verse 1",
+          "lines": [
+            {
+              "lyrics": "Hil mil aave log lugai",
+              "indian": "M..M..M..P..P..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Hil mil aave log lugai",
+              "indian": "M..M..M..P..P..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Hil mil aave log lugai",
+              "indian": "M..M..M..P..P..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Bhai mehalan mein bhira awadh mein",
+              "indian": "S’..S’..S’..S’..S’..R’..N..N..N..D..P..P..D.."
+            }
+          ]
+        },
+        {
+          "name": "Verse 2",
+          "lines": [
+            {
+              "lyrics": "Tanik sharam nahi aaye",
+              "indian": "P..P..P..P..D..D..P..P..m.."
+            },
+            {
+              "lyrics": "Dekhe nahi apni umariya",
+              "indian": "m..N(K)..N(K)..N(K)..D..D..P..P..P..P.."
+            },
+            {
+              "lyrics": "Tanik sharam nahi aaye",
+              "indian": "P..P..P..P..D..D..P..P..m.."
+            },
+            {
+              "lyrics": "Dekhe nahi apni umariya",
+              "indian": "m..N(K)..N(K)..N(K)..D..D..P..P..P..P.."
+            }
+          ]
+        },
+        {
+          "name": "Verse 3",
+          "lines": [
+            {
+              "lyrics": "Saath baras mein ishq ladaye",
+              "indian": "N..N..N..S’..S’..S’..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Saath baras mein ishq ladaye",
+              "indian": "N..N..N..S’..S’..S’..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Mukhde pe rang lagaye",
+              "indian": "P..P..P..P..D..D..P..P..m.."
+            },
+            {
+              "lyrics": "Bada rangeela sawariya",
+              "indian": "m..N(K)..N(K)..N(K)..D..D..P..P..P..P.."
+            },
+            {
+              "lyrics": "Mukhde pe rang lagaye",
+              "indian": "P..P..P..P..D..D..P..P..m.."
+            },
+            {
+              "lyrics": "Bada rangeela sawariya",
+              "indian": "m..N(K)..N(K)..N(K)..D..D..P..P..P..P.."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hori_mashup",
+      "title": "Holi Mashup",
+      "thumbnail": "images/holi.png",
+      "background": "images/holi.png",
+      "info": [
+        "Song1: Hori Khele Raghuveera Awadh Mein",
+        "Song2: Rang Barse Bhige Chunarvali",
+        "Song3: Hare Krishna"
+      ],
+      "sections": [
+        {
+          "name": "Chorus",
+          "lines": [
+            {
+              "lyrics": "Hori khele raghuveera",
+              "indian": "S’..S’..S’..S’..S’..R’..N..N..N..D..P..P..D.."
+            },
+            {
+              "lyrics": "Hori khele raghuveera",
+              "indian": "N..N..S’..N..D..D..P..P..P.."
+            },
+            {
+              "lyrics": "Hori khele raghuveera awadh mein",
+              "indian": "S’..S’..S’..S’..S’..R’..N..N..N..D..P..P..D.."
+            },
+            {
+              "lyrics": "Hori khele raghuveera",
+              "indian": "N..N..S’..N..D..D..P..P..P.."
+            }
+          ]
+        },
+        {
+          "name": "Verse 1",
+          "lines": [
+            {
+              "lyrics": "Hil mil aave log lugai",
+              "indian": "M..M..M..P..P..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Hil mil aave log lugai",
+              "indian": "M..M..M..P..P..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Hil mil aave log lugai",
+              "indian": "M..M..M..P..P..D..D..N(K)..D..P..P.."
+            },
+            {
+              "lyrics": "Bhai mehalan mein bhira awadh mein",
+              "indian": "S’..S’..S’..S’..S’..R’..N..N..N..D..P..P..D.."
+            }
+          ]
+        },
+        {
+          "name": "Rang Barse- Chorus",
+          "lines": [
+            {
+              "lyrics": "Rang barse bheege chunar wali",
+              "indian": "ma ma ma padha ni dha pa pa dhanipadhani"
+            },
+            {
+              "lyrics": "Rang barse",
+              "indian": "dha pa dha ma pa"
+            },
+            {
+              "lyrics": "O rang barse bheege chunar wali",
+              "indian": "ma ma ma padha ni dha pa pa dhanipadhani"
+            },
+            {
+              "lyrics": "Rang barse",
+              "indian": "dha pa dha ma pa"
+            }
+          ]
+        },
+        {
+          "name": "Rang Barse Verse 1",
+          "lines": [
+            {
+              "lyrics": "Sone ki thali mein",
+              "indian": "pa ni sa re re re ni sa sa ni dha pa"
+            },
+            {
+              "lyrics": "Jona parosa",
+              "indian": "pa ni sa re re re"
+            },
+            {
+              "lyrics": "Haan sone ki thali mein",
+              "indian": "pa ni sa re re re ni sa sa ni dha pa"
+            },
+            {
+              "lyrics": "Arey khaye gori ka yaar bola tarse",
+              "indian": "ma ma ma padha ni dha pa pa dhanipadhani"
+            },
+            {
+              "lyrics": "Rang barse",
+              "indian": "dha pa dha ma pa"
+            }
+          ]
+        },
+        {
+          "name": "Hare Krishna",
+          "lines": [
+            {
+              "lyrics": "Hare Krishna Hare Krishna",
+              "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+            },
+            {
+              "lyrics": "Krishna Krishna Hare Hare",
+              "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rang_barse_bheege_chunar_wali",
+      "title": "Rang Barse Bheege Chunar Wali",
+      "info": [
+        "Movie: Silsila",
+        "Notation Style: Indian Classical (Sargam)"
+      ],
+      "thumbnail": "images/rang_barse_bheege_chunar_wali.png",
+      "background": "images/rang_barse_bheege_chunar_wali.png",
+      "sections": [
+        {
+          "name": "Chorus",
+          "lines": [
+            {
+              "lyrics": "Rang barse bheege chunar wali",
+              "indian": "S..n..S..R.. G(K)..R..S..S..R..G(K).."
+            },
+            {
+              "lyrics": "Rang barse",
+              "indian": "R..S..R..S..S.."
+            },
+            {
+              "lyrics": "O rang barse bheege chunar wali",
+              "indian": "m..m..m..G..m.. G(K)..R..S..S..R..G(K).."
+            },
+            {
+              "lyrics": "Rang barse",
+              "indian": "R..S..R..S..S.."
+            }
+          ]
+        },
+        {
+          "name": "Verse 1",
+          "lines": [
+            {
+              "lyrics": "Sone ki thali mein",
+              "indian": "S..G..m..P..P..P.."
+            },
+            {
+              "lyrics": "Jona parosa",
+              "indian": "G..m..m..G(K)..S.."
+            },
+            {
+              "lyrics": "Haan sone ki thali mein",
+              "indian": "S..S..G..m..P..P..P.."
+            },
+            {
+              "lyrics": "Arey khaye gori ka yaar bola tarse",
+              "indian": "S..S..n..S..R.. G(K)..R..S..S..R..G(K).."
+            },
+            {
+              "lyrics": "Rang barse",
+              "indian": "R..S..R..S..S.."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pehla_nasha",
       "title": "Pehla Nasha",
       "info": [

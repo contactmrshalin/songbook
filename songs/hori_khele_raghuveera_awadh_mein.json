@@ -1,0 +1,105 @@
+{
+  "id": "hori_khele_raghuveera_awadh_mein",
+  "title": "Hori Khele Raghuveera Awadh Mein",
+  "info": [
+    "Movie: Baghban"
+  ],
+  "image": "images/holi.png",
+  "thumbnail": "images/holi.png",
+  "background": "images/holi.png",
+  "notation_style": "Indian Classical (Sargam)",
+  "sections": [
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Hori khele raghuveera",
+          "indian": "Sa'..Sa'..Sa'..Sa'..Sa'..Re'..Ni..Ni..Ni..Dha..Pa..Pa..Dha.."
+        },
+        {
+          "lyrics": "Hori khele raghuveera",
+          "indian": "Ni..Ni..Sa'..Ni..Dha..Dha..Pa..Pa..Pa.."
+        },
+        {
+          "lyrics": "Hori khele raghuveera awadh mein",
+          "indian": "Sa'..Sa'..Sa'..Sa'..Sa'..Re'..Ni..Ni..Ni..Dha..Pa..Pa..Dha.."
+        },
+        {
+          "lyrics": "Hori khele raghuveera",
+          "indian": "Ni..Ni..Sa'..Ni..Dha..Dha..Pa..Pa..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "lines": [
+        {
+          "lyrics": "Hil mil aave log lugai",
+          "indian": "Ma(T)..Ma(T)..Ma(T)..Pa..Pa..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Hil mil aave log lugai",
+          "indian": "Ma(T)..Ma(T)..Ma(T)..Pa..Pa..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Hil mil aave log lugai",
+          "indian": "Ma(T)..Ma(T)..Ma(T)..Pa..Pa..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Bhai mehalan mein bhira awadh mein",
+          "indian": "Sa'..Sa'..Sa'..Sa'..Sa'..Re'..Ni..Ni..Ni..Dha..Pa..Pa..Dha.."
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "lines": [
+        {
+          "lyrics": "Tanik sharam nahi aaye",
+          "indian": "Pa..Pa..Pa..Pa..Dha..Dha..Pa..Pa..Ma.."
+        },
+        {
+          "lyrics": "Dekhe nahi apni umariya",
+          "indian": "Ma..Ni(k)..Ni(k)..Ni(k)..Dha..Dha..Pa..Pa..Pa..Pa.."
+        },
+        {
+          "lyrics": "Tanik sharam nahi aaye",
+          "indian": "Pa..Pa..Pa..Pa..Dha..Dha..Pa..Pa..Ma.."
+        },
+        {
+          "lyrics": "Dekhe nahi apni umariya",
+          "indian": "Ma..Ni(k)..Ni(k)..Ni(k)..Dha..Dha..Pa..Pa..Pa..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "lines": [
+        {
+          "lyrics": "Saath baras mein ishq ladaye",
+          "indian": "Ni..Ni..Ni..Sa'..Sa'..Sa'..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Saath baras mein ishq ladaye",
+          "indian": "Ni..Ni..Ni..Sa'..Sa'..Sa'..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Mukhde pe rang lagaye",
+          "indian": "Pa..Pa..Pa..Pa..Dha..Dha..Pa..Pa..Ma.."
+        },
+        {
+          "lyrics": "Bada rangeela sawariya",
+          "indian": "Ma..Ni(k)..Ni(k)..Ni(k)..Dha..Dha..Pa..Pa..Pa..Pa.."
+        },
+        {
+          "lyrics": "Mukhde pe rang lagaye",
+          "indian": "Pa..Pa..Pa..Pa..Dha..Dha..Pa..Pa..Ma.."
+        },
+        {
+          "lyrics": "Bada rangeela sawariya",
+          "indian": "Ma..Ni(k)..Ni(k)..Ni(k)..Dha..Dha..Pa..Pa..Pa..Pa.."
+        }
+      ]
+    }
+  ]
+}

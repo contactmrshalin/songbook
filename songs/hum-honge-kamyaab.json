@@ -1,0 +1,46 @@
+{
+  "id": "hum-honge-kamyaab",
+  "title": "Hum Honge Kamyaab",
+  "info": [
+    "Type: Patriotic / motivational song",
+    "Language: Hindi"
+  ],
+  "thumbnail": "images/hum_honge_kamyab_thumb.png",
+  "background": "images/hum_honge_kamyab_bg.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Hum | honge | kamyaab",
+          "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga"
+        },
+        {
+          "lyrics": "Hum | honge | kamyaab",
+          "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga"
+        },
+        {
+          "lyrics": "Hum | honge | kamyaab",
+          "indian": "Ga Ma | Pa Pa | Dha Ni Sa:"
+        },
+        {
+          "lyrics": "Ek | din",
+          "indian": "Sa'~Re' Sa' | Ni: Dha~Ni Dha Pa"
+        },
+        {
+          "lyrics": "Ho ho | man | me | hai | vishwas",
+          "indian": "Dha Ni | Sa': | Sa': | Ni | Dha Pa"
+        },
+        {
+          "lyrics": "Pura | hai | vishwas",
+          "indian": "Dha Dha | Pa: | Ma Ga"
+        },
+        {
+          "lyrics": "Hum | honge | kamyaab | ek din",
+          "indian": "Ga Ma | Pa Pa | Sa Ma Ga | Re Re Sa:"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

@@ -1,0 +1,79 @@
+{
+  "id": "chura-liya-hai-tumne-jo-dil-ko",
+  "title": "Chura Liya Hai Tumne Jo Dil Ko",
+  "info": [
+    "Movie: Yaadon Ki Baaraat (1973)",
+    "Singers: Asha Bhosle, Mohammed Rafi",
+    "Lyricist: Majrooh Sultanpuri",
+    "Music Director: R. D. Burman"
+  ],
+  "thumbnail": "images/chura-liya-hai-tumne-jo-dil-ko.png",
+  "background": "images/chura-liya-hai-tumne-jo-dil-ko.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Chura liya hai tumne jo dil ko",
+          "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re"
+        },
+        {
+          "lyrics": "Nazar nahin churaana sanam",
+          "indian": "Dha Dha Sa Ni Dha Dha - Ni - Dha:"
+        },
+        {
+          "lyrics": "(Repeat line)",
+          "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA EXTENSION",
+      "lines": [
+        {
+          "lyrics": "Badal ke meri tum zindagani",
+          "indian": "Dha Dha Sa Ni Dha - Dha Ni~Dha -"
+        },
+        {
+          "lyrics": "Kahin badal na jaana sanam",
+          "indian": "Re~Re Re Re Ni~Dha | Re~Re Re Re Ni"
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE (as written)",
+      "lines": [
+        {
+          "lyrics": "Instrumental phrase",
+          "indian": "Re Re Re Re Ni / Re Re Re Re Ni"
+        },
+        {
+          "lyrics": "High filler",
+          "indian": "Re Re Re Dha Sa Ni | Dha Sa Ni Dha Dha"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Gham tera ho gham mera",
+          "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Ni Sa Sa Sa"
+        },
+        {
+          "lyrics": "Dil mein jo bas jaaye",
+          "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Hum rahe ho",
+          "indian": "Re Re Re Ni~Dha / Re Re Re Ni"
+        },
+        {
+          "lyrics": "Aaj tum",
+          "indian": "Re Re Re Re Dha Sa Ni Dha Sa Ni Dha Dha"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

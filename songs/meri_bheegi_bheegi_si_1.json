@@ -1,0 +1,71 @@
+{
+  "id": "meri_bheegi_bheegi_si_1",
+  "title": "Meri Bheegi Bheegi Si",
+  "movie": "Anamika",
+  "year": "1973",
+  "info": [
+    "Singer: Kishore Kumar",
+    "Composer: R.D. Burman",
+    "Scale: Tutorial Based",
+    "Legend: . = lower octave, ' = higher octave, () = kan, ~ = meend, — = hold"
+  ],
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Meri bheegi bheegi si",
+          "indian": "Ni' Sa' Ga' Ga' Ga' Ga' Ga'—"
+        },
+        {
+          "lyrics": "Palkon pe reh gaye",
+          "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—"
+        }
+      ]
+    },
+    {
+      "name": "Continuation",
+      "lines": [
+        {
+          "lyrics": "Jaise mere sapne bikhar ke",
+          "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—"
+        },
+        {
+          "lyrics": "Jaise mere sapne",
+          "indian": "Ni' Sa' Ga'—"
+        }
+      ]
+    },
+    {
+      "name": "Bridge Phrase",
+      "lines": [
+        {
+          "lyrics": "Jale man tera bhi",
+          "indian": "Ma' Ga' Pa'— Ma' Ga' Ga'—"
+        }
+      ]
+    },
+    {
+      "name": "Repeat Mukhda Pattern",
+      "lines": [
+        {
+          "lyrics": "Meri bheegi bheegi si",
+          "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—"
+        },
+        {
+          "lyrics": "Palkon pe reh gaye",
+          "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—"
+        }
+      ]
+    },
+    {
+      "name": "Ending Phrase",
+      "lines": [
+        {
+          "lyrics": "Anamika…",
+          "indian": "Ni' Re' Sa' Ni'—"
+        }
+      ]
+    }
+  ]
+}

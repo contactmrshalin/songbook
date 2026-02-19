@@ -1,0 +1,74 @@
+{
+  "id": "lag-ja-gale",
+  "title": "Lag Ja Gale",
+  "info": [
+    "Movie: Woh Kaun Thi (1964)",
+    "Singer: Lata Mangeshkar",
+    "Lyrics: Raja Mehdi Ali Khan",
+    "Music: Madan Mohan",
+    "Based on Raag: Pahadi"
+  ],
+  "thumbnail": "images/lag_ja_gale_thumb1.png",
+  "background": "images/lag_ja_gale_bg.jpeg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Lag | ja | gale | ki | phir | ye",
+          "indian": "Pa.Pa. | Ga | Re Ga… | Ga~Re | ReGa ReGa | Ga"
+        },
+        {
+          "lyrics": "hasin | raat",
+          "indian": "Ga ReGa ReGa | ReGa{MaGaReSa}Sa"
+        },
+        {
+          "lyrics": "ho | na | ho…….o",
+          "indian": "Sa{ReMaGa} | Re | Re…(Ga)Re Ni(Sa)Ni Dha(Ni)Dha Pa"
+        },
+        {
+          "lyrics": "Shayad | phir | is | janam | mein",
+          "indian": "Pa. Dha. | Dha. | Dha.Dha. | Ni~Re NiDhaPaDha | Pa"
+        },
+        {
+          "lyrics": "Mulakat | ho | na | ho",
+          "indian": "Pa.Pa.~Pa' Pa'Dha' | MaPa MaDhaPa | Ma | Ga… Re {SaReGaReSa}"
+        },
+        {
+          "lyrics": "Lag | jaa | gale | se | ae",
+          "indian": "Pa.Pa. | Ga | Re Ga… | Ga | Ga"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Humko | mili | hai | aaj | ye",
+          "indian": "Sa Pa | Ma Pa | Pa | Sa'Dha'Pa'Ma Ma | Ma"
+        },
+        {
+          "lyrics": "ghadiya | naseeb | se",
+          "indian": "Sa Ma Ma | DhaPaMa DhaPaMaGa | Ga"
+        },
+        {
+          "lyrics": "Jee bhar ke dekh leejiye",
+          "indian": "Sa…Pa…Ma..Pa…Ma..Sa'…Dha…Ma..Ma…"
+        },
+        {
+          "lyrics": "Humko qareeb se",
+          "indian": "Sa..Ma..Ma…Dha..Pa..Ma..Pa…Ma..Ga…"
+        },
+        {
+          "lyrics": "Phir aap ke | Naseeb mein",
+          "indian": "Pa | Ga Re Ga | Ga ReGa ReGa Ga | Ga"
+        },
+        {
+          "lyrics": "Yeh baat ho na ho",
+          "indian": "ReGa ReGa | ReGa{MaGaReSa}Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

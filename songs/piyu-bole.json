@@ -1,0 +1,76 @@
+{
+  "id": "piyu-bole",
+  "title": "Piyu Bole (Piya Bole)",
+  "info": [
+    "Movie: Parineeta (2005).",
+    "Singers: Sonu Nigam and Shreya Ghoshal.",
+    "Music Director: Shantanu Moitra.",
+    "Lyricist: Swanand Kirkire."
+  ],
+  "thumbnail": "images/piyu_bole_thumb.png",
+  "background": "images/piyu_bole_bg.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Piyu bole piya bole",
+          "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
+        },
+        {
+          "lyrics": "Hmm hmm hmm hmm jaanu na",
+          "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+        },
+        {
+          "lyrics": "Jiya dole hole hole",
+          "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
+        },
+        {
+          "lyrics": "Kyon yeh dole jaanu na",
+          "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+        },
+        {
+          "lyrics": "Dil ki jo baatein hain",
+          "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+        },
+        {
+          "lyrics": "Baatein jo dil ki hain",
+          "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+        },
+        {
+          "lyrics": "Dil hi mein rakhna piya",
+          "indian": "Sa..Pa..Ma..Ga.Re.Ga..Ma..Ga…Re.Sa.."
+        },
+        {
+          "lyrics": "Lab to na kholoon main",
+          "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+        },
+        {
+          "lyrics": "Kholoon na lab to par",
+          "indian": "Sa..Pa..Ma..Re..Pa..Ma.."
+        },
+        {
+          "lyrics": "Aakhon se sab keh diya",
+          "indian": "Sa..Pa..Ma..Ga.Re.Ga..Ma..Ga…Re.Sa.."
+        },
+        {
+          "lyrics": "Piyu bole piya bole",
+          "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
+        },
+        {
+          "lyrics": "Kya yeh bole jaanu na",
+          "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+        },
+        {
+          "lyrics": "Jiya dole hole hole",
+          "indian": "Sa..Ni(k)..Sa..Re… Ga.Re..Ga..Pa.Ma..Ga…"
+        },
+        {
+          "lyrics": "Kyon yeh dole jaanu na",
+          "indian": "Sa..Ni(k)..Sa..Re…Sa..Ni(k)..Sa…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

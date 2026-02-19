@@ -1,0 +1,71 @@
+{
+  "id": "ajeeb-daastaan-hai-yeh",
+  "title": "Ajeeb Daastaan Hai Yeh",
+  "info": [
+    "Movie: Dil Apna Aur Preet Parai (1960)",
+    "Singer: Lata Mangeshkar",
+    "Lyricist: Shailendra",
+    "Music Director: Shankar–Jaikishan",
+    "Raag: Yaman (light / film usage)"
+  ],
+  "thumbnail": "images/ajeeb_dastan.png",
+  "background": "images/ajeeb_dastan.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Ajeeb daastaan hai yeh",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+        },
+        {
+          "lyrics": "Kahan shuru kahan khatam",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Yeh manzilen hain kaunsi",
+          "indian": "Dha Pa Dha Pa Ma Ga Re Ga Re"
+        },
+        {
+          "lyrics": "Na woh samajh sake na hum",
+          "indian": "Sa': Sa' Re' Sa' Dha Pa Re Ma Sa:"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Yeh roshni ke saath kyun",
+          "indian": "Ma Pa Dha Ni(k)~Dha Ni(k) Pa Ni(k):"
+        },
+        {
+          "lyrics": "Dhuaan utha chiraag se",
+          "indian": "Re'~Sa' Re' Sa' Ni(k): Ni(k) Re' Sa'"
+        },
+        {
+          "lyrics": "Yeh khwaab dekhti hoon main",
+          "indian": "Ga' Ga' Re' Ga' Re' Ga' Sa' Ni(k)"
+        },
+        {
+          "lyrics": "Ke jaag padi hoon khwaab se",
+          "indian": "Sa' Sa' Re' Sa' Dha Pa Re Ma Sa:"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (REPEAT)",
+      "lines": [
+        {
+          "lyrics": "Ajeeb daastaan hai yeh",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+        },
+        {
+          "lyrics": "Kahan shuru kahan khatam",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

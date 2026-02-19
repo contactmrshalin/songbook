@@ -1,0 +1,78 @@
+{
+  "id": "teri-mitti",
+  "title": "Teri Mitti",
+  "export": false,
+  "info": [
+    "Movie: Kesari",
+    "Singer: B Praak",
+    "Music Director: Arko",
+    "Lyricist: Manoj Muntashir",
+    "Raag feel: Bhairavi / patriotic folk blend",
+    "Scale: C",
+    "Ornaments: ~ meend, : hold, ( ) kan"
+  ],
+  "thumbnail": "placeholder://song_thumb",
+  "sections": [
+    {
+      "name": "INTRO",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "Re Ga, Ma Ga Re Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re Ga Re Pa: Dha Pa : Re :"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re Ga, Pa Ma Ga Re Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re Ga Re Pa: Dha : Re : Ga Re Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ga Re Re Re Ga Ga, Ga Re Re Re Ga Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ga Re Re Re Re Ga Re Sa Dha, Dha Sa Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Sa Ni Ni Ni Sa Sa, Sa Ni Re Sa Sa Ni Dha Dha Dha Pa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa Pa Pa Pa Pa Re Re Ga Re Sa Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re' Re' Re' Re' Ga' Ga', Re' Re' Re' Re' Ga' Ga'"
+        },
+        {
+          "lyrics": "",
+          "indian": "Sa' Ni Ni Ni Sa' Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Dha Pa Pa Dha Dha Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa Dha, Dha Pa Pa Dha Ni Dha Ma Ga Ga Pa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re Ga, Ma Ga Re Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re Ga Re Pa: Dha Pa : Re :"
+        }
+      ]
+    }
+  ]
+}

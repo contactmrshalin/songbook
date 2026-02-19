@@ -1,0 +1,40 @@
+{
+  "id": "pehla_nasha",
+  "title": "Pehla Nasha",
+  "info": [
+    "Movie:Jo Jeeta Wohi Sikandar"
+  ],
+  "background": "images/pehla_nasha.png",
+  "thumbnail": "images/pehla_nasha.png",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Pehla nasha pehla khumar",
+          "indian": "Ga Pa PaPaDhaPa GaSaRePa Pa"
+        },
+        {
+          "lyrics": "Naya pyar hai naya intezar",
+          "indian": "Ga Pa PaPaDhaPa MaGaRe ReRe"
+        },
+        {
+          "lyrics": "Kar loon main kya apna haal",
+          "indian": "Sanidha niSa Ma GaGa"
+        },
+        {
+          "lyrics": "Ae dil-e-bekaraar",
+          "indian": "Dha niSa Ga ReRe"
+        },
+        {
+          "lyrics": "Kar loon main kya apna haal",
+          "indian": "Sanidha niSa Ma GaGa"
+        },
+        {
+          "lyrics": "Tu hi bata",
+          "indian": "SaReGaSaRe"
+        }
+      ]
+    }
+  ]
+}

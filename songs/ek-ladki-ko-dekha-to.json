@@ -1,0 +1,96 @@
+{
+  "id": "ek-ladki-ko-dekha-to",
+  "title": "Ek Ladki Ko Dekha To Aisa Laga",
+  "info": [
+    "Movie: 1942 - A Love Story (1994)",
+    "Singer: Kumar Sanu",
+    "Lyricist: Javed Akhtar",
+    "Music Director: R. D. Burman",
+    "Raag: Yaman / Desh (light)"
+  ],
+  "thumbnail": "images/ek-ladki-ko-dekha-to.png",
+  "background": "images/1942_a_love_story_bg.png",
+  "sections": [
+    {
+      "name": "MUSIC (Intro)",
+      "lines": [
+        {
+          "lyrics": "Instrumental",
+          "indian": "Sa Re Ga Re Sa Pa. | Sa Re Sa Re Pa. (x2)"
+        },
+        {
+          "lyrics": "Resolution",
+          "indian": "Sa Sa Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Ek ladki ko, dekha to, aisa laga",
+          "indian": "Sa Sa Ni Sa Re, Ni Sa Re, Ni Re Ni Sa"
+        },
+        {
+          "lyrics": "Jaise khilta gulaab",
+          "indian": "Sa Sa Ni. Sa Ni Pa Ni~Dha"
+        },
+        {
+          "lyrics": "Jaise shayar ka khwaab",
+          "indian": "Ni Sa Ni. Sa Ni Pa Ni~Dha"
+        },
+        {
+          "lyrics": "Jaise ujli kiran",
+          "indian": "Ni Sa DhaDhaGa Dha Pa"
+        },
+        {
+          "lyrics": "Jaise van mein hiran",
+          "indian": "Pa Pa Ga Ma DhaSaDha Pa Pa"
+        },
+        {
+          "lyrics": "Jaise chandni raat",
+          "indian": "Pa Pa GaMaDha Pa Pa"
+        },
+        {
+          "lyrics": "Jaise narmi ki baat",
+          "indian": "Dha Dha GaGaDha Pa Pa Pa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Jaise mandir mein ho ek",
+          "indian": "Pa Pa Pa.NiSaGa Re Pa. Ni SaGaRe~Sa"
+        },
+        {
+          "lyrics": "jalta diya, ho....",
+          "indian": "Pa. Ni Sa Ga Re Sa: Sa: Sa: Sa:"
+        }
+      ]
+    },
+    {
+      "name": "ENDING PHRASE",
+      "lines": [
+        {
+          "lyrics": "Music1",
+          "indian": "Pa Ni Re Sa' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Music1-Repeat",
+          "indian": "Pa Ni Re Sa' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Music2",
+          "indian": "Pa Sa Pa Dha"
+        },
+        {
+          "lyrics": "Music3",
+          "indian": "Ga Ma Dha Pa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

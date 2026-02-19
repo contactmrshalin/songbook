@@ -1,0 +1,125 @@
+{
+  "id": "saare-jahan-se-achchha",
+  "title": "Saare Jahan Se Achchha",
+  "info": [
+    "Poet: Muhammad Iqbal",
+    "Released/Written: 16 Aug 1904"
+  ],
+  "thumbnail": "images/sare_jahan_se_achha.png",
+  "background": "images/sare_jahan_se_achha.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Saare | jahaan | se | achchha",
+          "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+        },
+        {
+          "lyrics": "hindostaan | hamaara | hamara",
+          "indian": "Pa.Dha. Sa Re Ga(k) | Ma Ga(k) Ga(k) | Re Re~(Ma)Ga(k) Re Sa"
+        },
+        {
+          "lyrics": "Saare | jahaan | se | achchha",
+          "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+        },
+        {
+          "lyrics": "Ham | bulabulen | hain | isaki,",
+          "indian": "Ga(k) Ma | Pa PaPa | Ga(k) | Ma Dha Pa"
+        },
+        {
+          "lyrics": "ye | gul sitaan | hamaara | hamara",
+          "indian": "Ga(k)Ma | Pa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+        },
+        {
+          "lyrics": "Saare | jahaan | se | achchha",
+          "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Parabat | wo | sabase | uncha,",
+          "indian": "Ga(k) Ga(k)Ga(k) | Ga(k) | Ga(k)Ma Ga(k)~Re | Re~Sa Sa"
+        },
+        {
+          "lyrics": "hamasaaya | asamaan | ka",
+          "indian": "Pa.Dha. SaRe | Ga(k) Ma Ga(k)| Ga(k)"
+        },
+        {
+          "lyrics": "Wo | sntari | hamaara,",
+          "indian": "Ga(k) Ma | Pa PaPa | Ga(k) | Ma Dha Pa"
+        },
+        {
+          "lyrics": "wo | paasabaan | hamaara | hamara",
+          "indian": "Ga(k)Ma | Pa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+        },
+        {
+          "lyrics": "Saare | jahaan | se | achchha",
+          "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Godi | men | khelati | hain",
+          "indian": "SaPa Pa | Pa | PaDha Ga(k)Pa | Ma~Ga(k) (Re)Ga(k)"
+        },
+        {
+          "lyrics": "isaki | hazaaro | nadiyaan",
+          "indian": "SaPa Pa | Pa Pa Dha | Ga(k)Pa Ma~Ga(k) (Re)Ga(k)"
+        },
+        {
+          "lyrics": "Gulashan | hai | jinake | dam | se",
+          "indian": "Ma MaMa | Ma | MaMa Ga(k)~Ma | Ga(k)~Re | Sa~Dha. Sa~Re"
+        },
+        {
+          "lyrics": "Gulashan | hai | jinake | dam | se",
+          "indian": "Ma MaMa | Ma | MaMa Ga(k)~Ma | Ga(k)~Re | Sa"
+        },
+        {
+          "lyrics": "rashq-e-jina | hamaara | hamara",
+          "indian": "Ga(k)Ma MaDhaPa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+        },
+        {
+          "lyrics": "Saare | jahaan | se | achchha",
+          "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 3",
+      "lines": [
+        {
+          "lyrics": "Mazahab | nahin | sikhaata",
+          "indian": "Ni.Ni.Ni. | Ni.Ni. | Ni.Ni.~Sa Sa"
+        },
+        {
+          "lyrics": "apas | men | bair | rakhana",
+          "indian": "SaPa Pa | Pa | Pa Dha | Ga(k)Pa Ma~Ga(k) (Re)Ga(k)"
+        },
+        {
+          "lyrics": "Hindi | hain | ham (x3)",
+          "indian": "Sa'Sa' | Sa' | Sa'"
+        },
+        {
+          "lyrics": "watan | hai,",
+          "indian": "Pa Ga(k)Pa | Ma~Ga(k) (Re)Ga(k)"
+        },
+        {
+          "lyrics": "hindostaan | hamaara | hamara",
+          "indian": "Ga(k)Ma DhaPa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa"
+        },
+        {
+          "lyrics": "Saare | jahaan | se | achchha …",
+          "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

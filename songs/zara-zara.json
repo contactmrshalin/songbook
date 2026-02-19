@@ -1,0 +1,115 @@
+{
+  "id": "zara-zara",
+  "title": "Zara Zara",
+  "thumbnail": "images/zara_zara_thumb.png",
+  "background": "images/zara_zara_thumb.png",
+  "info": [
+    "Song: Zara Zara",
+    "Movie: Rehnaa Hai Terre Dil Mein (2001)",
+    "Scale (Western): Sa = C"
+  ],
+  "sections": [
+    {
+      "name": "FLUTE INTERLUDE",
+      "lines": [
+        {
+          "lyrics": "Flute Interlude",
+          "indian": "Ga: Ga: Ga:: Ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:"
+        },
+        {
+          "lyrics": "Variation",
+          "indian": "Sa Re Ga: Ga: Ga:: Ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:"
+        },
+        {
+          "lyrics": "Pickup",
+          "indian": "Dha Sa: Sa: Sa: Sa: | Re: Re: Re: Re: | Ga: Pa Dha: Ni:"
+        },
+        {
+          "lyrics": "Run",
+          "indian": "Dha Pa Ma Ga: Ma Ga Re Ga Ma Re Sa Ni"
+        }
+      ]
+    },
+    {
+      "name": "HOOK LINE (STHAYI)",
+      "lines": [
+        {
+          "lyrics": "Zara Zara Behekta Hai, Mehekta Hai",
+          "indian": "Ni Sa Ni Sa: Sa Ni Sa Re Ni Sa Sa Ni Sa Re Ni Sa"
+        },
+        {
+          "lyrics": "Aaj To Mera Tan Badan",
+          "indian": "Ni Ni Ga Re Ga Sa Ni: Sa Ni Sa"
+        },
+        {
+          "lyrics": "Main Pyaasi Hoon, Mujhe Bhar Le Apni Baahon Mein",
+          "indian": "Sa Ni Sa Re Ni Sa | Sa Ni Sa Re Ni Sa Dha Sa Ni Dha Pa Dha"
+        }
+      ]
+    },
+    {
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "lyrics": "Hai, Meri Kasam, Tujhko Sana, Door Kahin Na Jaa",
+          "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa Ma | Ma: Pa Ma Ga: Ni: Ni Dha:"
+        },
+        {
+          "lyrics": "Yeh Doori, Kehti Hai, Paas Mere Aaja Re",
+          "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa Ma | Ma: Pa Ma Ga: Ni: Ni Dha:"
+        },
+        {
+          "lyrics": "Flute Interlude Again",
+          "indian": "(Repeat FLUTE INiTEReLUDhaE)"
+        }
+      ]
+    },
+    {
+      "name": "VERSE (ANTARA)",
+      "lines": [
+        {
+          "lyrics": "Yuhin Baras Baras Kali Ghataa Barse",
+          "indian": "Dha Sa Re Ga: Re Ga: Re Ga:: Re Ga:: Sa Ni"
+        },
+        {
+          "lyrics": "Hum Yaar Bheeg Jaayein, Iss Chaahat Ki Baarish Mein",
+          "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga Ma Ga Re Ga:"
+        },
+        {
+          "lyrics": "Meri Khulee Khulee Lato Ko Suljhaye",
+          "indian": "Dha Sa Re Ga: Re Ga: Re Ga:: Re Ga:: Sa Ni"
+        },
+        {
+          "lyrics": "Tu Apni Ungliyon Se, Main To Hoon Isee, Khwaahish Mein",
+          "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga Ma Ga Re Ga:"
+        },
+        {
+          "lyrics": "Sardee Ki, Raaton Mein, Hum Soyein Rahe Ek Chaadar Mein",
+          "indian": "Ga Dha Dha Ga | Ga Ni Ni Ga | Ga Sa: Sa Ni Ni Dha Dha Pa Pa Dha Dha"
+        },
+        {
+          "lyrics": "Hum Dono, Tanha Ho, Na Koi Bhi Rahe Is Ghar Mein",
+          "indian": "Ga Dha Dha Ga: | Ga Pa Pa Re: | Re Ma: Ga Re Sa Ni Sa Ni"
+        }
+      ]
+    },
+    {
+      "name": "SOLO",
+      "lines": [
+        {
+          "lyrics": "Solo (Part 1)",
+          "indian": "Ga Ga Pa Dha Pa Dha: | Pa Dha Ni Sa Ni Dha: | Pa Ma Pa Ma Ga Ga: | Sa Ga Pa Dha Pa Dha:"
+        },
+        {
+          "lyrics": "Solo (Part 2)",
+          "indian": "Sa Sa Ni Ni Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Re Ga:: Pa | Sa Sa Ni Ni Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Solo Ending",
+          "indian": "Sa Dha: | Sa Ni Pa Ma Ga: Re | Ma Ma Ga Ga Re Re Sa Re Ga: | Sa Dha: | Ni Sa Re Sa Ni Dha: | Sa Sa Ni Ni Dha Dha Sa Re Ga::::"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

@@ -21,7 +21,26 @@ from pathlib import Path
 from typing import Any, Dict
 
 
+def minimize_song(song: Dict[str, Any]) -> int:
+    """Remove derived fields from a single song dict. Returns count of removed keys."""
+    removed = 0
+    for section in (song.get("sections") or []):
+        if not isinstance(section, dict):
+            continue
+        for line in (section.get("lines") or []):
+            if not isinstance(line, dict):
+                continue
+            if "western" in line:
+                line.pop("western", None)
+                removed += 1
+            if "tokens" in line:
+                line.pop("tokens", None)
+                removed += 1
+    return removed
+
+
 def minimize(data: Dict[str, Any]) -> int:
+    """Remove derived fields from a legacy songs.json structure (with top-level 'songs' list)."""
     removed = 0
     songs = data.get("songs", [])
     if not isinstance(songs, list):
@@ -30,18 +49,7 @@ def minimize(data: Dict[str, Any]) -> int:
     for song in songs:
         if not isinstance(song, dict):
             continue
-        for section in (song.get("sections") or []):
-            if not isinstance(section, dict):
-                continue
-            for line in (section.get("lines") or []):
-                if not isinstance(line, dict):
-                    continue
-                if "western" in line:
-                    line.pop("western", None)
-                    removed += 1
-                if "tokens" in line:
-                    line.pop("tokens", None)
-                    removed += 1
+        removed += minimize_song(song)
     return removed
 
 
@@ -54,9 +62,30 @@ def main() -> None:
         action="store_true",
         help="Overwrite the input file (still writes a .bak once if missing).",
     )
+    ap.add_argument("--songs-dir", default="", help="Process individual song files in this directory")
     args = ap.parse_args()
 
     inp = Path(args.inp).resolve()
+
+    # Check for per-song layout
+    songs_dir = Path(args.songs_dir) if args.songs_dir else inp.parent / "songs"
+    if songs_dir.is_dir() and any(songs_dir.glob("*.json")):
+        total = 0
+        for sf in sorted(songs_dir.glob("*.json")):
+            data = json.loads(sf.read_text(encoding="utf-8"))
+            if not isinstance(data, dict):
+                continue
+            removed = minimize_song(data)
+            if removed:
+                sf.write_text(
+                    json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+                    encoding="utf-8",
+                )
+                total += removed
+        print(f"Minimized songs/ directory (removed {total} derived keys)")
+        return
+
+    # Legacy fallback: read/write songs.json
     if not inp.exists():
         raise SystemExit(f"Missing input: {inp}")
 

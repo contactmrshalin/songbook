@@ -1,0 +1,167 @@
+{
+  "id": "tujhe-dekha-to-yeh-jaana-sanam",
+  "title": "Tujhe Dekha To Yeh Jaana Sanam",
+  "info": [
+    "Movie: Dilwale Dulhania Le Jayenge (1995) (add/confirm)",
+    "Singer: Lata Mangeshkar 🎤",
+    "Music Director: Rahul Dev Burman (R. D. Burman) 🎼",
+    "Lyricist: Anand Bakshi ✍️"
+  ],
+  "thumbnail": "images/tujhe_dekha_to_ye_jana_sanam_thumb.png",
+  "background": "images/tujhe_dekha_to_ye_jana_sanam_bg.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tujhe dekha to yeh jaana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Pyaar hota hai deewana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+        },
+        {
+          "lyrics": "Ab yahan se kahan jaaye hum",
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+        },
+        {
+          "lyrics": "Teri baahon mein mar jaaye hum",
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa"
+        },
+        {
+          "lyrics": "Tujhe dekha to yeh jaana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Pyaar hota hai deewana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+        },
+        {
+          "lyrics": "Ab yahan se kahan jaaye hum",
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+        },
+        {
+          "lyrics": "Teri baahon mein mar jaaye hum",
+          "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
+        },
+        {
+          "lyrics": "Tujhe dekha to yeh jaana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa"
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa"
+        },
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa"
+        },
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Ni' Re' Ni' Pa Ni' Ni' Ni' Ni' Ni' Sa'' Sa'' Re''"
+        },
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Re' Re' Pa Ni' Re' Sa'' Ga'' Ma(T)'' Sa'' Ma(T)'' Sa'' Re''"
+        },
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Pa Dha Re' Sa'' Ni' Re' Pa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Aankhen meri",
+          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
+        },
+        {
+          "lyrics": "sapne tere",
+          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Dil mera, yaadein teri",
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
+        },
+        {
+          "lyrics": "(repeat)",
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
+        },
+        {
+          "lyrics": "O, mera hai kya",
+          "indian": "Pa Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Sab kuch tera",
+          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Jaan teri, saansein teri",
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
+        },
+        {
+          "lyrics": "(repeat)",
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
+        },
+        {
+          "lyrics": "Meri aankhon mein aansu tere aa gaye",
+          "indian": "Pa Dha Pa Dha Pa Dha Dha Ga Ma(T) Sa Pa Pa Dha Pa Dha Pa Dha Ma(T) Ga Dha"
+        },
+        {
+          "lyrics": "Muskuraane lage saare gham",
+          "indian": "Dha Dha Dha Re' Re' Ni' Re' Ni' Pa Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
+        }
+      ]
+    },
+    {
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "lyrics": "Tujhe dekha to yeh jaana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Pyaar hota hai deewana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+        },
+        {
+          "lyrics": "Ab yahan se kahan jaaye hum",
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+        },
+        {
+          "lyrics": "Teri baahon mein mar jaaye hum",
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa"
+        },
+        {
+          "lyrics": "Tujhe dekha to yeh jaana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
+        },
+        {
+          "lyrics": "Pyaar hota hai deewana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
+        },
+        {
+          "lyrics": "Ab yahan se kahan jaaye hum",
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
+        },
+        {
+          "lyrics": "Teri baahon mein mar jaaye hum",
+          "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
+        },
+        {
+          "lyrics": "Tujhe dekha to yeh jaana sanam",
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

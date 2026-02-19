@@ -1,0 +1,105 @@
+{
+  "id": "ae-watan-watan-mere",
+  "title": "Ae Watan Watan Mere",
+  "info": [
+    "Movie: Raazi (2018)",
+    "Singer: Arijit Singh",
+    "Music Director: Shankar–Ehsaan–Loy",
+    "Lyricist: Gulzar",
+    "Scale: A (Sa = A), Western mapping: Sa=A, Re=B",
+    "Ornaments: ~ meend (glide), : hold (sustain), ( ) kan (grace)"
+  ],
+  "thumbnail": "images/ae_watan_thumb.png",
+  "background": "images/ae_watan_thumb.png",
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Ae watan, watan mere, aabaad rahe tu",
+          "indian": "Sa Re Ga | Ga Ga | Ga Ga Ga | Ga Ma | Dha | Dha Ni Dha | Pa"
+        },
+        {
+          "lyrics": "Main jahan rahoon, jahaan main yaad rahe tu",
+          "indian": "Ga Pa Sa' Ni | Dha Pa | Ma: Ma: Ma: | Sa, Ma: Ma: | Pa | Dha Ni Dha | Pa"
+        },
+        {
+          "lyrics": "Main jahan rahoon, jahaan main yaad rahe tu",
+          "indian": "Ga Pa Sa' Ni | Dha Pa | Ma: Ma: Ma: | Re Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Ae watan, mere watan (2x)",
+          "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Tu hi meri manzil hai, pehchan tujhi se",
+          "indian": "Ga Ma Dha | Dha Dha | Dha Pa | Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha"
+        },
+        {
+          "lyrics": "Pahunchu main jahaan bhi meri buniyad rahe tu",
+          "indian": "Ga Ma | Ni Ni Ni | Ni Dha | Ni Ni | Ni | Ni Sa' Ni | Ni Dha | Re' Re' | Sa'"
+        },
+        {
+          "lyrics": "(music phrase)",
+          "indian": "Pa Pa | Re' | Re' Re' Re' | Sa' | Re' Re' | Ga' | Re' | Sa' Dha | Re' Re' | Sa'"
+        },
+        {
+          "lyrics": "(music phrase to chorus)",
+          "indian": "Ga Ma | Pa Sa' Ni | Dha Pa Dha Pa | Ma: Ma: Ma: Ma: Re | Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Ae watan, mere watan (2x)",
+          "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Tujhpe koi gham ki aanch aane nahin doon",
+          "indian": "Ga Ga Ga | Ma Dha Pa | Dha Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha"
+        },
+        {
+          "lyrics": "Kurbaan meri jaan tujhpe shaad rahe tu",
+          "indian": "Ga Ga Ma | Ni Dha | Ni Ni Ni | Ni Dha | Ni Ni | Re' | Re' Ga' | Re' | Sa'"
+        },
+        {
+          "lyrics": "(music phrase to chorus)",
+          "indian": "Pa Pa | Re' Re' Re' Re' | Sa' | Re' Re' | Ga' Re' | Sa' Dha | Re' Re' | Sa'"
+        },
+        {
+          "lyrics": "(music phrase to chorus)",
+          "indian": "Ga Ma | Pa Sa' Ni | Dha Pa Dha Pa | Ma: Ma: Ma: Ma: Re | Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Ae watan, mere watan (2x)",
+          "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)"
+        }
+      ]
+    },
+    {
+      "name": "EXTRA (as in PDF)",
+      "lines": [
+        {
+          "lyrics": "Lab pe aati hai duaa bann ke tamanna meri (Ae watan, mere watan)",
+          "indian": "Pa Pa Sa' Sa' Sa' | Sa' Sa' Ni Dha | Dha Ni | Re' Ga' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Zindagi shamma ki soorat ho khudaya meri (Ae watan, mere watan)",
+          "indian": "Pa Pa Sa' Ni | Re' Dha Pa Pa | Pa Ma: | Dha Pa Ma"
+        },
+        {
+          "lyrics": "(ending phrase)",
+          "indian": "Ma Ga Ga | Pa Ma | Re Sa Re | Sa Re Ga | Ga Ma Dha Pa | Sa Re Ga Pa Re Ga Re Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

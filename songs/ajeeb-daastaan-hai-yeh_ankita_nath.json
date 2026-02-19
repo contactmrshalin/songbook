@@ -1,0 +1,79 @@
+{
+  "id": "ajeeb-daastaan-hai-yeh_ankita_nath",
+  "title": "Ajeeb Daastaan Hai Yeh",
+  "info": [
+    "Movie: Dil Apna Aur Preet Parai (1960)",
+    "Singer: Lata Mangeshkar",
+    "Lyricist: Shailendra",
+    "Music Director: Shankar–Jaikishan",
+    "Raag: Yaman (light / film usage)"
+  ],
+  "thumbnail": "images/ajeeb_dastan.png",
+  "background": "images/ajeeb_dastan.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Ajeeb daastaan hai yeh",
+          "indian": "Dha PaDha PaGa ReSa Ga"
+        },
+        {
+          "lyrics": "Kahan shuru kahan khatam",
+          "indian": "Dha PaDha PaGa ReSa Re"
+        },
+        {
+          "lyrics": "Yeh manzilen hain kaunsi",
+          "indian": "Ga ReGa ReSa NiDha Ni Dha"
+        },
+        {
+          "lyrics": "Na woh samajh sake na hum",
+          "indian": "Pa PaDha PaGa ReSaDha Sa Pa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Yeh roshni ke saath kyun",
+          "indian": "Sa ReGa MaGa MaRe Ma"
+        },
+        {
+          "lyrics": "Dhuaan utha chiraag se",
+          "indian": "Dha PaDha PaMa MaDha Pa"
+        },
+        {
+          "lyrics": "Yeh roshni ke saath kyun",
+          "indian": "Sa ReGa MaGa MaRe Ma"
+        },
+        {
+          "lyrics": "Dhuaan utha chiraag se",
+          "indian": "Dha PaDha PaMa MaDha Pa"
+        },
+        {
+          "lyrics": "Yeh khwaab dekhti hoon main",
+          "indian": "Ni NiDha NiDha NiDha Pa Ma"
+        },
+        {
+          "lyrics": "Ke jaag padi hoon khwaab se",
+          "indian": "Pa PaDha PaGa ReSa Sa Pa"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (REPEAT)",
+      "lines": [
+        {
+          "lyrics": "Ajeeb daastaan hai yeh",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+        },
+        {
+          "lyrics": "Kahan shuru kahan khatam",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

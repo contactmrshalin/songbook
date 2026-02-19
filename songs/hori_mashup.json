@@ -1,0 +1,114 @@
+{
+  "id": "hori_mashup",
+  "title": "Holi Mashup",
+  "thumbnail": "images/holi.png",
+  "background": "images/holi.png",
+  "info": [
+    "Song1: Hori Khele Raghuveera Awadh Mein",
+    "Song2: Rang Barse Bhige Chunarvali",
+    "Song3: Hare Krishna"
+  ],
+  "sections": [
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Hori khele raghuveera",
+          "indian": "Sa'..Sa'..Sa'..Sa'..Sa'..Re'..Ni..Ni..Ni..Dha..Pa..Pa..Dha.."
+        },
+        {
+          "lyrics": "Hori khele raghuveera",
+          "indian": "Ni..Ni..Sa'..Ni..Dha..Dha..Pa..Pa..Pa.."
+        },
+        {
+          "lyrics": "Hori khele raghuveera awadh mein",
+          "indian": "Sa'..Sa'..Sa'..Sa'..Sa'..Re'..Ni..Ni..Ni..Dha..Pa..Pa..Dha.."
+        },
+        {
+          "lyrics": "Hori khele raghuveera",
+          "indian": "Ni..Ni..Sa'..Ni..Dha..Dha..Pa..Pa..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "lines": [
+        {
+          "lyrics": "Hil mil aave log lugai",
+          "indian": "Ma(T)..Ma(T)..Ma(T)..Pa..Pa..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Hil mil aave log lugai",
+          "indian": "Ma(T)..Ma(T)..Ma(T)..Pa..Pa..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Hil mil aave log lugai",
+          "indian": "Ma(T)..Ma(T)..Ma(T)..Pa..Pa..Dha..Dha..Ni(k)..Dha..Pa..Pa.."
+        },
+        {
+          "lyrics": "Bhai mehalan mein bhira awadh mein",
+          "indian": "Sa'..Sa'..Sa'..Sa'..Sa'..Re'..Ni..Ni..Ni..Dha..Pa..Pa..Dha.."
+        }
+      ]
+    },
+    {
+      "name": "Rang Barse- Chorus",
+      "lines": [
+        {
+          "lyrics": "Rang barse bheege chunar wali",
+          "indian": "Ma Ma Ma padha Ni Dha Pa Pa dhanipadhani"
+        },
+        {
+          "lyrics": "Rang barse",
+          "indian": "Dha Pa Dha Ma Pa"
+        },
+        {
+          "lyrics": "O rang barse bheege chunar wali",
+          "indian": "Ma Ma Ma padha Ni Dha Pa Pa dhanipadhani"
+        },
+        {
+          "lyrics": "Rang barse",
+          "indian": "Dha Pa Dha Ma Pa"
+        }
+      ]
+    },
+    {
+      "name": "Rang Barse Verse 1",
+      "lines": [
+        {
+          "lyrics": "Sone ki thali mein",
+          "indian": "Pa Ni Sa Re Re Re Ni Sa Sa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Jona parosa",
+          "indian": "Pa Ni Sa Re Re Re"
+        },
+        {
+          "lyrics": "Haan sone ki thali mein",
+          "indian": "Pa Ni Sa Re Re Re Ni Sa Sa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Arey khaye gori ka yaar bola tarse",
+          "indian": "Ma Ma Ma padha Ni Dha Pa Pa dhanipadhani"
+        },
+        {
+          "lyrics": "Rang barse",
+          "indian": "Dha Pa Dha Ma Pa"
+        }
+      ]
+    },
+    {
+      "name": "Hare Krishna",
+      "lines": [
+        {
+          "lyrics": "Hare Krishna Hare Krishna",
+          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Krishna Krishna Hare Hare",
+          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+        }
+      ]
+    }
+  ]
+}

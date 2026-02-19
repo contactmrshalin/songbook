@@ -1,0 +1,58 @@
+{
+  "id": "rang_barse_bheege_chunar_wali",
+  "title": "Rang Barse Bheege Chunar Wali",
+  "info": [
+    "Movie: Silsila",
+    "Notation Style: Indian Classical (Sargam)"
+  ],
+  "thumbnail": "images/rang_barse_bheege_chunar_wali.png",
+  "background": "images/rang_barse_bheege_chunar_wali.png",
+  "sections": [
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Rang barse bheege chunar wali",
+          "indian": "Sa..Ni(k)..Sa..Re.. Ga(k)..Re..Sa..Sa..Re..Ga(k).."
+        },
+        {
+          "lyrics": "Rang barse",
+          "indian": "Re..Sa..Re..Sa..Sa.."
+        },
+        {
+          "lyrics": "O rang barse bheege chunar wali",
+          "indian": "Ma..Ma..Ma..Ga..Ma.. Ga(k)..Re..Sa..Sa..Re..Ga(k).."
+        },
+        {
+          "lyrics": "Rang barse",
+          "indian": "Re..Sa..Re..Sa..Sa.."
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "lines": [
+        {
+          "lyrics": "Sone ki thali mein",
+          "indian": "Sa..Ga..Ma..Pa..Pa..Pa.."
+        },
+        {
+          "lyrics": "Jona parosa",
+          "indian": "Ga..Ma..Ma..Ga(k)..Sa.."
+        },
+        {
+          "lyrics": "Haan sone ki thali mein",
+          "indian": "Sa..Sa..Ga..Ma..Pa..Pa..Pa.."
+        },
+        {
+          "lyrics": "Arey khaye gori ka yaar bola tarse",
+          "indian": "Sa..Sa..Ni(k)..Sa..Re.. Ga(k)..Re..Sa..Sa..Re..Ga(k).."
+        },
+        {
+          "lyrics": "Rang barse",
+          "indian": "Re..Sa..Re..Sa..Sa.."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "hamein-tum-se-pyar-kitna-movie-kudrat-1981-singer-kishore-kumar-lyrics-majrooh-sultanpuri-music-r-d-burman-raag-bhairavi-based-format-lyrics-indian-sargam-western-letters",
+  "title": "Hamein Tum Se Pyar Kitna",
+  "info": [
+    "Movie: Kudrat (1981)",
+    "Singer: Kishore Kumar",
+    "Music: R. D. Burman"
+  ],
+  "thumbnail": "images/humein_tumse_pyar_kitna_thumb.jpeg",
+  "background": "images/humein_tumse_pyar_kitna_thumb.jpeg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Hamein tum se pyar kitna",
+          "indian": "Ga..Ma…Pa..Pa..Dha…Dha..Dha..Dha..."
+        },
+        {
+          "lyrics": "Ye hum nahin jaante",
+          "indian": "Ni..NiRe'..NiPa.. PaMa'DhaPa…"
+        },
+        {
+          "lyrics": "Magar jee nahin sakte",
+          "indian": "Ni..Dha…Pa..Ma.Ga..Ma.Pa..Ma..Ga..Re.."
+        },
+        {
+          "lyrics": "",
+          "indian": "Ni..Dha…Pa..Ga.Ga..Ma.Pa..Ga..Ma..Re.."
+        },
+        {
+          "lyrics": "Tumhaare bina",
+          "indian": "Re..Pa…Re…Pa..Ga…Dha(k) Dha"
+        },
+        {
+          "lyrics": "Hamein tum se pyar",
+          "indian": "Ga..Ma…Pa..Pa..Dha…"
+        },
+        {
+          "lyrics": "Suna gham judaai ka",
+          "indian": "Ga'..Sa'..Re'.Ga'.Sa'.Sa'..Re'.Ga'..Ga'..Ga'.."
+        },
+        {
+          "lyrics": "Uthaate hain log",
+          "indian": "Dha..Sa'…Dha…Dha(k)..Dha…"
+        },
+        {
+          "lyrics": "Jaane Zindagi kaise",
+          "indian": "Ga'..Sa'..Re'.Ga'.Sa'.Sa'..Re'.Ga'..Ga'..Ga'.."
+        },
+        {
+          "lyrics": "Bitaate hain log",
+          "indian": "Dha..Sa'…Dha…Dha(k)..Dha…"
+        },
+        {
+          "lyrics": "Din bhi yahaan to lage",
+          "indian": "Dha.Ni..Sa'..Re'.Re'..Re'…Ni..Dha..Pa.."
+        },
+        {
+          "lyrics": "Baras ke samaan",
+          "indian": "Pa..Sa'…Pa…Sa'..Dha…Pa..Ma.Pa.Ga."
+        },
+        {
+          "lyrics": "Hamein tum se pyar kitna",
+          "indian": "Ga..Ma…Pa..Pa..Dha…Dha..Dha..Dha..Dha.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

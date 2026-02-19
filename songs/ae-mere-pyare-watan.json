@@ -1,0 +1,65 @@
+{
+  "id": "ae-mere-pyare-watan",
+  "title": "Ae Mere Pyare Watan",
+  "thumbnail": "images/ae-mere-pyare-watan.png",
+  "background": "images/ae-mere-pyare-watan.png",
+  "info": [
+    "Movie: Kabuliwala",
+    "Singer: Lata Mangeshkar",
+    "Music Director: Shankar–Ehsaan–Loy",
+    "Lyricist: Gulzar"
+  ],
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Aye mere pyaare watan",
+          "indian": "Sa Sa Sa Sa Ga Re Ga Ma Ga Re"
+        },
+        {
+          "lyrics": "Aye mere bichhade chaman",
+          "indian": "Re Ga Re Sa Sa Ga Re Ga Ma Ga Re"
+        },
+        {
+          "lyrics": "Tujh pe dil qurbaan",
+          "indian": "Re Re Ma Ga Re Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Tu hi meri aarazu",
+          "indian": "Ni(k)(k) Ni(k)(k) Sa Sa Pa Ma Pa Ma Ga"
+        },
+        {
+          "lyrics": "Tu hi meri aabroo",
+          "indian": "Ga Ga Ga Re Ga Ma Ga Ma Ga Re"
+        },
+        {
+          "lyrics": "Tu hi meri jaan",
+          "indian": "Re Ga Re Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        {
+          "lyrics": "Tere daaman",
+          "indian": "Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Se jo aaye",
+          "indian": "Pa Dha(k) Dha(k) Sa' Ni Sa' Ni Dha(k) Pa"
+        },
+        {
+          "lyrics": "Un havaaon ko salaam",
+          "indian": "Pa Dha(k) Pa Ma Ma Ga Re Ga Ma"
+        }
+      ]
+    }
+  ]
+}

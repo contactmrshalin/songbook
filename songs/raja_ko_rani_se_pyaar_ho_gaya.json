@@ -1,0 +1,82 @@
+{
+  "id": "raja_ko_rani_se_pyaar_ho_gaya",
+  "title": "Raja Ko Rani Se Pyaar Ho Gaya",
+  "movie": "Akele Hum Akele Tum",
+  "year": "1995",
+  "thumbnail": "images/raja_ko_rani_se_pyaar_ho_gaya.png",
+  "background": "images/raja_ko_rani_se_pyaar_ho_gaya.png",
+  "info": [
+    "Singer: Alka Yagnik, Udit Narayan",
+    "Composer: Jatin-Lalit",
+    "Lyricist: Majrooh Sultanpuri",
+    "Notation Source: Sargam-style pattern (tutorial aligned)"
+  ],
+  "sections": [
+    {
+      "name": "Chorus – Raja ko rani se pyaar ho gaya",
+      "lines": [
+        {
+          "lyrics": "Raja ko rani se pyaar ho gaya",
+          "indian": "Ga Dha Sa' Ni Dha Sa' Ni Ma _ _ Pa Ma Ga"
+        },
+        {
+          "lyrics": "Pehli nazar mein pehla pyaar ho gaya",
+          "indian": "Ga Dha Sa' Ni Dha Ga' Sa' Re_ _ Re'Ga' Re"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Dil jigar dono ghaayal huye",
+          "indian": "Re' Re' Ga' Ma' __ Ga' Re' Sa' Sa' Re' Ga'"
+        },
+        {
+          "lyrics": "Teer-e-nazar dil le paar ho gaya",
+          "indian": "Pa Ga Sa Ni, Ni Sa ReGa Sa SaRe Ni NiSa Dha Ni SaNi Dha"
+        },
+        {
+          "lyrics": "O, Rani ko dekho",
+          "indian": "Ga' _ _ Ga' Re' Sa' Re' Ga'"
+        },
+        {
+          "lyrics": "Nazrein mili toh",
+          "indian": "NiSa' _ Re'Sa' NiDha Dha"
+        },
+        {
+          "lyrics": "aankhen, churane lagi",
+          "indian": "Re' Re' Re' Ma' , GaRe ReGa Ga Re Sa ReGa"
+        },
+        {
+          "lyrics": "Ho karti bhi kya woh",
+          "indian": "Ga' _ _ Ga' Re' Sa' Re' Ga'"
+        },
+        {
+          "lyrics": "Sar ko jhuka ke kangna ghumane lagi",
+          "indian": "NiSa' _ Re'Sa' NiDha Dha"
+        },
+        {
+          "lyrics": "aankhen, churane lagi",
+          "indian": "Re' Re' Re' Ma' , GaRe ReGa Ga"
+        },
+        {
+          "lyrics": "O, Raja ne aisa jaadu chalaya",
+          "indian": "Ma' Ma Re Sa Ni Dha Pa Ni Sa Re Ma Ma Ga"
+        },
+        {
+          "lyrics": "Raja ne aisa jaadu chalaya",
+          "indian": "Ma Re Sa Ni Dha Pa Ni Sa Re Ma Ma Ga"
+        },
+        {
+          "lyrics": "Na karte karte",
+          "indian": "Ga Ni Ni Ni"
+        },
+        {
+          "lyrics": "ikraar ho gaya",
+          "indian": "Ni Sa ReGa Sa SaRe Ni NiSa Dha Ni SaNi Dha"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 7,
+  "title": "Yeh Haseen Waadiyan (Version 2 - Sine Style)",
+  "info": [
+    {
+      "label": "movie",
+      "value": "Roja"
+    },
+    {
+      "label": "composer",
+      "value": "A R Rahman"
+    },
+    {
+      "label": "singers",
+      "value": "S. P. Balasubrahmanyam, K. S. Chithra"
+    },
+    {
+      "label": "lyrics",
+      "value": "P. K. Mishra"
+    },
+    {
+      "label": "instrument",
+      "value": "Flute (Bansuri)"
+    },
+    {
+      "label": "notes_system",
+      "value": "S R G Ma' Pa Dha Ni (^ = sustain, ' = upper octave)"
+    },
+    {
+      "label": "source",
+      "value": "User provided Sine notation version"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Ye haseen waadiyan",
+          "indian": "PaDh Sa niSanisa Dh"
+        },
+        {
+          "lyrics": "Ye khula aasmaan",
+          "indian": "PaDh Re(Sa) SaniSa^^^Dh"
+        },
+        {
+          "lyrics": "Aa gaye hum kahan ae mere saajna",
+          "indian": "PaDh Sa niSqnisa Sa^Dh Padha^^ Re(Sa) SaniSa^^ Dh"
+        },
+        {
+          "lyrics": "In baharon mein dil ki kali khil gayi",
+          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+        },
+        {
+          "lyrics": "Mujhko tum jo mile har khushi mil gayi",
+          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+        },
+        {
+          "lyrics": "Tere hothon pe hain husn ki bijliyan",
+          "indian": "PaDh Sa niSanisa Dh | PaDh Re(Sa) SaniSa^^^Dh"
+        },
+        {
+          "lyrics": "Tere daaman ki khushboo se mehke chaman",
+          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+        }
+      ]
+    },
+    {
+      "name": "Cross",
+      "lines": [
+        {
+          "lyrics": "Meri jaane jaan main teri chandni",
+          "indian": "GaMa'Pa.....Ma'GaMa'^^^Ni...NiNiGa^^ReGa^^^Re"
+        },
+        {
+          "lyrics": "Ched lo tum aaj koi pyaar ki raagini",
+          "indian": "GaMa'PaDhPa.......Ma'Ma'GaMa'Ni ...NiNiGaPaMa'Dh^^^^Pa"
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Ye bandhan hai pyaar ka",
+          "indian": "Re....SamaRe ReSa SaniSaniSa Dh"
+        },
+        {
+          "lyrics": "Dekho toote na sajni",
+          "indian": "PaDhRe SamaRe SaniSa^^^Dh"
+        },
+        {
+          "lyrics": "Tere aanchal ki chhaon ke tale",
+          "indian": "ReRe PanininiSa SaDhDh"
+        },
+        {
+          "lyrics": "Meri manzil mujhe mil gayi",
+          "indian": "ReReninininini SaSa^^^Dh"
+        },
+        {
+          "lyrics": "Teri palkon ki chhaon ke tale",
+          "indian": "ReRe PanininiSa SaDdhDh"
+        },
+        {
+          "lyrics": "Mohabbat mujhe mil gayi",
+          "indian": "ReRe DhPamaReSaniDh"
+        }
+      ]
+    }
+  ]
+}

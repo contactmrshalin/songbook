@@ -1,0 +1,58 @@
+{
+  "id": "hare_krishna_dhun",
+  "title": "Hare Krishna Hare Krishna Dhun",
+  "thumbnail": "images/hare_krishna_dhun.png",
+  "background": "images/hare_krishna_dhun.png",
+  "info": [
+    "Type: Devotional Dhun",
+    "Mantra: Hare Krishna Hare Krishna Krishna Krishna Hare Hare",
+    "Tradition: ISKCON / Bhajan Style",
+    "Scale: Based on tutorial (Sa assumed as base)"
+  ],
+  "sections": [
+    {
+      "name": "Part 1",
+      "lines": [
+        {
+          "lyrics": "Hare Krishna Hare Krishna",
+          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+        }
+      ]
+    },
+    {
+      "name": "Part 2",
+      "lines": [
+        {
+          "lyrics": "Krishna Krishna Hare Hare",
+          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "Repeat Cycle",
+      "lines": [
+        {
+          "lyrics": "Hare Krishna Hare Krishna",
+          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Krishna Krishna Hare Hare",
+          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "Variation Phrase",
+      "lines": [
+        {
+          "lyrics": "Hare Rama Hare Rama",
+          "indian": "Ni Dha Pa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Rama Rama Hare Hare",
+          "indian": "Pa Dha Ni Sa' Ni Dha Pa"
+        }
+      ]
+    }
+  ]
+}

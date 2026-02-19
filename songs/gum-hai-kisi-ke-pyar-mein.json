@@ -1,0 +1,101 @@
+{
+  "id": "gum-hai-kisi-ke-pyar-mein",
+  "title": "Gum Hai Kisi Ke Pyar Mein",
+  "info": [
+    "Movie: Raampur Ka Lakshman (1972)",
+    "Singer: Lata Mangeshkar, Kishore Kumar",
+    "Lyricist: Majrooh Sultanpuri",
+    "Music Director: Rahul Dev Burman (R. D. Burman)"
+  ],
+  "thumbnail": "images/gum_hai_thumb.png",
+  "background": "images/gum_hai_thumb.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Gum hai | kisike | pyaar | mein",
+          "indian": "Ga(k) | Re | Ga(k)Re~Sa | Sa Sa | Sa~Pa,"
+        },
+        {
+          "lyrics": "Dil | subah | shaam",
+          "indian": "Sa Re | Ga(k) Ga(k)~Ma(T) | Ga(k) | Ga(k) Re(k)..Sa Re(k)"
+        },
+        {
+          "lyrics": "Par | tumhe | likh | nahin | paaun",
+          "indian": "Ni | Ni Ma(T) | Ni | Sa. | Ni Ni.~Pa."
+        },
+        {
+          "lyrics": "Main | usaka | naam",
+          "indian": "Pa. | Ni. Ni. | Sa…"
+        },
+        {
+          "lyrics": "Haaye | raam",
+          "indian": "Ga(k)MaGa(k) | Re…"
+        },
+        {
+          "lyrics": "Haaye | raam",
+          "indian": "Ga(k)MaGa(k) | Re…"
+        },
+        {
+          "lyrics": "Kah | daalun | apane",
+          "indian": "PaPa | Pa Ni(k) Dha(k)' | Dha(k)'~PaMa(T)~Re"
+        },
+        {
+          "lyrics": "sab | haal | dil | ke",
+          "indian": "ReRe | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)"
+        },
+        {
+          "lyrics": "Aur | kar | dun | jiwan",
+          "indian": "Ma(T)Ma(T) | Ma(T) | Ma(T) | Ni Ni Ma(T)Ma(T)"
+        },
+        {
+          "lyrics": "usake | hawaale",
+          "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re (Ma){Ga(k)Re}…Ma"
+        },
+        {
+          "lyrics": "Phir | chhod | de | chaahe",
+          "indian": "Ma(T) Ma(T) | Ma(T) Ma(T) | Ma(T) | Pa Ma(T) Pa Ma(T)"
+        },
+        {
+          "lyrics": "apana | bana | le",
+          "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re {SaNiSa}"
+        },
+        {
+          "lyrics": "Main | to | usaka | re",
+          "indian": "Pa. | Sa | Ga(k)Re… | (Sa)Re"
+        },
+        {
+          "lyrics": "hua | diwaana",
+          "indian": "Ga(k)ReSa | Ga(k)ReSa Sa"
+        },
+        {
+          "lyrics": "Ab | to | jaisa | bhi",
+          "indian": "Pa. | Sa | Ga(k)Re…Ga(k) | (Sa)Re"
+        },
+        {
+          "lyrics": "mera | ho | anjaam | hooo",
+          "indian": "Ga(k)ReSa | Ga(k) | Re Sa Sa | (Re)Ga(k)"
+        },
+        {
+          "lyrics": "(Repeat)",
+          "indian": "GuMa hai kisike…"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Socha | hai | ek | din",
+          "indian": "PaPa | Pa | Dha(k)Dha(k) | PaMa(T)"
+        },
+        {
+          "lyrics": "main | usase | mil | ke",
+          "indian": "Re | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

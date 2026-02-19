@@ -1,0 +1,65 @@
+{
+  "id": "main-tenu-samjhawan-ki",
+  "title": "Main Tenu Samjhaawan Ki",
+  "info": [
+    "Movie: Humpty Sharma Ki Dulhania (2014)",
+    "Song (aka): Samjhawan / Main Tenu Samjhawan Ki",
+    "Singers: Arijit Singh, Shreya Ghoshal",
+    "Lyrics: Ahmad Anees, Kumaar"
+  ],
+  "thumbnail": "images/main-tenu-samjhawan-ki.png",
+  "background": "images/main-tenu-samjhawan-ki.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Main tenu samjhaawan ki",
+          "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa"
+        },
+        {
+          "lyrics": "(x2) Main tenu samjhaawan ki",
+          "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa (x2)"
+        },
+        {
+          "lyrics": "Main karun intezaar tera",
+          "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa"
+        },
+        {
+          "lyrics": "Tu ki jaane pyaar mera",
+          "indian": "Pa: Ga: | Pa Dha Dha: Dha | Ni Ni Pa"
+        },
+        {
+          "lyrics": "Tu dil tu (yoon) jaan meri",
+          "indian": "Pa Pa Ni: Sa' Re | Sa': Dha: Ma: Ma Pa Ga"
+        }
+      ]
+    },
+    {
+      "name": "STANZA",
+      "lines": [
+        {
+          "lyrics": "Mere dil ne chun laiyaa ne",
+          "indian": "Ga Ma Pa Pa, Dha Dha Dha, Dha: Dha: -"
+        },
+        {
+          "lyrics": "Tu jo mere naal ture",
+          "indian": "Ga Ma Pa Pa, Pa Dha Dha, Dha Sa Ni Dha -"
+        },
+        {
+          "lyrics": "Jeena mera (haay)",
+          "indian": "Pa Ni Sa': - Ni: -"
+        },
+        {
+          "lyrics": "Retbaar mera",
+          "indian": "Pa Dha: Dha: Ma Ni Pa -"
+        },
+        {
+          "lyrics": "Main karun intezaar tera (repeat)",
+          "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa"
+        }
+      ]
+    }
+  ],
+  "export": false
+}

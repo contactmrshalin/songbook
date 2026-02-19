@@ -1,0 +1,87 @@
+{
+  "id": "ajeeb_daastan_hai_yeh",
+  "title": "Ajeeb Daastan Hai Yeh",
+  "thumbnail": "images/ajeeb_dastan.png",
+  "background": "images/ajeeb_dastan.png",
+  "info": [
+    "Movie: Dil Apna Aur Preet Parai",
+    "Year: 1960",
+    "Singer: Lata Mangeshkar",
+    "Composer: Shankar–Jaikishan",
+    "Lyricist: Shailendra"
+  ],
+  "sections": [
+    {
+      "name": "Part 1",
+      "lines": [
+        {
+          "lyrics": "Ajeeb daastan hai yeh",
+          "indian": "Dha Pa Dha Pa Ga Re Sa Ga"
+        }
+      ]
+    },
+    {
+      "name": "Part 1 (Variation)",
+      "lines": [
+        {
+          "lyrics": "Kahaan shuru kahaan khatam",
+          "indian": "Dha Pa Dha Pa Ga Re Sa Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Part 2",
+      "lines": [
+        {
+          "lyrics": "Yeh manzilen hain kaun si",
+          "indian": "Ga Re Ga Re Sa Ni Dha Ni Dha"
+        }
+      ]
+    },
+    {
+      "name": "Part 3",
+      "lines": [
+        {
+          "lyrics": "Na woh samajh sake na hum",
+          "indian": "Pa Pa Dha Pa Ga Re Dha Sa Pa"
+        }
+      ]
+    },
+    {
+      "name": "Part 4 (Antara)",
+      "lines": [
+        {
+          "lyrics": "Yeh roshni ke saath kyon",
+          "indian": "Sa Re Ga Ma Ga Ma Re Ma"
+        }
+      ]
+    },
+    {
+      "name": "Part 5",
+      "lines": [
+        {
+          "lyrics": "Dhuan utha charagh se",
+          "indian": "Dha Pa Dha Pa Ma Ma Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "Part 6",
+      "lines": [
+        {
+          "lyrics": "Yeh khwab dekhti hoon main",
+          "indian": "Ni Ni Dha Ni Dha Ni Dha Pa Ma"
+        }
+      ]
+    },
+    {
+      "name": "Ending Sequence",
+      "lines": [
+        {
+          "lyrics": "Repeat structure",
+          "indian": "Repeat Part 3 → Part 1 → Part 1 (VariatioNi(k)) → Part 2"
+        }
+      ]
+    }
+  ]
+}

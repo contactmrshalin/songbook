@@ -1,0 +1,80 @@
+{
+  "id": "mere-mehboob-qayamat-hogi",
+  "title": "Mere Mehboob Qayamat Hogi",
+  "thumbnail": "images/mere-mehboob-qayamat-hogi.png",
+  "background": "images/mere-mehboob-qayamat-hogi.png",
+  "info": [
+    "Movie: Mr. X In Bombay (1964)",
+    "Singer: Kishore Kumar",
+    "Music Director: Laxmikant–Pyarelal",
+    "Scale: Sa = C",
+    "Difficulty: Beginner–Intermediate"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Teri gali mein aata sanam",
+          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:"
+        },
+        {
+          "lyrics": "Nagma wafa ka gaata sanam",
+          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:"
+        },
+        {
+          "lyrics": "Tujhse suna na jaata sanam",
+          "indian": "Re' Re' Re' Sa' | Ni Dha Ni Dha Dha:"
+        },
+        {
+          "lyrics": "Phir aaj idhar",
+          "indian": "Ga' Ga' Ga' Pa' Ma' Ga' Ma' Re':"
+        },
+        {
+          "lyrics": "Aaya hoon magar",
+          "indian": "Re' Re' Re' Ma' | Ma' Ga' Ma' Re':"
+        }
+      ]
+    },
+    {
+      "name": "HOOK LINE",
+      "lines": [
+        {
+          "lyrics": "Ye kehne main deewana",
+          "indian": "Sa' Sa' Ga' Re' Ga' | Sa' Ni Sa' Dha:"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Khatm bas aaj ye wahshat hogi",
+          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Ni::"
+        },
+        {
+          "lyrics": "Mere mehboob qayamat hogi",
+          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Dha::"
+        },
+        {
+          "lyrics": "Aaj rusva teri galiyon mein",
+          "indian": "Dha Ni Sa' Ni Dha Dha Dha Ni Ni Re Dha Pa"
+        },
+        {
+          "lyrics": "Mohabbat hogi",
+          "indian": "Ga Ma Pa Ga Ma Dha Pa: Ni Dha"
+        }
+      ]
+    },
+    {
+      "name": "REPEAT / ENDING",
+      "lines": [
+        {
+          "lyrics": "Mere mehboob qayamat hogi",
+          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha::"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

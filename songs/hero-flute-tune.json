@@ -1,0 +1,43 @@
+{
+  "id": "hero-flute-tune",
+  "title": "Hero Flute Tune",
+  "info": [
+    "Type: Instrumental (flute)",
+    "Note: comma-prefix like ,S indicates lower octave"
+  ],
+  "thumbnail": "images/hero-theme-flute.png",
+  "background": "images/hero-theme-flute_bg.png",
+  "sections": [
+    {
+      "name": "EASY (Simple)",
+      "lines": [
+        {
+          "lyrics": "Phrase 1 (x2)",
+          "indian": "Re Dha: Ni Dha Ni Dha Ma Re~ Ma: Ga Re (x2)"
+        },
+        {
+          "lyrics": "Phrase 2",
+          "indian": "Ma Ma Ga~ Dha(k) Dha Ni: | Ni Re Sa, Ni Dha Dha(k) Ma Ga"
+        }
+      ]
+    },
+    {
+      "name": "EXPERT (Next Level)",
+      "lines": [
+        {
+          "lyrics": "Phrase 1 (x2)",
+          "indian": "Re Dha: Ni Re Sa Re Sa Dha, Sa Re Sa Dha: Ma Re: Ma: Ga Re (x2)"
+        },
+        {
+          "lyrics": "Phrase 2",
+          "indian": "Re Ma Ma Ga, Dha Dha Ni: Ni Re Re Sa:"
+        },
+        {
+          "lyrics": "Ending",
+          "indian": "Ni Dha Dha~ Ma Ga"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

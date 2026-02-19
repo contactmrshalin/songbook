@@ -1,0 +1,108 @@
+{
+  "id": "yeh-jo-desh-hai-tera-swades",
+  "title": "Yeh Jo Des Hai Tera",
+  "thumbnail": "images/yeh-jo-desh-hai-tera-swades.png",
+  "background": "images/yeh-jo-desh-hai-tera-swades.png",
+  "info": [
+    "Movie: Swades (2004)",
+    "Music: A.R. Rahman",
+    "Lyrics: Javed Akhtar",
+    "Scale (as given): Sa = C# (C# bass/middle flute)",
+    "Ornaments: ~ meend, : hold"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Ye jo des hai tera",
+          "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…"
+        },
+        {
+          "lyrics": "Swades hai tera",
+          "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…"
+        },
+        {
+          "lyrics": "Tujhe hai pukaara..",
+          "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga…."
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA CONT.",
+      "lines": [
+        {
+          "lyrics": "Ye woh bandhan hai jo kabhi toot",
+          "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…"
+        },
+        {
+          "lyrics": "Nahin sakta",
+          "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…"
+        },
+        {
+          "lyrics": "Mitti ki jo khushboo",
+          "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…"
+        },
+        {
+          "lyrics": "Tu kaise bhoolaayega",
+          "indian": "Ni(k)..Sa..Re…Ga..Ga..Re…Sa…Sa…"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Tu chaahe kahin jaaye",
+          "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…"
+        },
+        {
+          "lyrics": "Tu laut ke aayega",
+          "indian": "Ni(k)..Sa..Re…Pa..Ma..Ga…Re…Sa…"
+        },
+        {
+          "lyrics": "Nayi nayi raahon mein",
+          "indian": "Sa.Sa…Sa.Sa…Sa..Sa..Sa…"
+        },
+        {
+          "lyrics": "Dabi dabi aahon mein",
+          "indian": "Sa..Ga…Re..Ga…Sa…Re…Sa..Ni(k)..Dha(k).."
+        },
+        {
+          "lyrics": "Khoye khoye dilse tere",
+          "indian": "Sa..Ni(k)…Sa..Ni(k)…Ni(k)..Ni(k)…Ga.Re.."
+        },
+        {
+          "lyrics": "Koyi ye kahega",
+          "indian": "Sa..Ni(k)…Sa…Ga..Re…Re.."
+        }
+      ]
+    },
+    {
+      "name": "REPEAT (MUKHDA)",
+      "lines": [
+        {
+          "lyrics": "Ye jo des hai tera",
+          "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…"
+        },
+        {
+          "lyrics": "Swades hai tera",
+          "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…"
+        },
+        {
+          "lyrics": "Tujhe hai pukaara..",
+          "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga…."
+        },
+        {
+          "lyrics": "Ye woh bandhan hai jo kabhi toot",
+          "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…"
+        },
+        {
+          "lyrics": "Nahin sakta",
+          "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

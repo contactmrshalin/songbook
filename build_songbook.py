@@ -190,7 +190,38 @@ def normalize_export_flags(json_path: Path) -> int:
     """
     Ensure every song object has an explicit boolean `export` key.
     Does NOT overwrite existing values. Returns count of songs updated.
+
+    Supports both per-song files (songs/*.json) and legacy monolithic songs.json.
     """
+    root = json_path.parent
+
+    # Try per-song layout first
+    try:
+        from load_songs import iter_song_files, save_song
+        song_files = iter_song_files(root)
+        if song_files:
+            changed = 0
+            for sf in song_files:
+                s = json.loads(sf.read_text(encoding="utf-8"))
+                if not isinstance(s, dict):
+                    continue
+                modified = False
+                if "export" not in s:
+                    s["export"] = True
+                    modified = True
+                else:
+                    b = _boolish(s.get("export", True), default=True)
+                    if s.get("export") is not b:
+                        s["export"] = b
+                        modified = True
+                if modified:
+                    save_song(root, s)
+                    changed += 1
+            return changed
+    except ImportError:
+        pass
+
+    # Legacy fallback: monolithic songs.json
     data = json.loads(json_path.read_text(encoding="utf-8"))
     songs = data.get("songs", [])
     if not isinstance(songs, list):
@@ -398,6 +429,35 @@ def _register_emoji_font(base_dir: Path, explicit_path: str = "") -> Optional[st
 
 
 def load_songbook(json_path: Path) -> Tuple[str, Dict[str, Any], List[Dict[str, Any]]]:
+    """
+    Load songbook data.
+
+    Supports two layouts:
+      1. Per-song files (preferred): book.json + songs/<id>.json
+      2. Legacy monolith (fallback): songs.json
+
+    The *json_path* argument is kept for CLI compatibility but the loader
+    will auto-detect the project layout using the shared ``load_songs``
+    module when per-song files are present.
+    """
+    # Try the per-song layout first via the shared loader.
+    try:
+        from load_songs import load_songbook as _load_songbook_from_dir
+        root = json_path.parent
+        book_title, book_meta, songs_export = _load_songbook_from_dir(root)
+        # Validate
+        seen: set[str] = set()
+        for s in songs_export:
+            if "id" not in s or "title" not in s:
+                raise ValueError("Each song must have 'id' and 'title'")
+            if s["id"] in seen:
+                raise ValueError(f"Duplicate song id: {s['id']}")
+            seen.add(s["id"])
+        return book_title, book_meta, songs_export
+    except ImportError:
+        pass
+
+    # Legacy fallback: read monolithic songs.json directly.
     data = json.loads(json_path.read_text(encoding="utf-8"))
 
     book_title = data.get("book_title", "My Songbook")
@@ -407,13 +467,13 @@ def load_songbook(json_path: Path) -> Tuple[str, Dict[str, Any], List[Dict[str, 
     if not isinstance(songs, list):
         raise ValueError("songs.json: 'songs' must be a list")
 
-    seen = set()
+    seen_ids: set[str] = set()
     for s in songs:
         if "id" not in s or "title" not in s:
             raise ValueError("Each song must have 'id' and 'title'")
-        if s["id"] in seen:
+        if s["id"] in seen_ids:
             raise ValueError(f"Duplicate song id: {s['id']}")
-        seen.add(s["id"])
+        seen_ids.add(s["id"])
 
         # Default: export songs unless explicitly disabled.
         s.setdefault("export", True)

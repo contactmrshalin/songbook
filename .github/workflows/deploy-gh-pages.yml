@@ -28,8 +28,9 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Generate Hugo content from songs.json
+      - name: Generate Hugo content from song data
         run: python site/scripts/generate_content.py
+        # Auto-detects layout: songs/*.json (preferred) or songs.json (legacy)
 
       - name: Build Hugo site
         run: |

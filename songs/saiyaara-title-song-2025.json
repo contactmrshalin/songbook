@@ -1,0 +1,143 @@
+{
+  "id": "saiyaara-title-song-2025",
+  "title": "Saiyaara (Title Song)",
+  "thumbnail": "images/saiyaara-title-song-2025.png",
+  "background": "images/saiyaara-title-song-2025.png",
+  "info": [
+    "Movie: Saiyaara (2025)",
+    "Singer: Faheem Abdullah",
+    "Music: Tanishk Bagchi, Faheem Abdullah, Arslan Nizami",
+    "Lyrics: Irshad Kamil"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Tu paas hai mere",
+          "indian": "Pa Pa Pa Pa Ma Ga(k)"
+        },
+        {
+          "lyrics": "Paas hai aise",
+          "indian": "Ma.. Ma.. Ma.. Ma. Pa Ma Ga(k)"
+        },
+        {
+          "lyrics": "Mera koi ehsaas",
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Hai jaise",
+          "indian": "Ni Ni Sa Sa Re Ga"
+        },
+        {
+          "lyrics": "Tu paas hai mere paas",
+          "indian": "Ga Ga Ga Pa: Ma Ga Re Re"
+        },
+        {
+          "lyrics": "Hai aise",
+          "indian": "Re Re Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Mera koi ehsaas",
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:"
+        },
+        {
+          "lyrics": "Hai jaise",
+          "indian": "Sa Sa Ni Dha"
+        }
+      ]
+    },
+    {
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "lyrics": "Haaye main mar hi jaaun",
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Jo tujhko na paaun",
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Baaton mein teri main",
+          "indian": "Ma Ma Ma Ma Re Re Ga Re Ga Ni"
+        },
+        {
+          "lyrics": "Raatein bitaaun",
+          "indian": "Ni Sa Sa Ni Ni Sa"
+        },
+        {
+          "lyrics": "Honthon pe lamha lamha",
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Hai naam tera haaye",
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
+        },
+        {
+          "lyrics": "Tujhko hi gaaun main",
+          "indian": "Ma Ma Ma Ma Re Re Ga Re Ga Ni"
+        },
+        {
+          "lyrics": "Tujhko pukaaroon",
+          "indian": "Ni Ni Ni Sa Re Pa Ga:"
+        }
+      ]
+    },
+    {
+      "name": "OOO HOOK",
+      "lines": [
+        {
+          "lyrics": "Ooo…",
+          "indian": "Re Pa Ga: Re Dha Pa: Ma Ga:"
+        },
+        {
+          "lyrics": "Ooo…",
+          "indian": "Re Sa Ma Ga Re Sa Ni:"
+        },
+        {
+          "lyrics": "Ooo…",
+          "indian": "Sa: Re: Sa: Re:"
+        }
+      ]
+    },
+    {
+      "name": "CHORUS",
+      "lines": [
+        {
+          "lyrics": "Saiyaara tu toh badla",
+          "indian": "Ga Ga Ga Ga: Re Sa Re Re:"
+        },
+        {
+          "lyrics": "Nahin hai",
+          "indian": "Re Re: Ga Re Sa"
+        },
+        {
+          "lyrics": "Mausam zara sa rootha",
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Hua hai",
+          "indian": "Ni Ni Sa Sa Re Ga"
+        },
+        {
+          "lyrics": "Saiyaara tu toh badla",
+          "indian": "Ga Ga Ga Pa: Ma Ga Re Re:"
+        },
+        {
+          "lyrics": "Nahin hai",
+          "indian": "Re Re Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Mausam zara sa rootha",
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:"
+        },
+        {
+          "lyrics": "Hua hai",
+          "indian": "Sa Sa Ni Dha:"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

@@ -1,0 +1,104 @@
+{
+  "id": "o-sanam-lucky-ali",
+  "title": "O Sanam",
+  "thumbnail": "images/o-sanam-lucky-ali.png",
+  "background": "images/o-sanam-lucky-ali.png",
+  "info": [
+    "Artist: Lucky Ali",
+    "Lyrics: Syed Aslam Noor",
+    "Music: Lucky Ali",
+    "Scale (JSON standard): Sa = C",
+    "Source flute scale (original): G bass/middle"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Hmmm…………….",
+          "indian": "Pa…Ga.Ma.Dha.Pa.Ma…Ga..Re.."
+        },
+        {
+          "lyrics": "R…M. M..M..P..G..M..P…",
+          "indian": "Re…Ma. Ma..Ma..Pa..Ga..Ma..Pa…"
+        },
+        {
+          "lyrics": "P..m..G..m..G..S..",
+          "indian": "Pa..Ma..Ga..Ma..Ga..Sa.."
+        },
+        {
+          "lyrics": "Shaam sawere teri yaadein aati hain",
+          "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…"
+        },
+        {
+          "lyrics": "Aake dil ko mere yun tadpaati hain",
+          "indian": "Ga…Ga…Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+        },
+        {
+          "lyrics": "O Sanam mohabbat ki kasam…",
+          "indian": "Ma…Sa.Re.Re.. p..Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (repeat)",
+      "lines": []
+    },
+    {
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "lyrics": "Milke bichhad naa to dastoor ho gaya",
+          "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…"
+        },
+        {
+          "lyrics": "Yadoon mein teri majboor ho gaya",
+          "indian": "Ga..Ga..Ga..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+        },
+        {
+          "lyrics": "O Sanam teri yadoon ki kasam",
+          "indian": "Ma…Sa.Re.Re.. p.p.Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+        }
+      ]
+    },
+    {
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "lyrics": "Samjhe zamaana ke dil hai khilona",
+          "indian": "p…p…Ga..Ga…Ga..Sa..Re…Re…Sa..Re..Sa..Ga..Re.."
+        },
+        {
+          "lyrics": "Jaana hai ab kya hai dil ka lagana",
+          "indian": "Dha(k)…Sa…Sa…Sa.. Ma..Ga..Re…Re…Sa..Re..Sa..Ga..Re.."
+        },
+        {
+          "lyrics": "Nazron se ab naa humko girana",
+          "indian": "Dha(k)…Dha(k)…p..Dha(k).. Ma…Re…Re…Sa..Re..Sa..Ga..Re.."
+        },
+        {
+          "lyrics": "Mar bhi gaye to bhul na jaana",
+          "indian": "Dha(k)…Sa…Sa…Sa.. Dha..Pa..Pa…Pa…Ga.Pa.Pa..Ga.Re.Sa.."
+        }
+      ]
+    },
+    {
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "lyrics": "Aankhon mein basi ho par door ho kahin",
+          "indian": "Ga..Ga..Ga..Re..Re..Re.. Sa..Ma…Sa..Re..Re…"
+        },
+        {
+          "lyrics": "Dil ke kareeb ho ye mujhko hai yakin",
+          "indian": "Ga..Ga..Ga..Re…Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+        },
+        {
+          "lyrics": "O Sanam tere pyar ki kasam",
+          "indian": "Ma…Sa.Re.Re…p..p..Ma…Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

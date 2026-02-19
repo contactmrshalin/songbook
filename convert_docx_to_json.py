@@ -331,6 +331,49 @@ def extract_song_from_docx(docx_path: Path) -> Dict[str, Any]:
     }
 
 
+def save_song_to_dir(root: Path, song: Dict[str, Any]) -> Path:
+    """Save a song to ``songs/<id>.json`` and update ``book.json`` song_order.
+
+    Delegates to the shared ``load_songs`` module when available, with an
+    inline fallback so this script can still run standalone.
+    """
+    try:
+        from load_songs import save_song, load_song_order, save_book_meta, load_book_meta
+        path = save_song(root, song)
+        # Ensure song appears in the ordering list.
+        order = load_song_order(root)
+        song_id = str(song["id"])
+        if song_id not in order:
+            order.append(song_id)
+            title, meta = load_book_meta(root)
+            save_book_meta(root, title, meta, order)
+        return path
+    except ImportError:
+        pass
+
+    # Inline fallback (no load_songs module available).
+    songs_dir = root / "songs"
+    songs_dir.mkdir(exist_ok=True)
+
+    song_id = str(song["id"])
+    song_path = songs_dir / f"{song_id}.json"
+    song_path.write_text(json.dumps(song, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    book_path = root / "book.json"
+    if book_path.exists():
+        book = json.loads(book_path.read_text(encoding="utf-8"))
+    else:
+        book = {"book_title": "My Songbook", "book_meta": {}, "song_order": []}
+
+    order = book.get("song_order", [])
+    if song_id not in order:
+        order.append(song_id)
+        book["song_order"] = order
+        book_path.write_text(json.dumps(book, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    return song_path
+
+
 def merge_songs_into_json(json_path: Path, new_songs: List[Dict[str, Any]]) -> None:
     if json_path.exists():
         data = json.loads(json_path.read_text(encoding="utf-8"))
@@ -373,9 +416,19 @@ def main() -> None:
     args = ap.parse_args()
 
     new_songs = [extract_song_from_docx(Path(p)) for p in args.docx]
-    merge_songs_into_json(Path(args.out), new_songs)
 
-    print(f"Added/updated {len(new_songs)} song(s) into {args.out}")
+    out_path = Path(args.out)
+    root = out_path.parent
+    songs_dir = root / "songs"
+
+    # Use per-song layout if it exists
+    if (songs_dir.is_dir() and any(songs_dir.glob("*.json"))) or (root / "book.json").exists():
+        for s in new_songs:
+            save_song_to_dir(root, s)
+        print(f"Saved {len(new_songs)} song(s) to {songs_dir}/")
+    else:
+        merge_songs_into_json(out_path, new_songs)
+        print(f"Added/updated {len(new_songs)} song(s) into {args.out}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,83 @@
+{
+  "id": "jan_gan_mana_anthem",
+  "title": "Jana Gana Mana",
+  "info": [
+    "type: National Anthem"
+  ],
+  "thumbnail": "images/jan_gan_mana_anthem.png",
+  "background": "images/jan_gan_mana_anthem.png",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Jana Gana Mana Adhinayak jaya hee",
+          "indian": "Sa.Re.Ga.Ga.Ga.Ga.Ga.Ga.Ga..Ga.Ga.Re.Ga.Ma…"
+        },
+        {
+          "lyrics": "Bharat Bhagya Vidhataa",
+          "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa…"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Punjab- Singhu-Gujrat-Marathaa",
+          "indian": "Sa..Pa..Pa.Pa..Pa.Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa.."
+        },
+        {
+          "lyrics": "Dravida utkhal bangaa",
+          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…"
+        },
+        {
+          "lyrics": "Vindhya-Himachal Yamuna-Gangaa",
+          "indian": "Ga..Ga.Ga..Ga..Ga.Re..Pa.Pa.Pa..Ma.Ma.."
+        },
+        {
+          "lyrics": "Uchchhala-Jaladhi Tarangaa",
+          "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa.."
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Tava Subha Naame Jagee",
+          "indian": "Sa.Re.Ga.Ga..Ga..Ga..Re.Ga.Ma.."
+        },
+        {
+          "lyrics": "Tava Subha Ashisa Magee",
+          "indian": "Ga.Ma.Pa.Pa..Ma..Ma.Ga..Re.Ma.Ga"
+        },
+        {
+          "lyrics": "Gahe Tava Jaya Gathaa..",
+          "indian": "Ga..Ga..Re..Re.Re..Ni(k).Re.Sa.."
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "lines": [
+        {
+          "lyrics": "Jana-Gana-Magal Dayaka, Jaya Hee",
+          "indian": "Pa.Pa.Pa.Pa.Pa..Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa.."
+        },
+        {
+          "lyrics": "Bharata-Bhagya-Vidhataa..",
+          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…"
+        },
+        {
+          "lyrics": "Jaya He, Jaya He, Jaya hee…",
+          "indian": "Sa'.Ni.Sa'… Ni.Dha.Ni… Dha.Pa.Dha…"
+        },
+        {
+          "lyrics": "Jaya, Jaya , Jaya Haii",
+          "indian": "Sa.Sa.Re.Re.Ga.Ga.Re.Ga.Ma…"
+        }
+      ]
+    }
+  ]
+}

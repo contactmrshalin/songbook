@@ -1,0 +1,35 @@
+{
+  "id": "rimjhim-gire-saawan",
+  "title": "Rimjhim Gire Saawan",
+  "thumbnail": "images/rimjhim_gire_saawan_thumb.png",
+  "background": "images/rimjhim_gire_saawan_thumb.png",
+  "info": [
+    "Movie: Manzil (1979)",
+    "Singer: Kishore Kumar",
+    "Music Director: R.D. Burman",
+    "Lyricist: Yogesh"
+  ],
+  "sections": [
+    {
+      "name": "PART 1 – MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Rimjhim gire saawan",
+          "indian": "Dha.SaReGaMaDha Ga: GaGa:"
+        },
+        {
+          "lyrics": "Sulag sulag jaaye mann",
+          "indian": "MaGaRe MaGaRe ReRe(k)Re:"
+        },
+        {
+          "lyrics": "Bheege aaj is mausam mein",
+          "indian": "Ni(k)RePa Ma(T)Pa Ma(T)PaMa(T)Pa Ga:"
+        },
+        {
+          "lyrics": "Lagi kaisi ye agan",
+          "indian": "GaPaSa' NiDha GaMa GaMa Dha Ga:"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "bade-achche-lagte-hain",
+  "title": "Bade Achche Lagte Hain",
+  "info": [],
+  "thumbnail": "images/bade_achhe_lagte_hain_thumb.jpeg",
+  "background": "images/bade_achhe_lagte_hain_thumb.jpeg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Bade achche lagte hain",
+          "indian": "Re Ga~ Sa Ni (Dha) Ni Sa: Ga"
+        },
+        {
+          "lyrics": "Yeh dharti yeh nadiya",
+          "indian": "Ga Ga Pa~ Ma Re Re Ma Ga"
+        },
+        {
+          "lyrics": "Yeh raina aur tum",
+          "indian": "Sa Sa Ga Re~ Ni Ni Sa:"
+        },
+        {
+          "lyrics": "Hum tum kitne paas hain kitne",
+          "indian": "Sa Sa Sa Sa~ Sa Ga Re Ga Re Sa Ni"
+        },
+        {
+          "lyrics": "Door hain chaand sitare",
+          "indian": "Ni Ni~ Ni Dha Ni Ni Sa:"
+        },
+        {
+          "lyrics": "Sach poochho to",
+          "indian": "Ga~ Ga Ga Ga"
+        },
+        {
+          "lyrics": "Man ko jhoote",
+          "indian": "Ga Pa~ Ma Ga Re"
+        },
+        {
+          "lyrics": "Lagte hain yeh saare",
+          "indian": "Re Re Ma(T)~ Ma(T) Ma(T) Pa:"
+        },
+        {
+          "lyrics": "Magar sachche lagte hain",
+          "indian": "Re Ga~ Sa Ni (Dha) Ni Sa: Ga"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

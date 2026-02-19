@@ -1,0 +1,76 @@
+{
+  "id": "meri_bheegi_bheegi_si",
+  "title": "Meri Bheegi Bheegi Si",
+  "thumbnail": "images/meri_bheegi_bheegi_si.png",
+  "background": "images/meri_bheegi_bheegi_si.png",
+  "info": [
+    "Movie: Anamika",
+    "Year: 1973",
+    "Singer: Kishore Kumar",
+    "Composer: R. D. Burman",
+    "Lyricist: Majrooh Sultanpuri"
+  ],
+  "sections": [
+    {
+      "name": "Part 1 – Main Theme",
+      "lines": [
+        {
+          "lyrics": "Meri bheegi bheegi si palkon pe reh gaye",
+          "indian": ".Pa .Dha(k) Sa Sa Sa Sa Sa— .Pa .Dha(k) Sa .Dha(k) .Pa .Ma .Ma"
+        },
+        {
+          "lyrics": "Jaise mere sapne bikhar ke",
+          "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .Ma .Ma .Ma .Pa .Dha(k) .Ni—"
+        }
+      ]
+    },
+    {
+      "name": "Part 2 – Reflective Line",
+      "lines": [
+        {
+          "lyrics": "Jale man tera bhi kisi ke milan ko",
+          "indian": "Re Sa Ga(k) (Re)— Sa Sa Sa .Pa .Dha(k) .Ni(k) .Dha(k) .Pa .Ma .Ma"
+        },
+        {
+          "lyrics": "Anamika tu bhi tarse",
+          "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .Ma— .Ma .Ma .Pa .Dha(k) .Pa—"
+        }
+      ]
+    },
+    {
+      "name": "Part 3 – Repeat Theme",
+      "lines": [
+        {
+          "lyrics": "Meri bheegi bheegi si",
+          "indian": ".Pa .Dha(k) Sa Sa Sa Sa Sa—"
+        }
+      ]
+    },
+    {
+      "name": "Verse – Tujhe bin jaane bin pehchane",
+      "lines": [
+        {
+          "lyrics": "Tujhe bin jaane bin pehchane",
+          "indian": "Sa Sa Re Ga(k) Sa Ga(k) Re(Sa)— Sa— Re Ga(k) Sa Ga(k) Re"
+        },
+        {
+          "lyrics": "Maine hriday se lagaya",
+          "indian": "Sa— Re Ga(k) Ma— Ga(k) Re Sa— Re— Ga(k)—"
+        }
+      ]
+    },
+    {
+      "name": "Bridge – Par mere pyaar ke",
+      "lines": [
+        {
+          "lyrics": "Par mere pyaar ke badle mein toone",
+          "indian": "Pa Re Re Re Re— Re Re Ma Re Re Sa Sa— Sa—"
+        },
+        {
+          "lyrics": "Mujhko yeh din dikhlaaya",
+          "indian": "Ga(k) Re Re Sa Sa— .Ni .Ni Sa— Re—"
+        }
+      ]
+    }
+  ]
+}

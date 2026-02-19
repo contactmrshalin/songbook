@@ -1,0 +1,59 @@
+{
+  "id": "hothon-se-chhu-lo-tum",
+  "title": "Hothon Se Chhu Lo Tum",
+  "info": [
+    "Song: Hothon Se Chhu Lo Tum"
+  ],
+  "thumbnail": "images/hothon_se_chhu_lo_tum_thumb.png",
+  "background": "images/hothon_se_chhu_lo_tum_bg.png",
+  "sections": [
+    {
+      "name": "MAIN PHRASE",
+      "lines": [
+        {
+          "lyrics": "Phrase 1",
+          "indian": "Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Phrase 2",
+          "indian": "Sa Re Sa Ni"
+        },
+        {
+          "lyrics": "Phrase 3",
+          "indian": "Ni Sa Sa Re Re Sa"
+        },
+        {
+          "lyrics": "Phrase 4",
+          "indian": "Ga : Re Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "TIVRA MA PHRASE",
+      "lines": [
+        {
+          "lyrics": "Phrase 5",
+          "indian": "Ga Ma(T) Ma(T) Pa Pa"
+        },
+        {
+          "lyrics": "Phrase 6",
+          "indian": "Ma(T) Dha Pa Ma(T) Ga"
+        },
+        {
+          "lyrics": "Phrase 7",
+          "indian": "Ga Ma(T) Ma(T) Pa Pa"
+        }
+      ]
+    },
+    {
+      "name": "ENDING",
+      "lines": [
+        {
+          "lyrics": "Phrase 8",
+          "indian": "Ga Re Sa Re Ga"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

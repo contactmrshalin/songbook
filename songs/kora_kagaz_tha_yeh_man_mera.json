@@ -1,0 +1,80 @@
+{
+  "id": "kora_kagaz_tha_yeh_man_mera",
+  "title": "Kora Kagaz Tha Yeh Man Mera",
+  "thumbnail": "images/kora_kagaz_tha_yeh_man_mera.png",
+  "background": "images/kora_kagaz_tha_yeh_man_mera.png",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "टूट ना जाये सपने मैं डरता हूँ",
+          "indian": "Ga Re Ga Re Sa — Ni Dha Ni Dha Pa"
+        },
+        {
+          "lyrics": "निश दिन सपनो में देखा करता हूँ",
+          "indian": "Pa Dha Sa Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "टूट ना जाये सपने मैं डरता हूँ",
+          "indian": "Ga Re Ga Re Sa — Ni Dha Ni Dha Pa"
+        },
+        {
+          "lyrics": "निश दिन सपनो में देखा करता हूँ",
+          "indian": "Pa Dha Sa Sa Re Sa — Sa"
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        {
+          "lyrics": "Pa Dha Ga Re",
+          "indian": "Pa Dha Ga Re"
+        },
+        {
+          "lyrics": "Pa Dha Re Sa",
+          "indian": "Pa Dha Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Antara 1",
+      "lines": [
+        {
+          "lyrics": "नैना कजरारे ",
+          "indian": "Ga Ga Ga Ga Ga Ma Ga Re"
+        },
+        {
+          "lyrics": "मतवारे",
+          "indian": "Re Re Re Ga Re Sa"
+        },
+        {
+          "lyrics": "ये इशारे",
+          "indian": "Sa Sa Re — Sa Dha — Ni Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "Antara Flow",
+      "lines": [
+        {
+          "lyrics": "कोरा कागज़ था ये मन मेरा मेरा मेरा",
+          "indian": "Pa Dha Sa — ReGa ReGa — Re Sa Dha Pa Dha Re"
+        },
+        {
+          "lyrics": "लिख लिया नाम इसपे तेरा तेरा तेरा",
+          "indian": "Pa Dha Sa Sa — ReGa ReGa — Re Sa Ni Dha Ni Sa"
+        },
+        {
+          "lyrics": "कोरा कागज़ था ये मन मेरा",
+          "indian": "Pa Dha Sa — Re Ga Re Ga — Re Sa Dha Pa Dha Re"
+        },
+        {
+          "lyrics": "लिख लिया नाम इसपे तेरा",
+          "indian": "Pa Dha Sa Sa — Re Ga Re Ga — Re Sa Ni Dha Ni Sa"
+        }
+      ]
+    }
+  ]
+}

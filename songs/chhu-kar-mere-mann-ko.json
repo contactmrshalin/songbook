@@ -1,0 +1,61 @@
+{
+  "id": "chhu-kar-mere-mann-ko",
+  "title": "Chhu Kar Mere Mann Ko",
+  "info": [
+    "Movie: Yaarana (1981)",
+    "Singer: Kishore Kumar",
+    "Lyricist: Anjaan",
+    "Music Director: Rajesh Roshan"
+  ],
+  "thumbnail": "images/chhu_kar_mere_mann_ko_thumb.png",
+  "background": "images/chhu_kar_mere_mann_ko_thumb.png",
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Chookar | mere man | ko",
+          "indian": "Ga Ga | Re Sa Ni | Re"
+        },
+        {
+          "lyrics": "kiya | tune, | kya | isharaa",
+          "indian": "Pa Dha | Ni Ni | Sa | Re Ga Sa"
+        },
+        {
+          "lyrics": "Badalaaa | ye | mausam",
+          "indian": "Pa Pa | Dha Pa | Ma Dha"
+        },
+        {
+          "lyrics": "lage | pyaaraa | jag | saaraa",
+          "indian": "Ni | Ni | Dha Ni | Sa' Sa'"
+        },
+        {
+          "lyrics": "Chookar | mere man | ko (alt take)",
+          "indian": "Ga Ga | Ga Ga Ma | Re"
+        },
+        {
+          "lyrics": "kiya | tune, | kya | isharaa",
+          "indian": "Pa Dha | Ni Ni | Sa | Re Ga Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA (from provided images)",
+      "lines": [
+        {
+          "lyrics": "Tu | jo | kahe | jeevan | bhar",
+          "indian": "Ga | Ma | Ma Ga | Sa Pa | Ga"
+        },
+        {
+          "lyrics": "tere | liye | main | gaauun (version 1)",
+          "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha Sa'"
+        },
+        {
+          "lyrics": "tere | liye | main | gaauun (version 2)",
+          "indian": "Pa Dha | Ni(k) Dha | Ma | Ga Re Ga Pa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

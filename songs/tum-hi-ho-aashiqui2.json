@@ -1,0 +1,87 @@
+{
+  "id": "tum-hi-ho-aashiqui2",
+  "title": "Tum Hi Ho",
+  "thumbnail": "images/tum_hi_ho_thumb.png",
+  "background": "images/tum_hi_ho_thumb.png",
+  "info": [
+    "Movie: Aashiqui 2 (2013)",
+    "Singer: Arijit Singh",
+    "Scale: Sa = C",
+    "Style: Soft romantic / legato",
+    "Symbols: : hold, ~ slide"
+  ],
+  "sections": [
+    {
+      "name": "PART 1 – Hum tere bin ab reh nahi sakte",
+      "lines": [
+        {
+          "lyrics": "Hum tere bin ab reh nahi sakte",
+          "indian": "Ga: Dha Pa Ma Ga Ma Ga Re Sa Re Ga Ma Ga: Ga"
+        }
+      ]
+    },
+    {
+      "name": "PART 2 – Tere bina kya wajood mera",
+      "lines": [
+        {
+          "lyrics": "Tere bina kya wajood mera",
+          "indian": "Re: Re Sa Re Re Sa Ni: Dha Pa Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "PART 3 – Tujhse juda gar ho jayenge",
+      "lines": [
+        {
+          "lyrics": "Tujhse juda gar ho jayenge",
+          "indian": "Ga Ga Dha Pa Ma Ga Ma Ga Re Sa Re Ga: Ga Sa"
+        }
+      ]
+    },
+    {
+      "name": "PART 4 – Toh khud se hi ho jayenge judaa",
+      "lines": [
+        {
+          "lyrics": "Toh khud se hi ho jayenge judaa",
+          "indian": "Re: Re Sa Re Re Sa Ni Sa Ni Dha Pa Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "PART 5 – Kyunki tum hi ho",
+      "lines": [
+        {
+          "lyrics": "Kyunki tum hi ho",
+          "indian": "Sa Re Ga: Sa Re:: Ga: Sa Re::"
+        }
+      ]
+    },
+    {
+      "name": "PART 6 – Zindagi ab tum hi ho",
+      "lines": [
+        {
+          "lyrics": "Zindagi ab tum hi ho",
+          "indian": "Ni: Re Sa: Ni Dha Ni: Pa Dha: Ni Sa Re"
+        }
+      ]
+    },
+    {
+      "name": "PART 7 – Chain bhi mera dard bhi",
+      "lines": [
+        {
+          "lyrics": "Chain bhi mera dard bhi",
+          "indian": "Ga: Sa Re: Ga: Sa Re:"
+        }
+      ]
+    },
+    {
+      "name": "PART 8 – Meri aashiqui ab tum hi ho",
+      "lines": [
+        {
+          "lyrics": "Meri aashiqui ab tum hi ho",
+          "indian": "Ni Ni: Re Sa: Ni Dha Ni: Pa Dha"
+        }
+      ]
+    }
+  ]
+}

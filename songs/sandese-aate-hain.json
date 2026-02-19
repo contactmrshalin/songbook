@@ -1,0 +1,61 @@
+{
+  "id": "sandese-aate-hain",
+  "title": "Sandese Aate Hain",
+  "info": [
+    "Movie: Border (1997)",
+    "Singers: Sonu Nigam, Roop Kumar Rathod",
+    "Music Director: Anu Malik",
+    "Lyricist: Javed Akhtar"
+  ],
+  "thumbnail": "images/sandese_aate_hain.png",
+  "background": "images/sandese_aate_hain.png",
+  "sections": [
+    {
+      "name": "INTRO",
+      "lines": [
+        {
+          "lyrics": "Ooo hoo hoo hoo",
+          "indian": "Ga Ma Dha Pa"
+        },
+        {
+          "lyrics": "Hoo hoo hoo oohoo ho",
+          "indian": "Ma Ga Re Ga Pa Ma"
+        },
+        {
+          "lyrics": "Hoo hoo hoo ",
+          "indian": "Sa Re Ga"
+        },
+        {
+          "lyrics": "Oohh Oohh Oohh",
+          "indian": "Re Sa Ni Dha Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Sandese aate hain, humein tadpaate hain",
+          "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga"
+        },
+        {
+          "lyrics": "Jo chitthi aati hai, wo poochhe jaati hai",
+          "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga"
+        },
+        {
+          "lyrics": "Ke ghar kab aaoge, ke ghar kab aaoge",
+          "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha"
+        },
+        {
+          "lyrics": "Likho kab aaoge",
+          "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha"
+        },
+        {
+          "lyrics": "Ke tum bin ye ghar soona, soona hai",
+          "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa Ma Ga"
+        }
+      ]
+    }
+  ],
+  "export": true
+}
