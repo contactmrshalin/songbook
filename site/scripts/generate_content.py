@@ -83,6 +83,69 @@ def _yaml_quote(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n") + '"'
 
 
+def _generate_placeholder(title: str, dst_dir: Path) -> str:
+    """Create a minimal PNG placeholder so the gallery theme renders a card.
+
+    The theme's opengraph partial calls ``$image.Filter`` which only works on
+    raster images, so we must produce a real PNG (not SVG).
+    """
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        # Pillow unavailable — fall back to a tiny 1x1 grey PNG (still valid raster).
+        import struct, zlib
+        filename = "placeholder_cover.png"
+        _write_minimal_png(dst_dir / filename)
+        return filename
+
+    filename = "placeholder_cover.png"
+    w, h = 400, 400
+    img = Image.new("RGB", (w, h), color=(107, 114, 128))  # grey-500
+    draw = ImageDraw.Draw(img)
+    initials = "".join(word[0] for word in title.split()[:2] if word).upper() or "?"
+    # Try to use a large font; fall back to default.
+    try:
+        font = ImageFont.truetype("DejaVuSans-Bold.ttf", 120)
+    except Exception:
+        fonts_dir = REPO_ROOT / "fonts"
+        dejavu = fonts_dir / "DejaVuSans-Bold.ttf"
+        if dejavu.exists():
+            font = ImageFont.truetype(str(dejavu), 120)
+        else:
+            font = ImageFont.load_default()
+    bbox = draw.textbbox((0, 0), initials, font=font)
+    tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
+    draw.text(((w - tw) / 2, (h - th) / 2 - bbox[1]), initials, fill="white", font=font)
+    img.save(dst_dir / filename)
+    return filename
+
+
+def _write_minimal_png(path: Path) -> None:
+    """Write a valid 1×1 grey PNG without any imaging library."""
+    import struct
+    import zlib
+    sig = b"\x89PNG\r\n\x1a\n"
+    def _chunk(ctype: bytes, data: bytes) -> bytes:
+        c = ctype + data
+        return struct.pack(">I", len(data)) + c + struct.pack(">I", zlib.crc32(c) & 0xFFFFFFFF)
+    ihdr = struct.pack(">IIBBBBB", 1, 1, 8, 2, 0, 0, 0)  # 1x1, 8-bit RGB
+    raw = zlib.compress(b"\x00\x6b\x72\x80")  # filter-none + grey RGB pixel
+    path.write_bytes(sig + _chunk(b"IHDR", ihdr) + _chunk(b"IDAT", raw) + _chunk(b"IEND", b""))
+
+
+def _boolish(v: Any) -> bool:
+    """Loose bool coercion matching load_songs._boolish."""
+    if v is None:
+        return True
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, (int, float)):
+        return bool(v)
+    if isinstance(v, str):
+        return v.strip().lower() not in ("false", "f", "0", "no", "n", "off")
+    return True
+
+
 def _token_to_note_name(step: str, alter: int) -> str:
     if alter == 1:
         return f"{step}#"
@@ -174,6 +237,10 @@ def build() -> None:
         if not sid:
             continue
 
+        # Respect the export flag — skip songs explicitly excluded.
+        if not _boolish(s.get("export", True)):
+            continue
+
         title = str(s.get("title") or sid).strip()
         info = s.get("info") if isinstance(s.get("info"), list) else []
         info_lines = [str(x) for x in (info or []) if x]
@@ -190,6 +257,11 @@ def build() -> None:
                 cover_filename = _copy_image(thumb_rel, bundle_dir)
             except Exception:
                 cover_filename = None
+
+        # Generate a placeholder SVG when no thumbnail is available.
+        # The gallery theme requires an image to render a card on the home page.
+        if not cover_filename:
+            cover_filename = _generate_placeholder(title, bundle_dir)
 
         bg_filename = None
         if bg_rel:
