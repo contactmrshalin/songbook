@@ -1,0 +1,150 @@
+{
+    "song": "Jab Koi Baat Bigad Jaye",
+    "movie": "Jurm (1990)",
+    "scale": "Based on provided harmonium indian",
+    "id":"jab-koi-baat",
+    "title": "Jab Koi Baat Bigad Jaye",
+    "thumbnail": "images/jab_koi_baat.png",
+    "background": "images/jab_koi_baat.png",
+    "info": [
+        "Movie: Jurm (1990)",
+        "Singer: Kumar Sanu",
+        "Lyricist: Kumar Sanu",
+        "Music Director: Kumar Sanu"
+    ],
+    "sections": [
+  
+      {
+        "section": "Sthai",
+        "lines": [
+  
+          {
+            "lyrics": "Jab koi baat bigad jae",
+            "indian": "SaSa / Ga – / Ga Re – / SaGa –"
+          },
+          {
+            "lyrics": "Jab koi mushkil pad jae",
+            "indian": "Re – Sa / Re – Ga – / Re – Sa – .Dha –"
+          },
+          {
+            "lyrics": "Tum dena saath mera",
+            "indian": ".Dha Sa / Re – Ga / Re – Sa / .Dha .Dha – .Pa"
+          },
+          {
+            "lyrics": "O hamnava",
+            "indian": ".Pa .Dha Sa .Dha Sa – –"
+          },
+  
+          {
+            "lyrics": "Na koi hai na koi tha",
+            "indian": "Sa Sa – Sa – Ga – / Re Re – Sa – Ga –"
+          },
+          {
+            "lyrics": "Zindagi mein tumhare siva",
+            "indian": "Re Re Sa – / Re – / Ga Re Sa / Sa Sa .Dha –"
+          },
+          {
+            "lyrics": "Tum dena saath mera",
+            "indian": ".Dha Sa / Re – Ga / Re – Sa / .Dha .Dha – .Pa"
+          },
+          {
+            "lyrics": "O hamnava",
+            "indian": ".Pa Ma – Ga Re Sa –"
+          }
+        ]
+      },
+  
+      {
+        "section": "Stanza 1",
+        "lines": [
+  
+          {
+            "lyrics": "Ho chandni jab tak raat",
+            "indian": "Pa Ma(t) / Pa Pa Ma(t) / Pa Pa Ma(t) / Pa – Pa –"
+          },
+          {
+            "lyrics": "Deta hai har koi saath",
+            "indian": "Pa Ma(t) Pa / Pa Dha / Dha – (Pa) Ma Ma –"
+          },
+          {
+            "lyrics": "Tum magar andhero mein",
+            "indian": "Dha – Dha Dha / Dha Dha Dha Ni(k) / Ni(k) Dha Pa –"
+          },
+          {
+            "lyrics": "Na chhodna mera haath",
+            "indian": "Pa – Re / Re Re Pa / Pa Ma Ma Ga Ga –"
+          }
+        ]
+      },
+  
+      {
+        "section": "Stanza 2",
+        "lines": [
+  
+          {
+            "lyrics": "Vafadari ki vo rasme",
+            "indian": "Pa Ma(t) / Pa Pa Ma(t) / Pa Pa Ma(t) / Pa – Pa –"
+          },
+          {
+            "lyrics": "Nibhaenge ham to kasme",
+            "indian": "Pa Ma(t) Pa / Pa Dha / Dha – (Pa) Ma Ma –"
+          },
+          {
+            "lyrics": "Ke ek bhi sans zindagi ki",
+            "indian": "Dha – Dha Dha / Dha Dha Dha Ni(k) / Ni(k) Dha Pa –"
+          },
+          {
+            "lyrics": "Jab tak ho apne basme",
+            "indian": "Pa – Re / Re Re Pa / Pa Ma Ma Ga Ga –"
+          }
+        ]
+      },
+  
+      {
+        "section": "Stanza 3",
+        "lines": [
+  
+          {
+            "lyrics": "Dil ko mere hua yaki",
+            "indian": "Pa Ma(t) / Pa Pa Ma(t) / Pa Pa Ma(t) / Pa – Pa –"
+          },
+          {
+            "lyrics": "Ham pahle bhi mile kahi",
+            "indian": "Pa Ma(t) Pa / Pa Dha / Dha – (Pa) Ma Ma –"
+          },
+          {
+            "lyrics": "Silsila ye sadiyo ka",
+            "indian": "Dha – Dha Dha / Dha Dha Dha Ni(k) / Ni(k) Dha Pa –"
+          },
+          {
+            "lyrics": "Koi aaj ki baat nahi",
+            "indian": "Pa – Re / Re Re Pa / Pa Ma Ma Ga Ga –"
+          }
+        ]
+      },
+  
+      {
+        "section": "Reprise (Final Chorus)",
+        "lines": [
+  
+          {
+            "lyrics": "Jab koi baat bigad jae",
+            "indian": "SaSa / Ga – / Ga Re – / SaGa –"
+          },
+          {
+            "lyrics": "Jab koi mushkil pad jae",
+            "indian": "Re – Sa / Re – Ga – / Re – Sa – .Dha –"
+          },
+          {
+            "lyrics": "Tum dena saath mera",
+            "indian": ".Dha Sa / Re – Ga / Re – Sa / .Dha .Dha – .Pa"
+          },
+          {
+            "lyrics": "O hamnava",
+            "indian": ".Pa Ma – Ga Re Sa –"
+          }
+        ]
+      }
+  
+    ]
+  }

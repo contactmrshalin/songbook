@@ -1,40 +1,122 @@
 {
   "id": "pehla_nasha",
-  "title": "Pehla Nasha",
-  "info": [
-    "Movie:Jo Jeeta Wohi Sikandar"
-  ],
-  "background": "images/pehla_nasha.png",
+  "title": "Pehla Nasha Pehla Khumar",
   "thumbnail": "images/pehla_nasha.png",
+  "background": "images/pehla_nasha.png",
+  "info": [
+    "Movie: Jo Jeeta Wohi Sikandar (1992)",
+    "Singer: Kumar Sanu",
+    "Lyricist: Kumar Sanu",
+    "Music Director: Kumar Sanu"
+  ],
   "sections": [
     {
-      "name": "Mukhda",
+      "name": "Intro (Starting Tune)",
       "lines": [
         {
-          "lyrics": "Pehla nasha pehla khumar",
-          "indian": "Ga Pa PaPaDhaPa GaSaRePa Pa"
+          "indian": "Sa* – Sa* Sa* – / Ni Sa* Pa* – / Ni – / Sa* – Sa* Sa* –"
         },
         {
-          "lyrics": "Naya pyar hai naya intezar",
-          "indian": "Ga Pa PaPaDhaPa MaGaRe ReRe"
+          "indian": "Ni Sa* Pa* – / Sa* Ni Dha – Dha Dha – / Dha Ni Sa* Ga* Sa* – / Re* – Re* Re* –"
+        }
+      ]
+    },
+    {
+      "name": "Sthai",
+      "lines": [
+        {
+          "lyrics": "Pehla nasha",
+          "indian": "Ga Pa / Pa Dha –"
+        },
+        {
+          "lyrics": "Pehla khumaar",
+          "indian": "Ga Sa Re / Pa Pa –"
+        },
+        {
+          "lyrics": "Naya pyaar hai naya intezaar",
+          "indian": "Ga – / Pa – Pa Pa / Ma Ga Re – Re Re –"
         },
         {
           "lyrics": "Kar loon main kya apna haal",
-          "indian": "Sanidha niSa Ma GaGa"
+          "indian": "Sa .Ni .Dha .Ni Sa – / Ma Ga Ga –"
         },
         {
-          "lyrics": "Ae dil-e-bekaraar",
-          "indian": "Dha niSa Ga ReRe"
+          "lyrics": "Aye dil-e-bekaraar",
+          "indian": "Dha Ni Sa Ga – Re Re –"
         },
         {
-          "lyrics": "Kar loon main kya apna haal",
-          "indian": "Sanidha niSa Ma GaGa"
+          "lyrics": "Mere dil-e-bekaraar",
+          "indian": "Sa .Ni .Dha .Ni Sa – / Ma Ga Ga –"
         },
         {
           "lyrics": "Tu hi bata",
-          "indian": "SaReGaSaRe"
+          "indian": "Sa Re Ga Sa Re –"
+        }
+      ]
+    },
+    {
+      "name": "Stanza 1",
+      "lines": [
+        {
+          "lyrics": "Udta hi firoon in hawaon mein kahin",
+          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa Ma Re Re / Dha Pa Pa –"
+        },
+        {
+          "lyrics": "Ya main jhool jaoon in ghataon mein kahin",
+          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa Ma Re Re / Dha Pa Pa –"
+        },
+        {
+          "lyrics": "Ek kar doon aasmaan aur zameen",
+          "indian": "Pa Ma Pa Dha / Ni(k) Dha Pa – / Pa – Ma Pa –"
+        },
+        {
+          "lyrics": "Kaho yaaron kya karoon kya nahin",
+          "indian": "Pa Ma Pa Dha / Ni(k) Sa* Sa* Ma / Ma Pa Ga Ma –"
+        }
+      ]
+    },
+    {
+      "name": "Stanza 2",
+      "lines": [
+        {
+          "lyrics": "Usne baat ki kuchh aise dhang se",
+          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa Ma Re Re / Dha Pa Pa –"
+        },
+        {
+          "lyrics": "Sapne de gaya vo hazaaron range ke",
+          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa Ma Re Re / Dha Pa Pa –"
+        },
+        {
+          "lyrics": "Reh jaoon jaise main haar ke",
+          "indian": "Pa Ma Pa Dha / Ni(k) Dha Pa – / Pa – Ma Pa –"
+        },
+        {
+          "lyrics": "Aur choome vo mujhe pyaar se",
+          "indian": "Pa Ma Pa Dha / Ni(k) Sa* Sa* Ma / Ma Pa Ga Ma –"
+        }
+      ]
+    },
+    {
+      "name": "Reprise (Final Chorus)",
+      "lines": [
+        {
+          "lyrics": "Pehla nasha, pehla khumaar",
+          "indian": "Ga Pa / Pa Dha – / Ga Sa Re / Pa Pa –"
+        },
+        {
+          "lyrics": "Naya pyaar hai naya intezaar",
+          "indian": "Ga – / Pa – Pa Pa / Ma Ga Re – Re Re –"
+        },
+        {
+          "lyrics": "Kar loon main kya apna haal",
+          "indian": "Sa .Ni .Dha .Ni Sa – / Ma Ga Ga –"
+        },
+        {
+          "lyrics": "Aye dil-e-bekaraar, mere dil-e-bekaraar",
+          "indian": "Dha Ni Sa Ga – Re Re – / Sa .Ni .Dha .Ni Sa – Ma Ga Ga –"
         }
       ]
     }
-  ]
+  ],
+  "export": true
 }
