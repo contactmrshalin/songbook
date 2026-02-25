@@ -434,11 +434,12 @@
       "id": "hori_khele_raghuveera_awadh_mein",
       "title": "Hori Khele Raghuveera Awadh Mein",
       "info": [
-        "Movie: Baghban"      ],
+        "Movie: Baghban"
+      ],
       "image": "images/holi.png",
-      "thumbnail":"images/holi.png",
-      "background":"images/holi.png",
-      "notation_style": "Indian Classical (Sargam)",
+      "thumbnail": "images/holi.png",
+      "background": "images/holi.png",
+      "indian_style": "Indian Classical (Sargam)",
       "sections": [
         {
           "name": "Chorus",
@@ -649,11 +650,92 @@
       ]
     },
     {
+      "id": "zindagi_ke_safar_mein_guzar_jaate_hain_jo_maqam",
+      "title": "Zindagi Ke Safar Mein Guzar Jaate Hain Jo Maqam",
+      "info": [
+        "Movie: Dil Apna Aur Preet Parai",
+        "Year: 1960",
+        "Singer: Lata Mangeshkar",
+        "Composer: Shankar–Jaikishan",
+        "Lyricist: Shailendra"
+      ],
+      "thumbnail": "images/zindagi_ke_safar_mein_guzar_jaate_hain_jo_maqam.png",
+      "background": "images/zindagi_ke_safar_mein_guzar_jaate_hain_jo_maqam.png",
+      "sections": [
+        {
+          "name": "Mukhda (M1)",
+          "lines": [
+            {
+              "lyrics": "Zindagi ke safar mein",
+              "indian": "Sa (Ni) Sa Ga — Ma Pa — Ni —"
+            },
+            {
+              "lyrics": "Guzar jaate hain jo maqam",
+              "indian": "Ni Sa — — (Ni) (Dha) Pa — Ma — Ga Ma Dha — Ga —"
+            },
+            {
+              "lyrics": "Woh phir nahi aate",
+              "indian": "Pa — — Ma Ga Sa (Ni) Dha Re —"
+            },
+            {
+              "lyrics": "Woh phir nahi aate (repeat)",
+              "indian": "Pa — — Ma Ga Sa (Ni) Re — Sa —"
+            }
+          ]
+        },
+        {
+          "name": "Antara (M2)",
+          "lines": [
+            {
+              "lyrics": "Phool khilte hain log milte hain",
+              "indian": "Ga Ma Ga Re Ma — (Ga) — Ga Ma Ga Re Ma — (Ga) —"
+            },
+            {
+              "lyrics": "Phool khilte hain log milte hain magar",
+              "indian": "Ga Ma Ga Re Sa Ma Ga Ga Ga, Ga Ma Ga Re Sa Ma Ga Ga Ga"
+            },
+            {
+              "lyrics": "Patjhad mein jo phool murjha jaate hain",
+              "indian": "Ma (Ga) Ma Ma Ga, Ma Ma Ga, Ga Ma Dha Pa Ma Ga —"
+            },
+            {
+              "lyrics": "Woh baharon ke aane se khilte nahi",
+              "indian": "Ma Ga Ma Dha Dha, Dha Sa Ni Pa — Ni — Dha Pa —"
+            },
+            {
+              "lyrics": "Kuch log ek roz jo bichhad jaate hain",
+              "indian": "Pa Ma Pa — Pa — Ma Pa — Pa — Ma Ma Dha Pa — Ma — Ga —"
+            },
+            {
+              "lyrics": "Woh hazaron ke aane se milte nahi",
+              "indian": "Ma Ga Ma Dha Dha, Dha Sa Ni Pa — Ni — Dha Pa —"
+            },
+            {
+              "lyrics": "Umr bhar chahe koi",
+              "indian": "Sa (Ni) Sa Ga — Ma Pa — Ni —"
+            },
+            {
+              "lyrics": "Pukara kare unka naam",
+              "indian": "Ni Sa — — (Ni) (Dha) Pa — Ma — Ga Ma Dha — Ga —"
+            },
+            {
+              "lyrics": "Woh phir nahi aate",
+              "indian": "Pa — — Ma Ga Sa (Ni) Dha Re —"
+            },
+            {
+              "lyrics": "Woh phir nahi aate (repeat)",
+              "indian": "Pa — — Ma Ga Sa (Ni) Re — Sa —"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rang_barse_bheege_chunar_wali",
       "title": "Rang Barse Bheege Chunar Wali",
       "info": [
         "Movie: Silsila",
-        "Notation Style: Indian Classical (Sargam)"
+        "indian Style: Indian Classical (Sargam)"
       ],
       "thumbnail": "images/rang_barse_bheege_chunar_wali.png",
       "background": "images/rang_barse_bheege_chunar_wali.png",
@@ -1457,7 +1539,7 @@
         },
         {
           "label": "source",
-          "value": "User provided Sine notation version"
+          "value": "User provided Sine indian version"
         }
       ],
       "sections": [
@@ -3212,7 +3294,7 @@
         "Singer: Alka Yagnik, Udit Narayan",
         "Composer: Jatin-Lalit",
         "Lyricist: Majrooh Sultanpuri",
-        "Notation Source: Sargam-style pattern (tutorial aligned)"
+        "indian Source: Sargam-style pattern (tutorial aligned)"
       ],
       "sections": [
         {
@@ -3290,7 +3372,7 @@
       "thumbnail": "images/om_namah_shivay_dhun.png",
       "info": [
         "Type: Bhajan / Dhun",
-        "Notation Style: Indian Sargam"
+        "indian Style: Indian Sargam"
       ],
       "sections": [
         {
