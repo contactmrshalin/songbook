@@ -1,0 +1,124 @@
+{
+  "id": "aawaara-angaara-tere-ishk-mein",
+  "title": "Aawaara Angaara (Tere Ishk Mein)",
+  "thumbnail": "",
+  "background": "",
+  "info": [
+    "Song: Aawaara Angaara (Tere Ishk Mein)",
+    "Scale note: Flute scale is A (Bass/Middle) as provided"
+  ],
+  "sections": [
+    {
+      "name": "Piano & Keyboards",
+      "lines": [
+        {
+          "lyrics": "Teri kayanaat",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S.."
+        },
+        {
+          "lyrics": "Mere khaali haath",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S.."
+        },
+        {
+          "lyrics": "Aur taar taar sapne",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S..S..S..d.."
+        },
+        {
+          "lyrics": "Gaye zakhm jaag",
+          "indian": "d..d..S.R.S..d..S.R.S..d.."
+        },
+        {
+          "lyrics": "Mere seene aag",
+          "indian": "d..d..S.R.S..d..S.R.S..d.."
+        },
+        {
+          "lyrics": "Lagi saans saans tapne",
+          "indian": "d..d..d(k)…d(k)..d(k)…d(k)..d(k)..d(k)..p…"
+        }
+      ]
+    },
+    {
+      "name": "Guitars",
+      "lines": [
+        {
+          "lyrics": "Teri kayanaat",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S.."
+        },
+        {
+          "lyrics": "Mere khaali haath",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S.."
+        },
+        {
+          "lyrics": "Aur taar taar sapne",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S..S..S..d.."
+        }
+      ]
+    },
+    {
+      "name": "Musical Instruments",
+      "lines": [
+        {
+          "lyrics": "Dardo se choor",
+          "indian": "d..d..S.R.S..d..S.R.S..d.."
+        },
+        {
+          "lyrics": "Gham ka guroor",
+          "indian": "d..d..S.R.S..d..S.R.S..d.."
+        },
+        {
+          "lyrics": "Kahoon kya main haal apne",
+          "indian": "d..d..d(k)…d(k)..d(k)…d(k)..d(k)..d(k)..p…"
+        },
+        {
+          "lyrics": "Aawaara, aawaara",
+          "indian": "S…R..G..R..G….G..P..P…P..m…"
+        },
+        {
+          "lyrics": "Aawaara angaara",
+          "indian": "S…R..m..m..D(k)….D(k)..m..m…m..G(k)…"
+        },
+        {
+          "lyrics": "Raaton mein dooba",
+          "indian": "S…R..G..R..G….G..P..P…P..m…"
+        },
+        {
+          "lyrics": "Ambar ka banjaara",
+          "indian": "S…R..m..m..D(k)….D(k)..m..m…m..G(k)…"
+        },
+        {
+          "lyrics": "Jaane toota kyun",
+          "indian": "n…S..R….R..m..m…m..G(k)…"
+        },
+        {
+          "lyrics": "Main sheesha na taara",
+          "indian": "S…R..G..R..G….P…P..N(k)..N(k)…N(k)..D(k)…"
+        },
+        {
+          "lyrics": "Teri kayanaat",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S.."
+        },
+        {
+          "lyrics": "Mere khaali haath",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S.."
+        },
+        {
+          "lyrics": "Aur taar taar sapne",
+          "indian": "S..S..R.G(k).R..S..R.G(k).R..S..S..S..d.."
+        },
+        {
+          "lyrics": "Gaye zakhm jaag",
+          "indian": "d..d..S.R.S..d..S.R.S..d.."
+        },
+        {
+          "lyrics": "Mere seene aag",
+          "indian": "d..d..S.R.S..d..S.R.S..d.."
+        },
+        {
+          "lyrics": "Lagi saans saans tapne",
+          "indian": "d..d..d(k)…d(k)..d(k)…d(k)..d(k)..d(k)..p…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

@@ -1,0 +1,100 @@
+{
+  "id": "hum-bewafa-hargiz-na-thay",
+  "title": "Hum Bewafa Hargiz Na Thay",
+  "thumbnail": "",
+  "background": "",
+  "info": [
+    "Movie: Shalimar",
+    "Scale note: Flute scale is E (Bass/Middle) as provided"
+  ],
+  "sections": [
+    {
+      "name": "Piano & Keyboards",
+      "lines": [
+        {
+          "lyrics": "Hum bewafa hargiz na the",
+          "indian": "G..R..S..G… G..m..P..P..m…"
+        },
+        {
+          "lyrics": "Par hum wafa kar na sakhe",
+          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+        },
+        {
+          "lyrics": "Humko mili uski sazaa",
+          "indian": "G..R..S..G… G..m..P..P..m…"
+        },
+        {
+          "lyrics": "Hum jo khata kar na sakhe",
+          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+        },
+        {
+          "lyrics": "Hum bewafa hargiz na the (repeat)",
+          "indian": "G..R..S..G… G..m..P..P..m…"
+        },
+        {
+          "lyrics": "Par hum wafa kar na sakhe (repeat)",
+          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+        }
+      ]
+    },
+    {
+      "name": "Guitars",
+      "lines": [
+        {
+          "lyrics": "Kitni akeli thi woh",
+          "indian": "P..D..S'..S'..S'..S'…S'..P.."
+        },
+        {
+          "lyrics": "Raahe hum jinpe",
+          "indian": "S'..P..S'..N(k)..D…D…"
+        },
+        {
+          "lyrics": "Ab takk akele",
+          "indian": "m..D..D..D..D…N(k)…"
+        }
+      ]
+    },
+    {
+      "name": "Musical Instruments",
+      "lines": [
+        {
+          "lyrics": "Chalte rahein",
+          "indian": "N(k)..N(k)..N(k)..S'…"
+        },
+        {
+          "lyrics": "Tujhse bichadke bhi",
+          "indian": "P..D..S'..S'..S'..S'…S'..S'.."
+        },
+        {
+          "lyrics": "O bekhabar",
+          "indian": "S'..P..S'..N(k)..D…"
+        },
+        {
+          "lyrics": "Tere hi gham mein",
+          "indian": "m..D..D..D..D…N(k)…"
+        },
+        {
+          "lyrics": "Jalte rahein",
+          "indian": "D..m..D..P…"
+        },
+        {
+          "lyrics": "Tune kiya jo shikva",
+          "indian": "G..R..S..G… G..m..P..P..m…"
+        },
+        {
+          "lyrics": "Hum woh gila kar na sakhe",
+          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+        },
+        {
+          "lyrics": "Hum bewafa hargiz na the",
+          "indian": "G..R..S..G… G..m..P..P..m…"
+        },
+        {
+          "lyrics": "Par hum wafa kar na sakhe",
+          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

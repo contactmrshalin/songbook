@@ -1,65 +1,121 @@
 {
   "id": "ae-mere-pyare-watan",
-  "title": "Ae Mere Pyare Watan",
+  "title": "Aye Mere Pyare Watan",
   "thumbnail": "images/ae-mere-pyare-watan.png",
   "background": "images/ae-mere-pyare-watan.png",
   "info": [
     "Movie: Kabuliwala",
-    "Singer: Lata Mangeshkar",
-    "Music Director: Shankar–Ehsaan–Loy",
-    "Lyricist: Gulzar"
+    "Scale note: Flute scale is G# (Bass/Middle) as provided"
   ],
   "sections": [
     {
-      "name": "Mukhda",
+      "name": "Piano & Keyboards",
       "lines": [
         {
           "lyrics": "Aye mere pyaare watan",
-          "indian": "Sa Sa Sa Sa Ga Re Ga Ma Ga Re"
+          "indian": "S…S..S…S…G..R..G..m…G..R.."
         },
         {
           "lyrics": "Aye mere bichhade chaman",
-          "indian": "Re Ga Re Sa Sa Ga Re Ga Ma Ga Re"
+          "indian": "R…G..R…S..S..G..R..G..m…G..R.."
         },
         {
-          "lyrics": "Tujh pe dil qurbaan",
-          "indian": "Re Re Ma Ga Re Sa Sa"
+          "lyrics": "Tujh pe dil qurabaan",
+          "indian": "R..R..m..G…R..S..S.."
         }
       ]
     },
     {
-      "name": "Antara",
+      "name": "Guitars",
+      "lines": [
+        {
+          "lyrics": "Aye mere pyaare watan",
+          "indian": "S…S..S…S…G..R..G..m…G..R.."
+        },
+        {
+          "lyrics": "Aye mere bichhade chaman",
+          "indian": "R…G..R…S..S..G..R..G..m…G..R.."
+        },
+        {
+          "lyrics": "Tujh pe dil qurabaan",
+          "indian": "R..R..m..G…R..S..S.."
+        }
+      ]
+    },
+    {
+      "name": "Musical Instruments",
       "lines": [
         {
           "lyrics": "Tu hi meri aarazu",
-          "indian": "Ni(k)(k) Ni(k)(k) Sa Sa Pa Ma Pa Ma Ga"
+          "indian": "n(k)…n(k)..S…S.. P…m..P..m..G.."
         },
         {
-          "lyrics": "Tu hi meri aabroo",
-          "indian": "Ga Ga Ga Re Ga Ma Ga Ma Ga Re"
+          "lyrics": "Tu hi meri aabaru",
+          "indian": "G…G..G..R..G.. m…G..m..G..R.."
         },
         {
           "lyrics": "Tu hi meri jaan",
-          "indian": "Re Ga Re Sa Sa"
+          "indian": "R…G..R…S…S…"
+        },
+        {
+          "lyrics": "Aye mere pyaare watan",
+          "indian": "S…S..S…S…G..R..G..m…G..R.."
+        },
+        {
+          "lyrics": "Tere daaman",
+          "indian": "P…P..P…P.."
+        },
+        {
+          "lyrics": "Se jo aaye",
+          "indian": "P…D(k)..D(k).S'..N..S'..N..D(k)..P.."
+        },
+        {
+          "lyrics": "Un havaaon ko salaam",
+          "indian": "P…D(k)..P..m..m…G..R..G..m…"
         }
       ]
     },
     {
-      "name": "Bridge",
+      "name": "Bollywood & South Asian Film",
       "lines": [
         {
-          "lyrics": "Tere daaman",
-          "indian": "Pa Pa Pa Pa"
+          "lyrics": "Chum lun main",
+          "indian": "P…P..P…P.."
         },
         {
-          "lyrics": "Se jo aaye",
-          "indian": "Pa Dha(k) Dha(k) Sa' Ni Sa' Ni Dha(k) Pa"
+          "lyrics": "Us zubaan ko",
+          "indian": "P…D(k)..D(k).S'..N..S'..N..D(k)..P.."
         },
         {
-          "lyrics": "Un havaaon ko salaam",
-          "indian": "Pa Dha(k) Pa Ma Ma Ga Re Ga Ma"
+          "lyrics": "Jisape aae teraa naam",
+          "indian": "P..P..D(k)..P..m..m…G..R..G..m…"
+        },
+        {
+          "lyrics": "Sabase pyaari subah teri",
+          "indian": "S..S..S..S…S.. G..G..R..m…G..R.."
+        },
+        {
+          "lyrics": "Sabase rangin teri shaam",
+          "indian": "R..R..G..R…S.. G..R..G..m…G..R.."
+        },
+        {
+          "lyrics": "Tujh pe dil qurabaan",
+          "indian": "R..R..m..G…R..S..S…"
+        },
+        {
+          "lyrics": "Tu hi meri aarazu",
+          "indian": "n(k)…n(k)..S…S.. P…m..P..m..G.."
+        },
+        {
+          "lyrics": "Tu hi meri aabaru",
+          "indian": "G…G..G..R..G.. m…G..m..G..R.."
+        },
+        {
+          "lyrics": "Tu hi meri jaan",
+          "indian": "R…G..R…S…S…"
         }
       ]
     }
-  ]
+  ],
+  "export": true
 }

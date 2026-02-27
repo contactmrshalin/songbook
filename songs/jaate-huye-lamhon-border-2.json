@@ -1,0 +1,99 @@
+{
+  "id": "jaate-huye-lamhon-border-2",
+  "title": "Jaate Hue Lamhon",
+  "thumbnail": "",
+  "background": "",
+  "info": [
+    "Movie: Border 2",
+    "Scale note: Flute scale is B (Bass/Middle) as provided"
+  ],
+  "sections": [
+    {
+      "name": "Main",
+      "lines": [
+        {
+          "lyrics": "Ae jaate huye lamhon",
+          "indian": "G…R…G…R..R..P..P.."
+        },
+        {
+          "lyrics": "Zara thehro zara thehro",
+          "indian": "G..G..R…G.. R..R..P..P…G…"
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "lines": [
+        {
+          "lyrics": "Ae jaate huye lamhon",
+          "indian": "G…R…G…R..R..P..P.."
+        },
+        {
+          "lyrics": "Zara thehro zara thehro",
+          "indian": "G..G..R…G.. R..R..P..P.."
+        },
+        {
+          "lyrics": "Main bhi toh chalta hoon",
+          "indian": "G.D.D(k)..D(k)…m.G.G..G.."
+        },
+        {
+          "lyrics": "Zara unse milta hoon",
+          "indian": "G.N.D(k)..D(k)…m.G.G..G.."
+        },
+        {
+          "lyrics": "Jo ik baat dil mein hai",
+          "indian": "D..N…S'…N..R'…N…D..P.."
+        },
+        {
+          "lyrics": "Unse kahoon",
+          "indian": "P..S'…N…D..D.."
+        },
+        {
+          "lyrics": "Toh chalu toh chalu",
+          "indian": "G…S'..D.. G…S'..D.."
+        },
+        {
+          "lyrics": "Mm hm hm hm",
+          "indian": "S'..D..m..G..m.G.R…"
+        },
+        {
+          "lyrics": "Toh chalu toh chalu",
+          "indian": "R…N..P.. R…N..P.."
+        },
+        {
+          "lyrics": "Toh chalu mm hm hm",
+          "indian": "N..R'..R'..S'….N..S'..N…D.."
+        },
+        {
+          "lyrics": "Toh chalu toh chalu",
+          "indian": "G…S'..D.. G…S'..D.."
+        },
+        {
+          "lyrics": "Mm hm hm hm",
+          "indian": "S'..D..m..G..m.G.R…"
+        },
+        {
+          "lyrics": "Hmm mm",
+          "indian": "S..R..S..n.."
+        },
+        {
+          "lyrics": "Toh chalu toh chalu",
+          "indian": "R…N..P.. R…N..P.."
+        },
+        {
+          "lyrics": "Toh chalu mm hm",
+          "indian": "N..R'..R'..S'….N..S'..N…D.."
+        },
+        {
+          "lyrics": "Ae jaate hue lamhon",
+          "indian": "G…R…G…R..R..P..P.."
+        },
+        {
+          "lyrics": "Zara thehro zara thehro",
+          "indian": "G..G..R…G.. R..R..P..P..D..G…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}

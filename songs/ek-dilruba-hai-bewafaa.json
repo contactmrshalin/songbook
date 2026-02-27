@@ -1,0 +1,195 @@
+{
+  "id": "ek-dilruba-hai-bewafaa",
+  "title": "Ek Dilruba Hai",
+  "thumbnail": "",
+  "background": "",
+  "info": [
+    "Movie: Bewafaa",
+    "Scale note: Flute scale is C# (Bass/Middle) as provided"
+  ],
+  "sections": [
+    {
+      "name": "Piano & Keyboards",
+      "lines": [
+        {
+          "lyrics": "Lai lalai lalai lara lala",
+          "indian": "N..N.N..N..S'..N..D..P.."
+        },
+        {
+          "lyrics": "Lai lalai lalai lara lala",
+          "indian": "N..N.N..N..S'..N..D..P.."
+        },
+        {
+          "lyrics": "Lai lalai lalai lara lala…",
+          "indian": "N..N.N..N..S'..N..D..P..M..P..D…"
+        },
+        {
+          "lyrics": "Lai lalai lalai lara lala",
+          "indian": "D..D.D..D..N..D..P..M.."
+        },
+        {
+          "lyrics": "Lai lalai lalai lara lala",
+          "indian": "D..D.D..D..N..D..P..M.."
+        },
+        {
+          "lyrics": "Lai lalai lalai lara lala… (x2)",
+          "indian": "D..D.D..D..R'..S'..N..D..P..D..N…"
+        }
+      ]
+    },
+    {
+      "name": "Guitars",
+      "lines": [
+        {
+          "lyrics": "Mera dil jis dil pe fidda hain",
+          "indian": "P..M..D..P.. P..M..M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Mera dil jis dil pe fidda hain",
+          "indian": "P..M..D..P.. P..M..M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Ek dilruba hain ek dilruba hain",
+          "indian": "n..n..S..n..M…G.. n..S..n..M…G.."
+        }
+      ]
+    },
+    {
+      "name": "Musical Instruments",
+      "lines": [
+        {
+          "lyrics": "Ha dilruba hain ek dilruba hain",
+          "indian": "n…S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Meri ulfat meri wafa hain",
+          "indian": "P..M..D..P…P.. M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Meri ulfat meri wafa hain",
+          "indian": "P..M..D..P…P.. M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Woh dilruba hain woh dilruba hain",
+          "indian": "n…S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Ha dilruba hain woh dilruba hain",
+          "indian": "n…S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Mera dil jis dil pe fidda hain",
+          "indian": "P..M..D..P.. P..M..M…M..G..P…M.."
+        }
+      ]
+    },
+    {
+      "name": "Bollywood & South Asian Film",
+      "lines": [
+        {
+          "lyrics": "Mera dil jis dil pe fidda hain",
+          "indian": "P..M..D..P.. P..M..M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Ek dilruba hain ek dilruba hain",
+          "indian": "n..n..S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Ha dilruba hain ek dilruba hain",
+          "indian": "n…S..n..M…G.. n..S..n..M…G.."
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "lines": [
+        {
+          "lyrics": "Ji karta hain teri zulfo se khelu",
+          "indian": "G..M..M..P..P..D..D..N..D..P..M..G…M…"
+        },
+        {
+          "lyrics": "Ji karta hain tujhe baho mein le lu",
+          "indian": "G..M..M..P..P..D..D..N..D..P..M..G…G…"
+        },
+        {
+          "lyrics": "Ji karta hain teri zulfo se khelu",
+          "indian": "G..M..M..P..P..D..D..N..D..P..M..G…M…"
+        },
+        {
+          "lyrics": "Ji karta hain tujhe baho mein le lu",
+          "indian": "G..M..M..P..P..D..D..N..D..P..M..G…G…"
+        }
+      ]
+    },
+    {
+      "name": "Music & Audio",
+      "lines": [
+        {
+          "lyrics": "Ji karta hain teri ankho ko chumu",
+          "indian": "G..M..M..P..P..D..D..N..D..P..M..G…M…"
+        },
+        {
+          "lyrics": "Ji karta hain tere ishq main jhumu",
+          "indian": "G..M..M..P..P..D..D..N..D..P..M..G…G…"
+        },
+        {
+          "lyrics": "Hayee",
+          "indian": "N…"
+        },
+        {
+          "lyrics": "Dil karta hain tera sapna sajalu",
+          "indian": "G…M..M..P..P..D..D..N..D..P..M..G…M…"
+        },
+        {
+          "lyrics": "Dil karta hain tujhe apna banalu",
+          "indian": "G…M..M..P..P..D..D..N..D..P..M..G…G…"
+        },
+        {
+          "lyrics": "Dil karta hain tujhe dil main chupalu",
+          "indian": "G…M..M..P..P..D..D..N..D..P..M..G…M…"
+        },
+        {
+          "lyrics": "Dil karta hain tujhe tujhse churalu",
+          "indian": "G…M..M..P..P..D..D..N..D..P..M..G…G…"
+        },
+        {
+          "lyrics": "Hoo…",
+          "indian": "P…"
+        },
+        {
+          "lyrics": "Sabse dilkash jiski ada hain",
+          "indian": "P..M..D..P…P.. M..M..M..G..P…M.."
+        },
+        {
+          "lyrics": "Sabse dilkash jiski ada hain",
+          "indian": "P..M..D..P…P.. M..M..M..G..P…M.."
+        },
+        {
+          "lyrics": "Ek dilruba hain ek dilruba hain",
+          "indian": "n..n..S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Ha dilruba hain ek dilruba hain",
+          "indian": "n…S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Mera dil jis dil pe fidda hain",
+          "indian": "P..M..D..P.. P..M..M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Mera dil jis dil pe fidda hain",
+          "indian": "P..M..D..P.. P..M..M…M..G..P…M.."
+        },
+        {
+          "lyrics": "Ek dilruba hain ek dilruba hain",
+          "indian": "n..n..S..n..M…G.. n..S..n..M…G.."
+        },
+        {
+          "lyrics": "Ha dilruba hain ek dilruba hain",
+          "indian": "n…S..n..M…G.. n..S..n..M…G.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
