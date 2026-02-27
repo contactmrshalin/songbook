@@ -11,64 +11,109 @@
   "thumbnail": "images/lag_ja_gale_thumb1.png",
   "background": "images/lag_ja_gale_bg.jpeg",
   "sections": [
+
     {
-      "name": "STHAYI",
+      "name": "Mukhda",
       "lines": [
         {
-          "lyrics": "Lag | ja | gale | ki | phir | ye",
-          "indian": "Pa.Pa. | Ga | Re Ga… | Ga~Re | ReGa ReGa | Ga"
+          "lyrics": "Lag ja gale",
+          "indian": "R— G~G R G—"
         },
         {
-          "lyrics": "hasin | raat",
-          "indian": "Ga ReGa ReGa | ReGa{MaGaReSa}Sa"
+          "lyrics": "Ke phir yeh",
+          "indian": "G R~R G R G—"
         },
         {
-          "lyrics": "ho | na | ho…….o",
-          "indian": "Sa{ReMaGa} | Re | Re…(Ga)Re Ni(Sa)Ni Dha(Ni)Dha Pa"
+          "lyrics": "Haseen raat ho na ho",
+          "indian": "G R~R G R G— S— S G~R—"
         },
         {
-          "lyrics": "Shayad | phir | is | janam | mein",
-          "indian": "Pa. Dha. | Dha. | Dha.Dha. | Ni~Re NiDhaPaDha | Pa"
+          "lyrics": "Ooo..",
+          "indian": "G~R (n)S~(n)d n d p—"
         },
         {
-          "lyrics": "Mulakat | ho | na | ho",
-          "indian": "Pa.Pa.~Pa' Pa'Dha' | MaPa MaDhaPa | Ma | Ga… Re {SaReGaReSa}"
+          "lyrics": "Shayad phir iss janam mein",
+          "indian": "p— d~d n (R) n~d p—"
         },
         {
-          "lyrics": "Lag | jaa | gale | se | ae",
-          "indian": "Pa.Pa. | Ga | Re Ga… | Ga | Ga"
+          "lyrics": "Mulaqaat ho na ho",
+          "indian": "p— p P— P D~m P~m G R S—"
         }
       ]
     },
+
     {
-      "name": "ANTARA",
+      "name": "Antara 1",
       "lines": [
         {
-          "lyrics": "Humko | mili | hai | aaj | ye",
-          "indian": "Sa Pa | Ma Pa | Pa | Sa'Dha'Pa'Ma Ma | Ma"
+          "lyrics": "Humko mili hain aaj yeh",
+          "indian": "S— P M~P P M D P m—"
         },
         {
-          "lyrics": "ghadiya | naseeb | se",
-          "indian": "Sa Ma Ma | DhaPaMa DhaPaMaGa | Ga"
+          "lyrics": "Ghadiyaan naseeb se",
+          "indian": "S m~m D P m P~m G—"
         },
         {
           "lyrics": "Jee bhar ke dekh leejiye",
-          "indian": "Sa…Pa…Ma..Pa…Ma..Sa'…Dha…Ma..Ma…"
+          "indian": "S— P M P M S'— D~m m—"
         },
         {
           "lyrics": "Humko qareeb se",
-          "indian": "Sa..Ma..Ma…Dha..Pa..Ma..Pa…Ma..Ga…"
+          "indian": "S m~m D P m P~m G—"
         },
         {
-          "lyrics": "Phir aap ke | Naseeb mein",
-          "indian": "Pa | Ga Re Ga | Ga ReGa ReGa Ga | Ga"
+          "lyrics": "Phir aap ke naseeb mein",
+          "indian": "p— p G~R G— G R~R G—"
+        }
+      ]
+    },
+
+    {
+      "name": "Mukhda Reprise",
+      "lines": [
+        {
+          "lyrics": "Lag ja gale ke phir yeh haseen raat ho na ho",
+          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—"
+        }
+      ]
+    },
+
+    {
+      "name": "Antara 2",
+      "lines": [
+        {
+          "lyrics": "Paas aaiye ke hum nahin aayenge baar baar",
+          "indian": "S— P M~P P M D P m— | S m~m D P m P~m G—"
         },
         {
-          "lyrics": "Yeh baat ho na ho",
-          "indian": "ReGa ReGa | ReGa{MaGaReSa}Sa"
+          "lyrics": "Baahen gale mein daal ke hum ro lein zaar zaar",
+          "indian": "S— P M P M S'— D~m m— | S m~m D P m P~m G—"
+        },
+        {
+          "lyrics": "Aankhon se phir yeh pyaar ki barsaat ho na ho",
+          "indian": "p— p G~R G— | G R~R G R G— S— S G~R—"
+        }
+      ]
+    },
+
+    {
+      "name": "Final Mukhda + Ending Reprise",
+      "lines": [
+        {
+          "lyrics": "Lag ja gale ke phir yeh haseen raat ho na ho",
+          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—"
+        },
+        {
+          "lyrics": "Shayad phir iss janam mein mulaqaat ho na ho",
+          "indian": "G~R (n)S~(n)d n d p— | p— d~d n (R) n~d p— | p— p P— P D~m P~m G R S—"
+        },
+        {
+          "lyrics": "Lag ja gale…",
+          "indian": "R— G~G R G— S—"
         }
       ]
     }
+
   ],
   "export": true
 }

@@ -15,7 +15,7 @@
     "sections": [
   
       {
-        "section": "Sthai",
+        "name": "Sthai",
         "lines": [
   
           {
@@ -55,7 +55,7 @@
       },
   
       {
-        "section": "Stanza 1",
+        "name": "Stanza 1",
         "lines": [
   
           {
@@ -78,7 +78,7 @@
       },
   
       {
-        "section": "Stanza 2",
+        "name": "Stanza 2",
         "lines": [
   
           {
@@ -101,7 +101,7 @@
       },
   
       {
-        "section": "Stanza 3",
+        "name": "Stanza 3",
         "lines": [
   
           {
@@ -124,7 +124,7 @@
       },
   
       {
-        "section": "Reprise (Final Chorus)",
+        "name": "Reprise (Final Chorus)",
         "lines": [
   
           {

@@ -1,0 +1,81 @@
+{
+  "id": "raghupati-raghav",
+  "title": "Raghupati Raghav Raja Ram",
+  "thumbnail": "images/raghupati-raghav.png",
+  "background": "images/raghupati-raghav.png",
+  "info": [
+    "Type: Bhajan / Devotional",
+    "Also known as: Raghupati Raghav Raja Ram",
+    "Notation: as provided (piano/keyboard + guitar phrases)"
+  ],
+  "sections": [
+    {
+      "name": "Piano & Keyboards",
+      "lines": [
+        {
+          "lyrics": "Raghupati raghav",
+          "indian": "p..S..S..S..n..S..n(k)..d.."
+        },
+        {
+          "lyrics": "Raja ram",
+          "indian": "n(k)...R...R..m..G..m.."
+        },
+        {
+          "lyrics": "Patita pavan sitaram",
+          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S..."
+        },
+        {
+          "lyrics": "Raghupati raghav (repeat)",
+          "indian": "p..S..S..S..n..S..n(k)..d.."
+        },
+        {
+          "lyrics": "Raja ram (repeat)",
+          "indian": "n(k)...R...R..m..G..m.."
+        },
+        {
+          "lyrics": "Patita pavan sitaram (repeat)",
+          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S..."
+        }
+      ]
+    },
+    {
+      "name": "Guitars",
+      "lines": [
+        {
+          "lyrics": "Sitaram sitaram",
+          "indian": "G...G...G...R..S.. S.R.m..G..m..."
+        },
+        {
+          "lyrics": "Bhaj pyare mana sitaram",
+          "indian": "R..R..m..m..P..P..D(k)..P..m...G(k)..R..G(k)...R..S.."
+        },
+        {
+          "lyrics": "Sitaram sitaram (repeat)",
+          "indian": "G...G...G...R..S.. S.R.m..G..m..."
+        },
+        {
+          "lyrics": "Bhaj pyare mana sitaram (repeat)",
+          "indian": "R..R..m..m..P..P..D(k)..P..m...G(k)..R..G(k)...R..S.."
+        }
+      ]
+    },
+    {
+      "name": "Musical Instruments (same as main phrase)",
+      "lines": [
+        {
+          "lyrics": "Raghupati raghav",
+          "indian": "p..S..S..S..n..S..n(k)..d.."
+        },
+        {
+          "lyrics": "Raja ram",
+          "indian": "n(k)...R...R..m..G..m.."
+        },
+        {
+          "lyrics": "Patita pavan sitaram",
+          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S..."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

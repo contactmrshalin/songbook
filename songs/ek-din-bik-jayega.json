@@ -1,0 +1,178 @@
+{
+  "id": "ek-din-bik-jayega",
+  "title": "Ek Din Bik Jayega (Mati Ke Mol)",
+  "thumbnail": "images/ek-din-bik-jayega.png",
+  "background": "images/ek-din-bik-jayega.png",
+  "info": [
+    "Movie: Dharam Karam",
+    "Song: Ek Din Bik Jayega Mati Ke Mol",
+    "Scale note: Flute scale is G (Bass/Middle) as provided"
+  ],
+  "sections": [
+    {
+      "name": "Piano & Keyboards",
+      "lines": [
+        {
+          "lyrics": "Ek din bik jayega",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Mati ke mol",
+          "indian": "S.R.G…P..R…"
+        },
+        {
+          "lyrics": "Jag me rah jayege",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Pyare tere bol",
+          "indian": "n..S..n..p..d…"
+        },
+        {
+          "lyrics": "Ek din bik jayega (repeat)",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Mati ke mol (repeat)",
+          "indian": "S.R.G…P..R…"
+        }
+      ]
+    },
+    {
+      "name": "Guitars",
+      "lines": [
+        {
+          "lyrics": "Jag me rah jayege",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Pyare tere bol",
+          "indian": "n..S..n..p..d…"
+        },
+        {
+          "lyrics": "Duje ke hotho ko",
+          "indian": "G.m.P…P..D..m..P.."
+        }
+      ]
+    },
+    {
+      "name": "Musical Instruments",
+      "lines": [
+        {
+          "lyrics": "Dekar apne git",
+          "indian": "P..D..m.m.P..G…"
+        },
+        {
+          "lyrics": "Koi nishani chhod",
+          "indian": "G.m.P…P..D..m..P.."
+        },
+        {
+          "lyrics": "Phir duniya se dol",
+          "indian": "P..D.D..m..P..G.m.G.m.R..S.."
+        },
+        {
+          "lyrics": "Ek din bik jayega",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Mati ke mol",
+          "indian": "S.R.G…P..R…"
+        },
+        {
+          "lyrics": "Jag me rah jayege",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Pyare tere bol",
+          "indian": "n..S..n..p..d…"
+        }
+      ]
+    },
+    {
+      "name": "Bollywood Music",
+      "lines": [
+        {
+          "lyrics": "La la lala la la",
+          "indian": "G…R….d.d..n..S…"
+        },
+        {
+          "lyrics": "La la lala la la",
+          "indian": "G…R….R.d..n..S…"
+        },
+        {
+          "lyrics": "Anhoni path me kante lakh bichhaye",
+          "indian": "G..G..G.. G..G..G..G..G..G.m.D..P…"
+        },
+        {
+          "lyrics": "Honi to phir bhi bichhada yaar milaye",
+          "indian": "P..R..R.. R..R..R.R.G..m..R..m..G…R..S.."
+        },
+        {
+          "lyrics": "Anhoni path me kante lakh bichhaye (repeat)",
+          "indian": "G..G..G.. G..G..G..G..G..G.m.D..P…"
+        },
+        {
+          "lyrics": "Honi to phir bhi bichhada yaar milaye",
+          "indian": "P..R..R.. R..R..R.R.G..m..R..m..G…"
+        },
+        {
+          "lyrics": "Ye biraha ye duri",
+          "indian": "G..m..P…G..m..D…"
+        },
+        {
+          "lyrics": "Do pal ki mjaburi",
+          "indian": "G..m..P…G..m..D…"
+        },
+        {
+          "lyrics": "Phir koi dilwala kahe ko ghabaraye",
+          "indian": "m…D…P..m..G..R..R..P..R..m..G..G.."
+        },
+        {
+          "lyrics": "Trampam",
+          "indian": "G.G..G.."
+        },
+        {
+          "lyrics": "dhara jo bahati hai",
+          "indian": "G.m.P…P..D..m..P.."
+        },
+        {
+          "lyrics": "Milke rhati hai",
+          "indian": "P..D..m.m.P..G…"
+        },
+        {
+          "lyrics": "Bhati dhara ban ja",
+          "indian": "G.m.P…P..D..m..P.."
+        },
+        {
+          "lyrics": "Phir duniya se dol",
+          "indian": "P..D.D..m..P..G.m.G.m.R..S.."
+        },
+        {
+          "lyrics": "Ek din bik jayega",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Mati ke mol",
+          "indian": "S.R.G…P..R…"
+        },
+        {
+          "lyrics": "Jag me rah jayege",
+          "indian": "S.R.G…G..R..S..R.."
+        },
+        {
+          "lyrics": "Pyare tere bol",
+          "indian": "n..S..n..p..d…"
+        },
+        {
+          "lyrics": "La la lala la la",
+          "indian": "G…R….d.d..n..S…"
+        },
+        {
+          "lyrics": "La la lala la la",
+          "indian": "G…R….R.d..n..S…"
+        }
+      ]
+    }
+  ],
+  "export": true
+}
