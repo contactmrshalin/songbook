@@ -1,6 +1,37 @@
 {
   "version": 1,
   "description": "Indian sargam ↔ token ↔ Western mapping used by the Songbook Pipeline. Edit this file to update mappings going forward.",
+  "reference_legend": {
+    "western_solfege_to_sargam_token": {
+      "DO": "S",
+      "RE": "R",
+      "MI": "G",
+      "FA": "m",
+      "SO": "P",
+      "LA": "D",
+      "TI": "N"
+    },
+    "octaves": {
+      "low_octave_suffix": ".",
+      "middle_octave_suffix": "",
+      "high_octave_suffix": "'"
+    },
+    "ma": {
+      "shuddh_ma": "m",
+      "tivra_ma": "M"
+    },
+    "komal_swar_display": {
+      "Re": "Re(k)",
+      "Ga": "Ga(k)",
+      "Dha": "Dha(k)",
+      "Ni": "Ni(k)"
+    },
+    "notes": [
+      "This legend is included for reference based on source notation guides.",
+      "In this project, low/high octave are encoded via suffix markers ('.' and \"'\") and komal/tivra via (k)/(T).",
+      "Some external sources use lowercase p/d/n to mean low octave Pa/Dha/Ni; here lowercase d/n are reserved for komal Dha/Ni tokens."
+    ]
+  },
   "octave_markers": {
     "low": ".",
     "middle": "",
