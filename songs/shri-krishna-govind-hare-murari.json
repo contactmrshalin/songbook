@@ -1,0 +1,62 @@
+{
+  "id": "shri-krishna-govind-hare-murari",
+  "title": "Shri Krishna Govind Hare Murari",
+  "info": [
+    "Devotional (Bhajan)",
+    "Scale (flute): F# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/shri-krishna-govind-hare-murari.png",
+  "background": "images/shri-krishna-govind-hare-murari.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Shrii krishnaa govind haree muraari",
+          "indian": "Pa... Sa..Sa.Sa..Sa..Sa.. Sa..Ga.Re.Ga.Re..Sa..Ni(k)...Ni(k).."
+        },
+        {
+          "lyrics": "Hai naath naarayan vasudhaivaa",
+          "indian": "Ni(k)...Re..Re..Ga...Ma.. Ga..Re..Ga.Re..Sa.Sa...Sa.."
+        },
+        {
+          "lyrics": "Shrii krishnaa govind haree muraari",
+          "indian": "Pa... Sa..Sa.Sa..Sa..Sa.. Sa..Ga.Re.Ga.Re..Sa..Ni(k)...Ni(k).."
+        },
+        {
+          "lyrics": "Hai naath naarayan vasudhaivaa",
+          "indian": "Ni(k)...Re..Re..Ga...Ma.. Ga..Re..Ga.Re..Sa.Sa...Sa.."
+        }
+      ]
+    },
+    {
+      "name": "Eknath",
+      "lines": [
+        {
+          "lyrics": "Eknath swaami sakhaa hamaree",
+          "indian": "Ga.Ga..Pa...Pa..Pa...Pa.. Pa..Pa...Dha.Pa.Ma...Ga.Re.."
+        },
+        {
+          "lyrics": "Eknath swaami sakhaa hamaree",
+          "indian": "Pa.Pa..Sa'...Sa'..Sa'..Pa..Pa.. Pa..Pa...Dha.Pa.Ma...Ga.Re.."
+        },
+        {
+          "lyrics": "Hai naath naarayan vasudhaivaa",
+          "indian": "Ni(k)...Re..Re..Ga...Ma.. Ga..Re..Ga.Re..Sa.Sa...Sa.."
+        },
+        {
+          "lyrics": "Shrii krishnaa govind haree muraari",
+          "indian": "Pa... Sa..Sa.Sa..Sa..Sa.. Sa..Ga.Re.Ga.Re..Sa..Ni(k)...Ni(k).."
+        },
+        {
+          "lyrics": "Hai naath naarayan vasudhaivaa",
+          "indian": "Ni(k)...Re..Re..Ga...Ma.. Ga..Re..Ga.Re..Sa.Sa...Sa.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

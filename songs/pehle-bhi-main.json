@@ -1,0 +1,75 @@
+{
+  "id": "pehle-bhi-main",
+  "title": "Pehle Bhi Main",
+  "info": [
+    "Movie: Animal",
+    "Scale (flute): C# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/pehle-bhi-main.png",
+  "background": "images/pehle-bhi-main.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Pehle bhi main tumse mila hoon",
+          "indian": "Ga..Re..Sa..Re..Ga.. Ga..Re..Sa..Re..Ga...Re.."
+        },
+        {
+          "lyrics": "Pehli dafa hi milke laga",
+          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k).."
+        },
+        {
+          "lyrics": "Toone chhua zakhmon ko mere",
+          "indian": "Ga..Re..Sa..Re..Ga...Pa...Ga.. Ga..Re..Sa..Re..Ga...Re.."
+        },
+        {
+          "lyrics": "Marham marham dil pe laga",
+          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k).."
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Paagal paagal hain thode",
+          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha.."
+        },
+        {
+          "lyrics": "Baadal baadal hain dono",
+          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha.."
+        },
+        {
+          "lyrics": "Khul ke barse bheege aa zara",
+          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Dha..Sa'..Ga'.Re'..."
+        }
+      ]
+    },
+    {
+      "name": "Verse (Higher)",
+      "lines": [
+        {
+          "lyrics": "Pehle bhi main tumse mila hoon",
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'.."
+        },
+        {
+          "lyrics": "Pehli dafa hi milke laga…",
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni..Sa'..Re'..."
+        },
+        {
+          "lyrics": "Toone chhua zakhmon ko mere",
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Pa'...Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'.."
+        },
+        {
+          "lyrics": "Marham marham dil pe laga",
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

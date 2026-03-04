@@ -1,0 +1,85 @@
+{
+  "id": "achyutam-keshavam",
+  "title": "Achyutam Keshavam",
+  "info": [
+    "Devotional (Bhajan)",
+    "Scale (flute): D (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/achyutam-keshavam.png",
+  "background": "images/achyutam-keshavam.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Achyutam keshavam",
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+        },
+        {
+          "lyrics": "Krishnaa daamodaram",
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+        },
+        {
+          "lyrics": "Rama narayaanam",
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re.."
+        },
+        {
+          "lyrics": "Jaaanki vallabham",
+          "indian": "Re..Re..Ga..Sa..Ni(k)..Sa.."
+        },
+        {
+          "lyrics": "Kaun kehtaa hai bhagvan",
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+        },
+        {
+          "lyrics": "Aaate nahi",
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+        },
+        {
+          "lyrics": "Tum meera kee jaise",
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..Re.."
+        },
+        {
+          "lyrics": "Bulaate nahii",
+          "indian": "Re..Ga..Sa..Ni(k)..Sa.."
+        },
+        {
+          "lyrics": "Achyutam keshavam",
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+        },
+        {
+          "lyrics": "Krishnaa daamodaram",
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+        },
+        {
+          "lyrics": "Rama narayaanam",
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re.."
+        },
+        {
+          "lyrics": "Jaaanki vallabham",
+          "indian": "Re..Re..Ga..Sa..Ni(k)..Sa.."
+        },
+        {
+          "lyrics": "Kaun kehtaa hai bhagvan",
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+        },
+        {
+          "lyrics": "Khaatee nahi",
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+        },
+        {
+          "lyrics": "Beer shabrii ke jaise",
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..Re.."
+        },
+        {
+          "lyrics": "Khilaate nahii",
+          "indian": "Re..Ga..Sa..Ni(k)..Sa.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

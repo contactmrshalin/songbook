@@ -1,0 +1,136 @@
+{
+  "id": "meri-mehbooba",
+  "title": "Meri Mehbooba",
+  "info": [
+    "Movie: Pardes",
+    "Scale (flute): C (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/meri-mehbooba.png",
+  "background": "images/meri-mehbooba.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Kisii roz tum se",
+          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Mulaakaat hogii",
+          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha.."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kisii roz tum se",
+          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Mulaakaat hogii",
+          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha.."
+        },
+        {
+          "lyrics": "Merii jaan us din",
+          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Mere saath hogii",
+          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha.."
+        },
+        {
+          "lyrics": "Magar kab naa jaane",
+          "indian": "Dha..Sa'..Ga'..Re'..Re(k)'..Re'..."
+        },
+        {
+          "lyrics": "Ye barasaat hogii",
+          "indian": "Dha..Sa'..Ga'..Re'..Re(k)'..Re'..."
+        },
+        {
+          "lyrics": "Meraa dil hai pyaasaa",
+          "indian": "Ga'..Re'..Sa'..Ni..Re'...Sa'..Sa'..."
+        },
+        {
+          "lyrics": "Meraa dil akelaa",
+          "indian": "Re'..Sa'..Ni..Dha..Dha..Ni..."
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Zaraa tasviir se tuu",
+          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Nikal ke saamane aa",
+          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha.."
+        },
+        {
+          "lyrics": "Merii taqadiir hai tuu",
+          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Machal ke saamane aa",
+          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha.."
+        }
+      ]
+    },
+    {
+      "name": "Refrain",
+      "lines": [
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Ga'..Re'...Sa'.Sa'..Ga'...Re'..."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Ga'..Re'...Sa'.Ni.Re'...Sa'..."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Re'..Sa'...Ni.Dha.Ni...Ni..."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Dha(k)..Dha(k)..Dha(k).Dha(k)..Ni...Dha...Dha..Ni.."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Dha(k)..Dha(k)..Dha(k).Dha(k)..Ni...Dha..."
+        }
+      ]
+    },
+    {
+      "name": "Chorus (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Zaraa tasviir se tuu",
+          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Nikal ke saamane aa",
+          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni.."
+        },
+        {
+          "lyrics": "Merii mahabuubaa",
+          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

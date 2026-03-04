@@ -1,0 +1,82 @@
+{
+  "id": "kaise-hua",
+  "title": "Kaise Hua",
+  "info": [
+    "Movie: Kabir Singh (2019)",
+    "Scale: D Major (Sa = D)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/kaise-hua.png",
+  "background": "images/kaise-hua.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Hastaa rehtaa huu",
+          "indian": "Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Tujhsee mil karr kyuu aajkall",
+          "indian": "Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'...Ni...Dha.Pa.."
+        },
+        {
+          "lyrics": "Badlee badlee haiii",
+          "indian": "Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Meree tevarr kyuu aajkall",
+          "indian": "Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'..Dha..Sa'...Ni...Dha.Pa.."
+        },
+        {
+          "lyrics": "Ankheinn merii harr jaghaa",
+          "indian": "Dha..Ni..Sa'..Dha...Sa'...Ni.Pa.."
+        },
+        {
+          "lyrics": "Dhudhee tujhee bewajhaa",
+          "indian": "Dha..Ni..Sa'..Dha...Sa'...Ni.Pa.."
+        },
+        {
+          "lyrics": "Yee mainn hoon yaa koii aurr haiii",
+          "indian": "Dha..Ni..Sa'..Dha.. Dha.Dha..Ni...Sa'.Dha.."
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Meriii tarahhh ooo...",
+          "indian": "Dha..Ni..Sa'..Ga'..Re'...Pa'...Ga'..Re'.."
+        },
+        {
+          "lyrics": "Kaisee huaa kaisee huaaa",
+          "indian": "Pa'..Pa'...Ga'.Re'.. Pa'..Pa'...Ga'.Re'.."
+        },
+        {
+          "lyrics": "Tuu itnaa zaroorii",
+          "indian": "Sa'..Sa'..Re'..Sa'..Re'..Sa'..Re'..Ga'..Ma'..Ga'.."
+        },
+        {
+          "lyrics": "Kaisee huaaa",
+          "indian": "Sa'..Sa'...Ni.Pa.."
+        },
+        {
+          "lyrics": "Kaisee huaa kaisee huaaa",
+          "indian": "Pa'..Pa'...Ga'.Re'.. Pa'..Pa'...Ga'.Re'.."
+        },
+        {
+          "lyrics": "Tuu itnaa zaroorii",
+          "indian": "Sa'..Sa'..Re'..Sa'..Re'..Sa'..Re'..Ga'..Ma'..Ga'.."
+        },
+        {
+          "lyrics": "Kaisee huaaa",
+          "indian": "Sa'..Sa'...Ni.Pa.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

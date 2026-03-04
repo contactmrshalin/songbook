@@ -1,0 +1,95 @@
+{
+  "id": "yeh-dil-deewana",
+  "title": "Yeh Dil Deewana",
+  "info": [
+    "Movie: Pardesh",
+    "Scale (flute): F (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/yeh-dil-deewana.png",
+  "background": "images/yeh-dil-deewana.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Ye dil deewana",
+          "indian": "Ma..Pa.. Ga..Ma..Pa.."
+        },
+        {
+          "lyrics": "Deewana hai ye dil",
+          "indian": "Ga..Ma..Pa... Dha.Pa.Dha... Ga..Ma..Pa.."
+        },
+        {
+          "lyrics": "Deewane ne mujhko bhi",
+          "indian": "Ma.Ga..Ma..Pa.. Ga..Ma..Pa.."
+        },
+        {
+          "lyrics": "Ah kar daala deewana",
+          "indian": "Ga..Ma..Pa... Dha.Pa.Dha... Ga..Ma..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Maine uske shahar ko chhoda",
+          "indian": "Pa..Dha..Ni..Ni.Ni.Ni..Ni..Sa'..Ni.."
+        },
+        {
+          "lyrics": "Uski gali mein dil ko toda",
+          "indian": "Dha..Dha..Ni.Ni..Ni.Ni..Ni..Sa'..Ni.."
+        },
+        {
+          "lyrics": "Phir bhi seene mein dhadakta hai ye dil",
+          "indian": "Pa..Dha..Ni..Ni..Ni.. Ni.Sa'..Ni..Dha..Pa..Dha..."
+        },
+        {
+          "lyrics": "Maine dil se usay nikaala",
+          "indian": "Ma..Pa..Dha..Dha..Dha.Dha..Dha..Ni..Dha.."
+        },
+        {
+          "lyrics": "Jo na karna tha kar daala",
+          "indian": "Ma..Pa..Dha..Dha..Dha..Dha..Ni..Dha.."
+        },
+        {
+          "lyrics": "Phir phi yaad usi ko karta hai ye dil",
+          "indian": "Ma..Pa..Dha.. Dha.Dha..Dha..Ni..Dha..Pa..Ma..Pa.."
+        },
+        {
+          "lyrics": "Ye dil deewana",
+          "indian": "Ma..Pa.. Ga..Ma..Pa.."
+        },
+        {
+          "lyrics": "Deewana hai ye dil",
+          "indian": "Ga..Ma..Pa... Dha.Pa.Dha... Ga..Ma..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        {
+          "lyrics": "Dil ki khata bhi hai kya",
+          "indian": "Dha.Ni..Dha.Ni..Dha..Pa.Dha..Sa'..Ni..Dha..."
+        },
+        {
+          "lyrics": "Mujhko gila bhi hai kya",
+          "indian": "Pa.Dha..Pa.Dha..Pa.Ma.Ga... Ma...Ma..Pa..."
+        },
+        {
+          "lyrics": "Is dillagi ke siva...",
+          "indian": "Dha.Ni..Dha.Ni..Dha..Pa.Dha..Sa'..Ni..Dha.Ni.Sa'.Ni.Dha..."
+        },
+        {
+          "lyrics": "Dil ne kiya bhi hai kya",
+          "indian": "Pa.Dha..Pa.Dha..Pa.Ma.Ga... Ma...Ma..Pa..."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

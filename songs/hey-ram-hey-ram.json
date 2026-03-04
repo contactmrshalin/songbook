@@ -1,0 +1,91 @@
+{
+  "id": "hey-ram-hey-ram",
+  "title": "Hey Ram Hey Ram",
+  "info": [
+    "Singer: Jagjit Singh",
+    "Scale (flute): F (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/hey-ram-hey-ram.png",
+  "background": "images/hey-ram-hey-ram.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Tuu hi maata tu hi pitaa hai",
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+        },
+        {
+          "lyrics": "Tuu hi maata tu hi pitaa hai",
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+        },
+        {
+          "lyrics": "Tuu hi toh radhaa kaa shyaam",
+          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Tu antaryaami sabkaa swami",
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+        },
+        {
+          "lyrics": "Teree charno mein chaaro dhaam",
+          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa"
+        }
+      ]
+    },
+    {
+      "name": "Verse (Alt)",
+      "lines": [
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Tuu hi bigaade tu hi sawaaren",
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+        },
+        {
+          "lyrics": "Iss jag kee saare kaam",
+          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "Pa. Sa Re Ga Re Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

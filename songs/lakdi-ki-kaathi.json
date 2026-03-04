@@ -1,0 +1,83 @@
+{
+  "id": "lakdi-ki-kaathi",
+  "title": "Lakdi Ki Kaathi",
+  "info": [
+    "Movie: Masoom (1983)",
+    "Scale: D# Major (Sa = D#)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/lakdi-ki-kaathi.png",
+  "background": "images/lakdi-ki-kaathi.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Lakdii kii kaathi kaathii ppeee ghodaa",
+          "indian": "Sa Sa Re Ga Pa: Ga Re | Sa. Re Ga Pa: Ga Re"
+        },
+        {
+          "lyrics": "Ghodaa dii dum peee joo maaraa hathoraa",
+          "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:"
+        },
+        {
+          "lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa",
+          "indian": "Dha Dha Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Sa"
+        },
+        {
+          "lyrics": "(Repeat x3)",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Ghodaa phaunchaa chauk main chaukk main thaa naaii",
+          "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha"
+        },
+        {
+          "lyrics": "Ghodee jii kii naai nee hazaamat joo banaii",
+          "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga Ma Pa"
+        },
+        {
+          "lyrics": "Tabak tabakk tabak tabakk",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ghodaa phaunchaa chauk main chaukk main thaa naaii",
+          "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha"
+        },
+        {
+          "lyrics": "Ghodee jii kii naai nee hazaamat joo banaii",
+          "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga Ma Pa"
+        },
+        {
+          "lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa",
+          "indian": "Dha Dha Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "Mukhda (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Lakdii kii kaathi kaathii ppeee ghodaa",
+          "indian": "Sa Sa Re Ga Pa: Ga Re | Sa. Re Ga Pa: Ga Re"
+        },
+        {
+          "lyrics": "Ghodaa dii dum peee joo maaraa hathoraa",
+          "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:"
+        },
+        {
+          "lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa",
+          "indian": "Dha Dha Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Sa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

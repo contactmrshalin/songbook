@@ -1,0 +1,57 @@
+{
+  "id": "gayatri-mantra",
+  "title": "Gayatri Mantra",
+  "info": [
+    "Devotional (Mantra)",
+    "Scale (flute): D (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/gayatri-mantra.png",
+  "background": "images/gayatri-mantra.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mantra",
+      "lines": [
+        {
+          "lyrics": "Om bhurr bhuvah swaaha",
+          "indian": "Ga..Ga..Re.Ga..Pa.Ga.."
+        },
+        {
+          "lyrics": "Tat saviturr varenyam",
+          "indian": "Ga..Ga.Ga.Ga..Dha.Pa..Ga.Re..Re.Re.."
+        },
+        {
+          "lyrics": "Bhargo devasya dhimahi",
+          "indian": "Ni(k)..Re..Re..Re..Re.Ni(k)..Re.Re.."
+        },
+        {
+          "lyrics": "Dhiyo yo nah pracho dayatehh",
+          "indian": "Sa.Sa..Re..Ga..Re.Ga.Re..Sa.Sa.."
+        },
+        {
+          "lyrics": "Om bhurr bhuvah swaaha",
+          "indian": "Ga..Ga..Re.Ga..Pa.Ga.."
+        },
+        {
+          "lyrics": "Tat saviturr varenyam",
+          "indian": "Ga..Ga.Ga.Ga..Dha.Pa..Ga.Re..Re.Re.."
+        },
+        {
+          "lyrics": "Bhargo devasya dhimahi",
+          "indian": "Ni(k)..Re..Re..Re..Re.Ni(k)..Re.Re.."
+        },
+        {
+          "lyrics": "Dhiyo yo nah pracho dayatehh",
+          "indian": "Sa.Sa..Re..Ga..Re.Ga.Re..Sa.Sa.."
+        },
+        {
+          "lyrics": "Om bhurr bhuvah swaaha",
+          "indian": "Pa..Pa..Pa.Dha..Dha.Dha.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+
