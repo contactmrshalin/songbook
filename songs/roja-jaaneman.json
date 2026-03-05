@@ -1,0 +1,106 @@
+{
+  "id": "roja-jaaneman",
+  "title": "Roja Jaaneman",
+  "info": [
+    "Movie: Roja",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/roja-jaaneman.png",
+  "background": "images/roja-jaaneman.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Intro (Music)",
+      "lines": [
+        {
+          "lyrics": "(Intro)",
+          "indian": "Re.Ma.Pa.Ni.Ni.Sa'...Pa.Ni.Sa'.Re'.Ni(k)...Dha..Dha..Pa.."
+        },
+        {
+          "lyrics": "(Intro)",
+          "indian": "Re.Ma.Pa.Ni.Ni.Sa'...Pa.Ni.Sa'.Re'.Ni(k)...Dha..Dha..Pa.."
+        },
+        {
+          "lyrics": "(Intro)",
+          "indian": "Re.Ma.Pa.Dha.Ma...Ga.Re.Ga(k)..Sa..Ni..Sa..."
+        },
+        {
+          "lyrics": "(Intro)",
+          "indian": "Re.Ma.Pa.Dha.Ma...Ga.Re.Ga(k)..Sa..Ni..Sa..."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Roja jaaneman",
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+        },
+        {
+          "lyrics": "Tu hi mera dil",
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+        },
+        {
+          "lyrics": "Tujh bin tarse naina",
+          "indian": "Sa..Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re..."
+        },
+        {
+          "lyrics": "Dilse na jaati hai",
+          "indian": "Sa...Ga(k)...Ga(k).Re.Ga(k).Sa.Re..Re..Ni.."
+        },
+        {
+          "lyrics": "Yaadein tumhaari",
+          "indian": "Sa...Ga(k)...Ga(k).Re.Ga(k).Sa.Re..Re..Ni.."
+        },
+        {
+          "lyrics": "Kaise tum bin jeena",
+          "indian": "Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re..."
+        },
+        {
+          "lyrics": "Aankhon mein tu hai",
+          "indian": "Ga..Ga..Ma...Ga(k)...Re.."
+        },
+        {
+          "lyrics": "Aansu mein tu hai",
+          "indian": "Ga..Ga..Ma.Dha.Pa.Ma.Ga(k)...Re.."
+        },
+        {
+          "lyrics": "Aankhein band kar loon",
+          "indian": "Ga..Ga..Ma...Ga(k)...Re.."
+        },
+        {
+          "lyrics": "To mann mein bhi tu hai",
+          "indian": "Sa..Ga..Ga..Ma.Dha.Pa.Ma.Ga(k)...Re.."
+        },
+        {
+          "lyrics": "Khwaabon mein tu",
+          "indian": "Sa..Re..Ga(k)..Re..Sa.."
+        },
+        {
+          "lyrics": "Saanson mein tu roojaa",
+          "indian": "Ma..Pa..Dha(k)..Pa..Ma..Re'...Sa'.Re'.."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Roja jaaneman",
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+        },
+        {
+          "lyrics": "Tu hi mera dil",
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+        },
+        {
+          "lyrics": "Tujh bin tarse naina",
+          "indian": "Sa..Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re..."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+
