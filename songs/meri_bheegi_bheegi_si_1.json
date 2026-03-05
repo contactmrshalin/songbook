@@ -1,13 +1,15 @@
 {
   "id": "meri_bheegi_bheegi_si_1",
   "title": "Meri Bheegi Bheegi Si",
-  "movie": "Anamika",
-  "year": "1973",
+  "thumbnail": "images/meri_bheegi_bheegi_si.png",
+  "background": "images/meri_bheegi_bheegi_si.png",
+  "background_mode": "cover",
   "info": [
     "Singer: Kishore Kumar",
     "Composer: R.D. Burman",
     "Scale: Tutorial Based",
-    "Legend: . = lower octave, ' = higher octave, () = kan, ~ = meend, — = hold"
+    "Movie: Anamika",
+    "Year: 1973"
   ],
   "sections": [
     {
