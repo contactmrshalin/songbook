@@ -1,0 +1,181 @@
+{
+  "id": "aane-wala-pal",
+  "title": "Aane Wala Pal",
+  "info": [
+    "Movie: Golmaal (1979)",
+    "Singer: Kishore Kumar",
+    "Lyrics: Gulzar",
+    "Music: R.D. Burman",
+    "Raag: Kirwani",
+    "Flute scale (as provided): F# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/aane-wala-pal.png",
+  "background": "images/aane-wala-pal.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Prelude",
+      "lines": [
+        {
+          "lyrics": "Keyboard",
+          "indian": "Ga Ni Dha Pa Ma Ga Ma Re | Re Ni Dha Pa Ma Ga Ma Re"
+        },
+        {
+          "lyrics": "Saxophone",
+          "indian": "Ni Dha | Ni Dha | Ni Dha | Ni Dha | Ni Dha (x2)"
+        },
+        {
+          "lyrics": "Saxophone",
+          "indian": "(Sa Ga Ma)… Dha Ni Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Saxophone",
+          "indian": "Ma Dha Ni Sa' Ni (Dha Pa Ma)…"
+        },
+        {
+          "lyrics": "Saxophone",
+          "indian": "Dha Ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Humming",
+          "indian": "Sa ,Dha Ga Ga(k) Ga"
+        },
+        {
+          "lyrics": "Humming",
+          "indian": "Dha Dha(k) Dha Ga Re Sa PaGa Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Aane wala pal",
+          "indian": "Sa Re | Ga Dha | Dha(k)Dha… (Ni Dha Pa Dha Ni)"
+        },
+        {
+          "lyrics": "Jane wala hai",
+          "indian": "Ni~Dha Dha~Pa | Pa Re | Ga…MaGaRe Sa"
+        },
+        {
+          "lyrics": "Ho sake to iss mein",
+          "indian": "Ga | Ma Pa | Ma | Ga Re"
+        },
+        {
+          "lyrics": "Zindagi bitaado",
+          "indian": "Re Ga Ma | Ga Re Sa"
+        },
+        {
+          "lyrics": "Pal jo yeh jaanewala hai",
+          "indian": "Re~Sa | Ga(k)~Re | Ma~Ga(k) PaMa | Ga(k)"
+        },
+        {
+          "lyrics": "Hoooo ho",
+          "indian": "Dha(k)…Dha"
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "lines": [
+        {
+          "lyrics": "(Accordian / Violin / Guitar)",
+          "indian": "Ni Dha Pa Ma Ga Re Sa ,Ni ,Dha (Dha Ni Sa Re Ga Ma Pa Dha)"
+        },
+        {
+          "lyrics": "(Accordian / Violin / Guitar)",
+          "indian": "Sa Ni Dha Pa Ma Ga Re Sa ,Ni (Ni Sa Re Ga Ma Pa Dha Ni)"
+        },
+        {
+          "lyrics": "(Accordian / Violin / Guitar)",
+          "indian": "Sa' Sa' Ni | Re' Re' Sa' | Ga' Re' Sa' Ni Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "(Accordian / Violin / Guitar)",
+          "indian": "Sa ,Ni ,Dha | MaGa MaGa MaGa"
+        }
+      ]
+    },
+    {
+      "name": "Antara 1",
+      "lines": [
+        {
+          "lyrics": "Ek baar yoon mili",
+          "indian": "Sa Sa | Sa ,Ni | Re | ,Ni Sa"
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": ",Dha ,Ni Sa Re Ga"
+        },
+        {
+          "lyrics": "Maasoom si kali (2)",
+          "indian": "Ga Ga Re | Pa | Re Ga… (Ma)Ga Re…Sa"
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Ga Ma Pa Ma Ga"
+        },
+        {
+          "lyrics": "Ho khilte hue kahaan",
+          "indian": "Pa | Pa Pa | Pa Sa'~Dha~Sa' | Dha Pa Ma"
+        },
+        {
+          "lyrics": "Khushpash mein chali",
+          "indian": "Dha Dha Dha Pa | PaDhaNi | Pa Pa"
+        },
+        {
+          "lyrics": "Dekha to yahin hai",
+          "indian": "GaMa | Pa | PaMa | Re"
+        },
+        {
+          "lyrics": "Dhundha to nahin hai",
+          "indian": "ReGa | Ma | GaReSa"
+        },
+        {
+          "lyrics": "Pal jo yeh jaanewala hai",
+          "indian": "Re~Sa | Ga(k)~Re | Ma~Ga(k) PaMa | Ga(k)"
+        },
+        {
+          "lyrics": "Hoooo ho",
+          "indian": "Dha(k)…Dha"
+        }
+      ]
+    },
+    {
+      "name": "Antara 2",
+      "lines": [
+        {
+          "lyrics": "(Notations same as Antara 1)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ek baar waqt se lamha gira kahi",
+          "indian": ""
+        },
+        {
+          "lyrics": "Waha dastan mili lamha kahi nahi",
+          "indian": ""
+        },
+        {
+          "lyrics": "Thoda sa hasa ke thoda sa rula ke",
+          "indian": ""
+        },
+        {
+          "lyrics": "Pal ye bhi jaanewala hai",
+          "indian": ""
+        },
+        {
+          "lyrics": "O ho",
+          "indian": ""
+        },
+        {
+          "lyrics": "Aanewala pal",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

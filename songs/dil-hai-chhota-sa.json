@@ -1,0 +1,74 @@
+{
+  "id": "dil-hai-chhota-sa",
+  "title": "Dil Hai Chhota Sa",
+  "info": [
+    "Movie: Roja",
+    "Scale (flute): D (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/dil-hai-chhota-sa.png",
+  "background": "images/dil-hai-chhota-sa.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Dil hai chhota sa",
+          "indian": "Sa..Ga..Re..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Chhoti si aasha",
+          "indian": "Re..Pa..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Masti bhare man ki",
+          "indian": "Sa..Ga..Re..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Bholi si aasha",
+          "indian": "Re..Pa..Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Chaand taaron ko",
+          "indian": "Pa..Pa..Dha..Pa..Dha..Dha..."
+        },
+        {
+          "lyrics": "Chhoone ki aasha",
+          "indian": "Dha..Ni(k)..Dha..Ni(k)..Ni(k)...Dha..Ni(k)..Pa.Dha.Pa."
+        },
+        {
+          "lyrics": "Aasmaan mein",
+          "indian": "Pa..Dha..Pa..Ga..Ma..Ma...Ga.Ma.Re."
+        },
+        {
+          "lyrics": "Udne ki aasha",
+          "indian": "Re..Pa..Ma..Ga..Ga...Ga.Re.Sa."
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Mahak jaaun main, aaj to aise",
+          "indian": "Ga Pa PaPa GaReSa | Sa Re GaMa ReGaRe"
+        },
+        {
+          "lyrics": "Phul bagiya men, mahak hai jaise",
+          "indian": "Ga Pa PaPa GaReSa | Sa Re GaMa ReGaRe"
+        },
+        {
+          "lyrics": "Baadalon ki main, odhun chunariya",
+          "indian": "Pa Pa Dha Pa Dha Dha | Pa Dha Ni(k)Dha Ni(k) Ni(k) DhaPa"
+        },
+        {
+          "lyrics": "Jhum jaaun main, banke banvariya",
+          "indian": "Dha Ni(k) PaGa Ma Ma GaRe | Re Pa MaGa GaGa ReSa"
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

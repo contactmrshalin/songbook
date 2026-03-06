@@ -1,0 +1,118 @@
+{
+  "id": "raataan-lambiyan",
+  "title": "Raataan Lambiyan",
+  "info": [
+    "Scale (flute): A# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/raataan-lambiyan.png",
+  "background": "images/raataan-lambiyan.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Teri meri gallan ho gayi mashhoor",
+          "indian": "Re.Ga.Ga.Re.Re.Ga.Ga.Re.Re.Ga.Ga.Re.Ga..Re.Sa."
+        },
+        {
+          "lyrics": "Kar na kabhi tu mujhe nazron se door",
+          "indian": "Sa.Re.Re.Sa.Sa.Re.Re.Sa.Sa.Re.Re.Sa.Re..Sa.Dha(k)."
+        },
+        {
+          "lyrics": "Kithe chali ae tu kithe chali ae tu",
+          "indian": "Dha(k).Sa.Sa.Re.Re.Ga.Ga. Dha(k).Sa.Sa.Re.Re.Ga.Ga."
+        },
+        {
+          "lyrics": "Kithe chali ae",
+          "indian": "Sa.Dha(k).Dha(k).Sa.Sa.."
+        },
+        {
+          "lyrics": "Jaanda ae dil yeh toh jaandi ae tu",
+          "indian": "Re.Ga.Ga.Re.Re.Ga.Ga.Re.Re.Ga.Ga.Re.Ga..Re.Sa."
+        },
+        {
+          "lyrics": "Tere bin main na rahun mere bina tu",
+          "indian": "Sa.Re.Re.Ga.Sa.Re.Re.Ga.Sa.Re.Re.Sa.Re..Sa.Dha(k)."
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        {
+          "lyrics": "Kaatun kaise raatan",
+          "indian": "Ga..Pa..Pa..Dha..Pa..Dha..Pa.Ma.Ga.Re.."
+        },
+        {
+          "lyrics": "Oh saawre",
+          "indian": "Sa..Dha(k)..Sa..Ga..Ga..Re.."
+        },
+        {
+          "lyrics": "Jiya nahi jaata",
+          "indian": "Ga..Pa..Pa..Dha..Pa..Dha..Pa.Ma.Ga.Re.."
+        },
+        {
+          "lyrics": "Sunn baawre",
+          "indian": "Sa..Dha(k)..Sa..Ga..Ga..Re.."
+        },
+        {
+          "lyrics": "Ke raataan lambiyan lambiyan re",
+          "indian": "Sa'..Ni..Pa..Dha.Dha.Sa'..Dha.Dha.Dha.Sa'..Dha.Dha.."
+        },
+        {
+          "lyrics": "Kate tere sangeyan sangeyan re",
+          "indian": "Sa'..Ni..Ma..Pa.Pa.Dha.Pa.Pa.Pa.Dha.Pa.Pa.."
+        },
+        {
+          "lyrics": "Ke raataan lambiyan lambiyan re",
+          "indian": "Sa'..Ni..Pa..Dha.Dha.Sa'..Dha.Dha.Dha.Sa'..Dha.Dha.."
+        },
+        {
+          "lyrics": "Kate tere sangeyan sangeyan re",
+          "indian": "Sa'..Ni..Ma..Pa.Pa.Dha.Ni.Dha.Pa.Pa..Pa.."
+        }
+      ]
+    },
+    {
+      "name": "Verse (Cont.)",
+      "lines": [
+        {
+          "lyrics": "Cham cham cham ambran de taare",
+          "indian": "Ga..Ga..Ga..Ga.Re.Re..Ga..Re..Sa.."
+        },
+        {
+          "lyrics": "Kehnde ne sajjna",
+          "indian": "Sa..Re..Re.Pa..Pa.Ma.Ga.."
+        },
+        {
+          "lyrics": "Tu hi chan mere is dil da",
+          "indian": "Ga..Ga..Ga..Ga.Re.Re..Ga..Re..Sa.."
+        },
+        {
+          "lyrics": "Mann le ve sajjna",
+          "indian": "Sa..Re..Re.Pa..Pa.Ma.Ga.."
+        },
+        {
+          "lyrics": "Tere bina mera",
+          "indian": "Ga..Ma..Pa.Pa...Pa..Pa.."
+        },
+        {
+          "lyrics": "Howe na guzara",
+          "indian": "Pa..Dha..Ma..Pa.Pa...Pa..Pa.."
+        },
+        {
+          "lyrics": "Chhad ke na jawin mainu",
+          "indian": "Ga..Ma..Pa.Pa..Pa..Sa'..Pa.."
+        },
+        {
+          "lyrics": "Tu hi hai sahara",
+          "indian": "Pa..Dha..Pa..Ma..Ga..Re..Ga.Re.Sa.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

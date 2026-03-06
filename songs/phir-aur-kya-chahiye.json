@@ -1,0 +1,166 @@
+{
+  "id": "phir-aur-kya-chahiye",
+  "title": "Phir Aur Kya Chahiye",
+  "info": [
+    "Movie: Zara Hatke Zara Bachke",
+    "Scale (flute): E (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/phir-aur-kya-chahiye.png",
+  "background": "images/phir-aur-kya-chahiye.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Badle tere maahi",
+          "indian": "Dha..Pa..Ma..Ga..Pa...Pa..Ga.."
+        },
+        {
+          "lyrics": "Laake jo koyi saari",
+          "indian": "Dha..Pa..Ma..Ga..Pa...Pa..Ga.."
+        },
+        {
+          "lyrics": "Duniya bhi dede agar toh",
+          "indian": "Pa..Sa'..Ni...Dha..Pa..Ma..Pa...Ga..Re...Ma..."
+        },
+        {
+          "lyrics": "Kise duniya chahiye",
+          "indian": "Ma..Ga..Re..Sa..Dha(k)...Dha(k)..Ma..Pa.."
+        },
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Ga..Ga..Ga..Ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Sa'..Ni..Sa'..Dha..Pa..Ma..Ma..Ma..Dha..Pa..Ma..Ga.."
+        },
+        {
+          "lyrics": "Kisi ki na madad na dua chahiye",
+          "indian": "Ga..Ga..Ga..Ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Sa'..Ni..Sa'..Dha..Pa..Ma..Ma..Ma..Dha..Pa..Ma..Ga.."
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        {
+          "lyrics": "Sunn haaniye jind jaaniye",
+          "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'... Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'...Sa'..Ni.."
+        },
+        {
+          "lyrics": "Sau baar janam loon toh bhi",
+          "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'..Sa'..Ni.Sa'..Sa'..Ni..Dha.."
+        },
+        {
+          "lyrics": "Tu hi humdum har dafa chahiye",
+          "indian": "Dha..Pa..Ma..Ma..Ma..Dha(k)..Pa..Ma..Ga.."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Ga..Ga..Ga..Ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Sa'..Ni..Sa'..Dha..Pa..Ma..Ma..Ma..Dha..Pa..Ma..Ga.."
+        }
+      ]
+    },
+    {
+      "name": "Hook",
+      "lines": [
+        {
+          "lyrics": "Tu hi re tu hi re tu hi re",
+          "indian": "Ni..Sa'..Sa'.. Ni..Sa'..Sa'.. Ni..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Ni heeriye tu hi re tu hi re tu hi re",
+          "indian": "Sa'..Sa'..Ga'..Re'..Pa..Dha..Dha.. Pa..Dha..Dha.. Pa..Dha..Dha.."
+        },
+        {
+          "lyrics": "Ni heeriye tu meri main hoon tera ranjha",
+          "indian": "Dha..Dha..Sa'..Dha..Pa..Ma..Dha...Dha..Dha..Sa'..Dha..Ma..Pa...Pa..."
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Hoo jab tak teri neend na toote",
+          "indian": "Ga...Ga..Ga..Pa..Dha..Sa'...Sa'... Ni..Sa'..Re'..Sa'..Dha...Dha..."
+        },
+        {
+          "lyrics": "Ugta nahi hai sooraj mera",
+          "indian": "Dha..Dha..Dha..Dha..Dha(k)...Ni...Sa'..Ni..Dha..Pa..Pa...Pa..."
+        },
+        {
+          "lyrics": "Khwaab rahe kis kaam ke mere",
+          "indian": "Ga..Pa..Dha..Sa'...Sa'... Ni..Sa'..Re'..Sa'..Dha...Dha..."
+        },
+        {
+          "lyrics": "Khwaab se pyara tu sach mera",
+          "indian": "Dha..Dha..Dha..Dha..Dha(k)...Ni...Sa'..Ni..Dha..Pa..Pa..Pa..."
+        },
+        {
+          "lyrics": "Sunn haaniye jind jaaniye",
+          "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'... Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'...Sa'..Ni.."
+        },
+        {
+          "lyrics": "Zakhmon ko mere marham ki jagah",
+          "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'..Sa'..Ni.Sa'..Sa'..Ni..Dha.."
+        },
+        {
+          "lyrics": "Bas tera chua chahiye",
+          "indian": "Dha..Pa..Ma..Ma..Ma..Dha(k)..Pa..Ma..Ga.."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda + Hook (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Ga..Ga..Ga..Ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Sa'..Ni..Sa'..Dha..Pa..Ma..Ma..Ma..Dha..Pa..Ma..Ga.."
+        },
+        {
+          "lyrics": "Kisi ki na madad na dua chahiye",
+          "indian": "Ga..Ga..Ga..Ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'.."
+        },
+        {
+          "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
+          "indian": "Sa'..Ni..Sa'..Dha..Pa..Ma..Ma..Ma..Dha..Pa..Ma..Ga.."
+        },
+        {
+          "lyrics": "Tu hi re tu hi re tu hi re",
+          "indian": "Ni..Sa'..Sa'.. Ni..Sa'..Sa'.. Ni..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Ni heeriye tu hi re tu hi re tu hi re",
+          "indian": "Sa'..Sa'..Ga'..Re'..Pa..Dha..Dha.. Pa..Dha..Dha.. Pa..Dha..Dha.."
+        },
+        {
+          "lyrics": "Ni heeriye tu meri main hoon tera ranjha",
+          "indian": "Dha..Dha..Sa'..Dha..Pa..Ma..Dha...Dha..Dha..Sa'..Dha..Ma..Pa...Pa..."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

@@ -1,0 +1,282 @@
+{
+  "id": "gulabi-aankhen-sanam",
+  "title": "Gulabi Aankhen",
+  "info": [
+    "Version: SANAM",
+    "Scale (flute): D# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/gulabi-aankhen-sanam.png",
+  "background": "images/gulabi-aankhen-sanam.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Intro (Music)",
+      "lines": [
+        {
+          "lyrics": "O..",
+          "indian": "Ni..Sa'..Re'..Ga'..."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+        },
+        {
+          "lyrics": "(Repeat x2)",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Gulabii ankhee",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Jo teri dekhii",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Sharaabi yeh dil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Hoo gayaa",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        },
+        {
+          "lyrics": "Sambhaalo mujhkoo",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Oo meree yaaron",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Sambhalnaa mushkil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Hoo gayaa",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        }
+      ]
+    },
+    {
+      "name": "Antara 1",
+      "lines": [
+        {
+          "lyrics": "(Music)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Dil main meree",
+          "indian": "Ga..Ma..Dha.Ga.."
+        },
+        {
+          "lyrics": "Khwaab teree",
+          "indian": "Ma..Dha..Sa'..Ma.."
+        },
+        {
+          "lyrics": "Tasveer kaise ho deewar pee",
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+        },
+        {
+          "lyrics": "Tujh pee fidaa",
+          "indian": "Ga..Ma..Dha.Ga.."
+        },
+        {
+          "lyrics": "Main kyoon huaa",
+          "indian": "Ma..Dha..Sa'..Ma.."
+        },
+        {
+          "lyrics": "Aataa hai gussa mujhe pyaar pee",
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+        },
+        {
+          "lyrics": "Main lut gayaa",
+          "indian": "Ni..Sa'..Re'..Ga'..."
+        },
+        {
+          "lyrics": "Maan kee dil kaa kahaa",
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+        },
+        {
+          "lyrics": "Main kahi kaa naa rahaa",
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+        },
+        {
+          "lyrics": "Kyaa karoon mai dilrubaa",
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Bura ye jaadu",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Teri aankhon ka",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Ye mera qaatil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Ho gaya",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        },
+        {
+          "lyrics": "Gulabii ankhee",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Jo teri dekhii",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Sharaabi yeh dil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Hoo gayaa",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        }
+      ]
+    },
+    {
+      "name": "Antara 2",
+      "lines": [
+        {
+          "lyrics": "(Music)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Maine sada",
+          "indian": "Ga..Ma..Dha.Ga.."
+        },
+        {
+          "lyrics": "Chaha yahi",
+          "indian": "Ma..Dha..Sa'..Ma.."
+        },
+        {
+          "lyrics": "Daaman bacha lu haseeno se main",
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+        },
+        {
+          "lyrics": "Teri kasam",
+          "indian": "Ga..Ma..Dha.Ga.."
+        },
+        {
+          "lyrics": "Khwabon mein bhi",
+          "indian": "Ma..Dha..Sa'..Ma.."
+        },
+        {
+          "lyrics": "Bachta firaa naazneeno se main",
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+        },
+        {
+          "lyrics": "Tauba magar",
+          "indian": "Ni..Sa'..Re'..Ga'..."
+        },
+        {
+          "lyrics": "Mill gayi tujhse nazar",
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+        },
+        {
+          "lyrics": "Mill gaya dard e jigar",
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+        },
+        {
+          "lyrics": "Sun zara oh bekhabar",
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "lines": [
+        {
+          "lyrics": "Zara sa hans ke",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Jo dekha tune",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Main tera bismil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Ho gaya",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        },
+        {
+          "lyrics": "Gulabii ankhee",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Jo teri dekhii",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Sharaabi yeh dil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Hoo gayaa",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        },
+        {
+          "lyrics": "Sambhaalo mujhkoo",
+          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+        },
+        {
+          "lyrics": "Oo meree yaaron",
+          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+        },
+        {
+          "lyrics": "Sambhalnaa mushkil",
+          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+        },
+        {
+          "lyrics": "Hoo gayaa",
+          "indian": "Dha..Dha(k)..Dha..Ni.."
+        },
+        {
+          "lyrics": "O..",
+          "indian": "Ni..Sa'..Re'..Ga'..."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+        },
+        {
+          "lyrics": "(Music)",
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+
