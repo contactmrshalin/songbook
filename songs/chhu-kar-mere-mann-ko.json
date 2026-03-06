@@ -4,7 +4,7 @@
   "info": [
     "Movie: Yaarana (1981)",
     "Singer: Kishore Kumar",
-    "Lyricist: Anjaan",
+    "Lyrics: Anjan",
     "Music Director: Rajesh Roshan"
   ],
   "thumbnail": "images/chhu_kar_mere_mann_ko_thumb.png",
@@ -14,45 +14,73 @@
       "name": "MUKHDA",
       "lines": [
         {
-          "lyrics": "Chookar | mere man | ko",
-          "indian": "Ga Ga | Re Sa Ni | Re"
+          "lyrics": "Chhoo kar | Mere | Man | Ko",
+          "indian": "Ga Ga | Re Sa | Ni | Re"
         },
         {
-          "lyrics": "kiya | tune, | kya | isharaa",
-          "indian": "Pa Dha | Ni Ni | Sa | Re Ga Sa"
+          "lyrics": "Kiya | tuney | Kya | Ishara",
+          "indian": "Pa. Dha | Ni Ni | Sa Re | Ga Sa"
+        },
+        {
+          "lyrics": "(Flute Interlude)",
+          "indian": "Pa'— — — — Dha' Pa' Ma | Ga Ma Ga Ma Re Pa'"
+        },
+        {
+          "lyrics": "Chhoo kar | Mere | Man | Ko",
+          "indian": "Ga Ga | Re Sa | Ni | Re"
+        },
+        {
+          "lyrics": "Kiya | tuney | Kya | Ishara",
+          "indian": "Pa. Dha | Ni Ni | Sa Re | Ga Sa"
         },
         {
           "lyrics": "Badalaaa | ye | mausam",
-          "indian": "Pa Pa | Dha Pa | Ma Dha"
+          "indian": "Pa Pa | Ma Ga | Ma Dha"
         },
         {
           "lyrics": "lage | pyaaraa | jag | saaraa",
-          "indian": "Ni | Ni | Dha Ni | Sa' Sa'"
-        },
-        {
-          "lyrics": "Chookar | mere man | ko (alt take)",
-          "indian": "Ga Ga | Ga Ga Ma | Re"
-        },
-        {
-          "lyrics": "kiya | tune, | kya | isharaa",
-          "indian": "Pa Dha | Ni Ni | Sa | Re Ga Sa"
+          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')"
         }
       ]
     },
     {
-      "name": "ANTARA (from provided images)",
+      "name": "ANTARA",
       "lines": [
         {
-          "lyrics": "Tu | jo | kahe | jeevan | bhar",
-          "indian": "Ga | Ma | Ma Ga | Sa Pa | Ga"
+          "lyrics": "TuJo | Kahe | Jeevan Bhar",
+          "indian": "Ga Ma | Ma Ga | Sa Pa | Ga"
         },
         {
-          "lyrics": "tere | liye | main | gaauun (version 1)",
-          "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha Sa'"
+          "lyrics": "Tere | Liye | Main | Gaaoon (1)",
+          "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha | Dha Sa'~Pa"
         },
         {
-          "lyrics": "tere | liye | main | gaauun (version 2)",
+          "lyrics": "Tere | Liye | Main | Gaaoon (2)",
           "indian": "Pa Dha | Ni(k) Dha | Ma | Ga Re Ga Pa"
+        },
+        {
+          "lyrics": "(Repeat for following…)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Geet Tere Bolon Pe",
+          "indian": ""
+        },
+        {
+          "lyrics": "Likhta Chala Jaaoon (2)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Mer…e | Geeton | Mein",
+          "indian": "Pa Pa— — — (Dha)Pa | Ma Ga Ma | Dha"
+        },
+        {
+          "lyrics": "Tujhe Dhoonde Jag Saara",
+          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')"
+        },
+        {
+          "lyrics": "Chhoo kar Mere Man Ko",
+          "indian": ""
         }
       ]
     }
