@@ -1,13 +1,14 @@
 {
   "id": "aane-wala-pal",
-  "title": "Aane Wala Pal",
+  "title": "Aane Wala Pal Jaane Wala Hai",
   "info": [
     "Movie: Golmaal (1979)",
     "Singer: Kishore Kumar",
     "Lyrics: Gulzar",
     "Music: R.D. Burman",
     "Raag: Kirwani",
-    "Flute scale (as provided): F# (bass/middle)",
+    "Flute scale (as provided): F (bass/middle)",
+    "Spotify: https://open.spotify.com/track/3Tel7yJVZrPclGFsMsxZcV",
     "Sargam / Harmonium / Flute notes"
   ],
   "thumbnail": "images/aane-wala-pal.png",
@@ -51,28 +52,48 @@
       "name": "Mukhda",
       "lines": [
         {
-          "lyrics": "Aane wala pal",
-          "indian": "Sa Re | Ga Dha | Dha(k)Dha… (Ni Dha Pa Dha Ni)"
+          "lyrics": "Aanewala pal…",
+          "indian": "Sa...Re...Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni.."
         },
         {
-          "lyrics": "Jane wala hai",
-          "indian": "Ni~Dha Dha~Pa | Pa Re | Ga…MaGaRe Sa"
+          "lyrics": "Jaanewala hai…",
+          "indian": "Ni..Dha..Pa..Re..Ga...Ma.Ga.Re..Sa.."
         },
         {
-          "lyrics": "Ho sake to iss mein",
-          "indian": "Ga | Ma Pa | Ma | Ga Re"
+          "lyrics": "Aanewala pal…",
+          "indian": "Sa..Re..Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni.."
         },
         {
-          "lyrics": "Zindagi bitaado",
-          "indian": "Re Ga Ma | Ga Re Sa"
+          "lyrics": "Jaanewala hai",
+          "indian": "Ni..Dha..Pa..Re..Ga..."
+        },
+        {
+          "lyrics": "Ho sake to iss mein zindagi bitaado",
+          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa.."
         },
         {
           "lyrics": "Pal jo yeh jaanewala hai",
-          "indian": "Re~Sa | Ga(k)~Re | Ma~Ga(k) PaMa | Ga(k)"
+          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga..."
         },
         {
-          "lyrics": "Hoooo ho",
-          "indian": "Dha(k)…Dha"
+          "lyrics": "Hoo oo",
+          "indian": "Dha(k)..Dha..."
+        },
+        {
+          "lyrics": "Aanewala pal…",
+          "indian": "Sa...Re...Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni.."
+        },
+        {
+          "lyrics": "Jaanewala hai",
+          "indian": "Ni..Dha..Pa..Re..Ga..."
+        },
+        {
+          "lyrics": "Ho sake to iss mein zindagi bitaado",
+          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa.."
+        },
+        {
+          "lyrics": "Pal jo yeh jaanewala hai",
+          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga..."
         }
       ]
     },
@@ -102,43 +123,39 @@
       "lines": [
         {
           "lyrics": "Ek baar yoon mili",
-          "indian": "Sa Sa | Sa ,Ni | Re | ,Ni Sa"
+          "indian": "Sa..Sa..Sa...Ni(k)..Re.. Ni(k)..Sa..."
         },
         {
-          "lyrics": "(Music)",
-          "indian": ",Dha ,Ni Sa Re Ga"
+          "lyrics": "Maasoom si kali…",
+          "indian": "Ga..Ga..Ga...Re..Pa.. Re..Ga...Ma.Ga.Re..Sa.."
         },
         {
-          "lyrics": "Maasoom si kali (2)",
-          "indian": "Ga Ga Re | Pa | Re Ga… (Ma)Ga Re…Sa"
+          "lyrics": "Ek baar yoon mili",
+          "indian": "Sa..Sa..Sa...Ni(k)..Re.. Ni(k)..Sa..."
         },
         {
-          "lyrics": "(Music)",
-          "indian": "Ga Ma Pa Ma Ga"
+          "lyrics": "Maasoom si kali",
+          "indian": "Ga..Ga..Ga...Re..Pa.. Re..Ga..."
         },
         {
           "lyrics": "Ho khilte hue kahaan",
-          "indian": "Pa | Pa Pa | Pa Sa'~Dha~Sa' | Dha Pa Ma"
+          "indian": "Pa...Pa..Pa..Pa...Pa..Dha...Pa..Ma..."
         },
         {
           "lyrics": "Khushpash mein chali",
-          "indian": "Dha Dha Dha Pa | PaDhaNi | Pa Pa"
+          "indian": "Dha..Dha..Dha...Pa..Ni...Dha..Pa..."
         },
         {
-          "lyrics": "Dekha to yahin hai",
-          "indian": "GaMa | Pa | PaMa | Re"
-        },
-        {
-          "lyrics": "Dhundha to nahin hai",
-          "indian": "ReGa | Ma | GaReSa"
+          "lyrics": "Dekha to yahin hai dhundha to nahin hai",
+          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa.."
         },
         {
           "lyrics": "Pal jo yeh jaanewala hai",
-          "indian": "Re~Sa | Ga(k)~Re | Ma~Ga(k) PaMa | Ga(k)"
+          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga..."
         },
         {
-          "lyrics": "Hoooo ho",
-          "indian": "Dha(k)…Dha"
+          "lyrics": "Hoo oo",
+          "indian": "Dha(k)..Dha..."
         }
       ]
     },
@@ -178,4 +195,3 @@
   ],
   "export": true
 }
-

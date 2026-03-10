@@ -1,0 +1,65 @@
+{
+  "id": "tu-tu-hai-wahi",
+  "title": "Tu Tu Hai Wahi",
+  "info": [
+    "Movie: Yeh Vaada Raha",
+    "Scale (flute): G# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/tu-tu-hai-wahi.png",
+  "background": "images/tu-tu-hai-wahi.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Tu",
+          "indian": "Dha."
+        },
+        {
+          "lyrics": "Tu hai wahi dil ne jise",
+          "indian": "Ni..Sa..Ni..Dha..Ma...Ga..Re..Sa..Ni..Pa.."
+        },
+        {
+          "lyrics": "Apna kaha tu hai jahan",
+          "indian": "Dha..Ni..Dha..Pa..Ga...Re..Sa..Ni..Sa..Dha.."
+        },
+        {
+          "lyrics": "Main hoon wahan ab to yeh jeena",
+          "indian": "Ni..Sa..Ni..Dha..Re...Sa..Ni..Dha..Dha(k)..Dha(k).."
+        },
+        {
+          "lyrics": "Tere bin hai sazaa",
+          "indian": "Dha(k)..Ni..Ga...Re.Ga.Re..Re(k).Re(k)..."
+        },
+        {
+          "lyrics": "Ho mil jaayein is tarah",
+          "indian": "Re(k)...Re..Re..Re..Re..Ga..Ma.."
+        },
+        {
+          "lyrics": "Do leharein jis tarah",
+          "indian": "Ga..Re..Sa..Sa...Sa..Re..Ga.."
+        },
+        {
+          "lyrics": "Ho mil jaayein is tarah",
+          "indian": "Ga.Re.Re(k).Re..Re..Re..Re..Ga..Pa..Ma.."
+        },
+        {
+          "lyrics": "Do leharein jis tarah",
+          "indian": "Ga..Re..Sa..Sa...Sa..Re..Ga.."
+        },
+        {
+          "lyrics": "Phir hon na judaa",
+          "indian": "Sa..Ni..Dha...Ni..Sa..Ni..Dha..Re.."
+        },
+        {
+          "lyrics": "Haan yeh vaada raha",
+          "indian": "Sa..Ni..Dha..Ni..Pa...Ni...Sa.Ni.Dha.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

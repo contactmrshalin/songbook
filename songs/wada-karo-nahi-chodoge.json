@@ -1,0 +1,102 @@
+{
+  "id": "wada-karo-nahi-chodoge",
+  "title": "Wada Karo Nahi Chodoge",
+  "info": [
+    "Movie: Aa Gale Lag Ja",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/wada-karo-nahi-chodoge.png",
+  "background": "images/wada-karo-nahi-chodoge.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Wada karo nahi chodoge tum mera sath",
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+        },
+        {
+          "lyrics": "Jahan tum ho wahan main bhi hoon",
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+        },
+        {
+          "lyrics": "(x2)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Chhuo nahi dekho zara peeche rakho hath",
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+        },
+        {
+          "lyrics": "Jawan tum ho jawan main bhi hoon",
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+        },
+        {
+          "lyrics": "(x2)",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Suno meri jaan",
+          "indian": "Ga..Ga..Ga..Re..Ga..."
+        },
+        {
+          "lyrics": "Hans ke mujhe yeh keh do",
+          "indian": "Ga..Ga..Ma..Ma..Ma..Ga..Ma..."
+        },
+        {
+          "lyrics": "Bheege labon ki narmi",
+          "indian": "Ma..Ma..Pa..Pa..Pa..Ma..Pa..."
+        },
+        {
+          "lyrics": "Mere liye hai",
+          "indian": "Dha..Dha..Ni..Dha..Dha..."
+        },
+        {
+          "lyrics": "Ho jawan nazar ki",
+          "indian": "Sa'..Ni..Dha..Dha..Dha..Dha..Pa..Dha..."
+        },
+        {
+          "lyrics": "Masti mere liye hai",
+          "indian": "Dha..Dha..Pa..Pa..Pa..Ma..Pa..."
+        },
+        {
+          "lyrics": "Haseen adaa ki shokhi",
+          "indian": "Pa..Pa..Ma..Ma..Ma..Ga..Ma.."
+        },
+        {
+          "lyrics": "Mere liye hai",
+          "indian": "Ma..Pa..Ma..Ga..Ga..."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda (Repeat)",
+      "lines": [
+        {
+          "lyrics": "Mere liye leke aayi ho yeh saughat",
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+        },
+        {
+          "lyrics": "Jahan tum ho wahan main bhi hoon",
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+        },
+        {
+          "lyrics": "Chhuo nahi dekho zara peeche rakho hath",
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+        },
+        {
+          "lyrics": "Jawan tum ho jawan main bhi hoon",
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+
