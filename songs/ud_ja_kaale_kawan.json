@@ -1,57 +1,144 @@
 {
-  "title": "Ud Ja Kale Kawan",
   "id": "ud_ja_kaale_kawan",
-  "movie": "Gadar – Ek Prem Katha",
-  "year": "2001",
+  "title": "Udd Jaa Kaale Kaava",
+  "info": [
+    "Film: Gadar – Ek Prem Katha (2001)",
+    "Singer: Udit Narayan, Alka Yagnik",
+    "Music: Uttam Singh",
+    "Lyrics: Anand Bakshi",
+    "Scale: C# bass/middle (flute)",
+    "Notation: . = low octave, ' = high octave, .. = hold"
+  ],
   "thumbnail": "images/udd_ja_kaale_kaawan.png",
   "background": "images/udd_ja_kaale_kaawan.png",
-  "info": [
-    "Singer: Udit Narayan, Alka Yagnik",
-    "Composer: Uttam Singh",
-    "Lyricist: Anand Bakshi"
-  ],
   "sections": [
     {
-      "name": "Mukhda",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Udd Ja Kale Kawan Tere",
-          "indian": "Re.Re.Re.GaReRe.Re. nidhapadha"
+          "lyrics": "Udja kale kawa tere",
+          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R.."
         },
         {
-          "lyrics": "Munh Vich Khand Paavan",
-          "indian": "Re.Re.Re.GaReRe."
+          "lyrics": "Munh vich khand paavan",
+          "indian": "P.. P. P. P.. D.. P.. P.."
         },
         {
-          "lyrics": "Baagon Mein Phir Jhule Pad Gaye",
-          "indian": "Ni..NiNi..NiDha Dha..Ni...DhaPaPa.."
+          "lyrics": "Udd ja kale kawan tere",
+          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R.."
         },
         {
-          "lyrics": "Pak Gaya Mithiyan Ambiyan",
-          "indian": "Pa..DhaPaGaRe GaPaPa..Pa.."
+          "lyrics": "Munh vich khand paavan",
+          "indian": "P.. P. P. P.. D.. P.. P.."
+        },
+        {
+          "lyrics": "Le ja tu sandesha mera",
+          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R.."
+        },
+        {
+          "lyrics": "Main sadke jaavan",
+          "indian": "P.. P. P. P.. D.. P.. P.."
+        },
+        {
+          "lyrics": "Baagon mein phir jhule pad gaye",
+          "indian": "'G.. 'G. 'G.. 'G. 'G.. 'R.... 'G.... 'R. 'S. 'S.."
+        },
+        {
+          "lyrics": "Pak gaiyan mithiyan ambiyan",
+          "indian": "'S. 'R. 'R. 'S. D. P. D. 'S.. 'S. 'S. 'S.."
+        },
+        {
+          "lyrics": "Yeh chhoti si zindagi te",
+          "indian": "'S.. 'S. 'S. 'S.. N. 'R. 'S. N. D. D.."
         }
       ]
     },
     {
-      "name": "Antara",
+      "name": "ANTARA 1",
       "lines": [
         {
-          "lyrics": "Yeh Chhoti Si Zindagi Te",
-          "indian": "Pa..PaPa..PaMa(T) Ma(T)DhaPa Ma(T)GaGaSa."
+          "lyrics": "Raataan lambiyan lambiyan",
+          "indian": "m. P. P. P. P. D. P. m. P. P."
         },
         {
-          "lyrics": "Raataan Lambiyan Lambiyan",
-          "indian": "SaReReRe...GaRe..ReRe"
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "m. G. R. R. S. S. R. R. P. P...."
         },
         {
-          "lyrics": "Oh Ghar Aaja Pardesi",
-          "indian": "Renidha dhapa padhadhaReRe"
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "P. m. P. m. G. R. G. R. S. S.."
         },
         {
-          "lyrics": "Ke Teri Meri Ek Jindri",
-          "indian": "ReSaReSaNi dhanidhapapa"
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "m. G. R. R. S. S. R. R. P. P...."
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "P. m. P. m. G. R. G. R. S. S.."
+        },
+        {
+          "lyrics": "Chham chham karta aaya mausam",
+          "indian": "G.. P.. P.... P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D.."
+        },
+        {
+          "lyrics": "Pyar ke geeton ka ho ho",
+          "indian": "m.. P.. P.. P.... D.. P.. P.. 'S.. N.. 'S.. N.. D.."
+        },
+        {
+          "lyrics": "Chham chham karta aaya mausam",
+          "indian": "G.. P.. P.... P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D.."
+        },
+        {
+          "lyrics": "Pyar ke geeton ka",
+          "indian": "m.. P.. P.. P.... D.. P.. P.."
+        },
+        {
+          "lyrics": "Raste pe ankhiyan rasta dekhein",
+          "indian": "G.. P.. P.. P.. P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D.."
+        },
+        {
+          "lyrics": "Bichhde meeton ka",
+          "indian": "m.. P.. P.. P.... D.. P.. P.."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Saari saari raat jagayein",
+          "indian": "'G.. 'G.. 'G.. 'G.. 'R.. 'G.. 'R.. 'S.. 'S.."
+        },
+        {
+          "lyrics": "Mujhko teri yaadein",
+          "indian": "'S. 'R. 'R. 'S. D. P. D. 'S.... 'S.. 'S.."
+        },
+        {
+          "lyrics": "Mere saare geet bane",
+          "indian": "'S.. 'S.. 'S.. 'S.... N. 'R. 'S. N. D. D.."
+        },
+        {
+          "lyrics": "Mere dil ki fariyadein",
+          "indian": "m. P. P. P. P. D. P. m. P."
+        },
+        {
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "m. G. R. R. S. S. R. R. P. P...."
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "P. m. P. m. G. R. G. R. S. S.."
+        },
+        {
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "m. G. R. R. S. S. R. R. P. P...."
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "P. m. P. m. G. R. G. R. S. S.."
         }
       ]
     }
-  ]
+  ],
+  "export": true
 }

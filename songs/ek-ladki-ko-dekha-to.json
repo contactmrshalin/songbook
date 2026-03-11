@@ -5,55 +5,73 @@
     "Movie: 1942 - A Love Story (1994)",
     "Singer: Kumar Sanu",
     "Lyricist: Javed Akhtar",
-    "Music Director: R. D. Burman",
-    "Raag: Yaman / Desh (light)"
+    "Music: R. D. Burman",
+    "Raag: Yaman / Desh (light)",
+    "Scale: A# bass/middle (flute)",
+    "Notation: . = low octave, ' = high octave, .. = hold"
   ],
   "thumbnail": "images/ek-ladki-ko-dekha-to.png",
   "background": "images/1942_a_love_story_bg.png",
   "sections": [
     {
-      "name": "MUSIC (Intro)",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Instrumental",
-          "indian": "Sa Re Ga Re Sa Pa. | Sa Re Sa Re Pa. (x2)"
+          "lyrics": "Hoo ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "'S.... 'S.. 'S.. N.... 'S.. 'R.. N.... 'S.. 'R.. N.... 'S. 'R.. N.. 'S...."
         },
         {
-          "lyrics": "Resolution",
-          "indian": "Sa Sa Sa Sa"
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "'S.. 'S.. N.... 'S.. 'R.. N.... 'S.. 'R.. N.... 'S. 'R.. N.. 'S.."
+        },
+        {
+          "lyrics": "Jaisee khiltaa gulaab",
+          "indian": "'S.. 'S.. N.. 'S.. P.. N.. D.."
+        },
+        {
+          "lyrics": "Jaisee shayaar kaa khwaab",
+          "indian": "N.. 'S.. N.. 'S.. P.. N.. D.."
+        },
+        {
+          "lyrics": "Jaisee ujali kirann",
+          "indian": "N.. 'S.. N.. 'S.. P.. N.. D.."
+        },
+        {
+          "lyrics": "Jaisee ban maii hiran",
+          "indian": "D.. D.. G.. m.. D.. P. P.."
+        },
+        {
+          "lyrics": "Jaisee chandaani raat",
+          "indian": "D.. D.. G.. m.. D.. P. P.."
+        },
+        {
+          "lyrics": "Jaisee narmi kii baat",
+          "indian": "D.. D.. m.. D.. 'S.. D.. P.."
+        },
+        {
+          "lyrics": "Jaisee mandir mein hoo ekk",
+          "indian": "P.. P.. P.. N.. 'S.. 'G.. 'R.... 'R.. 'R.."
+        },
+        {
+          "lyrics": "Jaltaa diyaa hoo",
+          "indian": "P.. N.. 'S.. 'G.. 'R.... 'S.."
+        },
+        {
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "'S.. 'S.. N.... 'S.. 'R.. N.... 'S.. 'R.. N.... 'S. 'R.. N.. 'S.."
         }
       ]
     },
     {
-      "name": "STHAYI",
+      "name": "MUSIC",
       "lines": [
         {
-          "lyrics": "Ek ladki ko, dekha to, aisa laga",
-          "indian": "Sa Sa Ni Sa Re, Ni Sa Re, Ni Re Ni Sa"
+          "lyrics": "Hoo ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "'S.... 'S.. 'S.. N.... 'S.. 'R.. N.... 'S.. 'R.. N.... 'S. 'R.. N.. 'S...."
         },
         {
-          "lyrics": "Jaise khilta gulaab",
-          "indian": "Sa Sa Ni. Sa Ni Pa Ni~Dha"
-        },
-        {
-          "lyrics": "Jaise shayar ka khwaab",
-          "indian": "Ni Sa Ni. Sa Ni Pa Ni~Dha"
-        },
-        {
-          "lyrics": "Jaise ujli kiran",
-          "indian": "Ni Sa DhaDhaGa Dha Pa"
-        },
-        {
-          "lyrics": "Jaise van mein hiran",
-          "indian": "Pa Pa Ga Ma DhaSaDha Pa Pa"
-        },
-        {
-          "lyrics": "Jaise chandni raat",
-          "indian": "Pa Pa GaMaDha Pa Pa"
-        },
-        {
-          "lyrics": "Jaise narmi ki baat",
-          "indian": "Dha Dha GaGaDha Pa Pa Pa"
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "'S.. 'S.. N.... 'S.. 'R.. N.... 'S.. 'R.. N.... 'S. 'R.. N.. 'S.."
         }
       ]
     },
@@ -61,33 +79,40 @@
       "name": "ANTARA",
       "lines": [
         {
-          "lyrics": "Jaise mandir mein ho ek",
-          "indian": "Pa Pa Pa.NiSaGa Re Pa. Ni SaGaRe~Sa"
+          "lyrics": "Jaisee subhaa ka ruup",
+          "indian": "'S.. 'S.. N.. 'S.. P.. N.. D.."
         },
         {
-          "lyrics": "jalta diya, ho....",
-          "indian": "Pa. Ni Sa Ga Re Sa: Sa: Sa: Sa:"
-        }
-      ]
-    },
-    {
-      "name": "ENDING PHRASE",
-      "lines": [
-        {
-          "lyrics": "Music1",
-          "indian": "Pa Ni Re Sa' Sa' Sa' Sa'"
+          "lyrics": "Jaisee sardii ki dhoop",
+          "indian": "N.. 'S.. N.. 'S.. P.. N.. D.."
         },
         {
-          "lyrics": "Music1-Repeat",
-          "indian": "Pa Ni Re Sa' Sa' Sa' Sa'"
+          "lyrics": "Jaisee bee naa ki taan",
+          "indian": "N.. 'S.. N.. 'S.. P.. N.. D.."
         },
         {
-          "lyrics": "Music2",
-          "indian": "Pa Sa Pa Dha"
+          "lyrics": "Jaisee rangoo ki jaan",
+          "indian": "D.. D.. G.. m.. D.. P. P.."
         },
         {
-          "lyrics": "Music3",
-          "indian": "Ga Ma Dha Pa"
+          "lyrics": "Jaisee balkhaaye beel",
+          "indian": "D.. D.. G.. m.. D.. P. P.."
+        },
+        {
+          "lyrics": "Jaisee lehroon kaa khal",
+          "indian": "D.. D.. m.. D.. 'S.. D.. P.."
+        },
+        {
+          "lyrics": "Jaisee khushbu liyee aayi",
+          "indian": "P.. P.. P.. N.. 'S.. 'G.. 'R.... 'R.. 'R.."
+        },
+        {
+          "lyrics": "Thandii hawaaa hooo",
+          "indian": "P.. N.. 'S.. 'G.. 'R.... 'S.."
+        },
+        {
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "'S.. 'S.. N.... 'S.. 'R.. N.... 'S.. 'R.. N.... 'S. 'R.. N.. 'S.."
         }
       ]
     }

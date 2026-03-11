@@ -1,0 +1,48 @@
+{
+  "id": "titanic",
+  "title": "Titanic",
+  "info": [
+    "Music from the motion picture Titanic",
+    "Music composed and conducted by James Horner",
+    "Notation: S R G m P D N (Sa Ri Ga Ma Pa Dha Ni); ' = high octave"
+  ],
+  "thumbnail": "images/titanic.png",
+  "background": "images/titanic.png",
+  "sections": [
+    {
+      "name": "Titanic",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "S R G.. m G R S R P.... G R S 'D S 'P"
+        },
+        {
+          "lyrics": "",
+          "indian": "S R G.. m G R S R P.... G P D P R"
+        }
+      ]
+    },
+    {
+      "name": "Theme",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "S S S S 'N S S 'N S R G R S S S S 'N S S 'P.."
+        },
+        {
+          "lyrics": "",
+          "indian": "S S S S 'N S S 'N S R G R S S S S 'N S S 'P.."
+        },
+        {
+          "lyrics": "",
+          "indian": "S.......... R.......... 'P P m G R G m G.. R S 'N S 'N 'D....'P"
+        },
+        {
+          "lyrics": "",
+          "indian": "S.......... R.......... 'P P m G R G m G.. R S 'N S 'N 'N S R G R S...."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

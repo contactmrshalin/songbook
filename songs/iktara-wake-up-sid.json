@@ -1,0 +1,204 @@
+{
+  "id": "iktara-wake-up-sid",
+  "title": "Iktara",
+  "info": [
+    "Film: Wake Up Sid (2009)",
+    "Music: Shankar–Ehsaan–Loy",
+    "Lyrics: Javed Akhtar",
+    "Scale: G major",
+    "Notation: . = low octave, ' = high octave, .. = hold"
+  ],
+  "thumbnail": "images/iktara-wake-up-sid.png",
+  "background": "images/iktara-wake-up-sid.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Oo re manwa tu toh baawa hai",
+          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D...."
+        },
+        {
+          "lyrics": "Tuu hi jaane tu kya sochta hai",
+          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D...."
+        },
+        {
+          "lyrics": "Tuu hi jaane tu kya sochta hai baawre",
+          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D.... P.. m.. G.. R.."
+        },
+        {
+          "lyrics": "Kyuun dikhaye sapna tu sote jaagte",
+          "indian": "R.. S.. N.. R.. P.. m.. G.. R.. m.. G.. R.... S. S.."
+        },
+        {
+          "lyrics": "Joo barse sapna boon boon",
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+        },
+        {
+          "lyrics": "Nainoo ko mund mund",
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+        },
+        {
+          "lyrics": "Nainoo ko mund mund",
+          "indian": "R.. G.. R.. S.. N.. N.. S.. S.."
+        },
+        {
+          "lyrics": "Joo barse sapna boon boon",
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+        },
+        {
+          "lyrics": "Nainoo ko mund mund",
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Kaisee main chalu dekh na saako",
+          "indian": "N.. 'S.. D.. P.. m.. N.. 'S.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Anjaane raaste",
+          "indian": "m. P.. P.. G.. R.... S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara",
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Dheemee bole koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Dheemee bole koi iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara",
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Sun rahi hoon sudhbudh kho ke",
+          "indian": "'G.. 'R.. 'R.. 'S.. N. 'S. 'S. N.. P. D. D. P.."
+        },
+        {
+          "lyrics": "Koi main kahani",
+          "indian": "'G.. 'R.. 'R.. 'S.. N.. 'S...."
+        },
+        {
+          "lyrics": "Puri kahani hai kya kisi hai pata",
+          "indian": "D.. D.. P.. m.. D.. D.. N.. N.. 'S.. 'R.. 'S. 'S...."
+        },
+        {
+          "lyrics": "Main to kisiki ho ke",
+          "indian": "'G.. 'R.. 'R.. 'S.. N. 'S. 'S. N.. P. D. D. P.."
+        },
+        {
+          "lyrics": "Yeh bhi na jaani",
+          "indian": "'G.. 'R.. 'R.. 'S.. N.. 'S...."
+        },
+        {
+          "lyrics": "Ruth hai yeh do pal ki ya rahegi sada",
+          "indian": "D.. D.. P.. m.. D.. D.. N.. N.. 'S.. 'R.. 'S. 'S...."
+        },
+        {
+          "lyrics": "Kise hai pataaa..",
+          "indian": "P. D.. S.. R. S. R.... G. R. S. D.."
+        },
+        {
+          "lyrics": "Kise hai pataaa..",
+          "indian": "D. P.. D.. R. S...."
+        }
+      ]
+    },
+    {
+      "name": "REPEAT (STHAYI)",
+      "lines": [
+        {
+          "lyrics": "Joo barse sapna boon boon",
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+        },
+        {
+          "lyrics": "Nainoo ko mund mund",
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+        },
+        {
+          "lyrics": "Nainoo ko mund mund",
+          "indian": "R.. G.. R.. S.. N.. N.. S.. S.."
+        },
+        {
+          "lyrics": "Joo barse sapna boon boon",
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+        },
+        {
+          "lyrics": "Nainoo ko mund mund",
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+        },
+        {
+          "lyrics": "Kaisee main chalu dekh na saako",
+          "indian": "N.. 'S.. D.. P.. m.. N.. 'S.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Anjaane raaste",
+          "indian": "m. P.. P.. G.. R.... S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara",
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Dheemee bole koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Dheemee bole koi iktara",
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara iktara",
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+        },
+        {
+          "lyrics": "Goonjaa sa hai koi iktara",
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

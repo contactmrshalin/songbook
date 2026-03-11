@@ -1,87 +1,188 @@
 {
   "id": "tum-hi-ho-aashiqui2",
-  "title": "Tum Hi Ho",
+  "title": "Kyunki Tum Hi Ho",
   "thumbnail": "images/tum_hi_ho_thumb.png",
   "background": "images/tum_hi_ho_thumb.png",
   "info": [
-    "Movie: Aashiqui 2 (2013)",
+    "Film: Aashiqui 2 (2013)",
     "Singer: Arijit Singh",
-    "Scale: Sa = C",
-    "Style: Soft romantic / legato",
-    "Symbols: : hold, ~ slide"
+    "Lyrics: Mithoon",
+    "Music: Mithoon",
+    "Pitch: A (Sa = A)",
+    "Notation: . = low octave, .. = hold"
   ],
   "sections": [
     {
-      "name": "PART 1 – Hum tere bin ab reh nahi sakte",
+      "name": "PRELUDE (Piano, repeat 4 times)",
       "lines": [
         {
-          "lyrics": "Hum tere bin ab reh nahi sakte",
-          "indian": "Ga: Dha Pa Ma Ga Ma Ga Re Sa Re Ga Ma Ga: Ga"
+          "lyrics": "",
+          "indian": "D.. S G G m S R N."
         }
       ]
     },
     {
-      "name": "PART 2 – Tere bina kya wajood mera",
+      "name": "MUKHDA",
       "lines": [
         {
-          "lyrics": "Tere bina kya wajood mera",
-          "indian": "Re: Re Sa Re Re Sa Ni: Dha Pa Dha Pa"
+          "lyrics": "Ham tere bin ab reh nahin sakate",
+          "indian": "G D P P m m G R S R m G G G"
+        },
+        {
+          "lyrics": "Tere bina kya wajud mera",
+          "indian": "R R S R R S N. D. P. D. P. D."
+        },
+        {
+          "lyrics": "Tujh se juda agar ho jaayenge",
+          "indian": "G G D P P m M m G R S R P m G G"
+        },
+        {
+          "lyrics": "To khud se hi ho jaayenge juda",
+          "indian": "S R R R S R R S N. D. P. D. P. D."
+        },
+        {
+          "lyrics": "Kyonki tum hi ho, ab tum hi ho",
+          "indian": "S R G S R S R G S R"
+        },
+        {
+          "lyrics": "Jindagi, ab tum hi ho…",
+          "indian": "N. R S N. D. N. P. D.. N. S R"
+        },
+        {
+          "lyrics": "Chain bhi, mera dard bhi",
+          "indian": "G S R S R G S R"
+        },
+        {
+          "lyrics": "Meri aashiqui, ab tum hi ho",
+          "indian": "N. N. N. R S N. D. N. P. D.."
         }
       ]
     },
     {
-      "name": "PART 3 – Tujhse juda gar ho jayenge",
+      "name": "MUSIC (Melodica)",
       "lines": [
         {
-          "lyrics": "Tujhse juda gar ho jayenge",
-          "indian": "Ga Ga Dha Pa Ma Ga Ma Ga Re Sa Re Ga: Ga Sa"
+          "lyrics": "",
+          "indian": "D.. N. S R"
+        },
+        {
+          "lyrics": "",
+          "indian": "R G.. R G.. R S N."
+        },
+        {
+          "lyrics": "",
+          "indian": "R G.. R G.. R S N."
+        },
+        {
+          "lyrics": "",
+          "indian": "S R.. S R.. S N. D. N. D."
         }
       ]
     },
     {
-      "name": "PART 4 – Toh khud se hi ho jayenge judaa",
+      "name": "ANTARA 1",
       "lines": [
         {
-          "lyrics": "Toh khud se hi ho jayenge judaa",
-          "indian": "Re: Re Sa Re Re Sa Ni Sa Ni Dha Pa Dha Pa"
+          "lyrics": "Tera mera rishta hai kaisa",
+          "indian": "G D P P m m G R S R m G G"
+        },
+        {
+          "lyrics": "Ek pal dur gawaara nahin",
+          "indian": "R R S R R R S N. D. P. D. P. D."
+        },
+        {
+          "lyrics": "Tere lie har roj hain jite",
+          "indian": "G D P P m m G R S R m G G"
+        },
+        {
+          "lyrics": "Tujhako diya mera wakt sabhi",
+          "indian": "R R R S R R S N. S N. D. P. D. P. D."
+        },
+        {
+          "lyrics": "Koi lamha mera na ho tere bina",
+          "indian": "P. D. N. N. N. N. N. m m G G R G R G"
+        },
+        {
+          "lyrics": "Har saans pe naam tera",
+          "indian": "G D P D D G G R R S R S.. N. S N.."
+        },
+        {
+          "lyrics": "Kyonki tum hi ho…",
+          "indian": "S R G S R S R G S R"
         }
       ]
     },
     {
-      "name": "PART 5 – Kyunki tum hi ho",
+      "name": "MUSIC (Melodica)",
       "lines": [
         {
-          "lyrics": "Kyunki tum hi ho",
-          "indian": "Sa Re Ga: Sa Re:: Ga: Sa Re::"
+          "lyrics": "",
+          "indian": "D.. N. S R"
+        },
+        {
+          "lyrics": "",
+          "indian": "R G.. R G.. R S N."
+        },
+        {
+          "lyrics": "",
+          "indian": "S R.. S R.. S N. D. N. D."
         }
       ]
     },
     {
-      "name": "PART 6 – Zindagi ab tum hi ho",
+      "name": "ANTARA 2",
       "lines": [
         {
-          "lyrics": "Zindagi ab tum hi ho",
-          "indian": "Ni: Re Sa: Ni Dha Ni: Pa Dha: Ni Sa Re"
+          "lyrics": "Tere lie hi jiya main",
+          "indian": "D D P P D D N N P P"
+        },
+        {
+          "lyrics": "Khudko jo yun de diya hai",
+          "indian": "G G m m D D N N P P G"
+        },
+        {
+          "lyrics": "Teri wafa ne mujhako sambhaala",
+          "indian": "m m G m G m G R S S m G"
+        },
+        {
+          "lyrics": "Saare ghamon ko dil se nikaala",
+          "indian": "m m G m G P m G R S S m G"
+        },
+        {
+          "lyrics": "Tere saath mera hai nasib juda",
+          "indian": "P. D. N. N. D. N. N. m m G G R G R G"
+        },
+        {
+          "lyrics": "Tujhe paake adhura na raha",
+          "indian": "G D P D D G G R R S R S.. N. S N.."
+        },
+        {
+          "lyrics": "Kyonki tum hi ho…",
+          "indian": "S R G S R S R G S R"
         }
       ]
     },
     {
-      "name": "PART 7 – Chain bhi mera dard bhi",
+      "name": "CONCLUDE",
       "lines": [
         {
-          "lyrics": "Chain bhi mera dard bhi",
-          "indian": "Ga: Sa Re: Ga: Sa Re:"
-        }
-      ]
-    },
-    {
-      "name": "PART 8 – Meri aashiqui ab tum hi ho",
-      "lines": [
+          "lyrics": "Kyonki tum hi ho, ab tum hi ho",
+          "indian": "G P D G P G P D G P"
+        },
         {
-          "lyrics": "Meri aashiqui ab tum hi ho",
-          "indian": "Ni Ni: Re Sa: Ni Dha Ni: Pa Dha"
+          "lyrics": "Jindagi, ab tum hi ho…",
+          "indian": "R P m G R G S R.. G m P"
+        },
+        {
+          "lyrics": "Chain bhi, mera dard bhi",
+          "indian": "D G P G P D G P"
+        },
+        {
+          "lyrics": "Meri aashiqui, ab tum hi ho",
+          "indian": "N. N. N. R S N. D. N. P. D.."
         }
       ]
     }
-  ]
+  ],
+  "export": true
 }

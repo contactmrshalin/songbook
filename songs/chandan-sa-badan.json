@@ -1,0 +1,79 @@
+{
+  "id": "chandan-sa-badan",
+  "title": "Chandan Sa Badan",
+  "info": [
+    "Film: Saraswatichandra",
+    "Notation: . = low octave, ' = high octave, .. = hold"
+  ],
+  "thumbnail": "images/chandan-sa-badan.png",
+  "background": "images/chandan-sa-badan.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Chandan sa badan",
+          "indian": "'S.... 'S.. N.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Chanchal chitvan",
+          "indian": "'S.... 'S.. N.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Dheere se tera yeh muskana",
+          "indian": "m.. G.. P.... P.. P.. P.... D. P. m.. P.. D.. P.. D.."
+        },
+        {
+          "lyrics": "Chandan sa badan",
+          "indian": "'S.... 'S.. N.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Chanchal chitvan",
+          "indian": "'S.... 'S.. N.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Dheere se tera yeh muskana",
+          "indian": "m.. G.. P.... P.. P.. P.... D. P. m.. P.. D.. P.. D.."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Mujhe dosh na dena",
+          "indian": "D.. N.. 'S.. 'R.... 'R.. 'R...."
+        },
+        {
+          "lyrics": "Jag walo",
+          "indian": "'S.. 'G.. 'R.. 'G.. 'S. 'R. 'S.."
+        },
+        {
+          "lyrics": "Mujhe dosh na dena",
+          "indian": "D.. N.. 'S.. 'R.... 'R.. 'R...."
+        },
+        {
+          "lyrics": "Jag walo",
+          "indian": "'S.. 'G.. 'R.. 'G.. 'S.."
+        },
+        {
+          "lyrics": "Ho jaun agar main",
+          "indian": "'m.... 'm.... 'm.. 'G.. 'S.... 'S. D. 'S. D. m."
+        },
+        {
+          "lyrics": "Deewana",
+          "indian": "D. N. 'S.. N.. 'S.."
+        },
+        {
+          "lyrics": "Chandan sa badan",
+          "indian": "'S.... 'S.. N.. D.. P.. m.."
+        },
+        {
+          "lyrics": "Chanchal chitvan",
+          "indian": "'S.... 'S.. N.. D.. G.. m.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

@@ -1,0 +1,81 @@
+{
+  "id": "chand-chupa-badal-mein",
+  "title": "Chand Chupa Badal Mein",
+  "info": [
+    "Film: Hum Dil De Chuke Sanam (1999)",
+    "Scale: D bass/middle (flute)",
+    "Notation: . = low octave, ' = high octave, .. = hold, D(k) = komal Dha"
+  ],
+  "thumbnail": "images/chand-chupa-badal-mein.png",
+  "background": "images/chand-chupa-badal-mein.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Chand chupaa badal meinn",
+          "indian": "'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R.."
+        },
+        {
+          "lyrics": "Sharmaa kee merii jaana",
+          "indian": "N.... R.. N.. 'S.. N.. D.. D.."
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "lines": [
+        {
+          "lyrics": "Chand chupaa badal meinn",
+          "indian": "'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R.."
+        },
+        {
+          "lyrics": "Sharmaa kee merii jaana",
+          "indian": "N.... R.. N.. R. R. G.. R.. S.. R.. G.. D(k).. D.. N.."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Seene see lag jaa tuu",
+          "indian": "'S.... G.. 'S.. G.. m.. G.. G.. R.."
+        },
+        {
+          "lyrics": "Bal khaake merii jaana",
+          "indian": "N.... R.. N.. 'S.. N.. D.. D.."
+        },
+        {
+          "lyrics": "Gumsum saa haii gupchup saa haii",
+          "indian": "D(k). D. N.. D. N.. D(k). D. N.. D. N.."
+        },
+        {
+          "lyrics": "Madhosh haii khaamosh haii",
+          "indian": "D(k). D. 'S.. 'S. 'S.. D(k). D. 'S.. 'S. 'S.."
+        },
+        {
+          "lyrics": "Yee samaa haan yee samaa kuch aur haii",
+          "indian": "'R.. 'R. 'R.. 'G.. N.. N. N.. N. D. N. D. D(k).."
+        },
+        {
+          "lyrics": "Haan haan haan chaand chupaa baadal meinn",
+          "indian": "G.. D.. N.. 'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R.."
+        },
+        {
+          "lyrics": "Sharmaa ke meri jaanaa",
+          "indian": "N.... R.. N.. R. R. G.. R.. S.. R.. G.. D(k).. D.. N.."
+        },
+        {
+          "lyrics": "Seene see lag jaa tuu",
+          "indian": "'S.... G.. 'S.. G.. m.. G.. G.. R.."
+        },
+        {
+          "lyrics": "Bal khaake merii jaana",
+          "indian": "N.... R.. N.. 'S.. N.. D.. D.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}

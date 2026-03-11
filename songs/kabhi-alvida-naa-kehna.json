@@ -1,0 +1,130 @@
+{
+  "id": "kabhi-alvida-naa-kehna",
+  "title": "Kabhi Alvida Na Kehna",
+  "info": [
+    "Film: Kabhi Alvida Naa Kehna (2006)",
+    "Music: Shankar–Ehsaan–Loy",
+    "Lyrics: Javed Akhtar",
+    "Scale: F major",
+    "Notation: . = low octave, .. = hold"
+  ],
+  "thumbnail": "images/kabhi-alvida-naa-kehna.png",
+  "background": "images/kabhi-alvida-naa-kehna.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tum koo bhii",
+          "indian": "R. G. m. G...."
+        },
+        {
+          "lyrics": "Haii khabarr",
+          "indian": "R. P. m. G...."
+        },
+        {
+          "lyrics": "Mujhkoo bhii",
+          "indian": "S. R. m. G. R...."
+        },
+        {
+          "lyrics": "Hai pataa",
+          "indian": "N. D. N. S...."
+        },
+        {
+          "lyrics": "Ho rahaa",
+          "indian": "R. G. m. G...."
+        },
+        {
+          "lyrics": "Hai judaa",
+          "indian": "R. P. m. G...."
+        },
+        {
+          "lyrics": "Dono kaa",
+          "indian": "S. R. m. G. R...."
+        },
+        {
+          "lyrics": "Raastaa",
+          "indian": "N. D. N. S...."
+        },
+        {
+          "lyrics": "Dur jaakee bhii mujhsee",
+          "indian": "D.... N. D. P.... P.. R.. G.. G. m.."
+        },
+        {
+          "lyrics": "Tum merii yaadon main rehnaa",
+          "indian": "D.... N. D. P.... R.. G. m. G. R. G. R. S.."
+        },
+        {
+          "lyrics": "Kabhi alvidaa naa kehnaa",
+          "indian": "G.. m.. P.. P.. P.. m.. G.. R.. S.. R.."
+        },
+        {
+          "lyrics": "Kabhi alvidaa naa kehnaa",
+          "indian": "G.. m.. P.. P.. P.. m.. G.. R.. S.. R. G. m. G. R.."
+        },
+        {
+          "lyrics": "Kabhi alvidaa naa kehnaa",
+          "indian": "R.. P.. m.. m.. m.. R.. G.. R.. S. S.."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA",
+      "lines": [
+        {
+          "lyrics": "Tum koo bhii",
+          "indian": "R. G. m. G...."
+        },
+        {
+          "lyrics": "Haii khabarr",
+          "indian": "R. P. m. G...."
+        },
+        {
+          "lyrics": "Mujhkoo bhii",
+          "indian": "S. R. m. G. R...."
+        },
+        {
+          "lyrics": "Hai pataa",
+          "indian": "N. D. N. S...."
+        },
+        {
+          "lyrics": "Ho rahaa",
+          "indian": "R. G. m. G...."
+        },
+        {
+          "lyrics": "Hai judaa",
+          "indian": "R. P. m. G...."
+        },
+        {
+          "lyrics": "Dono kaa",
+          "indian": "S. R. m. G. R...."
+        },
+        {
+          "lyrics": "Raastaa",
+          "indian": "N. D. N. S...."
+        },
+        {
+          "lyrics": "Dur jaakee bhii mujhsee",
+          "indian": "D.... N. D. P.... P.. R.. G.. G. m.."
+        },
+        {
+          "lyrics": "Tum merii yaadon main rehnaa",
+          "indian": "D.... N. D. P.... R.. G. m. G. R. G. R. S.."
+        },
+        {
+          "lyrics": "Kabhi alvidaa naa kehnaa",
+          "indian": "G.. m.. P.. P.. P.. m.. G.. R.. S.. R.."
+        },
+        {
+          "lyrics": "Kabhi alvidaa naa kehnaa",
+          "indian": "G.. m.. P.. P.. P.. m.. G.. R.. S.. R. G. m. G. R.."
+        },
+        {
+          "lyrics": "Kabhi alvidaa naa kehnaa",
+          "indian": "R.. P.. m.. m.. m.. R.. G.. R.. S. S.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
