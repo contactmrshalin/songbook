@@ -1,0 +1,110 @@
+{
+  "id": "ek-ajnabee-haseena-se",
+  "title": "Ek Ajnabee Haseena Se",
+  "info": [
+    "Movie: Ajnabee",
+    "Scale (flute): F# (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/ek-ajnabee-haseena-se.png",
+  "background": "images/ek-ajnabee-haseena-se.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Hmhahmha hasinaa see",
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+        },
+        {
+          "lyrics": "Yun mulakaat hoo gayii",
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+        },
+        {
+          "lyrics": "Ek ajnabii hasinaa see",
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+        },
+        {
+          "lyrics": "Yun mulakaat hoo gayii",
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+        },
+        {
+          "lyrics": "Phir kyaa huaa yeh naa puchho",
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+        },
+        {
+          "lyrics": "Kuch aisi baat hoo gayi",
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+        },
+        {
+          "lyrics": "Ek ajnabii hasinaa see",
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+        },
+        {
+          "lyrics": "Yun mulakaat hoo gayii",
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+        }
+      ]
+    },
+    {
+      "name": "Antara",
+      "lines": [
+        {
+          "lyrics": "Wo achaanak aa gayi",
+          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga.."
+        },
+        {
+          "lyrics": "Yun nazar kee saamnee",
+          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re.."
+        },
+        {
+          "lyrics": "Jaise nikal aaya",
+          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa.."
+        },
+        {
+          "lyrics": "Ghataa se chaand",
+          "indian": "Ma...Ga..Re...Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Wo achaanak aa gayi",
+          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga.."
+        },
+        {
+          "lyrics": "Yun nazar kee saamnee",
+          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re.."
+        },
+        {
+          "lyrics": "Jaise nikal aaya",
+          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa.."
+        },
+        {
+          "lyrics": "Ghataa se chaand",
+          "indian": "Ma...Ga..Re...Ma..Ga..Ga.."
+        },
+        {
+          "lyrics": "Chehree pe zulfen",
+          "indian": "Ma..Ga..Ma..Ga..Re...Re.."
+        },
+        {
+          "lyrics": "Bikhri hui thii",
+          "indian": "Ga..Re..Ga..Re..Sa...Sa."
+        },
+        {
+          "lyrics": "Din mein raat ho gayi",
+          "indian": "Ma...Ga..Re...Ni(k)..Ni(k)..Sa.."
+        },
+        {
+          "lyrics": "Ek ajnabii hasinaa see",
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+        },
+        {
+          "lyrics": "Yun mulakaat hoo gayii",
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

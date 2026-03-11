@@ -2,14 +2,58 @@
   "id": "tujhe-dekha-to-yeh-jaana-sanam",
   "title": "Tujhe Dekha To Yeh Jaana Sanam",
   "info": [
-    "Movie: Dilwale Dulhania Le Jayenge (1995) (add/confirm)",
-    "Singer: Lata Mangeshkar 🎤",
-    "Music Director: Rahul Dev Burman (R. D. Burman) 🎼",
-    "Lyricist: Anand Bakshi ✍️"
+    "Movie: Dilwale Dulhania Le Jayenge (DDLJ) (1995)",
+    "Singer: Kumar Sanu, Lata Mangeshkar",
+    "Music: Jatin-Lalit",
+    "Lyrics: Anand Bakshi",
+    "Scale: G Major",
+    "Sargam / Harmonium / Flute notes"
   ],
-  "thumbnail": "images/tujhe_dekha_to_ye_jana_sanam_thumb.png",
-  "background": "images/tujhe_dekha_to_ye_jana_sanam_bg.png",
+  "thumbnail": "images/tujhe-dekha-to-yeh-jaana-sanam.png",
+  "background": "images/tujhe-dekha-to-yeh-jaana-sanam.png",
+  "background_mode": "cover",
   "sections": [
+    {
+      "name": "STHAYI (Provided, G Major)",
+      "lines": [
+        {
+          "lyrics": "Tujhee dekhaa too yeh jaanaa sanamm",
+          "indian": "d.d.d.G.R.G.S.R.m..G."
+        },
+        {
+          "lyrics": "Pyaarr hotaa haii diwaanaa sanamm",
+          "indian": "d.d.d.G.R.G. S.R.S.n."
+        },
+        {
+          "lyrics": "Tujhee dekhaa too yeh jaanaa sanamm",
+          "indian": "d.d.d.G.R.G.S.R.m..G."
+        },
+        {
+          "lyrics": "Pyaarr hotaa haii diwaanaa sanamm",
+          "indian": "d.d.d.G.R.G. S.R.S.n."
+        },
+        {
+          "lyrics": "Abb yahaann see kahaa jaayee humm",
+          "indian": "d.n.p.d.n.. p.d.S.n.."
+        },
+        {
+          "lyrics": "Terii bahoo mee marr jaayee humm",
+          "indian": "n.S.R.P..m..G.S.R. G.R.S.n.d."
+        },
+        {
+          "lyrics": "Tujhee dekhaa too yeh jaanaa sanamm",
+          "indian": "d.d.d.G.R.G.S.R.m..G."
+        },
+        {
+          "lyrics": "Pyaarr hotaa haii diwaanaa sanamm",
+          "indian": "d.d.d.G.R.G. S.R.S.n."
+        },
+        {
+          "lyrics": "Abb yahaann see kahaa jaayee humm",
+          "indian": "d.n.p.d.n.. p.d.S.n.."
+        }
+      ]
+    },
     {
       "name": "STHAYI",
       "lines": [

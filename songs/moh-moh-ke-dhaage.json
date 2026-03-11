@@ -1,0 +1,115 @@
+{
+  "id": "moh-moh-ke-dhaage",
+  "title": "Moh Moh Ke Dhaage",
+  "info": [
+    "Movie: Dum Laga Ke Haisha",
+    "Scale (flute): D (bass/middle)",
+    "Sargam / Harmonium / Flute notes"
+  ],
+  "thumbnail": "images/moh-moh-ke-dhaage.png",
+  "background": "images/moh-moh-ke-dhaage.png",
+  "background_mode": "cover",
+  "sections": [
+    {
+      "name": "Prelude (Humming)",
+      "lines": [
+        {
+          "lyrics": "Hmhmhmhmhmhm…",
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...Re.Sa.Ni(k).Pa..."
+        },
+        {
+          "lyrics": "Hmhmhmhmhmhm",
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga..."
+        },
+        {
+          "lyrics": "Hmhmhmhmhmhm…",
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...Re.Sa.Ni(k).Pa..."
+        },
+        {
+          "lyrics": "Hmhmhmhmhmhm",
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga..."
+        }
+      ]
+    },
+    {
+      "name": "Mukhda",
+      "lines": [
+        {
+          "lyrics": "Yeh moh moh ke dhaagee",
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k).."
+        },
+        {
+          "lyrics": "Teri ungliyon se jaa uljhee",
+          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa.."
+        },
+        {
+          "lyrics": "(Flute Music)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Yeh moh moh ke dhaagee",
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k).."
+        },
+        {
+          "lyrics": "Teri ungliyon se jaa uljhee",
+          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa.."
+        },
+        {
+          "lyrics": "Koi toh toh naa laagee",
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..Sa.."
+        },
+        {
+          "lyrics": "Kis tarah girah yeh suljhee",
+          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa.."
+        },
+        {
+          "lyrics": "Hai room room ek taaraa ahaahaa",
+          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k)...Pa..Ma..Pa..Ma.."
+        },
+        {
+          "lyrics": "Hai room room ek taara",
+          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k).."
+        },
+        {
+          "lyrics": "Joo badloon mein se gujree",
+          "indian": "Sa'..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Pa...Ma..Ga..Ma..Ga.."
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "lines": [
+        {
+          "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
+          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa.."
+        },
+        {
+          "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
+          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa.."
+        },
+        {
+          "lyrics": "Kaise tune ankahaa",
+          "indian": "Sa..Ni(k)..Pa.Pa..Pa.Ni(k).Sa.Re.."
+        },
+        {
+          "lyrics": "Tunee ankahaa sab sunaa",
+          "indian": "Re.Sa..Sa.Ga.Ma.Pa..Re..Ni(k).Sa.."
+        },
+        {
+          "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
+          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa.."
+        },
+        {
+          "lyrics": "Tuu dil saa hai mein raat aaana dono",
+          "indian": "Pa...Ma..Ga..Ma..Ga.. Ga..Ma..Pa..Dha(k)...Pa..Ma..Pa..Ma.."
+        },
+        {
+          "lyrics": "Mil jaayein shaymon ki tarahh",
+          "indian": "Ni..Ni..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Ma..Ga.."
+        }
+      ]
+    }
+  ],
+  "export": true
+}
+

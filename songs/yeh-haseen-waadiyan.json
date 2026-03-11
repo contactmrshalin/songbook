@@ -8,6 +8,9 @@
     "Scale: D Natural (works on any Sa)",
     "Notes System: S R G Ma(t) P Dha(k) Ni (k = komal, t = tivra)"
   ],
+  "thumbnail": "images/yeh-haseen-waadiyan.png",
+  "background": "images/yeh-haseen-waadiyan.png",
+  "background_mode": "cover",
   "sections": [
     {
       "name": "Mukhda",
