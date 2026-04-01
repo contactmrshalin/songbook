@@ -1,0 +1,149 @@
+{
+  "id": "kuch-kuch-hota-hai",
+  "title": "Kuch Kuch Hota Hai",
+  "export": true,
+  "info": [
+    "Film/Artist: Title Song",
+    "Scale: G BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/kuch-kuch-hota-hai-title-song-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tum paas aayee",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Yoon muskraaye",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Tum paas aayee",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Yoon muskraaye",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Tumnee naa jaane kyaa",
+          "indian": "R G R S n R p",
+          "western": "D E D C B. D G."
+        },
+        {
+          "lyrics": "Sapnee dikhaye",
+          "indian": "R S G S S S",
+          "western": "D C E C C C"
+        },
+        {
+          "lyrics": "Tum paas aayee",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Yoon muskraaye",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Tumnee naa jaane kyaa",
+          "indian": "R G R S n R p",
+          "western": "D E D C B. D G."
+        },
+        {
+          "lyrics": "Sapnee dikhaye",
+          "indian": "R S G S S S",
+          "western": "D C E C C C"
+        },
+        {
+          "lyrics": "Ab toh meera dil",
+          "indian": "S S R G D P",
+          "western": "C C D E A G"
+        },
+        {
+          "lyrics": "Jaage naa sotaa haa",
+          "indian": "S R G D D P",
+          "western": "C D E A A G"
+        },
+        {
+          "lyrics": "Kyaa karoon haaye",
+          "indian": "R G R S n d n d p",
+          "western": "D E D C B. A. B. A. G."
+        },
+        {
+          "lyrics": "Kuch kuch hootaa hai",
+          "indian": "R S R S S S S R G.",
+          "western": "D C D C C C C D E."
+        },
+        {
+          "lyrics": "Kyaa karoon haaye",
+          "indian": "R G R S n d n d p",
+          "western": "D E D C B. A. B. A. G."
+        },
+        {
+          "lyrics": "Kuch kuch hootaa hai",
+          "indian": "R S m G S S S",
+          "western": "D C F E C C C"
+        },
+        {
+          "lyrics": "Tum paas aayee",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Yoon muskraaye",
+          "indian": "G m G R S G",
+          "western": "E F E D C E"
+        },
+        {
+          "lyrics": "Tumnee naa jaane kyaa",
+          "indian": "R G R S n R p",
+          "western": "D E D C B. D G."
+        },
+        {
+          "lyrics": "Sapnee dikhaye",
+          "indian": "R S G S S S",
+          "western": "D C E C C C"
+        },
+        {
+          "lyrics": "Ab toh meera dil",
+          "indian": "S S R G D P",
+          "western": "C C D E A G"
+        },
+        {
+          "lyrics": "Jaage naa sotaa haa",
+          "indian": "S R G D D P",
+          "western": "C D E A A G"
+        },
+        {
+          "lyrics": "Kyaa karoon haaye",
+          "indian": "R G R S n d n d p",
+          "western": "D E D C B. A. B. A. G."
+        },
+        {
+          "lyrics": "Kuch kuch hootaa hai",
+          "indian": "R S R S S S S R G.",
+          "western": "D C D C C C C D E."
+        },
+        {
+          "lyrics": "Kyaa karoon haaye",
+          "indian": "R G R S n d n d p",
+          "western": "D E D C B. A. B. A. G."
+        },
+        {
+          "lyrics": "Kuch kuch hootaa hai",
+          "indian": "R S R S S S S",
+          "western": "D C D C C C C"
+        }
+      ]
+    }
+  ]
+}
