@@ -275,22 +275,8 @@ def _normalize_notation(raw: str) -> str:
     # Clean up multiple spaces
     s = re.sub(r"\s+", " ", s).strip()
 
-    # Now convert letter tokens to word form for better display
-    # Order matters: Dha before D, Ni before N, etc.
-    # We'll do this carefully to not break octave marks
-
-    # Handle komal markers: D(K) -> Dha(k), etc.
-    s = re.sub(r"\bD\(K\)", "Dha(k)", s, flags=re.IGNORECASE)
-    s = re.sub(r"\bN\(K\)", "Ni(k)", s, flags=re.IGNORECASE)
-    s = re.sub(r"\bR\(K\)", "Re(k)", s, flags=re.IGNORECASE)
-    s = re.sub(r"\bG\(K\)", "Ga(k)", s, flags=re.IGNORECASE)
-
     # Handle tivra Ma: M(T) or just uppercase M without octave
     s = re.sub(r"\bM\(T\)", "Ma(T)", s, flags=re.IGNORECASE)
-
-    # Convert letter tokens to word forms
-    # We need to be careful with M (tivra Ma) vs m (shuddh Ma)
-    # and with octave markers (', .)
 
     # Process token by token
     parts = s.split()
@@ -334,12 +320,14 @@ def _convert_token_to_display(token: str) -> str:
 
     # Komal markers
     komal = ""
-    m = re.match(r"^([RGDN])\(([kK])\)$", t)
+    m = re.match(r"^([rgdnRGDN])\(([kK])\)$", t)
     if m:
         letter = m.group(1)
+        # If letter is lowercase, it represents lower octave
+        local_low = "," if letter.islower() else ""
         mapping = {"R": "Re", "G": "Ga", "D": "Dha", "N": "Ni"}
         word = mapping.get(letter.upper(), letter)
-        return f"{low_prefix}{word}(k){octave}{hold}"
+        return f"{low_prefix}{local_low}{word}(k){octave}{hold}"
 
     # Tivra Ma
     m = re.match(r"^M\(([tT])\)$", t)
@@ -351,9 +339,9 @@ def _convert_token_to_display(token: str) -> str:
         "S": "Sa", "R": "Re", "G": "Ga",
         "m": "Ma", "M": "Ma(T)",
         "P": "Pa", "D": "Dha", "N": "Ni",
-        # Lowercase komal
-        "r": "Re(k)", "g": "Ga(k)",
-        "d": "Dha(k)", "n": "Ni(k)",
+        # Lowercase represents low octave, not komal.
+        "r": ",Re", "g": ",Ga",
+        "p": ",Pa", "d": ",Dha", "n": ",Ni",
     }
 
     # Handle compound tokens like "N.D.P" or "d.n.p" (multiple notes run together)
