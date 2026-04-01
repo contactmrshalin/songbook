@@ -1,0 +1,38 @@
+{
+  "id": "happy-birthday",
+  "title": "Happy Birthday",
+  "export": true,
+  "info": [
+    "Category: Celebration",
+    "Source: https://www.notationsworld.com/happy-birthday-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Happy birthdayy too youu",
+          "indian": "R R G R P M",
+          "western": "D D E D G F#"
+        },
+        {
+          "lyrics": "Happy birthdayy too youu",
+          "indian": "R R G R D P",
+          "western": "D D E D A G"
+        },
+        {
+          "lyrics": "Happy birthdayy Happy birthdayy",
+          "indian": "R R R' N P M G",
+          "western": "D D D' B G F# E"
+        },
+        {
+          "lyrics": "Happy birthdayy too youu",
+          "indian": "S' S' N P D P",
+          "western": "C' C' B G A G"
+        }
+      ]
+    }
+  ]
+}
