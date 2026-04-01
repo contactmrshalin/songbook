@@ -1,101 +1,75 @@
 {
   "id": "humko-humise-chura-lo",
   "title": "Humko Humise Chura Lo",
-  "thumbnail": "images/humko_humise_thumb.png",
-  "background": "images/humko_humise_thumb.png",
+  "export": true,
   "info": [
-    "Movie: Mohabbatein (2000)",
-    "Singers: Lata Mangeshkar, Udit Narayan",
-    "Music Director: Jatin–Lalit",
-    "Lyricist: Anand Bakshi",
-    "Raag Feel: Yaman / Kalyan",
-    "Scale: Sa = C"
+    "Film/Artist: Mohabbatein",
+    "Scale: F BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/humko-humise-chura-lo-sargam-harmonium-and-flute-notes.html"
   ],
+  "thumbnail": "",
+  "background": "",
   "sections": [
     {
-      "name": "MUKHDA",
+      "name": "STHAYI",
       "lines": [
         {
           "lyrics": "Humko humise chura lo",
-          "indian": "Dha Ga Re Re Ga Re Sa Sa Re Re Ni"
+          "indian": "Re: Dha: Pa Dha: Pa Ma Ma Pa Pa Ga:"
         },
         {
-          "lyrics": "Dil mein kahin tum chhupa lo",
-          "indian": "Pa Re^ Sa Sa Re Dha Sa Ni Ni Sa Sa^ Dha"
+          "lyrics": "Dil mein kahin tum chupa lo",
+          "indian": "Sa: Pa: Ma Pa: Ma Ga Ga Ma Ma Re:"
         },
         {
-          "lyrics": "Humko humise chura lo (variation)",
-          "indian": "Dha Ga Re Re Ga Re Sa Sa Re Re Ga^^ Ni"
+          "lyrics": "Humko humise chura lo",
+          "indian": "Re: Dha: Pa Dha: Pa Ma Ma Pa Pa Ga:"
         },
         {
-          "lyrics": "Dil mein kahin tum chhupa lo (variation)",
-          "indian": "Pa Re^ Sa Sa Re Sa Sa Ni Ni Sa Sa Ga^^ Dha"
-        }
-      ]
-    },
-    {
-      "name": "CROSS (04:08)",
-      "lines": [
-        {
-          "lyrics": "Hum akele kho na jaayein",
-          "indian": "Sa Ni Dha Ni Dha Ni Dha Pa Dha Pa"
+          "lyrics": "Dil mein kahin tum chupa lo",
+          "indian": "Sa: Pa: Ma Pa: Ma Ga Ga Ma Ma Re:"
         },
         {
-          "lyrics": "Door tumse ho na jaayein",
-          "indian": "Sa Ni Dha Ni Sa^^ Dha Ni Dha Pa Dha Pa"
+          "lyrics": "Hum akele kho na jaayen",
+          "indian": "Ma Ga Re Ga Re: Ga Re Sa Re Sa:"
+        },
+        {
+          "lyrics": "Door tumse ho na jaayen",
+          "indian": "Ma Ga Re Ga Re: Ga Re Sa Re Sa:"
         },
         {
           "lyrics": "Paas aao gale se laga lo",
-          "indian": "Ga Ma Ga Re Ga Sa Sa Sa Re Ga^^ Sa"
-        }
-      ]
-    },
-    {
-      "name": "ANTARA (06:39)",
-      "lines": [
-        {
-          "lyrics": "Ye dil dhadka do",
-          "indian": "Sa Ni Ni Sa Ni^ Dha Dha Ni Dha^ Pa Pa Pa Dha Pa Dha"
+          "indian": "Dha(k): Dha(k) Ma: Ma Ma Pa Dha Ga Ma Ga Re:"
         },
         {
-          "lyrics": "Zulfein bikhra do",
-          "indian": "Ni Dha Dha Ni Dha^^ Pa Pa Ma Ma Dha Pa"
+          "lyrics": "Humko humise chura lo",
+          "indian": "Re: Dha: Pa Dha: Pa Ma Ma Pa Pa Ga:"
         },
         {
-          "lyrics": "Sharma ke apna",
-          "indian": "Dha^^ Pa Pa Dha Ma Ma Ga Ga Pa Ma"
+          "lyrics": "Dil mein kahin tum chupa lo",
+          "indian": "Sa: Pa: Ma Pa: Ma Ga Ga Ma Ma Re:"
         },
         {
-          "lyrics": "Aanchal lehra do",
-          "indian": "Sa Ni Ni Sa Ni Dha Dha Ni Pa Pa Pa Dha Pa Dha"
-        }
-      ]
-    },
-    {
-      "name": "CROSS 2 (09:40)",
-      "lines": [
-        {
-          "lyrics": "Hum zulfein to bikhra dein",
-          "indian": "Ni Sa Re Ma Ga Re Sa Ga Re"
+          "lyrics": "Hum akele kho na jaayen",
+          "indian": "Ma Ga Re Ga Re: Ga Re Sa Re Sa:"
         },
         {
-          "lyrics": "Din mein raat na ho jaaye",
-          "indian": "Ni Sa Re Re Ma Ga Re Re"
+          "lyrics": "Door tumse ho na jaayen",
+          "indian": "Ma Ga Re Ga Re: Ga Re Sa Re Sa:"
         },
         {
-          "lyrics": "Hum aanchal to lehra dein",
-          "indian": "Dha Ni Sa Sa Re Sa Ni Sa Re Sa"
+          "lyrics": "Paas aao gale se laga lo",
+          "indian": "Dha(k): Dha(k) Ma: Ma Ma Pa Dha Ga Ma Ga Re:"
         },
         {
-          "lyrics": "Par barsaat na ho jaaye",
-          "indian": "Dha Ni Sa Sa Ga Re Re Sa Sa"
+          "lyrics": "Humko humise chura lo",
+          "indian": "Re: Dha: Pa Dha: Pa Ma Ma Pa Pa Ga:"
         },
         {
-          "lyrics": "Paas aao gale se laga lo (repeat)",
-          "indian": "Ga Ma Ga Re Ga Sa Sa Sa Re Ga^^ Ma Ni Sa Ni Dha"
+          "lyrics": "Dil mein kahin tum chupa lo",
+          "indian": "Sa: Pa: Ma Pa: Ma Ga Ga Ma Ma Re:"
         }
       ]
     }
-  ],
-  "export": true
+  ]
 }
