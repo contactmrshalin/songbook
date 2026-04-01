@@ -15,71 +15,86 @@
       "lines": [
         {
           "lyrics": "Achyutam keshavam",
-          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga..",
+          "western": "C..D..E..E..F..E.."
         },
         {
           "lyrics": "Krishnaa daamodaram",
-          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re..",
+          "western": "Bb..C..D..D..E..D.."
         },
         {
           "lyrics": "Rama narayaanam",
-          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re.."
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..",
+          "western": "C..Bb..Ab..Ab..Ab..D.."
         },
         {
           "lyrics": "Jaaanki vallabham",
-          "indian": "Re..Re..Ga..Sa..Ni(k)..Sa.."
+          "indian": "Re..Re..Ga..Sa..Ni(k)..Sa..",
+          "western": "D..D..E..C..Bb..C.."
         },
         {
           "lyrics": "Kaun kehtaa hai bhagvan",
-          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga..",
+          "western": "C..D..E..E..F..E.."
         },
         {
           "lyrics": "Aaate nahi",
-          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re..",
+          "western": "Bb..C..D..D..E..D.."
         },
         {
           "lyrics": "Tum meera kee jaise",
-          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..Re.."
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..Re..",
+          "western": "C..Bb..Ab..Ab..Ab..D..D.."
         },
         {
           "lyrics": "Bulaate nahii",
-          "indian": "Re..Ga..Sa..Ni(k)..Sa.."
+          "indian": "Re..Ga..Sa..Ni(k)..Sa..",
+          "western": "D..E..C..Bb..C.."
         },
         {
           "lyrics": "Achyutam keshavam",
-          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga..",
+          "western": "C..D..E..E..F..E.."
         },
         {
           "lyrics": "Krishnaa daamodaram",
-          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re..",
+          "western": "Bb..C..D..D..E..D.."
         },
         {
           "lyrics": "Rama narayaanam",
-          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re.."
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..",
+          "western": "C..Bb..Ab..Ab..Ab..D.."
         },
         {
           "lyrics": "Jaaanki vallabham",
-          "indian": "Re..Re..Ga..Sa..Ni(k)..Sa.."
+          "indian": "Re..Re..Ga..Sa..Ni(k)..Sa..",
+          "western": "D..D..E..C..Bb..C.."
         },
         {
           "lyrics": "Kaun kehtaa hai bhagvan",
-          "indian": "Sa..Re..Ga..Ga..Ma..Ga.."
+          "indian": "Sa..Re..Ga..Ga..Ma..Ga..",
+          "western": "C..D..E..E..F..E.."
         },
         {
           "lyrics": "Khaatee nahi",
-          "indian": "Ni(k)..Sa..Re..Re..Ga..Re.."
+          "indian": "Ni(k)..Sa..Re..Re..Ga..Re..",
+          "western": "Bb..C..D..D..E..D.."
         },
         {
           "lyrics": "Beer shabrii ke jaise",
-          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..Re.."
+          "indian": "Sa..Ni(k)..Dha(k)..Dha(k)..Dha(k)..Re..Re..",
+          "western": "C..Bb..Ab..Ab..Ab..D..D.."
         },
         {
           "lyrics": "Khilaate nahii",
-          "indian": "Re..Ga..Sa..Ni(k)..Sa.."
+          "indian": "Re..Ga..Sa..Ni(k)..Sa..",
+          "western": "D..E..C..Bb..C.."
         }
       ]
     }
   ],
   "export": true
 }
-

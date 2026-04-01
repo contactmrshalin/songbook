@@ -15,35 +15,43 @@
       "lines": [
         {
           "lyrics": "Hum kis gali ja rahein hai",
-          "indian": "S R G G G G m G R R S"
+          "indian": "S R G G G G m G R R S",
+          "western": "C D E E E E F E D D C"
         },
         {
           "lyrics": "Hum kis gali ja rahein hai",
-          "indian": "S R G G G G m G R R S"
+          "indian": "S R G G G G m G R R S",
+          "western": "C D E E E E F E D D C"
         },
         {
           "lyrics": "Apna koi tikkana nahi",
-          "indian": "S n d: n S: R: G: G: R S: n R"
+          "indian": "S n d: n S: R: G: G: R S: n R",
+          "western": "C B. A.: B. C: D: E: E: D C: B. D"
         },
         {
           "lyrics": "Apna koi tikkana nahi",
-          "indian": "S n d: n S: R: G: G: R S:"
+          "indian": "S n d: n S: R: G: G: R S:",
+          "western": "C B. A.: B. C: D: E: E: D C:"
         },
         {
           "lyrics": "Armanoo ki anjumaan may",
-          "indian": "S R G G G m G R R S"
+          "indian": "S R G G G m G R R S",
+          "western": "C D E E E F E D D C"
         },
         {
           "lyrics": "Bay suod hai apni lagan may",
-          "indian": "S R G G G G m G R R S"
+          "indian": "S R G G G G m G R R S",
+          "western": "C D E E E E F E D D C"
         },
         {
           "lyrics": "Apna koi fasana nahi",
-          "indian": "S n d: n S: R: G: G: R S: n R"
+          "indian": "S n d: n S: R: G: G: R S: n R",
+          "western": "C B. A.: B. C: D: E: E: D C: B. D"
         },
         {
           "lyrics": "Apna koi fasana nahi",
-          "indian": "S n d: n S: P G R: G: R S:"
+          "indian": "S n d: n S: P G R: G: R S:",
+          "western": "C B. A.: B. C: G E D: E: D C:"
         }
       ]
     }

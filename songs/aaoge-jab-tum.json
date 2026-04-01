@@ -15,87 +15,108 @@
       "lines": [
         {
           "lyrics": "Flute Piece:-",
-          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'"
+          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'",
+          "western": "C' E' E' D' E' D' C' D' E': F' E' D'"
         },
         {
           "lyrics": "",
-          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R': G' R' R' S'."
+          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R': G' R' R' S'.",
+          "western": "C' G' F' E' F' E'. D' E' F' C' D' D': E' D' D' C'."
         },
         {
           "lyrics": "",
-          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'"
+          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'",
+          "western": "C' E' E' D' E' D' C' D' E': F' E' D'"
         },
         {
           "lyrics": "",
-          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R':"
+          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R':",
+          "western": "C' G' F' E' F' E'. D' E' F' C' D' D':"
         },
         {
           "lyrics": "Aaaogee jabb tumm saajnaa",
-          "indian": "n p n n S S S S G: S n"
+          "indian": "n p n n S S S S G: S n",
+          "western": "B. G. B. B. C C C C E: C B."
         },
         {
           "lyrics": "Aaaogee jabb tumm saajnaa",
-          "indian": "n p n n S S S S G: S n"
+          "indian": "n p n n S S S S G: S n",
+          "western": "B. G. B. B. C C C C E: C B."
         },
         {
           "lyrics": "Anganaa phooll khilegeee",
-          "indian": "m m G R G S n S S"
+          "indian": "m m G R G S n S S",
+          "western": "F F E D E C B. C C"
         },
         {
           "lyrics": "Barseee gaaa sawaann",
-          "indian": "P D P: G R G m m"
+          "indian": "P D P: G R G m m",
+          "western": "G A G: E D E F F"
         },
         {
           "lyrics": "Barseee gaaa sawaann",
-          "indian": "D N(K).D P M P P"
+          "indian": "D N(K).D P M P P",
+          "western": "A B(K).A G F# G G"
         },
         {
           "lyrics": "Jhooom jhooom keee",
-          "indian": "S': P D: m G G m G R"
+          "indian": "S': P D: m G G m G R",
+          "western": "C': G A: F E E F E D"
         },
         {
           "lyrics": "Doo dill aaisee mileegee",
-          "indian": "R G m G R G S n S S"
+          "indian": "R G m G R G S n S S",
+          "western": "D E F E D E C B. C C"
         },
         {
           "lyrics": "Aaaogee jabb tumm saajnaa",
-          "indian": "n p n n S S S S G: S n"
+          "indian": "n p n n S S S S G: S n",
+          "western": "B. G. B. B. C C C C E: C B."
         },
         {
           "lyrics": "Anganaa phooll khilegeee",
-          "indian": "m m G R G S n S S"
+          "indian": "m m G R G S n S S",
+          "western": "F F E D E C B. C C"
         },
         {
           "lyrics": "Flute Piece:-",
-          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'"
+          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'",
+          "western": "C' E' E' D' E' D' C' D' E': F' E' D'"
         },
         {
           "lyrics": "",
-          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R': G' R' R' S'."
+          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R': G' R' R' S'.",
+          "western": "C' G' F' E' F' E'. D' E' F' C' D' D': E' D' D' C'."
         },
         {
           "lyrics": "",
-          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'"
+          "indian": "S' G' G' R' G' R' S' R' G': m' G' R'",
+          "western": "C' E' E' D' E' D' C' D' E': F' E' D'"
         },
         {
           "lyrics": "",
-          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R':"
+          "indian": "S' P' m' G' m' G'. R' G' m' S' R' R':",
+          "western": "C' G' F' E' F' E'. D' E' F' C' D' D':"
         },
         {
           "lyrics": "Nainaa teree kajraaree",
-          "indian": "S R G R G R R S G R R:"
+          "indian": "S R G R G R R S G R R:",
+          "western": "C D E D E D D C E D D:"
         },
         {
           "lyrics": "Nainoo pee humm dill haaree haii",
-          "indian": "n R n d d: d p S S S"
+          "indian": "n R n d d: d p S S S",
+          "western": "B. D B. A. A.: A. G. C C C"
         },
         {
           "lyrics": "Anjaanee hii teree nainoo nee",
-          "indian": "S R G R G R R S G m G R R"
+          "indian": "S R G R G R R S G m G R R",
+          "western": "C D E D E D D C E F E D D"
         },
         {
           "lyrics": "Waadee kiyaa kaii saaree haii",
-          "indian": "n R n d d: d p S S S"
+          "indian": "n R n d d: d p S S S",
+          "western": "B. D B. A. A.: A. G. C C C"
         }
       ]
     }

@@ -15,35 +15,43 @@
       "lines": [
         {
           "lyrics": "Hmhahmha hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
+          "western": "G..E..D..E.. E..D..E..F.."
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
+          "western": "F..F..E..D.. G..E..D..C.."
         },
         {
           "lyrics": "Ek ajnabii hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
+          "western": "G..E..D..E.. E..D..E..F.."
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
+          "western": "F..F..E..D.. G..E..D..C.."
         },
         {
           "lyrics": "Phir kyaa huaa yeh naa puchho",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
+          "western": "G..E..D..E.. E..D..E..F.."
         },
         {
           "lyrics": "Kuch aisi baat hoo gayi",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
+          "western": "F..F..E..D.. G..E..D..C.."
         },
         {
           "lyrics": "Ek ajnabii hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
+          "western": "G..E..D..E.. E..D..E..F.."
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
+          "western": "F..F..E..D.. G..E..D..C.."
         }
       ]
     },
@@ -52,59 +60,71 @@
       "lines": [
         {
           "lyrics": "Wo achaanak aa gayi",
-          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga.."
+          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga..",
+          "western": "A...G..F...G...E...E..E.."
         },
         {
           "lyrics": "Yun nazar kee saamnee",
-          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re.."
+          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re..",
+          "western": "A...G..F...G...D...D..D.."
         },
         {
           "lyrics": "Jaise nikal aaya",
-          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa.."
+          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa..",
+          "western": "D..F..F..F..G..A..G.."
         },
         {
           "lyrics": "Ghataa se chaand",
-          "indian": "Ma...Ga..Re...Ma..Ga..Ga.."
+          "indian": "Ma...Ga..Re...Ma..Ga..Ga..",
+          "western": "F...E..D...F..E..E.."
         },
         {
           "lyrics": "Wo achaanak aa gayi",
-          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga.."
+          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga..",
+          "western": "A...G..F...G...E...E..E.."
         },
         {
           "lyrics": "Yun nazar kee saamnee",
-          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re.."
+          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re..",
+          "western": "A...G..F...G...D...D..D.."
         },
         {
           "lyrics": "Jaise nikal aaya",
-          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa.."
+          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa..",
+          "western": "D..F..F..F..G..A..G.."
         },
         {
           "lyrics": "Ghataa se chaand",
-          "indian": "Ma...Ga..Re...Ma..Ga..Ga.."
+          "indian": "Ma...Ga..Re...Ma..Ga..Ga..",
+          "western": "F...E..D...F..E..E.."
         },
         {
           "lyrics": "Chehree pe zulfen",
-          "indian": "Ma..Ga..Ma..Ga..Re...Re.."
+          "indian": "Ma..Ga..Ma..Ga..Re...Re..",
+          "western": "F..E..F..E..D...D.."
         },
         {
           "lyrics": "Bikhri hui thii",
-          "indian": "Ga..Re..Ga..Re..Sa...Sa."
+          "indian": "Ga..Re..Ga..Re..Sa...Sa.",
+          "western": "E..D..E..D..C...C."
         },
         {
           "lyrics": "Din mein raat ho gayi",
-          "indian": "Ma...Ga..Re...Ni(k)..Ni(k)..Sa.."
+          "indian": "Ma...Ga..Re...Ni(k)..Ni(k)..Sa..",
+          "western": "F...E..D...Bb..Bb..C.."
         },
         {
           "lyrics": "Ek ajnabii hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma.."
+          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
+          "western": "G..E..D..E.. E..D..E..F.."
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa.."
+          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
+          "western": "F..F..E..D.. G..E..D..C.."
         }
       ]
     }
   ],
   "export": true
 }
-

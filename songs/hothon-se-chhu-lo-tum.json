@@ -12,19 +12,23 @@
       "lines": [
         {
           "lyrics": "Phrase 1",
-          "indian": "Ga Re Ga Re Sa"
+          "indian": "Ga Re Ga Re Sa",
+          "western": "E D E D C"
         },
         {
           "lyrics": "Phrase 2",
-          "indian": "Sa Re Sa Ni"
+          "indian": "Sa Re Sa Ni",
+          "western": "C D C B"
         },
         {
           "lyrics": "Phrase 3",
-          "indian": "Ni Sa Sa Re Re Sa"
+          "indian": "Ni Sa Sa Re Re Sa",
+          "western": "B C C D D C"
         },
         {
           "lyrics": "Phrase 4",
-          "indian": "Ga : Re Sa Sa"
+          "indian": "Ga : Re Sa Sa",
+          "western": "E : D C C"
         }
       ]
     },
@@ -33,15 +37,18 @@
       "lines": [
         {
           "lyrics": "Phrase 5",
-          "indian": "Ga Ma(T) Ma(T) Pa Pa"
+          "indian": "Ga Ma(T) Ma(T) Pa Pa",
+          "western": "E F# F# G G"
         },
         {
           "lyrics": "Phrase 6",
-          "indian": "Ma(T) Dha Pa Ma(T) Ga"
+          "indian": "Ma(T) Dha Pa Ma(T) Ga",
+          "western": "F# A G F# E"
         },
         {
           "lyrics": "Phrase 7",
-          "indian": "Ga Ma(T) Ma(T) Pa Pa"
+          "indian": "Ga Ma(T) Ma(T) Pa Pa",
+          "western": "E F# F# G G"
         }
       ]
     },
@@ -50,7 +57,8 @@
       "lines": [
         {
           "lyrics": "Phrase 8",
-          "indian": "Ga Re Sa Re Ga"
+          "indian": "Ga Re Sa Re Ga",
+          "western": "E D C D E"
         }
       ]
     }

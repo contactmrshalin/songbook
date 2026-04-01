@@ -16,39 +16,48 @@
       "lines": [
         {
           "lyrics": "Oo re manwa tu toh baawa hai",
-          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D...."
+          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D....",
+          "western": "B.. B.. B.. 'C.. B.. 'C.... G.. A.. G.. A...."
         },
         {
           "lyrics": "Tuu hi jaane tu kya sochta hai",
-          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D...."
+          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D....",
+          "western": "B.. B.. B.. 'C.. B.. 'C.... G.. A.. G.. A...."
         },
         {
           "lyrics": "Tuu hi jaane tu kya sochta hai baawre",
-          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D.... P.. m.. G.. R.."
+          "indian": "N.. N.. N.. 'S.. N.. 'S.... P.. D.. P.. D.... P.. m.. G.. R..",
+          "western": "B.. B.. B.. 'C.. B.. 'C.... G.. A.. G.. A.... G.. F.. E.. D.."
         },
         {
           "lyrics": "Kyuun dikhaye sapna tu sote jaagte",
-          "indian": "R.. S.. N.. R.. P.. m.. G.. R.. m.. G.. R.... S. S.."
+          "indian": "R.. S.. N.. R.. P.. m.. G.. R.. m.. G.. R.... S. S..",
+          "western": "D.. C.. B.. D.. G.. F.. E.. D.. F.. E.. D.... C. C.."
         },
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D..",
+          "western": "C. C.. C.. E.. E.. F.. F.. A.. A.."
         },
         {
           "lyrics": "Nainoo ko mund mund",
-          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P..",
+          "western": "B.. 'C.. A.. G.. F.. F.. G.. G.."
         },
         {
           "lyrics": "Nainoo ko mund mund",
-          "indian": "R.. G.. R.. S.. N.. N.. S.. S.."
+          "indian": "R.. G.. R.. S.. N.. N.. S.. S..",
+          "western": "D.. E.. D.. C.. B.. B.. C.. C.."
         },
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D..",
+          "western": "C. C.. C.. E.. E.. F.. F.. A.. A.."
         },
         {
           "lyrics": "Nainoo ko mund mund",
-          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P..",
+          "western": "B.. 'C.. A.. G.. F.. F.. G.. G.."
         }
       ]
     },
@@ -57,43 +66,53 @@
       "lines": [
         {
           "lyrics": "Kaisee main chalu dekh na saako",
-          "indian": "N.. 'S.. D.. P.. m.. N.. 'S.. D.. P.. m.."
+          "indian": "N.. 'S.. D.. P.. m.. N.. 'S.. D.. P.. m..",
+          "western": "B.. 'C.. A.. G.. F.. B.. 'C.. A.. G.. F.."
         },
         {
           "lyrics": "Anjaane raaste",
-          "indian": "m. P.. P.. G.. R.... S. S.."
+          "indian": "m. P.. P.. G.. R.... S. S..",
+          "western": "F. G.. G.. E.. D.... C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.. C. C. C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R.",
+          "western": "B.. B.. D.. D. D. D.. D. D. D. D.. D. D. D. D."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S..",
+          "western": "E.. G.. E.. D.. D. C.. C. C. C. C.."
         },
         {
           "lyrics": "Dheemee bole koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.. C. C. C. C.."
         },
         {
           "lyrics": "Dheemee bole koi iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R.",
+          "western": "B.. B.. D.. D. D. D.. D. D. D. D.. D. D. D. D."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S..",
+          "western": "E.. G.. E.. D.. D. C.. C. C. C. C.."
         }
       ]
     },
@@ -102,35 +121,43 @@
       "lines": [
         {
           "lyrics": "Sun rahi hoon sudhbudh kho ke",
-          "indian": "'G.. 'R.. 'R.. 'S.. N. 'S. 'S. N.. P. D. D. P.."
+          "indian": "'G.. 'R.. 'R.. 'S.. N. 'S. 'S. N.. P. D. D. P..",
+          "western": "'E.. 'D.. 'D.. 'C.. B. 'C. 'C. B.. G. A. A. G.."
         },
         {
           "lyrics": "Koi main kahani",
-          "indian": "'G.. 'R.. 'R.. 'S.. N.. 'S...."
+          "indian": "'G.. 'R.. 'R.. 'S.. N.. 'S....",
+          "western": "'E.. 'D.. 'D.. 'C.. B.. 'C...."
         },
         {
           "lyrics": "Puri kahani hai kya kisi hai pata",
-          "indian": "D.. D.. P.. m.. D.. D.. N.. N.. 'S.. 'R.. 'S. 'S...."
+          "indian": "D.. D.. P.. m.. D.. D.. N.. N.. 'S.. 'R.. 'S. 'S....",
+          "western": "A.. A.. G.. F.. A.. A.. B.. B.. 'C.. 'D.. 'C. 'C...."
         },
         {
           "lyrics": "Main to kisiki ho ke",
-          "indian": "'G.. 'R.. 'R.. 'S.. N. 'S. 'S. N.. P. D. D. P.."
+          "indian": "'G.. 'R.. 'R.. 'S.. N. 'S. 'S. N.. P. D. D. P..",
+          "western": "'E.. 'D.. 'D.. 'C.. B. 'C. 'C. B.. G. A. A. G.."
         },
         {
           "lyrics": "Yeh bhi na jaani",
-          "indian": "'G.. 'R.. 'R.. 'S.. N.. 'S...."
+          "indian": "'G.. 'R.. 'R.. 'S.. N.. 'S....",
+          "western": "'E.. 'D.. 'D.. 'C.. B.. 'C...."
         },
         {
           "lyrics": "Ruth hai yeh do pal ki ya rahegi sada",
-          "indian": "D.. D.. P.. m.. D.. D.. N.. N.. 'S.. 'R.. 'S. 'S...."
+          "indian": "D.. D.. P.. m.. D.. D.. N.. N.. 'S.. 'R.. 'S. 'S....",
+          "western": "A.. A.. G.. F.. A.. A.. B.. B.. 'C.. 'D.. 'C. 'C...."
         },
         {
           "lyrics": "Kise hai pataaa..",
-          "indian": "P. D.. S.. R. S. R.... G. R. S. D.."
+          "indian": "P. D.. S.. R. S. R.... G. R. S. D..",
+          "western": "G. A.. C.. D. C. D.... E. D. C. A.."
         },
         {
           "lyrics": "Kise hai pataaa..",
-          "indian": "D. P.. D.. R. S...."
+          "indian": "D. P.. D.. R. S....",
+          "western": "A. G.. A.. D. C...."
         }
       ]
     },
@@ -139,63 +166,78 @@
       "lines": [
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D..",
+          "western": "C. C.. C.. E.. E.. F.. F.. A.. A.."
         },
         {
           "lyrics": "Nainoo ko mund mund",
-          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P..",
+          "western": "B.. 'C.. A.. G.. F.. F.. G.. G.."
         },
         {
           "lyrics": "Nainoo ko mund mund",
-          "indian": "R.. G.. R.. S.. N.. N.. S.. S.."
+          "indian": "R.. G.. R.. S.. N.. N.. S.. S..",
+          "western": "D.. E.. D.. C.. B.. B.. C.. C.."
         },
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D.."
+          "indian": "S. S.. S.. G.. G.. m.. m.. D.. D..",
+          "western": "C. C.. C.. E.. E.. F.. F.. A.. A.."
         },
         {
           "lyrics": "Nainoo ko mund mund",
-          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P.."
+          "indian": "N.. 'S.. D.. P.. m.. m.. P.. P..",
+          "western": "B.. 'C.. A.. G.. F.. F.. G.. G.."
         },
         {
           "lyrics": "Kaisee main chalu dekh na saako",
-          "indian": "N.. 'S.. D.. P.. m.. N.. 'S.. D.. P.. m.."
+          "indian": "N.. 'S.. D.. P.. m.. N.. 'S.. D.. P.. m..",
+          "western": "B.. 'C.. A.. G.. F.. B.. 'C.. A.. G.. F.."
         },
         {
           "lyrics": "Anjaane raaste",
-          "indian": "m. P.. P.. G.. R.... S. S.."
+          "indian": "m. P.. P.. G.. R.... S. S..",
+          "western": "F. G.. G.. E.. D.... C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.. C. C. C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R.",
+          "western": "B.. B.. D.. D. D. D.. D. D. D. D.. D. D. D. D."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S..",
+          "western": "E.. G.. E.. D.. D. C.. C. C. C. C.."
         },
         {
           "lyrics": "Dheemee bole koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.. C. C. C. C.."
         },
         {
           "lyrics": "Dheemee bole koi iktara",
-          "indian": "N.. N.. R.. R. R. S.. S. S. S. S.."
+          "indian": "N.. N.. R.. R. R. S.. S. S. S. S..",
+          "western": "B.. B.. D.. D. D. C.. C. C. C. C.."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R."
+          "indian": "N.. N.. R.. R. R. R.. R. R. R. R.. R. R. R. R.",
+          "western": "B.. B.. D.. D. D. D.. D. D. D. D.. D. D. D. D."
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S.."
+          "indian": "G.. P.. G.. R.. R. S.. S. S. S. S..",
+          "western": "E.. G.. E.. D.. D. C.. C. C. C. C.."
         }
       ]
     }

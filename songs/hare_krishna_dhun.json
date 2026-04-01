@@ -15,7 +15,8 @@
       "lines": [
         {
           "lyrics": "Hare Krishna Hare Krishna",
-          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni",
+          "western": "B B C C B A B B"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "lines": [
         {
           "lyrics": "Krishna Krishna Hare Hare",
-          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa",
+          "western": "G G A A C B A G"
         }
       ]
     },
@@ -33,11 +35,13 @@
       "lines": [
         {
           "lyrics": "Hare Krishna Hare Krishna",
-          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni"
+          "indian": "Ni Ni Sa Sa Ni Dha Ni Ni",
+          "western": "B B C C B A B B"
         },
         {
           "lyrics": "Krishna Krishna Hare Hare",
-          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa"
+          "indian": "Pa Pa Dha Dha Sa Ni Dha Pa",
+          "western": "G G A A C B A G"
         }
       ]
     },
@@ -46,11 +50,13 @@
       "lines": [
         {
           "lyrics": "Hare Rama Hare Rama",
-          "indian": "Ni Dha Pa Ni Dha Pa"
+          "indian": "Ni Dha Pa Ni Dha Pa",
+          "western": "B A G B A G"
         },
         {
           "lyrics": "Rama Rama Hare Hare",
-          "indian": "Pa Dha Ni Sa' Ni Dha Pa"
+          "indian": "Pa Dha Ni Sa' Ni Dha Pa",
+          "western": "G A B C' B A G"
         }
       ]
     }

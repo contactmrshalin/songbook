@@ -15,19 +15,23 @@
       "lines": [
         {
           "lyrics": "Rimjhim gire saawan",
-          "indian": "Dha.SaReGaMaDha Ga: GaGa:"
+          "indian": "Dha.SaReGaMaDha Ga: GaGa:",
+          "western": "A.CDEFA E: EE:"
         },
         {
           "lyrics": "Sulag sulag jaaye mann",
-          "indian": "MaGaRe MaGaRe ReRe(k)Re:"
+          "indian": "MaGaRe MaGaRe ReRe(k)Re:",
+          "western": "FED FED DDbD:"
         },
         {
           "lyrics": "Bheege aaj is mausam mein",
-          "indian": "Ni(k)RePa Ma(T)Pa Ma(T)PaMa(T)Pa Ga:"
+          "indian": "Ni(k)RePa Ma(T)Pa Ma(T)PaMa(T)Pa Ga:",
+          "western": "BbDG F#G F#GF#G E:"
         },
         {
           "lyrics": "Lagi kaisi ye agan",
-          "indian": "GaPaSa' NiDha GaMa GaMa Dha Ga:"
+          "indian": "GaPaSa' NiDha GaMa GaMa Dha Ga:",
+          "western": "EGC' BA EF EF A E:"
         }
       ]
     }

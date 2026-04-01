@@ -14,23 +14,28 @@
       "lines": [
         {
           "lyrics": "Music",
-          "indian": "G m P D P: P P"
+          "indian": "G m P D P: P P",
+          "western": "E F G A G: G G"
         },
         {
           "lyrics": "",
-          "indian": "S' N R' S' N: D D"
+          "indian": "S' N R' S' N: D D",
+          "western": "C' B D' C' B: A A"
         },
         {
           "lyrics": "",
-          "indian": "G m P D D: D D"
+          "indian": "G m P D D: D D",
+          "western": "E F G A A: A A"
         },
         {
           "lyrics": "",
-          "indian": "S' N D P P: D P m G"
+          "indian": "S' N D P P: D P m G",
+          "western": "C' B A G G: A G F E"
         },
         {
           "lyrics": "Tere naam",
-          "indian": "N S' R' N S':"
+          "indian": "N S' R' N S':",
+          "western": "B C' D' B C':"
         },
         {
           "lyrics": "Laaa..",
@@ -38,7 +43,8 @@
         },
         {
           "lyrics": "Tere naam",
-          "indian": "N S' R' N S':"
+          "indian": "N S' R' N S':",
+          "western": "B C' D' B C':"
         },
         {
           "lyrics": "Laaa..",
@@ -46,35 +52,43 @@
         },
         {
           "lyrics": "Tere naam",
-          "indian": "N S' R' N S': R' S' N."
+          "indian": "N S' R' N S': R' S' N.",
+          "western": "B C' D' B C': D' C' B."
         },
         {
           "lyrics": "Humne kiya hai",
-          "indian": "N S' D P P D P m G"
+          "indian": "N S' D P P D P m G",
+          "western": "B C' A G G A G F E"
         },
         {
           "lyrics": "Jeevan apna sara sanam hooo",
-          "indian": "G m D: D: P N: D: P P: S' D m P G."
+          "indian": "G m D: D: P N: D: P P: S' D m P G.",
+          "western": "E F A: A: G B: A: G G: C' A F G E."
         },
         {
           "lyrics": "Jeevan apna sara sanam",
-          "indian": "G m D: D: P N: D: P P:"
+          "indian": "G m D: D: P N: D: P P:",
+          "western": "E F A: A: G B: A: G G:"
         },
         {
           "lyrics": "Pyar bahut",
-          "indian": "N S' R': N S' S': R' S' N."
+          "indian": "N S' R': N S' S': R' S' N.",
+          "western": "B C' D': B C' C': D' C' B."
         },
         {
           "lyrics": "Karte hai tumse",
-          "indian": "N S' D P P D P m G"
+          "indian": "N S' D P P D P m G",
+          "western": "B C' A G G A G F E"
         },
         {
           "lyrics": "Ishq hai tu humara sanam hooo",
-          "indian": "G m D: D: P N: D: P P: S' D m P G."
+          "indian": "G m D: D: P N: D: P P: S' D m P G.",
+          "western": "E F A: A: G B: A: G G: C' A F G E."
         },
         {
           "lyrics": "Ishq hai tu humara sanam",
-          "indian": "G m D: D: P N: D: P S':"
+          "indian": "G m D: D: P N: D: P S':",
+          "western": "E F A: A: G B: A: G C':"
         },
         {
           "lyrics": "Laaa….",
@@ -82,59 +96,73 @@
         },
         {
           "lyrics": "Music",
-          "indian": "G m P D P: P P"
+          "indian": "G m P D P: P P",
+          "western": "E F G A G: G G"
         },
         {
           "lyrics": "",
-          "indian": "S' N R' S' N: D D"
+          "indian": "S' N R' S' N: D D",
+          "western": "C' B D' C' B: A A"
         },
         {
           "lyrics": "",
-          "indian": "G m P D D: D D"
+          "indian": "G m P D D: D D",
+          "western": "E F G A A: A A"
         },
         {
           "lyrics": "",
-          "indian": "S' N D P P: D P m G"
+          "indian": "S' N D P P: D P m G",
+          "western": "C' B A G G: A G F E"
         },
         {
           "lyrics": "Gulshan bhi ab toh veerana lagta hai",
-          "indian": "N S' R' S' N S' S' S' S' P D D P:"
+          "indian": "N S' R' S' N S' S' S' S' P D D P:",
+          "western": "B C' D' C' B C' C' C' C' G A A G:"
         },
         {
           "lyrics": "Har apna humko begana lagta hai",
-          "indian": "N S' R' S' N S' S' S' S' P D D:"
+          "indian": "N S' R' S' N S' S' S' S' P D D:",
+          "western": "B C' D' C' B C' C' C' C' G A A:"
         },
         {
           "lyrics": "Hum teri yaadon mein khoye rehte hai",
-          "indian": "N S' R' S' N S' S' S' S' P D D P:"
+          "indian": "N S' R' S' N S' S' S' S' P D D P:",
+          "western": "B C' D' C' B C' C' C' C' G A A G:"
         },
         {
           "lyrics": "Log hum mein pagal deewana kehte hai",
-          "indian": "N S' R' S' N S' S' S' S' P D D:"
+          "indian": "N S' R' S' N S' S' S' S' P D D:",
+          "western": "B C' D' C' B C' C' C' C' G A A:"
         },
         {
           "lyrics": "Tere bina",
-          "indian": "m': R' N N D:"
+          "indian": "m': R' N N D:",
+          "western": "F': D' B B A:"
         },
         {
           "lyrics": "Tere bina",
-          "indian": "G' R' G': S' D S': P D P."
+          "indian": "G' R' G': S' D S': P D P.",
+          "western": "E' D' E': C' A C': G A G."
         },
         {
           "lyrics": "Tere bina",
-          "indian": "N S' R' N S': R' S' N."
+          "indian": "N S' R' N S': R' S' N.",
+          "western": "B C' D' B C': D' C' B."
         },
         {
           "lyrics": "Namumkin hai",
-          "indian": "N S' D P P D P m G"
+          "indian": "N S' D P P D P m G",
+          "western": "B C' A G G A G F E"
         },
         {
           "lyrics": "Zindagi ka guzara sanam hoo",
-          "indian": "G m D: D: P N: D: P P: S' D m P G."
+          "indian": "G m D: D: P N: D: P P: S' D m P G.",
+          "western": "E F A: A: G B: A: G G: C' A F G E."
         },
         {
           "lyrics": "Zindagi ka guzara sanam",
-          "indian": "G m D: D: P N: D: P S':"
+          "indian": "G m D: D: P N: D: P S':",
+          "western": "E F A: A: G B: A: G C':"
         }
       ]
     }

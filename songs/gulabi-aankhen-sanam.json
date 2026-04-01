@@ -15,19 +15,23 @@
       "lines": [
         {
           "lyrics": "O..",
-          "indian": "Ni..Sa'..Re'..Ga'..."
+          "indian": "Ni..Sa'..Re'..Ga'...",
+          "western": "B..C'..D'..E'..."
         },
         {
           "lyrics": "(Music)",
-          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'...",
+          "western": "F'..E'..F'.E'.D'.C'.B..C'..D'..."
         },
         {
           "lyrics": "(Music)",
-          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'...",
+          "western": "E'..D'..E'.D'.C'.B.A..B..C'..."
         },
         {
           "lyrics": "(Music)",
-          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni...",
+          "western": "D'..C'..D'.C'.B.A.Ab.A.B..."
         },
         {
           "lyrics": "(Repeat x2)",
@@ -40,35 +44,43 @@
       "lines": [
         {
           "lyrics": "Gulabii ankhee",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Jo teri dekhii",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Sharaabi yeh dil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Hoo gayaa",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         },
         {
           "lyrics": "Sambhaalo mujhkoo",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Oo meree yaaron",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Sambhalnaa mushkil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Hoo gayaa",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         }
       ]
     },
@@ -81,43 +93,53 @@
         },
         {
           "lyrics": "Dil main meree",
-          "indian": "Ga..Ma..Dha.Ga.."
+          "indian": "Ga..Ma..Dha.Ga..",
+          "western": "E..F..A.E.."
         },
         {
           "lyrics": "Khwaab teree",
-          "indian": "Ma..Dha..Sa'..Ma.."
+          "indian": "Ma..Dha..Sa'..Ma..",
+          "western": "F..A..C'..F.."
         },
         {
           "lyrics": "Tasveer kaise ho deewar pee",
-          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga..",
+          "western": "F..G..A..B.A..C'..B..A..F..G..E.."
         },
         {
           "lyrics": "Tujh pee fidaa",
-          "indian": "Ga..Ma..Dha.Ga.."
+          "indian": "Ga..Ma..Dha.Ga..",
+          "western": "E..F..A.E.."
         },
         {
           "lyrics": "Main kyoon huaa",
-          "indian": "Ma..Dha..Sa'..Ma.."
+          "indian": "Ma..Dha..Sa'..Ma..",
+          "western": "F..A..C'..F.."
         },
         {
           "lyrics": "Aataa hai gussa mujhe pyaar pee",
-          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga..",
+          "western": "F..G..A..B.A..C'..B..A..F..G..E.."
         },
         {
           "lyrics": "Main lut gayaa",
-          "indian": "Ni..Sa'..Re'..Ga'..."
+          "indian": "Ni..Sa'..Re'..Ga'...",
+          "western": "B..C'..D'..E'..."
         },
         {
           "lyrics": "Maan kee dil kaa kahaa",
-          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'...",
+          "western": "F'..E'..F'.E'.D'.C'.B..C'..D'..."
         },
         {
           "lyrics": "Main kahi kaa naa rahaa",
-          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'...",
+          "western": "E'..D'..E'.D'.C'.B.A..B..C'..."
         },
         {
           "lyrics": "Kyaa karoon mai dilrubaa",
-          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni...",
+          "western": "D'..C'..D'.C'.B.A.Ab.A.B..."
         }
       ]
     },
@@ -126,35 +148,43 @@
       "lines": [
         {
           "lyrics": "Bura ye jaadu",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Teri aankhon ka",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Ye mera qaatil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Ho gaya",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         },
         {
           "lyrics": "Gulabii ankhee",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Jo teri dekhii",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Sharaabi yeh dil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Hoo gayaa",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         }
       ]
     },
@@ -167,43 +197,53 @@
         },
         {
           "lyrics": "Maine sada",
-          "indian": "Ga..Ma..Dha.Ga.."
+          "indian": "Ga..Ma..Dha.Ga..",
+          "western": "E..F..A.E.."
         },
         {
           "lyrics": "Chaha yahi",
-          "indian": "Ma..Dha..Sa'..Ma.."
+          "indian": "Ma..Dha..Sa'..Ma..",
+          "western": "F..A..C'..F.."
         },
         {
           "lyrics": "Daaman bacha lu haseeno se main",
-          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga..",
+          "western": "F..G..A..B.A..C'..B..A..F..G..E.."
         },
         {
           "lyrics": "Teri kasam",
-          "indian": "Ga..Ma..Dha.Ga.."
+          "indian": "Ga..Ma..Dha.Ga..",
+          "western": "E..F..A.E.."
         },
         {
           "lyrics": "Khwabon mein bhi",
-          "indian": "Ma..Dha..Sa'..Ma.."
+          "indian": "Ma..Dha..Sa'..Ma..",
+          "western": "F..A..C'..F.."
         },
         {
           "lyrics": "Bachta firaa naazneeno se main",
-          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga.."
+          "indian": "Ma..Pa..Dha..Ni.Dha..Sa'..Ni..Dha..Ma..Pa..Ga..",
+          "western": "F..G..A..B.A..C'..B..A..F..G..E.."
         },
         {
           "lyrics": "Tauba magar",
-          "indian": "Ni..Sa'..Re'..Ga'..."
+          "indian": "Ni..Sa'..Re'..Ga'...",
+          "western": "B..C'..D'..E'..."
         },
         {
           "lyrics": "Mill gayi tujhse nazar",
-          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'...",
+          "western": "F'..E'..F'.E'.D'.C'.B..C'..D'..."
         },
         {
           "lyrics": "Mill gaya dard e jigar",
-          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'...",
+          "western": "E'..D'..E'.D'.C'.B.A..B..C'..."
         },
         {
           "lyrics": "Sun zara oh bekhabar",
-          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni...",
+          "western": "D'..C'..D'.C'.B.A.Ab.A.B..."
         }
       ]
     },
@@ -212,71 +252,86 @@
       "lines": [
         {
           "lyrics": "Zara sa hans ke",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Jo dekha tune",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Main tera bismil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Ho gaya",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         },
         {
           "lyrics": "Gulabii ankhee",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Jo teri dekhii",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Sharaabi yeh dil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Hoo gayaa",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         },
         {
           "lyrics": "Sambhaalo mujhkoo",
-          "indian": "Ga.Ga..Ga..Sa'..Sa'.."
+          "indian": "Ga.Ga..Ga..Sa'..Sa'..",
+          "western": "E.E..E..C'..C'.."
         },
         {
           "lyrics": "Oo meree yaaron",
-          "indian": "Sa'..Ni..Sa'..Re'..Ni.."
+          "indian": "Sa'..Ni..Sa'..Re'..Ni..",
+          "western": "C'..B..C'..D'..B.."
         },
         {
           "lyrics": "Sambhalnaa mushkil",
-          "indian": "Ni.Dha..Ni..Sa'..Dha.."
+          "indian": "Ni.Dha..Ni..Sa'..Dha..",
+          "western": "B.A..B..C'..A.."
         },
         {
           "lyrics": "Hoo gayaa",
-          "indian": "Dha..Dha(k)..Dha..Ni.."
+          "indian": "Dha..Dha(k)..Dha..Ni..",
+          "western": "A..Ab..A..B.."
         },
         {
           "lyrics": "O..",
-          "indian": "Ni..Sa'..Re'..Ga'..."
+          "indian": "Ni..Sa'..Re'..Ga'...",
+          "western": "B..C'..D'..E'..."
         },
         {
           "lyrics": "(Music)",
-          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'..."
+          "indian": "Ma'..Ga'..Ma'.Ga'.Re'.Sa'.Ni..Sa'..Re'...",
+          "western": "F'..E'..F'.E'.D'.C'.B..C'..D'..."
         },
         {
           "lyrics": "(Music)",
-          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'..."
+          "indian": "Ga'..Re'..Ga'.Re'.Sa'.Ni.Dha..Ni..Sa'...",
+          "western": "E'..D'..E'.D'.C'.B.A..B..C'..."
         },
         {
           "lyrics": "(Music)",
-          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni..."
+          "indian": "Re'..Sa'..Re'.Sa'.Ni.Dha.Dha(k).Dha.Ni...",
+          "western": "D'..C'..D'.C'.B.A.Ab.A.B..."
         }
       ]
     }
   ],
   "export": true
 }
-

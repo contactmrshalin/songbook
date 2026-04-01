@@ -15,31 +15,38 @@
       "lines": [
         {
           "lyrics": "Doorie",
-          "indian": "G m P:"
+          "indian": "G m P:",
+          "western": "E F G:"
         },
         {
           "lyrics": "Doorie",
-          "indian": "G m P:"
+          "indian": "G m P:",
+          "western": "E F G:"
         },
         {
           "lyrics": "Doorie",
-          "indian": "G P D P"
+          "indian": "G P D P",
+          "western": "E G A G"
         },
         {
           "lyrics": "Sahi jae na",
-          "indian": "R R S n S: R G R"
+          "indian": "R R S n S: R G R",
+          "western": "D D C B. C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
-          "indian": "R R S n S: R G R"
+          "indian": "R R S n S: R G R",
+          "western": "D D C B. C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
-          "indian": "R R G m G: m G R S n."
+          "indian": "R R G m G: m G R S n.",
+          "western": "D D E F E: F E D C B.."
         },
         {
           "lyrics": "Sahi jai na",
-          "indian": "R R S n S: p d n d p"
+          "indian": "R R S n S: p d n d p",
+          "western": "D D C B. C: G. A. B. A. G."
         },
         {
           "lyrics": "Music",
@@ -47,63 +54,78 @@
         },
         {
           "lyrics": "Khamoshiya yeh",
-          "indian": "G G R G m G R S."
+          "indian": "G G R G m G R S.",
+          "western": "E E D E F E D C."
         },
         {
           "lyrics": "seh na saku",
-          "indian": "S S G R: G R G R S."
+          "indian": "S S G R: G R G R S.",
+          "western": "C C E D: E D E D C."
         },
         {
           "lyrics": "Awaz de kay mujhay tu",
-          "indian": "S S d S S G R G R S"
+          "indian": "S S d S S G R G R S",
+          "western": "C C A. C C E D E D C"
         },
         {
           "lyrics": "dai jaa sukoon",
-          "indian": "S S G R:"
+          "indian": "S S G R:",
+          "western": "C C E D:"
         },
         {
           "lyrics": "Yehh hai hai haii",
-          "indian": "P m G R G"
+          "indian": "P m G R G",
+          "western": "G F E D E"
         },
         {
           "lyrics": "Khamoshiya yeh",
-          "indian": "G G R G m G R S."
+          "indian": "G G R G m G R S.",
+          "western": "E E D E F E D C."
         },
         {
           "lyrics": "seh na saku",
-          "indian": "S S G R: G R R G"
+          "indian": "S S G R: G R R G",
+          "western": "C C E D: E D D E"
         },
         {
           "lyrics": "Awaz de kay mujhay tu",
-          "indian": "S S d S S G R G R S"
+          "indian": "S S d S S G R G R S",
+          "western": "C C A. C C E D E D C"
         },
         {
           "lyrics": "dai jaa sukoon",
-          "indian": "S S G R: P: D P m G"
+          "indian": "S S G R: P: D P m G",
+          "western": "C C E D: G: A G F E"
         },
         {
           "lyrics": "Doorie",
-          "indian": "G m P:"
+          "indian": "G m P:",
+          "western": "E F G:"
         },
         {
           "lyrics": "Doorie",
-          "indian": "G m P:"
+          "indian": "G m P:",
+          "western": "E F G:"
         },
         {
           "lyrics": "Sahi jae na",
-          "indian": "R R S n S: R G R"
+          "indian": "R R S n S: R G R",
+          "western": "D D C B. C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
-          "indian": "R R S n S: R G R"
+          "indian": "R R S n S: R G R",
+          "western": "D D C B. C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
-          "indian": "R R G m G: m G R S n."
+          "indian": "R R G m G: m G R S n.",
+          "western": "D D E F E: F E D C B.."
         },
         {
           "lyrics": "Sahi jai na",
-          "indian": "R R S n S: p d n d p"
+          "indian": "R R S n S: p d n d p",
+          "western": "D D C B. C: G. A. B. A. G."
         }
       ]
     }

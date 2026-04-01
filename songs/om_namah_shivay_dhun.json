@@ -13,7 +13,8 @@
       "lines": [
         {
           "lyrics": "Om Namah Shivay Om Namah Shivay",
-          "indian": "Ni ReGa GaGa Re Ga, GaRe ReGaPaGa Re~Ni."
+          "indian": "Ni ReGa GaGa Re Ga, GaRe ReGaPaGa Re~Ni.",
+          "western": "B DE EE D E, ED DEGE D~B."
         }
       ]
     },
@@ -22,7 +23,8 @@
       "lines": [
         {
           "lyrics": "Har Har Bole Namah Shivay",
-          "indian": "Ni. Dha. Re Ni. Dha.Pa. Pa.Dha. Ni.Re ReGa"
+          "indian": "Ni. Dha. Re Ni. Dha.Pa. Pa.Dha. Ni.Re ReGa",
+          "western": "B. A. D B. A.G. G.A. B.D DE"
         }
       ]
     },
@@ -31,7 +33,8 @@
       "lines": [
         {
           "lyrics": "Flute",
-          "indian": "Dha Pa Ni Dha Re Ni Ga Re Pa Ga Dha Pa Ni"
+          "indian": "Dha Pa Ni Dha Re Ni Ga Re Pa Ga Dha Pa Ni",
+          "western": "A G B A D B E D G E A G B"
         }
       ]
     },
@@ -40,7 +43,8 @@
       "lines": [
         {
           "lyrics": "Jata Dharay Shiv Jata Dharay",
-          "indian": "Ga Ga Ga Ga Pa Dha Ni Ni Ni NiReNiDha Ni"
+          "indian": "Ga Ga Ga Ga Pa Dha Ni Ni Ni NiReNiDha Ni",
+          "western": "E E E E G A B B B BDBA B"
         }
       ]
     },
@@ -49,7 +53,8 @@
       "lines": [
         {
           "lyrics": "Har Har Bole Namah Shivay",
-          "indian": "Dha Dha Dha DhaPa PaDha NiDha PaGa"
+          "indian": "Dha Dha Dha DhaPa PaDha NiDha PaGa",
+          "western": "A A A AG GA BA GE"
         }
       ]
     }

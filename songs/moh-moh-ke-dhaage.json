@@ -15,19 +15,23 @@
       "lines": [
         {
           "lyrics": "Hmhmhmhmhmhm…",
-          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...Re.Sa.Ni(k).Pa..."
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...Re.Sa.Ni(k).Pa...",
+          "western": "E..D..E..D..E..D..E...D.C.Bb.G..."
         },
         {
           "lyrics": "Hmhmhmhmhmhm",
-          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga..."
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...",
+          "western": "E..D..E..D..E..D..E..."
         },
         {
           "lyrics": "Hmhmhmhmhmhm…",
-          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...Re.Sa.Ni(k).Pa..."
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...Re.Sa.Ni(k).Pa...",
+          "western": "E..D..E..D..E..D..E...D.C.Bb.G..."
         },
         {
           "lyrics": "Hmhmhmhmhmhm",
-          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga..."
+          "indian": "Ga..Re..Ga..Re..Ga..Re..Ga...",
+          "western": "E..D..E..D..E..D..E..."
         }
       ]
     },
@@ -36,11 +40,13 @@
       "lines": [
         {
           "lyrics": "Yeh moh moh ke dhaagee",
-          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k).."
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..",
+          "western": "Bb..D..E..E.E..E..F.D..C..Bb.."
         },
         {
           "lyrics": "Teri ungliyon se jaa uljhee",
-          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa.."
+          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa..",
+          "western": "Bb..D..G.D..E..D..C.Bb..C..C.."
         },
         {
           "lyrics": "(Flute Music)",
@@ -48,31 +54,38 @@
         },
         {
           "lyrics": "Yeh moh moh ke dhaagee",
-          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k).."
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..",
+          "western": "Bb..D..E..E.E..E..F.D..C..Bb.."
         },
         {
           "lyrics": "Teri ungliyon se jaa uljhee",
-          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa.."
+          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa..",
+          "western": "Bb..D..G.D..E..D..C.Bb..C..C.."
         },
         {
           "lyrics": "Koi toh toh naa laagee",
-          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..Sa.."
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..Sa..",
+          "western": "Bb..D..E..E.E..E..F.D..C..Bb..C.."
         },
         {
           "lyrics": "Kis tarah girah yeh suljhee",
-          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa.."
+          "indian": "Ni(k)..Re..Pa.Re..Ga..Re..Sa.Ni(k)..Sa..Sa..",
+          "western": "Bb..D..G.D..E..D..C.Bb..C..C.."
         },
         {
           "lyrics": "Hai room room ek taaraa ahaahaa",
-          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k)...Pa..Ma..Pa..Ma.."
+          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k)...Pa..Ma..Pa..Ma..",
+          "western": "G..F..E..F..F..G..Ab..Ab...G..F..G..F.."
         },
         {
           "lyrics": "Hai room room ek taara",
-          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k).."
+          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k)..",
+          "western": "G..F..E..F..F..G..Ab..Ab.."
         },
         {
           "lyrics": "Joo badloon mein se gujree",
-          "indian": "Sa'..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Pa...Ma..Ga..Ma..Ga.."
+          "indian": "Sa'..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Pa...Ma..Ga..Ma..Ga..",
+          "western": "C'..B..Ab..Ab.C'..B..Ab..G..G...F..E..F..E.."
         }
       ]
     },
@@ -81,35 +94,41 @@
       "lines": [
         {
           "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
-          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa.."
+          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa..",
+          "western": "C.D.E.G.A.C'..B..G.G.D..E..D..C.C.."
         },
         {
           "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
-          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa.."
+          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa..",
+          "western": "C.D.E.G.A.C'..B..G.G.D..E..D..C.C.."
         },
         {
           "lyrics": "Kaise tune ankahaa",
-          "indian": "Sa..Ni(k)..Pa.Pa..Pa.Ni(k).Sa.Re.."
+          "indian": "Sa..Ni(k)..Pa.Pa..Pa.Ni(k).Sa.Re..",
+          "western": "C..Bb..G.G..G.Bb.C.D.."
         },
         {
           "lyrics": "Tunee ankahaa sab sunaa",
-          "indian": "Re.Sa..Sa.Ga.Ma.Pa..Re..Ni(k).Sa.."
+          "indian": "Re.Sa..Sa.Ga.Ma.Pa..Re..Ni(k).Sa..",
+          "western": "D.C..C.E.F.G..D..Bb.C.."
         },
         {
           "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
-          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa.."
+          "indian": "Sa.Re.Ga.Pa.Dha.Sa'..Ni..Pa.Pa.Re..Ga..Re..Sa.Sa..",
+          "western": "C.D.E.G.A.C'..B..G.G.D..E..D..C.C.."
         },
         {
           "lyrics": "Tuu dil saa hai mein raat aaana dono",
-          "indian": "Pa...Ma..Ga..Ma..Ga.. Ga..Ma..Pa..Dha(k)...Pa..Ma..Pa..Ma.."
+          "indian": "Pa...Ma..Ga..Ma..Ga.. Ga..Ma..Pa..Dha(k)...Pa..Ma..Pa..Ma..",
+          "western": "G...F..E..F..E.. E..F..G..Ab...G..F..G..F.."
         },
         {
           "lyrics": "Mil jaayein shaymon ki tarahh",
-          "indian": "Ni..Ni..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Ma..Ga.."
+          "indian": "Ni..Ni..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Ma..Ga..",
+          "western": "B..B..B..Ab..Ab.C'..B..Ab..G..F..E.."
         }
       ]
     }
   ],
   "export": true
 }
-

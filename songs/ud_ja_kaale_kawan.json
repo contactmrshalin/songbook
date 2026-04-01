@@ -17,39 +17,48 @@
       "lines": [
         {
           "lyrics": "Udja kale kawa tere",
-          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R.."
+          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R..",
+          "western": "G.. G.. G.. A.. G.. G.. G.. E.. D.. C.. D.."
         },
         {
           "lyrics": "Munh vich khand paavan",
-          "indian": "P.. P. P. P.. D.. P.. P.."
+          "indian": "P.. P. P. P.. D.. P.. P..",
+          "western": "G.. G. G. G.. A.. G.. G.."
         },
         {
           "lyrics": "Udd ja kale kawan tere",
-          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R.."
+          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R..",
+          "western": "G.. G.. G.. A.. G.. G.. G.. E.. D.. C.. D.."
         },
         {
           "lyrics": "Munh vich khand paavan",
-          "indian": "P.. P. P. P.. D.. P.. P.."
+          "indian": "P.. P. P. P.. D.. P.. P..",
+          "western": "G.. G. G. G.. A.. G.. G.."
         },
         {
           "lyrics": "Le ja tu sandesha mera",
-          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R.."
+          "indian": "P.. P.. P.. D.. P.. P.. P.. G.. R.. S.. R..",
+          "western": "G.. G.. G.. A.. G.. G.. G.. E.. D.. C.. D.."
         },
         {
           "lyrics": "Main sadke jaavan",
-          "indian": "P.. P. P. P.. D.. P.. P.."
+          "indian": "P.. P. P. P.. D.. P.. P..",
+          "western": "G.. G. G. G.. A.. G.. G.."
         },
         {
           "lyrics": "Baagon mein phir jhule pad gaye",
-          "indian": "'G.. 'G. 'G.. 'G. 'G.. 'R.... 'G.... 'R. 'S. 'S.."
+          "indian": "'G.. 'G. 'G.. 'G. 'G.. 'R.... 'G.... 'R. 'S. 'S..",
+          "western": "'E.. 'E. 'E.. 'E. 'E.. 'D.... 'E.... 'D. 'C. 'C.."
         },
         {
           "lyrics": "Pak gaiyan mithiyan ambiyan",
-          "indian": "'S. 'R. 'R. 'S. D. P. D. 'S.. 'S. 'S. 'S.."
+          "indian": "'S. 'R. 'R. 'S. D. P. D. 'S.. 'S. 'S. 'S..",
+          "western": "'C. 'D. 'D. 'C. A. G. A. 'C.. 'C. 'C. 'C.."
         },
         {
           "lyrics": "Yeh chhoti si zindagi te",
-          "indian": "'S.. 'S. 'S. 'S.. N. 'R. 'S. N. D. D.."
+          "indian": "'S.. 'S. 'S. 'S.. N. 'R. 'S. N. D. D..",
+          "western": "'C.. 'C. 'C. 'C.. B. 'D. 'C. B. A. A.."
         }
       ]
     },
@@ -58,47 +67,58 @@
       "lines": [
         {
           "lyrics": "Raataan lambiyan lambiyan",
-          "indian": "m. P. P. P. P. D. P. m. P. P."
+          "indian": "m. P. P. P. P. D. P. m. P. P.",
+          "western": "F. G. G. G. G. A. G. F. G. G."
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "m. G. R. R. S. S. R. R. P. P...."
+          "indian": "m. G. R. R. S. S. R. R. P. P....",
+          "western": "F. E. D. D. C. C. D. D. G. G...."
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "P. m. P. m. G. R. G. R. S. S.."
+          "indian": "P. m. P. m. G. R. G. R. S. S..",
+          "western": "G. F. G. F. E. D. E. D. C. C.."
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "m. G. R. R. S. S. R. R. P. P...."
+          "indian": "m. G. R. R. S. S. R. R. P. P....",
+          "western": "F. E. D. D. C. C. D. D. G. G...."
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "P. m. P. m. G. R. G. R. S. S.."
+          "indian": "P. m. P. m. G. R. G. R. S. S..",
+          "western": "G. F. G. F. E. D. E. D. C. C.."
         },
         {
           "lyrics": "Chham chham karta aaya mausam",
-          "indian": "G.. P.. P.... P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D.."
+          "indian": "G.. P.. P.... P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D..",
+          "western": "E.. G.. G.... G.. A.. A.... A.. B.. B.. 'C.. B.. A.. A.."
         },
         {
           "lyrics": "Pyar ke geeton ka ho ho",
-          "indian": "m.. P.. P.. P.... D.. P.. P.. 'S.. N.. 'S.. N.. D.."
+          "indian": "m.. P.. P.. P.... D.. P.. P.. 'S.. N.. 'S.. N.. D..",
+          "western": "F.. G.. G.. G.... A.. G.. G.. 'C.. B.. 'C.. B.. A.."
         },
         {
           "lyrics": "Chham chham karta aaya mausam",
-          "indian": "G.. P.. P.... P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D.."
+          "indian": "G.. P.. P.... P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D..",
+          "western": "E.. G.. G.... G.. A.. A.... A.. B.. B.. 'C.. B.. A.. A.."
         },
         {
           "lyrics": "Pyar ke geeton ka",
-          "indian": "m.. P.. P.. P.... D.. P.. P.."
+          "indian": "m.. P.. P.. P.... D.. P.. P..",
+          "western": "F.. G.. G.. G.... A.. G.. G.."
         },
         {
           "lyrics": "Raste pe ankhiyan rasta dekhein",
-          "indian": "G.. P.. P.. P.. P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D.."
+          "indian": "G.. P.. P.. P.. P.. D.. D.... D.. N.. N.. 'S.. N.. D.. D..",
+          "western": "E.. G.. G.. G.. G.. A.. A.... A.. B.. B.. 'C.. B.. A.. A.."
         },
         {
           "lyrics": "Bichhde meeton ka",
-          "indian": "m.. P.. P.. P.... D.. P.. P.."
+          "indian": "m.. P.. P.. P.... D.. P.. P..",
+          "western": "F.. G.. G.. G.... A.. G.. G.."
         }
       ]
     },
@@ -107,35 +127,43 @@
       "lines": [
         {
           "lyrics": "Saari saari raat jagayein",
-          "indian": "'G.. 'G.. 'G.. 'G.. 'R.. 'G.. 'R.. 'S.. 'S.."
+          "indian": "'G.. 'G.. 'G.. 'G.. 'R.. 'G.. 'R.. 'S.. 'S..",
+          "western": "'E.. 'E.. 'E.. 'E.. 'D.. 'E.. 'D.. 'C.. 'C.."
         },
         {
           "lyrics": "Mujhko teri yaadein",
-          "indian": "'S. 'R. 'R. 'S. D. P. D. 'S.... 'S.. 'S.."
+          "indian": "'S. 'R. 'R. 'S. D. P. D. 'S.... 'S.. 'S..",
+          "western": "'C. 'D. 'D. 'C. A. G. A. 'C.... 'C.. 'C.."
         },
         {
           "lyrics": "Mere saare geet bane",
-          "indian": "'S.. 'S.. 'S.. 'S.... N. 'R. 'S. N. D. D.."
+          "indian": "'S.. 'S.. 'S.. 'S.... N. 'R. 'S. N. D. D..",
+          "western": "'C.. 'C.. 'C.. 'C.... B. 'D. 'C. B. A. A.."
         },
         {
           "lyrics": "Mere dil ki fariyadein",
-          "indian": "m. P. P. P. P. D. P. m. P."
+          "indian": "m. P. P. P. P. D. P. m. P.",
+          "western": "F. G. G. G. G. A. G. F. G."
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "m. G. R. R. S. S. R. R. P. P...."
+          "indian": "m. G. R. R. S. S. R. R. P. P....",
+          "western": "F. E. D. D. C. C. D. D. G. G...."
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "P. m. P. m. G. R. G. R. S. S.."
+          "indian": "P. m. P. m. G. R. G. R. S. S..",
+          "western": "G. F. G. F. E. D. E. D. C. C.."
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "m. G. R. R. S. S. R. R. P. P...."
+          "indian": "m. G. R. R. S. S. R. R. P. P....",
+          "western": "F. E. D. D. C. C. D. D. G. G...."
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "P. m. P. m. G. R. G. R. S. S.."
+          "indian": "P. m. P. m. G. R. G. R. S. S..",
+          "western": "G. F. G. F. E. D. E. D. C. C.."
         }
       ]
     }

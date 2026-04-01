@@ -15,11 +15,13 @@
       "lines": [
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         }
       ]
     },
@@ -28,31 +30,38 @@
       "lines": [
         {
           "lyrics": "Tuu hi maata tu hi pitaa hai",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa.",
+          "western": "E E E D E | C D C A. G."
         },
         {
           "lyrics": "Tuu hi maata tu hi pitaa hai",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa.",
+          "western": "E E E D E | C D C A. G."
         },
         {
           "lyrics": "Tuu hi toh radhaa kaa shyaam",
-          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa"
+          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa",
+          "western": "G G G G G E F E C D E C"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         },
         {
           "lyrics": "Tu antaryaami sabkaa swami",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa.",
+          "western": "E E E D E | C D C A. G."
         },
         {
           "lyrics": "Teree charno mein chaaro dhaam",
-          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa"
+          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa",
+          "western": "G G G G G E F E C D E C"
         }
       ]
     },
@@ -61,31 +70,36 @@
       "lines": [
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         },
         {
           "lyrics": "Tuu hi bigaade tu hi sawaaren",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa."
+          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha. Pa.",
+          "western": "E E E D E | C D C A. G."
         },
         {
           "lyrics": "Iss jag kee saare kaam",
-          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa"
+          "indian": "Pa Pa Pa Pa Pa Ga Ma Ga Sa Re Ga Sa",
+          "western": "G G G G G E F E C D E C"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa. Sa Re Ga Re Sa"
+          "indian": "Pa. Sa Re Ga Re Sa",
+          "western": "G. C D E D C"
         }
       ]
     }
   ],
   "export": true
 }
-

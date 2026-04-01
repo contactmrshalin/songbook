@@ -16,7 +16,8 @@
       "lines": [
         {
           "lyrics": "Meri jhopdi ke bhag",
-          "indian": "Sa Sa Sa Re Re Ga Ga"
+          "indian": "Sa Sa Sa Re Re Ga Ga",
+          "western": "C C C D D E E"
         }
       ]
     },
@@ -25,7 +26,8 @@
       "lines": [
         {
           "lyrics": "Aaj khul jayenge",
-          "indian": "Re Sa Sa Re Re Ga Ga"
+          "indian": "Re Sa Sa Re Re Ga Ga",
+          "western": "D C C D D E E"
         }
       ]
     },
@@ -34,7 +36,8 @@
       "lines": [
         {
           "lyrics": "Raam ayenge",
-          "indian": "Re Sa Re Sa Sa"
+          "indian": "Re Sa Re Sa Sa",
+          "western": "D C D C C"
         }
       ]
     },
@@ -43,7 +46,8 @@
       "lines": [
         {
           "lyrics": "Raam ayenge ayenge Raam ayenge",
-          "indian": "Pa Pa Pa Dha Pa Ma Ga Re Ma Ga Re Sa Sa"
+          "indian": "Pa Pa Pa Dha Pa Ma Ga Re Ma Ga Re Sa Sa",
+          "western": "G G G A G F E D F E D C C"
         }
       ]
     },
@@ -52,7 +56,8 @@
       "lines": [
         {
           "lyrics": "Raam ayenge ayenge Raam ayenge",
-          "indian": "Pa Pa Pa Dha Pa Ma Ga Re Ma Ga Re Sa Sa"
+          "indian": "Pa Pa Pa Dha Pa Ma Ga Re Ma Ga Re Sa Sa",
+          "western": "G G G A G F E D F E D C C"
         }
       ]
     }

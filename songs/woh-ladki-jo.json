@@ -15,107 +15,133 @@
       "lines": [
         {
           "lyrics": "Kahin zulf ka baadal o ho",
-          "indian": "D D D D D D D P N"
+          "indian": "D D D D D D D P N",
+          "western": "A A A A A A A G B"
         },
         {
           "lyrics": "Kahin rangeen aanchal aa ha",
-          "indian": "N N D D D D D P"
+          "indian": "N N D D D D D P",
+          "western": "B B A A A A A G"
         },
         {
           "lyrics": "Kahin honth gulabi o ho",
-          "indian": "D D D D D D P N"
+          "indian": "D D D D D D P N",
+          "western": "A A A A A A G B"
         },
         {
           "lyrics": "Kahin chaal sharabi aa ha",
-          "indian": "N N D D D D D D"
+          "indian": "N N D D D D D D",
+          "western": "B B A A A A A A"
         },
         {
           "lyrics": "Kahin aankh mein jaadu o ho",
-          "indian": "D D D D D D R' N"
+          "indian": "D D D D D D R' N",
+          "western": "A A A A A A D' B"
         },
         {
           "lyrics": "Kahin jism ki khushboo aa ha",
-          "indian": "N N D D D D D D"
+          "indian": "N N D D D D D D",
+          "western": "B B A A A A A A"
         },
         {
           "lyrics": "Kahin narm nigaahein o ho",
-          "indian": "D D D D D D P N"
+          "indian": "D D D D D D P N",
+          "western": "A A A A A A G B"
         },
         {
           "lyrics": "Kahin gori baahein aa ha",
-          "indian": "N N D D D D D D"
+          "indian": "N N D D D D D D",
+          "western": "B B A A A A A A"
         },
         {
           "lyrics": "Haan yahan kadam",
-          "indian": "D: P N: D S':"
+          "indian": "D: P N: D S':",
+          "western": "A: G B: A C':"
         },
         {
           "lyrics": "Kadam par lakhon",
-          "indian": "D N: N D P: P:"
+          "indian": "D N: N D P: P:",
+          "western": "A B: B A G: G:"
         },
         {
           "lyrics": "Haseenayein hai",
-          "indian": "P G: N: P D:"
+          "indian": "P G: N: P D:",
+          "western": "G E: B: G A:"
         },
         {
           "lyrics": "Hum magar yeh dil",
-          "indian": "D: P N: D S':"
+          "indian": "D: P N: D S':",
+          "western": "A: G B: A C':"
         },
         {
           "lyrics": "Ka tohfa dene",
-          "indian": "D N: N D P: P:"
+          "indian": "D N: N D P: P:",
+          "western": "A B: B A G: G:"
         },
         {
           "lyrics": "Usse aaye hai",
-          "indian": "P G: N: P D:"
+          "indian": "P G: N: P D:",
+          "western": "G E: B: G A:"
         },
         {
           "lyrics": "Woh ladki jo sabse alag hai",
-          "indian": "d d d S G P P m G m m R:"
+          "indian": "d d d S G P P m G m m R:",
+          "western": "A. A. A. C E G G F E F F D:"
         },
         {
           "lyrics": "Woh ladki jo sabse alag hai",
-          "indian": "p p p n R m m G R S S G:"
+          "indian": "p p p n R m m G R S S G:",
+          "western": "G. G. G. B. D F F E D C C E:"
         },
         {
           "lyrics": "Woh ladki jo sabse alag hai",
-          "indian": "d d d S G P P m G m D D R:"
+          "indian": "d d d S G P P m G m D D R:",
+          "western": "A. A. A. C E G G F E F A A D:"
         },
         {
           "lyrics": "Woh ladki jo sabse alag hai",
-          "indian": "p p p n R m m G R S S G:"
+          "indian": "p p p n R m m G R S S G:",
+          "western": "G. G. G. B. D F F E D C C E:"
         },
         {
           "lyrics": "Haan yahan kadam",
-          "indian": "D: P N: D S':"
+          "indian": "D: P N: D S':",
+          "western": "A: G B: A C':"
         },
         {
           "lyrics": "Kadam par lakhon",
-          "indian": "D N: N D P: P:"
+          "indian": "D N: N D P: P:",
+          "western": "A B: B A G: G:"
         },
         {
           "lyrics": "Haseenayein hai",
-          "indian": "P G: N: P D:"
+          "indian": "P G: N: P D:",
+          "western": "G E: B: G A:"
         },
         {
           "lyrics": "Hum magar yeh dil",
-          "indian": "D: P N: D S':"
+          "indian": "D: P N: D S':",
+          "western": "A: G B: A C':"
         },
         {
           "lyrics": "Ka tohfa dene",
-          "indian": "D N: N D P: P:"
+          "indian": "D N: N D P: P:",
+          "western": "A B: B A G: G:"
         },
         {
           "lyrics": "Usse aaye hai",
-          "indian": "P G: N: P D:"
+          "indian": "P G: N: P D:",
+          "western": "G E: B: G A:"
         },
         {
           "lyrics": "Woh ladki jo sabse alag hai",
-          "indian": "d d d S G P P m G m m R:"
+          "indian": "d d d S G P P m G m m R:",
+          "western": "A. A. A. C E G G F E F F D:"
         },
         {
           "lyrics": "Woh ladki jo sabse alag hai",
-          "indian": "p p p n R m m G R S S G:"
+          "indian": "p p p n R m m G R S S G:",
+          "western": "G. G. G. B. D F F E D C C E:"
         }
       ]
     }

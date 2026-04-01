@@ -16,23 +16,28 @@
       "lines": [
         {
           "lyrics": "Teri gali mein aata sanam",
-          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:"
+          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:",
+          "western": "C' C' B D' C' | B A B A A:"
         },
         {
           "lyrics": "Nagma wafa ka gaata sanam",
-          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:"
+          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:",
+          "western": "C' C' B D' C' | B A B A A:"
         },
         {
           "lyrics": "Tujhse suna na jaata sanam",
-          "indian": "Re' Re' Re' Sa' | Ni Dha Ni Dha Dha:"
+          "indian": "Re' Re' Re' Sa' | Ni Dha Ni Dha Dha:",
+          "western": "D' D' D' C' | B A B A A:"
         },
         {
           "lyrics": "Phir aaj idhar",
-          "indian": "Ga' Ga' Ga' Pa' Ma' Ga' Ma' Re':"
+          "indian": "Ga' Ga' Ga' Pa' Ma' Ga' Ma' Re':",
+          "western": "E' E' E' G' F' E' F' D':"
         },
         {
           "lyrics": "Aaya hoon magar",
-          "indian": "Re' Re' Re' Ma' | Ma' Ga' Ma' Re':"
+          "indian": "Re' Re' Re' Ma' | Ma' Ga' Ma' Re':",
+          "western": "D' D' D' F' | F' E' F' D':"
         }
       ]
     },
@@ -41,7 +46,8 @@
       "lines": [
         {
           "lyrics": "Ye kehne main deewana",
-          "indian": "Sa' Sa' Ga' Re' Ga' | Sa' Ni Sa' Dha:"
+          "indian": "Sa' Sa' Ga' Re' Ga' | Sa' Ni Sa' Dha:",
+          "western": "C' C' E' D' E' | C' B C' A:"
         }
       ]
     },
@@ -50,19 +56,23 @@
       "lines": [
         {
           "lyrics": "Khatm bas aaj ye wahshat hogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Ni::"
+          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Ni::",
+          "western": "A B C' E' D' E' D' | C' B A G A B A G B::"
         },
         {
           "lyrics": "Mere mehboob qayamat hogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Dha::"
+          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Dha::",
+          "western": "A B C' E' D' E' D' | C' B A G A B A G A::"
         },
         {
           "lyrics": "Aaj rusva teri galiyon mein",
-          "indian": "Dha Ni Sa' Ni Dha Dha Dha Ni Ni Re Dha Pa"
+          "indian": "Dha Ni Sa' Ni Dha Dha Dha Ni Ni Re Dha Pa",
+          "western": "A B C' B A A A B B D A G"
         },
         {
           "lyrics": "Mohabbat hogi",
-          "indian": "Ga Ma Pa Ga Ma Dha Pa: Ni Dha"
+          "indian": "Ga Ma Pa Ga Ma Dha Pa: Ni Dha",
+          "western": "E F G E F A G: B A"
         }
       ]
     },
@@ -71,7 +81,8 @@
       "lines": [
         {
           "lyrics": "Mere mehboob qayamat hogi",
-          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha::"
+          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha::",
+          "western": "C' C' B D' C' | B A B A A::"
         }
       ]
     }

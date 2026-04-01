@@ -14,19 +14,23 @@
       "lines": [
         {
           "lyrics": "(Intro)",
-          "indian": "Re.Ma.Pa.Ni.Ni.Sa'...Pa.Ni.Sa'.Re'.Ni(k)...Dha..Dha..Pa.."
+          "indian": "Re.Ma.Pa.Ni.Ni.Sa'...Pa.Ni.Sa'.Re'.Ni(k)...Dha..Dha..Pa..",
+          "western": "D.F.G.B.B.C'...G.B.C'.D'.Bb...A..A..G.."
         },
         {
           "lyrics": "(Intro)",
-          "indian": "Re.Ma.Pa.Ni.Ni.Sa'...Pa.Ni.Sa'.Re'.Ni(k)...Dha..Dha..Pa.."
+          "indian": "Re.Ma.Pa.Ni.Ni.Sa'...Pa.Ni.Sa'.Re'.Ni(k)...Dha..Dha..Pa..",
+          "western": "D.F.G.B.B.C'...G.B.C'.D'.Bb...A..A..G.."
         },
         {
           "lyrics": "(Intro)",
-          "indian": "Re.Ma.Pa.Dha.Ma...Ga.Re.Ga(k)..Sa..Ni..Sa..."
+          "indian": "Re.Ma.Pa.Dha.Ma...Ga.Re.Ga(k)..Sa..Ni..Sa...",
+          "western": "D.F.G.A.F...E.D.Eb..C..B..C..."
         },
         {
           "lyrics": "(Intro)",
-          "indian": "Re.Ma.Pa.Dha.Ma...Ga.Re.Ga(k)..Sa..Ni..Sa..."
+          "indian": "Re.Ma.Pa.Dha.Ma...Ga.Re.Ga(k)..Sa..Ni..Sa...",
+          "western": "D.F.G.A.F...E.D.Eb..C..B..C..."
         }
       ]
     },
@@ -35,51 +39,63 @@
       "lines": [
         {
           "lyrics": "Roja jaaneman",
-          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni..",
+          "western": "C...Eb...D.Eb.C.D..D..B.."
         },
         {
           "lyrics": "Tu hi mera dil",
-          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni..",
+          "western": "C...Eb...D.Eb.C.D..D..B.."
         },
         {
           "lyrics": "Tujh bin tarse naina",
-          "indian": "Sa..Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re..."
+          "indian": "Sa..Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re...",
+          "western": "C..C..E...C.E.F.A.G...F..Eb..D..."
         },
         {
           "lyrics": "Dilse na jaati hai",
-          "indian": "Sa...Ga(k)...Ga(k).Re.Ga(k).Sa.Re..Re..Ni.."
+          "indian": "Sa...Ga(k)...Ga(k).Re.Ga(k).Sa.Re..Re..Ni..",
+          "western": "C...Eb...Eb.D.Eb.C.D..D..B.."
         },
         {
           "lyrics": "Yaadein tumhaari",
-          "indian": "Sa...Ga(k)...Ga(k).Re.Ga(k).Sa.Re..Re..Ni.."
+          "indian": "Sa...Ga(k)...Ga(k).Re.Ga(k).Sa.Re..Re..Ni..",
+          "western": "C...Eb...Eb.D.Eb.C.D..D..B.."
         },
         {
           "lyrics": "Kaise tum bin jeena",
-          "indian": "Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re..."
+          "indian": "Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re...",
+          "western": "C..E...C.E.F.A.G...F..Eb..D..."
         },
         {
           "lyrics": "Aankhon mein tu hai",
-          "indian": "Ga..Ga..Ma...Ga(k)...Re.."
+          "indian": "Ga..Ga..Ma...Ga(k)...Re..",
+          "western": "E..E..F...Eb...D.."
         },
         {
           "lyrics": "Aansu mein tu hai",
-          "indian": "Ga..Ga..Ma.Dha.Pa.Ma.Ga(k)...Re.."
+          "indian": "Ga..Ga..Ma.Dha.Pa.Ma.Ga(k)...Re..",
+          "western": "E..E..F.A.G.F.Eb...D.."
         },
         {
           "lyrics": "Aankhein band kar loon",
-          "indian": "Ga..Ga..Ma...Ga(k)...Re.."
+          "indian": "Ga..Ga..Ma...Ga(k)...Re..",
+          "western": "E..E..F...Eb...D.."
         },
         {
           "lyrics": "To mann mein bhi tu hai",
-          "indian": "Sa..Ga..Ga..Ma.Dha.Pa.Ma.Ga(k)...Re.."
+          "indian": "Sa..Ga..Ga..Ma.Dha.Pa.Ma.Ga(k)...Re..",
+          "western": "C..E..E..F.A.G.F.Eb...D.."
         },
         {
           "lyrics": "Khwaabon mein tu",
-          "indian": "Sa..Re..Ga(k)..Re..Sa.."
+          "indian": "Sa..Re..Ga(k)..Re..Sa..",
+          "western": "C..D..Eb..D..C.."
         },
         {
           "lyrics": "Saanson mein tu roojaa",
-          "indian": "Ma..Pa..Dha(k)..Pa..Ma..Re'...Sa'.Re'.."
+          "indian": "Ma..Pa..Dha(k)..Pa..Ma..Re'...Sa'.Re'..",
+          "western": "F..G..Ab..G..F..D'...C'.D'.."
         }
       ]
     },
@@ -88,19 +104,21 @@
       "lines": [
         {
           "lyrics": "Roja jaaneman",
-          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni..",
+          "western": "C...Eb...D.Eb.C.D..D..B.."
         },
         {
           "lyrics": "Tu hi mera dil",
-          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni.."
+          "indian": "Sa...Ga(k)...Re.Ga(k).Sa.Re..Re..Ni..",
+          "western": "C...Eb...D.Eb.C.D..D..B.."
         },
         {
           "lyrics": "Tujh bin tarse naina",
-          "indian": "Sa..Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re..."
+          "indian": "Sa..Sa..Ga...Sa.Ga.Ma.Dha.Pa...Ma..Ga(k)..Re...",
+          "western": "C..C..E...C.E.F.A.G...F..Eb..D..."
         }
       ]
     }
   ],
   "export": true
 }
-

@@ -15,107 +15,133 @@
       "lines": [
         {
           "lyrics": "Hooo hohohoo",
-          "indian": "Dha: Ni(k).R' Sa'"
+          "indian": "Dha: Ni(k).R' Sa'",
+          "western": "A: Bb.D' C'"
         },
         {
           "lyrics": "Hooo hohohoo",
-          "indian": "Ni(k).D Pa: Dha Sa' Ni(k)"
+          "indian": "Ni(k).D Pa: Dha Sa' Ni(k)",
+          "western": "Bb.A G: A C' Bb"
         },
         {
           "lyrics": "Hoo hoo hoo",
-          "indian": "Ma: Pa: Dha:"
+          "indian": "Ma: Pa: Dha:",
+          "western": "F: G: A:"
         },
         {
           "lyrics": "Hohohoo hoo hoo",
-          "indian": "Ma Ga Re: Pa: Ma:"
+          "indian": "Ma Ga Re: Pa: Ma:",
+          "western": "F E D: G: F:"
         },
         {
           "lyrics": "Hooo hohohoo",
-          "indian": "Dha: Ni(k).R' Sa'"
+          "indian": "Dha: Ni(k).R' Sa'",
+          "western": "A: Bb.D' C'"
         },
         {
           "lyrics": "Hooo hohohoo",
-          "indian": "Ni(k).D Pa: Dha Sa' Ni(k)"
+          "indian": "Ni(k).D Pa: Dha Sa' Ni(k)",
+          "western": "Bb.A G: A C' Bb"
         },
         {
           "lyrics": "Hoo hoo hoo",
-          "indian": "Ma: Pa: Dha:"
+          "indian": "Ma: Pa: Dha:",
+          "western": "F: G: A:"
         },
         {
           "lyrics": "Hohohoo hoo hoo",
-          "indian": "Ma Ga Re: Pa: Ma:"
+          "indian": "Ma Ga Re: Pa: Ma:",
+          "western": "F E D: G: F:"
         },
         {
           "lyrics": "Sandesee aate hain",
-          "indian": "Sa Sa Sa Dha: Pa: Dha"
+          "indian": "Sa Sa Sa Dha: Pa: Dha",
+          "western": "C C C A: G: A"
         },
         {
           "lyrics": "Humee tadpaate hain",
-          "indian": "Sa Sa Sa Dha: Pa: Dha"
+          "indian": "Sa Sa Sa Dha: Pa: Dha",
+          "western": "C C C A: G: A"
         },
         {
           "lyrics": "To chitthi aati hai",
-          "indian": "Sa Sa Sa Dha: Pa: Dha"
+          "indian": "Sa Sa Sa Dha: Pa: Dha",
+          "western": "C C C A: G: A"
         },
         {
           "lyrics": "To poochh jaati hai",
-          "indian": "Sa Sa Sa Dha: Pa Dha"
+          "indian": "Sa Sa Sa Dha: Pa Dha",
+          "western": "C C C A: G A"
         },
         {
           "lyrics": "Ke ghar kab aaonge",
-          "indian": "Ma Ga Sa Re: Ga Sa Re"
+          "indian": "Ma Ga Sa Re: Ga Sa Re",
+          "western": "F E C D: E C D"
         },
         {
           "lyrics": "Ke ghar kab aaonge",
-          "indian": "Ma Ga Sa Re: Ga Sa Re"
+          "indian": "Ma Ga Sa Re: Ga Sa Re",
+          "western": "F E C D: E C D"
         },
         {
           "lyrics": "Likho kab aaonge",
-          "indian": "Ma Ga Sa Re: Ga Sa Re"
+          "indian": "Ma Ga Sa Re: Ga Sa Re",
+          "western": "F E C D: E C D"
         },
         {
           "lyrics": "Ki tum bin yee ghar soona",
-          "indian": "Pa Pa Pa Pa Dha Dha Pa Pa Dha Dha Pa"
+          "indian": "Pa Pa Pa Pa Dha Dha Pa Pa Dha Dha Pa",
+          "western": "G G G G A A G G A A G"
         },
         {
           "lyrics": "Soona hai",
-          "indian": "Sa Sa Ni(k) Ni(k) Dha"
+          "indian": "Sa Sa Ni(k) Ni(k) Dha",
+          "western": "C C Bb Bb A"
         },
         {
           "lyrics": "Sandesee aate hain",
-          "indian": "Sa Sa Sa Dha: Pa: Dha"
+          "indian": "Sa Sa Sa Dha: Pa: Dha",
+          "western": "C C C A: G: A"
         },
         {
           "lyrics": "Humee tadpaate hain",
-          "indian": "Sa Sa Sa Dha: Pa: Dha"
+          "indian": "Sa Sa Sa Dha: Pa: Dha",
+          "western": "C C C A: G: A"
         },
         {
           "lyrics": "To chitthi aati hai",
-          "indian": "Sa Sa Sa Dha: Pa: Dha"
+          "indian": "Sa Sa Sa Dha: Pa: Dha",
+          "western": "C C C A: G: A"
         },
         {
           "lyrics": "To poochh jaati hai",
-          "indian": "Sa Sa Sa Dha: Pa Dha"
+          "indian": "Sa Sa Sa Dha: Pa Dha",
+          "western": "C C C A: G A"
         },
         {
           "lyrics": "Ke ghar kab aaonge",
-          "indian": "Ma Ga Sa Re: Ga Sa Re"
+          "indian": "Ma Ga Sa Re: Ga Sa Re",
+          "western": "F E C D: E C D"
         },
         {
           "lyrics": "Ke ghar kab aaonge",
-          "indian": "Ma Ga Sa Re: Ga Sa Re"
+          "indian": "Ma Ga Sa Re: Ga Sa Re",
+          "western": "F E C D: E C D"
         },
         {
           "lyrics": "Likho kab aaonge",
-          "indian": "Ma Ga Sa Re: Ga Sa Re"
+          "indian": "Ma Ga Sa Re: Ga Sa Re",
+          "western": "F E C D: E C D"
         },
         {
           "lyrics": "Ki tum bin yee ghar soona",
-          "indian": "Pa Pa Pa Pa Dha Dha Pa Pa Dha Dha Pa"
+          "indian": "Pa Pa Pa Pa Dha Dha Pa Pa Dha Dha Pa",
+          "western": "G G G G A A G G A A G"
         },
         {
           "lyrics": "Soona hai",
-          "indian": "Sa Sa Ni(k) Ni(k) Dha"
+          "indian": "Sa Sa Ni(k) Ni(k) Dha",
+          "western": "C C Bb Bb A"
         }
       ]
     }

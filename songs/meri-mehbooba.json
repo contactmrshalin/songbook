@@ -15,11 +15,13 @@
       "lines": [
         {
           "lyrics": "Kisii roz tum se",
-          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni..",
+          "western": "E..A..C'..B..A..B.."
         },
         {
           "lyrics": "Mulaakaat hogii",
-          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha.."
+          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha..",
+          "western": "E..A..B..A..Ab..A.."
         },
         {
           "lyrics": "(Music)",
@@ -27,35 +29,43 @@
         },
         {
           "lyrics": "Kisii roz tum se",
-          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni..",
+          "western": "E..A..C'..B..A..B.."
         },
         {
           "lyrics": "Mulaakaat hogii",
-          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha.."
+          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha..",
+          "western": "E..A..B..A..Ab..A.."
         },
         {
           "lyrics": "Merii jaan us din",
-          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Sa'..Ni..Dha..Ni..",
+          "western": "E..A..C'..B..A..B.."
         },
         {
           "lyrics": "Mere saath hogii",
-          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha.."
+          "indian": "Ga..Dha..Ni..Dha..Dha(k)..Dha..",
+          "western": "E..A..B..A..Ab..A.."
         },
         {
           "lyrics": "Magar kab naa jaane",
-          "indian": "Dha..Sa'..Ga'..Re'..Re(k)'..Re'..."
+          "indian": "Dha..Sa'..Ga'..Re'..Re(k)'..Re'...",
+          "western": "A..C'..E'..D'..Db'..D'..."
         },
         {
           "lyrics": "Ye barasaat hogii",
-          "indian": "Dha..Sa'..Ga'..Re'..Re(k)'..Re'..."
+          "indian": "Dha..Sa'..Ga'..Re'..Re(k)'..Re'...",
+          "western": "A..C'..E'..D'..Db'..D'..."
         },
         {
           "lyrics": "Meraa dil hai pyaasaa",
-          "indian": "Ga'..Re'..Sa'..Ni..Re'...Sa'..Sa'..."
+          "indian": "Ga'..Re'..Sa'..Ni..Re'...Sa'..Sa'...",
+          "western": "E'..D'..C'..B..D'...C'..C'..."
         },
         {
           "lyrics": "Meraa dil akelaa",
-          "indian": "Re'..Sa'..Ni..Dha..Dha..Ni..."
+          "indian": "Re'..Sa'..Ni..Dha..Dha..Ni...",
+          "western": "D'..C'..B..A..A..B..."
         }
       ]
     },
@@ -64,27 +74,33 @@
       "lines": [
         {
           "lyrics": "Zaraa tasviir se tuu",
-          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni..",
+          "western": "E..A..B.B..C'...B..A..B.."
         },
         {
           "lyrics": "Nikal ke saamane aa",
-          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni..",
+          "western": "E..A..B..C'...B..A..B.."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha.."
+          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha..",
+          "western": "Ab.Ab..Ab.Ab.B...A.."
         },
         {
           "lyrics": "Merii taqadiir hai tuu",
-          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni..",
+          "western": "E..A..B.B..C'...B..A..B.."
         },
         {
           "lyrics": "Machal ke saamane aa",
-          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni..",
+          "western": "E..A..B..C'...B..A..B.."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha.."
+          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha..",
+          "western": "Ab.Ab..Ab.Ab.B...A.."
         }
       ]
     },
@@ -93,23 +109,28 @@
       "lines": [
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Ga'..Re'...Sa'.Sa'..Ga'...Re'..."
+          "indian": "Ga'..Re'...Sa'.Sa'..Ga'...Re'...",
+          "western": "E'..D'...C'.C'..E'...D'..."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Ga'..Re'...Sa'.Ni.Re'...Sa'..."
+          "indian": "Ga'..Re'...Sa'.Ni.Re'...Sa'...",
+          "western": "E'..D'...C'.B.D'...C'..."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Re'..Sa'...Ni.Dha.Ni...Ni..."
+          "indian": "Re'..Sa'...Ni.Dha.Ni...Ni...",
+          "western": "D'..C'...B.A.B...B..."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Dha(k)..Dha(k)..Dha(k).Dha(k)..Ni...Dha...Dha..Ni.."
+          "indian": "Dha(k)..Dha(k)..Dha(k).Dha(k)..Ni...Dha...Dha..Ni..",
+          "western": "Ab..Ab..Ab.Ab..B...A...A..B.."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Dha(k)..Dha(k)..Dha(k).Dha(k)..Ni...Dha..."
+          "indian": "Dha(k)..Dha(k)..Dha(k).Dha(k)..Ni...Dha...",
+          "western": "Ab..Ab..Ab.Ab..B...A..."
         }
       ]
     },
@@ -118,19 +139,21 @@
       "lines": [
         {
           "lyrics": "Zaraa tasviir se tuu",
-          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Ni.Ni..Sa'...Ni..Dha..Ni..",
+          "western": "E..A..B.B..C'...B..A..B.."
         },
         {
           "lyrics": "Nikal ke saamane aa",
-          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni.."
+          "indian": "Ga..Dha..Ni..Sa'...Ni..Dha..Ni..",
+          "western": "E..A..B..C'...B..A..B.."
         },
         {
           "lyrics": "Merii mahabuubaa",
-          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha.."
+          "indian": "Dha(k).Dha(k)..Dha(k).Dha(k).Ni...Dha..",
+          "western": "Ab.Ab..Ab.Ab.B...A.."
         }
       ]
     }
   ],
   "export": true
 }
-

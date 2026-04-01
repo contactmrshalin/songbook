@@ -13,31 +13,38 @@
       "lines": [
         {
           "lyrics": "Hum | honge | kamyaab",
-          "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga"
+          "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga",
+          "western": "E F | G G | G~A A G F E"
         },
         {
           "lyrics": "Hum | honge | kamyaab",
-          "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga"
+          "indian": "Ga Ma | Pa Pa | Pa~Dha Dha Pa Ma Ga",
+          "western": "E F | G G | G~A A G F E"
         },
         {
           "lyrics": "Hum | honge | kamyaab",
-          "indian": "Ga Ma | Pa Pa | Dha Ni Sa:"
+          "indian": "Ga Ma | Pa Pa | Dha Ni Sa:",
+          "western": "E F | G G | A B C:"
         },
         {
           "lyrics": "Ek | din",
-          "indian": "Sa'~Re' Sa' | Ni: Dha~Ni Dha Pa"
+          "indian": "Sa'~Re' Sa' | Ni: Dha~Ni Dha Pa",
+          "western": "C'~D' C' | B: A~B A G"
         },
         {
           "lyrics": "Ho ho | man | me | hai | vishwas",
-          "indian": "Dha Ni | Sa': | Sa': | Ni | Dha Pa"
+          "indian": "Dha Ni | Sa': | Sa': | Ni | Dha Pa",
+          "western": "A B | C': | C': | B | A G"
         },
         {
           "lyrics": "Pura | hai | vishwas",
-          "indian": "Dha Dha | Pa: | Ma Ga"
+          "indian": "Dha Dha | Pa: | Ma Ga",
+          "western": "A A | G: | F E"
         },
         {
           "lyrics": "Hum | honge | kamyaab | ek din",
-          "indian": "Ga Ma | Pa Pa | Sa Ma Ga | Re Re Sa:"
+          "indian": "Ga Ma | Pa Pa | Sa Ma Ga | Re Re Sa:",
+          "western": "E F | G G | C F E | D D C:"
         }
       ]
     }

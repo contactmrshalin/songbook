@@ -16,19 +16,23 @@
       "lines": [
         {
           "lyrics": "Zindagi ke safar mein",
-          "indian": "Sa (Ni) Sa Ga — Ma Pa — Ni —"
+          "indian": "Sa (Ni) Sa Ga — Ma Pa — Ni —",
+          "western": "C (B) C E — F G — B —"
         },
         {
           "lyrics": "Guzar jaate hain jo maqam",
-          "indian": "Ni Sa — — (Ni) (Dha) Pa — Ma — Ga Ma Dha — Ga —"
+          "indian": "Ni Sa — — (Ni) (Dha) Pa — Ma — Ga Ma Dha — Ga —",
+          "western": "B C — — (B) (A) G — F — E F A — E —"
         },
         {
           "lyrics": "Woh phir nahi aate",
-          "indian": "Pa — — Ma Ga Sa (Ni) Dha Re —"
+          "indian": "Pa — — Ma Ga Sa (Ni) Dha Re —",
+          "western": "G — — F E C (B) A D —"
         },
         {
           "lyrics": "Woh phir nahi aate (repeat)",
-          "indian": "Pa — — Ma Ga Sa (Ni) Re — Sa —"
+          "indian": "Pa — — Ma Ga Sa (Ni) Re — Sa —",
+          "western": "G — — F E C (B) D — C —"
         }
       ]
     },
@@ -37,47 +41,56 @@
       "lines": [
         {
           "lyrics": "Phool khilte hain log milte hain",
-          "indian": "Ga Ma Ga Re Ma — (Ga) — Ga Ma Ga Re Ma — (Ga) —"
+          "indian": "Ga Ma Ga Re Ma — (Ga) — Ga Ma Ga Re Ma — (Ga) —",
+          "western": "E F E D F — (E) — E F E D F — (E) —"
         },
         {
           "lyrics": "Phool khilte hain log milte hain magar",
-          "indian": "Ga Ma Ga Re Sa Ma Ga Ga Ga, Ga Ma Ga Re Sa Ma Ga Ga Ga"
+          "indian": "Ga Ma Ga Re Sa Ma Ga Ga Ga, Ga Ma Ga Re Sa Ma Ga Ga Ga",
+          "western": "E F E D C F E E E, E F E D C F E E E"
         },
         {
           "lyrics": "Patjhad mein jo phool murjha jaate hain",
-          "indian": "Ma (Ga) Ma Ma Ga, Ma Ma Ga, Ga Ma Dha Pa Ma Ga —"
+          "indian": "Ma (Ga) Ma Ma Ga, Ma Ma Ga, Ga Ma Dha Pa Ma Ga —",
+          "western": "F (E) F F E, F F E, E F A G F E —"
         },
         {
           "lyrics": "Woh baharon ke aane se khilte nahi",
-          "indian": "Ma Ga Ma Dha Dha, Dha Sa Ni Pa — Ni — Dha Pa —"
+          "indian": "Ma Ga Ma Dha Dha, Dha Sa Ni Pa — Ni — Dha Pa —",
+          "western": "F E F A A, A C B G — B — A G —"
         },
         {
           "lyrics": "Kuch log ek roz jo bichhad jaate hain",
-          "indian": "Pa Ma Pa — Pa — Ma Pa — Pa — Ma Ma Dha Pa — Ma — Ga —"
+          "indian": "Pa Ma Pa — Pa — Ma Pa — Pa — Ma Ma Dha Pa — Ma — Ga —",
+          "western": "G F G — G — F G — G — F F A G — F — E —"
         },
         {
           "lyrics": "Woh hazaron ke aane se milte nahi",
-          "indian": "Ma Ga Ma Dha Dha, Dha Sa Ni Pa — Ni — Dha Pa —"
+          "indian": "Ma Ga Ma Dha Dha, Dha Sa Ni Pa — Ni — Dha Pa —",
+          "western": "F E F A A, A C B G — B — A G —"
         },
         {
           "lyrics": "Umr bhar chahe koi",
-          "indian": "Sa (Ni) Sa Ga — Ma Pa — Ni —"
+          "indian": "Sa (Ni) Sa Ga — Ma Pa — Ni —",
+          "western": "C (B) C E — F G — B —"
         },
         {
           "lyrics": "Pukara kare unka naam",
-          "indian": "Ni Sa — — (Ni) (Dha) Pa — Ma — Ga Ma Dha — Ga —"
+          "indian": "Ni Sa — — (Ni) (Dha) Pa — Ma — Ga Ma Dha — Ga —",
+          "western": "B C — — (B) (A) G — F — E F A — E —"
         },
         {
           "lyrics": "Woh phir nahi aate",
-          "indian": "Pa — — Ma Ga Sa (Ni) Dha Re —"
+          "indian": "Pa — — Ma Ga Sa (Ni) Dha Re —",
+          "western": "G — — F E C (B) A D —"
         },
         {
           "lyrics": "Woh phir nahi aate (repeat)",
-          "indian": "Pa — — Ma Ga Sa (Ni) Re — Sa —"
+          "indian": "Pa — — Ma Ga Sa (Ni) Re — Sa —",
+          "western": "G — — F E C (B) D — C —"
         }
       ]
     }
   ],
   "export": true
 }
-

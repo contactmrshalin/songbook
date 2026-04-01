@@ -17,27 +17,33 @@
       "lines": [
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         },
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         }
       ]
     },
@@ -46,27 +52,33 @@
       "lines": [
         {
           "lyrics": "Kaha do dilon ne",
-          "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'"
+          "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'",
+          "western": "Bb C' C' Bb C' C' Db'"
         },
         {
           "lyrics": "Ki milkar Kabhi hum",
-          "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'"
+          "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'",
+          "western": "Db' C' Bb Ab Bb C'"
         },
         {
           "lyrics": "Na honge juda",
-          "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa"
+          "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa",
+          "western": "C' Ab Bb Ab G"
         },
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         }
       ]
     },
@@ -75,19 +87,23 @@
       "lines": [
         {
           "lyrics": "Music",
-          "indian": "Sa' Re(k)' Sa' Dha(k)'"
+          "indian": "Sa' Re(k)' Sa' Dha(k)'",
+          "western": "C' Db' C' Ab'"
         },
         {
           "lyrics": "Music",
-          "indian": "Ni(k)' Dha(k)' Ni(k)' Dha(k)' Pa' Ma' Dha(k)'"
+          "indian": "Ni(k)' Dha(k)' Ni(k)' Dha(k)' Pa' Ma' Dha(k)'",
+          "western": "Bb' Ab' Bb' Ab' G' F' Ab'"
         },
         {
           "lyrics": "Music",
-          "indian": "Sa' Re(k)' Sa' Pa'"
+          "indian": "Sa' Re(k)' Sa' Pa'",
+          "western": "C' Db' C' G'"
         },
         {
           "lyrics": "Music",
-          "indian": "Pa' Ma' Pa' Ma' Ga' Sa' Ma'"
+          "indian": "Pa' Ma' Pa' Ma' Ga' Sa' Ma'",
+          "western": "G' F' G' F' E' C' F'"
         }
       ]
     },
@@ -96,51 +112,63 @@
       "lines": [
         {
           "lyrics": "Yeh kya baat hai",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "Aaj ki chandni mein",
-          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'",
+          "western": "Bb C' A' Bb C' C' Db' C'"
         },
         {
           "lyrics": "Yeh kya baat hai",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "Aaj ki chandni mein",
-          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'",
+          "western": "Bb C' A' Bb C' C' Db' C'"
         },
         {
           "lyrics": "Ke hum kho gaye",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "Pyar ki ragini mein",
-          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+          "indian": "Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'",
+          "western": "Bb C' A' Bb C' C' Db' C'"
         },
         {
           "lyrics": "Yeh baahon mein baahen",
-          "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'"
+          "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'",
+          "western": "C' Eb' Eb' Eb' Eb' Eb' D' Eb'"
         },
         {
           "lyrics": "Yeh behki nigahen",
-          "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'"
+          "indian": "Sa' Ga(k)' Ga(k)' Ga(k)' Ga(k)' Re' Ga(k)'",
+          "western": "C' Eb' Eb' Eb' Eb' D' Eb'"
         },
         {
           "lyrics": "Lo aane laga zindagi ka maza",
-          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Sa' Dha(k)"
+          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Sa' Dha(k)",
+          "western": "C' Eb' Db' C' Bb Ab G F G C' Ab"
         },
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         }
       ]
     },
@@ -149,43 +177,53 @@
       "lines": [
         {
           "lyrics": "Sitaron ki mehfil",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "ne karke ishara",
-          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'",
+          "western": "Bb Bb C' A' Bb C' C' Db' C'"
         },
         {
           "lyrics": "Kaha ab to saara",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "jahan hai tumhara",
-          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'"
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Sa' Sa' Re(k)' Sa'",
+          "western": "Bb Bb C' A' Bb C' C' Db' C'"
         },
         {
           "lyrics": "Mohabbat jawan ho,",
-          "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+          "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'",
+          "western": "C' C' Eb' Eb' D' Eb' D' Eb'"
         },
         {
           "lyrics": "khula aasman ho",
-          "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+          "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'",
+          "western": "C' Eb' Eb' D' Eb' D' Eb'"
         },
         {
           "lyrics": "Kare koyi dil aarzoo aur kya",
-          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)"
+          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)",
+          "western": "C' Eb' Db' C' Bb Ab G F G Bb Ab"
         },
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         }
       ]
     },
@@ -194,43 +232,53 @@
       "lines": [
         {
           "lyrics": "Kasam hai tumhe tum",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "agar mujhse roothe",
-          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'"
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'",
+          "western": "Bb Bb C' A' Bb Db' C'"
         },
         {
           "lyrics": "Rahe saans jab tak,",
-          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'"
+          "indian": "Sa' Sa' Ma' Ma' Ga(k)' Re(k)' Sa'",
+          "western": "C' C' F' F' Eb' Db' C'"
         },
         {
           "lyrics": "yeh bandhan na toote",
-          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'"
+          "indian": "Ni(k) Ni(k) Sa' Dha' Ni(k) Re(k)' Sa'",
+          "western": "Bb Bb C' A' Bb Db' C'"
         },
         {
           "lyrics": "Tumhein dil diya hai,",
-          "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+          "indian": "Sa' Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'",
+          "western": "C' C' Eb' Eb' D' Eb' D' Eb'"
         },
         {
           "lyrics": "yeh vaada kiya hai",
-          "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'"
+          "indian": "Sa' Ga(k)' Ga(k)' Re' Ga(k)' Re' Ga(k)'",
+          "western": "C' Eb' Eb' D' Eb' D' Eb'"
         },
         {
           "lyrics": "Sanam main tumhaari rahoongi sada",
-          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)"
+          "indian": "Sa' Ga(k)' Re(k)' Sa' Ni(k) Dha(k) Pa Ma Pa Ni(k) Dha(k)",
+          "western": "C' Eb' Db' C' Bb Ab G F G Bb Ab"
         },
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         }
       ]
     },
@@ -239,27 +287,33 @@
       "lines": [
         {
           "lyrics": "Kaha do dilon ne",
-          "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'"
+          "indian": "Ni(k) Sa' Sa' Ni(k) Sa' Sa' Re(k)'",
+          "western": "Bb C' C' Bb C' C' Db'"
         },
         {
           "lyrics": "Ki milkar Kabhi hum",
-          "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'"
+          "indian": "Re(k)' Sa' Ni(k) Dha(k) Ni(k) Sa'",
+          "western": "Db' C' Bb Ab Bb C'"
         },
         {
           "lyrics": "Na honge juda",
-          "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa"
+          "indian": "Sa' Dha(k) Ni(k) Dha(k) Pa",
+          "western": "C' Ab Bb Ab G"
         },
         {
           "lyrics": "Yeh raaten yeh mausam",
-          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa"
+          "indian": "Ma Dha(k) Pa Ma Dha(k) Pa",
+          "western": "F Ab G F Ab G"
         },
         {
           "lyrics": "Nadi ka kinara",
-          "indian": "Ma Dha(k) Pa Ma Ga Ga"
+          "indian": "Ma Dha(k) Pa Ma Ga Ga",
+          "western": "F Ab G F E E"
         },
         {
           "lyrics": "Yeh chanchal hawa",
-          "indian": "Sa Pa Pa Ma Ma"
+          "indian": "Sa Pa Pa Ma Ma",
+          "western": "C G G F F"
         }
       ]
     }

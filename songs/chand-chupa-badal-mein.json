@@ -14,11 +14,13 @@
       "lines": [
         {
           "lyrics": "Chand chupaa badal meinn",
-          "indian": "'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R.."
+          "indian": "'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R..",
+          "western": "'C.... E.. 'C.. 'C.. E.. F.. E.. E.. D.."
         },
         {
           "lyrics": "Sharmaa kee merii jaana",
-          "indian": "N.... R.. N.. 'S.. N.. D.. D.."
+          "indian": "N.... R.. N.. 'S.. N.. D.. D..",
+          "western": "B.... D.. B.. 'C.. B.. A.. A.."
         }
       ]
     },
@@ -27,11 +29,13 @@
       "lines": [
         {
           "lyrics": "Chand chupaa badal meinn",
-          "indian": "'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R.."
+          "indian": "'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R..",
+          "western": "'C.... E.. 'C.. 'C.. E.. F.. E.. E.. D.."
         },
         {
           "lyrics": "Sharmaa kee merii jaana",
-          "indian": "N.... R.. N.. R. R. G.. R.. S.. R.. G.. D(k).. D.. N.."
+          "indian": "N.... R.. N.. R. R. G.. R.. S.. R.. G.. D(k).. D.. N..",
+          "western": "B.... D.. B.. D. D. E.. D.. C.. D.. E.. Ab.. A.. B.."
         }
       ]
     },
@@ -40,39 +44,48 @@
       "lines": [
         {
           "lyrics": "Seene see lag jaa tuu",
-          "indian": "'S.... G.. 'S.. G.. m.. G.. G.. R.."
+          "indian": "'S.... G.. 'S.. G.. m.. G.. G.. R..",
+          "western": "'C.... E.. 'C.. E.. F.. E.. E.. D.."
         },
         {
           "lyrics": "Bal khaake merii jaana",
-          "indian": "N.... R.. N.. 'S.. N.. D.. D.."
+          "indian": "N.... R.. N.. 'S.. N.. D.. D..",
+          "western": "B.... D.. B.. 'C.. B.. A.. A.."
         },
         {
           "lyrics": "Gumsum saa haii gupchup saa haii",
-          "indian": "D(k). D. N.. D. N.. D(k). D. N.. D. N.."
+          "indian": "D(k). D. N.. D. N.. D(k). D. N.. D. N..",
+          "western": "Ab. A. B.. A. B.. Ab. A. B.. A. B.."
         },
         {
           "lyrics": "Madhosh haii khaamosh haii",
-          "indian": "D(k). D. 'S.. 'S. 'S.. D(k). D. 'S.. 'S. 'S.."
+          "indian": "D(k). D. 'S.. 'S. 'S.. D(k). D. 'S.. 'S. 'S..",
+          "western": "Ab. A. 'C.. 'C. 'C.. Ab. A. 'C.. 'C. 'C.."
         },
         {
           "lyrics": "Yee samaa haan yee samaa kuch aur haii",
-          "indian": "'R.. 'R. 'R.. 'G.. N.. N. N.. N. D. N. D. D(k).."
+          "indian": "'R.. 'R. 'R.. 'G.. N.. N. N.. N. D. N. D. D(k)..",
+          "western": "'D.. 'D. 'D.. 'E.. B.. B. B.. B. A. B. A. Ab.."
         },
         {
           "lyrics": "Haan haan haan chaand chupaa baadal meinn",
-          "indian": "G.. D.. N.. 'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R.."
+          "indian": "G.. D.. N.. 'S.... G.. 'S.. 'S.. G.. m.. G.. G.. R..",
+          "western": "E.. A.. B.. 'C.... E.. 'C.. 'C.. E.. F.. E.. E.. D.."
         },
         {
           "lyrics": "Sharmaa ke meri jaanaa",
-          "indian": "N.... R.. N.. R. R. G.. R.. S.. R.. G.. D(k).. D.. N.."
+          "indian": "N.... R.. N.. R. R. G.. R.. S.. R.. G.. D(k).. D.. N..",
+          "western": "B.... D.. B.. D. D. E.. D.. C.. D.. E.. Ab.. A.. B.."
         },
         {
           "lyrics": "Seene see lag jaa tuu",
-          "indian": "'S.... G.. 'S.. G.. m.. G.. G.. R.."
+          "indian": "'S.... G.. 'S.. G.. m.. G.. G.. R..",
+          "western": "'C.... E.. 'C.. E.. F.. E.. E.. D.."
         },
         {
           "lyrics": "Bal khaake merii jaana",
-          "indian": "N.... R.. N.. 'S.. N.. D.. D.."
+          "indian": "N.... R.. N.. 'S.. N.. D.. D..",
+          "western": "B.... D.. B.. 'C.. B.. A.. A.."
         }
       ]
     }

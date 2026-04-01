@@ -14,11 +14,13 @@
       "lines": [
         {
           "lyrics": "Wada karo nahi chodoge tum mera sath",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma...",
+          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
         },
         {
           "lyrics": "Jahan tum ho wahan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga...",
+          "western": "E..D..C...G... D..C..Bb...F...E..."
         },
         {
           "lyrics": "(x2)",
@@ -26,11 +28,13 @@
         },
         {
           "lyrics": "Chhuo nahi dekho zara peeche rakho hath",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma...",
+          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
         },
         {
           "lyrics": "Jawan tum ho jawan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga...",
+          "western": "E..D..C...G... D..C..Bb...F...E..."
         },
         {
           "lyrics": "(x2)",
@@ -43,35 +47,43 @@
       "lines": [
         {
           "lyrics": "Suno meri jaan",
-          "indian": "Ga..Ga..Ga..Re..Ga..."
+          "indian": "Ga..Ga..Ga..Re..Ga...",
+          "western": "E..E..E..D..E..."
         },
         {
           "lyrics": "Hans ke mujhe yeh keh do",
-          "indian": "Ga..Ga..Ma..Ma..Ma..Ga..Ma..."
+          "indian": "Ga..Ga..Ma..Ma..Ma..Ga..Ma...",
+          "western": "E..E..F..F..F..E..F..."
         },
         {
           "lyrics": "Bheege labon ki narmi",
-          "indian": "Ma..Ma..Pa..Pa..Pa..Ma..Pa..."
+          "indian": "Ma..Ma..Pa..Pa..Pa..Ma..Pa...",
+          "western": "F..F..G..G..G..F..G..."
         },
         {
           "lyrics": "Mere liye hai",
-          "indian": "Dha..Dha..Ni..Dha..Dha..."
+          "indian": "Dha..Dha..Ni..Dha..Dha...",
+          "western": "A..A..B..A..A..."
         },
         {
           "lyrics": "Ho jawan nazar ki",
-          "indian": "Sa'..Ni..Dha..Dha..Dha..Dha..Pa..Dha..."
+          "indian": "Sa'..Ni..Dha..Dha..Dha..Dha..Pa..Dha...",
+          "western": "C'..B..A..A..A..A..G..A..."
         },
         {
           "lyrics": "Masti mere liye hai",
-          "indian": "Dha..Dha..Pa..Pa..Pa..Ma..Pa..."
+          "indian": "Dha..Dha..Pa..Pa..Pa..Ma..Pa...",
+          "western": "A..A..G..G..G..F..G..."
         },
         {
           "lyrics": "Haseen adaa ki shokhi",
-          "indian": "Pa..Pa..Ma..Ma..Ma..Ga..Ma.."
+          "indian": "Pa..Pa..Ma..Ma..Ma..Ga..Ma..",
+          "western": "G..G..F..F..F..E..F.."
         },
         {
           "lyrics": "Mere liye hai",
-          "indian": "Ma..Pa..Ma..Ga..Ga..."
+          "indian": "Ma..Pa..Ma..Ga..Ga...",
+          "western": "F..G..F..E..E..."
         }
       ]
     },
@@ -80,23 +92,26 @@
       "lines": [
         {
           "lyrics": "Mere liye leke aayi ho yeh saughat",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma...",
+          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
         },
         {
           "lyrics": "Jahan tum ho wahan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga...",
+          "western": "E..D..C...G... D..C..Bb...F...E..."
         },
         {
           "lyrics": "Chhuo nahi dekho zara peeche rakho hath",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma..."
+          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..Ma..Pa..Ga..Ma...Re..Re..Ma...",
+          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
         },
         {
           "lyrics": "Jawan tum ho jawan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga..."
+          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...Ma...Ga...",
+          "western": "E..D..C...G... D..C..Bb...F...E..."
         }
       ]
     }
   ],
   "export": true
 }
-

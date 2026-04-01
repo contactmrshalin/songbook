@@ -15,15 +15,18 @@
       "lines": [
         {
           "lyrics": "Chura liya hai tumne jo dil ko",
-          "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re"
+          "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re",
+          "western": "A A C B A A B~A G~D"
         },
         {
           "lyrics": "Nazar nahin churaana sanam",
-          "indian": "Dha Dha Sa Ni Dha Dha - Ni - Dha:"
+          "indian": "Dha Dha Sa Ni Dha Dha - Ni - Dha:",
+          "western": "A A C B A A - B - A:"
         },
         {
           "lyrics": "(Repeat line)",
-          "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re"
+          "indian": "Dha Dha Sa Ni Dha Dha Ni~Dha Pa~Re",
+          "western": "A A C B A A B~A G~D"
         }
       ]
     },
@@ -32,11 +35,13 @@
       "lines": [
         {
           "lyrics": "Badal ke meri tum zindagani",
-          "indian": "Dha Dha Sa Ni Dha - Dha Ni~Dha -"
+          "indian": "Dha Dha Sa Ni Dha - Dha Ni~Dha -",
+          "western": "A A C B A - A B~A -"
         },
         {
           "lyrics": "Kahin badal na jaana sanam",
-          "indian": "Re~Re Re Re Ni~Dha | Re~Re Re Re Ni"
+          "indian": "Re~Re Re Re Ni~Dha | Re~Re Re Re Ni",
+          "western": "D~D D D B~A | D~D D D B"
         }
       ]
     },
@@ -45,11 +50,13 @@
       "lines": [
         {
           "lyrics": "Instrumental phrase",
-          "indian": "Re Re Re Re Ni / Re Re Re Re Ni"
+          "indian": "Re Re Re Re Ni / Re Re Re Re Ni",
+          "western": "D D D D B / D D D D B"
         },
         {
           "lyrics": "High filler",
-          "indian": "Re Re Re Dha Sa Ni | Dha Sa Ni Dha Dha"
+          "indian": "Re Re Re Dha Sa Ni | Dha Sa Ni Dha Dha",
+          "western": "D D D A C B | A C B A A"
         }
       ]
     },
@@ -58,19 +65,23 @@
       "lines": [
         {
           "lyrics": "Gham tera ho gham mera",
-          "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Ni Sa Sa Sa"
+          "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Ni Sa Sa Sa",
+          "western": "A B C D D D C B A B C C C"
         },
         {
           "lyrics": "Dil mein jo bas jaaye",
-          "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Dha Dha Dha"
+          "indian": "Dha Ni Sa Re Re Re Sa Ni Dha Dha Dha Dha",
+          "western": "A B C D D D C B A A A A"
         },
         {
           "lyrics": "Hum rahe ho",
-          "indian": "Re Re Re Ni~Dha / Re Re Re Ni"
+          "indian": "Re Re Re Ni~Dha / Re Re Re Ni",
+          "western": "D D D B~A / D D D B"
         },
         {
           "lyrics": "Aaj tum",
-          "indian": "Re Re Re Re Dha Sa Ni Dha Sa Ni Dha Dha"
+          "indian": "Re Re Re Re Dha Sa Ni Dha Sa Ni Dha Dha",
+          "western": "D D D D A C B A C B A A"
         }
       ]
     }

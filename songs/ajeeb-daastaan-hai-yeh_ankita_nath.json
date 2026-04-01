@@ -16,19 +16,23 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastaan hai yeh",
-          "indian": "Dha PaDha PaGa ReSa Ga"
+          "indian": "Dha PaDha PaGa ReSa Ga",
+          "western": "A GA GE DC E"
         },
         {
           "lyrics": "Kahan shuru kahan khatam",
-          "indian": "Dha PaDha PaGa ReSa Re"
+          "indian": "Dha PaDha PaGa ReSa Re",
+          "western": "A GA GE DC D"
         },
         {
           "lyrics": "Yeh manzilen hain kaunsi",
-          "indian": "Ga ReGa ReSa NiDha Ni Dha"
+          "indian": "Ga ReGa ReSa NiDha Ni Dha",
+          "western": "E DE DC BA B A"
         },
         {
           "lyrics": "Na woh samajh sake na hum",
-          "indian": "Pa PaDha PaGa ReSaDha Sa Pa"
+          "indian": "Pa PaDha PaGa ReSaDha Sa Pa",
+          "western": "G GA GE DCA C G"
         }
       ]
     },
@@ -37,27 +41,33 @@
       "lines": [
         {
           "lyrics": "Yeh roshni ke saath kyun",
-          "indian": "Sa ReGa MaGa MaRe Ma"
+          "indian": "Sa ReGa MaGa MaRe Ma",
+          "western": "C DE FE FD F"
         },
         {
           "lyrics": "Dhuaan utha chiraag se",
-          "indian": "Dha PaDha PaMa MaDha Pa"
+          "indian": "Dha PaDha PaMa MaDha Pa",
+          "western": "A GA GF FA G"
         },
         {
           "lyrics": "Yeh roshni ke saath kyun",
-          "indian": "Sa ReGa MaGa MaRe Ma"
+          "indian": "Sa ReGa MaGa MaRe Ma",
+          "western": "C DE FE FD F"
         },
         {
           "lyrics": "Dhuaan utha chiraag se",
-          "indian": "Dha PaDha PaMa MaDha Pa"
+          "indian": "Dha PaDha PaMa MaDha Pa",
+          "western": "A GA GF FA G"
         },
         {
           "lyrics": "Yeh khwaab dekhti hoon main",
-          "indian": "Ni NiDha NiDha NiDha Pa Ma"
+          "indian": "Ni NiDha NiDha NiDha Pa Ma",
+          "western": "B BA BA BA G F"
         },
         {
           "lyrics": "Ke jaag padi hoon khwaab se",
-          "indian": "Pa PaDha PaGa ReSa Sa Pa"
+          "indian": "Pa PaDha PaGa ReSa Sa Pa",
+          "western": "G GA GE DC C G"
         }
       ]
     },
@@ -66,11 +76,13 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastaan hai yeh",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:"
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:",
+          "western": "D'~C' D' C' A G F A:"
         },
         {
           "lyrics": "Kahan shuru kahan khatam",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:"
+          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:",
+          "western": "D'~C' D' C' A G F G:"
         }
       ]
     }

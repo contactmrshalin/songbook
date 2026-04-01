@@ -18,59 +18,73 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Re Ga, Ma Ga Re Ga"
+          "indian": "Re Ga, Ma Ga Re Ga",
+          "western": "D E, F E D E"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga Re Pa: Dha Pa : Re :"
+          "indian": "Re Ga Re Pa: Dha Pa : Re :",
+          "western": "D E D G: A G : D :"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga, Pa Ma Ga Re Ga"
+          "indian": "Re Ga, Pa Ma Ga Re Ga",
+          "western": "D E, G F E D E"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga Re Pa: Dha : Re : Ga Re Sa"
+          "indian": "Re Ga Re Pa: Dha : Re : Ga Re Sa",
+          "western": "D E D G: A : D : E D C"
         },
         {
           "lyrics": "",
-          "indian": "Ga Re Re Re Ga Ga, Ga Re Re Re Ga Ga"
+          "indian": "Ga Re Re Re Ga Ga, Ga Re Re Re Ga Ga",
+          "western": "E D D D E E, E D D D E E"
         },
         {
           "lyrics": "",
-          "indian": "Ga Re Re Re Re Ga Re Sa Dha, Dha Sa Sa"
+          "indian": "Ga Re Re Re Re Ga Re Sa Dha, Dha Sa Sa",
+          "western": "E D D D D E D C A, A C C"
         },
         {
           "lyrics": "",
-          "indian": "Sa Ni Ni Ni Sa Sa, Sa Ni Re Sa Sa Ni Dha Dha Dha Pa"
+          "indian": "Sa Ni Ni Ni Sa Sa, Sa Ni Re Sa Sa Ni Dha Dha Dha Pa",
+          "western": "C B B B C C, C B D C C B A A A G"
         },
         {
           "lyrics": "",
-          "indian": "Pa Pa Pa Pa Pa Re Re Ga Re Sa Sa"
+          "indian": "Pa Pa Pa Pa Pa Re Re Ga Re Sa Sa",
+          "western": "G G G G G D D E D C C"
         },
         {
           "lyrics": "",
-          "indian": "Re' Re' Re' Re' Ga' Ga', Re' Re' Re' Re' Ga' Ga'"
+          "indian": "Re' Re' Re' Re' Ga' Ga', Re' Re' Re' Re' Ga' Ga'",
+          "western": "D' D' D' D' E' E', D' D' D' D' E' E'"
         },
         {
           "lyrics": "",
-          "indian": "Sa' Ni Ni Ni Sa' Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
+          "indian": "Sa' Ni Ni Ni Sa' Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa",
+          "western": "C' B B B C' C', C' B D' C' C' B A A A G"
         },
         {
           "lyrics": "",
-          "indian": "Dha Pa Pa Dha Dha Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
+          "indian": "Dha Pa Pa Dha Dha Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa",
+          "western": "A G G A A C', C' B D' C' C' B A A A G"
         },
         {
           "lyrics": "",
-          "indian": "Pa Dha, Dha Pa Pa Dha Ni Dha Ma Ga Ga Pa"
+          "indian": "Pa Dha, Dha Pa Pa Dha Ni Dha Ma Ga Ga Pa",
+          "western": "G A, A G G A B A F E E G"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga, Ma Ga Re Ga"
+          "indian": "Re Ga, Ma Ga Re Ga",
+          "western": "D E, F E D E"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga Re Pa: Dha Pa : Re :"
+          "indian": "Re Ga Re Pa: Dha Pa : Re :",
+          "western": "D E D G: A G : D :"
         }
       ]
     }

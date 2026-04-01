@@ -11,109 +11,121 @@
   "thumbnail": "images/lag_ja_gale_thumb1.png",
   "background": "images/lag_ja_gale_bg.jpeg",
   "sections": [
-
     {
       "name": "Mukhda",
       "lines": [
         {
           "lyrics": "Lag ja gale",
-          "indian": "R— G~G R G—"
+          "indian": "R— G~G R G—",
+          "western": "D— E~E D E—"
         },
         {
           "lyrics": "Ke phir yeh",
-          "indian": "G R~R G R G—"
+          "indian": "G R~R G R G—",
+          "western": "E D~D E D E—"
         },
         {
           "lyrics": "Haseen raat ho na ho",
-          "indian": "G R~R G R G— S— S G~R—"
+          "indian": "G R~R G R G— S— S G~R—",
+          "western": "E D~D E D E— C— C E~D—"
         },
         {
           "lyrics": "Ooo..",
-          "indian": "G~R (n)S~(n)d n d p—"
+          "indian": "G~R (n)S~(n)d n d p—",
+          "western": "E~D (B.)C~(B.)A. B. A. G.—"
         },
         {
           "lyrics": "Shayad phir iss janam mein",
-          "indian": "p— d~d n (R) n~d p—"
+          "indian": "p— d~d n (R) n~d p—",
+          "western": "G.— A.~A. B. (D) B.~A. G.—"
         },
         {
           "lyrics": "Mulaqaat ho na ho",
-          "indian": "p— p P— P D~m P~m G R S—"
+          "indian": "p— p P— P D~m P~m G R S—",
+          "western": "G.— G. G— G A~F G~F E D C—"
         }
       ]
     },
-
     {
       "name": "Antara 1",
       "lines": [
         {
           "lyrics": "Humko mili hain aaj yeh",
-          "indian": "S— P M~P P M D P m—"
+          "indian": "S— P M~P P M D P m—",
+          "western": "C— G F#~G G F# A G F—"
         },
         {
           "lyrics": "Ghadiyaan naseeb se",
-          "indian": "S m~m D P m P~m G—"
+          "indian": "S m~m D P m P~m G—",
+          "western": "C F~F A G F G~F E—"
         },
         {
           "lyrics": "Jee bhar ke dekh leejiye",
-          "indian": "S— P M P M S'— D~m m—"
+          "indian": "S— P M P M S'— D~m m—",
+          "western": "C— G F# G F# C'— A~F F—"
         },
         {
           "lyrics": "Humko qareeb se",
-          "indian": "S m~m D P m P~m G—"
+          "indian": "S m~m D P m P~m G—",
+          "western": "C F~F A G F G~F E—"
         },
         {
           "lyrics": "Phir aap ke naseeb mein",
-          "indian": "p— p G~R G— G R~R G—"
+          "indian": "p— p G~R G— G R~R G—",
+          "western": "G.— G. E~D E— E D~D E—"
         }
       ]
     },
-
     {
       "name": "Mukhda Reprise",
       "lines": [
         {
           "lyrics": "Lag ja gale ke phir yeh haseen raat ho na ho",
-          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—"
+          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—",
+          "western": "D— E~E D E— | E D~D E D E— C— C E~D—"
         }
       ]
     },
-
     {
       "name": "Antara 2",
       "lines": [
         {
           "lyrics": "Paas aaiye ke hum nahin aayenge baar baar",
-          "indian": "S— P M~P P M D P m— | S m~m D P m P~m G—"
+          "indian": "S— P M~P P M D P m— | S m~m D P m P~m G—",
+          "western": "C— G F#~G G F# A G F— | C F~F A G F G~F E—"
         },
         {
           "lyrics": "Baahen gale mein daal ke hum ro lein zaar zaar",
-          "indian": "S— P M P M S'— D~m m— | S m~m D P m P~m G—"
+          "indian": "S— P M P M S'— D~m m— | S m~m D P m P~m G—",
+          "western": "C— G F# G F# C'— A~F F— | C F~F A G F G~F E—"
         },
         {
           "lyrics": "Aankhon se phir yeh pyaar ki barsaat ho na ho",
-          "indian": "p— p G~R G— | G R~R G R G— S— S G~R—"
+          "indian": "p— p G~R G— | G R~R G R G— S— S G~R—",
+          "western": "G.— G. E~D E— | E D~D E D E— C— C E~D—"
         }
       ]
     },
-
     {
       "name": "Final Mukhda + Ending Reprise",
       "lines": [
         {
           "lyrics": "Lag ja gale ke phir yeh haseen raat ho na ho",
-          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—"
+          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—",
+          "western": "D— E~E D E— | E D~D E D E— C— C E~D—"
         },
         {
           "lyrics": "Shayad phir iss janam mein mulaqaat ho na ho",
-          "indian": "G~R (n)S~(n)d n d p— | p— d~d n (R) n~d p— | p— p P— P D~m P~m G R S—"
+          "indian": "G~R (n)S~(n)d n d p— | p— d~d n (R) n~d p— | p— p P— P D~m P~m G R S—",
+          "western": "E~D (B.)C~(B.)A. B. A. G.— | G.— A.~A. B. (D) B.~A. G.— | G.— G. G— G A~F G~F E D C—"
         },
         {
           "lyrics": "Lag ja gale…",
-          "indian": "R— G~G R G— S—"
+          "indian": "R— G~G R G— S—",
+          "western": "D— E~E D E— C—"
         }
       ]
     }
-
   ],
   "export": true
 }

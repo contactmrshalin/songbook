@@ -13,27 +13,33 @@
       "lines": [
         {
           "lyrics": "Lai lalai lalai lara lala",
-          "indian": "N..N.N..N..S'..N..D..P.."
+          "indian": "N..N.N..N..S'..N..D..P..",
+          "western": "B..B.B..B..C'..B..A..G.."
         },
         {
           "lyrics": "Lai lalai lalai lara lala",
-          "indian": "N..N.N..N..S'..N..D..P.."
+          "indian": "N..N.N..N..S'..N..D..P..",
+          "western": "B..B.B..B..C'..B..A..G.."
         },
         {
           "lyrics": "Lai lalai lalai lara lala…",
-          "indian": "N..N.N..N..S'..N..D..P..m..P..D…"
+          "indian": "N..N.N..N..S'..N..D..P..m..P..D…",
+          "western": "B..B.B..B..C'..B..A..G..F..G..A…"
         },
         {
           "lyrics": "Lai lalai lalai lara lala",
-          "indian": "D..D.D..D..N..D..P..m.."
+          "indian": "D..D.D..D..N..D..P..m..",
+          "western": "A..A.A..A..B..A..G..F.."
         },
         {
           "lyrics": "Lai lalai lalai lara lala",
-          "indian": "D..D.D..D..N..D..P..m.."
+          "indian": "D..D.D..D..N..D..P..m..",
+          "western": "A..A.A..A..B..A..G..F.."
         },
         {
           "lyrics": "Lai lalai lalai lara lala… (x2)",
-          "indian": "D..D.D..D..R'..S'..N..D..P..D..N…"
+          "indian": "D..D.D..D..R'..S'..N..D..P..D..N…",
+          "western": "A..A.A..A..D'..C'..B..A..G..A..B…"
         }
       ]
     },
@@ -42,15 +48,18 @@
       "lines": [
         {
           "lyrics": "Mera dil jis dil pe fidda hain",
-          "indian": "P..m..D..P.. P..m..m…m..G..P…m.."
+          "indian": "P..m..D..P.. P..m..m…m..G..P…m..",
+          "western": "G..F..A..G.. G..F..F…F..E..G…F.."
         },
         {
           "lyrics": "Mera dil jis dil pe fidda hain",
-          "indian": "P..m..D..P.. P..m..m…m..G..P…m.."
+          "indian": "P..m..D..P.. P..m..m…m..G..P…m..",
+          "western": "G..F..A..G.. G..F..F…F..E..G…F.."
         },
         {
           "lyrics": "Ek dilruba hain ek dilruba hain",
-          "indian": "n..n..S..n..m…G.. n..S..n..m…G.."
+          "indian": "n..n..S..n..m…G.. n..S..n..m…G..",
+          "western": "B...B...C..B...F…E.. B...C..B...F…E.."
         }
       ]
     },
@@ -59,27 +68,33 @@
       "lines": [
         {
           "lyrics": "Ha dilruba hain ek dilruba hain",
-          "indian": "n…S..n..m…G.. n..S..n..m…G.."
+          "indian": "n…S..n..m…G.. n..S..n..m…G..",
+          "western": "B.…C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Meri ulfat meri wafa hain",
-          "indian": "P..m..D..P…P.. m…m..G..P…m.."
+          "indian": "P..m..D..P…P.. m…m..G..P…m..",
+          "western": "G..F..A..G…G.. F…F..E..G…F.."
         },
         {
           "lyrics": "Meri ulfat meri wafa hain",
-          "indian": "P..m..D..P…P.. m…m..G..P…m.."
+          "indian": "P..m..D..P…P.. m…m..G..P…m..",
+          "western": "G..F..A..G…G.. F…F..E..G…F.."
         },
         {
           "lyrics": "Woh dilruba hain woh dilruba hain",
-          "indian": "n…S..n..m…G.. n..S..n..m…G.."
+          "indian": "n…S..n..m…G.. n..S..n..m…G..",
+          "western": "B.…C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Ha dilruba hain woh dilruba hain",
-          "indian": "n…S..n..m…G.. n..S..n..m…G.."
+          "indian": "n…S..n..m…G.. n..S..n..m…G..",
+          "western": "B.…C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Mera dil jis dil pe fidda hain",
-          "indian": "P..m..D..P.. P..m..m…m..G..P…m.."
+          "indian": "P..m..D..P.. P..m..m…m..G..P…m..",
+          "western": "G..F..A..G.. G..F..F…F..E..G…F.."
         }
       ]
     },
@@ -88,15 +103,18 @@
       "lines": [
         {
           "lyrics": "Mera dil jis dil pe fidda hain",
-          "indian": "P..m..D..P.. P..m..m…m..G..P…m.."
+          "indian": "P..m..D..P.. P..m..m…m..G..P…m..",
+          "western": "G..F..A..G.. G..F..F…F..E..G…F.."
         },
         {
           "lyrics": "Ek dilruba hain ek dilruba hain",
-          "indian": "n..n..S..n..m…G.. n..S..n..m…G.."
+          "indian": "n..n..S..n..m…G.. n..S..n..m…G..",
+          "western": "B...B...C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Ha dilruba hain ek dilruba hain",
-          "indian": "n…S..n..m…G.. n..S..n..m…G.."
+          "indian": "n…S..n..m…G.. n..S..n..m…G..",
+          "western": "B.…C..B...F…E.. B...C..B...F…E.."
         }
       ]
     },
@@ -105,19 +123,23 @@
       "lines": [
         {
           "lyrics": "Ji karta hain teri zulfo se khelu",
-          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…m…"
+          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…m…",
+          "western": "E..F..F..G..G..A..A..B..A..G..F..E…F…"
         },
         {
           "lyrics": "Ji karta hain tujhe baho mein le lu",
-          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…G…"
+          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…G…",
+          "western": "E..F..F..G..G..A..A..B..A..G..F..E…E…"
         },
         {
           "lyrics": "Ji karta hain teri zulfo se khelu",
-          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…m…"
+          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…m…",
+          "western": "E..F..F..G..G..A..A..B..A..G..F..E…F…"
         },
         {
           "lyrics": "Ji karta hain tujhe baho mein le lu",
-          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…G…"
+          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…G…",
+          "western": "E..F..F..G..G..A..A..B..A..G..F..E…E…"
         }
       ]
     },
@@ -126,67 +148,83 @@
       "lines": [
         {
           "lyrics": "Ji karta hain teri ankho ko chumu",
-          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…m…"
+          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…m…",
+          "western": "E..F..F..G..G..A..A..B..A..G..F..E…F…"
         },
         {
           "lyrics": "Ji karta hain tere ishq main jhumu",
-          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…G…"
+          "indian": "G..m..m..P..P..D..D..N..D..P..m..G…G…",
+          "western": "E..F..F..G..G..A..A..B..A..G..F..E…E…"
         },
         {
           "lyrics": "Hayee",
-          "indian": "N…"
+          "indian": "N…",
+          "western": "B…"
         },
         {
           "lyrics": "Dil karta hain tera sapna sajalu",
-          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…m…"
+          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…m…",
+          "western": "E…F..F..G..G..A..A..B..A..G..F..E…F…"
         },
         {
           "lyrics": "Dil karta hain tujhe apna banalu",
-          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…G…"
+          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…G…",
+          "western": "E…F..F..G..G..A..A..B..A..G..F..E…E…"
         },
         {
           "lyrics": "Dil karta hain tujhe dil main chupalu",
-          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…m…"
+          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…m…",
+          "western": "E…F..F..G..G..A..A..B..A..G..F..E…F…"
         },
         {
           "lyrics": "Dil karta hain tujhe tujhse churalu",
-          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…G…"
+          "indian": "G…m..m..P..P..D..D..N..D..P..m..G…G…",
+          "western": "E…F..F..G..G..A..A..B..A..G..F..E…E…"
         },
         {
           "lyrics": "Hoo…",
-          "indian": "P…"
+          "indian": "P…",
+          "western": "G…"
         },
         {
           "lyrics": "Sabse dilkash jiski ada hain",
-          "indian": "P..m..D..P…P.. m..m..m..G..P…m.."
+          "indian": "P..m..D..P…P.. m..m..m..G..P…m..",
+          "western": "G..F..A..G…G.. F..F..F..E..G…F.."
         },
         {
           "lyrics": "Sabse dilkash jiski ada hain",
-          "indian": "P..m..D..P…P.. m..m..m..G..P…m.."
+          "indian": "P..m..D..P…P.. m..m..m..G..P…m..",
+          "western": "G..F..A..G…G.. F..F..F..E..G…F.."
         },
         {
           "lyrics": "Ek dilruba hain ek dilruba hain",
-          "indian": "n..n..S..n..m…G.. n..S..n..m…G.."
+          "indian": "n..n..S..n..m…G.. n..S..n..m…G..",
+          "western": "B...B...C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Ha dilruba hain ek dilruba hain",
-          "indian": "n…S..n..m…G.. n..S..n..m…G.."
+          "indian": "n…S..n..m…G.. n..S..n..m…G..",
+          "western": "B.…C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Mera dil jis dil pe fidda hain",
-          "indian": "P..m..D..P.. P..m..m…m..G..P…m.."
+          "indian": "P..m..D..P.. P..m..m…m..G..P…m..",
+          "western": "G..F..A..G.. G..F..F…F..E..G…F.."
         },
         {
           "lyrics": "Mera dil jis dil pe fidda hain",
-          "indian": "P..m..D..P.. P..m..m…m..G..P…m.."
+          "indian": "P..m..D..P.. P..m..m…m..G..P…m..",
+          "western": "G..F..A..G.. G..F..F…F..E..G…F.."
         },
         {
           "lyrics": "Ek dilruba hain ek dilruba hain",
-          "indian": "n..n..S..n..m…G.. n..S..n..m…G.."
+          "indian": "n..n..S..n..m…G.. n..S..n..m…G..",
+          "western": "B...B...C..B...F…E.. B...C..B...F…E.."
         },
         {
           "lyrics": "Ha dilruba hain ek dilruba hain",
-          "indian": "n…S..n..m…G.. n..S..n..m…G.."
+          "indian": "n…S..n..m…G.. n..S..n..m…G..",
+          "western": "B.…C..B...F…E.. B...C..B...F…E.."
         }
       ]
     }

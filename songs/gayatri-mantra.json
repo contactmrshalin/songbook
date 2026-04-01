@@ -15,43 +15,51 @@
       "lines": [
         {
           "lyrics": "Om bhurr bhuvah swaaha",
-          "indian": "Ga..Ga..Re.Ga..Pa.Ga.."
+          "indian": "Ga..Ga..Re.Ga..Pa.Ga..",
+          "western": "E..E..D.E..G.E.."
         },
         {
           "lyrics": "Tat saviturr varenyam",
-          "indian": "Ga..Ga.Ga.Ga..Dha.Pa..Ga.Re..Re.Re.."
+          "indian": "Ga..Ga.Ga.Ga..Dha.Pa..Ga.Re..Re.Re..",
+          "western": "E..E.E.E..A.G..E.D..D.D.."
         },
         {
           "lyrics": "Bhargo devasya dhimahi",
-          "indian": "Ni(k)..Re..Re..Re..Re.Ni(k)..Re.Re.."
+          "indian": "Ni(k)..Re..Re..Re..Re.Ni(k)..Re.Re..",
+          "western": "Bb..D..D..D..D.Bb..D.D.."
         },
         {
           "lyrics": "Dhiyo yo nah pracho dayatehh",
-          "indian": "Sa.Sa..Re..Ga..Re.Ga.Re..Sa.Sa.."
+          "indian": "Sa.Sa..Re..Ga..Re.Ga.Re..Sa.Sa..",
+          "western": "C.C..D..E..D.E.D..C.C.."
         },
         {
           "lyrics": "Om bhurr bhuvah swaaha",
-          "indian": "Ga..Ga..Re.Ga..Pa.Ga.."
+          "indian": "Ga..Ga..Re.Ga..Pa.Ga..",
+          "western": "E..E..D.E..G.E.."
         },
         {
           "lyrics": "Tat saviturr varenyam",
-          "indian": "Ga..Ga.Ga.Ga..Dha.Pa..Ga.Re..Re.Re.."
+          "indian": "Ga..Ga.Ga.Ga..Dha.Pa..Ga.Re..Re.Re..",
+          "western": "E..E.E.E..A.G..E.D..D.D.."
         },
         {
           "lyrics": "Bhargo devasya dhimahi",
-          "indian": "Ni(k)..Re..Re..Re..Re.Ni(k)..Re.Re.."
+          "indian": "Ni(k)..Re..Re..Re..Re.Ni(k)..Re.Re..",
+          "western": "Bb..D..D..D..D.Bb..D.D.."
         },
         {
           "lyrics": "Dhiyo yo nah pracho dayatehh",
-          "indian": "Sa.Sa..Re..Ga..Re.Ga.Re..Sa.Sa.."
+          "indian": "Sa.Sa..Re..Ga..Re.Ga.Re..Sa.Sa..",
+          "western": "C.C..D..E..D.E.D..C.C.."
         },
         {
           "lyrics": "Om bhurr bhuvah swaaha",
-          "indian": "Pa..Pa..Pa.Dha..Dha.Dha.."
+          "indian": "Pa..Pa..Pa.Dha..Dha.Dha..",
+          "western": "G..G..G.A..A.A.."
         }
       ]
     }
   ],
   "export": true
 }
-

@@ -20,31 +20,38 @@
       "lines": [
         {
           "lyrics": "Keyboard",
-          "indian": "Ga Ni Dha Pa Ma Ga Ma Re | Re Ni Dha Pa Ma Ga Ma Re"
+          "indian": "Ga Ni Dha Pa Ma Ga Ma Re | Re Ni Dha Pa Ma Ga Ma Re",
+          "western": "E B A G F E F D | D B A G F E F D"
         },
         {
           "lyrics": "Saxophone",
-          "indian": "Ni Dha | Ni Dha | Ni Dha | Ni Dha | Ni Dha (x2)"
+          "indian": "Ni Dha | Ni Dha | Ni Dha | Ni Dha | Ni Dha (x2)",
+          "western": "B A | B A | B A | B A | B A (x2)"
         },
         {
           "lyrics": "Saxophone",
-          "indian": "(Sa Ga Ma)… Dha Ni Sa' Ni Dha"
+          "indian": "(Sa Ga Ma)… Dha Ni Sa' Ni Dha",
+          "western": "(C E F)… A B C' B A"
         },
         {
           "lyrics": "Saxophone",
-          "indian": "Ma Dha Ni Sa' Ni (Dha Pa Ma)…"
+          "indian": "Ma Dha Ni Sa' Ni (Dha Pa Ma)…",
+          "western": "F A B C' B (A G F)…"
         },
         {
           "lyrics": "Saxophone",
-          "indian": "Dha Ma Ga Re Sa"
+          "indian": "Dha Ma Ga Re Sa",
+          "western": "A F E D C"
         },
         {
           "lyrics": "Humming",
-          "indian": "Sa ,Dha Ga Ga(k) Ga"
+          "indian": "Sa ,Dha Ga Ga(k) Ga",
+          "western": "C ,A E Eb E"
         },
         {
           "lyrics": "Humming",
-          "indian": "Dha Dha(k) Dha Ga Re Sa PaGa Re Sa"
+          "indian": "Dha Dha(k) Dha Ga Re Sa PaGa Re Sa",
+          "western": "A Ab A E D C GE D C"
         }
       ]
     },
@@ -53,47 +60,58 @@
       "lines": [
         {
           "lyrics": "Aanewala pal…",
-          "indian": "Sa...Re...Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni.."
+          "indian": "Sa...Re...Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni..",
+          "western": "C...D...E..A..A...B.A.G.A.B.."
         },
         {
           "lyrics": "Jaanewala hai…",
-          "indian": "Ni..Dha..Pa..Re..Ga...Ma.Ga.Re..Sa.."
+          "indian": "Ni..Dha..Pa..Re..Ga...Ma.Ga.Re..Sa..",
+          "western": "B..A..G..D..E...F.E.D..C.."
         },
         {
           "lyrics": "Aanewala pal…",
-          "indian": "Sa..Re..Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni.."
+          "indian": "Sa..Re..Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni..",
+          "western": "C..D..E..A..A...B.A.G.A.B.."
         },
         {
           "lyrics": "Jaanewala hai",
-          "indian": "Ni..Dha..Pa..Re..Ga..."
+          "indian": "Ni..Dha..Pa..Re..Ga...",
+          "western": "B..A..G..D..E..."
         },
         {
           "lyrics": "Ho sake to iss mein zindagi bitaado",
-          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa.."
+          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa..",
+          "western": "E..F..G..F..E..D.. D..E..F..E..D..C.."
         },
         {
           "lyrics": "Pal jo yeh jaanewala hai",
-          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga..."
+          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga...",
+          "western": "D..C..E..D..F..E..G..F..E..."
         },
         {
           "lyrics": "Hoo oo",
-          "indian": "Dha(k)..Dha..."
+          "indian": "Dha(k)..Dha...",
+          "western": "Ab..A..."
         },
         {
           "lyrics": "Aanewala pal…",
-          "indian": "Sa...Re...Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni.."
+          "indian": "Sa...Re...Ga..Dha..Dha...Ni.Dha.Pa.Dha.Ni..",
+          "western": "C...D...E..A..A...B.A.G.A.B.."
         },
         {
           "lyrics": "Jaanewala hai",
-          "indian": "Ni..Dha..Pa..Re..Ga..."
+          "indian": "Ni..Dha..Pa..Re..Ga...",
+          "western": "B..A..G..D..E..."
         },
         {
           "lyrics": "Ho sake to iss mein zindagi bitaado",
-          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa.."
+          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa..",
+          "western": "E..F..G..F..E..D.. D..E..F..E..D..C.."
         },
         {
           "lyrics": "Pal jo yeh jaanewala hai",
-          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga..."
+          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga...",
+          "western": "D..C..E..D..F..E..G..F..E..."
         }
       ]
     },
@@ -102,19 +120,23 @@
       "lines": [
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Ni Dha Pa Ma Ga Re Sa ,Ni ,Dha (Dha Ni Sa Re Ga Ma Pa Dha)"
+          "indian": "Ni Dha Pa Ma Ga Re Sa ,Ni ,Dha (Dha Ni Sa Re Ga Ma Pa Dha)",
+          "western": "B A G F E D C ,B ,A (A B C D E F G A)"
         },
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Sa Ni Dha Pa Ma Ga Re Sa ,Ni (Ni Sa Re Ga Ma Pa Dha Ni)"
+          "indian": "Sa Ni Dha Pa Ma Ga Re Sa ,Ni (Ni Sa Re Ga Ma Pa Dha Ni)",
+          "western": "C B A G F E D C ,B (B C D E F G A B)"
         },
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Sa' Sa' Ni | Re' Re' Sa' | Ga' Re' Sa' Ni Dha Pa Ma Ga Re"
+          "indian": "Sa' Sa' Ni | Re' Re' Sa' | Ga' Re' Sa' Ni Dha Pa Ma Ga Re",
+          "western": "C' C' B | D' D' C' | E' D' C' B A G F E D"
         },
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Sa ,Ni ,Dha | MaGa MaGa MaGa"
+          "indian": "Sa ,Ni ,Dha | MaGa MaGa MaGa",
+          "western": "C ,B ,A | FE FE FE"
         }
       ]
     },
@@ -123,39 +145,48 @@
       "lines": [
         {
           "lyrics": "Ek baar yoon mili",
-          "indian": "Sa..Sa..Sa...Ni(k)..Re.. Ni(k)..Sa..."
+          "indian": "Sa..Sa..Sa...Ni(k)..Re.. Ni(k)..Sa...",
+          "western": "C..C..C...Bb..D.. Bb..C..."
         },
         {
           "lyrics": "Maasoom si kali…",
-          "indian": "Ga..Ga..Ga...Re..Pa.. Re..Ga...Ma.Ga.Re..Sa.."
+          "indian": "Ga..Ga..Ga...Re..Pa.. Re..Ga...Ma.Ga.Re..Sa..",
+          "western": "E..E..E...D..G.. D..E...F.E.D..C.."
         },
         {
           "lyrics": "Ek baar yoon mili",
-          "indian": "Sa..Sa..Sa...Ni(k)..Re.. Ni(k)..Sa..."
+          "indian": "Sa..Sa..Sa...Ni(k)..Re.. Ni(k)..Sa...",
+          "western": "C..C..C...Bb..D.. Bb..C..."
         },
         {
           "lyrics": "Maasoom si kali",
-          "indian": "Ga..Ga..Ga...Re..Pa.. Re..Ga..."
+          "indian": "Ga..Ga..Ga...Re..Pa.. Re..Ga...",
+          "western": "E..E..E...D..G.. D..E..."
         },
         {
           "lyrics": "Ho khilte hue kahaan",
-          "indian": "Pa...Pa..Pa..Pa...Pa..Dha...Pa..Ma..."
+          "indian": "Pa...Pa..Pa..Pa...Pa..Dha...Pa..Ma...",
+          "western": "G...G..G..G...G..A...G..F..."
         },
         {
           "lyrics": "Khushpash mein chali",
-          "indian": "Dha..Dha..Dha...Pa..Ni...Dha..Pa..."
+          "indian": "Dha..Dha..Dha...Pa..Ni...Dha..Pa...",
+          "western": "A..A..A...G..B...A..G..."
         },
         {
           "lyrics": "Dekha to yahin hai dhundha to nahin hai",
-          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa.."
+          "indian": "Ga..Ma..Pa..Ma..Ga..Re.. Re..Ga..Ma..Ga..Re..Sa..",
+          "western": "E..F..G..F..E..D.. D..E..F..E..D..C.."
         },
         {
           "lyrics": "Pal jo yeh jaanewala hai",
-          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga..."
+          "indian": "Re..Sa..Ga..Re..Ma..Ga..Pa..Ma..Ga...",
+          "western": "D..C..E..D..F..E..G..F..E..."
         },
         {
           "lyrics": "Hoo oo",
-          "indian": "Dha(k)..Dha..."
+          "indian": "Dha(k)..Dha...",
+          "western": "Ab..A..."
         }
       ]
     },

@@ -13,11 +13,13 @@
       "lines": [
         {
           "lyrics": "Ae jaate huye lamhon",
-          "indian": "G…R…G…R..R..P..P.."
+          "indian": "G…R…G…R..R..P..P..",
+          "western": "E…D…E…D..D..G..G.."
         },
         {
           "lyrics": "Zara thehro zara thehro",
-          "indian": "G..G..R…G.. R..R..P..P…G…"
+          "indian": "G..G..R…G.. R..R..P..P…G…",
+          "western": "E..E..D…E.. D..D..G..G…E…"
         }
       ]
     },
@@ -26,71 +28,88 @@
       "lines": [
         {
           "lyrics": "Ae jaate huye lamhon",
-          "indian": "G…R…G…R..R..P..P.."
+          "indian": "G…R…G…R..R..P..P..",
+          "western": "E…D…E…D..D..G..G.."
         },
         {
           "lyrics": "Zara thehro zara thehro",
-          "indian": "G..G..R…G.. R..R..P..P.."
+          "indian": "G..G..R…G.. R..R..P..P..",
+          "western": "E..E..D…E.. D..D..G..G.."
         },
         {
           "lyrics": "Main bhi toh chalta hoon",
-          "indian": "G.D.D(k)..D(k)…m.G.G..G.."
+          "indian": "G.D.D(k)..D(k)…m.G.G..G..",
+          "western": "E.A.Ab..Ab…F.E.E..E.."
         },
         {
           "lyrics": "Zara unse milta hoon",
-          "indian": "G.N.D(k)..D(k)…m.G.G..G.."
+          "indian": "G.N.D(k)..D(k)…m.G.G..G..",
+          "western": "E.B.Ab..Ab…F.E.E..E.."
         },
         {
           "lyrics": "Jo ik baat dil mein hai",
-          "indian": "D..N…S'…N..R'…N…D..P.."
+          "indian": "D..N…S'…N..R'…N…D..P..",
+          "western": "A..B…C'…B..D'…B…A..G.."
         },
         {
           "lyrics": "Unse kahoon",
-          "indian": "P..S'…N…D..D.."
+          "indian": "P..S'…N…D..D..",
+          "western": "G..C'…B…A..A.."
         },
         {
           "lyrics": "Toh chalu toh chalu",
-          "indian": "G…S'..D.. G…S'..D.."
+          "indian": "G…S'..D.. G…S'..D..",
+          "western": "E…C'..A.. E…C'..A.."
         },
         {
           "lyrics": "Mm hm hm hm",
-          "indian": "S'..D..m..G..m.G.R…"
+          "indian": "S'..D..m..G..m.G.R…",
+          "western": "C'..A..F..E..F.E.D…"
         },
         {
           "lyrics": "Toh chalu toh chalu",
-          "indian": "R…N..P.. R…N..P.."
+          "indian": "R…N..P.. R…N..P..",
+          "western": "D…B..G.. D…B..G.."
         },
         {
           "lyrics": "Toh chalu mm hm hm",
-          "indian": "N..R'..R'..S'….N..S'..N…D.."
+          "indian": "N..R'..R'..S'….N..S'..N…D..",
+          "western": "B..D'..D'..C'….B..C'..B…A.."
         },
         {
           "lyrics": "Toh chalu toh chalu",
-          "indian": "G…S'..D.. G…S'..D.."
+          "indian": "G…S'..D.. G…S'..D..",
+          "western": "E…C'..A.. E…C'..A.."
         },
         {
           "lyrics": "Mm hm hm hm",
-          "indian": "S'..D..m..G..m.G.R…"
+          "indian": "S'..D..m..G..m.G.R…",
+          "western": "C'..A..F..E..F.E.D…"
         },
         {
           "lyrics": "Hmm mm",
-          "indian": "S..R..S..n.."
+          "indian": "S..R..S..n..",
+          "western": "C..D..C..B..."
         },
         {
           "lyrics": "Toh chalu toh chalu",
-          "indian": "R…N..P.. R…N..P.."
+          "indian": "R…N..P.. R…N..P..",
+          "western": "D…B..G.. D…B..G.."
         },
         {
           "lyrics": "Toh chalu mm hm",
-          "indian": "N..R'..R'..S'….N..S'..N…D.."
+          "indian": "N..R'..R'..S'….N..S'..N…D..",
+          "western": "B..D'..D'..C'….B..C'..B…A.."
         },
         {
           "lyrics": "Ae jaate hue lamhon",
-          "indian": "G…R…G…R..R..P..P.."
+          "indian": "G…R…G…R..R..P..P..",
+          "western": "E…D…E…D..D..G..G.."
         },
         {
           "lyrics": "Zara thehro zara thehro",
-          "indian": "G..G..R…G.. R..R..P..P..D..G…"
+          "indian": "G..G..R…G.. R..R..P..P..D..G…",
+          "western": "E..E..D…E.. D..D..G..G..A..E…"
         }
       ]
     }

@@ -12,11 +12,13 @@
       "lines": [
         {
           "lyrics": "Jana Gana Mana Adhinayak jaya hee",
-          "indian": "Sa.Re.Ga.Ga.Ga.Ga.Ga.Ga.Ga..Ga.Ga.Re.Ga.Ma…"
+          "indian": "Sa.Re.Ga.Ga.Ga.Ga.Ga.Ga.Ga..Ga.Ga.Re.Ga.Ma…",
+          "western": "C.D.E.E.E.E.E.E.E..E.E.D.E.F…"
         },
         {
           "lyrics": "Bharat Bhagya Vidhataa",
-          "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa…"
+          "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa…",
+          "western": "E..E.E..D..D.D..Bb.D.C…"
         }
       ]
     },
@@ -25,19 +27,23 @@
       "lines": [
         {
           "lyrics": "Punjab- Singhu-Gujrat-Marathaa",
-          "indian": "Sa..Pa..Pa.Pa..Pa.Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa.."
+          "indian": "Sa..Pa..Pa.Pa..Pa.Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa..",
+          "western": "C..G..G.G..G.G.G.G..G.G.F.A.G.."
         },
         {
           "lyrics": "Dravida utkhal bangaa",
-          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…"
+          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…",
+          "western": "F..F.F..E..E.E..D.F.E…"
         },
         {
           "lyrics": "Vindhya-Himachal Yamuna-Gangaa",
-          "indian": "Ga..Ga.Ga..Ga..Ga.Re..Pa.Pa.Pa..Ma.Ma.."
+          "indian": "Ga..Ga.Ga..Ga..Ga.Re..Pa.Pa.Pa..Ma.Ma..",
+          "western": "E..E.E..E..E.D..G.G.G..F.F.."
         },
         {
           "lyrics": "Uchchhala-Jaladhi Tarangaa",
-          "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa.."
+          "indian": "Ga..Ga.Ga..Re..Re.Re..Ni(k).Re.Sa..",
+          "western": "E..E.E..D..D.D..Bb.D.C.."
         }
       ]
     },
@@ -46,15 +52,18 @@
       "lines": [
         {
           "lyrics": "Tava Subha Naame Jagee",
-          "indian": "Sa.Re.Ga.Ga..Ga..Ga..Re.Ga.Ma.."
+          "indian": "Sa.Re.Ga.Ga..Ga..Ga..Re.Ga.Ma..",
+          "western": "C.D.E.E..E..E..D.E.F.."
         },
         {
           "lyrics": "Tava Subha Ashisa Magee",
-          "indian": "Ga.Ma.Pa.Pa..Ma..Ma.Ga..Re.Ma.Ga"
+          "indian": "Ga.Ma.Pa.Pa..Ma..Ma.Ga..Re.Ma.Ga",
+          "western": "E.F.G.G..F..F.E..D.F.E"
         },
         {
           "lyrics": "Gahe Tava Jaya Gathaa..",
-          "indian": "Ga..Ga..Re..Re.Re..Ni(k).Re.Sa.."
+          "indian": "Ga..Ga..Re..Re.Re..Ni(k).Re.Sa..",
+          "western": "E..E..D..D.D..Bb.D.C.."
         }
       ]
     },
@@ -63,19 +72,23 @@
       "lines": [
         {
           "lyrics": "Jana-Gana-Magal Dayaka, Jaya Hee",
-          "indian": "Pa.Pa.Pa.Pa.Pa..Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa.."
+          "indian": "Pa.Pa.Pa.Pa.Pa..Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa..",
+          "western": "G.G.G.G.G..G.G.G..G.G.F.A.G.."
         },
         {
           "lyrics": "Bharata-Bhagya-Vidhataa..",
-          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…"
+          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…",
+          "western": "F..F.F..E..E.E..D.F.E…"
         },
         {
           "lyrics": "Jaya He, Jaya He, Jaya hee…",
-          "indian": "Sa'.Ni.Sa'… Ni.Dha.Ni… Dha.Pa.Dha…"
+          "indian": "Sa'.Ni.Sa'… Ni.Dha.Ni… Dha.Pa.Dha…",
+          "western": "C'.B.C'… B.A.B… A.G.A…"
         },
         {
           "lyrics": "Jaya, Jaya , Jaya Haii",
-          "indian": "Sa.Sa.Re.Re.Ga.Ga.Re.Ga.Ma…"
+          "indian": "Sa.Sa.Re.Re.Ga.Ga.Re.Ga.Ma…",
+          "western": "C.C.D.D.E.E.D.E.F…"
         }
       ]
     }

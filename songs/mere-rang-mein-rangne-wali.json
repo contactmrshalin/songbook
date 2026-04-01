@@ -14,23 +14,28 @@
       "lines": [
         {
           "lyrics": "Mere rang mein rangne waali",
-          "indian": "G..G..G..S'..S'... S'..R'..G'..R'...S'..."
+          "indian": "G..G..G..S'..S'... S'..R'..G'..R'...S'...",
+          "western": "E..E..E..C'..C'... C'..D'..E'..D'...C'..."
         },
         {
           "lyrics": "Pari ho ya ho pariyon ki rani",
-          "indian": "R..R...N..N...N... D..N..S'..N...D.."
+          "indian": "R..R...N..N...N... D..N..S'..N...D..",
+          "western": "D..D...B..B...B... A..B..C'..B...A.."
         },
         {
           "lyrics": "Ya ho meri prem kahaani",
-          "indian": "S...S..D..D...D... D(k)..D..N..D...D(k).."
+          "indian": "S...S..D..D...D... D(k)..D..N..D...D(k)..",
+          "western": "C...C..A..A...A... Ab..A..B..A...Ab.."
         },
         {
           "lyrics": "Mere savaalon ka jawaab do",
-          "indian": "D..D...D..N...S'...m'... G'..R'...S'..G'..."
+          "indian": "D..D...D..N...S'...m'... G'..R'...S'..G'...",
+          "western": "A..A...A..B...C'...F'... E'..D'...C'..E'..."
         },
         {
           "lyrics": "Do na",
-          "indian": "N...D..."
+          "indian": "N...D...",
+          "western": "B...A..."
         }
       ]
     },
@@ -39,23 +44,28 @@
       "lines": [
         {
           "lyrics": "Mere rang mein rangne waali",
-          "indian": "G..G..G..S'..S'... S'..R'..G'..R'...S'..."
+          "indian": "G..G..G..S'..S'... S'..R'..G'..R'...S'...",
+          "western": "E..E..E..C'..C'... C'..D'..E'..D'...C'..."
         },
         {
           "lyrics": "Pari ho ya ho pariyon ki rani",
-          "indian": "R..R...N..N...N... D..N..S'..N...D.."
+          "indian": "R..R...N..N...N... D..N..S'..N...D..",
+          "western": "D..D...B..B...B... A..B..C'..B...A.."
         },
         {
           "lyrics": "Ya ho meri prem kahaani",
-          "indian": "S...S..D..D...D... D(k)..D..N..D...D(k).."
+          "indian": "S...S..D..D...D... D(k)..D..N..D...D(k)..",
+          "western": "C...C..A..A...A... Ab..A..B..A...Ab.."
         },
         {
           "lyrics": "Mere savaalon ka jawaab do",
-          "indian": "D..D...D..N...S'...m'... G'..R'...S'..G'..."
+          "indian": "D..D...D..N...S'...m'... G'..R'...S'..G'...",
+          "western": "A..A...A..B...C'...F'... E'..D'...C'..E'..."
         },
         {
           "lyrics": "Do na",
-          "indian": "N...D..."
+          "indian": "N...D...",
+          "western": "B...A..."
         }
       ]
     },
@@ -64,11 +74,13 @@
       "lines": [
         {
           "lyrics": "Bolo na kyon ye chaand sitaare",
-          "indian": "G'..R'..S'..G'...R'..S'..G'...R'..S'..R'...R'.."
+          "indian": "G'..R'..S'..G'...R'..S'..G'...R'..S'..R'...R'..",
+          "western": "E'..D'..C'..E'...D'..C'..E'...D'..C'..D'...D'.."
         },
         {
           "lyrics": "Takte hain yoon mukhde ko tumhaare",
-          "indian": "R'..S'..N..R'...S'..N..R'...S'..N..S'...S'.."
+          "indian": "R'..S'..N..R'...S'..N..R'...S'..N..S'...S'..",
+          "western": "D'..C'..B..D'...C'..B..D'...C'..B..C'...C'.."
         }
       ]
     },
@@ -77,19 +89,23 @@
       "lines": [
         {
           "lyrics": "Bolo na kyon ye chaand sitaare",
-          "indian": "G'..R'..S'..G'...R'..S'..G'...R'..S'..R'...R'.."
+          "indian": "G'..R'..S'..G'...R'..S'..G'...R'..S'..R'...R'..",
+          "western": "E'..D'..C'..E'...D'..C'..E'...D'..C'..D'...D'.."
         },
         {
           "lyrics": "Takte hain yoon mukhde ko tumhaare",
-          "indian": "R'..S'..N..R'...S'..N..R'...S'..N..S'...S'.."
+          "indian": "R'..S'..N..R'...S'..N..R'...S'..N..S'...S'..",
+          "western": "D'..C'..B..D'...C'..B..D'...C'..B..C'...C'.."
         },
         {
           "lyrics": "Chhooke badan ko hava kyon mehki",
-          "indian": "S'..N..D..S'...N..D..S'...N..D..N...N.."
+          "indian": "S'..N..D..S'...N..D..S'...N..D..N...N..",
+          "western": "C'..B..A..C'...B..A..C'...B..A..B...B.."
         },
         {
           "lyrics": "Raat bhi hai behki behki",
-          "indian": "N..D..G..N...D..G..N...D..D(k)..D...D.."
+          "indian": "N..D..G..N...D..G..N...D..D(k)..D...D..",
+          "western": "B..A..E..B...A..E..B...A..Ab..A...A.."
         }
       ]
     },
@@ -98,11 +114,13 @@
       "lines": [
         {
           "lyrics": "Mere savaalon ka jawaab do",
-          "indian": "D..D...D..N...S'...m'... G'..R'...S'..G'..."
+          "indian": "D..D...D..N...S'...m'... G'..R'...S'..G'...",
+          "western": "A..A...A..B...C'...F'... E'..D'...C'..E'..."
         },
         {
           "lyrics": "Do na",
-          "indian": "N...D..."
+          "indian": "N...D...",
+          "western": "B...A..."
         }
       ]
     }

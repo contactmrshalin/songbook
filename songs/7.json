@@ -37,31 +37,38 @@
       "lines": [
         {
           "lyrics": "Ye haseen waadiyan",
-          "indian": "PaDh Sa niSanisa Dh"
+          "indian": "PaDh Sa niSanisa Dh",
+          "western": "GAh C B.iCB.isa Ah"
         },
         {
           "lyrics": "Ye khula aasmaan",
-          "indian": "PaDh Re(Sa) SaniSa^^^Dh"
+          "indian": "PaDh Re(Sa) SaniSa^^^Dh",
+          "western": "GAh D(C) CB.iC^^^Ah"
         },
         {
           "lyrics": "Aa gaye hum kahan ae mere saajna",
-          "indian": "PaDh Sa niSqnisa Sa^Dh Padha^^ Re(Sa) SaniSa^^ Dh"
+          "indian": "PaDh Sa niSqnisa Sa^Dh Padha^^ Re(Sa) SaniSa^^ Dh",
+          "western": "GAh C B.iCqB.isa C^Ah GA.ha^^ D(C) CB.iC^^ Ah"
         },
         {
           "lyrics": "In baharon mein dil ki kali khil gayi",
-          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh",
+          "western": "GAhD DEDC EEFaE DCB.iCB.iC^^Ah"
         },
         {
           "lyrics": "Mujhko tum jo mile har khushi mil gayi",
-          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh",
+          "western": "GAhD DEDC EEFaE DCB.iCB.iC^^Ah"
         },
         {
           "lyrics": "Tere hothon pe hain husn ki bijliyan",
-          "indian": "PaDh Sa niSanisa Dh | PaDh Re(Sa) SaniSa^^^Dh"
+          "indian": "PaDh Sa niSanisa Dh | PaDh Re(Sa) SaniSa^^^Dh",
+          "western": "GAh C B.iCB.isa Ah | GAh D(C) CB.iC^^^Ah"
         },
         {
           "lyrics": "Tere daaman ki khushboo se mehke chaman",
-          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh"
+          "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh",
+          "western": "GAhD DEDC EEFaE DCB.iCB.iC^^Ah"
         }
       ]
     },
@@ -70,11 +77,13 @@
       "lines": [
         {
           "lyrics": "Meri jaane jaan main teri chandni",
-          "indian": "GaMa'Pa.....Ma'GaMa'^^^Ni...NiNiGa^^ReGa^^^Re"
+          "indian": "GaMa'Pa.....Ma'GaMa'^^^Ni...NiNiGa^^ReGa^^^Re",
+          "western": "EF'G.....F'EF'^^^B...BBE^^DE^^^D"
         },
         {
           "lyrics": "Ched lo tum aaj koi pyaar ki raagini",
-          "indian": "GaMa'PaDhPa.......Ma'Ma'GaMa'Ni ...NiNiGaPaMa'Dh^^^^Pa"
+          "indian": "GaMa'PaDhPa.......Ma'Ma'GaMa'Ni ...NiNiGaPaMa'Dh^^^^Pa",
+          "western": "EF'GAhG.......F'F'EF'B ...BBEGF'Ah^^^^G"
         }
       ]
     },
@@ -83,27 +92,33 @@
       "lines": [
         {
           "lyrics": "Ye bandhan hai pyaar ka",
-          "indian": "Re....SamaRe ReSa SaniSaniSa Dh"
+          "indian": "Re....SamaRe ReSa SaniSaniSa Dh",
+          "western": "D....CFaD DC CB.iCB.iC Ah"
         },
         {
           "lyrics": "Dekho toote na sajni",
-          "indian": "PaDhRe SamaRe SaniSa^^^Dh"
+          "indian": "PaDhRe SamaRe SaniSa^^^Dh",
+          "western": "GAhD CFaD CB.iC^^^Ah"
         },
         {
           "lyrics": "Tere aanchal ki chhaon ke tale",
-          "indian": "ReRe PanininiSa SaDhDh"
+          "indian": "ReRe PanininiSa SaDhDh",
+          "western": "DD GB.iB.iB.iC CAhAh"
         },
         {
           "lyrics": "Meri manzil mujhe mil gayi",
-          "indian": "ReReninininini SaSa^^^Dh"
+          "indian": "ReReninininini SaSa^^^Dh",
+          "western": "DDB.iB.iB.iB.iB.i CC^^^Ah"
         },
         {
           "lyrics": "Teri palkon ki chhaon ke tale",
-          "indian": "ReRe PanininiSa SaDdhDh"
+          "indian": "ReRe PanininiSa SaDdhDh",
+          "western": "DD GB.iB.iB.iC CAA.hAh"
         },
         {
           "lyrics": "Mohabbat mujhe mil gayi",
-          "indian": "ReRe DhPamaReSaniDh"
+          "indian": "ReRe DhPamaReSaniDh",
+          "western": "DD AhGFaDCB.iAh"
         }
       ]
     }

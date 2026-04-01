@@ -13,27 +13,33 @@
       "lines": [
         {
           "lyrics": "Hum bewafa hargiz na the",
-          "indian": "G..R..S..G… G..m..P..P..m…"
+          "indian": "G..R..S..G… G..m..P..P..m…",
+          "western": "E..D..C..E… E..F..G..G..F…"
         },
         {
           "lyrics": "Par hum wafa kar na sakhe",
-          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+          "indian": "m..D..D..D..N(k)… D..m..D..P…",
+          "western": "F..A..A..A..Bb… A..F..A..G…"
         },
         {
           "lyrics": "Humko mili uski sazaa",
-          "indian": "G..R..S..G… G..m..P..P..m…"
+          "indian": "G..R..S..G… G..m..P..P..m…",
+          "western": "E..D..C..E… E..F..G..G..F…"
         },
         {
           "lyrics": "Hum jo khata kar na sakhe",
-          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+          "indian": "m..D..D..D..N(k)… D..m..D..P…",
+          "western": "F..A..A..A..Bb… A..F..A..G…"
         },
         {
           "lyrics": "Hum bewafa hargiz na the (repeat)",
-          "indian": "G..R..S..G… G..m..P..P..m…"
+          "indian": "G..R..S..G… G..m..P..P..m…",
+          "western": "E..D..C..E… E..F..G..G..F…"
         },
         {
           "lyrics": "Par hum wafa kar na sakhe (repeat)",
-          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+          "indian": "m..D..D..D..N(k)… D..m..D..P…",
+          "western": "F..A..A..A..Bb… A..F..A..G…"
         }
       ]
     },
@@ -42,15 +48,18 @@
       "lines": [
         {
           "lyrics": "Kitni akeli thi woh",
-          "indian": "P..D..S'..S'..S'..S'…S'..P.."
+          "indian": "P..D..S'..S'..S'..S'…S'..P..",
+          "western": "G..A..C'..C'..C'..C'…C'..G.."
         },
         {
           "lyrics": "Raahe hum jinpe",
-          "indian": "S'..P..S'..N(k)..D…D…"
+          "indian": "S'..P..S'..N(k)..D…D…",
+          "western": "C'..G..C'..Bb..A…A…"
         },
         {
           "lyrics": "Ab takk akele",
-          "indian": "m..D..D..D..D…N(k)…"
+          "indian": "m..D..D..D..D…N(k)…",
+          "western": "F..A..A..A..A…Bb…"
         }
       ]
     },
@@ -59,39 +68,48 @@
       "lines": [
         {
           "lyrics": "Chalte rahein",
-          "indian": "N(k)..N(k)..N(k)..S'…"
+          "indian": "N(k)..N(k)..N(k)..S'…",
+          "western": "Bb..Bb..Bb..C'…"
         },
         {
           "lyrics": "Tujhse bichadke bhi",
-          "indian": "P..D..S'..S'..S'..S'…S'..S'.."
+          "indian": "P..D..S'..S'..S'..S'…S'..S'..",
+          "western": "G..A..C'..C'..C'..C'…C'..C'.."
         },
         {
           "lyrics": "O bekhabar",
-          "indian": "S'..P..S'..N(k)..D…"
+          "indian": "S'..P..S'..N(k)..D…",
+          "western": "C'..G..C'..Bb..A…"
         },
         {
           "lyrics": "Tere hi gham mein",
-          "indian": "m..D..D..D..D…N(k)…"
+          "indian": "m..D..D..D..D…N(k)…",
+          "western": "F..A..A..A..A…Bb…"
         },
         {
           "lyrics": "Jalte rahein",
-          "indian": "D..m..D..P…"
+          "indian": "D..m..D..P…",
+          "western": "A..F..A..G…"
         },
         {
           "lyrics": "Tune kiya jo shikva",
-          "indian": "G..R..S..G… G..m..P..P..m…"
+          "indian": "G..R..S..G… G..m..P..P..m…",
+          "western": "E..D..C..E… E..F..G..G..F…"
         },
         {
           "lyrics": "Hum woh gila kar na sakhe",
-          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+          "indian": "m..D..D..D..N(k)… D..m..D..P…",
+          "western": "F..A..A..A..Bb… A..F..A..G…"
         },
         {
           "lyrics": "Hum bewafa hargiz na the",
-          "indian": "G..R..S..G… G..m..P..P..m…"
+          "indian": "G..R..S..G… G..m..P..P..m…",
+          "western": "E..D..C..E… E..F..G..G..F…"
         },
         {
           "lyrics": "Par hum wafa kar na sakhe",
-          "indian": "m..D..D..D..N(k)… D..m..D..P…"
+          "indian": "m..D..D..D..N(k)… D..m..D..P…",
+          "western": "F..A..A..A..Bb… A..F..A..G…"
         }
       ]
     }

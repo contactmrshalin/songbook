@@ -16,7 +16,8 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastan hai yeh",
-          "indian": "Dha Pa Dha Pa Ga Re Sa Ga"
+          "indian": "Dha Pa Dha Pa Ga Re Sa Ga",
+          "western": "A G A G E D C E"
         }
       ]
     },
@@ -25,7 +26,8 @@
       "lines": [
         {
           "lyrics": "Kahaan shuru kahaan khatam",
-          "indian": "Dha Pa Dha Pa Ga Re Sa Re Sa"
+          "indian": "Dha Pa Dha Pa Ga Re Sa Re Sa",
+          "western": "A G A G E D C D C"
         }
       ]
     },
@@ -34,7 +36,8 @@
       "lines": [
         {
           "lyrics": "Yeh manzilen hain kaun si",
-          "indian": "Ga Re Ga Re Sa Ni Dha Ni Dha"
+          "indian": "Ga Re Ga Re Sa Ni Dha Ni Dha",
+          "western": "E D E D C B A B A"
         }
       ]
     },
@@ -43,7 +46,8 @@
       "lines": [
         {
           "lyrics": "Na woh samajh sake na hum",
-          "indian": "Pa Pa Dha Pa Ga Re Dha Sa Pa"
+          "indian": "Pa Pa Dha Pa Ga Re Dha Sa Pa",
+          "western": "G G A G E D A C G"
         }
       ]
     },
@@ -52,7 +56,8 @@
       "lines": [
         {
           "lyrics": "Yeh roshni ke saath kyon",
-          "indian": "Sa Re Ga Ma Ga Ma Re Ma"
+          "indian": "Sa Re Ga Ma Ga Ma Re Ma",
+          "western": "C D E F E F D F"
         }
       ]
     },
@@ -61,7 +66,8 @@
       "lines": [
         {
           "lyrics": "Dhuan utha charagh se",
-          "indian": "Dha Pa Dha Pa Ma Ma Dha Pa"
+          "indian": "Dha Pa Dha Pa Ma Ma Dha Pa",
+          "western": "A G A G F F A G"
         }
       ]
     },
@@ -70,7 +76,8 @@
       "lines": [
         {
           "lyrics": "Yeh khwab dekhti hoon main",
-          "indian": "Ni Ni Dha Ni Dha Ni Dha Pa Ma"
+          "indian": "Ni Ni Dha Ni Dha Ni Dha Pa Ma",
+          "western": "B B A B A B A G F"
         }
       ]
     },
@@ -79,7 +86,8 @@
       "lines": [
         {
           "lyrics": "Repeat structure",
-          "indian": "Repeat Part 3 → Part 1 → Part 1 (VariatioNi(k)) → Part 2"
+          "indian": "Repeat Part 3 → Part 1 → Part 1 (VariatioNi(k)) → Part 2",
+          "western": "DG.eat GDb.t 3 → GDb.t 1 → GDb.t 1 (VaDb.iatioBb) → GDb.t 2"
         }
       ]
     }

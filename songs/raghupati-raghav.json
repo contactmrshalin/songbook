@@ -14,27 +14,33 @@
       "lines": [
         {
           "lyrics": "Raghupati raghav",
-          "indian": "p..S..S..S..n..S..n(k)..d.."
+          "indian": "p..S..S..S..n..S..n(k)..d..",
+          "western": "G...C..C..C..B...C..B.(k)..A..."
         },
         {
           "lyrics": "Raja ram",
-          "indian": "n(k)...R...R..m..G..m.."
+          "indian": "n(k)...R...R..m..G..m..",
+          "western": "B.(k)...D...D..F..E..F.."
         },
         {
           "lyrics": "Patita pavan sitaram",
-          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S..."
+          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S...",
+          "western": "D..Eb...D..C...B.(k)..A...B.(k)...Eb..D..C..."
         },
         {
           "lyrics": "Raghupati raghav (repeat)",
-          "indian": "p..S..S..S..n..S..n(k)..d.."
+          "indian": "p..S..S..S..n..S..n(k)..d..",
+          "western": "G...C..C..C..B...C..B.(k)..A..."
         },
         {
           "lyrics": "Raja ram (repeat)",
-          "indian": "n(k)...R...R..m..G..m.."
+          "indian": "n(k)...R...R..m..G..m..",
+          "western": "B.(k)...D...D..F..E..F.."
         },
         {
           "lyrics": "Patita pavan sitaram (repeat)",
-          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S..."
+          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S...",
+          "western": "D..Eb...D..C...B.(k)..A...B.(k)...Eb..D..C..."
         }
       ]
     },
@@ -43,19 +49,23 @@
       "lines": [
         {
           "lyrics": "Sitaram sitaram",
-          "indian": "G...G...G...R..S.. S.R.m..G..m..."
+          "indian": "G...G...G...R..S.. S.R.m..G..m...",
+          "western": "E...E...E...D..C.. C.D.F..E..F..."
         },
         {
           "lyrics": "Bhaj pyare mana sitaram",
-          "indian": "R..R..m..m..P..P..D(k)..P..m...G(k)..R..G(k)...R..S.."
+          "indian": "R..R..m..m..P..P..D(k)..P..m...G(k)..R..G(k)...R..S..",
+          "western": "D..D..F..F..G..G..Ab..G..F...Eb..D..Eb...D..C.."
         },
         {
           "lyrics": "Sitaram sitaram (repeat)",
-          "indian": "G...G...G...R..S.. S.R.m..G..m..."
+          "indian": "G...G...G...R..S.. S.R.m..G..m...",
+          "western": "E...E...E...D..C.. C.D.F..E..F..."
         },
         {
           "lyrics": "Bhaj pyare mana sitaram (repeat)",
-          "indian": "R..R..m..m..P..P..D(k)..P..m...G(k)..R..G(k)...R..S.."
+          "indian": "R..R..m..m..P..P..D(k)..P..m...G(k)..R..G(k)...R..S..",
+          "western": "D..D..F..F..G..G..Ab..G..F...Eb..D..Eb...D..C.."
         }
       ]
     },
@@ -64,15 +74,18 @@
       "lines": [
         {
           "lyrics": "Raghupati raghav",
-          "indian": "p..S..S..S..n..S..n(k)..d.."
+          "indian": "p..S..S..S..n..S..n(k)..d..",
+          "western": "G...C..C..C..B...C..B.(k)..A..."
         },
         {
           "lyrics": "Raja ram",
-          "indian": "n(k)...R...R..m..G..m.."
+          "indian": "n(k)...R...R..m..G..m..",
+          "western": "B.(k)...D...D..F..E..F.."
         },
         {
           "lyrics": "Patita pavan sitaram",
-          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S..."
+          "indian": "R..G(k)...R..S...n(k)..d..n(k)...G(k)..R..S...",
+          "western": "D..Eb...D..C...B.(k)..A...B.(k)...Eb..D..C..."
         }
       ]
     }

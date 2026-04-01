@@ -16,27 +16,33 @@
       "lines": [
         {
           "lyrics": "Hmmm…………….",
-          "indian": "Pa…Ga.Ma.Dha.Pa.Ma…Ga..Re.."
+          "indian": "Pa…Ga.Ma.Dha.Pa.Ma…Ga..Re..",
+          "western": "G…E.F.A.G.F…E..D.."
         },
         {
           "lyrics": "R…M. M..M..P..G..M..P…",
-          "indian": "Re…Ma. Ma..Ma..Pa..Ga..Ma..Pa…"
+          "indian": "Re…Ma. Ma..Ma..Pa..Ga..Ma..Pa…",
+          "western": "D…F. F..F..G..E..F..G…"
         },
         {
           "lyrics": "P..m..G..m..G..S..",
-          "indian": "Pa..Ma..Ga..Ma..Ga..Sa.."
+          "indian": "Pa..Ma..Ga..Ma..Ga..Sa..",
+          "western": "G..F..E..F..E..C.."
         },
         {
           "lyrics": "Shaam sawere teri yaadein aati hain",
-          "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…"
+          "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…",
+          "western": "E…E…D..D..D..D..C..F..F.E..C..D..D…"
         },
         {
           "lyrics": "Aake dil ko mere yun tadpaati hain",
-          "indian": "Ga…Ga…Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+          "indian": "Ga…Ga…Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…",
+          "western": "E…E…D..D..D..C..F..F.E..C..D.C.Bb…"
         },
         {
           "lyrics": "O Sanam mohabbat ki kasam…",
-          "indian": "Ma…Sa.Re.Re.. p..Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+          "indian": "Ma…Sa.Re.Re.. p..Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…",
+          "western": "F…C.D.D.. G...F..F..C..D.C.Bb..C.Bb.Ab..Bb..C…"
         }
       ]
     },
@@ -49,15 +55,18 @@
       "lines": [
         {
           "lyrics": "Milke bichhad naa to dastoor ho gaya",
-          "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…"
+          "indian": "Ga…Ga…Re..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re..Re…",
+          "western": "E…E…D..D..D..D..C..F..F.E..C..D..D…"
         },
         {
           "lyrics": "Yadoon mein teri majboor ho gaya",
-          "indian": "Ga..Ga..Ga..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+          "indian": "Ga..Ga..Ga..Re..Re..Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…",
+          "western": "E..E..E..D..D..D..C..F..F.E..C..D.C.Bb…"
         },
         {
           "lyrics": "O Sanam teri yadoon ki kasam",
-          "indian": "Ma…Sa.Re.Re.. p.p.Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+          "indian": "Ma…Sa.Re.Re.. p.p.Ma..Ma..Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…",
+          "western": "F…C.D.D.. G..G..F..F..C..D.C.Bb..C.Bb.Ab..Bb..C…"
         }
       ]
     },
@@ -66,19 +75,23 @@
       "lines": [
         {
           "lyrics": "Samjhe zamaana ke dil hai khilona",
-          "indian": "p…p…Ga..Ga…Ga..Sa..Re…Re…Sa..Re..Sa..Ga..Re.."
+          "indian": "p…p…Ga..Ga…Ga..Sa..Re…Re…Sa..Re..Sa..Ga..Re..",
+          "western": "G.…G.…E..E…E..C..D…D…C..D..C..E..D.."
         },
         {
           "lyrics": "Jaana hai ab kya hai dil ka lagana",
-          "indian": "Dha(k)…Sa…Sa…Sa.. Ma..Ga..Re…Re…Sa..Re..Sa..Ga..Re.."
+          "indian": "Dha(k)…Sa…Sa…Sa.. Ma..Ga..Re…Re…Sa..Re..Sa..Ga..Re..",
+          "western": "Ab…C…C…C.. F..E..D…D…C..D..C..E..D.."
         },
         {
           "lyrics": "Nazron se ab naa humko girana",
-          "indian": "Dha(k)…Dha(k)…p..Dha(k).. Ma…Re…Re…Sa..Re..Sa..Ga..Re.."
+          "indian": "Dha(k)…Dha(k)…p..Dha(k).. Ma…Re…Re…Sa..Re..Sa..Ga..Re..",
+          "western": "Ab…Ab…G...Ab.. F…D…D…C..D..C..E..D.."
         },
         {
           "lyrics": "Mar bhi gaye to bhul na jaana",
-          "indian": "Dha(k)…Sa…Sa…Sa.. Dha..Pa..Pa…Pa…Ga.Pa.Pa..Ga.Re.Sa.."
+          "indian": "Dha(k)…Sa…Sa…Sa.. Dha..Pa..Pa…Pa…Ga.Pa.Pa..Ga.Re.Sa..",
+          "western": "Ab…C…C…C.. A..G..G…G…E.G.G..E.D.C.."
         }
       ]
     },
@@ -87,15 +100,18 @@
       "lines": [
         {
           "lyrics": "Aankhon mein basi ho par door ho kahin",
-          "indian": "Ga..Ga..Ga..Re..Re..Re.. Sa..Ma…Sa..Re..Re…"
+          "indian": "Ga..Ga..Ga..Re..Re..Re.. Sa..Ma…Sa..Re..Re…",
+          "western": "E..E..E..D..D..D.. C..F…C..D..D…"
         },
         {
           "lyrics": "Dil ke kareeb ho ye mujhko hai yakin",
-          "indian": "Ga..Ga..Ga..Re…Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…"
+          "indian": "Ga..Ga..Ga..Re…Re..Sa..Ma..Ma.Ga..Sa..Re.Sa.Ni(k)…",
+          "western": "E..E..E..D…D..C..F..F.E..C..D.C.Bb…"
         },
         {
           "lyrics": "O Sanam tere pyar ki kasam",
-          "indian": "Ma…Sa.Re.Re…p..p..Ma…Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…"
+          "indian": "Ma…Sa.Re.Re…p..p..Ma…Sa..Re.Sa.Ni(k)..Sa.Ni(k).Dha(k)..Ni(k)..Sa…",
+          "western": "F…C.D.D…G...G...F…C..D.C.Bb..C.Bb.Ab..Bb..C…"
         }
       ]
     }

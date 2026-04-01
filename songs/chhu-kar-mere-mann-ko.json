@@ -15,31 +15,38 @@
       "lines": [
         {
           "lyrics": "Chhoo kar | Mere | Man | Ko",
-          "indian": "Ga Ga | Re Sa | Ni | Re"
+          "indian": "Ga Ga | Re Sa | Ni | Re",
+          "western": "E E | D C | B | D"
         },
         {
           "lyrics": "Kiya | tuney | Kya | Ishara",
-          "indian": "Pa. Dha | Ni Ni | Sa Re | Ga Sa"
+          "indian": "Pa. Dha | Ni Ni | Sa Re | Ga Sa",
+          "western": "G. A | B B | C D | E C"
         },
         {
           "lyrics": "(Flute Interlude)",
-          "indian": "Pa'— — — — Dha' Pa' Ma | Ga Ma Ga Ma Re Pa'"
+          "indian": "Pa'— — — — Dha' Pa' Ma | Ga Ma Ga Ma Re Pa'",
+          "western": "G'— — — — A' G' F | E F E F D G'"
         },
         {
           "lyrics": "Chhoo kar | Mere | Man | Ko",
-          "indian": "Ga Ga | Re Sa | Ni | Re"
+          "indian": "Ga Ga | Re Sa | Ni | Re",
+          "western": "E E | D C | B | D"
         },
         {
           "lyrics": "Kiya | tuney | Kya | Ishara",
-          "indian": "Pa. Dha | Ni Ni | Sa Re | Ga Sa"
+          "indian": "Pa. Dha | Ni Ni | Sa Re | Ga Sa",
+          "western": "G. A | B B | C D | E C"
         },
         {
           "lyrics": "Badalaaa | ye | mausam",
-          "indian": "Pa Pa | Ma Ga | Ma Dha"
+          "indian": "Pa Pa | Ma Ga | Ma Dha",
+          "western": "G G | F E | F A"
         },
         {
           "lyrics": "lage | pyaaraa | jag | saaraa",
-          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')"
+          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')",
+          "western": "B' B' | B' B' | A' B' | C' C' (A C')"
         }
       ]
     },
@@ -48,15 +55,18 @@
       "lines": [
         {
           "lyrics": "TuJo | Kahe | Jeevan Bhar",
-          "indian": "Ga Ma | Ma Ga | Sa Pa | Ga"
+          "indian": "Ga Ma | Ma Ga | Sa Pa | Ga",
+          "western": "E F | F E | C G | E"
         },
         {
           "lyrics": "Tere | Liye | Main | Gaaoon (1)",
-          "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha | Dha Sa'~Pa"
+          "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha | Dha Sa'~Pa",
+          "western": "E G | G A | A G | G A | A C'~G"
         },
         {
           "lyrics": "Tere | Liye | Main | Gaaoon (2)",
-          "indian": "Pa Dha | Ni(k) Dha | Ma | Ga Re Ga Pa"
+          "indian": "Pa Dha | Ni(k) Dha | Ma | Ga Re Ga Pa",
+          "western": "G A | Bb A | F | E D E G"
         },
         {
           "lyrics": "(Repeat for following…)",
@@ -72,11 +82,13 @@
         },
         {
           "lyrics": "Mer…e | Geeton | Mein",
-          "indian": "Pa Pa— — — (Dha)Pa | Ma Ga Ma | Dha"
+          "indian": "Pa Pa— — — (Dha)Pa | Ma Ga Ma | Dha",
+          "western": "G G— — — (A)G | F E F | A"
         },
         {
           "lyrics": "Tujhe Dhoonde Jag Saara",
-          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')"
+          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')",
+          "western": "B' B' | B' B' | A' B' | C' C' (A C')"
         },
         {
           "lyrics": "Chhoo kar Mere Man Ko",

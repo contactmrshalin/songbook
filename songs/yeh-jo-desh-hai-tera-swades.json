@@ -16,15 +16,18 @@
       "lines": [
         {
           "lyrics": "Ye jo des hai tera",
-          "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…"
+          "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…",
+          "western": "G...Bb..C…C.C…C.C…"
         },
         {
           "lyrics": "Swades hai tera",
-          "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…"
+          "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…",
+          "western": "Ab..C..D…C.C…C.C…"
         },
         {
           "lyrics": "Tujhe hai pukaara..",
-          "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga…."
+          "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga….",
+          "western": "Ab..C..D…C..D…D.E…."
         }
       ]
     },
@@ -33,19 +36,23 @@
       "lines": [
         {
           "lyrics": "Ye woh bandhan hai jo kabhi toot",
-          "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…"
+          "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…",
+          "western": "F..D..E…F..D..E…F..D..E…"
         },
         {
           "lyrics": "Nahin sakta",
-          "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…"
+          "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…",
+          "western": "F..E..E…E…E..D..C…"
         },
         {
           "lyrics": "Mitti ki jo khushboo",
-          "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…"
+          "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…",
+          "western": "G…G…G..D..D…E..D..C…"
         },
         {
           "lyrics": "Tu kaise bhoolaayega",
-          "indian": "Ni(k)..Sa..Re…Ga..Ga..Re…Sa…Sa…"
+          "indian": "Ni(k)..Sa..Re…Ga..Ga..Re…Sa…Sa…",
+          "western": "Bb..C..D…E..E..D…C…C…"
         }
       ]
     },
@@ -54,27 +61,33 @@
       "lines": [
         {
           "lyrics": "Tu chaahe kahin jaaye",
-          "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…"
+          "indian": "Pa…Pa…Pa..Re..Re…Ga..Re..Sa…",
+          "western": "G…G…G..D..D…E..D..C…"
         },
         {
           "lyrics": "Tu laut ke aayega",
-          "indian": "Ni(k)..Sa..Re…Pa..Ma..Ga…Re…Sa…"
+          "indian": "Ni(k)..Sa..Re…Pa..Ma..Ga…Re…Sa…",
+          "western": "Bb..C..D…G..F..E…D…C…"
         },
         {
           "lyrics": "Nayi nayi raahon mein",
-          "indian": "Sa.Sa…Sa.Sa…Sa..Sa..Sa…"
+          "indian": "Sa.Sa…Sa.Sa…Sa..Sa..Sa…",
+          "western": "C.C…C.C…C..C..C…"
         },
         {
           "lyrics": "Dabi dabi aahon mein",
-          "indian": "Sa..Ga…Re..Ga…Sa…Re…Sa..Ni(k)..Dha(k).."
+          "indian": "Sa..Ga…Re..Ga…Sa…Re…Sa..Ni(k)..Dha(k)..",
+          "western": "C..E…D..E…C…D…C..Bb..Ab.."
         },
         {
           "lyrics": "Khoye khoye dilse tere",
-          "indian": "Sa..Ni(k)…Sa..Ni(k)…Ni(k)..Ni(k)…Ga.Re.."
+          "indian": "Sa..Ni(k)…Sa..Ni(k)…Ni(k)..Ni(k)…Ga.Re..",
+          "western": "C..Bb…C..Bb…Bb..Bb…E.D.."
         },
         {
           "lyrics": "Koyi ye kahega",
-          "indian": "Sa..Ni(k)…Sa…Ga..Re…Re.."
+          "indian": "Sa..Ni(k)…Sa…Ga..Re…Re..",
+          "western": "C..Bb…C…E..D…D.."
         }
       ]
     },
@@ -83,23 +96,28 @@
       "lines": [
         {
           "lyrics": "Ye jo des hai tera",
-          "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…"
+          "indian": "p..Ni(k)..Sa…Sa.Sa…Sa.Sa…",
+          "western": "G...Bb..C…C.C…C.C…"
         },
         {
           "lyrics": "Swades hai tera",
-          "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…"
+          "indian": "Dha(k)..Sa..Re…Sa.Sa…Sa.Sa…",
+          "western": "Ab..C..D…C.C…C.C…"
         },
         {
           "lyrics": "Tujhe hai pukaara..",
-          "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga…."
+          "indian": "Dha(k)..Sa..Re…Sa..Re…Re.Ga….",
+          "western": "Ab..C..D…C..D…D.E…."
         },
         {
           "lyrics": "Ye woh bandhan hai jo kabhi toot",
-          "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…"
+          "indian": "Ma..Re..Ga…Ma..Re..Ga…Ma..Re..Ga…",
+          "western": "F..D..E…F..D..E…F..D..E…"
         },
         {
           "lyrics": "Nahin sakta",
-          "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…"
+          "indian": "Ma..Ga..Ga…Ga…Ga..Re..Sa…",
+          "western": "F..E..E…E…E..D..C…"
         }
       ]
     }

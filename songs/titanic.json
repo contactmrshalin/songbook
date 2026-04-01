@@ -14,11 +14,13 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "S R G.. m G R S R P.... G R S 'D S 'P"
+          "indian": "S R G.. m G R S R P.... G R S 'D S 'P",
+          "western": "C D E.. F E D C D G.... E D C 'A C 'G"
         },
         {
           "lyrics": "",
-          "indian": "S R G.. m G R S R P.... G P D P R"
+          "indian": "S R G.. m G R S R P.... G P D P R",
+          "western": "C D E.. F E D C D G.... E G A G D"
         }
       ]
     },
@@ -27,19 +29,23 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "S S S S 'N S S 'N S R G R S S S S 'N S S 'P.."
+          "indian": "S S S S 'N S S 'N S R G R S S S S 'N S S 'P..",
+          "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'G.."
         },
         {
           "lyrics": "",
-          "indian": "S S S S 'N S S 'N S R G R S S S S 'N S S 'P.."
+          "indian": "S S S S 'N S S 'N S R G R S S S S 'N S S 'P..",
+          "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'G.."
         },
         {
           "lyrics": "",
-          "indian": "S.......... R.......... 'P P m G R G m G.. R S 'N S 'N 'D....'P"
+          "indian": "S.......... R.......... 'P P m G R G m G.. R S 'N S 'N 'D....'P",
+          "western": "C.......... D.......... 'G G F E D E F E.. D C 'B C 'B 'A....'G"
         },
         {
           "lyrics": "",
-          "indian": "S.......... R.......... 'P P m G R G m G.. R S 'N S 'N 'N S R G R S...."
+          "indian": "S.......... R.......... 'P P m G R G m G.. R S 'N S 'N 'N S R G R S....",
+          "western": "C.......... D.......... 'G G F E D E F E.. D C 'B C 'B 'B C D E D C...."
         }
       ]
     }
