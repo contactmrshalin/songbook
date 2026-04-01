@@ -1,0 +1,51 @@
+{
+  "id": "hum-kis-gali-ja-rahen-hain",
+  "title": "Hum Kis Gali Ja Rahen Hain",
+  "export": true,
+  "info": [
+    "Film/Artist: Doorie",
+    "Scale: D BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/hum-kis-gali-ja-rahen-hain-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Hum kis gali ja rahein hai",
+          "indian": "Sa Re Ga Ga Ga Ga Ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Hum kis gali ja rahein hai",
+          "indian": "Sa Re Ga Ga Ga Ga Ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Apna koi tikkana nahi",
+          "indian": "Sa Ni(k) Dha(k): Ni(k) Sa: Re: Ga: Ga: Re Sa: Ni(k) Re"
+        },
+        {
+          "lyrics": "Apna koi tikkana nahi",
+          "indian": "Sa Ni(k) Dha(k): Ni(k) Sa: Re: Ga: Ga: Re Sa:"
+        },
+        {
+          "lyrics": "Armanoo ki anjumaan may",
+          "indian": "Sa Re Ga Ga Ga Ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Bay suod hai apni lagan may",
+          "indian": "Sa Re Ga Ga Ga Ga Ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Apna koi fasana nahi",
+          "indian": "Sa Ni(k) Dha(k): Ni(k) Sa: Re: Ga: Ga: Re Sa: Ni(k) Re"
+        },
+        {
+          "lyrics": "Apna koi fasana nahi",
+          "indian": "Sa Ni(k) Dha(k): Ni(k) Sa: Pa Ga Re: Ga: Re Sa:"
+        }
+      ]
+    }
+  ]
+}

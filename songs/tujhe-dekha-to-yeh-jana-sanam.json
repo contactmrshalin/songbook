@@ -1,0 +1,59 @@
+{
+  "id": "tujhe-dekha-to-yeh-jana-sanam",
+  "title": "Tujhe Dekha To Yeh Jana Sanam",
+  "export": true,
+  "info": [
+    "Film/Artist: DDLJ",
+    "Scale: G MAJOR",
+    "Source: https://www.notationsworld.com/tujhe-dekha-to-yeh-jana-sanam-ddlj-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tujhee dekhaa too yeh jaanaa sanamm",
+          "indian": "Dha(k) Dha(k) Dha(k) Ga Re Ga Sa Re Ma Ga."
+        },
+        {
+          "lyrics": "Pyaarr hotaa haii diwaanaa sanamm",
+          "indian": "Dha(k) Dha(k) Dha(k) Ga Re Ga. Sa Re Sa Ni(k)."
+        },
+        {
+          "lyrics": "Tujhee dekhaa too yeh jaanaa sanamm",
+          "indian": "Dha(k) Dha(k) Dha(k) Ga Re Ga Sa Re Ma Ga."
+        },
+        {
+          "lyrics": "Pyaarr hotaa haii diwaanaa sanamm",
+          "indian": "Dha(k) Dha(k) Dha(k) Ga Re Ga. Sa Re Sa Ni(k)."
+        },
+        {
+          "lyrics": "Abb yahaann see kahaa jaayee humm",
+          "indian": "Dha(k) n.p.d Ni(k) p.d Sa Ni(k)"
+        },
+        {
+          "lyrics": "Terii bahoo mee marr jaayee humm",
+          "indian": "Ni(k) Sa Re Pa Ma Ga Sa Re. Ga Re Sa Ni(k) Dha(k)."
+        },
+        {
+          "lyrics": "Tujhee dekhaa too yeh jaanaa sanamm",
+          "indian": "Dha(k) Dha(k) Dha(k) Ga Re Ga Sa Re Ma Ga."
+        },
+        {
+          "lyrics": "Pyaarr hotaa haii diwaanaa sanamm",
+          "indian": "Dha(k) Dha(k) Dha(k) Ga Re Ga. Sa Re Sa Ni(k)."
+        },
+        {
+          "lyrics": "Abb yahaann see kahaa jaayee humm",
+          "indian": "Dha(k) n.p.d Ni(k) p.d Sa Ni(k)"
+        },
+        {
+          "lyrics": "Terii bahoo mee marr jaayee humm",
+          "indian": "Ni(k) Sa Re Pa Ma Ga Sa Re. Ga Re Sa Ni(k) Dha(k)."
+        }
+      ]
+    }
+  ]
+}
