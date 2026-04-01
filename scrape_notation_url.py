@@ -288,13 +288,9 @@ def _normalize_notation(raw: str) -> str:
 
 
 def _convert_token_to_display(token: str) -> str:
-    """Convert a single letter-notation token to word-style display."""
+    """Convert token to user's preferred literal short-form notation (S R G m M P D N)."""
     t = token.strip()
     if not t:
-        return t
-
-    # Already word-style? Return as-is
-    if re.search(r"\b(Sa|Re|Ga|Ma|Pa|Dha|Ni)\b", t):
         return t
 
     # Handle hold suffix
@@ -312,61 +308,56 @@ def _convert_token_to_display(token: str) -> str:
         octave = "."
         t = t[:-1]
 
-    # Handle low octave prefix
-    low_prefix = ""
+    # Remove any arbitrary commas that we might have previously added
     if t.startswith(","):
-        low_prefix = ","
         t = t[1:]
 
+    # Already full word? Keep as-is just in case, or map it back
+    if re.search(r"\b(Sa|Re|Ga|Ma|Pa|Dha|Ni)\b", t):
+        return f"{t}{octave}{hold}"
+
     # Komal markers
-    komal = ""
     m = re.match(r"^([rgdnRGDN])\(([kK])\)$", t)
     if m:
         letter = m.group(1)
-        # If letter is lowercase, it represents lower octave
-        local_low = "," if letter.islower() else ""
-        mapping = {"R": "Re", "G": "Ga", "D": "Dha", "N": "Ni"}
-        word = mapping.get(letter.upper(), letter)
-        return f"{low_prefix}{local_low}{word}(k){octave}{hold}"
+        return f"{letter}(k){octave}{hold}"
 
-    # Tivra Ma
+    # Tivra Ma (represented as M in user table)
     m = re.match(r"^M\(([tT])\)$", t)
     if m:
-        return f"{low_prefix}Ma(T){octave}{hold}"
+        return f"M{octave}{hold}"
 
-    # Simple letter -> word mapping
-    letter_to_word = {
-        "S": "Sa", "R": "Re", "G": "Ga",
-        "m": "Ma", "M": "Ma(T)",
-        "P": "Pa", "D": "Dha", "N": "Ni",
-        # Lowercase represents low octave, not komal.
-        "r": ",Re", "g": ",Ga",
-        "p": ",Pa", "d": ",Dha", "n": ",Ni",
+    # Simple letter -> short representation mapping
+    letter_to_short = {
+        "S": "S", "R": "R", "G": "G",
+        "m": "m", "M": "M",
+        "P": "P", "D": "D", "N": "N",
+        # Lowercase represents low octave, natively matched to p, d, n
+        "p": "p", "d": "d", "n": "n",
+        "r": "r", "g": "g",
     }
 
-    # Handle compound tokens like "N.D.P" or "d.n.p" (multiple notes run together)
-    # Split by dots first
+    # Handle compound tokens like "N.D.P"
     if "." in t and len(t) > 2:
         sub_tokens = [st for st in t.split(".") if st]
-        # Strip octave marks from sub-tokens for lookup
         def _sub_convert(st: str) -> Optional[str]:
             oct = ""
             s2 = st
             if s2.endswith("'"):
                 oct = "'"
                 s2 = s2[:-1]
-            w = letter_to_word.get(s2)
+            w = letter_to_short.get(s2)
             return f"{w}{oct}" if w else None
         converted_parts = [_sub_convert(st) for st in sub_tokens]
         if all(c is not None for c in converted_parts):
             return " ".join(converted_parts)  # type: ignore
 
-    word = letter_to_word.get(t)
+    word = letter_to_short.get(t)
     if word:
-        return f"{low_prefix}{word}{octave}{hold}"
+        return f"{word}{octave}{hold}"
 
     # Unknown — return as-is
-    return f"{low_prefix}{t}{octave}{hold}"
+    return f"{t}{octave}{hold}"
 
 
 # ---------------------------------------------------------------------------
