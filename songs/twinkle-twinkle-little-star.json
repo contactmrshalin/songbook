@@ -1,0 +1,77 @@
+{
+  "id": "twinkle-twinkle-little-star",
+  "title": "Twinkle Twinkle Little Star",
+  "export": true,
+  "info": [
+    "Source: https://www.notationsworld.com/twinkle-twinkle-little-star-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Twinklee twinklee little star",
+          "indian": "S S P P D D P",
+          "western": "C C G G A A G"
+        },
+        {
+          "lyrics": "How I wonder what you aree",
+          "indian": "m m G G R R S",
+          "western": "F F E E D D C"
+        },
+        {
+          "lyrics": "Up above the world soo high",
+          "indian": "P P m m G G R",
+          "western": "G G F F E E D"
+        },
+        {
+          "lyrics": "Like a diamond in the skyy",
+          "indian": "P P m m G G R",
+          "western": "G G F F E E D"
+        },
+        {
+          "lyrics": "Twinklee twinklee little star",
+          "indian": "S S P P D D P",
+          "western": "C C G G A A G"
+        },
+        {
+          "lyrics": "How I wonder what you aree",
+          "indian": "m m G G R R S",
+          "western": "F F E E D D C"
+        },
+        {
+          "lyrics": "Twinklee twinklee little star",
+          "indian": "S S P P D D P",
+          "western": "C C G G A A G"
+        },
+        {
+          "lyrics": "How I wonder what you aree",
+          "indian": "m m G G R R S",
+          "western": "F F E E D D C"
+        },
+        {
+          "lyrics": "Up above the world soo high",
+          "indian": "P P m m G G R",
+          "western": "G G F F E E D"
+        },
+        {
+          "lyrics": "Like a diamond in the skyy",
+          "indian": "P P m m G G R",
+          "western": "G G F F E E D"
+        },
+        {
+          "lyrics": "Twinklee twinklee little star",
+          "indian": "S S P P D D P",
+          "western": "C C G G A A G"
+        },
+        {
+          "lyrics": "How I wonder what you aree",
+          "indian": "m m G G R R S",
+          "western": "F F E E D D C"
+        }
+      ]
+    }
+  ]
+}
