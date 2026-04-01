@@ -1,0 +1,297 @@
+{
+  "id": "hamari-adhuri-kahani",
+  "title": "Hamari Adhuri Kahani",
+  "export": true,
+  "info": [
+    "Film/Artist: Title Song",
+    "Scale: F BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/hamari-adhuri-kahani-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Paas aaye",
+          "indian": "n d n:",
+          "western": "B. A. B.:"
+        },
+        {
+          "lyrics": "Dooriyaan phir bhi kam naa hui",
+          "indian": "n G P D P M R G R R R S R S",
+          "western": "B. E G A G F# D E D D D C D C"
+        },
+        {
+          "lyrics": "Ek adhuri",
+          "indian": "n n d n:",
+          "western": "B. B. A. B.:"
+        },
+        {
+          "lyrics": "Si hamari kahani rahi",
+          "indian": "n G P D P M R G: R R R S R S",
+          "western": "B. E G A G F# D E: D D D C D C"
+        },
+        {
+          "lyrics": "Aasmaan ko zameen",
+          "indian": "G M P: G: R G:",
+          "western": "E F# G: E: D E:"
+        },
+        {
+          "lyrics": "Ye zaroori nahi",
+          "indian": "G M P: G: R G:",
+          "western": "E F# G: E: D E:"
+        },
+        {
+          "lyrics": "Jaa mile jaa mile",
+          "indian": "R G R: d R S n:",
+          "western": "D E D: A. D C B.:"
+        },
+        {
+          "lyrics": "Ishq saccha wahi",
+          "indian": "G M P: G: R G:",
+          "western": "E F# G: E: D E:"
+        },
+        {
+          "lyrics": "Jjisko milti nahi",
+          "indian": "G M P: G: R G:",
+          "western": "E F# G: E: D E:"
+        },
+        {
+          "lyrics": "Manzilein manzilein",
+          "indian": "R G R: d R S n:",
+          "western": "D E D: A. D C B.:"
+        },
+        {
+          "lyrics": "Rang thhe noor tha",
+          "indian": "R N D N: D N: D N:",
+          "western": "D B A B: A B: A B:"
+        },
+        {
+          "lyrics": "Jab kareeb tu tha",
+          "indian": "D: N S': N S': N S':",
+          "western": "A: B C': B C': B C':"
+        },
+        {
+          "lyrics": "Ek jannat sa tha",
+          "indian": "S' N D: P D: P D:",
+          "western": "C' B A: G A: G A:"
+        },
+        {
+          "lyrics": "yeh jahaan",
+          "indian": "R' S' N: S' N D:",
+          "western": "D' C' B: C' B A:"
+        },
+        {
+          "lyrics": "Waqt ki ret pe",
+          "indian": "R N D N: D N: D N:",
+          "western": "D B A B: A B: A B:"
+        },
+        {
+          "lyrics": "Kuch mere naam sa",
+          "indian": "D: N S': N S': N S':",
+          "western": "A: B C': B C': B C':"
+        },
+        {
+          "lyrics": "Likh ke chhod gaya",
+          "indian": "S' N D: P D: P D:",
+          "western": "C' B A: G A: G A:"
+        },
+        {
+          "lyrics": "Tu kahaan",
+          "indian": "R' S' N: S' N D: P:",
+          "western": "D' C' B: C' B A: G:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "P M M G G R: R R G:",
+          "western": "G F# F# E E D: D D E:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "M G G R R R: d d n:",
+          "western": "F# E E D D D: A. A. B.:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "P M M G G R: R P M G G:",
+          "western": "G F# F# E E D: D G F# E E:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "M G G R R R: d R S n:",
+          "western": "F# E E D D D: A. D C B.:"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Khushbuon se teri",
+          "indian": "P M P M: M P N: M:",
+          "western": "G F# G F#: F# G B: F#:"
+        },
+        {
+          "lyrics": "Yunhi takra gaye",
+          "indian": "M: M M D: P M G R S:",
+          "western": "F#: F# F# A: G F# E D C:"
+        },
+        {
+          "lyrics": "Chalte chalte dekho na",
+          "indian": "G: M G: G: G M P M: G R",
+          "western": "E: F# E: E: E F# G F#: E D"
+        },
+        {
+          "lyrics": "Hum kahaan aa gaye",
+          "indian": "R: M P: D: M P:",
+          "western": "D: F# G: A: F# G:"
+        },
+        {
+          "lyrics": "Jannatein agar yahin",
+          "indian": "R N D N: D N: D N:",
+          "western": "D B A B: A B: A B:"
+        },
+        {
+          "lyrics": "Tu dikhe kyon nahin",
+          "indian": "D: N S': N S': N S':",
+          "western": "A: B C': B C': B C':"
+        },
+        {
+          "lyrics": "Chaand suraj sabhi",
+          "indian": "S' N D: P D: P D:",
+          "western": "C' B A: G A: G A:"
+        },
+        {
+          "lyrics": "Hai yahaan",
+          "indian": "R' S' N: S' N D:",
+          "western": "D' C' B: C' B A:"
+        },
+        {
+          "lyrics": "Intezar tera",
+          "indian": "R N D N: D N: D N:",
+          "western": "D B A B: A B: A B:"
+        },
+        {
+          "lyrics": "Sadiyon se kar raha",
+          "indian": "D: N S': N S': N S':",
+          "western": "A: B C': B C': B C':"
+        },
+        {
+          "lyrics": "Pyaasi baithi hai kab",
+          "indian": "S' N D: P D: P D:",
+          "western": "C' B A: G A: G A:"
+        },
+        {
+          "lyrics": "Se yahaan",
+          "indian": "R' S' N: S' N D: P:",
+          "western": "D' C' B: C' B A: G:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "P M M G G R: R R G:",
+          "western": "G F# F# E E D: D D E:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "M G G R R R: d d n:",
+          "western": "F# E E D D D: A. A. B.:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "P M M G G R: R P M G G:",
+          "western": "G F# F# E E D: D G F# E E:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "M G G R R R: d R S n:",
+          "western": "F# E E D D D: A. D C B.:"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Pyaas ka ye safar",
+          "indian": "P M P M: M P N: M:",
+          "western": "G F# G F#: F# G B: F#:"
+        },
+        {
+          "lyrics": "khatam ho jayega",
+          "indian": "M: M M D: P M G R S:",
+          "western": "F#: F# F# A: G F# E D C:"
+        },
+        {
+          "lyrics": "Kuch adhura sa jo tha",
+          "indian": "G: M G: G: G M P M: G R",
+          "western": "E: F# E: E: E F# G F#: E D"
+        },
+        {
+          "lyrics": "poora ho jayega",
+          "indian": "R: M P: D: M P:",
+          "western": "D: F# G: A: F# G:"
+        },
+        {
+          "lyrics": "Jhuk gaya aasmaan",
+          "indian": "R N D N: D N: D N:",
+          "western": "D B A B: A B: A B:"
+        },
+        {
+          "lyrics": "Mill gaye do jahaan",
+          "indian": "D: N S': N S': N S':",
+          "western": "A: B C': B C': B C':"
+        },
+        {
+          "lyrics": "Har taraf hai milan",
+          "indian": "S' N D: P D: P D:",
+          "western": "C' B A: G A: G A:"
+        },
+        {
+          "lyrics": "Ka samaa",
+          "indian": "R' S' N: S' N D:",
+          "western": "D' C' B: C' B A:"
+        },
+        {
+          "lyrics": "Doliya hain saji",
+          "indian": "R N D N: D N: D N:",
+          "western": "D B A B: A B: A B:"
+        },
+        {
+          "lyrics": "Khushbuein har kahin",
+          "indian": "D: N S': N S': N S':",
+          "western": "A: B C': B C': B C':"
+        },
+        {
+          "lyrics": "Padhne aaya khuda",
+          "indian": "S' N D: P D: P D:",
+          "western": "C' B A: G A: G A:"
+        },
+        {
+          "lyrics": "Khud yahaan",
+          "indian": "R' S' N: S' N D: P:",
+          "western": "D' C' B: C' B A: G:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "P M M G G R: R R G:",
+          "western": "G F# F# E E D: D D E:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "M G G R R R: d d n:",
+          "western": "F# E E D D D: A. A. B.:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "P M M G G R: R P M G G:",
+          "western": "G F# F# E E D: D G F# E E:"
+        },
+        {
+          "lyrics": "Hamari adhuri kahani",
+          "indian": "M G G R R R: d R S n:",
+          "western": "F# E E D D D: A. D C B.:"
+        }
+      ]
+    }
+  ]
+}
