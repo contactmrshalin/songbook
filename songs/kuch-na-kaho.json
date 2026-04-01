@@ -1,0 +1,62 @@
+{
+  "id": "kuch-na-kaho",
+  "title": "Kuch Na Kaho",
+  "export": true,
+  "info": [
+    "Film/Artist: 1942 A Love Story",
+    "Source: https://www.notationsworld.com/kuch-na-kaho-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kuch na kaho kuch bhi na kaho",
+          "indian": "Ga Pa: Sa Ni(k): Ga Ga Ga Pa: Ni(k) Sa:"
+        },
+        {
+          "lyrics": "Kuch na kaho kuch bhi na kaho",
+          "indian": "Ga Pa: Sa Ni(k): Ga Ga Ga Pa: Ni(k) Sa:"
+        },
+        {
+          "lyrics": "Kya kehna hai kya sun na hai",
+          "indian": "Sa: Re Ga Ma Ma: Ma: Pa Ma Ga Re Ga:"
+        },
+        {
+          "lyrics": "Mujhko pata hai",
+          "indian": "Pa Dha: Pa Ma(T) Ma(T): Ga Re Ga Re."
+        },
+        {
+          "lyrics": "Tumko pata hai",
+          "indian": "Dha Ni: Dha Ma(T) Pa:"
+        },
+        {
+          "lyrics": "Samay ka yeh pal",
+          "indian": "Pa Ni Pa Dha Dha: Ni."
+        },
+        {
+          "lyrics": "Tham saa gaya hai",
+          "indian": "Ni Ni: Dha Ni Sa':"
+        },
+        {
+          "lyrics": "Aur is pal mein",
+          "indian": "Sa' Sa' Re' Re' Ni Ni: Dha Pa Dha"
+        },
+        {
+          "lyrics": "Koi nahi hai",
+          "indian": "Dha Ni Dha Ni Pa Ma(T) Pa:"
+        },
+        {
+          "lyrics": "Bas ek main hoon bas ek tum ho",
+          "indian": "Ga Pa: Ga Sa Ni(k): Re Ga: Re Ni(k) Sa:"
+        },
+        {
+          "lyrics": "Kuch na kaho kuch bhi na kaho",
+          "indian": "Ga Pa: Sa Ni(k): Ga Ga Ga Pa: Ni(k) Sa:"
+        }
+      ]
+    }
+  ]
+}

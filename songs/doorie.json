@@ -1,0 +1,111 @@
+{
+  "id": "doorie",
+  "title": "Doorie",
+  "export": true,
+  "info": [
+    "Film/Artist: Atif Aslam",
+    "Scale: A BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/doorie-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Doorie",
+          "indian": "Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Doorie",
+          "indian": "Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Doorie",
+          "indian": "Ga Pa Dha Pa"
+        },
+        {
+          "lyrics": "Sahi jae na",
+          "indian": "Re Re Sa Ni(k) Sa: Re Ga Re"
+        },
+        {
+          "lyrics": "Sahi jai na",
+          "indian": "Re Re Sa Ni(k) Sa: Re Ga Re"
+        },
+        {
+          "lyrics": "Sahi jai na",
+          "indian": "Re Re Ga Ma Ga: Ma Ga Re Sa Ni(k)."
+        },
+        {
+          "lyrics": "Sahi jai na",
+          "indian": "Re Re Sa Ni(k) Sa: p Dha(k) Ni(k) d.p."
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Khamoshiya yeh",
+          "indian": "Ga Ga Re Ga Ma Ga Re Sa."
+        },
+        {
+          "lyrics": "seh na saku",
+          "indian": "Sa Sa Ga Re: Ga Re Ga Re Sa."
+        },
+        {
+          "lyrics": "Awaz de kay mujhay tu",
+          "indian": "Sa Sa Dha(k) Sa Sa Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "dai jaa sukoon",
+          "indian": "Sa Sa Ga Re:"
+        },
+        {
+          "lyrics": "Yehh hai hai haii",
+          "indian": "Pa Ma Ga Re Ga"
+        },
+        {
+          "lyrics": "Khamoshiya yeh",
+          "indian": "Ga Ga Re Ga Ma Ga Re Sa."
+        },
+        {
+          "lyrics": "seh na saku",
+          "indian": "Sa Sa Ga Re: Ga Re Re Ga"
+        },
+        {
+          "lyrics": "Awaz de kay mujhay tu",
+          "indian": "Sa Sa Dha(k) Sa Sa Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "dai jaa sukoon",
+          "indian": "Sa Sa Ga Re: Pa: Dha Pa Ma Ga"
+        },
+        {
+          "lyrics": "Doorie",
+          "indian": "Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Doorie",
+          "indian": "Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Sahi jae na",
+          "indian": "Re Re Sa Ni(k) Sa: Re Ga Re"
+        },
+        {
+          "lyrics": "Sahi jai na",
+          "indian": "Re Re Sa Ni(k) Sa: Re Ga Re"
+        },
+        {
+          "lyrics": "Sahi jai na",
+          "indian": "Re Re Ga Ma Ga: Ma Ga Re Sa Ni(k)."
+        },
+        {
+          "lyrics": "Sahi jai na",
+          "indian": "Re Re Sa Ni(k) Sa: p Dha(k) Ni(k) d.p."
+        }
+      ]
+    }
+  ]
+}
