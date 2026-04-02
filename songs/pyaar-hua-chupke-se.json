@@ -1,0 +1,69 @@
+{
+  "id": "pyaar-hua-chupke-se",
+  "title": "Pyaar Hua Chupke Se",
+  "export": true,
+  "info": [
+    "Film/Artist: 1942 A Love Story",
+    "Scale: D BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/pyaar-hua-chupke-se-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dil ne kaha chupke se",
+          "indian": "G: m P S: G G m P:",
+          "western": "E: F G C: E E F G:"
+        },
+        {
+          "lyrics": "Ye kya hua chupke se",
+          "indian": "G: m P S: G G m P:",
+          "western": "E: F G C: E E F G:"
+        },
+        {
+          "lyrics": "Kyon naye lag rahe hain ye dharti gagan",
+          "indian": "S' N S': N(k) D N(k): D P D: P m P",
+          "western": "C' B C': Bb A Bb: A G A: G F G"
+        },
+        {
+          "lyrics": "Maina poochha to boli ye pagli pawan",
+          "indian": "S' N S': .N(K) D N(k): D P D D P m P",
+          "western": "C' B C': .B(K) A Bb: A G A A G F G"
+        },
+        {
+          "lyrics": "Pyaar hua chupke se",
+          "indian": "G: m P S: G G m P:",
+          "western": "E: F G C: E E F G:"
+        },
+        {
+          "lyrics": "Ye kya hua chupke se",
+          "indian": "G: m P S: G G m P:",
+          "western": "E: F G C: E E F G:"
+        },
+        {
+          "lyrics": "Kyon naye lag rahe hain ye dharti gagan",
+          "indian": "S' N S': N(k) D N(k): D P D D P m P",
+          "western": "C' B C': Bb A Bb: A G A A G F G"
+        },
+        {
+          "lyrics": "Maina poochha to boli ye pagli pawan",
+          "indian": "S' N S': .N(K) D N(k): D P D D P m P",
+          "western": "C' B C': .B(K) A Bb: A G A A G F G"
+        },
+        {
+          "lyrics": "Pyaar hua chupke se",
+          "indian": "G: m P S: G G m P:",
+          "western": "E: F G C: E E F G:"
+        },
+        {
+          "lyrics": "Ye kya hua chupke se",
+          "indian": "G: m P S: G G m P:",
+          "western": "E: F G C: E E F G:"
+        }
+      ]
+    }
+  ]
+}
