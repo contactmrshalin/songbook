@@ -40,7 +40,7 @@
       "lines": [
         {
           "lyrics": "Yeh moh moh ke dhaagee",
-          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..",
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..ma.Re..Sa..Ni(k)..",
           "western": "Bb..D..E..E.E..E..F.D..C..Bb.."
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "lyrics": "Yeh moh moh ke dhaagee",
-          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..",
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..ma.Re..Sa..Ni(k)..",
           "western": "Bb..D..E..E.E..E..F.D..C..Bb.."
         },
         {
@@ -64,7 +64,7 @@
         },
         {
           "lyrics": "Koi toh toh naa laagee",
-          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..Ma.Re..Sa..Ni(k)..Sa..",
+          "indian": "Ni(k)..Re..Ga..Ga.Ga..Ga..ma.Re..Sa..Ni(k)..Sa..",
           "western": "Bb..D..E..E.E..E..F.D..C..Bb..C.."
         },
         {
@@ -74,17 +74,17 @@
         },
         {
           "lyrics": "Hai room room ek taaraa ahaahaa",
-          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k)...Pa..Ma..Pa..Ma..",
+          "indian": "Pa..ma..Ga..ma..ma..Pa..Dha(k)..Dha(k)...Pa..ma..Pa..ma..",
           "western": "G..F..E..F..F..G..Ab..Ab...G..F..G..F.."
         },
         {
           "lyrics": "Hai room room ek taara",
-          "indian": "Pa..Ma..Ga..Ma..Ma..Pa..Dha(k)..Dha(k)..",
+          "indian": "Pa..ma..Ga..ma..ma..Pa..Dha(k)..Dha(k)..",
           "western": "G..F..E..F..F..G..Ab..Ab.."
         },
         {
           "lyrics": "Joo badloon mein se gujree",
-          "indian": "Sa'..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Pa...Ma..Ga..Ma..Ga..",
+          "indian": "Sa'..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Pa...ma..Ga..ma..Ga..",
           "western": "C'..B..Ab..Ab.C'..B..Ab..G..G...F..E..F..E.."
         }
       ]
@@ -109,7 +109,7 @@
         },
         {
           "lyrics": "Tunee ankahaa sab sunaa",
-          "indian": "Re.Sa..Sa.Ga.Ma.Pa..Re..Ni(k).Sa..",
+          "indian": "Re.Sa..Sa.Ga.ma.Pa..Re..Ni(k).Sa..",
           "western": "D.C..C.E.F.G..D..Bb.C.."
         },
         {
@@ -119,12 +119,12 @@
         },
         {
           "lyrics": "Tuu dil saa hai mein raat aaana dono",
-          "indian": "Pa...Ma..Ga..Ma..Ga.. Ga..Ma..Pa..Dha(k)...Pa..Ma..Pa..Ma..",
+          "indian": "Pa...ma..Ga..ma..Ga.. Ga..ma..Pa..Dha(k)...Pa..ma..Pa..ma..",
           "western": "G...F..E..F..E.. E..F..G..Ab...G..F..G..F.."
         },
         {
           "lyrics": "Mil jaayein shaymon ki tarahh",
-          "indian": "Ni..Ni..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..Ma..Ga..",
+          "indian": "Ni..Ni..Ni..Dha(k)..Dha(k).Sa'..Ni..Dha(k)..Pa..ma..Ga..",
           "western": "B..B..B..Ab..Ab.C'..B..Ab..G..F..E.."
         }
       ]

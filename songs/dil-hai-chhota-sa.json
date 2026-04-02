@@ -15,22 +15,22 @@
       "lines": [
         {
           "lyrics": "Dil hai chhota sa",
-          "indian": "Sa..Ga..Re..Ma..Ga..Ga..",
+          "indian": "Sa..Ga..Re..ma..Ga..Ga..",
           "western": "C..E..D..F..E..E.."
         },
         {
           "lyrics": "Chhoti si aasha",
-          "indian": "Re..Pa..Ma..Ga..Ga..",
+          "indian": "Re..Pa..ma..Ga..Ga..",
           "western": "D..G..F..E..E.."
         },
         {
           "lyrics": "Masti bhare man ki",
-          "indian": "Sa..Ga..Re..Ma..Ga..Ga..",
+          "indian": "Sa..Ga..Re..ma..Ga..Ga..",
           "western": "C..E..D..F..E..E.."
         },
         {
           "lyrics": "Bholi si aasha",
-          "indian": "Re..Pa..Ma..Ga..Ga..",
+          "indian": "Re..Pa..ma..Ga..Ga..",
           "western": "D..G..F..E..E.."
         },
         {
@@ -45,12 +45,12 @@
         },
         {
           "lyrics": "Aasmaan mein",
-          "indian": "Pa..Dha..Pa..Ga..Ma..Ma...Ga.Ma.Re.",
+          "indian": "Pa..Dha..Pa..Ga..ma..ma...Ga.ma.Re.",
           "western": "G..A..G..E..F..F...E.F.D."
         },
         {
           "lyrics": "Udne ki aasha",
-          "indian": "Re..Pa..Ma..Ga..Ga...Ga.Re.Sa.",
+          "indian": "Re..Pa..ma..Ga..Ga...Ga.Re.Sa.",
           "western": "D..G..F..E..E...E.D.C."
         }
       ]
@@ -60,12 +60,12 @@
       "lines": [
         {
           "lyrics": "Mahak jaaun main, aaj to aise",
-          "indian": "Ga Pa PaPa GaReSa | Sa Re GaMa ReGaRe",
+          "indian": "Ga Pa PaPa GaReSa | Sa Re Gama ReGaRe",
           "western": "E G GG EDC | C D EF DED"
         },
         {
           "lyrics": "Phul bagiya men, mahak hai jaise",
-          "indian": "Ga Pa PaPa GaReSa | Sa Re GaMa ReGaRe",
+          "indian": "Ga Pa PaPa GaReSa | Sa Re Gama ReGaRe",
           "western": "E G GG EDC | C D EF DED"
         },
         {
@@ -75,7 +75,7 @@
         },
         {
           "lyrics": "Jhum jaaun main, banke banvariya",
-          "indian": "Dha Ni(k) PaGa Ma Ma GaRe | Re Pa MaGa GaGa ReSa",
+          "indian": "Dha Ni(k) PaGa ma ma GaRe | Re Pa maGa GaGa ReSa",
           "western": "A Bb GE F F ED | D G FE EE DC"
         }
       ]

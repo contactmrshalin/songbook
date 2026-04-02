@@ -1,0 +1,83 @@
+{
+  "id": "aadat",
+  "title": "Aadat",
+  "export": true,
+  "info": [
+    "Film/Artist: Jal",
+    "Scale: D# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/aadat-jal-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Najaane kab see",
+          "indian": "Ga Sa' Ni Dha Ga."
+        },
+        {
+          "lyrics": "Umeedain kuch baaki haii",
+          "indian": "Ga Sa' Ni Ni Dha Dha Ni Sa' Sa': Sa' Ni Dha."
+        },
+        {
+          "lyrics": "Mujhe phir bhi teri yaad",
+          "indian": "Ga Sa' Ni Ni Dha Dha Ga Re Ga"
+        },
+        {
+          "lyrics": "Kyun aati haii",
+          "indian": "Sa' Re' Sa' Ni Dha Dha Ni Sa' Sa': Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Najaane kab see",
+          "indian": "Ga Sa' Ni Dha Pa Dha"
+        },
+        {
+          "lyrics": "Durr jitnaa bhi tum mujhsee",
+          "indian": "Ga ma Ga Ga Ga Re Sa ni"
+        },
+        {
+          "lyrics": "Paas tere main",
+          "indian": "ni Sa dha Sa"
+        },
+        {
+          "lyrics": "Ab toh aadat sii hai mujkoo aise jeene main",
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+        },
+        {
+          "lyrics": "Zindagi see koi bhi shikwa bhi nahi haii",
+          "indian": "Ga ma Ga Ga Ga ma Ga Re Sa ni ni Re ni Sa dha Sa"
+        },
+        {
+          "lyrics": "Ab toh zindaa hun main iss neele asmaan mainn",
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+        },
+        {
+          "lyrics": "Chaahat aisii hai yeh teri",
+          "indian": "Ga ma Ga Ga Ga Re Sa ni"
+        },
+        {
+          "lyrics": "Barhti jaayee",
+          "indian": "ni Sa dha Sa"
+        },
+        {
+          "lyrics": "Aahat aisii hai yeh teri mujhko sataaye",
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+        },
+        {
+          "lyrics": "Yaadein gehri hain yeh kitnii",
+          "indian": "Ga ma Ga Ga Ga Re Sa ni"
+        },
+        {
+          "lyrics": "Dil doob jaayee",
+          "indian": "ni Sa ni dha Sa"
+        },
+        {
+          "lyrics": "Aur aankhon main yeh ghum num banjaaye",
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+        }
+      ]
+    }
+  ]
+}

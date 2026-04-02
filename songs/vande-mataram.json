@@ -1,0 +1,90 @@
+{
+  "id": "vande-mataram",
+  "title": "Vande Mataram",
+  "export": true,
+  "info": [
+    "Film/Artist: Easy Version",
+    "Source: https://www.notationsworld.com/vande-mataram-easy-version-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Vande mataram",
+          "indian": "pa: dha: Sa Re Sa Re:"
+        },
+        {
+          "lyrics": "Vande mataram",
+          "indian": "Sa: Re: Ma Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Sujalam",
+          "indian": "Pa Dha ma: Ga Re"
+        },
+        {
+          "lyrics": "Suphalam",
+          "indian": "Re Ga Sa: ni dha"
+        },
+        {
+          "lyrics": "Malayaja shitalam",
+          "indian": "dha Re Sa Sa ni dha: ni pa:"
+        },
+        {
+          "lyrics": "Shasyashyamalam",
+          "indian": "pa: dha Sa Re Sa Re:"
+        },
+        {
+          "lyrics": "Mataram",
+          "indian": "Re ma Ga Ga Re:"
+        },
+        {
+          "lyrics": "Vande mataram",
+          "indian": "Sa: Re: Ma Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Shubhrajyotsna",
+          "indian": "Sa: Re: Ma: Ma"
+        },
+        {
+          "lyrics": "Pulakitayaminim",
+          "indian": "Ma Ma Pa Ma Pa: Ma Pa:"
+        },
+        {
+          "lyrics": "Phullakusumita",
+          "indian": "Ma: Ma Ma Pa Ma Pa"
+        },
+        {
+          "lyrics": "Drumadala shobhinim",
+          "indian": "Pa Dha Pa ma ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Suhasinim",
+          "indian": "dha dha Sa ni ni dha:"
+        },
+        {
+          "lyrics": "Sumadhura bhashinim",
+          "indian": "dha ma Ga ma Ga Re: Ga Re:"
+        },
+        {
+          "lyrics": "Sukhadam varadam",
+          "indian": "Sa Re Ma: Ma Ma Ma:"
+        },
+        {
+          "lyrics": "Mataram",
+          "indian": "Ma Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Vande mataram",
+          "indian": "Sa: Re: Ma Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Vande mataram",
+          "indian": "Sa: Re: Ma Pa Ma Pa:"
+        }
+      ]
+    }
+  ]
+}

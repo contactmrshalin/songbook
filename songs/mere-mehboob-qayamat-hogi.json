@@ -31,12 +31,12 @@
         },
         {
           "lyrics": "Phir aaj idhar",
-          "indian": "Ga' Ga' Ga' Pa' Ma' Ga' Ma' Re':",
+          "indian": "Ga' Ga' Ga' Pa' ma' Ga' ma' Re':",
           "western": "E' E' E' G' F' E' F' D':"
         },
         {
           "lyrics": "Aaya hoon magar",
-          "indian": "Re' Re' Re' Ma' | Ma' Ga' Ma' Re':",
+          "indian": "Re' Re' Re' ma' | ma' Ga' ma' Re':",
           "western": "D' D' D' F' | F' E' F' D':"
         }
       ]
@@ -71,7 +71,7 @@
         },
         {
           "lyrics": "Mohabbat hogi",
-          "indian": "Ga Ma Pa Ga Ma Dha Pa: Ni Dha",
+          "indian": "Ga ma Pa Ga ma Dha Pa: Ni Dha",
           "western": "E F G E F A G: B A"
         }
       ]

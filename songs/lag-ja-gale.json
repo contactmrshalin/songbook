@@ -16,32 +16,32 @@
       "lines": [
         {
           "lyrics": "Lag ja gale",
-          "indian": "R— G~G R G—",
+          "indian": "Re— Ga~Ga Re Ga—",
           "western": "D— E~E D E—"
         },
         {
           "lyrics": "Ke phir yeh",
-          "indian": "G R~R G R G—",
+          "indian": "Ga Re~Re Ga Re Ga—",
           "western": "E D~D E D E—"
         },
         {
           "lyrics": "Haseen raat ho na ho",
-          "indian": "G R~R G R G— S— S G~R—",
+          "indian": "Ga Re~Re Ga Re Ga— Sa— Sa Ga~Re—",
           "western": "E D~D E D E— C— C E~D—"
         },
         {
           "lyrics": "Ooo..",
-          "indian": "G~R (n)S~(n)d n d p—",
+          "indian": "Ga~Re (ni)Sa~(ni)dha ni dha pa—",
           "western": "E~D (B.)C~(B.)A. B. A. G.—"
         },
         {
           "lyrics": "Shayad phir iss janam mein",
-          "indian": "p— d~d n (R) n~d p—",
+          "indian": "pa— dha~dha ni (Re) ni~dha pa—",
           "western": "G.— A.~A. B. (D) B.~A. G.—"
         },
         {
           "lyrics": "Mulaqaat ho na ho",
-          "indian": "p— p P— P D~m P~m G R S—",
+          "indian": "pa— pa Pa— Pa Dha~ma Pa~ma Ga Re Sa—",
           "western": "G.— G. G— G A~F G~F E D C—"
         }
       ]
@@ -51,27 +51,27 @@
       "lines": [
         {
           "lyrics": "Humko mili hain aaj yeh",
-          "indian": "S— P M~P P M D P m—",
+          "indian": "Sa— Pa Ma~Pa Pa Ma Dha Pa ma—",
           "western": "C— G F#~G G F# A G F—"
         },
         {
           "lyrics": "Ghadiyaan naseeb se",
-          "indian": "S m~m D P m P~m G—",
+          "indian": "Sa ma~ma Dha Pa ma Pa~ma Ga—",
           "western": "C F~F A G F G~F E—"
         },
         {
           "lyrics": "Jee bhar ke dekh leejiye",
-          "indian": "S— P M P M S'— D~m m—",
+          "indian": "Sa— Pa Ma Pa Ma Sa'— Dha~ma ma—",
           "western": "C— G F# G F# C'— A~F F—"
         },
         {
           "lyrics": "Humko qareeb se",
-          "indian": "S m~m D P m P~m G—",
+          "indian": "Sa ma~ma Dha Pa ma Pa~ma Ga—",
           "western": "C F~F A G F G~F E—"
         },
         {
           "lyrics": "Phir aap ke naseeb mein",
-          "indian": "p— p G~R G— G R~R G—",
+          "indian": "pa— pa Ga~Re Ga— Ga Re~Re Ga—",
           "western": "G.— G. E~D E— E D~D E—"
         }
       ]
@@ -81,7 +81,7 @@
       "lines": [
         {
           "lyrics": "Lag ja gale ke phir yeh haseen raat ho na ho",
-          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—",
+          "indian": "Re— Ga~Ga Re Ga— | Ga Re~Re Ga Re Ga— Sa— Sa Ga~Re—",
           "western": "D— E~E D E— | E D~D E D E— C— C E~D—"
         }
       ]
@@ -91,17 +91,17 @@
       "lines": [
         {
           "lyrics": "Paas aaiye ke hum nahin aayenge baar baar",
-          "indian": "S— P M~P P M D P m— | S m~m D P m P~m G—",
+          "indian": "Sa— Pa Ma~Pa Pa Ma Dha Pa ma— | Sa ma~ma Dha Pa ma Pa~ma Ga—",
           "western": "C— G F#~G G F# A G F— | C F~F A G F G~F E—"
         },
         {
           "lyrics": "Baahen gale mein daal ke hum ro lein zaar zaar",
-          "indian": "S— P M P M S'— D~m m— | S m~m D P m P~m G—",
+          "indian": "Sa— Pa Ma Pa Ma Sa'— Dha~ma ma— | Sa ma~ma Dha Pa ma Pa~ma Ga—",
           "western": "C— G F# G F# C'— A~F F— | C F~F A G F G~F E—"
         },
         {
           "lyrics": "Aankhon se phir yeh pyaar ki barsaat ho na ho",
-          "indian": "p— p G~R G— | G R~R G R G— S— S G~R—",
+          "indian": "pa— pa Ga~Re Ga— | Ga Re~Re Ga Re Ga— Sa— Sa Ga~Re—",
           "western": "G.— G. E~D E— | E D~D E D E— C— C E~D—"
         }
       ]
@@ -111,17 +111,17 @@
       "lines": [
         {
           "lyrics": "Lag ja gale ke phir yeh haseen raat ho na ho",
-          "indian": "R— G~G R G— | G R~R G R G— S— S G~R—",
+          "indian": "Re— Ga~Ga Re Ga— | Ga Re~Re Ga Re Ga— Sa— Sa Ga~Re—",
           "western": "D— E~E D E— | E D~D E D E— C— C E~D—"
         },
         {
           "lyrics": "Shayad phir iss janam mein mulaqaat ho na ho",
-          "indian": "G~R (n)S~(n)d n d p— | p— d~d n (R) n~d p— | p— p P— P D~m P~m G R S—",
+          "indian": "Ga~Re (ni)Sa~(ni)dha ni dha pa— | pa— dha~dha ni (Re) ni~dha pa— | pa— pa Pa— Pa Dha~ma Pa~ma Ga Re Sa—",
           "western": "E~D (B.)C~(B.)A. B. A. G.— | G.— A.~A. B. (D) B.~A. G.— | G.— G. G— G A~F G~F E D C—"
         },
         {
           "lyrics": "Lag ja gale…",
-          "indian": "R— G~G R G— S—",
+          "indian": "Re— Ga~Ga Re Ga— Sa—",
           "western": "D— E~E D E— C—"
         }
       ]

@@ -18,7 +18,7 @@
         },
         {
           "lyrics": "hindostaan | hamaara | hamara",
-          "indian": "Pa.Dha. Sa Re Ga(k) | Ma Ga(k) Ga(k) | Re Re~(Ma)Ga(k) Re Sa",
+          "indian": "Pa.Dha. Sa Re Ga(k) | ma Ga(k) Ga(k) | Re Re~(ma)Ga(k) Re Sa",
           "western": "G.A. C D Eb | F Eb Eb | D D~(F)Eb D C"
         },
         {
@@ -28,12 +28,12 @@
         },
         {
           "lyrics": "Ham | bulabulen | hain | isaki,",
-          "indian": "Ga(k) Ma | Pa PaPa | Ga(k) | Ma Dha Pa",
+          "indian": "Ga(k) ma | Pa PaPa | Ga(k) | ma Dha Pa",
           "western": "Eb F | G GG | Eb | F A G"
         },
         {
           "lyrics": "ye | gul sitaan | hamaara | hamara",
-          "indian": "Ga(k)Ma | Pa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
+          "indian": "Ga(k)ma | Pa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
           "western": "EbF | G FEb | D C C | CCB.A. G"
         },
         {
@@ -48,22 +48,22 @@
       "lines": [
         {
           "lyrics": "Parabat | wo | sabase | uncha,",
-          "indian": "Ga(k) Ga(k)Ga(k) | Ga(k) | Ga(k)Ma Ga(k)~Re | Re~Sa Sa",
+          "indian": "Ga(k) Ga(k)Ga(k) | Ga(k) | Ga(k)ma Ga(k)~Re | Re~Sa Sa",
           "western": "Eb EbEb | Eb | EbF Eb~D | D~C C"
         },
         {
           "lyrics": "hamasaaya | asamaan | ka",
-          "indian": "Pa.Dha. SaRe | Ga(k) Ma Ga(k)| Ga(k)",
+          "indian": "Pa.Dha. SaRe | Ga(k) ma Ga(k)| Ga(k)",
           "western": "G.A. CD | Eb F Eb| Eb"
         },
         {
           "lyrics": "Wo | sntari | hamaara,",
-          "indian": "Ga(k) Ma | Pa PaPa | Ga(k) | Ma Dha Pa",
+          "indian": "Ga(k) ma | Pa PaPa | Ga(k) | ma Dha Pa",
           "western": "Eb F | G GG | Eb | F A G"
         },
         {
           "lyrics": "wo | paasabaan | hamaara | hamara",
-          "indian": "Ga(k)Ma | Pa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
+          "indian": "Ga(k)ma | Pa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
           "western": "EbF | G FEb | D C C | CCB.A. G"
         },
         {
@@ -78,27 +78,27 @@
       "lines": [
         {
           "lyrics": "Godi | men | khelati | hain",
-          "indian": "SaPa Pa | Pa | PaDha Ga(k)Pa | Ma~Ga(k) (Re)Ga(k)",
+          "indian": "SaPa Pa | Pa | PaDha Ga(k)Pa | ma~Ga(k) (Re)Ga(k)",
           "western": "CG G | G | GA EbG | F~Eb (D)Eb"
         },
         {
           "lyrics": "isaki | hazaaro | nadiyaan",
-          "indian": "SaPa Pa | Pa Pa Dha | Ga(k)Pa Ma~Ga(k) (Re)Ga(k)",
+          "indian": "SaPa Pa | Pa Pa Dha | Ga(k)Pa ma~Ga(k) (Re)Ga(k)",
           "western": "CG G | G G A | EbG F~Eb (D)Eb"
         },
         {
           "lyrics": "Gulashan | hai | jinake | dam | se",
-          "indian": "Ma MaMa | Ma | MaMa Ga(k)~Ma | Ga(k)~Re | Sa~Dha. Sa~Re",
+          "indian": "ma mama | ma | mama Ga(k)~ma | Ga(k)~Re | Sa~Dha. Sa~Re",
           "western": "F FF | F | FF Eb~F | Eb~D | C~A. C~D"
         },
         {
           "lyrics": "Gulashan | hai | jinake | dam | se",
-          "indian": "Ma MaMa | Ma | MaMa Ga(k)~Ma | Ga(k)~Re | Sa",
+          "indian": "ma mama | ma | mama Ga(k)~ma | Ga(k)~Re | Sa",
           "western": "F FF | F | FF Eb~F | Eb~D | C"
         },
         {
           "lyrics": "rashq-e-jina | hamaara | hamara",
-          "indian": "Ga(k)Ma MaDhaPa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
+          "indian": "Ga(k)ma maDhaPa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
           "western": "EbF FAG FEb | D C C | CCB.A. G"
         },
         {
@@ -118,7 +118,7 @@
         },
         {
           "lyrics": "apas | men | bair | rakhana",
-          "indian": "SaPa Pa | Pa | Pa Dha | Ga(k)Pa Ma~Ga(k) (Re)Ga(k)",
+          "indian": "SaPa Pa | Pa | Pa Dha | Ga(k)Pa ma~Ga(k) (Re)Ga(k)",
           "western": "CG G | G | G A | EbG F~Eb (D)Eb"
         },
         {
@@ -128,12 +128,12 @@
         },
         {
           "lyrics": "watan | hai,",
-          "indian": "Pa Ga(k)Pa | Ma~Ga(k) (Re)Ga(k)",
+          "indian": "Pa Ga(k)Pa | ma~Ga(k) (Re)Ga(k)",
           "western": "G EbG | F~Eb (D)Eb"
         },
         {
           "lyrics": "hindostaan | hamaara | hamara",
-          "indian": "Ga(k)Ma DhaPa MaGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
+          "indian": "Ga(k)ma DhaPa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
           "western": "EbF AG FEb | D C C | CCB.A. G"
         },
         {

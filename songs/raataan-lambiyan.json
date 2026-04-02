@@ -49,7 +49,7 @@
       "lines": [
         {
           "lyrics": "Kaatun kaise raatan",
-          "indian": "Ga..Pa..Pa..Dha..Pa..Dha..Pa.Ma.Ga.Re..",
+          "indian": "Ga..Pa..Pa..Dha..Pa..Dha..Pa.ma.Ga.Re..",
           "western": "E..G..G..A..G..A..G.F.E.D.."
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "lyrics": "Jiya nahi jaata",
-          "indian": "Ga..Pa..Pa..Dha..Pa..Dha..Pa.Ma.Ga.Re..",
+          "indian": "Ga..Pa..Pa..Dha..Pa..Dha..Pa.ma.Ga.Re..",
           "western": "E..G..G..A..G..A..G.F.E.D.."
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "lyrics": "Kate tere sangeyan sangeyan re",
-          "indian": "Sa'..Ni..Ma..Pa.Pa.Dha.Pa.Pa.Pa.Dha.Pa.Pa..",
+          "indian": "Sa'..Ni..ma..Pa.Pa.Dha.Pa.Pa.Pa.Dha.Pa.Pa..",
           "western": "C'..B..F..G.G.A.G.G.G.A.G.G.."
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "lyrics": "Kate tere sangeyan sangeyan re",
-          "indian": "Sa'..Ni..Ma..Pa.Pa.Dha.Ni.Dha.Pa.Pa..Pa..",
+          "indian": "Sa'..Ni..ma..Pa.Pa.Dha.Ni.Dha.Pa.Pa..Pa..",
           "western": "C'..B..F..G.G.A.B.A.G.G..G.."
         }
       ]
@@ -99,7 +99,7 @@
         },
         {
           "lyrics": "Kehnde ne sajjna",
-          "indian": "Sa..Re..Re.Pa..Pa.Ma.Ga..",
+          "indian": "Sa..Re..Re.Pa..Pa.ma.Ga..",
           "western": "C..D..D.G..G.F.E.."
         },
         {
@@ -109,27 +109,27 @@
         },
         {
           "lyrics": "Mann le ve sajjna",
-          "indian": "Sa..Re..Re.Pa..Pa.Ma.Ga..",
+          "indian": "Sa..Re..Re.Pa..Pa.ma.Ga..",
           "western": "C..D..D.G..G.F.E.."
         },
         {
           "lyrics": "Tere bina mera",
-          "indian": "Ga..Ma..Pa.Pa...Pa..Pa..",
+          "indian": "Ga..ma..Pa.Pa...Pa..Pa..",
           "western": "E..F..G.G...G..G.."
         },
         {
           "lyrics": "Howe na guzara",
-          "indian": "Pa..Dha..Ma..Pa.Pa...Pa..Pa..",
+          "indian": "Pa..Dha..ma..Pa.Pa...Pa..Pa..",
           "western": "G..A..F..G.G...G..G.."
         },
         {
           "lyrics": "Chhad ke na jawin mainu",
-          "indian": "Ga..Ma..Pa.Pa..Pa..Sa'..Pa..",
+          "indian": "Ga..ma..Pa.Pa..Pa..Sa'..Pa..",
           "western": "E..F..G.G..G..C'..G.."
         },
         {
           "lyrics": "Tu hi hai sahara",
-          "indian": "Pa..Dha..Pa..Ma..Ga..Re..Ga.Re.Sa..",
+          "indian": "Pa..Dha..Pa..ma..Ga..Re..Ga.Re.Sa..",
           "western": "G..A..G..F..E..D..E.D.C.."
         }
       ]

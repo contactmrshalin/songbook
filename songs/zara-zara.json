@@ -14,12 +14,12 @@
       "lines": [
         {
           "lyrics": "Flute Interlude",
-          "indian": "Ga: Ga: Ga:: Ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:",
+          "indian": "Ga: Ga: Ga:: ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:",
           "western": "E: E: E:: F E D D C B | B:: C D:: C B A:"
         },
         {
           "lyrics": "Variation",
-          "indian": "Sa Re Ga: Ga: Ga:: Ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:",
+          "indian": "Sa Re Ga: Ga: Ga:: ma Ga Re Re Sa Ni | Ni:: Sa Re:: Sa Ni Dha:",
           "western": "C D E: E: E:: F E D D C B | B:: C D:: C B A:"
         },
         {
@@ -29,7 +29,7 @@
         },
         {
           "lyrics": "Run",
-          "indian": "Dha Pa Ma Ga: Ma Ga Re Ga Ma Re Sa Ni",
+          "indian": "Dha Pa ma Ga: ma Ga Re Ga ma Re Sa Ni",
           "western": "A G F E: F E D E F D C B"
         }
       ]
@@ -59,12 +59,12 @@
       "lines": [
         {
           "lyrics": "Hai, Meri Kasam, Tujhko Sana, Door Kahin Na Jaa",
-          "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa Ma | Ma: Pa Ma Ga: Ni: Ni Dha:",
+          "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa ma | ma: Pa ma Ga: Ni: Ni Dha:",
           "western": "A: C B A G | G: B A G F | F: G F E: B: B A:"
         },
         {
           "lyrics": "Yeh Doori, Kehti Hai, Paas Mere Aaja Re",
-          "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa Ma | Ma: Pa Ma Ga: Ni: Ni Dha:",
+          "indian": "Dha: Sa Ni Dha Pa | Pa: Ni Dha Pa ma | ma: Pa ma Ga: Ni: Ni Dha:",
           "western": "A: C B A G | G: B A G F | F: G F E: B: B A:"
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "lyrics": "Hum Yaar Bheeg Jaayein, Iss Chaahat Ki Baarish Mein",
-          "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga Ma Ga Re Ga:",
+          "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga ma Ga Re Ga:",
           "western": "D D D E C C B C B A | D D D D C B C D E F E D E:"
         },
         {
@@ -94,7 +94,7 @@
         },
         {
           "lyrics": "Tu Apni Ungliyon Se, Main To Hoon Isee, Khwaahish Mein",
-          "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga Ma Ga Re Ga:",
+          "indian": "Re Re Re Ga Sa Sa Ni Sa Ni Dha | Re Re Re Re Sa Ni Sa Re Ga ma Ga Re Ga:",
           "western": "D D D E C C B C B A | D D D D C B C D E F E D E:"
         },
         {
@@ -104,7 +104,7 @@
         },
         {
           "lyrics": "Hum Dono, Tanha Ho, Na Koi Bhi Rahe Is Ghar Mein",
-          "indian": "Ga Dha Dha Ga: | Ga Pa Pa Re: | Re Ma: Ga Re Sa Ni Sa Ni",
+          "indian": "Ga Dha Dha Ga: | Ga Pa Pa Re: | Re ma: Ga Re Sa Ni Sa Ni",
           "western": "E A A E: | E G G D: | D F: E D C B C B"
         }
       ]
@@ -114,17 +114,17 @@
       "lines": [
         {
           "lyrics": "Solo (Part 1)",
-          "indian": "Ga Ga Pa Dha Pa Dha: | Pa Dha Ni Sa Ni Dha: | Pa Ma Pa Ma Ga Ga: | Sa Ga Pa Dha Pa Dha:",
+          "indian": "Ga Ga Pa Dha Pa Dha: | Pa Dha Ni Sa Ni Dha: | Pa ma Pa ma Ga Ga: | Sa Ga Pa Dha Pa Dha:",
           "western": "E E G A G A: | G A B C B A: | G F G F E E: | C E G A G A:"
         },
         {
           "lyrics": "Solo (Part 2)",
-          "indian": "Sa Sa Ni Ni Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Re Ga:: Pa | Sa Sa Ni Ni Dha Dha Pa Pa Ma Ma Ga Ga Re Re Sa Re Ga:",
+          "indian": "Sa Sa Ni Ni Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Re Ga:: Pa | Sa Sa Ni Ni Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Re Ga:",
           "western": "C C B B A A G G F F E E D D C D E:: G | C C B B A A G G F F E E D D C D E:"
         },
         {
           "lyrics": "Solo Ending",
-          "indian": "Sa Dha: | Sa Ni Pa Ma Ga: Re | Ma Ma Ga Ga Re Re Sa Re Ga: | Sa Dha: | Ni Sa Re Sa Ni Dha: | Sa Sa Ni Ni Dha Dha Sa Re Ga::::",
+          "indian": "Sa Dha: | Sa Ni Pa ma Ga: Re | ma ma Ga Ga Re Re Sa Re Ga: | Sa Dha: | Ni Sa Re Sa Ni Dha: | Sa Sa Ni Ni Dha Dha Sa Re Ga::::",
           "western": "C A: | C B G F E: D | F F E E D D C D E: | C A: | B C D C B A: | C C B B A A C D E::::"
         }
       ]

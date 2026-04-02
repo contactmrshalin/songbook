@@ -15,12 +15,12 @@
       "lines": [
         {
           "lyrics": "Hmm…. hmm…",
-          "indian": "Ga..Ma.. Re..Ga..Re.Sa.Re.. Ga..Ma.. Pa.Ga.Pa.Ga.Re.Sa..",
+          "indian": "Ga..ma.. Re..Ga..Re.Sa.Re.. Ga..ma.. Pa.Ga.Pa.Ga.Re.Sa..",
           "western": "E..F.. D..E..D.C.D.. E..F.. G.E.G.E.D.C.."
         },
         {
           "lyrics": "Hmm…. hmm…",
-          "indian": "Ga..Ma.. Re..Ga..Re.Sa.Re.. Ga..Ma.. Pa.Ga.Re.Sa..",
+          "indian": "Ga..ma.. Re..Ga..Re.Sa.Re.. Ga..ma.. Pa.Ga.Re.Sa..",
           "western": "E..F.. D..E..D.C.D.. E..F.. G.E.D.C.."
         }
       ]
@@ -130,7 +130,7 @@
         },
         {
           "lyrics": "Duniyaa merii humdham",
-          "indian": "Ga.Ga.Ma.. Pa.Dha..Pa.Ga.Re..",
+          "indian": "Ga.Ga.ma.. Pa.Dha..Pa.Ga.Re..",
           "western": "E.E.F.. G.A..G.E.D.."
         }
       ]

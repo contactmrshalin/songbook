@@ -16,22 +16,22 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastaan hai yeh",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:",
           "western": "D'~C' D' C' A G F A:"
         },
         {
           "lyrics": "Kahan shuru kahan khatam",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:",
           "western": "D'~C' D' C' A G F G:"
         },
         {
           "lyrics": "Yeh manzilen hain kaunsi",
-          "indian": "Dha Pa Dha Pa Ma Ga Re Ga Re",
+          "indian": "Dha Pa Dha Pa ma Ga Re Ga Re",
           "western": "A G A G F E D E D"
         },
         {
           "lyrics": "Na woh samajh sake na hum",
-          "indian": "Sa': Sa' Re' Sa' Dha Pa Re Ma Sa:",
+          "indian": "Sa': Sa' Re' Sa' Dha Pa Re ma Sa:",
           "western": "C': C' D' C' A G D F C:"
         }
       ]
@@ -41,7 +41,7 @@
       "lines": [
         {
           "lyrics": "Yeh roshni ke saath kyun",
-          "indian": "Ma Pa Dha Ni(k)~Dha Ni(k) Pa Ni(k):",
+          "indian": "ma Pa Dha Ni(k)~Dha Ni(k) Pa Ni(k):",
           "western": "F G A Bb~A Bb G Bb:"
         },
         {
@@ -56,7 +56,7 @@
         },
         {
           "lyrics": "Ke jaag padi hoon khwaab se",
-          "indian": "Sa' Sa' Re' Sa' Dha Pa Re Ma Sa:",
+          "indian": "Sa' Sa' Re' Sa' Dha Pa Re ma Sa:",
           "western": "C' C' D' C' A G D F C:"
         }
       ]
@@ -66,12 +66,12 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastaan hai yeh",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Dha:",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:",
           "western": "D'~C' D' C' A G F A:"
         },
         {
           "lyrics": "Kahan shuru kahan khatam",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa Ma Pa:",
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:",
           "western": "D'~C' D' C' A G F G:"
         }
       ]

@@ -38,12 +38,12 @@
         },
         {
           "lyrics": "Naya pyaar hai naya intezaar",
-          "indian": "Ga – / Pa – Pa Pa / Ma Ga Re – Re Re –",
+          "indian": "Ga – / Pa – Pa Pa / ma Ga Re – Re Re –",
           "western": "E – / G – G G / F E D – D D –"
         },
         {
           "lyrics": "Kar loon main kya apna haal",
-          "indian": "Sa .Ni .Dha .Ni Sa – / Ma Ga Ga –",
+          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –",
           "western": "C .B .A .B C – / F E E –"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "lyrics": "Mere dil-e-bekaraar",
-          "indian": "Sa .Ni .Dha .Ni Sa – / Ma Ga Ga –",
+          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –",
           "western": "C .B .A .B C – / F E E –"
         },
         {
@@ -68,22 +68,22 @@
       "lines": [
         {
           "lyrics": "Udta hi firoon in hawaon mein kahin",
-          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa Ma Re Re / Dha Pa Pa –",
+          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
           "western": "C* B C* – / A – Bb A – / A G F D D / A G G –"
         },
         {
           "lyrics": "Ya main jhool jaoon in ghataon mein kahin",
-          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa Ma Re Re / Dha Pa Pa –",
+          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
           "western": "C* B C* – / A Bb C* A – / A G F D D / A G G –"
         },
         {
           "lyrics": "Ek kar doon aasmaan aur zameen",
-          "indian": "Pa Ma Pa Dha / Ni(k) Dha Pa – / Pa – Ma Pa –",
+          "indian": "Pa ma Pa Dha / Ni(k) Dha Pa – / Pa – ma Pa –",
           "western": "G F G A / Bb A G – / G – F G –"
         },
         {
           "lyrics": "Kaho yaaron kya karoon kya nahin",
-          "indian": "Pa Ma Pa Dha / Ni(k) Sa* Sa* Ma / Ma Pa Ga Ma –",
+          "indian": "Pa ma Pa Dha / Ni(k) Sa* Sa* ma / ma Pa Ga ma –",
           "western": "G F G A / Bb C* C* F / F G E F –"
         }
       ]
@@ -93,22 +93,22 @@
       "lines": [
         {
           "lyrics": "Usne baat ki kuchh aise dhang se",
-          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa Ma Re Re / Dha Pa Pa –",
+          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
           "western": "C* B C* – / A – Bb A – / A G F D D / A G G –"
         },
         {
           "lyrics": "Sapne de gaya vo hazaaron range ke",
-          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa Ma Re Re / Dha Pa Pa –",
+          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
           "western": "C* B C* – / A Bb C* A – / A G F D D / A G G –"
         },
         {
           "lyrics": "Reh jaoon jaise main haar ke",
-          "indian": "Pa Ma Pa Dha / Ni(k) Dha Pa – / Pa – Ma Pa –",
+          "indian": "Pa ma Pa Dha / Ni(k) Dha Pa – / Pa – ma Pa –",
           "western": "G F G A / Bb A G – / G – F G –"
         },
         {
           "lyrics": "Aur choome vo mujhe pyaar se",
-          "indian": "Pa Ma Pa Dha / Ni(k) Sa* Sa* Ma / Ma Pa Ga Ma –",
+          "indian": "Pa ma Pa Dha / Ni(k) Sa* Sa* ma / ma Pa Ga ma –",
           "western": "G F G A / Bb C* C* F / F G E F –"
         }
       ]
@@ -123,17 +123,17 @@
         },
         {
           "lyrics": "Naya pyaar hai naya intezaar",
-          "indian": "Ga – / Pa – Pa Pa / Ma Ga Re – Re Re –",
+          "indian": "Ga – / Pa – Pa Pa / ma Ga Re – Re Re –",
           "western": "E – / G – G G / F E D – D D –"
         },
         {
           "lyrics": "Kar loon main kya apna haal",
-          "indian": "Sa .Ni .Dha .Ni Sa – / Ma Ga Ga –",
+          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –",
           "western": "C .B .A .B C – / F E E –"
         },
         {
           "lyrics": "Aye dil-e-bekaraar, mere dil-e-bekaraar",
-          "indian": "Dha Ni Sa Ga – Re Re – / Sa .Ni .Dha .Ni Sa – Ma Ga Ga –",
+          "indian": "Dha Ni Sa Ga – Re Re – / Sa .Ni .Dha .Ni Sa – ma Ga Ga –",
           "western": "A B C E – D D – / C .B .A .B C – F E E –"
         }
       ]

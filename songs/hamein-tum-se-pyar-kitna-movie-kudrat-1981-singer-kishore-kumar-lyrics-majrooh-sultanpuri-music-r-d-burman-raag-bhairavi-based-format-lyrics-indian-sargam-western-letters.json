@@ -14,22 +14,22 @@
       "lines": [
         {
           "lyrics": "Hamein tum se pyar kitna",
-          "indian": "Ga..Ma…Pa..Pa..Dha…Dha..Dha..Dha...",
+          "indian": "Ga..ma…Pa..Pa..Dha…Dha..Dha..Dha...",
           "western": "E..F…G..G..A…A..A..A..."
         },
         {
           "lyrics": "Ye hum nahin jaante",
-          "indian": "Ni..NiRe'..NiPa.. PaMa'DhaPa…",
+          "indian": "Ni..NiRe'..NiPa.. Pama'DhaPa…",
           "western": "B..BD'..BG.. GF'AG…"
         },
         {
           "lyrics": "Magar jee nahin sakte",
-          "indian": "Ni..Dha…Pa..Ma.Ga..Ma.Pa..Ma..Ga..Re..",
+          "indian": "Ni..Dha…Pa..ma.Ga..ma.Pa..ma..Ga..Re..",
           "western": "B..A…G..F.E..F.G..F..E..D.."
         },
         {
           "lyrics": "",
-          "indian": "Ni..Dha…Pa..Ga.Ga..Ma.Pa..Ga..Ma..Re..",
+          "indian": "Ni..Dha…Pa..Ga.Ga..ma.Pa..Ga..ma..Re..",
           "western": "B..A…G..E.E..F.G..E..F..D.."
         },
         {
@@ -39,7 +39,7 @@
         },
         {
           "lyrics": "Hamein tum se pyar",
-          "indian": "Ga..Ma…Pa..Pa..Dha…",
+          "indian": "Ga..ma…Pa..Pa..Dha…",
           "western": "E..F…G..G..A…"
         },
         {
@@ -69,12 +69,12 @@
         },
         {
           "lyrics": "Baras ke samaan",
-          "indian": "Pa..Sa'…Pa…Sa'..Dha…Pa..Ma.Pa.Ga.",
+          "indian": "Pa..Sa'…Pa…Sa'..Dha…Pa..ma.Pa.Ga.",
           "western": "G..C'…G…C'..A…G..F.G.E."
         },
         {
           "lyrics": "Hamein tum se pyar kitna",
-          "indian": "Ga..Ma…Pa..Pa..Dha…Dha..Dha..Dha..Dha..",
+          "indian": "Ga..ma…Pa..Pa..Dha…Dha..Dha..Dha..Dha..",
           "western": "E..F…G..G..A…A..A..A..A.."
         }
       ]

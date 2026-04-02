@@ -15,22 +15,22 @@
       "lines": [
         {
           "lyrics": "Ye dil deewana",
-          "indian": "Ma..Pa.. Ga..Ma..Pa..",
+          "indian": "ma..Pa.. Ga..ma..Pa..",
           "western": "F..G.. E..F..G.."
         },
         {
           "lyrics": "Deewana hai ye dil",
-          "indian": "Ga..Ma..Pa... Dha.Pa.Dha... Ga..Ma..Pa..",
+          "indian": "Ga..ma..Pa... Dha.Pa.Dha... Ga..ma..Pa..",
           "western": "E..F..G... A.G.A... E..F..G.."
         },
         {
           "lyrics": "Deewane ne mujhko bhi",
-          "indian": "Ma.Ga..Ma..Pa.. Ga..Ma..Pa..",
+          "indian": "ma.Ga..ma..Pa.. Ga..ma..Pa..",
           "western": "F.E..F..G.. E..F..G.."
         },
         {
           "lyrics": "Ah kar daala deewana",
-          "indian": "Ga..Ma..Pa... Dha.Pa.Dha... Ga..Ma..Pa..",
+          "indian": "Ga..ma..Pa... Dha.Pa.Dha... Ga..ma..Pa..",
           "western": "E..F..G... A.G.A... E..F..G.."
         }
       ]
@@ -55,27 +55,27 @@
         },
         {
           "lyrics": "Maine dil se usay nikaala",
-          "indian": "Ma..Pa..Dha..Dha..Dha.Dha..Dha..Ni..Dha..",
+          "indian": "ma..Pa..Dha..Dha..Dha.Dha..Dha..Ni..Dha..",
           "western": "F..G..A..A..A.A..A..B..A.."
         },
         {
           "lyrics": "Jo na karna tha kar daala",
-          "indian": "Ma..Pa..Dha..Dha..Dha..Dha..Ni..Dha..",
+          "indian": "ma..Pa..Dha..Dha..Dha..Dha..Ni..Dha..",
           "western": "F..G..A..A..A..A..B..A.."
         },
         {
           "lyrics": "Phir phi yaad usi ko karta hai ye dil",
-          "indian": "Ma..Pa..Dha.. Dha.Dha..Dha..Ni..Dha..Pa..Ma..Pa..",
+          "indian": "ma..Pa..Dha.. Dha.Dha..Dha..Ni..Dha..Pa..ma..Pa..",
           "western": "F..G..A.. A.A..A..B..A..G..F..G.."
         },
         {
           "lyrics": "Ye dil deewana",
-          "indian": "Ma..Pa.. Ga..Ma..Pa..",
+          "indian": "ma..Pa.. Ga..ma..Pa..",
           "western": "F..G.. E..F..G.."
         },
         {
           "lyrics": "Deewana hai ye dil",
-          "indian": "Ga..Ma..Pa... Dha.Pa.Dha... Ga..Ma..Pa..",
+          "indian": "Ga..ma..Pa... Dha.Pa.Dha... Ga..ma..Pa..",
           "western": "E..F..G... A.G.A... E..F..G.."
         }
       ]
@@ -90,7 +90,7 @@
         },
         {
           "lyrics": "Mujhko gila bhi hai kya",
-          "indian": "Pa.Dha..Pa.Dha..Pa.Ma.Ga... Ma...Ma..Pa...",
+          "indian": "Pa.Dha..Pa.Dha..Pa.ma.Ga... ma...ma..Pa...",
           "western": "G.A..G.A..G.F.E... F...F..G..."
         },
         {
@@ -100,7 +100,7 @@
         },
         {
           "lyrics": "Dil ne kiya bhi hai kya",
-          "indian": "Pa.Dha..Pa.Dha..Pa.Ma.Ga... Ma...Ma..Pa...",
+          "indian": "Pa.Dha..Pa.Dha..Pa.ma.Ga... ma...ma..Pa...",
           "western": "G.A..G.A..G.F.E... F...F..G..."
         }
       ]

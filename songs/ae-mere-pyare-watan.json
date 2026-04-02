@@ -13,17 +13,17 @@
       "lines": [
         {
           "lyrics": "Aye mere pyaare watan",
-          "indian": "S…S..S…S…G..R..G..m…G..R..",
+          "indian": "Sa…Sa..Sa…Sa…Ga..Re..Ga..ma…Ga..Re..",
           "western": "C…C..C…C…E..D..E..F…E..D.."
         },
         {
           "lyrics": "Aye mere bichhade chaman",
-          "indian": "R…G..R…S..S..G..R..G..m…G..R..",
+          "indian": "Re…Ga..Re…Sa..Sa..Ga..Re..Ga..ma…Ga..Re..",
           "western": "D…E..D…C..C..E..D..E..F…E..D.."
         },
         {
           "lyrics": "Tujh pe dil qurabaan",
-          "indian": "R..R..m..G…R..S..S..",
+          "indian": "Re..Re..ma..Ga…Re..Sa..Sa..",
           "western": "D..D..F..E…D..C..C.."
         }
       ]
@@ -33,17 +33,17 @@
       "lines": [
         {
           "lyrics": "Aye mere pyaare watan",
-          "indian": "S…S..S…S…G..R..G..m…G..R..",
+          "indian": "Sa…Sa..Sa…Sa…Ga..Re..Ga..ma…Ga..Re..",
           "western": "C…C..C…C…E..D..E..F…E..D.."
         },
         {
           "lyrics": "Aye mere bichhade chaman",
-          "indian": "R…G..R…S..S..G..R..G..m…G..R..",
+          "indian": "Re…Ga..Re…Sa..Sa..Ga..Re..Ga..ma…Ga..Re..",
           "western": "D…E..D…C..C..E..D..E..F…E..D.."
         },
         {
           "lyrics": "Tujh pe dil qurabaan",
-          "indian": "R..R..m..G…R..S..S..",
+          "indian": "Re..Re..ma..Ga…Re..Sa..Sa..",
           "western": "D..D..F..E…D..C..C.."
         }
       ]
@@ -53,37 +53,37 @@
       "lines": [
         {
           "lyrics": "Tu hi meri aarazu",
-          "indian": "n(k)…n(k)..S…S.. P…m..P..m..G..",
+          "indian": "ni(k)…ni(k)..Sa…Sa.. Pa…ma..Pa..ma..Ga..",
           "western": "B.(k)…B.(k)..C…C.. G…F..G..F..E.."
         },
         {
           "lyrics": "Tu hi meri aabaru",
-          "indian": "G…G..G..R..G.. m…G..m..G..R..",
+          "indian": "Ga…Ga..Ga..Re..Ga.. ma…Ga..ma..Ga..Re..",
           "western": "E…E..E..D..E.. F…E..F..E..D.."
         },
         {
           "lyrics": "Tu hi meri jaan",
-          "indian": "R…G..R…S…S…",
+          "indian": "Re…Ga..Re…Sa…Sa…",
           "western": "D…E..D…C…C…"
         },
         {
           "lyrics": "Aye mere pyaare watan",
-          "indian": "S…S..S…S…G..R..G..m…G..R..",
+          "indian": "Sa…Sa..Sa…Sa…Ga..Re..Ga..ma…Ga..Re..",
           "western": "C…C..C…C…E..D..E..F…E..D.."
         },
         {
           "lyrics": "Tere daaman",
-          "indian": "P…P..P…P..",
+          "indian": "Pa…Pa..Pa…Pa..",
           "western": "G…G..G…G.."
         },
         {
           "lyrics": "Se jo aaye",
-          "indian": "P…D(k)..D(k).S'..N..S'..N..D(k)..P..",
+          "indian": "Pa…Dha(k)..Dha(k).Sa'..Ni..Sa'..Ni..Dha(k)..Pa..",
           "western": "G…Ab..Ab.C'..B..C'..B..Ab..G.."
         },
         {
           "lyrics": "Un havaaon ko salaam",
-          "indian": "P…D(k)..P..m..m…G..R..G..m…",
+          "indian": "Pa…Dha(k)..Pa..ma..ma…Ga..Re..Ga..ma…",
           "western": "G…Ab..G..F..F…E..D..E..F…"
         }
       ]
@@ -93,47 +93,47 @@
       "lines": [
         {
           "lyrics": "Chum lun main",
-          "indian": "P…P..P…P..",
+          "indian": "Pa…Pa..Pa…Pa..",
           "western": "G…G..G…G.."
         },
         {
           "lyrics": "Us zubaan ko",
-          "indian": "P…D(k)..D(k).S'..N..S'..N..D(k)..P..",
+          "indian": "Pa…Dha(k)..Dha(k).Sa'..Ni..Sa'..Ni..Dha(k)..Pa..",
           "western": "G…Ab..Ab.C'..B..C'..B..Ab..G.."
         },
         {
           "lyrics": "Jisape aae teraa naam",
-          "indian": "P..P..D(k)..P..m..m…G..R..G..m…",
+          "indian": "Pa..Pa..Dha(k)..Pa..ma..ma…Ga..Re..Ga..ma…",
           "western": "G..G..Ab..G..F..F…E..D..E..F…"
         },
         {
           "lyrics": "Sabase pyaari subah teri",
-          "indian": "S..S..S..S…S.. G..G..R..m…G..R..",
+          "indian": "Sa..Sa..Sa..Sa…Sa.. Ga..Ga..Re..ma…Ga..Re..",
           "western": "C..C..C..C…C.. E..E..D..F…E..D.."
         },
         {
           "lyrics": "Sabase rangin teri shaam",
-          "indian": "R..R..G..R…S.. G..R..G..m…G..R..",
+          "indian": "Re..Re..Ga..Re…Sa.. Ga..Re..Ga..ma…Ga..Re..",
           "western": "D..D..E..D…C.. E..D..E..F…E..D.."
         },
         {
           "lyrics": "Tujh pe dil qurabaan",
-          "indian": "R..R..m..G…R..S..S…",
+          "indian": "Re..Re..ma..Ga…Re..Sa..Sa…",
           "western": "D..D..F..E…D..C..C…"
         },
         {
           "lyrics": "Tu hi meri aarazu",
-          "indian": "n(k)…n(k)..S…S.. P…m..P..m..G..",
+          "indian": "ni(k)…ni(k)..Sa…Sa.. Pa…ma..Pa..ma..Ga..",
           "western": "B.(k)…B.(k)..C…C.. G…F..G..F..E.."
         },
         {
           "lyrics": "Tu hi meri aabaru",
-          "indian": "G…G..G..R..G.. m…G..m..G..R..",
+          "indian": "Ga…Ga..Ga..Re..Ga.. ma…Ga..ma..Ga..Re..",
           "western": "E…E..E..D..E.. F…E..F..E..D.."
         },
         {
           "lyrics": "Tu hi meri jaan",
-          "indian": "R…G..R…S…S…",
+          "indian": "Re…Ga..Re…Sa…Sa…",
           "western": "D…E..D…C…C…"
         }
       ]

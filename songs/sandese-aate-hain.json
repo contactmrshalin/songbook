@@ -15,12 +15,12 @@
       "lines": [
         {
           "lyrics": "Ooo hoo hoo hoo",
-          "indian": "Ga Ma Dha Pa",
+          "indian": "Ga ma Dha Pa",
           "western": "E F A G"
         },
         {
           "lyrics": "Hoo hoo hoo oohoo ho",
-          "indian": "Ma Ga Re Ga Pa Ma",
+          "indian": "ma Ga Re Ga Pa ma",
           "western": "F E D E G F"
         },
         {
@@ -60,7 +60,7 @@
         },
         {
           "lyrics": "Ke tum bin ye ghar soona, soona hai",
-          "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa Ma Ga",
+          "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa ma Ga",
           "western": "D D D D E E D D E E D G F E"
         }
       ]

@@ -16,12 +16,12 @@
       "lines": [
         {
           "lyrics": "Meri bheegi bheegi si palkon pe reh gaye",
-          "indian": ".Pa .Dha(k) Sa Sa Sa Sa Sa— .Pa .Dha(k) Sa .Dha(k) .Pa .Ma .Ma",
+          "indian": ".Pa .Dha(k) Sa Sa Sa Sa Sa— .Pa .Dha(k) Sa .Dha(k) .Pa .ma .ma",
           "western": ".G .Ab C C C C C— .G .Ab C .Ab .G .F .F"
         },
         {
           "lyrics": "Jaise mere sapne bikhar ke",
-          "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .Ma .Ma .Ma .Pa .Dha(k) .Ni—",
+          "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .ma .ma .ma .Pa .Dha(k) .Ni—",
           "western": ".G .Ab C .Ab .G .F .F .F .G .Ab .B—"
         }
       ]
@@ -31,12 +31,12 @@
       "lines": [
         {
           "lyrics": "Jale man tera bhi kisi ke milan ko",
-          "indian": "Re Sa Ga(k) (Re)— Sa Sa Sa .Pa .Dha(k) .Ni(k) .Dha(k) .Pa .Ma .Ma",
+          "indian": "Re Sa Ga(k) (Re)— Sa Sa Sa .Pa .Dha(k) .Ni(k) .Dha(k) .Pa .ma .ma",
           "western": "D C Eb (D)— C C C .G .Ab .Bb .Ab .G .F .F"
         },
         {
           "lyrics": "Anamika tu bhi tarse",
-          "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .Ma— .Ma .Ma .Pa .Dha(k) .Pa—",
+          "indian": ".Pa .Dha(k) Sa .Dha(k) .Pa .ma— .ma .ma .Pa .Dha(k) .Pa—",
           "western": ".G .Ab C .Ab .G .F— .F .F .G .Ab .G—"
         }
       ]
@@ -61,7 +61,7 @@
         },
         {
           "lyrics": "Maine hriday se lagaya",
-          "indian": "Sa— Re Ga(k) Ma— Ga(k) Re Sa— Re— Ga(k)—",
+          "indian": "Sa— Re Ga(k) ma— Ga(k) Re Sa— Re— Ga(k)—",
           "western": "C— D Eb F— Eb D C— D— Eb—"
         }
       ]
@@ -71,7 +71,7 @@
       "lines": [
         {
           "lyrics": "Par mere pyaar ke badle mein toone",
-          "indian": "Pa Re Re Re Re— Re Re Ma Re Re Sa Sa— Sa—",
+          "indian": "Pa Re Re Re Re— Re Re ma Re Re Sa Sa— Sa—",
           "western": "G D D D D— D D F D D C C— C—"
         },
         {

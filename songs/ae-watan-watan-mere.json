@@ -17,22 +17,22 @@
       "lines": [
         {
           "lyrics": "Ae watan, watan mere, aabaad rahe tu",
-          "indian": "Sa Re Ga | Ga Ga | Ga Ga Ga | Ga Ma | Dha | Dha Ni Dha | Pa",
+          "indian": "Sa Re Ga | Ga Ga | Ga Ga Ga | Ga ma | Dha | Dha Ni Dha | Pa",
           "western": "C D E | E E | E E E | E F | A | A B A | G"
         },
         {
           "lyrics": "Main jahan rahoon, jahaan main yaad rahe tu",
-          "indian": "Ga Pa Sa' Ni | Dha Pa | Ma: Ma: Ma: | Sa, Ma: Ma: | Pa | Dha Ni Dha | Pa",
+          "indian": "Ga Pa Sa' Ni | Dha Pa | ma: ma: ma: | Sa, ma: ma: | Pa | Dha Ni Dha | Pa",
           "western": "E G C' B | A G | F: F: F: | C, F: F: | G | A B A | G"
         },
         {
           "lyrics": "Main jahan rahoon, jahaan main yaad rahe tu",
-          "indian": "Ga Pa Sa' Ni | Dha Pa | Ma: Ma: Ma: | Re Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa",
+          "indian": "Ga Pa Sa' Ni | Dha Pa | ma: ma: ma: | Re ma: ma: | Pa | Dha Ni Dha | Ga ma Ga | Re Ga Re Sa",
           "western": "E G C' B | A G | F: F: F: | D F: F: | G | A B A | E F E | D E D C"
         },
         {
           "lyrics": "Ae watan, mere watan (2x)",
-          "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)",
+          "indian": "Sa Re Ga | Ga ma Dha Pa (2x)",
           "western": "C D E | E F A G (2x)"
         }
       ]
@@ -42,12 +42,12 @@
       "lines": [
         {
           "lyrics": "Tu hi meri manzil hai, pehchan tujhi se",
-          "indian": "Ga Ma Dha | Dha Dha | Dha Pa | Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha",
+          "indian": "Ga ma Dha | Dha Dha | Dha Pa | Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha",
           "western": "E F A | A A | A G | A A | A G | B B B | B A | B A G A"
         },
         {
           "lyrics": "Pahunchu main jahaan bhi meri buniyad rahe tu",
-          "indian": "Ga Ma | Ni Ni Ni | Ni Dha | Ni Ni | Ni | Ni Sa' Ni | Ni Dha | Re' Re' | Sa'",
+          "indian": "Ga ma | Ni Ni Ni | Ni Dha | Ni Ni | Ni | Ni Sa' Ni | Ni Dha | Re' Re' | Sa'",
           "western": "E F | B B B | B A | B B | B | B C' B | B A | D' D' | C'"
         },
         {
@@ -57,12 +57,12 @@
         },
         {
           "lyrics": "(music phrase to chorus)",
-          "indian": "Ga Ma | Pa Sa' Ni | Dha Pa Dha Pa | Ma: Ma: Ma: Ma: Re | Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa",
+          "indian": "Ga ma | Pa Sa' Ni | Dha Pa Dha Pa | ma: ma: ma: ma: Re | ma: ma: | Pa | Dha Ni Dha | Ga ma Ga | Re Ga Re Sa",
           "western": "E F | G C' B | A G A G | F: F: F: F: D | F: F: | G | A B A | E F E | D E D C"
         },
         {
           "lyrics": "Ae watan, mere watan (2x)",
-          "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)",
+          "indian": "Sa Re Ga | Ga ma Dha Pa (2x)",
           "western": "C D E | E F A G (2x)"
         }
       ]
@@ -72,12 +72,12 @@
       "lines": [
         {
           "lyrics": "Tujhpe koi gham ki aanch aane nahin doon",
-          "indian": "Ga Ga Ga | Ma Dha Pa | Dha Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha",
+          "indian": "Ga Ga Ga | ma Dha Pa | Dha Dha Dha | Dha Pa | Ni Ni Ni | Ni Dha | Ni Dha Pa Dha",
           "western": "E E E | F A G | A A A | A G | B B B | B A | B A G A"
         },
         {
           "lyrics": "Kurbaan meri jaan tujhpe shaad rahe tu",
-          "indian": "Ga Ga Ma | Ni Dha | Ni Ni Ni | Ni Dha | Ni Ni | Re' | Re' Ga' | Re' | Sa'",
+          "indian": "Ga Ga ma | Ni Dha | Ni Ni Ni | Ni Dha | Ni Ni | Re' | Re' Ga' | Re' | Sa'",
           "western": "E E F | B A | B B B | B A | B B | D' | D' E' | D' | C'"
         },
         {
@@ -87,12 +87,12 @@
         },
         {
           "lyrics": "(music phrase to chorus)",
-          "indian": "Ga Ma | Pa Sa' Ni | Dha Pa Dha Pa | Ma: Ma: Ma: Ma: Re | Ma: Ma: | Pa | Dha Ni Dha | Ga Ma Ga | Re Ga Re Sa",
+          "indian": "Ga ma | Pa Sa' Ni | Dha Pa Dha Pa | ma: ma: ma: ma: Re | ma: ma: | Pa | Dha Ni Dha | Ga ma Ga | Re Ga Re Sa",
           "western": "E F | G C' B | A G A G | F: F: F: F: D | F: F: | G | A B A | E F E | D E D C"
         },
         {
           "lyrics": "Ae watan, mere watan (2x)",
-          "indian": "Sa Re Ga | Ga Ma Dha Pa (2x)",
+          "indian": "Sa Re Ga | Ga ma Dha Pa (2x)",
           "western": "C D E | E F A G (2x)"
         }
       ]
@@ -107,12 +107,12 @@
         },
         {
           "lyrics": "Zindagi shamma ki soorat ho khudaya meri (Ae watan, mere watan)",
-          "indian": "Pa Pa Sa' Ni | Re' Dha Pa Pa | Pa Ma: | Dha Pa Ma",
+          "indian": "Pa Pa Sa' Ni | Re' Dha Pa Pa | Pa ma: | Dha Pa ma",
           "western": "G G C' B | D' A G G | G F: | A G F"
         },
         {
           "lyrics": "(ending phrase)",
-          "indian": "Ma Ga Ga | Pa Ma | Re Sa Re | Sa Re Ga | Ga Ma Dha Pa | Sa Re Ga Pa Re Ga Re Sa",
+          "indian": "ma Ga Ga | Pa ma | Re Sa Re | Sa Re Ga | Ga ma Dha Pa | Sa Re Ga Pa Re Ga Re Sa",
           "western": "F E E | G F | D C D | C D E | E F A G | C D E G D E D C"
         }
       ]

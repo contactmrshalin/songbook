@@ -23,7 +23,7 @@
         },
         {
           "lyrics": "O rang barse bheege chunar wali",
-          "indian": "Ma..Ma..Ma..Ga..Ma.. Ga(k)..Re..Sa..Sa..Re..Ga(k)..",
+          "indian": "ma..ma..ma..Ga..ma.. Ga(k)..Re..Sa..Sa..Re..Ga(k)..",
           "western": "F..F..F..E..F.. Eb..D..C..C..D..Eb.."
         },
         {
@@ -38,17 +38,17 @@
       "lines": [
         {
           "lyrics": "Sone ki thali mein",
-          "indian": "Sa..Ga..Ma..Pa..Pa..Pa..",
+          "indian": "Sa..Ga..ma..Pa..Pa..Pa..",
           "western": "C..E..F..G..G..G.."
         },
         {
           "lyrics": "Jona parosa",
-          "indian": "Ga..Ma..Ma..Ga(k)..Sa..",
+          "indian": "Ga..ma..ma..Ga(k)..Sa..",
           "western": "E..F..F..Eb..C.."
         },
         {
           "lyrics": "Haan sone ki thali mein",
-          "indian": "Sa..Sa..Ga..Ma..Pa..Pa..Pa..",
+          "indian": "Sa..Sa..Ga..ma..Pa..Pa..Pa..",
           "western": "C..C..E..F..G..G..G.."
         },
         {

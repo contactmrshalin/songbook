@@ -12,7 +12,7 @@
       "lines": [
         {
           "lyrics": "Jana Gana Mana Adhinayak jaya hee",
-          "indian": "Sa.Re.Ga.Ga.Ga.Ga.Ga.Ga.Ga..Ga.Ga.Re.Ga.Ma…",
+          "indian": "Sa.Re.Ga.Ga.Ga.Ga.Ga.Ga.Ga..Ga.Ga.Re.Ga.ma…",
           "western": "C.D.E.E.E.E.E.E.E..E.E.D.E.F…"
         },
         {
@@ -27,17 +27,17 @@
       "lines": [
         {
           "lyrics": "Punjab- Singhu-Gujrat-Marathaa",
-          "indian": "Sa..Pa..Pa.Pa..Pa.Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa..",
+          "indian": "Sa..Pa..Pa.Pa..Pa.Pa.Pa.Pa..Pa.Pa.ma.Dha.Pa..",
           "western": "C..G..G.G..G.G.G.G..G.G.F.A.G.."
         },
         {
           "lyrics": "Dravida utkhal bangaa",
-          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…",
+          "indian": "ma..ma.ma..Ga..Ga.Ga..Re.ma.Ga…",
           "western": "F..F.F..E..E.E..D.F.E…"
         },
         {
           "lyrics": "Vindhya-Himachal Yamuna-Gangaa",
-          "indian": "Ga..Ga.Ga..Ga..Ga.Re..Pa.Pa.Pa..Ma.Ma..",
+          "indian": "Ga..Ga.Ga..Ga..Ga.Re..Pa.Pa.Pa..ma.ma..",
           "western": "E..E.E..E..E.D..G.G.G..F.F.."
         },
         {
@@ -52,12 +52,12 @@
       "lines": [
         {
           "lyrics": "Tava Subha Naame Jagee",
-          "indian": "Sa.Re.Ga.Ga..Ga..Ga..Re.Ga.Ma..",
+          "indian": "Sa.Re.Ga.Ga..Ga..Ga..Re.Ga.ma..",
           "western": "C.D.E.E..E..E..D.E.F.."
         },
         {
           "lyrics": "Tava Subha Ashisa Magee",
-          "indian": "Ga.Ma.Pa.Pa..Ma..Ma.Ga..Re.Ma.Ga",
+          "indian": "Ga.ma.Pa.Pa..ma..ma.Ga..Re.ma.Ga",
           "western": "E.F.G.G..F..F.E..D.F.E"
         },
         {
@@ -72,12 +72,12 @@
       "lines": [
         {
           "lyrics": "Jana-Gana-Magal Dayaka, Jaya Hee",
-          "indian": "Pa.Pa.Pa.Pa.Pa..Pa.Pa.Pa..Pa.Pa.Ma.Dha.Pa..",
+          "indian": "Pa.Pa.Pa.Pa.Pa..Pa.Pa.Pa..Pa.Pa.ma.Dha.Pa..",
           "western": "G.G.G.G.G..G.G.G..G.G.F.A.G.."
         },
         {
           "lyrics": "Bharata-Bhagya-Vidhataa..",
-          "indian": "Ma..Ma.Ma..Ga..Ga.Ga..Re.Ma.Ga…",
+          "indian": "ma..ma.ma..Ga..Ga.Ga..Re.ma.Ga…",
           "western": "F..F.F..E..E.E..D.F.E…"
         },
         {
@@ -87,7 +87,7 @@
         },
         {
           "lyrics": "Jaya, Jaya , Jaya Haii",
-          "indian": "Sa.Sa.Re.Re.Ga.Ga.Re.Ga.Ma…",
+          "indian": "Sa.Sa.Re.Re.Ga.Ga.Re.Ga.ma…",
           "western": "C.C.D.D.E.E.D.E.F…"
         }
       ]
