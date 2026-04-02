@@ -1,130 +1,124 @@
 {
   "id": "ek-ajnabee-haseena-se",
   "title": "Ek Ajnabee Haseena Se",
+  "export": true,
   "info": [
-    "Movie: Ajnabee",
-    "Scale (flute): F# (bass/middle)",
-    "Sargam / Harmonium / Flute notes"
+    "Film/Artist: Ajnabee",
+    "Scale: F# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/ek-ajnabee-haseena-se-ajnabee-sargam-and-flute-notes.html"
   ],
-  "thumbnail": "images/ek-ajnabee-haseena-se.png",
-  "background": "images/ek-ajnabee-haseena-se.png",
-  "background_mode": "cover",
+  "thumbnail": "",
+  "background": "",
   "sections": [
     {
-      "name": "Mukhda",
+      "name": "STHAYI",
       "lines": [
         {
           "lyrics": "Hmhahmha hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
-          "western": "G..E..D..E.. E..D..E..F.."
+          "indian": "p G R G G R G m",
+          "western": "G. E D E E D E F"
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
-          "western": "F..F..E..D.. G..E..D..C.."
+          "indian": "m m G R p G R S",
+          "western": "F F E D G. E D C"
         },
         {
           "lyrics": "Ek ajnabii hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
-          "western": "G..E..D..E.. E..D..E..F.."
+          "indian": "p G R G G R G m",
+          "western": "G. E D E E D E F"
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
-          "western": "F..F..E..D.. G..E..D..C.."
+          "indian": "m m G R p G R S",
+          "western": "F F E D G. E D C"
         },
         {
           "lyrics": "Phir kyaa huaa yeh naa puchho",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
-          "western": "G..E..D..E.. E..D..E..F.."
+          "indian": "p G R G G R G m",
+          "western": "G. E D E E D E F"
         },
         {
           "lyrics": "Kuch aisi baat hoo gayi",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
-          "western": "F..F..E..D.. G..E..D..C.."
+          "indian": "m m G R p G R S",
+          "western": "F F E D G. E D C"
         },
         {
           "lyrics": "Ek ajnabii hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
-          "western": "G..E..D..E.. E..D..E..F.."
+          "indian": "p G R G G R G m",
+          "western": "G. E D E E D E F"
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
-          "western": "F..F..E..D.. G..E..D..C.."
-        }
-      ]
-    },
-    {
-      "name": "Antara",
-      "lines": [
-        {
-          "lyrics": "Wo achaanak aa gayi",
-          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga..",
-          "western": "A...G..F...G...E...E..E.."
-        },
-        {
-          "lyrics": "Yun nazar kee saamnee",
-          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re..",
-          "western": "A...G..F...G...D...D..D.."
-        },
-        {
-          "lyrics": "Jaise nikal aaya",
-          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa..",
-          "western": "D..F..F..F..G..A..G.."
-        },
-        {
-          "lyrics": "Ghataa se chaand",
-          "indian": "Ma...Ga..Re...Ma..Ga..Ga..",
-          "western": "F...E..D...F..E..E.."
+          "indian": "m m G R p G R S",
+          "western": "F F E D G. E D C"
         },
         {
           "lyrics": "Wo achaanak aa gayi",
-          "indian": "Dha...Pa..Ma...Pa...Ga...Ga..Ga..",
-          "western": "A...G..F...G...E...E..E.."
+          "indian": "D: P m: P: G: G G",
+          "western": "A: G F: G: E: E E"
         },
         {
           "lyrics": "Yun nazar kee saamnee",
-          "indian": "Dha...Pa..Ma...Pa...Re...Re..Re..",
-          "western": "A...G..F...G...D...D..D.."
+          "indian": "D: P m: P: R: R R",
+          "western": "A: G F: G: D: D D"
         },
         {
           "lyrics": "Jaise nikal aaya",
-          "indian": "Re..Ma..Ma..Ma..Pa..Dha..Pa..",
-          "western": "D..F..F..F..G..A..G.."
+          "indian": "R M M M P D P",
+          "western": "D F# F# F# G A G"
         },
         {
           "lyrics": "Ghataa se chaand",
-          "indian": "Ma...Ga..Re...Ma..Ga..Ga..",
-          "western": "F...E..D...F..E..E.."
+          "indian": "M: G R: M G G",
+          "western": "F#: E D: F# E E"
+        },
+        {
+          "lyrics": "Wo achaanak aa gayi",
+          "indian": "D: P m: P: G: G G",
+          "western": "A: G F: G: E: E E"
+        },
+        {
+          "lyrics": "Yun nazar kee saamnee",
+          "indian": "D: P m: P: R: R R",
+          "western": "A: G F: G: D: D D"
+        },
+        {
+          "lyrics": "Jaise nikal aaya",
+          "indian": "R M M M P D P",
+          "western": "D F# F# F# G A G"
+        },
+        {
+          "lyrics": "Ghataa se chaand",
+          "indian": "M: G R: M G G",
+          "western": "F#: E D: F# E E"
         },
         {
           "lyrics": "Chehree pe zulfen",
-          "indian": "Ma..Ga..Ma..Ga..Re...Re..",
-          "western": "F..E..F..E..D...D.."
+          "indian": "m G m G R: R",
+          "western": "F E F E D: D"
         },
         {
           "lyrics": "Bikhri hui thii",
-          "indian": "Ga..Re..Ga..Re..Sa...Sa.",
-          "western": "E..D..E..D..C...C."
+          "indian": "G R G R S: S.",
+          "western": "E D E D C: C."
         },
         {
           "lyrics": "Din mein raat ho gayi",
-          "indian": "Ma...Ga..Re...Ni(k)..Ni(k)..Sa..",
-          "western": "F...E..D...Bb..Bb..C.."
+          "indian": "m: G R: n n S",
+          "western": "F: E D: B. B. C"
         },
         {
           "lyrics": "Ek ajnabii hasinaa see",
-          "indian": "Pa..Ga..Re..Ga.. Ga..Re..Ga..Ma..",
-          "western": "G..E..D..E.. E..D..E..F.."
+          "indian": "p G R G G R G m",
+          "western": "G. E D E E D E F"
         },
         {
           "lyrics": "Yun mulakaat hoo gayii",
-          "indian": "Ma..Ma..Ga..Re.. Pa..Ga..Re..Sa..",
-          "western": "F..F..E..D.. G..E..D..C.."
+          "indian": "m m G R p G R S",
+          "western": "F F E D G. E D C"
         }
       ]
     }
-  ],
-  "export": true
+  ]
 }
