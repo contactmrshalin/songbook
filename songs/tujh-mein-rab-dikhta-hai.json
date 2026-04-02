@@ -1,0 +1,98 @@
+{
+  "id": "tujh-mein-rab-dikhta-hai",
+  "title": "Tujh Mein Rab Dikhta Hai Sargam, Harmonium And Flute Notes",
+  "export": true,
+  "info": [
+    "Scale: G# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/tujh-mein-rab-dikhta-hai-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tuu hii to jannat meerri",
+          "indian": "D D N P D S' N",
+          "western": "A A B G A C' B"
+        },
+        {
+          "lyrics": "Tuu hii hera junonn",
+          "indian": "N N S' S' D D",
+          "western": "B B C' C' A A"
+        },
+        {
+          "lyrics": "Tuu hii toh mannat meeri",
+          "indian": "D D N P D S' N",
+          "western": "A A B G A C' B"
+        },
+        {
+          "lyrics": "Tuu hii ruhh ka sukoon",
+          "indian": "N N S' G' G' D D",
+          "western": "B B C' E' E' A A"
+        },
+        {
+          "lyrics": "Tuu hii ankhiyoo ki thandak",
+          "indian": "G' m' P' P' m' G' R' G'",
+          "western": "E' F' G' G' F' E' D' E'"
+        },
+        {
+          "lyrics": "Tuu hii dil kii hai dastak",
+          "indian": "G' m' P' P' m' G' R' G'",
+          "western": "E' F' G' G' F' E' D' E'"
+        },
+        {
+          "lyrics": "Aurr kuch naa janoon main",
+          "indian": "G' m' R' R' R' G' S' S'",
+          "western": "E' F' D' D' D' E' C' C'"
+        },
+        {
+          "lyrics": "Bass itnaa hi janoon main",
+          "indian": "S' N R' S' N R' S' N S' N D P",
+          "western": "C' B D' C' B D' C' B C' B A G"
+        },
+        {
+          "lyrics": "Tujhh main rabb dikhtaa haii",
+          "indian": "G S': R' S' N N D P",
+          "western": "E C': D' C' B B A G"
+        },
+        {
+          "lyrics": "Yaaraa main kyaa karoon",
+          "indian": "m S': S' R' S' R' N N D",
+          "western": "F C': C' D' C' D' B B A"
+        },
+        {
+          "lyrics": "Tujhh main rabb dikhtaa haii",
+          "indian": "G S': R' S' N N D P",
+          "western": "E C': D' C' B B A G"
+        },
+        {
+          "lyrics": "Yaaraa main kyaa karoon",
+          "indian": "m S': S' R' S' R' N N D",
+          "western": "F C': C' D' C' D' B B A"
+        },
+        {
+          "lyrics": "Sajdee saee jhuktaa haii",
+          "indian": "D G': m' G' R' R' S' N",
+          "western": "A E': F' E' D' D' C' B"
+        },
+        {
+          "lyrics": "Yaaraa main kyaa karoon",
+          "indian": "D S': S' R' S' R' N N D",
+          "western": "A C': C' D' C' D' B B A"
+        },
+        {
+          "lyrics": "Tujhh main rabb dikhtaa haii",
+          "indian": "G S': R' S' N N D P",
+          "western": "E C': D' C' B B A G"
+        },
+        {
+          "lyrics": "Yaaraa main kyaa karoon",
+          "indian": "m S': S' R' S' R' N N D",
+          "western": "F C': C' D' C' D' B B A"
+        }
+      ]
+    }
+  ]
+}

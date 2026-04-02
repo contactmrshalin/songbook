@@ -1,0 +1,99 @@
+{
+  "id": "kalank",
+  "title": "Kalank",
+  "export": true,
+  "info": [
+    "Film/Artist: Title Track",
+    "Scale: G# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/kalank-title-track-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Hawaaon main bahenge",
+          "indian": "M P D P M D: n:",
+          "western": "F# G A G F# A: B.:"
+        },
+        {
+          "lyrics": "Ghataon main rahenge",
+          "indian": "R G m R G m: n(k):",
+          "western": "D E F D E F: B.(k):"
+        },
+        {
+          "lyrics": "Tu barkha merii",
+          "indian": "n(k) S R S n(k) M:",
+          "western": "B.(k) C D C B.(k) F#:"
+        },
+        {
+          "lyrics": "Main tera baadal piyaa",
+          "indian": "G: R m m G R R:",
+          "western": "E: D F F E D D:"
+        },
+        {
+          "lyrics": "Joo tere naa huve toh",
+          "indian": "M P D P M D: n:",
+          "western": "F# G A G F# A: B.:"
+        },
+        {
+          "lyrics": "Kisi kaa naa rahenge",
+          "indian": "R G m R G m: n(k):",
+          "western": "D E F D E F: B.(k):"
+        },
+        {
+          "lyrics": "Deewani tu meri",
+          "indian": "n(k) S R S n(k) M:",
+          "western": "B.(k) C D C B.(k) F#:"
+        },
+        {
+          "lyrics": "Main tera paagal piyaa",
+          "indian": "G: R m m G R R",
+          "western": "E: D F F E D D"
+        },
+        {
+          "lyrics": "Hazaaron main kisi koo",
+          "indian": "M P D P M D: N:",
+          "western": "F# G A G F# A: B:"
+        },
+        {
+          "lyrics": "Taqdeer aisi",
+          "indian": "D M G R m: M",
+          "western": "A F# E D F: F#"
+        },
+        {
+          "lyrics": "Mili hai ik ranjha",
+          "indian": "M P D P M D: N:",
+          "western": "F# G A G F# A: B:"
+        },
+        {
+          "lyrics": "Aur heer jaisi",
+          "indian": "D M G R m: M:",
+          "western": "A F# E D F: F#:"
+        },
+        {
+          "lyrics": "Naa jaane ye zamaana",
+          "indian": "M P D P M D: n:",
+          "western": "F# G A G F# A: B.:"
+        },
+        {
+          "lyrics": "Kyun chaahe re mitaana",
+          "indian": "R G m R G m: n(k):",
+          "western": "D E F D E F: B.(k):"
+        },
+        {
+          "lyrics": "Kalank nahi ishq hai kaajal piya",
+          "indian": "n(k) S R S n(k) M G R m m G R R:",
+          "western": "B.(k) C D C B.(k) F# E D F F E D D:"
+        },
+        {
+          "lyrics": "Kalank nahi ishq hai kaajal piya",
+          "indian": "n(k) S R S n(k) M G R m m G R R:",
+          "western": "B.(k) C D C B.(k) F# E D F F E D D:"
+        }
+      ]
+    }
+  ]
+}
