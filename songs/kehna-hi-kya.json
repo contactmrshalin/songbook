@@ -1,0 +1,99 @@
+{
+  "id": "kehna-hi-kya",
+  "title": "Kehna Hi Kya",
+  "export": true,
+  "info": [
+    "Film/Artist: Bombay",
+    "Scale: C BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/kehna-hi-kya-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "",
+  "background": "",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kehna hi kya ye nein ik anjaan se jo mile",
+          "indian": "D N G' R': S': N R' N D D(k) D(k) D N D D(k) m G G:",
+          "western": "A B E' D': C': B D' B A Ab Ab A B A Ab F E E:"
+        },
+        {
+          "lyrics": "Chalne lagi mohabbat ke jaise ye silsile",
+          "indian": "D N G' R': S': N R' N D D(k) D(k) D N D D(k) m G G:",
+          "western": "A B E' D': C': B D' B A Ab Ab A B A Ab F E E:"
+        },
+        {
+          "lyrics": "Armaan naye aise dil mein khile",
+          "indian": "m m m N D D(k) m G R S R G",
+          "western": "F F F B A Ab F E D C D E"
+        },
+        {
+          "lyrics": "Jinko kabhi main na jaanoon",
+          "indian": "m m R n R m m: G G:",
+          "western": "F F D B. D F F: E E:"
+        },
+        {
+          "lyrics": "Vo humse hum unse kabhi na mile",
+          "indian": "m m m N D D(k) m G R S R G",
+          "western": "F F F B A Ab F E D C D E"
+        },
+        {
+          "lyrics": "Kaise mile dil na jaanoon",
+          "indian": "m m R n R m m: G G:",
+          "western": "F F D B. D F F: E E:"
+        },
+        {
+          "lyrics": "Ab kya karein kya naam lein",
+          "indian": "G m P P P: m P D D D:",
+          "western": "E F G G G: F G A A A:"
+        },
+        {
+          "lyrics": "Kaise unhein main pukaroon",
+          "indian": "P D N S' G' R' R': G' R'",
+          "western": "G A B C' E' D' D': E' D'"
+        },
+        {
+          "lyrics": "Kehna hi kya ye nein ik anjaan se jo mile",
+          "indian": "D N G' R': S': N R' N D D(k) D(k) D N D D(k) m G G:",
+          "western": "A B E' D': C': B D' B A Ab Ab A B A Ab F E E:"
+        },
+        {
+          "lyrics": "Chalne lagi mohabbat ke jaise ye silsile",
+          "indian": "D N G' R': S': N R' N D D(k) D(k) D N D D(k) m G G:",
+          "western": "A B E' D': C': B D' B A Ab Ab A B A Ab F E E:"
+        },
+        {
+          "lyrics": "Armaan naye aise dil mein khile",
+          "indian": "m m m N D D(k) m G R S R G",
+          "western": "F F F B A Ab F E D C D E"
+        },
+        {
+          "lyrics": "Jinko kabhi main na jaanoon",
+          "indian": "m m R n R m m: G G:",
+          "western": "F F D B. D F F: E E:"
+        },
+        {
+          "lyrics": "Vo humse hum unse kabhi na mile",
+          "indian": "m m m N D D(k) m G R S R G",
+          "western": "F F F B A Ab F E D C D E"
+        },
+        {
+          "lyrics": "Kaise mile dil na jaanoon",
+          "indian": "m m R n R m m: G G:",
+          "western": "F F D B. D F F: E E:"
+        },
+        {
+          "lyrics": "Ab kya karein kya naam lein",
+          "indian": "G m P P P: m P D D D:",
+          "western": "E F G G G: F G A A A:"
+        },
+        {
+          "lyrics": "Kaise unhein main pukaroon",
+          "indian": "P D N S' G' R' R': G' R'",
+          "western": "G A B C' E' D' D': E' D'"
+        }
+      ]
+    }
+  ]
+}
