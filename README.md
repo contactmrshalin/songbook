@@ -19,27 +19,39 @@ source of truth.
 ```
 songbook_pipeline_project/
 ├── book.json                    # Book title, metadata, song ordering
+├── notation_mapping.json        # Indian ↔ Western note mappings (single source of truth)
 ├── songs/                       # One JSON file per song
 │   ├── lag-ja-gale.json
 │   ├── pehla_nasha.json
 │   └── ...
-├── notation_mapping.json        # Indian ↔ Western note mappings
 ├── images/                      # Thumbnails, backgrounds, cover art
-│   └── cover.png
 ├── fonts/                       # Embedded fonts (DejaVu, Symbola, Noto)
-├── build_songbook.py            # Main pipeline: PDF / EPUB / MusicXML
-├── load_songs.py                # Shared loader used by all scripts
-├── convert_docx_to_json.py      # DOCX → JSON auto-extractor
-├── normalize_indian_notation.py # Standardise sargam display strings
-├── minimize_songs_json.py       # Strip derived fields (western/tokens)
-├── gui_songbook.py              # Drag-and-drop GUI
-├── split_songs_json.py          # One-time migration from monolithic songs.json
+├── scripts/                     # All pipeline & utility scripts
+│   ├── build_songbook.py        #   Main pipeline: PDF / EPUB / MusicXML
+│   ├── load_songs.py            #   Shared song-loader used by all scripts
+│   ├── convert_docx_to_json.py  #   DOCX → JSON auto-extractor
+│   ├── scrape_notation_url.py   #   Web scraper for notation sites
+│   ├── normalize_indian_notation.py  # Standardise sargam display strings
+│   ├── convert_notation.py      #   Letter→word notation converter
+│   ├── add_western.py           #   Indian→Western note converter
+│   ├── minimize_songs_json.py   #   Strip derived fields (western/tokens)
+│   └── gui_songbook.py          #   Drag-and-drop GUI
+├── tests/                       # Test scripts
+│   └── test_add_western.py
+├── docs/                        # Reference documentation
+│   ├── prompt                   #   AI prompt template for notation conversion
+│   └── octave_notes             #   Octave reference chart
+├── misc/                        # Helper / one-off scripts
+│   └── generate_placeholder_images.py
 ├── site/                        # Hugo website source
 │   ├── hugo.toml
 │   ├── layouts/
 │   ├── assets/
+│   ├── content/notation-guide/  #   How-to-read-notation page
 │   └── scripts/generate_content.py
+├── songbook-player/             # Node.js player app (Docker)
 ├── output/                      # Generated files land here
+├── setup.sh                     # One-time environment setup
 └── .github/workflows/
     └── deploy-gh-pages.yml      # CI/CD: auto-deploy on push to main
 ```
@@ -156,11 +168,18 @@ that are **not** listed in `song_order` are appended at the end alphabetically.
 ### Add a song from a Word file
 
 ```bash
-python convert_docx_to_json.py my_song.docx
+python scripts/convert_docx_to_json.py my_song.docx
 ```
 
 This auto-extracts lyrics + Indian notation, creates
 `songs/<song-id>.json`, and appends the ID to `book.json`.
+
+### Add a song from a web page
+
+```bash
+python scripts/scrape_notation_url.py https://www.notationsworld.com/some-song.html
+python scripts/scrape_notation_url.py URL --dry-run   # preview without saving
+```
 
 ### Remove a song
 
@@ -189,53 +208,53 @@ will not appear in PDF, EPUB, MusicXML, or the website.
 ### Build everything
 
 ```bash
-python build_songbook.py --format all
+python scripts/build_songbook.py --format all
 ```
 
 ### PDF only
 
 ```bash
-python build_songbook.py --format pdf
+python scripts/build_songbook.py --format pdf
 ```
 
 ### PDF variants (Indian / Western / Both)
 
 ```bash
-python build_songbook.py --format pdf --pdf-variants all
-python build_songbook.py --format pdf --pdf-variants indian
-python build_songbook.py --format pdf --pdf-variants western
+python scripts/build_songbook.py --format pdf --pdf-variants all
+python scripts/build_songbook.py --format pdf --pdf-variants indian
+python scripts/build_songbook.py --format pdf --pdf-variants western
 ```
 
 ### PDF options
 
 ```bash
 # Page size (default A5)
-python build_songbook.py --format pdf --page A5
-python build_songbook.py --format pdf --page LETTER
+python scripts/build_songbook.py --format pdf --page A5
+python scripts/build_songbook.py --format pdf --page LETTER
 
 # Background mode
-python build_songbook.py --format pdf --pdf-bg-mode cover   # fill & crop
-python build_songbook.py --format pdf --pdf-bg-mode tile    # repeat
-python build_songbook.py --format pdf --pdf-bg-mode contain # fit inside
+python scripts/build_songbook.py --format pdf --pdf-bg-mode cover   # fill & crop
+python scripts/build_songbook.py --format pdf --pdf-bg-mode tile    # repeat
+python scripts/build_songbook.py --format pdf --pdf-bg-mode contain # fit inside
 
 # Background opacity (0.0 – 1.0, default 0.08)
-python build_songbook.py --format pdf --bg-opacity 0.08
+python scripts/build_songbook.py --format pdf --bg-opacity 0.08
 
 # Emoji font for icons in PDF header
-python build_songbook.py --format pdf --pdf-emoji-font fonts/Symbola.ttf
+python scripts/build_songbook.py --format pdf --pdf-emoji-font fonts/Symbola.ttf
 ```
 
 ### EPUB only
 
 ```bash
-python build_songbook.py --format epub
-python build_songbook.py --format epub --epub-bg-opacity 0.10
+python scripts/build_songbook.py --format epub
+python scripts/build_songbook.py --format epub --epub-bg-opacity 0.10
 ```
 
 ### MusicXML only
 
 ```bash
-python build_songbook.py --format musicxml
+python scripts/build_songbook.py --format musicxml
 ```
 
 One `.musicxml` file is written per song into `output/`.
@@ -245,7 +264,7 @@ One `.musicxml` file is written per song into `output/`.
 ## Drag-and-Drop GUI
 
 ```bash
-python gui_songbook.py
+python scripts/gui_songbook.py
 ```
 
 - Drag Word files onto the window (or click **Add Files…**).
@@ -297,16 +316,19 @@ Your site will be live at
 
 ## Indian Notation Conventions
 
+This project uses **word-based notation** for Indian sargam:
+
 | Notation | Meaning | Example |
 |----------|---------|---------|
-| Sa Re Ga Ma Pa Dha Ni | Shuddh swaras | `Sa Re Ga` |
-| Re(k) Ga(k) Dha(k) Ni(k) | Komal (flat) | `Ga(k)` or lowercase `g` |
-| Ma(T) | Tivra (sharp) | `Ma(T)` or uppercase `M` |
-| `G~R` | Meend (glide) | Rendered as slur in MusicXML |
-| `(R)G` | Kan (grace note) | Rendered as grace note |
-| `G:` or `G…` | Hold (sustain) | Double duration in MusicXML |
-| `S'` | High octave | Octave 5 in MusicXML |
-| `S.` | Low octave | Octave 3 in MusicXML |
+| Sa Re Ga ma Pa Dha Ni | Shuddh swaras | `Sa Re Ga` |
+| ma (lowercase) | Shuddh Ma (F natural) | `ma` |
+| Ma (uppercase) | Tivra Ma (F#) | `Ma` |
+| Re(k) Ga(k) Dha(k) Ni(k) | Komal (flat) | `Ga(k)` |
+| pa dha ni (lowercase words) | Low octave | `pa dha ni` |
+| Sa' Re' Ga' | High octave | `Sa'` |
+| `Ga~Re` | Meend (glide) | Rendered as slur in MusicXML |
+| `(Re)Ga` | Kan (grace note) | Rendered as grace note |
+| `Ga:` or `Sa—` | Hold (sustain) | Double duration in MusicXML |
 
 ### Notation mapping
 
@@ -324,7 +346,16 @@ Standardises display strings (e.g. `SA` → `Sa`, `R(k)` → `Re(k)`,
 `M#` → `Ma(T)`). Processes individual song files automatically.
 
 ```bash
-python normalize_indian_notation.py
+python scripts/normalize_indian_notation.py
+```
+
+### Convert letter notation to word notation
+
+Converts single-letter notation (`S R G m M P D N`) to word notation
+(`Sa Re Ga ma Ma Pa Dha Ni`) across all song files.
+
+```bash
+python scripts/convert_notation.py
 ```
 
 ### Minimize song files
@@ -332,35 +363,15 @@ python normalize_indian_notation.py
 Removes derived fields (`western`, `tokens`) to keep JSON files lean.
 
 ```bash
-# Process all songs/ files
-python minimize_songs_json.py
-
-# Or target a specific directory
-python minimize_songs_json.py --songs-dir songs/
+python scripts/minimize_songs_json.py
+python scripts/minimize_songs_json.py --songs-dir songs/
 ```
-
-### Migrate from monolithic songs.json
-
-If you previously used a single `songs.json`, split it into per-song files:
-
-```bash
-python split_songs_json.py
-# or
-python split_songs_json.py path/to/songs.json
-```
-
-This creates `book.json` + `songs/<id>.json` for every song. The original
-`songs.json` is not modified.
-
-> **Backward compatibility:** All scripts fall back to reading `songs.json`
-> when the `songs/` directory does not exist, so the migration is optional but
-> recommended.
 
 ---
 
 ## MuseScore Workflow
 
-1. Generate MusicXML: `python build_songbook.py --format musicxml`
+1. Generate MusicXML: `python scripts/build_songbook.py --format musicxml`
 2. Open the `.musicxml` file in **MuseScore**.
 3. Indian sargam appears as lyrics layer 1; Western as lyrics layer 2.
 4. Ornaments (meend → slur, kan → grace note, hold → longer duration) are
@@ -371,8 +382,10 @@ This creates `book.json` + `songs/<id>.json` for every song. The original
 
 ## Architecture Notes
 
-- **`load_songs.py`** is the shared loader module. All scripts import from
-  here so file-layout detection (per-song vs. legacy) lives in one place.
+- **`scripts/load_songs.py`** is the shared loader module. All scripts import
+  from here so file-layout detection (per-song vs. legacy) lives in one place.
+- **`notation_mapping.json`** is the single source of truth for all notation
+  mappings (Indian ↔ token ↔ Western). Edit it to change note conversions.
 - **Western notation is never stored** — it is derived at build time from the
   `indian` field using `notation_mapping.json`.
 - **Fonts** (`fonts/`) are embedded in the PDF to ensure consistent rendering
@@ -385,13 +398,14 @@ This creates `book.json` + `songs/<id>.json` for every song. The original
 
 | Task | Command |
 |------|---------|
-| Build everything | `python build_songbook.py --format all` |
-| Build PDF only | `python build_songbook.py --format pdf` |
-| Build EPUB only | `python build_songbook.py --format epub` |
-| Build MusicXML only | `python build_songbook.py --format musicxml` |
+| Build everything | `python scripts/build_songbook.py --format all` |
+| Build PDF only | `python scripts/build_songbook.py --format pdf` |
+| Build EPUB only | `python scripts/build_songbook.py --format epub` |
+| Build MusicXML only | `python scripts/build_songbook.py --format musicxml` |
 | Preview website | `python site/scripts/generate_content.py && hugo server --source site` |
-| Add song from DOCX | `python convert_docx_to_json.py song.docx` |
-| Normalize notation | `python normalize_indian_notation.py` |
-| Strip derived fields | `python minimize_songs_json.py` |
-| Launch GUI | `python gui_songbook.py` |
-| Migrate from songs.json | `python split_songs_json.py` |
+| Add song from DOCX | `python scripts/convert_docx_to_json.py song.docx` |
+| Scrape song from URL | `python scripts/scrape_notation_url.py URL` |
+| Normalize notation | `python scripts/normalize_indian_notation.py` |
+| Convert letter→word | `python scripts/convert_notation.py` |
+| Strip derived fields | `python scripts/minimize_songs_json.py` |
+| Launch GUI | `python scripts/gui_songbook.py` |

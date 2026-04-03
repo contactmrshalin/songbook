@@ -12,8 +12,14 @@ from __future__ import annotations
 
 import subprocess
 from pathlib import Path
+import sys
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
+
+# Resolve project root (parent of scripts/)
+_SCRIPT_DIR = Path(__file__).resolve().parent
+_PROJECT_ROOT = _SCRIPT_DIR.parent
+sys.path.insert(0, str(_SCRIPT_DIR))
 
 # Drag & drop support (optional)
 try:
@@ -25,7 +31,7 @@ except Exception:
 from convert_docx_to_json import extract_song_from_docx, merge_songs_into_json
 
 
-APP_DIR = Path(".").resolve()
+APP_DIR = _PROJECT_ROOT
 DEFAULT_SONGS_JSON = APP_DIR / "songs.json"
 OUTPUT_DIR = APP_DIR / "output"
 
@@ -140,9 +146,9 @@ class App:
             messagebox.showinfo("Done", f"Added/updated {len(songs)} song(s) into:\n{DEFAULT_SONGS_JSON}")
 
     def build(self):
-        script = APP_DIR / "build_songbook.py"
+        script = _SCRIPT_DIR / "build_songbook.py"
         if not script.exists():
-            messagebox.showerror("Missing", "build_songbook.py not found in this folder.")
+            messagebox.showerror("Missing", "build_songbook.py not found in scripts folder.")
             return
 
         OUTPUT_DIR.mkdir(exist_ok=True)

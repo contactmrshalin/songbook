@@ -54,9 +54,10 @@ def minimize(data: Dict[str, Any]) -> int:
 
 
 def main() -> None:
+    _root = Path(__file__).resolve().parents[1]
     ap = argparse.ArgumentParser(description="Remove derived fields (western/tokens) from songs.json")
-    ap.add_argument("--in", dest="inp", default="songs.json", help="Input JSON (default: songs.json)")
-    ap.add_argument("--out", dest="out", default="songs.clean.json", help="Output JSON (default: songs.clean.json)")
+    ap.add_argument("--in", dest="inp", default=str(_root / "songs.json"), help="Input JSON (default: songs.json)")
+    ap.add_argument("--out", dest="out", default=str(_root / "songs.clean.json"), help="Output JSON (default: songs.clean.json)")
     ap.add_argument(
         "--in-place",
         action="store_true",

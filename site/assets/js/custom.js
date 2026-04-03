@@ -59,14 +59,46 @@
     applyFilter();
   }
 
+  function initNotationGuideModal() {
+    const modal = document.getElementById("notationGuideModal");
+    if (!modal) return;
+
+    function openModal() {
+      modal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+    function closeModal() {
+      modal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    }
+
+    document.addEventListener("click", (e) => {
+      if (e.target.closest("[data-open-notation-guide]")) {
+        e.preventDefault();
+        openModal();
+      }
+      if (e.target.closest("[data-close-notation-guide]")) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal.getAttribute("aria-hidden") === "false") {
+        closeModal();
+      }
+    });
+  }
+
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", () => {
       initNotationToggle();
       initSearch();
+      initNotationGuideModal();
     });
   } else {
     initNotationToggle();
     initSearch();
+    initNotationGuideModal();
   }
 })();
 

@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SONGS_JSON = ROOT / "songs.json"
 NOTATION_MAPPING_JSON = ROOT / "notation_mapping.json"
 

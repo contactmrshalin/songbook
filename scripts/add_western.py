@@ -91,7 +91,8 @@ def process_file(file_path):
     return changed
 
 def main():
-    songs_dir = Path("songs")
+    root = Path(__file__).resolve().parents[1]
+    songs_dir = root / "songs"
     c = 0
     for p in songs_dir.glob("*.json"):
         if process_file(p):

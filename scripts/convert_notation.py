@@ -219,7 +219,7 @@ def process_song(song_data):
 # ---------------------------------------------------------------------------
 
 def main():
-    root = Path(__file__).resolve().parent
+    root = Path(__file__).resolve().parents[1]
     songs_dir = root / "songs"
 
     total_files = 0

@@ -30,7 +30,7 @@ from typing import Any, Dict, List, Optional, Tuple
 # -----------------------------
 # Notation mapping (centralized)
 # -----------------------------
-_ROOT = Path(__file__).resolve().parent
+_ROOT = Path(__file__).resolve().parents[1]
 _NOTATION_MAPPING_PATH = _ROOT / "notation_mapping.json"
 
 

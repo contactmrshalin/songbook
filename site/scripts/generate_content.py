@@ -202,12 +202,12 @@ def build() -> None:
     songs: list = []
     songs_dir = REPO_ROOT / "songs"
     if songs_dir.is_dir() and any(songs_dir.glob("*.json")):
-        sys.path.insert(0, str(REPO_ROOT))
+        sys.path.insert(0, str(REPO_ROOT / "scripts"))
         try:
             from load_songs import load_all_songs
             songs = load_all_songs(REPO_ROOT)
         except ImportError:
-            raise SystemExit("Per-song layout detected but load_songs.py not found in project root.")
+            raise SystemExit("Per-song layout detected but load_songs.py not found in scripts/.")
     elif SONGS_JSON.exists():
         data = _read_json(SONGS_JSON)
         songs = data.get("songs") or []
