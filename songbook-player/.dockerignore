@@ -1,0 +1,6 @@
+**/node_modules
+client/dist
+server/songbook.db
+**/.DS_Store
+**/*.log
+.git

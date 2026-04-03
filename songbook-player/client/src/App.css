@@ -1,0 +1,1431 @@
+/* ----- Variables ----- */
+:root {
+  --bg: #f8f6f3;
+  --bg-card: #fff;
+  --text: #2c2825;
+  --text-muted: #6b6560;
+  --accent: #b54a2c;
+  --accent-hover: #9a3d24;
+  --accent-soft: rgba(181, 74, 44, 0.12);
+  --border: #e8e4df;
+  --border-focus: #b54a2c;
+  --success: #2d6a4f;
+  --danger: #c44536;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 2px 12px rgba(44, 40, 37, 0.08);
+  --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'SF Mono', 'Consolas', 'Monaco', monospace;
+}
+
+/* ----- Base ----- */
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.page-loading,
+.page-error {
+  padding: 3rem 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.page-loading {
+  color: var(--text-muted);
+}
+.page-error {
+  color: var(--danger);
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* ----- Song list ----- */
+.song-list {
+  padding: 0.5rem 0;
+}
+.song-list h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.02em;
+}
+.song-list .subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.45;
+}
+.song-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.song-list li {
+  margin: 0.25rem 0;
+}
+.song-list a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: var(--text);
+  text-decoration: none;
+  background: var(--bg-card);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.song-list a:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+/* Song list tile grid (gh-pages style) */
+.song-list__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.card.songbook-card {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.card.songbook-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.songbook-card__figure {
+  margin: 0;
+  aspect-ratio: 1;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.songbook-card__figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.songbook-card__placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--border) 0%, var(--bg) 100%);
+}
+
+.songbook-card__body {
+  padding: 0.85rem 1rem;
+}
+
+.songbook-card__title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  letter-spacing: -0.01em;
+}
+
+.songbook-card__subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.35;
+}
+
+/* ----- Song detail ----- */
+
+/* Page wrapper — full-bleed poster background */
+.song-detail {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Poster bleed: fixed behind all content */
+.song-detail--has-bg::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: var(--songbook-bg);
+  background-size: cover;
+  background-position: center top;
+  opacity: 0.08;
+  filter: blur(2px) saturate(1.4);
+  z-index: -1;
+  pointer-events: none;
+  transform: scale(1.04); /* prevent blur edge bleed */
+}
+
+/* Gradient wash at the top to give a cinematic "album art" feel */
+.song-detail--has-bg::after {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 360px;
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--accent-rgb, 74, 158, 181), 0.12) 0%,
+    transparent 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+.song-detail nav {
+  margin-bottom: 1.25rem;
+}
+.song-detail nav button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.song-detail nav button:hover {
+  border-color: var(--accent);
+  background: rgba(255,255,255,0.9);
+}
+
+/* Header — prominent frosted-glass panel with the poster prominent */
+.song-detail header {
+  margin-bottom: 1.5rem;
+}
+.song-detail__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.75rem 2rem;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(20px) saturate(1.6);
+  -webkit-backdrop-filter: blur(20px) saturate(1.6);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10), 0 1px 0 rgba(255,255,255,0.6) inset;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Poster preview inside the header — larger, with a coloured tint border */
+.song-detail__cover {
+  flex-shrink: 0;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 3px solid rgba(255,255,255,0.7);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+.song-detail__header-meta {
+  flex: 1;
+  min-width: 0;
+}
+.song-detail header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+.song-info {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Tabs — frosted pill bar */
+.song-detail__tabs {
+  background: rgba(255,255,255,0.55) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Content cards — all sections get frosted glass */
+.song-detail section,
+.save-section,
+.sheet-music-section {
+  background: rgba(255,255,255,0.72) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-color: rgba(255,255,255,0.5) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07), 0 1px 0 rgba(255,255,255,0.7) inset !important;
+}
+
+/* Tabs layout (glass effect applied via .song-detail__tabs in the section above) */
+.song-detail__tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  padding: 0.25rem;
+  border-radius: var(--radius-sm);
+  width: fit-content;
+}
+.song-detail__tabs button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+.song-detail__tabs button:hover {
+  color: var(--text);
+  background: rgba(255,255,255,0.5);
+}
+.song-detail__tabs button.active {
+  background: rgba(255,255,255,0.85);
+  color: var(--text);
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+
+.song-detail section {
+  margin-bottom: 1.75rem;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+.song-detail section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ----- Sheet music section (unified: header + scrollable score + notes) ----- */
+.sheet-music-section {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 20px rgba(44, 40, 37, 0.08);
+  border: 1px solid var(--border);
+}
+
+.sheet-music-section--pro .sheet-music-header {
+  background: linear-gradient(180deg, #fff 0%, #fafaf8 100%);
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.sheet-music-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.sheet-music-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.sheet-music-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sheet-music-tempo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+.sheet-music-tempo input {
+  width: 3.5rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  background: #fff;
+}
+.sheet-music-tempo input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.sheet-music-bpm {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.btn-sheet-play {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 3px rgba(181, 74, 44, 0.2);
+}
+.btn-sheet-play:hover:not(:disabled) {
+  background: var(--accent-hover);
+  box-shadow: 0 2px 6px rgba(181, 74, 44, 0.3);
+}
+.btn-sheet-play:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.btn-sheet-play--active {
+  background: #7a3020;
+}
+.btn-sheet-play-icon {
+  font-size: 0.75rem;
+}
+
+.btn-sheet-stop {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: #fff;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.btn-sheet-stop:hover:not(:disabled) {
+  border-color: var(--danger);
+  color: var(--danger);
+  background: rgba(196, 69, 54, 0.06);
+}
+.btn-sheet-stop:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Progress bar beneath the header */
+.sheet-music-progress-bar {
+  height: 3px;
+  background: var(--border);
+  position: relative;
+  overflow: hidden;
+}
+.sheet-music-progress-bar--playing::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: var(--progress, 0%);
+  background: var(--accent);
+  transition: width 0.15s linear;
+}
+.sheet-music-progress-bar:not(.sheet-music-progress-bar--playing)::after {
+  display: none;
+}
+
+.sheet-music-scroll {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 220px;
+  max-height: 58vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  background: #fafaf8;
+  border-bottom: 1px solid var(--border);
+}
+
+.sheet-music-scroll--drop {
+  transition: background 0.15s;
+}
+.sheet-music-scroll--drop-active {
+  background: rgba(181, 74, 44, 0.04);
+}
+
+.sheet-viewer-wrap {
+  position: relative;
+  min-height: 100%;
+}
+
+.sheet-viewer-inner {
+  min-height: 100%;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+
+.sheet-note-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.sheet-note-overlay .sheet-note-hotspot {
+  pointer-events: auto;
+}
+
+.sheet-note-hotspot {
+  position: absolute;
+  cursor: grab;
+  border-radius: 4px;
+  transition: background 0.12s, box-shadow 0.12s;
+}
+.sheet-note-hotspot:hover {
+  background: rgba(181, 74, 44, 0.08);
+  box-shadow: 0 0 0 1px rgba(181, 74, 44, 0.2);
+}
+.sheet-note-hotspot:active {
+  cursor: grabbing;
+}
+.sheet-note-hotspot--dragging {
+  opacity: 0.5;
+  background: rgba(181, 74, 44, 0.12);
+}
+.sheet-note-hotspot--playing {
+  background: rgba(181, 74, 44, 0.18);
+  box-shadow: 0 0 0 2px var(--accent), 0 0 10px rgba(181, 74, 44, 0.25);
+  border-radius: 4px;
+  animation: note-hotspot-pulse 0.5s ease-in-out infinite alternate;
+}
+@keyframes note-hotspot-pulse {
+  from { background: rgba(181, 74, 44, 0.18); box-shadow: 0 0 0 2px var(--accent), 0 0 6px rgba(181, 74, 44, 0.2); }
+  to   { background: rgba(181, 74, 44, 0.28); box-shadow: 0 0 0 2px var(--accent), 0 0 14px rgba(181, 74, 44, 0.35); }
+}
+
+.sheet-drop-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  z-index: 3;
+  pointer-events: none;
+  animation: sheet-drop-pulse 0.6s ease-in-out infinite;
+}
+@keyframes sheet-drop-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.sheet-viewer-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: 2rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Beat grid area (replaces old sheet-music-notes) */
+.sheet-music-grid-area {
+  padding: 0;
+  background: var(--bg-card);
+  border-radius: 0 0 var(--radius) var(--radius);
+  border-top: 1px solid var(--border);
+}
+
+.sheet-music-grid-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1.25rem 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
+.sheet-music-grid-hint {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+/* ─── NoteGrid ─────────────────────────────────────────────────── */
+.note-grid-wrap {
+  padding: 0.5rem 0 0.75rem;
+}
+
+.note-grid-scroll {
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 0 1.25rem 0.5rem;
+  cursor: default;
+}
+
+.note-grid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 116px;
+  user-select: none;
+}
+
+/* Rows */
+.ngr {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* Measure header row */
+.ng-measure-label {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-left: 2px solid var(--accent);
+  background: rgba(181, 74, 44, 0.05);
+}
+
+/* Beat header row */
+.ng-beat-label {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-left: 1px solid transparent;
+}
+.ng-beat-label--strong {
+  font-weight: 700;
+  color: var(--text);
+  border-left-color: var(--border);
+}
+
+/* Notes row */
+.ngr--notes {
+  overflow: visible;
+}
+
+/* Cell backgrounds */
+.ng-cell {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  border-right: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.1s;
+}
+.ng-cell--beat {
+  border-left: 1px solid var(--border);
+}
+.ng-cell--measure {
+  border-left: 2px solid rgba(181, 74, 44, 0.25);
+}
+.ng-cell--drop {
+  background: rgba(181, 74, 44, 0.1);
+}
+.ng-cell:hover:not(:has(.ng-note)) {
+  background: rgba(181, 74, 44, 0.05);
+}
+
+/* Add note button inside empty cell */
+.ng-add-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1.5px dashed var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.12s, color 0.12s, background 0.12s;
+  padding: 0;
+}
+.ng-add-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* Drop indicator line */
+.ng-drop-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  z-index: 10;
+  pointer-events: none;
+  box-shadow: 0 0 8px rgba(181, 74, 44, 0.4);
+  animation: ng-drop-pulse 0.5s ease-in-out infinite alternate;
+}
+@keyframes ng-drop-pulse {
+  from { opacity: 1; }
+  to   { opacity: 0.5; }
+}
+
+/* Note cards */
+.ng-note {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #fff8f6 0%, #fff 100%);
+  border: 1.5px solid var(--border);
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 8px;
+  z-index: 2;
+  transition: border-color 0.12s, box-shadow 0.12s, background 0.12s;
+  overflow: visible;
+}
+.ng-note:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(181, 74, 44, 0.12);
+  z-index: 3;
+}
+.ng-note:active {
+  cursor: grabbing;
+}
+.ng-note--dragging {
+  opacity: 0.45;
+  border-style: dashed;
+  box-shadow: none;
+}
+.ng-note--playing {
+  border-color: var(--accent) !important;
+  background: linear-gradient(135deg, rgba(181,74,44,0.12) 0%, rgba(181,74,44,0.04) 100%) !important;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 12px rgba(181,74,44,0.2) !important;
+  z-index: 5 !important;
+  animation: ng-note-play-pulse 0.5s ease-in-out infinite alternate;
+}
+@keyframes ng-note-play-pulse {
+  from { box-shadow: 0 0 0 2px var(--accent), 0 0 8px rgba(181,74,44,0.2); }
+  to   { box-shadow: 0 0 0 3px var(--accent), 0 0 16px rgba(181,74,44,0.35); }
+}
+.ng-note--editing {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft);
+  z-index: 20;
+}
+
+.ng-note-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.ng-note-dur {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  line-height: 1;
+  margin-top: 2px;
+}
+
+/* Playing dot */
+.ng-note-pulse {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: ng-dot-pulse 0.4s ease-in-out infinite alternate;
+}
+@keyframes ng-dot-pulse {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0.4; transform: scale(0.6); }
+}
+
+/* Inline editor popup */
+.ng-editor {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 200px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(44, 40, 37, 0.14);
+  padding: 0.75rem 0.85rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ng-editor-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ng-editor-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  min-width: 4rem;
+  font-weight: 500;
+}
+
+.ng-editor-select {
+  flex: 1;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+}
+.ng-editor-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.ng-editor-dur {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.ng-editor-dur button {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background 0.1s, border-color 0.1s;
+}
+.ng-editor-dur button:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+.ng-editor-dur span {
+  font-size: 0.85rem;
+  min-width: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.ng-editor-delete {
+  margin-top: 0.25rem;
+  width: 100%;
+  padding: 0.35rem;
+  font-size: 0.82rem;
+  border: 1px solid var(--danger);
+  background: transparent;
+  color: var(--danger);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.ng-editor-delete:hover {
+  background: rgba(196, 69, 54, 0.07);
+}
+
+/* Empty state */
+.ng-empty {
+  padding: 1.5rem 1.25rem 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Keep old .sheet-music-notes styles for save section */
+.sheet-music-notes {
+  padding: 1.25rem 1.5rem 1.5rem;
+  background: var(--bg-card);
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+.sheet-music-notes-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* ----- Playback controls ----- */
+.playback-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.playback-controls label {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+.playback-controls label input {
+  width: 4rem;
+  margin-left: 0.35rem;
+  padding: 0.4rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+}
+.playback-controls button {
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s, opacity 0.15s;
+}
+.playback-controls button:first-of-type {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+}
+.playback-controls button:first-of-type:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+.playback-controls button:last-of-type {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.playback-controls button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ----- Notation panel ----- */
+.notation-panel h4 {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem 0;
+}
+.notation-line {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.notation-line .lyrics {
+  color: var(--text);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.notation-line .indian {
+  color: var(--success);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+.notation-line .western {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+/* ----- Buttons ----- */
+.btn {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s, border-color 0.15s;
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+}
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+.btn-outline:hover {
+  background: var(--accent-soft);
+}
+
+/* ----- Note editor ----- */
+.note-editor-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.note-editor-empty,
+.note-editor-hint {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+.note-editor-hint .drag-handle-demo {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+.note-editor--empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  max-height: 360px;
+  overflow-y: auto;
+  background: #fcfbfa;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.04);
+}
+.note-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.85rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: background 0.12s, box-shadow 0.12s;
+}
+.note-list-item:last-child {
+  border-bottom: none;
+}
+.note-list-item--dragging {
+  opacity: 0.5;
+  background: var(--accent-soft);
+}
+.note-list-item--drop-target {
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 2px var(--accent);
+}
+.note-list-item--playing {
+  background: rgba(181, 74, 44, 0.07);
+  border-left: 3px solid var(--accent);
+}
+.note-playing-indicator {
+  font-size: 0.65rem;
+  color: var(--accent);
+  margin-right: 0.1rem;
+  flex-shrink: 0;
+  animation: note-playing-pulse 0.4s ease-in-out infinite alternate;
+}
+@keyframes note-playing-pulse {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0.5; transform: scale(0.8); }
+}
+
+.note-drag-handle {
+  cursor: grab;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.2rem 0.15rem;
+  border-radius: 4px;
+  user-select: none;
+  flex-shrink: 0;
+}
+.note-drag-handle:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.note-drag-handle:active {
+  cursor: grabbing;
+}
+
+.note-index {
+  min-width: 1.75rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: right;
+}
+
+.note-pitch-select,
+.note-octave-select {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text);
+  min-width: 5rem;
+}
+.note-octave-select {
+  min-width: 4.5rem;
+}
+.note-pitch-select:focus,
+.note-octave-select:focus {
+  outline: none;
+  border-color: var(--border-focus);
+}
+
+.note-duration {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.note-duration-value {
+  min-width: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.note-duration-btn {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s, border-color 0.12s;
+}
+.note-duration-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.btn-add-note-after {
+  margin-left: auto;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 1px dashed var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1;
+  transition: border-color 0.12s, color 0.12s, background 0.12s;
+}
+.btn-add-note-after:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.btn-remove-note {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 4px;
+  transition: color 0.12s, background 0.12s;
+}
+.btn-remove-note:hover {
+  color: var(--danger);
+  background: rgba(196, 69, 54, 0.1);
+}
+
+/* ----- Save section ----- */
+.save-section .save-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.save-section input[type="text"] {
+  padding: 0.5rem 0.75rem;
+  width: 16rem;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+}
+.save-section input[type="text"]:focus {
+  outline: none;
+  border-color: var(--border-focus);
+}
+.save-section .save-row .btn-primary {
+  padding: 0.5rem 1.25rem;
+}
+.arrangement-list p {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.arrangement-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.arrangement-list li {
+  margin: 0.25rem 0;
+}
+.arrangement-list button {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.arrangement-list button:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+/* ───────────────────────────────────────────────────────────────
+   NoteStaff – interactive sheet-music editor
+   ─────────────────────────────────────────────────────────────── */
+
+/* Sheet-staff wrapper inside SheetMusicSection */
+.sheet-staff-area {
+  padding: 0 1.25rem 1.5rem;
+}
+.sheet-staff-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.01em;
+}
+
+/* Outer scroll container */
+.ns-wrap {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  overflow: visible;
+}
+.ns-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  background:
+    linear-gradient(to right, #fff 1%, transparent),
+    linear-gradient(to left, #fff 1%, transparent);
+  background-attachment: local;
+}
+.ns-scroll::-webkit-scrollbar { height: 6px; }
+.ns-scroll::-webkit-scrollbar-thumb { background: #ddd; border-radius: 3px; }
+
+/* The SVG canvas */
+.ns-svg {
+  display: block;
+  font-family: var(--font-body, sans-serif);
+  /* Staff lines slightly desaturated parchment background */
+  background: #faf9f6;
+}
+
+/* Playing note ring animation */
+.ns-ring--playing {
+  animation: ns-ring-pulse 0.8s ease-in-out infinite alternate;
+}
+@keyframes ns-ring-pulse {
+  from { opacity: 0.3; r: 9px; }
+  to   { opacity: 0.7; r: 11px; }
+}
+
+/* ── Editor popup ─────────────────────────────────────────────── */
+.ns-editor-anchor {
+  position: relative;
+  height: 0;
+  overflow: visible;
+}
+.ns-editor {
+  position: absolute;
+  bottom: 8px;
+  z-index: 200;
+  width: 210px;
+  background: var(--bg, #fff);
+  border: 1px solid var(--border, #ddd);
+  border-radius: var(--radius, 8px);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.14);
+  padding: 0.6rem 0.8rem 0.8rem;
+  font-size: 0.88rem;
+}
+.ns-editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--text, #222);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.ns-editor-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: var(--text-muted, #888);
+  padding: 0;
+  line-height: 1;
+}
+.ns-editor-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.ns-editor-row label {
+  width: 52px;
+  font-size: 0.8rem;
+  color: var(--text-muted, #777);
+  flex-shrink: 0;
+}
+.ns-editor-row select {
+  flex: 1;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  background: var(--bg, #fff);
+  color: var(--text, #222);
+}
+.ns-editor-dur {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ns-editor-dur button {
+  width: 26px; height: 26px;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 4px;
+  background: var(--bg, #fff);
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text, #222);
+}
+.ns-editor-dur button:hover { background: var(--accent-soft, #e8f4fd); border-color: var(--accent, #4a9eb5); }
+.ns-editor-dur span {
+  min-width: 30px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text, #222);
+}
+.ns-editor-insert-row {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+.ns-editor-insert {
+  flex: 1;
+  padding: 0.35rem 0.4rem;
+  background: var(--accent-soft, #e8f4fd);
+  border: 1px solid var(--accent, #4a9eb5);
+  border-radius: 4px;
+  color: var(--accent, #4a9eb5);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.ns-editor-insert:hover {
+  background: var(--accent, #4a9eb5);
+  color: #fff;
+}
+.ns-editor-delete {
+  margin-top: 0.4rem;
+  width: 100%;
+  padding: 0.35rem;
+  background: none;
+  border: 1px solid rgba(196,69,54,0.3);
+  border-radius: 4px;
+  color: var(--danger, #c44536);
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+.ns-editor-delete:hover {
+  background: rgba(196,69,54,0.08);
+  border-color: var(--danger, #c44536);
+}
+
+/* Empty hint */
+.ns-empty-hint {
+  text-align: center;
+  color: var(--text-muted, #aaa);
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem 1rem;
+  margin: 0;
+}
