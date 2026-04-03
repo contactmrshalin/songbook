@@ -53,6 +53,15 @@
   opacity: .78;
 }
 
+/* Force square card thumbnails (images are 640×640) */
+.card > figure{
+  aspect-ratio: 1 / 1;
+}
+.card > img,
+.card figure > img{
+  aspect-ratio: 1 / 1;
+}
+
 /* Light theme tweaks (the theme sets <html class="light">) */
 html.light .songbook-search{
   border-color: rgba(0,0,0,0.10);

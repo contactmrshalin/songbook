@@ -1,36 +1,16 @@
 {
   "id": 7,
-  "title": "Yeh Haseen Waadiyan (Version 2 - Sine Style)",
+  "title": "Yeh Haseen Waadiyan",
   "info": [
-    {
-      "label": "movie",
-      "value": "Roja"
-    },
-    {
-      "label": "composer",
-      "value": "A R Rahman"
-    },
-    {
-      "label": "singers",
-      "value": "S. P. Balasubrahmanyam, K. S. Chithra"
-    },
-    {
-      "label": "lyrics",
-      "value": "P. K. Mishra"
-    },
-    {
-      "label": "instrument",
-      "value": "Flute (Bansuri)"
-    },
-    {
-      "label": "notes_system",
-      "value": "S R G Ma' Pa Dha Ni (^ = sustain, ' = upper octave)"
-    },
-    {
-      "label": "source",
-      "value": "User provided Sine notation version"
-    }
+    "Movie: Roja",
+    "Composer: A R Rahman",
+    "Instrument: Flute (Bansuri)",
+    "Scale: D Natural (works on any Sa)",
+    "Notes System: S R G Ma(t) P Dha(k) Ni (k = komal, t = tivra)"
   ],
+  "thumbnail": "images/yeh-haseen-waadiyan.png",
+  "background": "images/yeh-haseen-waadiyan.png",
+  "background_mode": "cover",
   "sections": [
     {
       "name": "Mukhda",
@@ -122,7 +102,5 @@
         }
       ]
     }
-  ],
-  "thumbnail": "images/7.png",
-  "background": "images/7.png"
+  ]
 }
