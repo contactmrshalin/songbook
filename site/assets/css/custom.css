@@ -284,3 +284,88 @@ button[data-notation-mode].is-active{
   background: rgba(0,0,0,0.10);
 }
 
+/* Info icon button in toolbar */
+.songbook-btn--info{
+  margin-left: auto;
+  padding: .45rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.18);
+  background: rgba(0,0,0,0.04);
+  color: rgba(0,0,0,0.7);
+  line-height: 1;
+}
+.songbook-btn--info:hover{
+  background: rgba(0,0,0,0.10);
+  color: rgba(0,0,0,0.9);
+}
+.songbook-btn--info svg{
+  display: block;
+}
+
+/* Notation guide page content */
+.notation-guide-body{
+  margin-top: 1.25rem;
+  line-height: 1.6;
+}
+.notation-guide-body h2{
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  padding-bottom: .35rem;
+}
+.notation-guide-body h3{
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
+}
+.notation-guide-body h4{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+.notation-guide-body table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: .75rem 0;
+  font-size: .95rem;
+}
+.notation-guide-body th,
+.notation-guide-body td{
+  border: 1px solid rgba(0,0,0,0.12);
+  padding: .45rem .65rem;
+  text-align: left;
+}
+.notation-guide-body th{
+  background: rgba(0,0,0,0.04);
+  font-weight: 600;
+}
+.notation-guide-body blockquote{
+  margin: .75rem 0;
+  padding: .5rem 1rem;
+  border-left: 3px solid rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.03);
+  font-style: italic;
+}
+.notation-guide-body pre{
+  background: rgba(0,0,0,0.05);
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  overflow-x: auto;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.notation-guide-body code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: .9em;
+}
+.notation-guide-body hr{
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 1.5rem 0;
+}
+.notation-guide-body ol,
+.notation-guide-body ul{
+  padding-left: 1.5rem;
+}
+.notation-guide-body li{
+  margin-bottom: .35rem;
+}
+

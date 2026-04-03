@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <section class="songbook-song">
+    <div class="songbook-page">
+      <div class="songbook-page__inner">
+        <header class="songbook-header">
+          <div class="songbook-header__meta">
+            <h1 class="songbook-header__title">{{ .Title }}</h1>
+          </div>
+        </header>
+        <div class="songbook-toolbar">
+          <a class="songbook-btn" href="{{ "" | absURL }}">Back to Index</a>
+        </div>
+        <div class="songbook-body notation-guide-body">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

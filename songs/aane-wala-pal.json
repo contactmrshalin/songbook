@@ -45,7 +45,7 @@
         },
         {
           "lyrics": "Humming",
-          "indian": "Sa ,Dha Ga Ga(k) Ga",
+          "indian": "Sa Dha. Ga Ga(k) Ga",
           "western": "C ,A E Eb E"
         },
         {
@@ -120,12 +120,12 @@
       "lines": [
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Ni Dha Pa ma Ga Re Sa ,Ni ,Dha (Dha Ni Sa Re Ga ma Pa Dha)",
+          "indian": "Ni Dha Pa ma Ga Re Sa Ni. Dha. (Dha Ni Sa Re Ga ma Pa Dha)",
           "western": "B A G F E D C ,B ,A (A B C D E F G A)"
         },
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Sa Ni Dha Pa ma Ga Re Sa ,Ni (Ni Sa Re Ga ma Pa Dha Ni)",
+          "indian": "Sa Ni Dha Pa ma Ga Re Sa Ni. (Ni Sa Re Ga ma Pa Dha Ni)",
           "western": "C B A G F E D C ,B (B C D E F G A B)"
         },
         {
@@ -135,7 +135,7 @@
         },
         {
           "lyrics": "(Accordian / Violin / Guitar)",
-          "indian": "Sa ,Ni ,Dha | maGa maGa maGa",
+          "indian": "Sa Ni. Dha. | maGa maGa maGa",
           "western": "C ,B ,A | FE FE FE"
         }
       ]

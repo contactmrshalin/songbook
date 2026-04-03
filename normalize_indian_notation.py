@@ -100,12 +100,17 @@ def _normalize_indian_text(s: str) -> str:
     out = re.sub(r"\bRe\((?:k|K)\)\b", f"Re{_ACC_KOMAL}", out, flags=re.IGNORECASE)
     out = re.sub(r"\bGa\((?:k|K)\)\b", f"Ga{_ACC_KOMAL}", out, flags=re.IGNORECASE)
 
-    # Normalize full-word swaras (SA/RE/GA/...) when they appear as standalone words.
-    # Keep punctuation around words intact.
+    # Normalize full-word swaras when they appear in non-canonical casing.
+    # IMPORTANT: Do NOT match lowercase forms (pa, dha, ni, ma) — those are
+    # valid low-octave or shuddh-Ma notations and must be preserved.
     def repl_word(m: re.Match[str]) -> str:
-        return _WORD_CANON[m.group(0).upper()]
+        w = m.group(0)
+        # Preserve already-canonical forms and low-octave lowercase words
+        if w in ("Sa", "Re", "Ga", "Ma", "ma", "Pa", "Dha", "Ni", "pa", "dha", "ni"):
+            return w
+        return _WORD_CANON.get(w.upper(), w)
 
-    out = re.sub(r"\b(SA|RE|GA|MA|PA|DHA|NI)\b", repl_word, out, flags=re.IGNORECASE)
+    out = re.sub(r"\b(SA|RE|GA|MA|PA|DHA|NI|Sa|Re|Ga|Ma|Pa|Dha|Ni)\b", repl_word, out)
 
     # Replace lowercase komal shorthand: r g d n (optionally with octave marks like r' or n’).
     # Dataset used comma-prefix for low octave historically; we now canonicalize low octave as dot suffix.

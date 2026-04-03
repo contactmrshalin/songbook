@@ -1,7 +1,31 @@
 {
-  "version": 1,
-  "description": "Indian sargam ↔ token ↔ Western mapping used by the Songbook Pipeline. Edit this file to update mappings going forward.",
+  "version": 2,
+  "description": "Single source of truth for ALL notation mappings in the Songbook Pipeline. Edit this file to change how Indian sargam, internal tokens, and Western notes relate to each other. All Python scripts should read from this file instead of hardcoding mappings.",
+
   "reference_legend": {
+    "notes": [
+      "WORD SYSTEM (canonical display format used in song JSON files):",
+      "  Shuddh swar: Sa Re Ga ma Pa Dha Ni",
+      "  Shuddh Ma (lowercase 'ma') vs Tivra Ma (uppercase 'Ma')",
+      "  Low octave: pa dha ni (lowercase words)",
+      "  High octave: Sa' Re' Ga' Ma' ma' Pa' (quote suffix)",
+      "  Komal swar: Re(k) Ga(k) Dha(k) Ni(k)",
+      "  Tivra Ma: Ma or Ma(T)",
+      "",
+      "LETTER SYSTEM (raw/scraped format from websites):",
+      "  Shuddh swar: S R G m P D N",
+      "  Tivra Ma: M",
+      "  Low octave: p d n (lowercase letters)",
+      "  High octave: S' R' G' etc (quote suffix)",
+      "  Komal swar: D(k) N(k) R(k) G(k)",
+      "",
+      "WESTERN SYSTEM (display format):",
+      "  Natural: C D E F G A B",
+      "  Sharp: F# (tivra Ma)",
+      "  Flat: Db Eb Ab Bb (komal swar)",
+      "  Low octave suffix: . (e.g., G. A. B.)",
+      "  High octave suffix: ' (e.g., C' D' E')"
+    ],
     "western_solfege_to_sargam_word": {
       "DO": "Sa",
       "RE": "Re",
@@ -10,45 +34,51 @@
       "SO": "Pa",
       "LA": "Dha",
       "TI": "Ni"
-    },
-    "octaves": {
-      "low_octave_suffix": ".",
-      "middle_octave_suffix": "",
-      "high_octave_suffix": "'"
-    },
-    "ma": {
-      "shuddh_ma": "ma",
-      "tivra_ma": "Ma"
-    },
-    "low_octave_words": {
-      "pa": "low Pa",
-      "dha": "low Dha",
-      "ni": "low Ni"
-    },
-    "komal_swar_display": {
-      "Re": "Re(k)",
-      "Ga": "Ga(k)",
-      "Dha": "Dha(k)",
-      "Ni": "Ni(k)"
-    },
-    "notes": [
-      "Word-based notation system: Sa Re Ga ma(shuddh) Ma(tivra) Pa Dha Ni.",
-      "Low octave uses lowercase: pa dha ni.",
-      "High octave uses quote suffix: Sa' Re' Ga' etc.",
-      "Komal swar marked with (k): Re(k) Ga(k) Dha(k) Ni(k).",
-      "Tivra Ma marked with uppercase M: Ma, or explicitly as Ma(T)."
-    ]
+    }
   },
+
   "octave_markers": {
     "low": ".",
     "middle": "",
     "high": "'"
   },
+
   "accidental_markers": {
     "komal": "(k)",
     "tivra": "(T)"
   },
+
+  "letter_to_word": {
+    "_comment": "Convert single-letter notation (scraped) to word notation (display). Used by scrape_notation_url.py and convert_notation.py.",
+    "shuddh": {
+      "S": "Sa",
+      "R": "Re",
+      "G": "Ga",
+      "m": "ma",
+      "M": "Ma",
+      "P": "Pa",
+      "D": "Dha",
+      "N": "Ni"
+    },
+    "low_octave": {
+      "p": "pa",
+      "d": "dha",
+      "n": "ni"
+    },
+    "komal": {
+      "R(k)": "Re(k)",
+      "G(k)": "Ga(k)",
+      "D(k)": "Dha(k)",
+      "N(k)": "Ni(k)"
+    },
+    "tivra": {
+      "M": "Ma",
+      "M(T)": "Ma(T)"
+    }
+  },
+
   "word_to_token": {
+    "_comment": "Convert word notation to internal tokens for processing/MusicXML generation.",
     "Sa": "S",
     "Re": "R",
     "Ga": "G",
@@ -57,21 +87,82 @@
     "Dha": "D",
     "Ni": "N"
   },
+
   "low_octave_word_to_token": {
     "pa": "p",
     "dha": "d_low",
     "ni": "n_low"
   },
+
   "komal_word_to_token": {
     "Re": "r",
     "Ga": "g",
     "Dha": "d",
     "Ni": "n"
   },
+
   "tivra_word_to_token": {
     "Ma": "M"
   },
+
+  "word_to_western_display": {
+    "_comment": "Convert word notation directly to Western display strings. Used by add_western_notes.py, generate_western_json.py, etc.",
+    "shuddh": {
+      "Sa": "C",
+      "Re": "D",
+      "Ga": "E",
+      "ma": "F",
+      "Ma": "F#",
+      "Pa": "G",
+      "Dha": "A",
+      "Ni": "B"
+    },
+    "low_octave": {
+      "pa": "G.",
+      "dha": "A.",
+      "ni": "B."
+    },
+    "komal": {
+      "Re(k)": "Db",
+      "Ga(k)": "Eb",
+      "Dha(k)": "Ab",
+      "Ni(k)": "Bb"
+    },
+    "tivra": {
+      "Ma(T)": "F#"
+    }
+  },
+
+  "letter_to_western_display": {
+    "_comment": "Convert single-letter notation directly to Western display strings. Legacy support for scripts that still use letter notation.",
+    "shuddh": {
+      "S": "C",
+      "R": "D",
+      "G": "E",
+      "m": "F",
+      "M": "F#",
+      "P": "G",
+      "D": "A",
+      "N": "B"
+    },
+    "low_octave": {
+      "p": "G.",
+      "d": "A.",
+      "n": "B."
+    },
+    "komal": {
+      "R(k)": "Db",
+      "G(k)": "Eb",
+      "D(k)": "Ab",
+      "N(k)": "Bb"
+    },
+    "tivra": {
+      "M(T)": "F#"
+    }
+  },
+
   "token_to_western": {
+    "_comment": "Convert internal tokens to Western MusicXML format (step + alter). Used by build_songbook.py for MusicXML generation.",
     "S": { "step": "C", "alter": 0 },
     "R": { "step": "D", "alter": 0 },
     "G": { "step": "E", "alter": 0 },
@@ -80,10 +171,20 @@
     "P": { "step": "G", "alter": 0 },
     "D": { "step": "A", "alter": 0 },
     "N": { "step": "B", "alter": 0 },
-
     "r": { "step": "D", "alter": -1 },
     "g": { "step": "E", "alter": -1 },
     "d": { "step": "A", "alter": -1 },
     "n": { "step": "B", "alter": -1 }
+  },
+
+  "word_canon": {
+    "_comment": "Canonical casing for word-form swar. Used to normalize SA->Sa, RE->Re, etc.",
+    "SA": "Sa",
+    "RE": "Re",
+    "GA": "Ga",
+    "MA": "Ma",
+    "PA": "Pa",
+    "DHA": "Dha",
+    "NI": "Ni"
   }
 }

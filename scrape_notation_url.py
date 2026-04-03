@@ -288,7 +288,7 @@ def _normalize_notation(raw: str) -> str:
 
 
 def _convert_token_to_display(token: str) -> str:
-    """Convert token to user's preferred literal short-form notation (S R G m M P D N)."""
+    """Convert token to word-based notation (Sa Re Ga ma Ma Pa Dha Ni)."""
     t = token.strip()
     if not t:
         return t
@@ -312,29 +312,31 @@ def _convert_token_to_display(token: str) -> str:
     if t.startswith(","):
         t = t[1:]
 
-    # Already full word? Keep as-is just in case, or map it back
-    if re.search(r"\b(Sa|Re|Ga|Ma|Pa|Dha|Ni)\b", t):
+    # Already full word? Keep as-is
+    if re.search(r"\b(Sa|Re|Ga|ma|Ma|Pa|Dha|Ni|pa|dha|ni)\b", t):
         return f"{t}{octave}{hold}"
 
-    # Komal markers
-    m = re.match(r"^([rgdnRGDN])\(([kK])\)$", t)
-    if m:
-        letter = m.group(1)
-        return f"{letter}(k){octave}{hold}"
+    # Komal markers — convert letter(k) to word(k)
+    m_k = re.match(r"^([rgdnRGDN])\(([kK])\)$", t)
+    if m_k:
+        letter = m_k.group(1).upper()
+        komal_map = {"R": "Re", "G": "Ga", "D": "Dha", "N": "Ni"}
+        word = komal_map.get(letter, letter)
+        return f"{word}(k){octave}{hold}"
 
     # Tivra Ma (represented as M in user table)
-    m = re.match(r"^M\(([tT])\)$", t)
-    if m:
-        return f"M{octave}{hold}"
+    m_t = re.match(r"^M\(([tT])\)$", t)
+    if m_t:
+        return f"Ma(T){octave}{hold}"
 
-    # Simple letter -> short representation mapping
-    letter_to_short = {
-        "S": "S", "R": "R", "G": "G",
-        "m": "m", "M": "M",
-        "P": "P", "D": "D", "N": "N",
-        # Lowercase represents low octave, natively matched to p, d, n
-        "p": "p", "d": "d", "n": "n",
-        "r": "r", "g": "g",
+    # Letter -> word-based notation mapping
+    letter_to_word = {
+        "S": "Sa", "R": "Re", "G": "Ga",
+        "m": "ma", "M": "Ma",
+        "P": "Pa", "D": "Dha", "N": "Ni",
+        # Lowercase = low octave words
+        "p": "pa", "d": "dha", "n": "ni",
+        "r": "Re", "g": "Ga",
     }
 
     # Handle compound tokens like "N.D.P"
@@ -346,13 +348,13 @@ def _convert_token_to_display(token: str) -> str:
             if s2.endswith("'"):
                 oct = "'"
                 s2 = s2[:-1]
-            w = letter_to_short.get(s2)
+            w = letter_to_word.get(s2)
             return f"{w}{oct}" if w else None
         converted_parts = [_sub_convert(st) for st in sub_tokens]
         if all(c is not None for c in converted_parts):
             return " ".join(converted_parts)  # type: ignore
 
-    word = letter_to_short.get(t)
+    word = letter_to_word.get(t)
     if word:
         return f"{word}{octave}{hold}"
 
