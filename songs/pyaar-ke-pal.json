@@ -1,0 +1,83 @@
+{
+  "id": "pyaar-ke-pal",
+  "title": "Pyaar Ke Pal",
+  "export": true,
+  "info": [
+    "Film/Artist: K.K.",
+    "Scale: E MAJOR",
+    "Source: https://www.notationsworld.com/pyaar-ke-pal-k-k-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "images/pyaar-ke-pal.png",
+  "background": "images/pyaar-ke-pal.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Humm rahe ya na rahe kal",
+          "indian": "Re Ga: Ga ma Pa Pa ma Ga ma"
+        },
+        {
+          "lyrics": "Kall yaad aayeinge ye pal",
+          "indian": "ma: ma: Pa Dha Dha Pa ma Pa:"
+        },
+        {
+          "lyrics": "Pall yein hai pyar ke pal",
+          "indian": "Ga Re Sa Ga ma Pa Pa ma Ga ma"
+        },
+        {
+          "lyrics": "Chal aa mere sang chall",
+          "indian": "ma: ma Pa Dha Dha Pa ma Pa:"
+        },
+        {
+          "lyrics": "Chal , soche kyaa",
+          "indian": "Sa': . Ni Sa' Re': Pa: ."
+        },
+        {
+          "lyrics": "Chooti si hai zindagii",
+          "indian": "Dha Ni Sa' ma ma Dha Pa ma Pa:"
+        },
+        {
+          "lyrics": "Kal mil jayein to hogii",
+          "indian": "Sa': . Ni Sa' Re': Pa: .D Ni Sa' ma"
+        },
+        {
+          "lyrics": "Khushnaseebii",
+          "indian": "Dha Pa ma Pa Ga ma Ga Re: Sa: dha pa"
+        },
+        {
+          "lyrics": "Humm rahe ya na rahe kal",
+          "indian": "Re Ga: Ga ma Pa Pa ma Ga ma"
+        },
+        {
+          "lyrics": "Kall yaad aayeinge ye pal",
+          "indian": "ma: ma: Pa Dha Dha Pa ma Pa:"
+        },
+        {
+          "lyrics": "Pall yein hai pyar ke pal",
+          "indian": "Ga Re Sa Ga ma Pa Pa ma Ga ma"
+        },
+        {
+          "lyrics": "Chal , aa mere sang chall",
+          "indian": "ma: ma Pa Dha Dha Pa ma Pa:"
+        },
+        {
+          "lyrics": "Chal , soche kyaa",
+          "indian": "Sa': . Ni Sa' Re': Pa: ."
+        },
+        {
+          "lyrics": "Chooti si hai zindagii",
+          "indian": "Dha Ni Sa' ma ma Dha Pa ma Pa:"
+        },
+        {
+          "lyrics": "Kal mil jayein to hogii",
+          "indian": "Sa': . Ni Sa' Re': Pa: .D Ni Sa' ma"
+        },
+        {
+          "lyrics": "Khushnaseebii",
+          "indian": "Dha Pa ma Pa Ga ma Ga Re: Sa: dha pa"
+        }
+      ]
+    }
+  ]
+}

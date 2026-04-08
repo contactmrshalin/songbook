@@ -1,117 +1,82 @@
 {
   "id": "wada-karo-nahi-chodoge",
   "title": "Wada Karo Nahi Chodoge",
+  "export": true,
   "info": [
-    "Movie: Aa Gale Lag Ja",
-    "Sargam / Harmonium / Flute notes"
+    "Film/Artist: Aa Gale Lag Ja",
+    "Source: https://www.notationsworld.com/wada-karo-nahi-chodoge-sargam-harmonium-and-flute-notes.html"
   ],
-  "thumbnail": "images/wada-karo-nahi-chodoge.png",
-  "background": "images/wada-karo-nahi-chodoge.png",
-  "background_mode": "cover",
+  "thumbnail": "images/aa-gale-lag-jaa.png",
+  "background": "images/aa-gale-lag-jaa.png",
   "sections": [
     {
-      "name": "Mukhda",
+      "name": "STHAYI",
       "lines": [
         {
           "lyrics": "Wada karo nahi chodoge tum mera sath",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..ma..Pa..Ga..ma...Re..Re..ma...",
-          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
+          "indian": "ni Ga Pa Ni Pa Dha Ma Pa Ga Ma: Re Re Ma:"
         },
         {
           "lyrics": "Jahan tum ho wahan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...ma...Ga...",
-          "western": "E..D..C...G... D..C..Bb...F...E..."
-        },
-        {
-          "lyrics": "(x2)",
-          "indian": ""
+          "indian": "Ga Re Sa: Pa: Re Sa ni: Ma: Ga:"
         },
         {
           "lyrics": "Chhuo nahi dekho zara peeche rakho hath",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..ma..Pa..Ga..ma...Re..Re..ma...",
-          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
+          "indian": "ni Ga Pa Ni Pa Dha Ma Pa Ga Ma: Re Re Ma:"
         },
         {
           "lyrics": "Jawan tum ho jawan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...ma...Ga...",
-          "western": "E..D..C...G... D..C..Bb...F...E..."
+          "indian": "Ga Re Sa: Pa: Re Sa ni: Ma: Ga:"
         },
-        {
-          "lyrics": "(x2)",
-          "indian": ""
-        }
-      ]
-    },
-    {
-      "name": "Antara",
-      "lines": [
         {
           "lyrics": "Suno meri jaan",
-          "indian": "Ga..Ga..Ga..Re..Ga...",
-          "western": "E..E..E..D..E..."
+          "indian": "Ga Ga Ga Re Ga:"
         },
         {
-          "lyrics": "Hans ke mujhe yeh keh do",
-          "indian": "Ga..Ga..ma..ma..ma..Ga..ma...",
-          "western": "E..E..F..F..F..E..F..."
+          "lyrics": "hanske mujhe yeh keh do",
+          "indian": "Ga Ga Ma Ma Ma Ga Ma:"
         },
         {
           "lyrics": "Bheege labon ki narmi",
-          "indian": "ma..ma..Pa..Pa..Pa..ma..Pa...",
-          "western": "F..F..G..G..G..F..G..."
+          "indian": "Ma Ma Pa Pa Pa Ma Pa:"
         },
         {
-          "lyrics": "Mere liye hai",
-          "indian": "Dha..Dha..Ni..Dha..Dha...",
-          "western": "A..A..B..A..A..."
+          "lyrics": "mere liye hai",
+          "indian": "Dha Dha Ni Dha Dha:"
         },
         {
           "lyrics": "Ho jawan nazar ki",
-          "indian": "Sa'..Ni..Dha..Dha..Dha..Dha..Pa..Dha...",
-          "western": "C'..B..A..A..A..A..G..A..."
+          "indian": "Sa' Ni Dha Dha Dha Dha Pa Dha:"
         },
         {
-          "lyrics": "Masti mere liye hai",
-          "indian": "Dha..Dha..Pa..Pa..Pa..ma..Pa...",
-          "western": "A..A..G..G..G..F..G..."
+          "lyrics": "masti mere liye hai",
+          "indian": "Dha Dha Pa Pa Pa Ma Pa"
         },
         {
           "lyrics": "Haseen adaa ki shokhi",
-          "indian": "Pa..Pa..ma..ma..ma..Ga..ma..",
-          "western": "G..G..F..F..F..E..F.."
+          "indian": "Pa Pa Ma Ma Ma Ga Ma"
         },
         {
-          "lyrics": "Mere liye hai",
-          "indian": "ma..Pa..ma..Ga..Ga...",
-          "western": "F..G..F..E..E..."
-        }
-      ]
-    },
-    {
-      "name": "Mukhda (Repeat)",
-      "lines": [
+          "lyrics": "mere liye hai",
+          "indian": "Ma Pa Ma Ga Ga:"
+        },
         {
           "lyrics": "Mere liye leke aayi ho yeh saughat",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..ma..Pa..Ga..ma...Re..Re..ma...",
-          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
+          "indian": "ni Ga Pa Ni Pa Dha Ma Pa Ga Ma: Re Re Ma:"
         },
         {
           "lyrics": "Jahan tum ho wahan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...ma...Ga...",
-          "western": "E..D..C...G... D..C..Bb...F...E..."
+          "indian": "Ga Re Sa: Pa: Re Sa ni: Ma: Ga:"
         },
         {
           "lyrics": "Chhuo nahi dekho zara peeche rakho hath",
-          "indian": "Ni(k)..Ga..Pa..Ni..Pa..Dha..ma..Pa..Ga..ma...Re..Re..ma...",
-          "western": "Bb..E..G..B..G..A..F..G..E..F...D..D..F..."
+          "indian": "ni Ga Pa Ni Pa Dha Ma Pa Ga Ma: Re Re Ma:"
         },
         {
           "lyrics": "Jawan tum ho jawan main bhi hoon",
-          "indian": "Ga..Re..Sa...Pa... Re..Sa..Ni(k)...ma...Ga...",
-          "western": "E..D..C...G... D..C..Bb...F...E..."
+          "indian": "Ga Re Sa: Pa: Re Sa ni: Ma: Ga:"
         }
       ]
     }
-  ],
-  "export": true
+  ]
 }

@@ -1,0 +1,103 @@
+{
+  "id": "kora-kagaz-tha-yeh-man-mera",
+  "title": "Kora Kagaz Tha Yeh Man Mera",
+  "export": true,
+  "info": [
+    "Film/Artist: Aradhna",
+    "Scale: B BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/kora-kagaz-tha-yeh-man-mera-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/kora-kagaz-tha-yeh-man-mera.png",
+  "background": "images/kora-kagaz-tha-yeh-man-mera.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kora kagaz tha yeh man mera mera mera",
+          "indian": "pa dha Sa: Re Ga Re Ga Sa dha pa dha Re: dha Re: dha Re:"
+        },
+        {
+          "lyrics": "Likh liya naam ispe tera",
+          "indian": "pa dha Sa Sa Re Ga Re Ga Sa ni dha ni Sa: ni Sa: ni Sa:"
+        },
+        {
+          "lyrics": "Kora kagaz tha yeh man mera",
+          "indian": "pa dha Sa: Re Ga Re Ga Sa dha pa dha Re:"
+        },
+        {
+          "lyrics": "Likh liya naam ispe tera",
+          "indian": "pa dha Sa Sa Re Ga Re Ga Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Soona angan tha jeevan mera",
+          "indian": "pa dha Sa: Re Ga Re Ga Sa dha pa dha Re:"
+        },
+        {
+          "lyrics": "Bas gaya pyar ismein tera",
+          "indian": "pa dha Sa Sa Re Ga Re Ga Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Toot na jaayein sapne",
+          "indian": "Ga Re Ga Re Sa Sa: ni dha pa"
+        },
+        {
+          "lyrics": "Main darta hoonn",
+          "indian": "pa dha Sa Sa Re Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Nis din sapnon mein",
+          "indian": "Ga Re Ga Re Sa Sa: ni dha pa"
+        },
+        {
+          "lyrics": "Dekha karta hoon",
+          "indian": "pa dha Sa Sa Re Sa: Sa:"
+        },
+        {
+          "lyrics": "Toot na jaayein sapne",
+          "indian": "Ga Re Ga Re Sa Sa: ni dha pa"
+        },
+        {
+          "lyrics": "Main darta hoon",
+          "indian": "pa dha Sa Sa Re Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Nis din sapnon mein",
+          "indian": "Ga Re Ga Re Sa Sa: ni dha pa"
+        },
+        {
+          "lyrics": "Dekha karta hoon",
+          "indian": "pa dha Sa Sa Re Sa: Sa:"
+        },
+        {
+          "lyrics": "Naina kajraare",
+          "indian": "Ga Ga Ga Ga Ga ma Ga ma Ga Re."
+        },
+        {
+          "lyrics": "Matvaaee",
+          "indian": "Re Re Re Ga Re Ga Re Sa."
+        },
+        {
+          "lyrics": "Ye ishaare",
+          "indian": "Sa Sa Sa Ga Re: Sa: dha pa"
+        },
+        {
+          "lyrics": "Khaali darpan tha yeh man meraa",
+          "indian": "pa dha Sa: Re Ga Re Ga Sa dha pa dha Re:"
+        },
+        {
+          "lyrics": "Rach gaya rup ismee teraa",
+          "indian": "pa dha Sa Sa Re Ga Re Ga Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Kora kagaz tha yeh man mera",
+          "indian": "pa dha Sa: Re Ga Re Ga Sa dha pa dha Re:"
+        },
+        {
+          "lyrics": "Likh liya naam ispe tera",
+          "indian": "pa dha Sa Sa Re Ga Re Ga Sa ni dha ni Sa:"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "namo-namo",
+  "title": "Namo Namo",
+  "export": true,
+  "info": [
+    "Film/Artist: Kedarnath",
+    "Scale: E MAJOR",
+    "Source: https://www.notationsworld.com/namo-namo-kedarnath-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "images/namo_namo_ji_shankara.png",
+  "background": "images/namo_namo_ji_shankara.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Jai hoo jai hoo shankaraa",
+          "indian": "dha dha Sa Sa Re Re Ga Re"
+        },
+        {
+          "lyrics": "Bholenath shankaraa",
+          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+        },
+        {
+          "lyrics": "Adii dev shankaraa",
+          "indian": "Re Ga ma Pa Ga Re Ga Re"
+        },
+        {
+          "lyrics": "Jaii shivaay shankaraa",
+          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+        },
+        {
+          "lyrics": "Teree jaap kee binaa",
+          "indian": "dha dha Sa Sa Re Re Ga Re"
+        },
+        {
+          "lyrics": "Bholenath shankaraa",
+          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+        },
+        {
+          "lyrics": "Chalee yee saans kis tarahh",
+          "indian": "Re Re Ga ma Pa Ga Re Ga Re"
+        },
+        {
+          "lyrics": "Jaii shivaay shankaraa",
+          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+        },
+        {
+          "lyrics": "Mere karamm tuu hi jaanee",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Ni Dha."
+        },
+        {
+          "lyrics": "Kyaa buraa haii kyaa bhalaa",
+          "indian": "Pa Dha Pa ma ma ma Pa:"
+        },
+        {
+          "lyrics": "Teree rastee pee main tohh",
+          "indian": "Sa' Sa' Re' Re' Ni Ni Dha Pa"
+        },
+        {
+          "lyrics": "Aankh moond kee chalaa",
+          "indian": "Pa Dha Pa ma ma Dha Pa:"
+        },
+        {
+          "lyrics": "Teree naam kii",
+          "indian": "Pa Pa Pa Dha Pa Dha Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Joot neee",
+          "indian": "Pa Dha Pa Dha Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Saaraa har liyaa tamas meraa",
+          "indian": "Re Ga Ga ma Ga Re Re Sa Sa:"
+        },
+        {
+          "lyrics": "Namoo namoo ji shankaraa",
+          "indian": "Re Re Ga Ga Ga Re Ga Ga"
+        },
+        {
+          "lyrics": "Bholenath shankaaraa",
+          "indian": "Re Ga Ga Ga Re Ga Ga"
+        },
+        {
+          "lyrics": "Jaii trilok nath shambhu",
+          "indian": "Re Re Re Re Re Re Re Re"
+        },
+        {
+          "lyrics": "Hey shivaay shankaraa",
+          "indian": "Re Sa Ga Re Sa Sa Sa"
+        },
+        {
+          "lyrics": "Namoo namoo ji shankaraa",
+          "indian": "Re Re Ga Ga Ga Re Ga Ga"
+        },
+        {
+          "lyrics": "Bholenath shankaaraa",
+          "indian": "Re Ga Ga Ga Re Ga Ga"
+        },
+        {
+          "lyrics": "Rudra dev hai maheshwara",
+          "indian": "Re Re Re Re Re Sa Ga Re Sa:"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "nanha-munna-rahi-hoon",
+  "title": "Nanha Munna Rahi Hoon",
+  "export": true,
+  "info": [
+    "Film/Artist: Son Of India",
+    "Scale: B BASS/MIDDLE",
+    "Source: https://notationsworld.com/nanha-munna-rahi-hoon-son-of-india-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "images/nanha-munna-rahi-hoon.png",
+  "background": "images/nanha-munna-rahi-hoon.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Nanna munna raahi hoon",
+          "indian": "Sa Ga Ga Re Sa Re Re"
+        },
+        {
+          "lyrics": "Desh Ka sipaahi hoon",
+          "indian": "Sa Ga Ga Re Sa Re Re"
+        },
+        {
+          "lyrics": "Boolo mere sang",
+          "indian": "Ga Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Jay hind jay hind jay hind",
+          "indian": "Pa: Ga: Re: Sa Re Ga ma"
+        },
+        {
+          "lyrics": "Jay hind jay hind",
+          "indian": "Ga Re Ga dha ni Sa"
+        },
+        {
+          "lyrics": "Nanna munna raahi hoon",
+          "indian": "Sa Ga Ga Re Sa Re Re"
+        },
+        {
+          "lyrics": "Desh Ka sipaahi hoon",
+          "indian": "Sa Ga Ga Re Sa Re Re"
+        },
+        {
+          "lyrics": "Boolo mere sang",
+          "indian": "Ga Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Jay hind jay hind jay hind",
+          "indian": "Pa: Ga: Re: Sa Re Ga ma"
+        },
+        {
+          "lyrics": "Jay hind jay hind",
+          "indian": "Ga Re Ga dha ni Sa"
+        },
+        {
+          "lyrics": "Raste pee chaluungaa naa dar dar kee",
+          "indian": "Pa Sa' Sa' Ni Re' Sa' Sa' Sa' Ni Pa Dha Pa Sa'"
+        },
+        {
+          "lyrics": "Chaahe mujhe jinaa padhe mar mar kee",
+          "indian": "ma Dha Dha Dha ma Dha Dha Dha Pa Pa Ga ma Pa."
+        },
+        {
+          "lyrics": "Manzil see pahale naa lunga kahi dum",
+          "indian": "Sa' Sa' Pa Dha Pa Pa Pa Dha Pa ma Ga"
+        },
+        {
+          "lyrics": "Aage hii aage badhaungaa kadam",
+          "indian": "Dha Dha ma Pa Pa ma Ga Re ni Re Sa"
+        },
+        {
+          "lyrics": "Deinee baaenn Deinee baaenn tham",
+          "indian": ""
+        },
+        {
+          "lyrics": "Nanna munna raahi hoon",
+          "indian": "Sa Ga Ga Re Sa Re Re"
+        },
+        {
+          "lyrics": "Desh Ka sipaahi hoon",
+          "indian": "Sa Ga Ga Re Sa Re Re"
+        },
+        {
+          "lyrics": "Boolo mere sang",
+          "indian": "Ga Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Jay hind jay hind jay hind",
+          "indian": "Pa: Ga: Re: Sa Re Ga ma"
+        },
+        {
+          "lyrics": "Jay hind jay hind",
+          "indian": "Ga Re Ga dha ni Sa"
+        }
+      ]
+    }
+  ]
+}

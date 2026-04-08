@@ -1,0 +1,63 @@
+{
+  "id": "pal-pal-dil-ke-paas",
+  "title": "Pal Pal Dil Ke Paas",
+  "export": true,
+  "info": [
+    "Film/Artist: Kishore Kumar",
+    "Scale: G BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/pal-pal-dil-ke-paas-kishore-kumar-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "images/pal-pal-dil-ke-paas.png",
+  "background": "images/pal-pal-dil-ke-paas.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Pal pal dil kee paas tum rehtii hoo",
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+        },
+        {
+          "lyrics": "Pal pal dil kee paas tum rehtii hoo",
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+        },
+        {
+          "lyrics": "Jiivan miithii pyaas ye kahatii hoo",
+          "indian": "Ga: ma: Pa: Dha Pa Pa: Re Re Ga Ga ma Ga:"
+        },
+        {
+          "lyrics": "Pal pal dil kee paas tum rehtii hoo",
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Har shaam aankhon par teraa aanchal laharaae",
+          "indian": "pa pa dha dha dha dha dha dha Ga Ga Re Re Sa Sa ni ni dha dha pa"
+        },
+        {
+          "lyrics": "Har raat yaadon kii baaraat le aae",
+          "indian": "pa Pa Pa Pa Pa Dha Pa ma: Ga Re Re Re ma ma Ga Ga"
+        },
+        {
+          "lyrics": "Main saans letaa huun terii khushbuu aati haii",
+          "indian": "Ga Re Ga Re Re Sa Sa pa Ga Re Re Ga Ga Re Re Sa Sa Sa pa"
+        },
+        {
+          "lyrics": "Ek mahakaa mahakaa saa paigaam laati haii",
+          "indian": "Ga Re Re Ga Ga Re Re Sa Sa: Sa pa Ga Re Ga Re Re Sa Sa"
+        },
+        {
+          "lyrics": "Mere dil kii dhadkan bhii teree geet gaati haii",
+          "indian": "pa pa Pa Pa Pa Pa Dha Pa ma: Ga Re Re Re Re ma ma Ga Ga"
+        },
+        {
+          "lyrics": "Pal pal dil kee paas tum rehtii hoo",
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+        }
+      ]
+    }
+  ]
+}

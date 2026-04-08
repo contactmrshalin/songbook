@@ -1,0 +1,107 @@
+{
+  "id": "aa-chal-ke-tujhe",
+  "title": "Aa Chal Ke Tujhe",
+  "export": true,
+  "info": [
+    "Film/Artist: Kishore Kumar",
+    "Scale: D# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/aa-chal-ke-tujhe-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/aa-chal-ke-tujhe.png",
+  "background": "images/aa-chal-ke-tujhe.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Aa chal ke tujhe mein leke chalo",
+          "indian": "pa: Sa: Sa Re Sa: pa: Sa: Sa Re Sa:"
+        },
+        {
+          "lyrics": "Ek aise gagan ke tale",
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Jaha ghum bhi na hon asoon bhi na hon",
+          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:"
+        },
+        {
+          "lyrics": "Bas pyar hi pyar pale",
+          "indian": "Re Ga ni: Sa Pa: ma Ga:"
+        },
+        {
+          "lyrics": "Aa chal ke tujhe mein leke chalo",
+          "indian": "pa: Sa: Sa Re Sa: pa: Sa: Sa Re Sa:"
+        },
+        {
+          "lyrics": "Ek aise gagan ke tale",
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Jaha ghum bhi na hon asoon bhi na hon",
+          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:"
+        },
+        {
+          "lyrics": "Bas pyar hi pyar pale",
+          "indian": "Re Ga ni: Sa Pa: ma Ga:"
+        },
+        {
+          "lyrics": "Ek aaise gagan ke tale",
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga Sa:"
+        },
+        {
+          "lyrics": "Suraj ki pehle kiran se",
+          "indian": "Ga Pa Ga Re Sa Re Ga Pa Pa Dha Pa Ga Ga:"
+        },
+        {
+          "lyrics": "Aasha ka savera jaage",
+          "indian": "Ga ma Pa: Pa Pa Dha Pa ma: Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Suraj ki pehle kiran se",
+          "indian": "Ga Pa Ga Re Sa Re Ga Pa Pa Dha Pa Ga Ga:"
+        },
+        {
+          "lyrics": "Aasha ka savera jaage",
+          "indian": "Ga ma Pa: Pa Pa Dha Pa ma: Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Chanda ki kiran se dhulkar",
+          "indian": "ma Dha Dha: Dha Pa Dha Pa ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Aganghor andhera bhage",
+          "indian": "ma Pa Pa: ma Ga Re ma Ga Re Sa Sa:"
+        },
+        {
+          "lyrics": "Chanda ki kiran se dhulkar",
+          "indian": "ma Dha Dha: Dha Pa Dha Pa ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Aganghor andhera bhage",
+          "indian": "ma Pa Pa: ma Ga Re ma Ga Re Sa Sa:"
+        },
+        {
+          "lyrics": "Kabhi dhoop khile kabhi chaao mile",
+          "indian": "pa pa Sa: Sa Re Sa: pa pa Sa: Sa Re Sa:"
+        },
+        {
+          "lyrics": "Lambi si dagar na khale",
+          "indian": "pa: Sa: Sa Re Ga: ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Jaha ghum bhi na hon asoon bhi na hon",
+          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:"
+        },
+        {
+          "lyrics": "Bas pyar hi pyar pale",
+          "indian": "Re Ga ni: Sa Pa: ma Ga:"
+        },
+        {
+          "lyrics": "Ek aaise gagan ke tale",
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga Sa:"
+        }
+      ]
+    }
+  ]
+}

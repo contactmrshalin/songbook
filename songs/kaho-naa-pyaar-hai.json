@@ -1,0 +1,67 @@
+{
+  "id": "kaho-naa-pyaar-hai",
+  "title": "Kaho Naa Pyaar Hai",
+  "export": true,
+  "info": [
+    "Film/Artist: Title Song",
+    "Scale: A BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/kaho-naa-pyaar-hai-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/kaho-naa-pyaar-hai.png",
+  "background": "images/kaho-naa-pyaar-hai.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dil mera har baar yeh",
+          "indian": "ma Ga Re: Ga ma Ga Re: Ga Ga"
+        },
+        {
+          "lyrics": "Sunne ko bekarar hai",
+          "indian": "ma Ga Re: Ga Ga Ga ma: Ga Re: Sa ni"
+        },
+        {
+          "lyrics": "Kaho na pyar hai",
+          "indian": "ni ni: Sa: Re: ni Sa: ni dha"
+        },
+        {
+          "lyrics": "Kaho na pyar hai",
+          "indian": "ni ni: Sa: Re: ni Sa:"
+        },
+        {
+          "lyrics": "Haan tumse pyar hai",
+          "indian": "Re ni: Sa: Re: ni Sa: ni dha"
+        },
+        {
+          "lyrics": "Ke tumse pyar hai",
+          "indian": "ni ni: Sa: Re: ni Sa:"
+        },
+        {
+          "lyrics": "In pyaari baaton mein",
+          "indian": "ma Ga Re: Ga ma Ga Re: Ga"
+        },
+        {
+          "lyrics": "Anjana ikraar hai",
+          "indian": "ma Ga Re: Ga Ga Ga ma: Ga Re: Sa ni"
+        },
+        {
+          "lyrics": "Kaho na pyar hai",
+          "indian": "ni ni: Sa: Re: ni Sa: ni dha"
+        },
+        {
+          "lyrics": "Kaho na pyar hai",
+          "indian": "ni ni: Sa: Re: ni Sa:"
+        },
+        {
+          "lyrics": "Kaha na pyar hai",
+          "indian": "Re ni: Sa: Re: ni Sa: ni dha"
+        },
+        {
+          "lyrics": "Kaha na pyar hai",
+          "indian": "ni ni Sa Re ma Ga Re: Ga Re Sa:"
+        }
+      ]
+    }
+  ]
+}

@@ -491,8 +491,8 @@ def extract_song_from_url(
         "title": title,
         "export": True,
         "info": info,
-        "thumbnail": "",
-        "background": "",
+        "thumbnail": "images/"+song_id+".png",
+        "background": "images/"+song_id+".png",
         "sections": sections,
     }
 

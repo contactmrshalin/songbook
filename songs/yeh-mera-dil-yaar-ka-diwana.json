@@ -1,0 +1,123 @@
+{
+  "id": "yeh-mera-dil-yaar-ka-diwana",
+  "title": "Yeh Mera Dil Yaar Ka Diwana",
+  "export": true,
+  "info": [
+    "Film/Artist: Don",
+    "Scale: D# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/yeh-mera-dil-yaar-ka-diwana-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/yeh-mera-dil-yaar-ka-diwana",
+  "background": "images/yeh-mera-dil-yaar-ka-diwana",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yeh mera dil",
+          "indian": "Ga: Ma Ga Ga Re"
+        },
+        {
+          "lyrics": "Pyar ka deewana",
+          "indian": "Ma Ma Pa Ma Ga: Ga: Ga:"
+        },
+        {
+          "lyrics": "Deewana deewana",
+          "indian": "Ga: Ga: Ga Ma Ma Ga Ga Re"
+        },
+        {
+          "lyrics": "Pyar ka parwana",
+          "indian": "Ma Ma Pa Ma Ga: Ga: Ga:"
+        },
+        {
+          "lyrics": "Aata hai mujhko",
+          "indian": "Ga: Ma: Pa: Dha Dha Ni"
+        },
+        {
+          "lyrics": "Pyar mein jal jaana",
+          "indian": "Sa' Ni Dha Pa: Ni Dha Pa Ma Ma:"
+        },
+        {
+          "lyrics": "Mushqil hai pyare",
+          "indian": "Ga Ga Ma: Pa: Dha: Ni"
+        },
+        {
+          "lyrics": "Tera bachke jaana",
+          "indian": "Sa' Ni Dha Pa: Ni Dha Pa: Ma:"
+        },
+        {
+          "lyrics": "Yeh mera dil",
+          "indian": "Ga: Ma Ga Ga Re"
+        },
+        {
+          "lyrics": "Yaar ka deewana",
+          "indian": "Ma Ma Pa Ma Ga: Ga: Ga:"
+        },
+        {
+          "lyrics": "Yeh mera dil",
+          "indian": "Ga Re Ga: Ma Dha Ma Ga Re"
+        },
+        {
+          "lyrics": "Pyar ka deewana",
+          "indian": "Ma Ma Pa Ma Ga: Ga: Ga:"
+        },
+        {
+          "lyrics": "Dil woh chahe jise",
+          "indian": "Pa: Pa Ma Pa Dha Ma Pa"
+        },
+        {
+          "lyrics": "Chahe jise use paaye",
+          "indian": "Ma Pa Dha Pa Ma Pa Dha Ma Pa: Pa:"
+        },
+        {
+          "lyrics": "Pyar woh yaar ke jo",
+          "indian": "Dha: Dha(k) Dha Dha(k) Dha Ni Dha(k) Dha:"
+        },
+        {
+          "lyrics": "Naam pe hi mit jaaye",
+          "indian": "Dha(k) Dha Ni Dha Dha(k) Dha Ni Dha(k) Dha: Dha:"
+        },
+        {
+          "lyrics": "Dil woh chahe jise",
+          "indian": "Pa: Pa Ma Pa Dha Ma Pa"
+        },
+        {
+          "lyrics": "Chahe jise use paaye",
+          "indian": "Ma Pa Dha Pa Ma Pa Dha Ma Pa: Pa:"
+        },
+        {
+          "lyrics": "Pyar woh yaar ke jo",
+          "indian": "Dha: Dha(k) Dha Dha(k) Dha Ni Dha(k) Dha:"
+        },
+        {
+          "lyrics": "Naam pe hi mit jaaye",
+          "indian": "Dha(k) Dha Ni Dha Dha(k) Dha Ni Dha(k) Dha: Dha:"
+        },
+        {
+          "lyrics": "Jaan ke badle mein",
+          "indian": "Re' R'(K) Re': Sa' Sa' Ni Sa':"
+        },
+        {
+          "lyrics": "Jaan loon nazrana",
+          "indian": "Ni Dha Ni: Dha Pa Ma Ma"
+        },
+        {
+          "lyrics": "Yeh mera dil",
+          "indian": "Ga: Ma Ga Ga Re"
+        },
+        {
+          "lyrics": "Pyar ka deewana",
+          "indian": "Ma Ma Pa Ma Ga: Ga: Ga:"
+        },
+        {
+          "lyrics": "Deewana deewana",
+          "indian": "Ga: Ga: Ga Ma Ma Ga Ga Re"
+        },
+        {
+          "lyrics": "Pyar ka parwana",
+          "indian": "Ma Ma Pa Ma Ga: Ga: Ga:"
+        }
+      ]
+    }
+  ]
+}

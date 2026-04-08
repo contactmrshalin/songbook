@@ -1,0 +1,123 @@
+{
+  "id": "sunn-raha-hai-na-tu",
+  "title": "Sunn Raha Hai Na Tu",
+  "export": true,
+  "info": [
+    "Film/Artist: Aashiqui 2",
+    "Scale: D# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/sunn-raha-hai-na-tu-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/sunn-raha-hai-na-tu.png",
+  "background": "images/sunn-raha-hai-na-tu.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Mujhko irade de kasme de vaade de",
+          "indian": "Sa' Ni Dha Dha Dha Dha Sa' Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Meri duaon ke isharon ko sahare de",
+          "indian": "Ni Pa Dha Dha Ni Ni Re' Re' Ni Ni Dha Dha Pa Pa ma:"
+        },
+        {
+          "lyrics": "Dil ko thikane de naye bahane de",
+          "indian": "Sa' Ni Dha Dha Dha Dha Sa' Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Khwaabon ki barishon ko mausam ke paimane de",
+          "indian": "Ni Pa Dha Dha Ni Ni Re' Re' Ni Ni Dha Dha Pa Pa ma:"
+        },
+        {
+          "lyrics": "Apne karam ki kar adaayein",
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Re' Ga' Re'"
+        },
+        {
+          "lyrics": "Karde idhar bhi tu nighahein",
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Ga' R'."
+        },
+        {
+          "lyrics": "Sun raha hai na tu",
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:"
+        },
+        {
+          "lyrics": "Ro raha hun main",
+          "indian": "Dha Ni Pa Dha Dha Ni: Ni:"
+        },
+        {
+          "lyrics": "Sun raha hai na tu",
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "Kyun ro raha hu main",
+          "indian": "ma ma Dha Dha Dha Dha Ga:"
+        },
+        {
+          "lyrics": "Sun raha hai na tu",
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:"
+        },
+        {
+          "lyrics": "Ro raha hun main",
+          "indian": "Dha Ni Pa Dha Dha Ni: Ni:"
+        },
+        {
+          "lyrics": "Sun raha hai na tu",
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "Kyun ro raha hu main",
+          "indian": "ma ma Dha Dha Dha Dha Ga:"
+        },
+        {
+          "lyrics": "Mazilein rusva hain",
+          "indian": "Ga ma Dha: Dha Ni Sa' Ni Dha Sa':"
+        },
+        {
+          "lyrics": "Khoya hai rasta",
+          "indian": "Ni Dha Dha Pa Pa ma Pa: ma Ga:"
+        },
+        {
+          "lyrics": "Aaye le jaaye",
+          "indian": "Ga ma ma Dha: Dha Ni Sa' Ni Dha Sa':"
+        },
+        {
+          "lyrics": "Itni si ilteja",
+          "indian": "Ni Dha Dha Pa Pa ma Pa: ma Ga:"
+        },
+        {
+          "lyrics": "Yeh meri zamaanat hai",
+          "indian": "Ga' Re': Re': Re' Ga' Re' Sa' Ni Dha Sa': R'."
+        },
+        {
+          "lyrics": "Tu meri amaanat hai haan",
+          "indian": "Ga' Re': Re' Ga' ma' Ga' Sa' Ni Dha Sa': .N:"
+        },
+        {
+          "lyrics": "Apne karam ki kar adaayein",
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Re' Ga' Re'"
+        },
+        {
+          "lyrics": "Karde idhar bhi tu nighaahein",
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Ga' R'."
+        },
+        {
+          "lyrics": "Sun raha hai na tu",
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:"
+        },
+        {
+          "lyrics": "Ro raha hun main",
+          "indian": "Dha Ni Pa Dha Dha Ni: Ni:"
+        },
+        {
+          "lyrics": "Sun raha hai na tu",
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "Kyun ro raha hu main",
+          "indian": "ma ma Dha Dha Dha Dha Ga:"
+        }
+      ]
+    }
+  ]
+}

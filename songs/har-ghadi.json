@@ -1,0 +1,123 @@
+{
+  "id": "har-ghadi",
+  "title": "Har Ghadi",
+  "export": true,
+  "info": [
+    "Film/Artist: Kal Ho Na Ho",
+    "Scale: C MAJOR",
+    "Source: https://www.notationsworld.com/har-ghadi-kal-ho-na-ho-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "images/har-ghadi.png",
+  "background": "images/har-ghadi.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Harr ghadi badal rahi roop zindagi",
+          "indian": "Sa': Ni Sa' Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+        },
+        {
+          "lyrics": "Chaavv hai kabhi kabhi hai dhoop zindagi",
+          "indian": "Sa': Ni Sa Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+        },
+        {
+          "lyrics": "Harr pal yaha",
+          "indian": "Pa Dha Sa' Dha: ."
+        },
+        {
+          "lyrics": "Jeee bhar jio joo hai saman",
+          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma"
+        },
+        {
+          "lyrics": "Kall ho na ho",
+          "indian": "ma Ni(k) Dha Pa:"
+        },
+        {
+          "lyrics": "Harr ghadi badal rahi roop zindagi",
+          "indian": "Sa': Ni Sa' Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+        },
+        {
+          "lyrics": "Chaavv hai kabhi kabhi hai dhoop zindagi",
+          "indian": "Sa': Ni Sa Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+        },
+        {
+          "lyrics": "Harr pal yaha",
+          "indian": "Pa Dha Sa' Dha: ."
+        },
+        {
+          "lyrics": "Jeee bhar jio joo hai saman",
+          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma"
+        },
+        {
+          "lyrics": "Kall ho na ho",
+          "indian": "ma Ni(k) Dha Pa:"
+        },
+        {
+          "lyrics": "Chaahee jo tumhe pure dil se",
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa'"
+        },
+        {
+          "lyrics": "Miltaa hai wo muskhil se",
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa' Pa Dha Pa"
+        },
+        {
+          "lyrics": "Aisaa jo koi kahi hai",
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa'"
+        },
+        {
+          "lyrics": "Bass wohi sabse hasin hai",
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa' Pa Dha Pa"
+        },
+        {
+          "lyrics": "Uss Hath koo tum tham lo",
+          "indian": "Pa Dha Sa' Dha: ma Pa Dha Pa"
+        },
+        {
+          "lyrics": "Wohh mehbarn kall ho na ho",
+          "indian": "Pa Dha Sa' Dha: Pa ma: ma: Ni(k) Dha Pa"
+        },
+        {
+          "lyrics": "Har pall yahan",
+          "indian": "Pa Dha Sa' Dha:"
+        },
+        {
+          "lyrics": "Jee bhar jiyo joo haii saman",
+          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma"
+        },
+        {
+          "lyrics": "Kal ho na hoo",
+          "indian": "ma Ni(k) Dha Pa:"
+        },
+        {
+          "lyrics": "Palko ke le sayee",
+          "indian": "Ni Sa' Re' Pa Pa: Pa Dha Pa: .m Ga ma Pa: ."
+        },
+        {
+          "lyrics": "Pass koi jo aayee",
+          "indian": "Ni Sa' Re' Pa Pa: Pa Dha Pa: .m Ga ma Dha: ."
+        },
+        {
+          "lyrics": "Lakh samhalo pagal dil koo",
+          "indian": "Ni Sa' ma' Ga' Re': Re' Ga' Sa' Ni:"
+        },
+        {
+          "lyrics": "Paagal dil koo",
+          "indian": "Ni Sa' ma' Ga' Re': Re' Ga' Sa' Ni:"
+        },
+        {
+          "lyrics": "Dil dhadke hi jaayee",
+          "indian": "Ni Sa' ma' Pa' Ga' Re' Ga' Ni Dha Ni Sa': Pa Dha Pa: ."
+        },
+        {
+          "lyrics": "Par soch lo is pal hai joo",
+          "indian": "Pa Dha Sa' Dha: ma Pa Dha Pa:"
+        },
+        {
+          "lyrics": "Woh Dastan kal ho na hoo",
+          "indian": "Pa Dha Sa' Dha: Pa ma ma Ni(k) Dha Pa:"
+        }
+      ]
+    }
+  ]
+}
