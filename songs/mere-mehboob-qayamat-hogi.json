@@ -1,91 +1,102 @@
 {
   "id": "mere-mehboob-qayamat-hogi",
   "title": "Mere Mehboob Qayamat Hogi",
-  "thumbnail": "images/mere-mehboob-qayamat-hogi.png",
-  "background": "images/mere-mehboob-qayamat-hogi.png",
+  "export": true,
   "info": [
+    "Film/Artist: Kishore Kumar",
+    "Scale: B BASS/MIDDLE",
     "Movie: Mr. X In Bombay (1964)",
     "Singer: Kishore Kumar",
     "Music Director: Laxmikant–Pyarelal",
-    "Scale: Sa = C",
     "Difficulty: Beginner–Intermediate"
   ],
+  "thumbnail": "images/mere-mehboob-qayamat-hogi.png",
+  "background": "images/mere-mehboob-qayamat-hogi.png",
   "sections": [
     {
-      "name": "MUKHDA",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Teri gali mein aata sanam",
-          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:",
-          "western": "C' C' B D' C' | B A B A A:"
+          "lyrics": "Meere mehboob qayamat hoogi",
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
         },
         {
-          "lyrics": "Nagma wafa ka gaata sanam",
-          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha:",
-          "western": "C' C' B D' C' | B A B A A:"
+          "lyrics": "Aaj rusvaa teri galiyoon",
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
         },
         {
-          "lyrics": "Tujhse suna na jaata sanam",
-          "indian": "Re' Re' Re' Sa' | Ni Dha Ni Dha Dha:",
-          "western": "D' D' D' C' | B A B A A:"
+          "lyrics": "Mein mohabbat hogii",
+          "indian": "ma Pa Ga ma Dha: Ni Dha"
         },
         {
-          "lyrics": "Phir aaj idhar",
-          "indian": "Ga' Ga' Ga' Pa' ma' Ga' ma' Re':",
-          "western": "E' E' E' G' F' E' F' D':"
+          "lyrics": "Naam niklee gaa teraahi lafzsee",
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
         },
         {
-          "lyrics": "Aaya hoon magar",
-          "indian": "Re' Re' Re' ma' | ma' Ga' ma' Re':",
-          "western": "D' D' D' F' | F' E' F' D':"
-        }
-      ]
-    },
-    {
-      "name": "HOOK LINE",
-      "lines": [
-        {
-          "lyrics": "Ye kehne main deewana",
-          "indian": "Sa' Sa' Ga' Re' Ga' | Sa' Ni Sa' Dha:",
-          "western": "C' C' E' D' E' | C' B C' A:"
-        }
-      ]
-    },
-    {
-      "name": "ANTARA",
-      "lines": [
-        {
-          "lyrics": "Khatm bas aaj ye wahshat hogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Ni::",
-          "western": "A B C' E' D' E' D' | C' B A G A B A G B::"
+          "lyrics": "Jaane jab iss dil e naakaa",
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
         },
         {
-          "lyrics": "Mere mehboob qayamat hogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga' Re' | Sa' Ni Dha Pa Dha Ni Dha Pa Dha::",
-          "western": "A B C' E' D' E' D' | C' B A G A B A G A::"
+          "lyrics": "Masruk sachh hoogi",
+          "indian": "ma Pa Ga ma Dha: Ni Dha"
         },
         {
-          "lyrics": "Aaj rusva teri galiyon mein",
-          "indian": "Dha Ni Sa' Ni Dha Dha Dha Ni Ni Re Dha Pa",
-          "western": "A B C' B A A A B B D A G"
+          "lyrics": "Meere mehboob..",
+          "indian": "Dha Ni Sa' Ga' Re' Ga':"
         },
         {
-          "lyrics": "Mohabbat hogi",
-          "indian": "Ga ma Pa Ga ma Dha Pa: Ni Dha",
-          "western": "E F G E F A G: B A"
-        }
-      ]
-    },
-    {
-      "name": "REPEAT / ENDING",
-      "lines": [
+          "lyrics": "Meree sanam ke darse agarr",
+          "indian": "Sa' Sa' Ni Re' Sa' Ni Dha Ni Dha Dha"
+        },
         {
-          "lyrics": "Mere mehboob qayamat hogi",
-          "indian": "Sa' Sa' Ni Re' Sa' | Ni Dha Ni Dha Dha::",
-          "western": "C' C' B D' C' | B A B A A::"
+          "lyrics": "Baadesuwaa hoo teraa guzar",
+          "indian": "Sa' Sa' Ni Re' Sa' Ni Dha Ni Dha Dha"
+        },
+        {
+          "lyrics": "Kehnaa sitam karr kuch ahi khabar",
+          "indian": "Re' Re' Re' Re' Sa' Ni Dha Ni Dha Dha"
+        },
+        {
+          "lyrics": "Tera naam liyaa",
+          "indian": "Ga' Ga' Pa' ma' Ga' ma' Ga' Re'"
+        },
+        {
+          "lyrics": "Jab tak bhi jiyaa",
+          "indian": "Re' Re' ma' Ga' Re' Ga' Re' Sa'"
+        },
+        {
+          "lyrics": "Hai shamaa teera par Ebaana",
+          "indian": "Sa' Sa' Ga' Re' Ga' Re' Sa' Ni Re' Sa' Ni' Dha."
+        },
+        {
+          "lyrics": "Jisse ab tak tujhe nafrat hoogi",
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
+        },
+        {
+          "lyrics": "Aaj rusvaa teri galiyoon",
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
+        },
+        {
+          "lyrics": "Mein mohabbat hogii",
+          "indian": "ma Pa Ga ma Dha Ni Dha"
+        },
+        {
+          "lyrics": "Meere mehboob qayamat hoogi",
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
+        },
+        {
+          "lyrics": "Aaj rusvaa teri galiyoon",
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
+        },
+        {
+          "lyrics": "Mein mohabbat hogii",
+          "indian": "ma Pa Ga ma Dha: Ni Dha"
+        },
+        {
+          "lyrics": "Meere mehboob..",
+          "indian": "Dha Ni Sa' Ga' Re' Ga':"
         }
       ]
     }
-  ],
-  "export": true
+  ]
 }
