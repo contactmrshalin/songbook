@@ -1,0 +1,131 @@
+{
+  "id": "udd-jaa-kaale-kaava",
+  "title": "Udd Jaa Kaale Kaava",
+  "export": true,
+  "info": [
+    "Film/Artist: Gadar 2",
+    "Scale: F# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/udd-jaa-kaale-kaava-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/udd-jaa-kaale-kaava.png",
+  "background": "images/udd-jaa-kaale-kaava.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Udja kale kawa tere",
+          "indian": "Re Re Re Ga Re Re Re ni dha pa dha"
+        },
+        {
+          "lyrics": "Munh vich khand paavan",
+          "indian": "Re Re Re Re Ga Re Re"
+        },
+        {
+          "lyrics": "Udd ja kale kawan tere",
+          "indian": "Re Re Re Ga Re Re Re ni dha pa dha"
+        },
+        {
+          "lyrics": "Munh vich khand paavan",
+          "indian": "Re Re Re Re Ga Re Re"
+        },
+        {
+          "lyrics": "Le ja tu sandesha mera",
+          "indian": "Re Re Re Ga Re Re Re ni dha pa dha"
+        },
+        {
+          "lyrics": "Main sadke jaavan",
+          "indian": "Re Re Re Re Ga Re Re"
+        },
+        {
+          "lyrics": "Baagon mein phir jhule pad gaye",
+          "indian": "Ni Ni Ni Ni Ni Dha: Ni: Dha Pa Pa"
+        },
+        {
+          "lyrics": "Pak gaiyan mithiyan ambiyan",
+          "indian": "Pa Dha Dha Pa Ga Re Ga Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Yeh chhoti si zindagi te",
+          "indian": "Pa Pa Pa Pa Ma Dha Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Raataan lambiyan lambiyan",
+          "indian": "Sa Re Re Re Re Ga Re Sa Re Re."
+        },
+        {
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+        },
+        {
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+        },
+        {
+          "lyrics": "Chham chham karta aaya mausam",
+          "indian": "ni Re Re: Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Pyar ke geeton ka ho ho",
+          "indian": "Sa Re Re Re: Ga Re Re Pa Ma Pa Ma Ga"
+        },
+        {
+          "lyrics": "Chham chham karta aaya mausam",
+          "indian": "ni Re Re: Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Pyar ke geeton ka",
+          "indian": "Sa Re Re Re: Ga Re Re"
+        },
+        {
+          "lyrics": "Raste pe ankhiyan rasta dekhein",
+          "indian": "ni Re Re Re Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Bichhde meeton ka",
+          "indian": "Sa Re Re Re: Ga Re Re"
+        },
+        {
+          "lyrics": "Saari saari raat jagayein",
+          "indian": "Ni Ni Ni Ni Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Mujhko teri yaadein",
+          "indian": "Pa Dha Dha Pa Ga Re Ga Pa: Pa Pa"
+        },
+        {
+          "lyrics": "Mere saare geet bane",
+          "indian": "Pa Pa Pa Pa: Ma Dha Pa Ma Ga Ga"
+        },
+        {
+          "lyrics": "Mere dil ki fariyadein",
+          "indian": "Sa Re Re Re Re Ga Re Sa Re."
+        },
+        {
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+        },
+        {
+          "lyrics": "Oh ghar aaja pardesi",
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+        },
+        {
+          "lyrics": "Ke teri meri ek jindri",
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+        }
+      ]
+    }
+  ]
+}

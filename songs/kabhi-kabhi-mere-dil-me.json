@@ -1,0 +1,244 @@
+{
+  "id": "kabhi-kabhi-mere-dil-me",
+  "title": "Kabhi Kabhi Mere Dil Me",
+  "export": true,
+  "info": [
+    "Movie: Kabhi Kabhi (1976)",
+    "Lyricist: Saahir Ludhiyanvi",
+    "Singer: Mukesh",
+    "Music Director: Khayyam",
+    "Raag: Yaman",
+    "Flute: G#",
+    "Source: https://notesandsargam.com/kabhi-kabhi-mere-dil-me/"
+  ],
+  "thumbnail": "images/kabhi-kabhi-mere-dil-me.png",
+  "background": "images/kabhi-kabhi-mere-dil-me.png",
+  "sections": [
+    {
+      "name": "MUKHDA:",
+      "lines": [
+        {
+          "lyrics": "Kabhi | kabhi | mere | dil me",
+          "indian": "P PM | DP...M | M~GG | R R | G"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "G~M G~DP | P...M GR | GRS"
+        },
+        {
+          "lyrics": "Kee | jaise | tujhko | banaya",
+          "indian": "G | GG | RR G | GR G"
+        },
+        {
+          "lyrics": "gaya | hai | mere | liye",
+          "indian": "R (G)RS | S | S~R R(G)R S | S S,N DD"
+        },
+        {
+          "lyrics": "Tu | abse | pehle | sitaro | me",
+          "indian": "P' | M G M | P P P | PP PD D(N)D | P"
+        },
+        {
+          "lyrics": "bas | rahee | thi | kahee",
+          "indian": "PP | PM P... | M | DP MG"
+        },
+        {
+          "lyrics": "Tujhe | jamin pe | bulaya",
+          "indian": "G G | G R... | G | R R(G)R G"
+        },
+        {
+          "lyrics": "gaya | hai | mere | liye",
+          "indian": "R (G)RS | S | S~R R(G)R S | S S,N DD"
+        },
+        {
+          "lyrics": "Kabhi | kabhi | mere | dil me",
+          "indian": "P PM | DP...M | M~GG | R R | G"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "G~M G~DP | P...M GR | GRS"
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE :",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "G... P D | P D P | GR S | R G"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1:",
+      "lines": [
+        {
+          "lyrics": "Kabhi | kabhi | mere | dil me",
+          "indian": "P PM | DP...M | M~GG | R R | G"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "G~M G~DP | P...M GR | GRS"
+        },
+        {
+          "lyrics": "Kee | yeh | badan | yeh | nigahe",
+          "indian": "G | G | G R... | G | G R... G"
+        },
+        {
+          "lyrics": "meree | amanat | hain",
+          "indian": "R(G)R S | SS R (G)R SS | S ,N DD"
+        },
+        {
+          "lyrics": "Yeh | gesuo | kee",
+          "indian": "P | M~G M P | P"
+        },
+        {
+          "lyrics": "ghanee | chhaon | hain",
+          "indian": "P P | PD D...(N)DP | P"
+        },
+        {
+          "lyrics": "meree | khatir",
+          "indian": "P(M)P... | MDP M~G"
+        },
+        {
+          "lyrics": "Yeh | honth | aur | yeh | baahe",
+          "indian": "G | G...G | R GG | G | R... G"
+        },
+        {
+          "lyrics": "meree amanat hain",
+          "indian": "R(G)R S | SS R (G)R SS | S ,N DD"
+        },
+        {
+          "lyrics": "Kabhi | kabhi | mere | dil me",
+          "indian": "P PM | DP...M | M~GG | R R | G"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "G~M G~DP | P...M GR | GRS"
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE :",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "S R | (S)R G | G R S ,D | S... R"
+        },
+        {
+          "lyrics": "",
+          "indian": "S' DD...S' | D~P... | S'~D... | D~S'"
+        },
+        {
+          "lyrics": "",
+          "indian": "S R | (S)R G | G R S ,D | S"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2:",
+      "lines": [
+        {
+          "lyrics": "Kabhi | kabhi | mere dil me",
+          "indian": "S S | N R | RR | R | R"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "RR R | R(G)R S SRG | G"
+        },
+        {
+          "lyrics": "Kee | jaise | bajatee | hain",
+          "indian": "G | RGRG R S | SS S | S"
+        },
+        {
+          "lyrics": "shehnaiya | see | raaho | me",
+          "indian": "R~M M MM | M | G GPG | G~R"
+        },
+        {
+          "lyrics": "MUSIC:",
+          "indian": "(R)G...P | GR... | S ,DS ,D~S...."
+        },
+        {
+          "lyrics": "Kee | jaise | bajatee | hain",
+          "indian": "G | RGRG R S | SS S | S"
+        },
+        {
+          "lyrics": "shehnaiya | see | raaho | me",
+          "indian": "R~M M MM | M | G GPG | G~R"
+        },
+        {
+          "lyrics": "Suhag | rat | hain",
+          "indian": "PP M | D D | D~P"
+        },
+        {
+          "lyrics": "ghunghat | utha | raha | hu | mai",
+          "indian": "P~S N~D | N D P | P P... | MDP | MG"
+        },
+        {
+          "lyrics": "MUSIC:",
+          "indian": "S'... N DP | {DNDN}D P...M | {DPMG}"
+        },
+        {
+          "lyrics": "Suhag | rat | hain",
+          "indian": "PP M | D D | D~P"
+        },
+        {
+          "lyrics": "ghunghat | utha | raha | hu | mai",
+          "indian": "P~S N~D | N D P | P P... | MDP | MG"
+        },
+        {
+          "lyrics": "Simat | rahee | hai | tu",
+          "indian": "G GG | G R(G)R | G | G"
+        },
+        {
+          "lyrics": "sharma | ke | apni | baaho | me",
+          "indian": "R R(G)R G | R | G R S | S~R R(G)R S | S SN D(N)D"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 3:",
+      "lines": [
+        {
+          "lyrics": "Kabhi | kabhi | mere | dil me",
+          "indian": "P PM | DP...M | M~GG | R R | G"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "G~M G~DP | P...M GR | GRS"
+        },
+        {
+          "lyrics": "Ke | jaise | tu | mujhe chaahegi",
+          "indian": "G | G G | R...G | G G | R G...R"
+        },
+        {
+          "lyrics": "umra | bhar | yun | hi",
+          "indian": "R(G)RS S | SR R(G)R | S | S ,N D"
+        },
+        {
+          "lyrics": "Uthhegi | meri | taraf",
+          "indian": "P M~GM | P P | P PP"
+        },
+        {
+          "lyrics": "pyaar | ki | najar | yun | hi",
+          "indian": "P D...D(N)DP | P | P(M)P... | M(D)P | M~G"
+        },
+        {
+          "lyrics": "Main | jaanata | hun | ke | tu",
+          "indian": "G | G G R...G | G | G | R"
+        },
+        {
+          "lyrics": "gair | hai | magar | yun | hi",
+          "indian": "G...R | GRS | S SR R(G)R | S | S ,N D"
+        },
+        {
+          "lyrics": "Kabhi | kabhi | mere | dil me",
+          "indian": "P PM | DP...M | M~GG | R R | G"
+        },
+        {
+          "lyrics": "khayal | aata | hai",
+          "indian": "G~M G~DP | P...M GR | GRS"
+        }
+      ]
+    }
+  ]
+}
