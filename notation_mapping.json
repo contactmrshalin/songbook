@@ -23,7 +23,7 @@
       "  Natural: C D E F G A B",
       "  Sharp: F# (tivra Ma)",
       "  Flat: Db Eb Ab Bb (komal swar)",
-      "  Low octave suffix: . (e.g., G. A. B.)",
+      "  Low octave: lowercase (e.g., g a b)",
       "  High octave suffix: ' (e.g., C' D' E')"
     ],
     "western_solfege_to_sargam_word": {
@@ -118,9 +118,9 @@
       "Ni": "B"
     },
     "low_octave": {
-      "pa": "G.",
-      "dha": "A.",
-      "ni": "B."
+      "pa": "g",
+      "dha": "a",
+      "ni": "b"
     },
     "komal": {
       "Re(k)": "Db",
@@ -146,9 +146,9 @@
       "N": "B"
     },
     "low_octave": {
-      "p": "G.",
-      "d": "A.",
-      "n": "B."
+      "p": "g",
+      "d": "a",
+      "n": "b"
     },
     "komal": {
       "R(k)": "Db",

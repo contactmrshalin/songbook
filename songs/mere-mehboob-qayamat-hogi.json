@@ -17,83 +17,103 @@
       "lines": [
         {
           "lyrics": "Meere mehboob qayamat hoogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni",
+          "western": "A B C' E' D' E': D' C' B A G A A G B"
         },
         {
           "lyrics": "Aaj rusvaa teri galiyoon",
-          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa",
+          "western": "A B C' B A A B B C' B G"
         },
         {
           "lyrics": "Mein mohabbat hogii",
-          "indian": "ma Pa Ga ma Dha: Ni Dha"
+          "indian": "ma Pa Ga ma Dha: Ni Dha",
+          "western": "F G E F A: B A"
         },
         {
           "lyrics": "Naam niklee gaa teraahi lafzsee",
-          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni",
+          "western": "A B C' E' D' E': D' C' B A G A A G B"
         },
         {
           "lyrics": "Jaane jab iss dil e naakaa",
-          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa",
+          "western": "A B C' B A A B B C' B G"
         },
         {
           "lyrics": "Masruk sachh hoogi",
-          "indian": "ma Pa Ga ma Dha: Ni Dha"
+          "indian": "ma Pa Ga ma Dha: Ni Dha",
+          "western": "F G E F A: B A"
         },
         {
           "lyrics": "Meere mehboob..",
-          "indian": "Dha Ni Sa' Ga' Re' Ga':"
+          "indian": "Dha Ni Sa' Ga' Re' Ga':",
+          "western": "A B C' E' D' E':"
         },
         {
           "lyrics": "Meree sanam ke darse agarr",
-          "indian": "Sa' Sa' Ni Re' Sa' Ni Dha Ni Dha Dha"
+          "indian": "Sa' Sa' Ni Re' Sa' Ni Dha Ni Dha Dha",
+          "western": "C' C' B D' C' B A B A A"
         },
         {
           "lyrics": "Baadesuwaa hoo teraa guzar",
-          "indian": "Sa' Sa' Ni Re' Sa' Ni Dha Ni Dha Dha"
+          "indian": "Sa' Sa' Ni Re' Sa' Ni Dha Ni Dha Dha",
+          "western": "C' C' B D' C' B A B A A"
         },
         {
           "lyrics": "Kehnaa sitam karr kuch ahi khabar",
-          "indian": "Re' Re' Re' Re' Sa' Ni Dha Ni Dha Dha"
+          "indian": "Re' Re' Re' Re' Sa' Ni Dha Ni Dha Dha",
+          "western": "D' D' D' D' C' B A B A A"
         },
         {
           "lyrics": "Tera naam liyaa",
-          "indian": "Ga' Ga' Pa' ma' Ga' ma' Ga' Re'"
+          "indian": "Ga' Ga' Pa' ma' Ga' ma' Ga' Re'",
+          "western": "E' E' G' F' E' F' E' D'"
         },
         {
           "lyrics": "Jab tak bhi jiyaa",
-          "indian": "Re' Re' ma' Ga' Re' Ga' Re' Sa'"
+          "indian": "Re' Re' ma' Ga' Re' Ga' Re' Sa'",
+          "western": "D' D' F' E' D' E' D' C'"
         },
         {
           "lyrics": "Hai shamaa teera par Ebaana",
-          "indian": "Sa' Sa' Ga' Re' Ga' Re' Sa' Ni Re' Sa' Ni' Dha."
+          "indian": "Sa' Sa' Ga' Re' Ga' Re' Sa' Ni Re' Sa' Ni' Dha.",
+          "western": "C' C' E' D' E' D' C' B D' C' B' a"
         },
         {
           "lyrics": "Jisse ab tak tujhe nafrat hoogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni",
+          "western": "A B C' E' D' E': D' C' B A G A A G B"
         },
         {
           "lyrics": "Aaj rusvaa teri galiyoon",
-          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa",
+          "western": "A B C' B A A B B C' B G"
         },
         {
           "lyrics": "Mein mohabbat hogii",
-          "indian": "ma Pa Ga ma Dha Ni Dha"
+          "indian": "ma Pa Ga ma Dha Ni Dha",
+          "western": "F G E F A B A"
         },
         {
           "lyrics": "Meere mehboob qayamat hoogi",
-          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni"
+          "indian": "Dha Ni Sa' Ga' Re' Ga': Re' Sa' Ni Dha Pa Dha Dha Pa Ni",
+          "western": "A B C' E' D' E': D' C' B A G A A G B"
         },
         {
           "lyrics": "Aaj rusvaa teri galiyoon",
-          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa"
+          "indian": "Dha Ni Sa' Ni Dha Dha Ni Ni Sa' Ni Pa",
+          "western": "A B C' B A A B B C' B G"
         },
         {
           "lyrics": "Mein mohabbat hogii",
-          "indian": "ma Pa Ga ma Dha: Ni Dha"
+          "indian": "ma Pa Ga ma Dha: Ni Dha",
+          "western": "F G E F A: B A"
         },
         {
           "lyrics": "Meere mehboob..",
-          "indian": "Dha Ni Sa' Ga' Re' Ga':"
+          "indian": "Dha Ni Sa' Ga' Re' Ga':",
+          "western": "A B C' E' D' E':"
         }
       ]
     }

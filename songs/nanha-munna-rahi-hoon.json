@@ -15,59 +15,73 @@
       "lines": [
         {
           "lyrics": "Nanna munna raahi hoon",
-          "indian": "Sa Ga Ga Re Sa Re Re"
+          "indian": "Sa Ga Ga Re Sa Re Re",
+          "western": "C E E D C D D"
         },
         {
           "lyrics": "Desh Ka sipaahi hoon",
-          "indian": "Sa Ga Ga Re Sa Re Re"
+          "indian": "Sa Ga Ga Re Sa Re Re",
+          "western": "C E E D C D D"
         },
         {
           "lyrics": "Boolo mere sang",
-          "indian": "Ga Ga Re Re Sa"
+          "indian": "Ga Ga Re Re Sa",
+          "western": "E E D D C"
         },
         {
           "lyrics": "Jay hind jay hind jay hind",
-          "indian": "Pa: Ga: Re: Sa Re Ga ma"
+          "indian": "Pa: Ga: Re: Sa Re Ga ma",
+          "western": "G: E: D: C D E F"
         },
         {
           "lyrics": "Jay hind jay hind",
-          "indian": "Ga Re Ga dha ni Sa"
+          "indian": "Ga Re Ga dha ni Sa",
+          "western": "E D E a b C"
         },
         {
           "lyrics": "Nanna munna raahi hoon",
-          "indian": "Sa Ga Ga Re Sa Re Re"
+          "indian": "Sa Ga Ga Re Sa Re Re",
+          "western": "C E E D C D D"
         },
         {
           "lyrics": "Desh Ka sipaahi hoon",
-          "indian": "Sa Ga Ga Re Sa Re Re"
+          "indian": "Sa Ga Ga Re Sa Re Re",
+          "western": "C E E D C D D"
         },
         {
           "lyrics": "Boolo mere sang",
-          "indian": "Ga Ga Re Re Sa"
+          "indian": "Ga Ga Re Re Sa",
+          "western": "E E D D C"
         },
         {
           "lyrics": "Jay hind jay hind jay hind",
-          "indian": "Pa: Ga: Re: Sa Re Ga ma"
+          "indian": "Pa: Ga: Re: Sa Re Ga ma",
+          "western": "G: E: D: C D E F"
         },
         {
           "lyrics": "Jay hind jay hind",
-          "indian": "Ga Re Ga dha ni Sa"
+          "indian": "Ga Re Ga dha ni Sa",
+          "western": "E D E a b C"
         },
         {
           "lyrics": "Raste pee chaluungaa naa dar dar kee",
-          "indian": "Pa Sa' Sa' Ni Re' Sa' Sa' Sa' Ni Pa Dha Pa Sa'"
+          "indian": "Pa Sa' Sa' Ni Re' Sa' Sa' Sa' Ni Pa Dha Pa Sa'",
+          "western": "G C' C' B D' C' C' C' B G A G C'"
         },
         {
           "lyrics": "Chaahe mujhe jinaa padhe mar mar kee",
-          "indian": "ma Dha Dha Dha ma Dha Dha Dha Pa Pa Ga ma Pa."
+          "indian": "ma Dha Dha Dha ma Dha Dha Dha Pa Pa Ga ma Pa.",
+          "western": "F A A A F A A A G G E F g"
         },
         {
           "lyrics": "Manzil see pahale naa lunga kahi dum",
-          "indian": "Sa' Sa' Pa Dha Pa Pa Pa Dha Pa ma Ga"
+          "indian": "Sa' Sa' Pa Dha Pa Pa Pa Dha Pa ma Ga",
+          "western": "C' C' G A G G G A G F E"
         },
         {
           "lyrics": "Aage hii aage badhaungaa kadam",
-          "indian": "Dha Dha ma Pa Pa ma Ga Re ni Re Sa"
+          "indian": "Dha Dha ma Pa Pa ma Ga Re ni Re Sa",
+          "western": "A A F G G F E D b D C"
         },
         {
           "lyrics": "Deinee baaenn Deinee baaenn tham",
@@ -75,23 +89,28 @@
         },
         {
           "lyrics": "Nanna munna raahi hoon",
-          "indian": "Sa Ga Ga Re Sa Re Re"
+          "indian": "Sa Ga Ga Re Sa Re Re",
+          "western": "C E E D C D D"
         },
         {
           "lyrics": "Desh Ka sipaahi hoon",
-          "indian": "Sa Ga Ga Re Sa Re Re"
+          "indian": "Sa Ga Ga Re Sa Re Re",
+          "western": "C E E D C D D"
         },
         {
           "lyrics": "Boolo mere sang",
-          "indian": "Ga Ga Re Re Sa"
+          "indian": "Ga Ga Re Re Sa",
+          "western": "E E D D C"
         },
         {
           "lyrics": "Jay hind jay hind jay hind",
-          "indian": "Pa: Ga: Re: Sa Re Ga ma"
+          "indian": "Pa: Ga: Re: Sa Re Ga ma",
+          "western": "G: E: D: C D E F"
         },
         {
           "lyrics": "Jay hind jay hind",
-          "indian": "Ga Re Ga dha ni Sa"
+          "indian": "Ga Re Ga dha ni Sa",
+          "western": "E D E a b C"
         }
       ]
     }

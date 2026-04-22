@@ -15,107 +15,133 @@
       "lines": [
         {
           "lyrics": "Mujhko irade de kasme de vaade de",
-          "indian": "Sa' Ni Dha Dha Dha Dha Sa' Ni Dha Dha Dha Dha"
+          "indian": "Sa' Ni Dha Dha Dha Dha Sa' Ni Dha Dha Dha Dha",
+          "western": "C' B A A A A C' B A A A A"
         },
         {
           "lyrics": "Meri duaon ke isharon ko sahare de",
-          "indian": "Ni Pa Dha Dha Ni Ni Re' Re' Ni Ni Dha Dha Pa Pa ma:"
+          "indian": "Ni Pa Dha Dha Ni Ni Re' Re' Ni Ni Dha Dha Pa Pa ma:",
+          "western": "B G A A B B D' D' B B A A G G F:"
         },
         {
           "lyrics": "Dil ko thikane de naye bahane de",
-          "indian": "Sa' Ni Dha Dha Dha Dha Sa' Ni Dha Dha Dha Dha"
+          "indian": "Sa' Ni Dha Dha Dha Dha Sa' Ni Dha Dha Dha Dha",
+          "western": "C' B A A A A C' B A A A A"
         },
         {
           "lyrics": "Khwaabon ki barishon ko mausam ke paimane de",
-          "indian": "Ni Pa Dha Dha Ni Ni Re' Re' Ni Ni Dha Dha Pa Pa ma:"
+          "indian": "Ni Pa Dha Dha Ni Ni Re' Re' Ni Ni Dha Dha Pa Pa ma:",
+          "western": "B G A A B B D' D' B B A A G G F:"
         },
         {
           "lyrics": "Apne karam ki kar adaayein",
-          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Re' Ga' Re'"
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Re' Ga' Re'",
+          "western": "C' B G A C' B G A D': D' E' D'"
         },
         {
           "lyrics": "Karde idhar bhi tu nighahein",
-          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Ga' R'."
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Ga' R'.",
+          "western": "C' B G A C' B G A D': E' R'."
         },
         {
           "lyrics": "Sun raha hai na tu",
-          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:"
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:",
+          "western": "A B C' B B A: A:"
         },
         {
           "lyrics": "Ro raha hun main",
-          "indian": "Dha Ni Pa Dha Dha Ni: Ni:"
+          "indian": "Dha Ni Pa Dha Dha Ni: Ni:",
+          "western": "A B G A A B: B:"
         },
         {
           "lyrics": "Sun raha hai na tu",
-          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma"
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma",
+          "western": "A B C' B B A: A G A G F"
         },
         {
           "lyrics": "Kyun ro raha hu main",
-          "indian": "ma ma Dha Dha Dha Dha Ga:"
+          "indian": "ma ma Dha Dha Dha Dha Ga:",
+          "western": "F F A A A A E:"
         },
         {
           "lyrics": "Sun raha hai na tu",
-          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:"
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:",
+          "western": "A B C' B B A: A:"
         },
         {
           "lyrics": "Ro raha hun main",
-          "indian": "Dha Ni Pa Dha Dha Ni: Ni:"
+          "indian": "Dha Ni Pa Dha Dha Ni: Ni:",
+          "western": "A B G A A B: B:"
         },
         {
           "lyrics": "Sun raha hai na tu",
-          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma"
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma",
+          "western": "A B C' B B A: A G A G F"
         },
         {
           "lyrics": "Kyun ro raha hu main",
-          "indian": "ma ma Dha Dha Dha Dha Ga:"
+          "indian": "ma ma Dha Dha Dha Dha Ga:",
+          "western": "F F A A A A E:"
         },
         {
           "lyrics": "Mazilein rusva hain",
-          "indian": "Ga ma Dha: Dha Ni Sa' Ni Dha Sa':"
+          "indian": "Ga ma Dha: Dha Ni Sa' Ni Dha Sa':",
+          "western": "E F A: A B C' B A C':"
         },
         {
           "lyrics": "Khoya hai rasta",
-          "indian": "Ni Dha Dha Pa Pa ma Pa: ma Ga:"
+          "indian": "Ni Dha Dha Pa Pa ma Pa: ma Ga:",
+          "western": "B A A G G F G: F E:"
         },
         {
           "lyrics": "Aaye le jaaye",
-          "indian": "Ga ma ma Dha: Dha Ni Sa' Ni Dha Sa':"
+          "indian": "Ga ma ma Dha: Dha Ni Sa' Ni Dha Sa':",
+          "western": "E F F A: A B C' B A C':"
         },
         {
           "lyrics": "Itni si ilteja",
-          "indian": "Ni Dha Dha Pa Pa ma Pa: ma Ga:"
+          "indian": "Ni Dha Dha Pa Pa ma Pa: ma Ga:",
+          "western": "B A A G G F G: F E:"
         },
         {
           "lyrics": "Yeh meri zamaanat hai",
-          "indian": "Ga' Re': Re': Re' Ga' Re' Sa' Ni Dha Sa': R'."
+          "indian": "Ga' Re': Re': Re' Ga' Re' Sa' Ni Dha Sa': R'.",
+          "western": "E' D': D': D' E' D' C' B A C': R'."
         },
         {
           "lyrics": "Tu meri amaanat hai haan",
-          "indian": "Ga' Re': Re' Ga' ma' Ga' Sa' Ni Dha Sa': .N:"
+          "indian": "Ga' Re': Re' Ga' ma' Ga' Sa' Ni Dha Sa': .N:",
+          "western": "E' D': D' E' F' E' C' B A C': .N:"
         },
         {
           "lyrics": "Apne karam ki kar adaayein",
-          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Re' Ga' Re'"
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Re' Ga' Re'",
+          "western": "C' B G A C' B G A D': D' E' D'"
         },
         {
           "lyrics": "Karde idhar bhi tu nighaahein",
-          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Ga' R'."
+          "indian": "Sa' Ni Pa Dha Sa' Ni Pa Dha Re': Ga' R'.",
+          "western": "C' B G A C' B G A D': E' R'."
         },
         {
           "lyrics": "Sun raha hai na tu",
-          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:"
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha:",
+          "western": "A B C' B B A: A:"
         },
         {
           "lyrics": "Ro raha hun main",
-          "indian": "Dha Ni Pa Dha Dha Ni: Ni:"
+          "indian": "Dha Ni Pa Dha Dha Ni: Ni:",
+          "western": "A B G A A B: B:"
         },
         {
           "lyrics": "Sun raha hai na tu",
-          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma"
+          "indian": "Dha Ni Sa' Ni Ni Dha: Dha Pa Dha Pa ma",
+          "western": "A B C' B B A: A G A G F"
         },
         {
           "lyrics": "Kyun ro raha hu main",
-          "indian": "ma ma Dha Dha Dha Dha Ga:"
+          "indian": "ma ma Dha Dha Dha Dha Ga:",
+          "western": "F F A A A A E:"
         }
       ]
     }

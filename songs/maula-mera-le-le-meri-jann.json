@@ -15,51 +15,63 @@
       "lines": [
         {
           "lyrics": "Teejaa tera raang tha mai toh",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'",
+          "western": "C' C' C' C' B C' D' C' C' C'"
         },
         {
           "lyrics": "Teejaa tera raang tha mai toh",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'",
+          "western": "C' C' C' C' B C' D' C' C' C'"
         },
         {
           "lyrics": "Jiyaa teraa dhang sai mai toh",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'",
+          "western": "C' C' C' C' B C' D' C' C' C'"
         },
         {
           "lyrics": "Tuhii thaa maula tu hi aan",
-          "indian": "Ni Sa' Ni D(K).P Pa ma Pa ma ma Ga Re Sa."
+          "indian": "Ni Sa' Ni D(K).P Pa ma Pa ma ma Ga Re Sa.",
+          "western": "B C' B D(K).P G F G F F E D c"
         },
         {
           "lyrics": "Maulaa mera le le meri jaan",
-          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa.",
+          "western": "C C F D F G D(K).N(K) D(K).P g"
         },
         {
           "lyrics": "Maulaa mere le le meri jaan",
-          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa.",
+          "western": "C C F D F G D(K).N(K) D(K).P g"
         },
         {
           "lyrics": "Teejaa tera rang tha mai toh",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'",
+          "western": "C' C' C' C' B C' D' C' C' C'"
         },
         {
           "lyrics": "Teejaa tera rang tha mai toh",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'",
+          "western": "C' C' C' C' B C' D' C' C' C'"
         },
         {
           "lyrics": "Jiyaa tera dhang sai mai toh",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'",
+          "western": "C' C' C' C' B C' D' C' C' C'"
         },
         {
           "lyrics": "Tuhii tha maula tu hi aan",
-          "indian": "Ni Sa' Ni D(K).P Pa ma Pa ma ma Ga Re Sa."
+          "indian": "Ni Sa' Ni D(K).P Pa ma Pa ma ma Ga Re Sa.",
+          "western": "B C' B D(K).P G F G F F E D c"
         },
         {
           "lyrics": "Maulaa mera le le meri jaan",
-          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa.",
+          "western": "C C F D F G D(K).N(K) D(K).P g"
         },
         {
           "lyrics": "Maulaa mere le le meri jaan",
-          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa.",
+          "western": "C C F D F G D(K).N(K) D(K).P g"
         }
       ]
     }

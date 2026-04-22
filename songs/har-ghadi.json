@@ -15,107 +15,133 @@
       "lines": [
         {
           "lyrics": "Harr ghadi badal rahi roop zindagi",
-          "indian": "Sa': Ni Sa' Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+          "indian": "Sa': Ni Sa' Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:",
+          "western": "C': B C' B C' B C' E' D' C' B: A B A B:"
         },
         {
           "lyrics": "Chaavv hai kabhi kabhi hai dhoop zindagi",
-          "indian": "Sa': Ni Sa Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+          "indian": "Sa': Ni Sa Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:",
+          "western": "C': B C B C' B C' E' D' C' B: A B A B:"
         },
         {
           "lyrics": "Harr pal yaha",
-          "indian": "Pa Dha Sa' Dha: ."
+          "indian": "Pa Dha Sa' Dha: .",
+          "western": "G A C' A: ."
         },
         {
           "lyrics": "Jeee bhar jio joo hai saman",
-          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma"
+          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma",
+          "western": "F G A G: G A C' A: G F"
         },
         {
           "lyrics": "Kall ho na ho",
-          "indian": "ma Ni(k) Dha Pa:"
+          "indian": "ma Ni(k) Dha Pa:",
+          "western": "F Bb A G:"
         },
         {
           "lyrics": "Harr ghadi badal rahi roop zindagi",
-          "indian": "Sa': Ni Sa' Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+          "indian": "Sa': Ni Sa' Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:",
+          "western": "C': B C' B C' B C' E' D' C' B: A B A B:"
         },
         {
           "lyrics": "Chaavv hai kabhi kabhi hai dhoop zindagi",
-          "indian": "Sa': Ni Sa Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:"
+          "indian": "Sa': Ni Sa Ni Sa' Ni Sa' Ga' Re' Sa' Ni: Dha Ni Dha Ni:",
+          "western": "C': B C B C' B C' E' D' C' B: A B A B:"
         },
         {
           "lyrics": "Harr pal yaha",
-          "indian": "Pa Dha Sa' Dha: ."
+          "indian": "Pa Dha Sa' Dha: .",
+          "western": "G A C' A: ."
         },
         {
           "lyrics": "Jeee bhar jio joo hai saman",
-          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma"
+          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma",
+          "western": "F G A G: G A C' A: G F"
         },
         {
           "lyrics": "Kall ho na ho",
-          "indian": "ma Ni(k) Dha Pa:"
+          "indian": "ma Ni(k) Dha Pa:",
+          "western": "F Bb A G:"
         },
         {
           "lyrics": "Chaahee jo tumhe pure dil se",
-          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa'"
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa'",
+          "western": "B C' F' E' D': B A B C'"
         },
         {
           "lyrics": "Miltaa hai wo muskhil se",
-          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa' Pa Dha Pa"
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa' Pa Dha Pa",
+          "western": "B C' F' E' D': B A B C' G A G"
         },
         {
           "lyrics": "Aisaa jo koi kahi hai",
-          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa'"
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa'",
+          "western": "B C' F' E' D': B A B C'"
         },
         {
           "lyrics": "Bass wohi sabse hasin hai",
-          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa' Pa Dha Pa"
+          "indian": "Ni Sa' ma' Ga' Re': Ni Dha Ni Sa' Pa Dha Pa",
+          "western": "B C' F' E' D': B A B C' G A G"
         },
         {
           "lyrics": "Uss Hath koo tum tham lo",
-          "indian": "Pa Dha Sa' Dha: ma Pa Dha Pa"
+          "indian": "Pa Dha Sa' Dha: ma Pa Dha Pa",
+          "western": "G A C' A: F G A G"
         },
         {
           "lyrics": "Wohh mehbarn kall ho na ho",
-          "indian": "Pa Dha Sa' Dha: Pa ma: ma: Ni(k) Dha Pa"
+          "indian": "Pa Dha Sa' Dha: Pa ma: ma: Ni(k) Dha Pa",
+          "western": "G A C' A: G F: F: Bb A G"
         },
         {
           "lyrics": "Har pall yahan",
-          "indian": "Pa Dha Sa' Dha:"
+          "indian": "Pa Dha Sa' Dha:",
+          "western": "G A C' A:"
         },
         {
           "lyrics": "Jee bhar jiyo joo haii saman",
-          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma"
+          "indian": "ma Pa Dha Pa: Pa Dha Sa' Dha: Pa ma",
+          "western": "F G A G: G A C' A: G F"
         },
         {
           "lyrics": "Kal ho na hoo",
-          "indian": "ma Ni(k) Dha Pa:"
+          "indian": "ma Ni(k) Dha Pa:",
+          "western": "F Bb A G:"
         },
         {
           "lyrics": "Palko ke le sayee",
-          "indian": "Ni Sa' Re' Pa Pa: Pa Dha Pa: .m Ga ma Pa: ."
+          "indian": "Ni Sa' Re' Pa Pa: Pa Dha Pa: .m Ga ma Pa: .",
+          "western": "B C' D' G G: G A G: .m E F G: ."
         },
         {
           "lyrics": "Pass koi jo aayee",
-          "indian": "Ni Sa' Re' Pa Pa: Pa Dha Pa: .m Ga ma Dha: ."
+          "indian": "Ni Sa' Re' Pa Pa: Pa Dha Pa: .m Ga ma Dha: .",
+          "western": "B C' D' G G: G A G: .m E F A: ."
         },
         {
           "lyrics": "Lakh samhalo pagal dil koo",
-          "indian": "Ni Sa' ma' Ga' Re': Re' Ga' Sa' Ni:"
+          "indian": "Ni Sa' ma' Ga' Re': Re' Ga' Sa' Ni:",
+          "western": "B C' F' E' D': D' E' C' B:"
         },
         {
           "lyrics": "Paagal dil koo",
-          "indian": "Ni Sa' ma' Ga' Re': Re' Ga' Sa' Ni:"
+          "indian": "Ni Sa' ma' Ga' Re': Re' Ga' Sa' Ni:",
+          "western": "B C' F' E' D': D' E' C' B:"
         },
         {
           "lyrics": "Dil dhadke hi jaayee",
-          "indian": "Ni Sa' ma' Pa' Ga' Re' Ga' Ni Dha Ni Sa': Pa Dha Pa: ."
+          "indian": "Ni Sa' ma' Pa' Ga' Re' Ga' Ni Dha Ni Sa': Pa Dha Pa: .",
+          "western": "B C' F' G' E' D' E' B A B C': G A G: ."
         },
         {
           "lyrics": "Par soch lo is pal hai joo",
-          "indian": "Pa Dha Sa' Dha: ma Pa Dha Pa:"
+          "indian": "Pa Dha Sa' Dha: ma Pa Dha Pa:",
+          "western": "G A C' A: F G A G:"
         },
         {
           "lyrics": "Woh Dastan kal ho na hoo",
-          "indian": "Pa Dha Sa' Dha: Pa ma ma Ni(k) Dha Pa:"
+          "indian": "Pa Dha Sa' Dha: Pa ma ma Ni(k) Dha Pa:",
+          "western": "G A C' A: G F F Bb A G:"
         }
       ]
     }

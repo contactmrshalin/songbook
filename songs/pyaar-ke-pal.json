@@ -15,67 +15,83 @@
       "lines": [
         {
           "lyrics": "Humm rahe ya na rahe kal",
-          "indian": "Re Ga: Ga ma Pa Pa ma Ga ma"
+          "indian": "Re Ga: Ga ma Pa Pa ma Ga ma",
+          "western": "D E: E F G G F E F"
         },
         {
           "lyrics": "Kall yaad aayeinge ye pal",
-          "indian": "ma: ma: Pa Dha Dha Pa ma Pa:"
+          "indian": "ma: ma: Pa Dha Dha Pa ma Pa:",
+          "western": "F: F: G A A G F G:"
         },
         {
           "lyrics": "Pall yein hai pyar ke pal",
-          "indian": "Ga Re Sa Ga ma Pa Pa ma Ga ma"
+          "indian": "Ga Re Sa Ga ma Pa Pa ma Ga ma",
+          "western": "E D C E F G G F E F"
         },
         {
           "lyrics": "Chal aa mere sang chall",
-          "indian": "ma: ma Pa Dha Dha Pa ma Pa:"
+          "indian": "ma: ma Pa Dha Dha Pa ma Pa:",
+          "western": "F: F G A A G F G:"
         },
         {
           "lyrics": "Chal , soche kyaa",
-          "indian": "Sa': . Ni Sa' Re': Pa: ."
+          "indian": "Sa': . Ni Sa' Re': Pa: .",
+          "western": "C': . B C' D': G: ."
         },
         {
           "lyrics": "Chooti si hai zindagii",
-          "indian": "Dha Ni Sa' ma ma Dha Pa ma Pa:"
+          "indian": "Dha Ni Sa' ma ma Dha Pa ma Pa:",
+          "western": "A B C' F F A G F G:"
         },
         {
           "lyrics": "Kal mil jayein to hogii",
-          "indian": "Sa': . Ni Sa' Re': Pa: .D Ni Sa' ma"
+          "indian": "Sa': . Ni Sa' Re': Pa: .D Ni Sa' ma",
+          "western": "C': . B C' D': G: .D B C' F"
         },
         {
           "lyrics": "Khushnaseebii",
-          "indian": "Dha Pa ma Pa Ga ma Ga Re: Sa: dha pa"
+          "indian": "Dha Pa ma Pa Ga ma Ga Re: Sa: dha pa",
+          "western": "A G F G E F E D: C: a g"
         },
         {
           "lyrics": "Humm rahe ya na rahe kal",
-          "indian": "Re Ga: Ga ma Pa Pa ma Ga ma"
+          "indian": "Re Ga: Ga ma Pa Pa ma Ga ma",
+          "western": "D E: E F G G F E F"
         },
         {
           "lyrics": "Kall yaad aayeinge ye pal",
-          "indian": "ma: ma: Pa Dha Dha Pa ma Pa:"
+          "indian": "ma: ma: Pa Dha Dha Pa ma Pa:",
+          "western": "F: F: G A A G F G:"
         },
         {
           "lyrics": "Pall yein hai pyar ke pal",
-          "indian": "Ga Re Sa Ga ma Pa Pa ma Ga ma"
+          "indian": "Ga Re Sa Ga ma Pa Pa ma Ga ma",
+          "western": "E D C E F G G F E F"
         },
         {
           "lyrics": "Chal , aa mere sang chall",
-          "indian": "ma: ma Pa Dha Dha Pa ma Pa:"
+          "indian": "ma: ma Pa Dha Dha Pa ma Pa:",
+          "western": "F: F G A A G F G:"
         },
         {
           "lyrics": "Chal , soche kyaa",
-          "indian": "Sa': . Ni Sa' Re': Pa: ."
+          "indian": "Sa': . Ni Sa' Re': Pa: .",
+          "western": "C': . B C' D': G: ."
         },
         {
           "lyrics": "Chooti si hai zindagii",
-          "indian": "Dha Ni Sa' ma ma Dha Pa ma Pa:"
+          "indian": "Dha Ni Sa' ma ma Dha Pa ma Pa:",
+          "western": "A B C' F F A G F G:"
         },
         {
           "lyrics": "Kal mil jayein to hogii",
-          "indian": "Sa': . Ni Sa' Re': Pa: .D Ni Sa' ma"
+          "indian": "Sa': . Ni Sa' Re': Pa: .D Ni Sa' ma",
+          "western": "C': . B C' D': G: .D B C' F"
         },
         {
           "lyrics": "Khushnaseebii",
-          "indian": "Dha Pa ma Pa Ga ma Ga Re: Sa: dha pa"
+          "indian": "Dha Pa ma Pa Ga ma Ga Re: Sa: dha pa",
+          "western": "A G F G E F E D: C: a g"
         }
       ]
     }

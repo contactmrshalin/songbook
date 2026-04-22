@@ -14,59 +14,73 @@
       "lines": [
         {
           "lyrics": "Tujhse naaraz nahi",
-          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha"
+          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha",
+          "western": "G A B A B G: G A"
         },
         {
           "lyrics": "Zindagi",
-          "indian": "Pa: Ga Re Sa"
+          "indian": "Pa: Ga Re Sa",
+          "western": "G: E D C"
         },
         {
           "lyrics": "Hairaan hoon main",
-          "indian": "Sa Ga Ga Ga Ga"
+          "indian": "Sa Ga Ga Ga Ga",
+          "western": "C E E E E"
         },
         {
           "lyrics": "Ho.. hairaan hoon main",
-          "indian": "Ga: Sa Ga Re Re Re"
+          "indian": "Ga: Sa Ga Re Re Re",
+          "western": "E: C E D D D"
         },
         {
           "lyrics": "Tere masum sawaalon se",
-          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha: Pa Ga"
+          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha: Pa Ga",
+          "western": "G A B A B G: G A: G E"
         },
         {
           "lyrics": "Pareshaan hoon main",
-          "indian": "Re Sa Sa Ga: Ga Ga: Ga"
+          "indian": "Re Sa Sa Ga: Ga Ga: Ga",
+          "western": "D C C E: E E: E"
         },
         {
           "lyrics": "Ho pareshaan hoon main",
-          "indian": "Sa': Ni Dha: Dha Ni: Dha Pa: Pa"
+          "indian": "Sa': Ni Dha: Dha Ni: Dha Pa: Pa",
+          "western": "C': B A: A B: A G: G"
         },
         {
           "lyrics": "Tujhse naaraz nahi",
-          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha"
+          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha",
+          "western": "G A B A B G: G A"
         },
         {
           "lyrics": "Zindagi",
-          "indian": "Pa: Ga Re Sa"
+          "indian": "Pa: Ga Re Sa",
+          "western": "G: E D C"
         },
         {
           "lyrics": "Hairaan hoon main",
-          "indian": "Sa Ga Ga Ga Ga"
+          "indian": "Sa Ga Ga Ga Ga",
+          "western": "C E E E E"
         },
         {
           "lyrics": "Hooo. hairaan hoon main",
-          "indian": "Ga: ma Ga Re Sa Sa Ga Re Re Re"
+          "indian": "Ga: ma Ga Re Sa Sa Ga Re Re Re",
+          "western": "E: F E D C C E D D D"
         },
         {
           "lyrics": "Tere masum sawaalon se",
-          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha: Pa Ga"
+          "indian": "Pa Dha Ni Dha Ni Pa: Pa Dha: Pa Ga",
+          "western": "G A B A B G: G A: G E"
         },
         {
           "lyrics": "Pareshaan hoon main",
-          "indian": "Re Sa Sa Ga: Ga Ga: Ga"
+          "indian": "Re Sa Sa Ga: Ga Ga: Ga",
+          "western": "D C C E: E E: E"
         },
         {
           "lyrics": "Ho pareshaan hoon main",
-          "indian": "Sa': Ni Dha: Dha Ni: Dha Pa: Pa"
+          "indian": "Sa': Ni Dha: Dha Ni: Dha Pa: Pa",
+          "western": "C': B A: A B: A G: G"
         },
         {
           "lyrics": "Music",
@@ -74,15 +88,18 @@
         },
         {
           "lyrics": "Jeene ke liye",
-          "indian": "Ni Sa' Re' Sa' Ni:"
+          "indian": "Ni Sa' Re' Sa' Ni:",
+          "western": "B C' D' C' B:"
         },
         {
           "lyrics": "Socha hi nahi",
-          "indian": "Ni Sa' Re' Sa' Ni:"
+          "indian": "Ni Sa' Re' Sa' Ni:",
+          "western": "B C' D' C' B:"
         },
         {
           "lyrics": "Dard sambhalne honge",
-          "indian": "Dha: Dha Dha: Ni Dha Ga: Pa"
+          "indian": "Dha: Dha Dha: Ni Dha Ga: Pa",
+          "western": "A: A A: B A E: G"
         },
         {
           "lyrics": "Flute Piece",
@@ -90,59 +107,73 @@
         },
         {
           "lyrics": "Jeene ke liye",
-          "indian": "Ni Sa' Re' Sa' Ni:"
+          "indian": "Ni Sa' Re' Sa' Ni:",
+          "western": "B C' D' C' B:"
         },
         {
           "lyrics": "Socha hi nahi",
-          "indian": "Ni Sa' Re' Sa' Ni:"
+          "indian": "Ni Sa' Re' Sa' Ni:",
+          "western": "B C' D' C' B:"
         },
         {
           "lyrics": "Dard sambhalne honge",
-          "indian": "Dha: Dha Dha: Ni Dha Ga: Pa"
+          "indian": "Dha: Dha Dha: Ni Dha Ga: Pa",
+          "western": "A: A A: B A E: G"
         },
         {
           "lyrics": "Muskuraaye toh",
-          "indian": "Ni Sa' Re' Sa' Ni:"
+          "indian": "Ni Sa' Re' Sa' Ni:",
+          "western": "B C' D' C' B:"
         },
         {
           "lyrics": "Muskuraane ke",
-          "indian": "Ni Sa' Re' Sa' Ni:"
+          "indian": "Ni Sa' Re' Sa' Ni:",
+          "western": "B C' D' C' B:"
         },
         {
           "lyrics": "Karz utarne honge",
-          "indian": "Dha Dha Dha Dha: Ni Dha Ga: Pa"
+          "indian": "Dha Dha Dha Dha: Ni Dha Ga: Pa",
+          "western": "A A A A: B A E: G"
         },
         {
           "lyrics": "Hoo muskuraaun kabhi",
-          "indian": "Sa': Ni Dha Ni Dha Dha Dha"
+          "indian": "Sa': Ni Dha Ni Dha Dha Dha",
+          "western": "C': B A B A A A"
         },
         {
           "lyrics": "Toh lagta hai",
-          "indian": "Ni Re' Sa' Dha Dha: Dha"
+          "indian": "Ni Re' Sa' Dha Dha: Dha",
+          "western": "B D' C' A A: A"
         },
         {
           "lyrics": "Jaise hothon pe",
-          "indian": "Ma Dha Ma Dha Re"
+          "indian": "Ma Dha Ma Dha Re",
+          "western": "F# A F# A D"
         },
         {
           "lyrics": "karz rakha hai",
-          "indian": "Ga dha Sa dha"
+          "indian": "Ga dha Sa dha",
+          "western": "E a C a"
         },
         {
           "lyrics": "Hoo tujhse naaraz nahi",
-          "indian": "Pa Pa Dha Ni Dha Ni Pa: Pa Dha"
+          "indian": "Pa Pa Dha Ni Dha Ni Pa: Pa Dha",
+          "western": "G G A B A B G: G A"
         },
         {
           "lyrics": "Zindagi",
-          "indian": "Pa: Ga Re Sa"
+          "indian": "Pa: Ga Re Sa",
+          "western": "G: E D C"
         },
         {
           "lyrics": "Hairaan hoon main",
-          "indian": "Sa Ga Ga Ga Ga"
+          "indian": "Sa Ga Ga Ga Ga",
+          "western": "C E E E E"
         },
         {
           "lyrics": "Ho.. hairaan hoon main",
-          "indian": "Sa': Ni Dha: Dha Ni: Dha Pa: Pa"
+          "indian": "Sa': Ni Dha: Dha Ni: Dha Pa: Pa",
+          "western": "C': B A: A B: A G: G"
         }
       ]
     }

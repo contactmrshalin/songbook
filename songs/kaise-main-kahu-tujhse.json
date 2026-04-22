@@ -13,12 +13,12 @@
         {
           "lyrics": "Instrumental Phrase 1",
           "indian": "Ga... Dha... (Dha Dha) (Pa Dha Ni Dha Ni Dha Pa)",
-          "western": "E... A... (A A) (G A B A B A G)"
+          "western": "e.. a.. (A A) (G A B A B A G)"
         },
         {
           "lyrics": "Instrumental Phrase 2",
           "indian": "Ga... Dha... (Dha Dha) (Pa Dha Ni Dha Ni Dha Pa Dha Ni...)",
-          "western": "E... A... (A A) (G A B A B A G A B...)"
+          "western": "e.. a.. (A A) (G A B A B A G A b..)"
         }
       ]
     },
@@ -28,12 +28,12 @@
         {
           "lyrics": "Kaise mai kahu tujhase",
           "indian": "Sa... Re... Ga (ma Ga) Re... Sa... Ni... Dha... Pa... Dha... Re...",
-          "western": "C... D... E (F E) D... C... B... A... G... A... D..."
+          "western": "c.. d.. E (F E) d.. c.. b.. a.. g.. a.. d.."
         },
         {
           "lyrics": "Rehna hai tere dil me",
           "indian": "Sa... Re... Ga... Dha... Pa... Ga... Re... Sa... Dha... Pa... Dha...",
-          "western": "C... D... E... A... G... E... D... C... A... G... A..."
+          "western": "c.. d.. e.. a.. g.. e.. d.. c.. a.. g.. a.."
         }
       ]
     }

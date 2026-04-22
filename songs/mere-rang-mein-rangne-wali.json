@@ -15,27 +15,27 @@
         {
           "lyrics": "Mere rang mein rangne waali",
           "indian": "Ga..Ga..Ga..Sa'..Sa'... Sa'..Re'..Ga'..Re'...Sa'...",
-          "western": "E..E..E..C'..C'... C'..D'..E'..D'...C'..."
+          "western": "e.e.e.C'..C'... C'..D'..E'..D'...C'..."
         },
         {
           "lyrics": "Pari ho ya ho pariyon ki rani",
           "indian": "Re..Re...Ni..Ni...Ni... Dha..Ni..Sa'..Ni...Dha..",
-          "western": "D..D...B..B...B... A..B..C'..B...A.."
+          "western": "d.d..b.b..b.. a.b.C'..b..a."
         },
         {
           "lyrics": "Ya ho meri prem kahaani",
           "indian": "Sa...Sa..Dha..Dha...Dha... Dha(k)..Dha..Ni..Dha...Dha(k)..",
-          "western": "C...C..A..A...A... Ab..A..B..A...Ab.."
+          "western": "c..c.a.a..a.. ab.a.b.a..ab."
         },
         {
           "lyrics": "Mere savaalon ka jawaab do",
           "indian": "Dha..Dha...Dha..Ni...Sa'...ma'... Ga'..Re'...Sa'..Ga'...",
-          "western": "A..A...A..B...C'...F'... E'..D'...C'..E'..."
+          "western": "a.a..a.b..C'...F'... E'..D'...C'..E'..."
         },
         {
           "lyrics": "Do na",
           "indian": "Ni...Dha...",
-          "western": "B...A..."
+          "western": "b..a.."
         }
       ]
     },
@@ -45,27 +45,27 @@
         {
           "lyrics": "Mere rang mein rangne waali",
           "indian": "Ga..Ga..Ga..Sa'..Sa'... Sa'..Re'..Ga'..Re'...Sa'...",
-          "western": "E..E..E..C'..C'... C'..D'..E'..D'...C'..."
+          "western": "e.e.e.C'..C'... C'..D'..E'..D'...C'..."
         },
         {
           "lyrics": "Pari ho ya ho pariyon ki rani",
           "indian": "Re..Re...Ni..Ni...Ni... Dha..Ni..Sa'..Ni...Dha..",
-          "western": "D..D...B..B...B... A..B..C'..B...A.."
+          "western": "d.d..b.b..b.. a.b.C'..b..a."
         },
         {
           "lyrics": "Ya ho meri prem kahaani",
           "indian": "Sa...Sa..Dha..Dha...Dha... Dha(k)..Dha..Ni..Dha...Dha(k)..",
-          "western": "C...C..A..A...A... Ab..A..B..A...Ab.."
+          "western": "c..c.a.a..a.. ab.a.b.a..ab."
         },
         {
           "lyrics": "Mere savaalon ka jawaab do",
           "indian": "Dha..Dha...Dha..Ni...Sa'...ma'... Ga'..Re'...Sa'..Ga'...",
-          "western": "A..A...A..B...C'...F'... E'..D'...C'..E'..."
+          "western": "a.a..a.b..C'...F'... E'..D'...C'..E'..."
         },
         {
           "lyrics": "Do na",
           "indian": "Ni...Dha...",
-          "western": "B...A..."
+          "western": "b..a.."
         }
       ]
     },
@@ -80,7 +80,7 @@
         {
           "lyrics": "Takte hain yoon mukhde ko tumhaare",
           "indian": "Re'..Sa'..Ni..Re'...Sa'..Ni..Re'...Sa'..Ni..Sa'...Sa'..",
-          "western": "D'..C'..B..D'...C'..B..D'...C'..B..C'...C'.."
+          "western": "D'..C'..b.D'...C'..b.D'...C'..b.C'...C'.."
         }
       ]
     },
@@ -95,17 +95,17 @@
         {
           "lyrics": "Takte hain yoon mukhde ko tumhaare",
           "indian": "Re'..Sa'..Ni..Re'...Sa'..Ni..Re'...Sa'..Ni..Sa'...Sa'..",
-          "western": "D'..C'..B..D'...C'..B..D'...C'..B..C'...C'.."
+          "western": "D'..C'..b.D'...C'..b.D'...C'..b.C'...C'.."
         },
         {
           "lyrics": "Chhooke badan ko hava kyon mehki",
           "indian": "Sa'..Ni..Dha..Sa'...Ni..Dha..Sa'...Ni..Dha..Ni...Ni..",
-          "western": "C'..B..A..C'...B..A..C'...B..A..B...B.."
+          "western": "C'..b.a.C'...b.a.C'...b.a.b..b."
         },
         {
           "lyrics": "Raat bhi hai behki behki",
           "indian": "Ni..Dha..Ga..Ni...Dha..Ga..Ni...Dha..Dha(k)..Dha...Dha..",
-          "western": "B..A..E..B...A..E..B...A..Ab..A...A.."
+          "western": "b.a.e.b..a.e.b..a.ab.a..a."
         }
       ]
     },
@@ -115,12 +115,12 @@
         {
           "lyrics": "Mere savaalon ka jawaab do",
           "indian": "Dha..Dha...Dha..Ni...Sa'...ma'... Ga'..Re'...Sa'..Ga'...",
-          "western": "A..A...A..B...C'...F'... E'..D'...C'..E'..."
+          "western": "a.a..a.b..C'...F'... E'..D'...C'..E'..."
         },
         {
           "lyrics": "Do na",
           "indian": "Ni...Dha...",
-          "western": "B...A..."
+          "western": "b..a.."
         }
       ]
     }

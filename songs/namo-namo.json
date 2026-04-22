@@ -15,91 +15,113 @@
       "lines": [
         {
           "lyrics": "Jai hoo jai hoo shankaraa",
-          "indian": "dha dha Sa Sa Re Re Ga Re"
+          "indian": "dha dha Sa Sa Re Re Ga Re",
+          "western": "a a C C D D E D"
         },
         {
           "lyrics": "Bholenath shankaraa",
-          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+          "indian": "Sa Sa Sa Sa Sa Sa Sa",
+          "western": "C C C C C C C"
         },
         {
           "lyrics": "Adii dev shankaraa",
-          "indian": "Re Ga ma Pa Ga Re Ga Re"
+          "indian": "Re Ga ma Pa Ga Re Ga Re",
+          "western": "D E F G E D E D"
         },
         {
           "lyrics": "Jaii shivaay shankaraa",
-          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+          "indian": "Sa Sa Sa Sa Sa Sa Sa",
+          "western": "C C C C C C C"
         },
         {
           "lyrics": "Teree jaap kee binaa",
-          "indian": "dha dha Sa Sa Re Re Ga Re"
+          "indian": "dha dha Sa Sa Re Re Ga Re",
+          "western": "a a C C D D E D"
         },
         {
           "lyrics": "Bholenath shankaraa",
-          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+          "indian": "Sa Sa Sa Sa Sa Sa Sa",
+          "western": "C C C C C C C"
         },
         {
           "lyrics": "Chalee yee saans kis tarahh",
-          "indian": "Re Re Ga ma Pa Ga Re Ga Re"
+          "indian": "Re Re Ga ma Pa Ga Re Ga Re",
+          "western": "D D E F G E D E D"
         },
         {
           "lyrics": "Jaii shivaay shankaraa",
-          "indian": "Sa Sa Sa Sa Sa Sa Sa"
+          "indian": "Sa Sa Sa Sa Sa Sa Sa",
+          "western": "C C C C C C C"
         },
         {
           "lyrics": "Mere karamm tuu hi jaanee",
-          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Ni Dha."
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Ni Dha.",
+          "western": "C' C' C' C' B C' B a"
         },
         {
           "lyrics": "Kyaa buraa haii kyaa bhalaa",
-          "indian": "Pa Dha Pa ma ma ma Pa:"
+          "indian": "Pa Dha Pa ma ma ma Pa:",
+          "western": "G A G F F F G:"
         },
         {
           "lyrics": "Teree rastee pee main tohh",
-          "indian": "Sa' Sa' Re' Re' Ni Ni Dha Pa"
+          "indian": "Sa' Sa' Re' Re' Ni Ni Dha Pa",
+          "western": "C' C' D' D' B B A G"
         },
         {
           "lyrics": "Aankh moond kee chalaa",
-          "indian": "Pa Dha Pa ma ma Dha Pa:"
+          "indian": "Pa Dha Pa ma ma Dha Pa:",
+          "western": "G A G F F A G:"
         },
         {
           "lyrics": "Teree naam kii",
-          "indian": "Pa Pa Pa Dha Pa Dha Pa ma Ga Re"
+          "indian": "Pa Pa Pa Dha Pa Dha Pa ma Ga Re",
+          "western": "G G G A G A G F E D"
         },
         {
           "lyrics": "Joot neee",
-          "indian": "Pa Dha Pa Dha Pa ma Ga Re"
+          "indian": "Pa Dha Pa Dha Pa ma Ga Re",
+          "western": "G A G A G F E D"
         },
         {
           "lyrics": "Saaraa har liyaa tamas meraa",
-          "indian": "Re Ga Ga ma Ga Re Re Sa Sa:"
+          "indian": "Re Ga Ga ma Ga Re Re Sa Sa:",
+          "western": "D E E F E D D C C:"
         },
         {
           "lyrics": "Namoo namoo ji shankaraa",
-          "indian": "Re Re Ga Ga Ga Re Ga Ga"
+          "indian": "Re Re Ga Ga Ga Re Ga Ga",
+          "western": "D D E E E D E E"
         },
         {
           "lyrics": "Bholenath shankaaraa",
-          "indian": "Re Ga Ga Ga Re Ga Ga"
+          "indian": "Re Ga Ga Ga Re Ga Ga",
+          "western": "D E E E D E E"
         },
         {
           "lyrics": "Jaii trilok nath shambhu",
-          "indian": "Re Re Re Re Re Re Re Re"
+          "indian": "Re Re Re Re Re Re Re Re",
+          "western": "D D D D D D D D"
         },
         {
           "lyrics": "Hey shivaay shankaraa",
-          "indian": "Re Sa Ga Re Sa Sa Sa"
+          "indian": "Re Sa Ga Re Sa Sa Sa",
+          "western": "D C E D C C C"
         },
         {
           "lyrics": "Namoo namoo ji shankaraa",
-          "indian": "Re Re Ga Ga Ga Re Ga Ga"
+          "indian": "Re Re Ga Ga Ga Re Ga Ga",
+          "western": "D D E E E D E E"
         },
         {
           "lyrics": "Bholenath shankaaraa",
-          "indian": "Re Ga Ga Ga Re Ga Ga"
+          "indian": "Re Ga Ga Ga Re Ga Ga",
+          "western": "D E E E D E E"
         },
         {
           "lyrics": "Rudra dev hai maheshwara",
-          "indian": "Re Re Re Re Re Sa Ga Re Sa:"
+          "indian": "Re Re Re Re Re Sa Ga Re Sa:",
+          "western": "D D D D D C E D C:"
         }
       ]
     }

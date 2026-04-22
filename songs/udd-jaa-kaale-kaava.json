@@ -15,115 +15,143 @@
       "lines": [
         {
           "lyrics": "Udja kale kawa tere",
-          "indian": "Re Re Re Ga Re Re Re ni dha pa dha"
+          "indian": "Re Re Re Ga Re Re Re ni dha pa dha",
+          "western": "D D D E D D D b a g a"
         },
         {
           "lyrics": "Munh vich khand paavan",
-          "indian": "Re Re Re Re Ga Re Re"
+          "indian": "Re Re Re Re Ga Re Re",
+          "western": "D D D D E D D"
         },
         {
           "lyrics": "Udd ja kale kawan tere",
-          "indian": "Re Re Re Ga Re Re Re ni dha pa dha"
+          "indian": "Re Re Re Ga Re Re Re ni dha pa dha",
+          "western": "D D D E D D D b a g a"
         },
         {
           "lyrics": "Munh vich khand paavan",
-          "indian": "Re Re Re Re Ga Re Re"
+          "indian": "Re Re Re Re Ga Re Re",
+          "western": "D D D D E D D"
         },
         {
           "lyrics": "Le ja tu sandesha mera",
-          "indian": "Re Re Re Ga Re Re Re ni dha pa dha"
+          "indian": "Re Re Re Ga Re Re Re ni dha pa dha",
+          "western": "D D D E D D D b a g a"
         },
         {
           "lyrics": "Main sadke jaavan",
-          "indian": "Re Re Re Re Ga Re Re"
+          "indian": "Re Re Re Re Ga Re Re",
+          "western": "D D D D E D D"
         },
         {
           "lyrics": "Baagon mein phir jhule pad gaye",
-          "indian": "Ni Ni Ni Ni Ni Dha: Ni: Dha Pa Pa"
+          "indian": "Ni Ni Ni Ni Ni Dha: Ni: Dha Pa Pa",
+          "western": "B B B B B A: B: A G G"
         },
         {
           "lyrics": "Pak gaiyan mithiyan ambiyan",
-          "indian": "Pa Dha Dha Pa Ga Re Ga Pa Pa Pa Pa"
+          "indian": "Pa Dha Dha Pa Ga Re Ga Pa Pa Pa Pa",
+          "western": "G A A G E D E G G G G"
         },
         {
           "lyrics": "Yeh chhoti si zindagi te",
-          "indian": "Pa Pa Pa Pa Ma Dha Pa Ma Ga Ga"
+          "indian": "Pa Pa Pa Pa Ma Dha Pa Ma Ga Ga",
+          "western": "G G G G F# A G F# E E"
         },
         {
           "lyrics": "Raataan lambiyan lambiyan",
-          "indian": "Sa Re Re Re Re Ga Re Sa Re Re."
+          "indian": "Sa Re Re Re Re Ga Re Sa Re Re.",
+          "western": "C D D D D E D C D d"
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:",
+          "western": "C b a a g g a a D D:"
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa",
+          "western": "D C D C b a b a g g"
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:",
+          "western": "C b a a g g a a D D:"
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa",
+          "western": "D C D C b a b a g g"
         },
         {
           "lyrics": "Chham chham karta aaya mausam",
-          "indian": "ni Re Re: Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga"
+          "indian": "ni Re Re: Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga",
+          "western": "b D D: D E E: E F# F# G F# E E"
         },
         {
           "lyrics": "Pyar ke geeton ka ho ho",
-          "indian": "Sa Re Re Re: Ga Re Re Pa Ma Pa Ma Ga"
+          "indian": "Sa Re Re Re: Ga Re Re Pa Ma Pa Ma Ga",
+          "western": "C D D D: E D D G F# G F# E"
         },
         {
           "lyrics": "Chham chham karta aaya mausam",
-          "indian": "ni Re Re: Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga"
+          "indian": "ni Re Re: Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga",
+          "western": "b D D: D E E: E F# F# G F# E E"
         },
         {
           "lyrics": "Pyar ke geeton ka",
-          "indian": "Sa Re Re Re: Ga Re Re"
+          "indian": "Sa Re Re Re: Ga Re Re",
+          "western": "C D D D: E D D"
         },
         {
           "lyrics": "Raste pe ankhiyan rasta dekhein",
-          "indian": "ni Re Re Re Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga"
+          "indian": "ni Re Re Re Re Ga Ga: Ga Ma Ma Pa Ma Ga Ga",
+          "western": "b D D D D E E: E F# F# G F# E E"
         },
         {
           "lyrics": "Bichhde meeton ka",
-          "indian": "Sa Re Re Re: Ga Re Re"
+          "indian": "Sa Re Re Re: Ga Re Re",
+          "western": "C D D D: E D D"
         },
         {
           "lyrics": "Saari saari raat jagayein",
-          "indian": "Ni Ni Ni Ni Dha Ni Dha Pa Pa"
+          "indian": "Ni Ni Ni Ni Dha Ni Dha Pa Pa",
+          "western": "B B B B A B A G G"
         },
         {
           "lyrics": "Mujhko teri yaadein",
-          "indian": "Pa Dha Dha Pa Ga Re Ga Pa: Pa Pa"
+          "indian": "Pa Dha Dha Pa Ga Re Ga Pa: Pa Pa",
+          "western": "G A A G E D E G: G G"
         },
         {
           "lyrics": "Mere saare geet bane",
-          "indian": "Pa Pa Pa Pa: Ma Dha Pa Ma Ga Ga"
+          "indian": "Pa Pa Pa Pa: Ma Dha Pa Ma Ga Ga",
+          "western": "G G G G: F# A G F# E E"
         },
         {
           "lyrics": "Mere dil ki fariyadein",
-          "indian": "Sa Re Re Re Re Ga Re Sa Re."
+          "indian": "Sa Re Re Re Re Ga Re Sa Re.",
+          "western": "C D D D D E D C d"
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:",
+          "western": "C b a a g g a a D D:"
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa",
+          "western": "D C D C b a b a g g"
         },
         {
           "lyrics": "Oh ghar aaja pardesi",
-          "indian": "Sa ni dha dha pa pa dha dha Re Re:"
+          "indian": "Sa ni dha dha pa pa dha dha Re Re:",
+          "western": "C b a a g g a a D D:"
         },
         {
           "lyrics": "Ke teri meri ek jindri",
-          "indian": "Re Sa Re Sa ni dha ni dha pa pa"
+          "indian": "Re Sa Re Sa ni dha ni dha pa pa",
+          "western": "D C D C b a b a g g"
         }
       ]
     }

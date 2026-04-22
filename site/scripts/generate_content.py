@@ -26,7 +26,6 @@ import sys
 from pathlib import Path
 from typing import Any
 
-
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SONGS_JSON = REPO_ROOT / "songs.json"
 IMAGES_DIR = REPO_ROOT / "images"
@@ -36,19 +35,20 @@ SITE_DIR = REPO_ROOT / "site"
 CONTENT_DIR = SITE_DIR / "content"
 SONGS_SECTION_DIR = CONTENT_DIR / "songs"
 
-_NOTE_RE = re.compile(r"(Sa|Re|Ga|Ma|Pa|Dha|Ni)(\((?:k|T)\))?([.']?)")
-
+_NOTE_RE = re.compile(
+    r"(Dha|dha|Ni|ni|Sa|Re|Ga|Ma|ma|Pa|pa)"
+    r"(\((?:k|T)\))?"
+    r"(['.])?"
+)
 
 def _read_json(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
-
 def _clean_dir(path: Path) -> None:
     if path.exists():
         shutil.rmtree(path)
     path.mkdir(parents=True, exist_ok=True)
-
 
 def _safe_rel(p: str | None) -> str | None:
     if not p:
@@ -57,7 +57,6 @@ def _safe_rel(p: str | None) -> str | None:
     if ".." in Path(p).parts:
         return None
     return p
-
 
 def _copy_image(rel_path: str, dst_dir: Path) -> str:
     # rel_path is like "images/foo.png"
@@ -77,11 +76,9 @@ def _copy_image(rel_path: str, dst_dir: Path) -> str:
     shutil.copy2(src, dst)
     return filename
 
-
 def _yaml_quote(s: str) -> str:
     # Double-quoted YAML string with basic escaping.
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n") + '"'
-
 
 def _generate_placeholder(title: str, dst_dir: Path) -> str:
     """Create a minimal PNG placeholder so the gallery theme renders a card.
@@ -119,7 +116,6 @@ def _generate_placeholder(title: str, dst_dir: Path) -> str:
     img.save(dst_dir / filename)
     return filename
 
-
 def _write_minimal_png(path: Path) -> None:
     """Write a valid 1×1 grey PNG without any imaging library."""
     import struct
@@ -131,7 +127,6 @@ def _write_minimal_png(path: Path) -> None:
     ihdr = struct.pack(">IIBBBBB", 1, 1, 8, 2, 0, 0, 0)  # 1x1, 8-bit RGB
     raw = zlib.compress(b"\x00\x6b\x72\x80")  # filter-none + grey RGB pixel
     path.write_bytes(sig + _chunk(b"IHDR", ihdr) + _chunk(b"IDAT", raw) + _chunk(b"IEND", b""))
-
 
 def _boolish(v: Any) -> bool:
     """Loose bool coercion matching load_songs._boolish."""
@@ -145,57 +140,45 @@ def _boolish(v: Any) -> bool:
         return v.strip().lower() not in ("false", "f", "0", "no", "n", "off")
     return True
 
-
-def _token_to_note_name(step: str, alter: int) -> str:
-    if alter == 1:
-        return f"{step}#"
-    if alter == -1:
-        return f"{step}b"
-    return step
-
-
 def _indian_to_western(indian: str, mapping: dict[str, Any]) -> str:
     """
-    Best-effort conversion for display:
-    - Sa/Re/Ga/Ma/Pa/Dha/Ni -> C/D/E/F/G/A/B (with flats/sharps for komal/tivra)
-    - preserves separators/ornaments/braces
-    - preserves octave markers '.' and "'" when written as suffixes
+    Convert Indian word-form sargam to Western display notation.
+
+    Conventions:
+      - Middle octave: uppercase  (Sa -> C, Re -> D, ...)
+      - Low octave:    lowercase  (ni -> b, dha -> a, pa -> g)
+      - High octave:   uppercase + apostrophe (Sa' -> C')
+      - Komal:         flat       (Re(k) -> Db)
+      - Tivra:         sharp      (Ma(T) -> F#)
     """
     if not indian or not mapping:
         return ""
 
-    word_to_token = mapping.get("word_to_token", {})
-    komal_word_to_token = mapping.get("komal_word_to_token", {})
-    tivra_word_to_token = mapping.get("tivra_word_to_token", {})
-    token_to_western = mapping.get("token_to_western", {})
+    w2w = mapping.get("word_to_western_display", {})
+    flat_lookup: dict[str, str] = {}
+    for cat in ("shuddh", "low_octave", "komal", "tivra"):
+        flat_lookup.update(w2w.get(cat, {}))
 
     def repl(m: re.Match[str]) -> str:
-        word = m.group(1)
-        acc = m.group(2) or ""
-        octv = m.group(3) or ""
+        note = m.group(1)
+        accidental = m.group(2) or ""
+        octave = m.group(3) or ""
 
-        if acc == "(k)":
-            tok = komal_word_to_token.get(word) or word_to_token.get(word)
-        elif acc == "(T)":
-            tok = tivra_word_to_token.get(word) or word_to_token.get(word)
-        else:
-            tok = word_to_token.get(word)
-
-        if not tok:
-            return m.group(0)
-        tw = token_to_western.get(tok)
-        if not isinstance(tw, dict):
+        key = note + accidental
+        western = flat_lookup.get(key)
+        if western is None:
+            western = flat_lookup.get(note)
+        if western is None:
             return m.group(0)
 
-        step = str(tw.get("step") or "")
-        alter = int(tw.get("alter") or 0)
-        if not step:
-            return m.group(0)
+        if octave == "'":
+            western = western + "'"
+        elif octave == ".":
+            western = western.lower()
 
-        return _token_to_note_name(step, alter) + octv
+        return western
 
     return _NOTE_RE.sub(repl, indian)
-
 
 def build() -> None:
     # Try per-song layout via shared loader
@@ -327,7 +310,6 @@ def build() -> None:
         content_md += " "  # keep content minimal; layout will render from params.songJson
 
         (bundle_dir / "index.md").write_text(content_md, encoding="utf-8")
-
 
 if __name__ == "__main__":
     os.chdir(REPO_ROOT)

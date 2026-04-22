@@ -21,17 +21,17 @@
         {
           "lyrics": "Dil | subah | shaam",
           "indian": "Sa Re | Ga(k) Ga(k)~Ma(T) | Ga(k) | Ga(k) Re(k)..Sa Re(k)",
-          "western": "C D | Eb Eb~F# | Eb | Eb Db..C Db"
+          "western": "C D | Eb Eb~F# | Eb | Eb db.C Db"
         },
         {
           "lyrics": "Par | tumhe | likh | nahin | paaun",
           "indian": "Ni | Ni Ma(T) | Ni | Sa. | Ni Ni.~Pa.",
-          "western": "B | B F# | B | C. | B B.~G."
+          "western": "B | B F# | B | c | B b~g"
         },
         {
           "lyrics": "Main | usaka | naam",
           "indian": "Pa. | Ni. Ni. | Sa…",
-          "western": "G. | B. B. | C…"
+          "western": "g | b b | C…"
         },
         {
           "lyrics": "Haaye | raam",
@@ -76,7 +76,7 @@
         {
           "lyrics": "Main | to | usaka | re",
           "indian": "Pa. | Sa | Ga(k)Re… | (Sa)Re",
-          "western": "G. | C | EbD… | (C)D"
+          "western": "g | C | EbD… | (C)D"
         },
         {
           "lyrics": "hua | diwaana",
@@ -86,7 +86,7 @@
         {
           "lyrics": "Ab | to | jaisa | bhi",
           "indian": "Pa. | Sa | Ga(k)Re…Ga(k) | (Sa)Re",
-          "western": "G. | C | EbD…Eb | (C)D"
+          "western": "g | C | EbD…Eb | (C)D"
         },
         {
           "lyrics": "mera | ho | anjaam | hooo",
@@ -96,7 +96,7 @@
         {
           "lyrics": "(Repeat)",
           "indian": "GuMa hai kisike…",
-          "western": "EuF hai kisike…"
+          "western": "GuF# hai kisike…"
         }
       ]
     },

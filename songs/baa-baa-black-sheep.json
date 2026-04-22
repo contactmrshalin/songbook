@@ -14,51 +14,63 @@
       "lines": [
         {
           "lyrics": "Baa baa black sheep",
-          "indian": "Sa Sa Pa Pa"
+          "indian": "Sa Sa Pa Pa",
+          "western": "C C G G"
         },
         {
           "lyrics": "Have you any wool",
-          "indian": "Dha Dha Dha Dha Pa"
+          "indian": "Dha Dha Dha Dha Pa",
+          "western": "A A A A G"
         },
         {
           "lyrics": "Yes sir yes sir",
-          "indian": "ma ma Ga Ga"
+          "indian": "ma ma Ga Ga",
+          "western": "F F E E"
         },
         {
           "lyrics": "Three bags full",
-          "indian": "Re Re Sa"
+          "indian": "Re Re Sa",
+          "western": "D D C"
         },
         {
           "lyrics": "One for the master",
-          "indian": "Pa Pa Pa ma ma"
+          "indian": "Pa Pa Pa ma ma",
+          "western": "G G G F F"
         },
         {
           "lyrics": "One for the dame",
-          "indian": "Ga Ga Ga Re"
+          "indian": "Ga Ga Ga Re",
+          "western": "E E E D"
         },
         {
           "lyrics": "One for the little boy",
-          "indian": "Pa Pa Pa ma ma ma"
+          "indian": "Pa Pa Pa ma ma ma",
+          "western": "G G G F F F"
         },
         {
           "lyrics": "Who lives down the lane",
-          "indian": "ma Ga Ga Re"
+          "indian": "ma Ga Ga Re",
+          "western": "F E E D"
         },
         {
           "lyrics": "Baa baa black sheep",
-          "indian": "Sa Sa Pa Pa"
+          "indian": "Sa Sa Pa Pa",
+          "western": "C C G G"
         },
         {
           "lyrics": "have you any wool",
-          "indian": "Dha Dha Dha Dha Pa"
+          "indian": "Dha Dha Dha Dha Pa",
+          "western": "A A A A G"
         },
         {
           "lyrics": "Yes sir yes sir",
-          "indian": "ma ma Ga Ga"
+          "indian": "ma ma Ga Ga",
+          "western": "F F E E"
         },
         {
           "lyrics": "Three bags full",
-          "indian": "Re Re Sa"
+          "indian": "Re Re Sa",
+          "western": "D D C"
         }
       ]
     }

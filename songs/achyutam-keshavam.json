@@ -15,67 +15,83 @@
       "lines": [
         {
           "lyrics": "Ashyuutam keshaavam",
-          "indian": "Sa Re Ga Ga ma Ga"
+          "indian": "Sa Re Ga Ga ma Ga",
+          "western": "C D E E F E"
         },
         {
           "lyrics": "Krishnaa daamodaram",
-          "indian": "ni Sa Re Re Ga Re"
+          "indian": "ni Sa Re Re Ga Re",
+          "western": "b C D D E D"
         },
         {
           "lyrics": "Rama narayaanam",
-          "indian": "Sa ni dha dha dha Re"
+          "indian": "Sa ni dha dha dha Re",
+          "western": "C b a a a D"
         },
         {
           "lyrics": "Jaaanki vallabham",
-          "indian": "Re Re Ga Sa ni Sa"
+          "indian": "Re Re Ga Sa ni Sa",
+          "western": "D D E C b C"
         },
         {
           "lyrics": "Kaun kehtaa hai bhagvan",
-          "indian": "Sa Re Ga Ga ma Ga"
+          "indian": "Sa Re Ga Ga ma Ga",
+          "western": "C D E E F E"
         },
         {
           "lyrics": "Aaate nahi",
-          "indian": "ni Sa Re Re Ga Re"
+          "indian": "ni Sa Re Re Ga Re",
+          "western": "b C D D E D"
         },
         {
           "lyrics": "Tum meera kee jaise",
-          "indian": "Sa ni dha dha dha Re Re"
+          "indian": "Sa ni dha dha dha Re Re",
+          "western": "C b a a a D D"
         },
         {
           "lyrics": "Bulaate nahii",
-          "indian": "Re Ga Sa ni Sa"
+          "indian": "Re Ga Sa ni Sa",
+          "western": "D E C b C"
         },
         {
           "lyrics": "Ashyuutam keshaavam",
-          "indian": "Sa Re Ga Ga ma Ga"
+          "indian": "Sa Re Ga Ga ma Ga",
+          "western": "C D E E F E"
         },
         {
           "lyrics": "Krishnaa daamodaram",
-          "indian": "ni Sa Re Re Ga Re"
+          "indian": "ni Sa Re Re Ga Re",
+          "western": "b C D D E D"
         },
         {
           "lyrics": "Rama narayaanam",
-          "indian": "Sa ni dha dha dha Re"
+          "indian": "Sa ni dha dha dha Re",
+          "western": "C b a a a D"
         },
         {
           "lyrics": "Jaaanki vallabham",
-          "indian": "Re Re Ga Sa ni Sa"
+          "indian": "Re Re Ga Sa ni Sa",
+          "western": "D D E C b C"
         },
         {
           "lyrics": "Kaun kehtaa hai bhagvan",
-          "indian": "Sa Re Ga Ga ma Ga"
+          "indian": "Sa Re Ga Ga ma Ga",
+          "western": "C D E E F E"
         },
         {
           "lyrics": "Khaatee nahi",
-          "indian": "ni Sa Re Re Ga Re"
+          "indian": "ni Sa Re Re Ga Re",
+          "western": "b C D D E D"
         },
         {
           "lyrics": "Beer shabrii ke jaise",
-          "indian": "Sa ni dha dha dha Re Re"
+          "indian": "Sa ni dha dha dha Re Re",
+          "western": "C b a a a D D"
         },
         {
           "lyrics": "Khilaate nahii",
-          "indian": "Re Ga Sa ni Sa"
+          "indian": "Re Ga Sa ni Sa",
+          "western": "D E C b C"
         }
       ]
     }

@@ -15,171 +15,213 @@
       "lines": [
         {
           "lyrics": "Preludee",
-          "indian": "Sa Ga Pa Ga. Sa Ga Pa Ga."
+          "indian": "Sa Ga Pa Ga. Sa Ga Pa Ga.",
+          "western": "C E G e C E G e"
         },
         {
           "lyrics": "",
-          "indian": "ni Ga Pa Ga. ni Ga Pa Ga."
+          "indian": "ni Ga Pa Ga. ni Ga Pa Ga.",
+          "western": "b E G e b E G e"
         },
         {
           "lyrics": "",
-          "indian": "dha Sa ma Sa. dha Sa ma Sa."
+          "indian": "dha Sa ma Sa. dha Sa ma Sa.",
+          "western": "a C F c a C F c"
         },
         {
           "lyrics": "",
-          "indian": "pa ni Re ni Re Ga Re Sa."
+          "indian": "pa ni Re ni Re Ga Re Sa.",
+          "western": "g b D b D E D c"
         },
         {
           "lyrics": "Ohh love of mine",
-          "indian": "Ga Pa Ga Pa"
+          "indian": "Ga Pa Ga Pa",
+          "western": "E G E G"
         },
         {
           "lyrics": "Withh a song and whine",
-          "indian": "Sa Sa Ga Pa Dha Pa"
+          "indian": "Sa Sa Ga Pa Dha Pa",
+          "western": "C C E G A G"
         },
         {
           "lyrics": "Youu re hash and divine like truth and lie",
-          "indian": "Sa Pa ma Ga Re Sa Re Ga Re: .G Re."
+          "indian": "Sa Pa ma Ga Re Sa Re Ga Re: .G Re.",
+          "western": "C G F E D C D E D: .G d"
         },
         {
           "lyrics": "Butt the tale ends not here",
-          "indian": "Sa Ga Pa Ga Pa"
+          "indian": "Sa Ga Pa Ga Pa",
+          "western": "C E G E G"
         },
         {
           "lyrics": "I haave nothing to fear",
-          "indian": "Sa Sa Ga Pa Dha Pa"
+          "indian": "Sa Sa Ga Pa Dha Pa",
+          "western": "C C E G A G"
         },
         {
           "lyrics": "Foor my love is yell of giving and hold on",
-          "indian": "Sa Pa ma Ga Re Sa Re Ga Re: .G Re."
+          "indian": "Sa Pa ma Ga Re Sa Re Ga Re: .G Re.",
+          "western": "C G F E D C D E D: .G d"
         },
         {
           "lyrics": "Annd the bright emptiness",
-          "indian": "Ni Ni Ni Sa' Ni Dha Pa Pa"
+          "indian": "Ni Ni Ni Sa' Ni Dha Pa Pa",
+          "western": "B B B C' B A G G"
         },
         {
           "lyrics": "Inn a room full of it",
-          "indian": "Ga Pa Sa' Ni Dha Pa Pa"
+          "indian": "Ga Pa Sa' Ni Dha Pa Pa",
+          "western": "E G C' B A G G"
         },
         {
           "lyrics": "Is aa cruel mistress",
-          "indian": "Pa Pa Ga' Sa' Sa' Dha"
+          "indian": "Pa Pa Ga' Sa' Sa' Dha",
+          "western": "G G E' C' C' A"
         },
         {
           "lyrics": "Whoo hooo",
-          "indian": "Ga' Re': Ga' Re' Sa' Ni"
+          "indian": "Ga' Re': Ga' Re' Sa' Ni",
+          "western": "E' D': E' D' C' B"
         },
         {
           "lyrics": "I feeel this unrest",
-          "indian": "Ni Ni Sa' Ni Pa Pa Pa"
+          "indian": "Ni Ni Sa' Ni Pa Pa Pa",
+          "western": "B B C' B G G G"
         },
         {
           "lyrics": "Thaat nests all hollowness",
-          "indian": "Ga Pa Sa' Ni Dha Pa"
+          "indian": "Ga Pa Sa' Ni Dha Pa",
+          "western": "E G C' B A G"
         },
         {
           "lyrics": "Foor i have nowhere to go and i am cold",
-          "indian": "Pa Pa Ga' Sa' Sa' Dha Sa' Dha Ga' Re'"
+          "indian": "Pa Pa Ga' Sa' Sa' Dha Sa' Dha Ga' Re'",
+          "western": "G G E' C' C' A C' A E' D'"
         },
         {
           "lyrics": "And i feeel so lonely yeah..",
-          "indian": "Pa Pa Pa Pa Re' Ga' Sa'"
+          "indian": "Pa Pa Pa Pa Re' Ga' Sa'",
+          "western": "G G G G D' E' C'"
         },
         {
           "lyrics": "Theree’s is a better place than this",
-          "indian": "Dha Pa Dha Pa Dha Pa Dha:"
+          "indian": "Dha Pa Dha Pa Dha Pa Dha:",
+          "western": "A G A G A G A:"
         },
         {
           "lyrics": "Emptineess",
-          "indian": "Dha Sa Dha Pa"
+          "indian": "Dha Sa Dha Pa",
+          "western": "A C A G"
         },
         {
           "lyrics": "Annd i’m so lonely yeah…",
-          "indian": "Pa Pa Pa Pa Re' Ga' Sa'"
+          "indian": "Pa Pa Pa Pa Re' Ga' Sa'",
+          "western": "G G G G D' E' C'"
         },
         {
           "lyrics": "Theree’s is a better place than this",
-          "indian": "Dha Pa Dha Pa Dha Pa Dha:"
+          "indian": "Dha Pa Dha Pa Dha Pa Dha:",
+          "western": "A G A G A G A:"
         },
         {
           "lyrics": "Emptineess",
-          "indian": "Dha Sa' Dha Pa"
+          "indian": "Dha Sa' Dha Pa",
+          "western": "A C' A G"
         },
         {
           "lyrics": "Yeaah",
-          "indian": "Pa ma Ga ma Ga ma Ga"
+          "indian": "Pa ma Ga ma Ga ma Ga",
+          "western": "G F E F E F E"
         },
         {
           "lyrics": "Tunee mere janaa",
-          "indian": "Ga Pa Pa Pa Dha Dha Sa'"
+          "indian": "Ga Pa Pa Pa Dha Dha Sa'",
+          "western": "E G G G A A C'"
         },
         {
           "lyrics": "Kabhii nahi jaana",
-          "indian": "Ni Sa' Ni Dha Pa Sa' Ni Dha"
+          "indian": "Ni Sa' Ni Dha Pa Sa' Ni Dha",
+          "western": "B C' B A G C' B A"
         },
         {
           "lyrics": "Ishqq mera dard mera",
-          "indian": "Dha Dha Pa Dha: Dha Sa' Ni Dha Pa"
+          "indian": "Dha Dha Pa Dha: Dha Sa' Ni Dha Pa",
+          "western": "A A G A: A C' B A G"
         },
         {
           "lyrics": "Haayee",
-          "indian": "Dha Pa ma Ga"
+          "indian": "Dha Pa ma Ga",
+          "western": "A G F E"
         },
         {
           "lyrics": "Tunee mere janaa",
-          "indian": "Ga Pa Pa Pa Dha Dha Re' Sa"
+          "indian": "Ga Pa Pa Pa Dha Dha Re' Sa",
+          "western": "E G G G A A D' C"
         },
         {
           "lyrics": "Kabhii nahi jaana",
-          "indian": "Ni Sa' Ni Dha Pa Sa' Ni Dha"
+          "indian": "Ni Sa' Ni Dha Pa Sa' Ni Dha",
+          "western": "B C' B A G C' B A"
         },
         {
           "lyrics": "Ishqq mera dard mera",
-          "indian": "Dha Dha Pa Dha: Dha Sa' Ni Dha Pa"
+          "indian": "Dha Dha Pa Dha: Dha Sa' Ni Dha Pa",
+          "western": "A A G A: A C' B A G"
         },
         {
           "lyrics": "Ashquii tera",
-          "indian": "Sa' Ga' Re' Re' Sa' Sa'"
+          "indian": "Sa' Ga' Re' Re' Sa' Sa'",
+          "western": "C' E' D' D' C' C'"
         },
         {
           "lyrics": "Bhiid mein khoya rehta hun",
-          "indian": "Sa' Sa' Sa' Sa' Sa' ma': Ga' Re' Sa' Re' Sa' Ni"
+          "indian": "Sa' Sa' Sa' Sa' Sa' ma': Ga' Re' Sa' Re' Sa' Ni",
+          "western": "C' C' C' C' C' F': E' D' C' D' C' B"
         },
         {
           "lyrics": "Jannee jahan",
-          "indian": "Sa' Ga' Re' Re' Sa' Sa'"
+          "indian": "Sa' Ga' Re' Re' Sa' Sa'",
+          "western": "C' E' D' D' C' C'"
         },
         {
           "lyrics": "Poochoo to itna kehta hain",
-          "indian": "Sa' Sa' Sa' Sa' Sa' ma': Ga' Re' Sa' Re' Sa' Ni"
+          "indian": "Sa' Sa' Sa' Sa' Sa' ma': Ga' Re' Sa' Re' Sa' Ni",
+          "western": "C' C' C' C' C' F': E' D' C' D' C' B"
         },
         {
           "lyrics": "Thaat i feel so lonely yeah….",
-          "indian": "Pa Pa Pa Pa Re' Ga' Sa' Dha"
+          "indian": "Pa Pa Pa Pa Re' Ga' Sa' Dha",
+          "western": "G G G G D' E' C' A"
         },
         {
           "lyrics": "There’s aa better place than this",
-          "indian": "Dha Pa Dha Pa Dha Pa Dha:"
+          "indian": "Dha Pa Dha Pa Dha Pa Dha:",
+          "western": "A G A G A G A:"
         },
         {
           "lyrics": "Emptineess",
-          "indian": "Dha Sa' Dha Pa"
+          "indian": "Dha Sa' Dha Pa",
+          "western": "A C' A G"
         },
         {
           "lyrics": "And i feeel so lonely yeah..",
-          "indian": "Pa Pa Pa Pa Re' Ga' Sa' Dha"
+          "indian": "Pa Pa Pa Pa Re' Ga' Sa' Dha",
+          "western": "G G G G D' E' C' A"
         },
         {
           "lyrics": "There’s is a beetter place than this",
-          "indian": "Dha Pa Dha Pa Dha Pa Dha:"
+          "indian": "Dha Pa Dha Pa Dha Pa Dha:",
+          "western": "A G A G A G A:"
         },
         {
           "lyrics": "Emptinesss",
-          "indian": "Dha Sa' Dha Pa"
+          "indian": "Dha Sa' Dha Pa",
+          "western": "A C' A G"
         },
         {
           "lyrics": "Yeaah…",
-          "indian": "Pa ma Ga ma Ga:"
+          "indian": "Pa ma Ga ma Ga:",
+          "western": "G F E F E:"
         }
       ]
     }

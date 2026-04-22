@@ -14,17 +14,17 @@
         {
           "lyrics": "Saare | jahaan | se | achchha",
           "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa",
-          "western": "Eb D | C D | B. | C C"
+          "western": "Eb D | C D | b | C C"
         },
         {
           "lyrics": "hindostaan | hamaara | hamara",
           "indian": "Pa.Dha. Sa Re Ga(k) | ma Ga(k) Ga(k) | Re Re~(ma)Ga(k) Re Sa",
-          "western": "G.A. C D Eb | F Eb Eb | D D~(F)Eb D C"
+          "western": "ga C D Eb | F Eb Eb | D D~(F)Eb D C"
         },
         {
           "lyrics": "Saare | jahaan | se | achchha",
           "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa",
-          "western": "Eb D | C D | B. | C C"
+          "western": "Eb D | C D | b | C C"
         },
         {
           "lyrics": "Ham | bulabulen | hain | isaki,",
@@ -34,12 +34,12 @@
         {
           "lyrics": "ye | gul sitaan | hamaara | hamara",
           "indian": "Ga(k)ma | Pa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
-          "western": "EbF | G FEb | D C C | CCB.A. G"
+          "western": "EbF | G FEb | D C C | CCba G"
         },
         {
           "lyrics": "Saare | jahaan | se | achchha",
           "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa",
-          "western": "Eb D | C D | B. | C C"
+          "western": "Eb D | C D | b | C C"
         }
       ]
     },
@@ -54,7 +54,7 @@
         {
           "lyrics": "hamasaaya | asamaan | ka",
           "indian": "Pa.Dha. SaRe | Ga(k) ma Ga(k)| Ga(k)",
-          "western": "G.A. CD | Eb F Eb| Eb"
+          "western": "ga CD | Eb F Eb| Eb"
         },
         {
           "lyrics": "Wo | sntari | hamaara,",
@@ -64,12 +64,12 @@
         {
           "lyrics": "wo | paasabaan | hamaara | hamara",
           "indian": "Ga(k)ma | Pa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
-          "western": "EbF | G FEb | D C C | CCB.A. G"
+          "western": "EbF | G FEb | D C C | CCba G"
         },
         {
           "lyrics": "Saare | jahaan | se | achchha",
           "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa",
-          "western": "Eb D | C D | B. | C C"
+          "western": "Eb D | C D | b | C C"
         }
       ]
     },
@@ -89,7 +89,7 @@
         {
           "lyrics": "Gulashan | hai | jinake | dam | se",
           "indian": "ma mama | ma | mama Ga(k)~ma | Ga(k)~Re | Sa~Dha. Sa~Re",
-          "western": "F FF | F | FF Eb~F | Eb~D | C~A. C~D"
+          "western": "F FF | F | FF Eb~F | Eb~D | C~a C~D"
         },
         {
           "lyrics": "Gulashan | hai | jinake | dam | se",
@@ -99,12 +99,12 @@
         {
           "lyrics": "rashq-e-jina | hamaara | hamara",
           "indian": "Ga(k)ma maDhaPa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
-          "western": "EbF FAG FEb | D C C | CCB.A. G"
+          "western": "EbF FAG FEb | D C C | CCba G"
         },
         {
           "lyrics": "Saare | jahaan | se | achchha",
           "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa",
-          "western": "Eb D | C D | B. | C C"
+          "western": "Eb D | C D | b | C C"
         }
       ]
     },
@@ -114,7 +114,7 @@
         {
           "lyrics": "Mazahab | nahin | sikhaata",
           "indian": "Ni.Ni.Ni. | Ni.Ni. | Ni.Ni.~Sa Sa",
-          "western": "B.B.B. | B.B. | B.B.~C C"
+          "western": "bbb | bb | bb~C C"
         },
         {
           "lyrics": "apas | men | bair | rakhana",
@@ -134,12 +134,12 @@
         {
           "lyrics": "hindostaan | hamaara | hamara",
           "indian": "Ga(k)ma DhaPa maGa(k) | Re Sa Sa | SaSaNi.Dha. Pa",
-          "western": "EbF AG FEb | D C C | CCB.A. G"
+          "western": "EbF AG FEb | D C C | CCba G"
         },
         {
           "lyrics": "Saare | jahaan | se | achchha …",
           "indian": "Ga(k) Re | Sa Re | Ni. | Sa Sa",
-          "western": "Eb D | C D | B. | C C"
+          "western": "Eb D | C D | b | C C"
         }
       ]
     }

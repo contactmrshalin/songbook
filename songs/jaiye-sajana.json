@@ -15,107 +15,133 @@
       "lines": [
         {
           "lyrics": "Pattalan chon digde hanjoo",
-          "indian": "Ni Ni Ni Ni Ni Sa': Ni Dha Dha"
+          "indian": "Ni Ni Ni Ni Ni Sa': Ni Dha Dha",
+          "western": "B B B B B C': B A A"
         },
         {
           "lyrics": "Akh meri phir vi roi na",
-          "indian": "Pa Pa Pa Pa Ma: Pa Dha Pa Ma Pa"
+          "indian": "Pa Pa Pa Pa Ma: Pa Dha Pa Ma Pa",
+          "western": "G G G G F#: G A G F# G"
         },
         {
           "lyrics": "Pattalan chon digde hanjoo",
-          "indian": "Ni Ni Ni Ni Ni Sa': Ni Dha Dha"
+          "indian": "Ni Ni Ni Ni Ni Sa': Ni Dha Dha",
+          "western": "B B B B B C': B A A"
         },
         {
           "lyrics": "Akh meri phir vi roi na",
-          "indian": "Pa Pa Pa Pa Ma: Pa Dha Pa Ma Pa"
+          "indian": "Pa Pa Pa Pa Ma: Pa Dha Pa Ma Pa",
+          "western": "G G G G F#: G A G F# G"
         },
         {
           "lyrics": "Aisi preet la lai rabba",
-          "indian": "Ni Ni Ni Ni Ni Sa': Ni Dha Dha"
+          "indian": "Ni Ni Ni Ni Ni Sa': Ni Dha Dha",
+          "western": "B B B B B C': B A A"
         },
         {
           "lyrics": "Jaisi hor kade hoi na",
-          "indian": "Pa Pa Pa Pa Ma: Pa Dha ma"
+          "indian": "Pa Pa Pa Pa Ma: Pa Dha ma",
+          "western": "G G G G F#: G A F"
         },
         {
           "lyrics": "Tere jaan ton main baad ik",
-          "indian": "Ga ma ma Pa Pa Pa Pa Pa Pa Pa"
+          "indian": "Ga ma ma Pa Pa Pa Pa Pa Pa Pa",
+          "western": "E F F G G G G G G G"
         },
         {
           "lyrics": "Din soi na",
-          "indian": "Ma Pa Pa Dha ma"
+          "indian": "Ma Pa Pa Dha ma",
+          "western": "F# G G A F"
         },
         {
           "lyrics": "Poora shehar begana ethe",
-          "indian": "Ga ma ma Pa Pa Pa Pa Pa Pa Pa"
+          "indian": "Ga ma ma Pa Pa Pa Pa Pa Pa Pa",
+          "western": "E F F G G G G G G G"
         },
         {
           "lyrics": "Mera koi na",
-          "indian": "Ma Pa Pa Dha ma"
+          "indian": "Ma Pa Pa Dha ma",
+          "western": "F# G G A F"
         },
         {
           "lyrics": "Phir preet kise de naal",
-          "indian": "Ga ma ma Dha Dha Dha Dha Dha Dha Dha"
+          "indian": "Ga ma ma Dha Dha Dha Dha Dha Dha Dha",
+          "western": "E F F A A A A A A A"
         },
         {
           "lyrics": "Kade hoi na",
-          "indian": "Pa Dha Dha Ni Dha"
+          "indian": "Pa Dha Dha Ni Dha",
+          "western": "G A A B A"
         },
         {
           "lyrics": "Zamana zaalIm taan vi roi na",
-          "indian": "Dha Dha Sa' Sa' Ni Ni Dha Pa Ma Pa Dha ma"
+          "indian": "Dha Dha Sa' Sa' Ni Ni Dha Pa Ma Pa Dha ma",
+          "western": "A A C' C' B B A G F# G A F"
         },
         {
           "lyrics": "Saare rang vekh lae",
-          "indian": "Ga ma ma Pa Pa Pa Pa Pa:"
+          "indian": "Ga ma ma Pa Pa Pa Pa Pa:",
+          "western": "E F F G G G G G:"
         },
         {
           "lyrics": "Hun koi dar nahi",
-          "indian": "Pa Pa Ma Pa Pa Dha ma"
+          "indian": "Pa Pa Ma Pa Pa Dha ma",
+          "western": "G G F# G G A F"
         },
         {
           "lyrics": "Jiundi rahun aashiki",
-          "indian": "Ga ma ma Pa Pa Pa Pa Pa:"
+          "indian": "Ga ma ma Pa Pa Pa Pa Pa:",
+          "western": "E F F G G G G G:"
         },
         {
           "lyrics": "Eh kade na marni",
-          "indian": "Pa Pa Ma Pa Pa Dha ma"
+          "indian": "Pa Pa Ma Pa Pa Dha ma",
+          "western": "G G F# G G A F"
         },
         {
           "lyrics": "Chaahe turdi ravan",
-          "indian": "Ga ma ma Dha Dha Dha Dha Dha:"
+          "indian": "Ga ma ma Dha Dha Dha Dha Dha:",
+          "western": "E F F A A A A A:"
         },
         {
           "lyrics": "Milna ve kidhre ni",
-          "indian": "Dha Dha Pa Dha Dha Ni Dha"
+          "indian": "Dha Dha Pa Dha Dha Ni Dha",
+          "western": "A A G A A B A"
         },
         {
           "lyrics": "Koi na ethe dil diyan dassda",
-          "indian": "Dha Dha Sa' Sa' Ni Ni Dha Pa Ma Pa Dha ma"
+          "indian": "Dha Dha Sa' Sa' Ni Ni Dha Pa Ma Pa Dha ma",
+          "western": "A A C' C' B B A G F# G A F"
         },
         {
           "lyrics": "Saanu saariyan visar gaiyan",
-          "indian": "Ga ma ma Pa Pa: Pa ma Pa: ma Ga"
+          "indian": "Ga ma ma Pa Pa: Pa ma Pa: ma Ga",
+          "western": "E F F G G: G F G: F E"
         },
         {
           "lyrics": "Raahvan ve",
-          "indian": "Ga: ma: Pa:"
+          "indian": "Ga: ma: Pa:",
+          "western": "E: F: G:"
         },
         {
           "lyrics": "Kede paase jaiye sajana",
-          "indian": "Sa' Ni(k) Pa Pa: Ga ma Dha Pa: ma Ga Ga:"
+          "indian": "Sa' Ni(k) Pa Pa: Ga ma Dha Pa: ma Ga Ga:",
+          "western": "C' Bb G G: E F A G: F E E:"
         },
         {
           "lyrics": "Saanu saariyan visar gaiyan",
-          "indian": "Ga ma ma Pa Pa: Pa ma Pa: ma Ga"
+          "indian": "Ga ma ma Pa Pa: Pa ma Pa: ma Ga",
+          "western": "E F F G G: G F G: F E"
         },
         {
           "lyrics": "Raahvan ve",
-          "indian": "Ga: ma: Pa:"
+          "indian": "Ga: ma: Pa:",
+          "western": "E: F: G:"
         },
         {
           "lyrics": "Kede paase jaiye sajana",
-          "indian": "Sa' Ni(k) Pa Pa: Ga ma Dha Pa: ma Ga Ga:"
+          "indian": "Sa' Ni(k) Pa Pa: Ga ma Dha Pa: ma Ga Ga:",
+          "western": "C' Bb G G: E F A G: F E E:"
         }
       ]
     }

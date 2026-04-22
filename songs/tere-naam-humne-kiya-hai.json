@@ -53,7 +53,7 @@
         {
           "lyrics": "Tere naam",
           "indian": "Ni Sa' Re' Ni Sa': Re' Sa' Ni.",
-          "western": "B C' D' B C': D' C' B."
+          "western": "B C' D' B C': D' C' b"
         },
         {
           "lyrics": "Humne kiya hai",
@@ -63,7 +63,7 @@
         {
           "lyrics": "Jeevan apna sara sanam hooo",
           "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga.",
-          "western": "E F A: A: G B: A: G G: C' A F G E."
+          "western": "E F A: A: G B: A: G G: C' A F G e"
         },
         {
           "lyrics": "Jeevan apna sara sanam",
@@ -73,7 +73,7 @@
         {
           "lyrics": "Pyar bahut",
           "indian": "Ni Sa' Re': Ni Sa' Sa': Re' Sa' Ni.",
-          "western": "B C' D': B C' C': D' C' B."
+          "western": "B C' D': B C' C': D' C' b"
         },
         {
           "lyrics": "Karte hai tumse",
@@ -83,7 +83,7 @@
         {
           "lyrics": "Ishq hai tu humara sanam hooo",
           "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga.",
-          "western": "E F A: A: G B: A: G G: C' A F G E."
+          "western": "E F A: A: G B: A: G G: C' A F G e"
         },
         {
           "lyrics": "Ishq hai tu humara sanam",
@@ -142,12 +142,12 @@
         {
           "lyrics": "Tere bina",
           "indian": "Ga' Re' Ga': Sa' Dha Sa': Pa Dha Pa.",
-          "western": "E' D' E': C' A C': G A G."
+          "western": "E' D' E': C' A C': G A g"
         },
         {
           "lyrics": "Tere bina",
           "indian": "Ni Sa' Re' Ni Sa': Re' Sa' Ni.",
-          "western": "B C' D' B C': D' C' B."
+          "western": "B C' D' B C': D' C' b"
         },
         {
           "lyrics": "Namumkin hai",
@@ -157,7 +157,7 @@
         {
           "lyrics": "Zindagi ka guzara sanam hoo",
           "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga.",
-          "western": "E F A: A: G B: A: G G: C' A F G E."
+          "western": "E F A: A: G B: A: G G: C' A F G e"
         },
         {
           "lyrics": "Zindagi ka guzara sanam",

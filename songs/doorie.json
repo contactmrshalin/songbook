@@ -31,22 +31,22 @@
         {
           "lyrics": "Sahi jae na",
           "indian": "Re Re Sa ni Sa: Re Ga Re",
-          "western": "D D C B. C: D E D"
+          "western": "D D C b C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
           "indian": "Re Re Sa ni Sa: Re Ga Re",
-          "western": "D D C B. C: D E D"
+          "western": "D D C b C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
           "indian": "Re Re Ga ma Ga: ma Ga Re Sa ni.",
-          "western": "D D E F E: F E D C B.."
+          "western": "D D E F E: F E D C b"
         },
         {
           "lyrics": "Sahi jai na",
           "indian": "Re Re Sa ni Sa: pa dha ni dha pa",
-          "western": "D D C B. C: G. A. B. A. G."
+          "western": "D D C b C: g a b a g"
         },
         {
           "lyrics": "Music",
@@ -55,17 +55,17 @@
         {
           "lyrics": "Khamoshiya yeh",
           "indian": "Ga Ga Re Ga ma Ga Re Sa.",
-          "western": "E E D E F E D C."
+          "western": "E E D E F E D c"
         },
         {
           "lyrics": "seh na saku",
           "indian": "Sa Sa Ga Re: Ga Re Ga Re Sa.",
-          "western": "C C E D: E D E D C."
+          "western": "C C E D: E D E D c"
         },
         {
           "lyrics": "Awaz de kay mujhay tu",
           "indian": "Sa Sa dha Sa Sa Ga Re Ga Re Sa",
-          "western": "C C A. C C E D E D C"
+          "western": "C C a C C E D E D C"
         },
         {
           "lyrics": "dai jaa sukoon",
@@ -80,7 +80,7 @@
         {
           "lyrics": "Khamoshiya yeh",
           "indian": "Ga Ga Re Ga ma Ga Re Sa.",
-          "western": "E E D E F E D C."
+          "western": "E E D E F E D c"
         },
         {
           "lyrics": "seh na saku",
@@ -90,7 +90,7 @@
         {
           "lyrics": "Awaz de kay mujhay tu",
           "indian": "Sa Sa dha Sa Sa Ga Re Ga Re Sa",
-          "western": "C C A. C C E D E D C"
+          "western": "C C a C C E D E D C"
         },
         {
           "lyrics": "dai jaa sukoon",
@@ -110,22 +110,22 @@
         {
           "lyrics": "Sahi jae na",
           "indian": "Re Re Sa ni Sa: Re Ga Re",
-          "western": "D D C B. C: D E D"
+          "western": "D D C b C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
           "indian": "Re Re Sa ni Sa: Re Ga Re",
-          "western": "D D C B. C: D E D"
+          "western": "D D C b C: D E D"
         },
         {
           "lyrics": "Sahi jai na",
           "indian": "Re Re Ga ma Ga: ma Ga Re Sa ni.",
-          "western": "D D E F E: F E D C B.."
+          "western": "D D E F E: F E D C b"
         },
         {
           "lyrics": "Sahi jai na",
           "indian": "Re Re Sa ni Sa: pa dha ni dha pa",
-          "western": "D D C B. C: G. A. B. A. G."
+          "western": "D D C b C: g a b a g"
         }
       ]
     }

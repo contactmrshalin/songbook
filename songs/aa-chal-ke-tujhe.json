@@ -15,91 +15,113 @@
       "lines": [
         {
           "lyrics": "Aa chal ke tujhe mein leke chalo",
-          "indian": "pa: Sa: Sa Re Sa: pa: Sa: Sa Re Sa:"
+          "indian": "pa: Sa: Sa Re Sa: pa: Sa: Sa Re Sa:",
+          "western": "g: C: C D C: g: C: C D C:"
         },
         {
           "lyrics": "Ek aise gagan ke tale",
-          "indian": "pa pa Sa: Sa Re Ga: ma Ga ma Ga Re:"
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga ma Ga Re:",
+          "western": "g g C: C D E: F E F E D:"
         },
         {
           "lyrics": "Jaha ghum bhi na hon asoon bhi na hon",
-          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:"
+          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:",
+          "western": "a a D: D E D: a: D: D E D:"
         },
         {
           "lyrics": "Bas pyar hi pyar pale",
-          "indian": "Re Ga ni: Sa Pa: ma Ga:"
+          "indian": "Re Ga ni: Sa Pa: ma Ga:",
+          "western": "D E b: C G: F E:"
         },
         {
           "lyrics": "Aa chal ke tujhe mein leke chalo",
-          "indian": "pa: Sa: Sa Re Sa: pa: Sa: Sa Re Sa:"
+          "indian": "pa: Sa: Sa Re Sa: pa: Sa: Sa Re Sa:",
+          "western": "g: C: C D C: g: C: C D C:"
         },
         {
           "lyrics": "Ek aise gagan ke tale",
-          "indian": "pa pa Sa: Sa Re Ga: ma Ga ma Ga Re:"
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga ma Ga Re:",
+          "western": "g g C: C D E: F E F E D:"
         },
         {
           "lyrics": "Jaha ghum bhi na hon asoon bhi na hon",
-          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:"
+          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:",
+          "western": "a a D: D E D: a: D: D E D:"
         },
         {
           "lyrics": "Bas pyar hi pyar pale",
-          "indian": "Re Ga ni: Sa Pa: ma Ga:"
+          "indian": "Re Ga ni: Sa Pa: ma Ga:",
+          "western": "D E b: C G: F E:"
         },
         {
           "lyrics": "Ek aaise gagan ke tale",
-          "indian": "pa pa Sa: Sa Re Ga: ma Ga Sa:"
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga Sa:",
+          "western": "g g C: C D E: F E C:"
         },
         {
           "lyrics": "Suraj ki pehle kiran se",
-          "indian": "Ga Pa Ga Re Sa Re Ga Pa Pa Dha Pa Ga Ga:"
+          "indian": "Ga Pa Ga Re Sa Re Ga Pa Pa Dha Pa Ga Ga:",
+          "western": "E G E D C D E G G A G E E:"
         },
         {
           "lyrics": "Aasha ka savera jaage",
-          "indian": "Ga ma Pa: Pa Pa Dha Pa ma: Dha Pa Pa:"
+          "indian": "Ga ma Pa: Pa Pa Dha Pa ma: Dha Pa Pa:",
+          "western": "E F G: G G A G F: A G G:"
         },
         {
           "lyrics": "Suraj ki pehle kiran se",
-          "indian": "Ga Pa Ga Re Sa Re Ga Pa Pa Dha Pa Ga Ga:"
+          "indian": "Ga Pa Ga Re Sa Re Ga Pa Pa Dha Pa Ga Ga:",
+          "western": "E G E D C D E G G A G E E:"
         },
         {
           "lyrics": "Aasha ka savera jaage",
-          "indian": "Ga ma Pa: Pa Pa Dha Pa ma: Dha Pa Pa:"
+          "indian": "Ga ma Pa: Pa Pa Dha Pa ma: Dha Pa Pa:",
+          "western": "E F G: G G A G F: A G G:"
         },
         {
           "lyrics": "Chanda ki kiran se dhulkar",
-          "indian": "ma Dha Dha: Dha Pa Dha Pa ma Ga ma Ga Re:"
+          "indian": "ma Dha Dha: Dha Pa Dha Pa ma Ga ma Ga Re:",
+          "western": "F A A: A G A G F E F E D:"
         },
         {
           "lyrics": "Aganghor andhera bhage",
-          "indian": "ma Pa Pa: ma Ga Re ma Ga Re Sa Sa:"
+          "indian": "ma Pa Pa: ma Ga Re ma Ga Re Sa Sa:",
+          "western": "F G G: F E D F E D C C:"
         },
         {
           "lyrics": "Chanda ki kiran se dhulkar",
-          "indian": "ma Dha Dha: Dha Pa Dha Pa ma Ga ma Ga Re:"
+          "indian": "ma Dha Dha: Dha Pa Dha Pa ma Ga ma Ga Re:",
+          "western": "F A A: A G A G F E F E D:"
         },
         {
           "lyrics": "Aganghor andhera bhage",
-          "indian": "ma Pa Pa: ma Ga Re ma Ga Re Sa Sa:"
+          "indian": "ma Pa Pa: ma Ga Re ma Ga Re Sa Sa:",
+          "western": "F G G: F E D F E D C C:"
         },
         {
           "lyrics": "Kabhi dhoop khile kabhi chaao mile",
-          "indian": "pa pa Sa: Sa Re Sa: pa pa Sa: Sa Re Sa:"
+          "indian": "pa pa Sa: Sa Re Sa: pa pa Sa: Sa Re Sa:",
+          "western": "g g C: C D C: g g C: C D C:"
         },
         {
           "lyrics": "Lambi si dagar na khale",
-          "indian": "pa: Sa: Sa Re Ga: ma Ga ma Ga Re:"
+          "indian": "pa: Sa: Sa Re Ga: ma Ga ma Ga Re:",
+          "western": "g: C: C D E: F E F E D:"
         },
         {
           "lyrics": "Jaha ghum bhi na hon asoon bhi na hon",
-          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:"
+          "indian": "dha dha Re: Re Ga Re: dha: Re: Re Ga Re:",
+          "western": "a a D: D E D: a: D: D E D:"
         },
         {
           "lyrics": "Bas pyar hi pyar pale",
-          "indian": "Re Ga ni: Sa Pa: ma Ga:"
+          "indian": "Re Ga ni: Sa Pa: ma Ga:",
+          "western": "D E b: C G: F E:"
         },
         {
           "lyrics": "Ek aaise gagan ke tale",
-          "indian": "pa pa Sa: Sa Re Ga: ma Ga Sa:"
+          "indian": "pa pa Sa: Sa Re Ga: ma Ga Sa:",
+          "western": "g g C: C D E: F E C:"
         }
       ]
     }

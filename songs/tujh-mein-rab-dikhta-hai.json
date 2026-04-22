@@ -14,67 +14,83 @@
       "lines": [
         {
           "lyrics": "Tuu hii to jannat meerri",
-          "indian": "Dha Dha Ni Pa Dha Sa' Ni"
+          "indian": "Dha Dha Ni Pa Dha Sa' Ni",
+          "western": "A A B G A C' B"
         },
         {
           "lyrics": "Tuu hii hera junonn",
-          "indian": "Ni Ni Sa' Sa' Dha Dha"
+          "indian": "Ni Ni Sa' Sa' Dha Dha",
+          "western": "B B C' C' A A"
         },
         {
           "lyrics": "Tuu hii toh mannat meeri",
-          "indian": "Dha Dha Ni Pa Dha Sa' Ni"
+          "indian": "Dha Dha Ni Pa Dha Sa' Ni",
+          "western": "A A B G A C' B"
         },
         {
           "lyrics": "Tuu hii ruhh ka sukoon",
-          "indian": "Ni Ni Sa' Ga' Ga' Dha Dha"
+          "indian": "Ni Ni Sa' Ga' Ga' Dha Dha",
+          "western": "B B C' E' E' A A"
         },
         {
           "lyrics": "Tuu hii ankhiyoo ki thandak",
-          "indian": "Ga' ma' Pa' Pa' ma' Ga' Re' Ga'"
+          "indian": "Ga' ma' Pa' Pa' ma' Ga' Re' Ga'",
+          "western": "E' F' G' G' F' E' D' E'"
         },
         {
           "lyrics": "Tuu hii dil kii hai dastak",
-          "indian": "Ga' ma' Pa' Pa' ma' Ga' Re' Ga'"
+          "indian": "Ga' ma' Pa' Pa' ma' Ga' Re' Ga'",
+          "western": "E' F' G' G' F' E' D' E'"
         },
         {
           "lyrics": "Aurr kuch naa janoon main",
-          "indian": "Ga' ma' Re' Re' Re' Ga' Sa' Sa'"
+          "indian": "Ga' ma' Re' Re' Re' Ga' Sa' Sa'",
+          "western": "E' F' D' D' D' E' C' C'"
         },
         {
           "lyrics": "Bass itnaa hi janoon main",
-          "indian": "Sa' Ni Re' Sa' Ni Re' Sa' Ni Sa' Ni Dha Pa"
+          "indian": "Sa' Ni Re' Sa' Ni Re' Sa' Ni Sa' Ni Dha Pa",
+          "western": "C' B D' C' B D' C' B C' B A G"
         },
         {
           "lyrics": "Tujhh main rabb dikhtaa haii",
-          "indian": "Ga Sa': Re' Sa' Ni Ni Dha Pa"
+          "indian": "Ga Sa': Re' Sa' Ni Ni Dha Pa",
+          "western": "E C': D' C' B B A G"
         },
         {
           "lyrics": "Yaaraa main kyaa karoon",
-          "indian": "ma Sa': Sa' Re' Sa' Re' Ni Ni Dha"
+          "indian": "ma Sa': Sa' Re' Sa' Re' Ni Ni Dha",
+          "western": "F C': C' D' C' D' B B A"
         },
         {
           "lyrics": "Tujhh main rabb dikhtaa haii",
-          "indian": "Ga Sa': Re' Sa' Ni Ni Dha Pa"
+          "indian": "Ga Sa': Re' Sa' Ni Ni Dha Pa",
+          "western": "E C': D' C' B B A G"
         },
         {
           "lyrics": "Yaaraa main kyaa karoon",
-          "indian": "ma Sa': Sa' Re' Sa' Re' Ni Ni Dha"
+          "indian": "ma Sa': Sa' Re' Sa' Re' Ni Ni Dha",
+          "western": "F C': C' D' C' D' B B A"
         },
         {
           "lyrics": "Sajdee saee jhuktaa haii",
-          "indian": "Dha Ga': ma' Ga' Re' Re' Sa' Ni"
+          "indian": "Dha Ga': ma' Ga' Re' Re' Sa' Ni",
+          "western": "A E': F' E' D' D' C' B"
         },
         {
           "lyrics": "Yaaraa main kyaa karoon",
-          "indian": "Dha Sa': Sa' Re' Sa' Re' Ni Ni Dha"
+          "indian": "Dha Sa': Sa' Re' Sa' Re' Ni Ni Dha",
+          "western": "A C': C' D' C' D' B B A"
         },
         {
           "lyrics": "Tujhh main rabb dikhtaa haii",
-          "indian": "Ga Sa': Re' Sa' Ni Ni Dha Pa"
+          "indian": "Ga Sa': Re' Sa' Ni Ni Dha Pa",
+          "western": "E C': D' C' B B A G"
         },
         {
           "lyrics": "Yaaraa main kyaa karoon",
-          "indian": "ma Sa': Sa' Re' Sa' Re' Ni Ni Dha"
+          "indian": "ma Sa': Sa' Re' Sa' Re' Ni Ni Dha",
+          "western": "F C': C' D' C' D' B B A"
         }
       ]
     }

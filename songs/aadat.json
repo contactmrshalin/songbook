@@ -15,67 +15,83 @@
       "lines": [
         {
           "lyrics": "Najaane kab see",
-          "indian": "Ga Sa' Ni Dha Ga."
+          "indian": "Ga Sa' Ni Dha Ga.",
+          "western": "E C' B A e"
         },
         {
           "lyrics": "Umeedain kuch baaki haii",
-          "indian": "Ga Sa' Ni Ni Dha Dha Ni Sa' Sa': Sa' Ni Dha."
+          "indian": "Ga Sa' Ni Ni Dha Dha Ni Sa' Sa': Sa' Ni Dha.",
+          "western": "E C' B B A A B C' C': C' B a"
         },
         {
           "lyrics": "Mujhe phir bhi teri yaad",
-          "indian": "Ga Sa' Ni Ni Dha Dha Ga Re Ga"
+          "indian": "Ga Sa' Ni Ni Dha Dha Ga Re Ga",
+          "western": "E C' B B A A E D E"
         },
         {
           "lyrics": "Kyun aati haii",
-          "indian": "Sa' Re' Sa' Ni Dha Dha Ni Sa' Sa': Sa' Ni Dha"
+          "indian": "Sa' Re' Sa' Ni Dha Dha Ni Sa' Sa': Sa' Ni Dha",
+          "western": "C' D' C' B A A B C' C': C' B A"
         },
         {
           "lyrics": "Najaane kab see",
-          "indian": "Ga Sa' Ni Dha Pa Dha"
+          "indian": "Ga Sa' Ni Dha Pa Dha",
+          "western": "E C' B A G A"
         },
         {
           "lyrics": "Durr jitnaa bhi tum mujhsee",
-          "indian": "Ga ma Ga Ga Ga Re Sa ni"
+          "indian": "Ga ma Ga Ga Ga Re Sa ni",
+          "western": "E F E E E D C b"
         },
         {
           "lyrics": "Paas tere main",
-          "indian": "ni Sa dha Sa"
+          "indian": "ni Sa dha Sa",
+          "western": "b C a C"
         },
         {
           "lyrics": "Ab toh aadat sii hai mujkoo aise jeene main",
-          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga",
+          "western": "E F E E G A G A B G G G F G F E"
         },
         {
           "lyrics": "Zindagi see koi bhi shikwa bhi nahi haii",
-          "indian": "Ga ma Ga Ga Ga ma Ga Re Sa ni ni Re ni Sa dha Sa"
+          "indian": "Ga ma Ga Ga Ga ma Ga Re Sa ni ni Re ni Sa dha Sa",
+          "western": "E F E E E F E D C b b D b C a C"
         },
         {
           "lyrics": "Ab toh zindaa hun main iss neele asmaan mainn",
-          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga",
+          "western": "E F E E G A G A B G G G F G F E"
         },
         {
           "lyrics": "Chaahat aisii hai yeh teri",
-          "indian": "Ga ma Ga Ga Ga Re Sa ni"
+          "indian": "Ga ma Ga Ga Ga Re Sa ni",
+          "western": "E F E E E D C b"
         },
         {
           "lyrics": "Barhti jaayee",
-          "indian": "ni Sa dha Sa"
+          "indian": "ni Sa dha Sa",
+          "western": "b C a C"
         },
         {
           "lyrics": "Aahat aisii hai yeh teri mujhko sataaye",
-          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga",
+          "western": "E F E E G A G A B G G G F G F E"
         },
         {
           "lyrics": "Yaadein gehri hain yeh kitnii",
-          "indian": "Ga ma Ga Ga Ga Re Sa ni"
+          "indian": "Ga ma Ga Ga Ga Re Sa ni",
+          "western": "E F E E E D C b"
         },
         {
           "lyrics": "Dil doob jaayee",
-          "indian": "ni Sa ni dha Sa"
+          "indian": "ni Sa ni dha Sa",
+          "western": "b C b a C"
         },
         {
           "lyrics": "Aur aankhon main yeh ghum num banjaaye",
-          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga"
+          "indian": "Ga ma Ga Ga Pa Dha Pa Dha Ni Pa Pa Pa ma Pa ma Ga",
+          "western": "E F E E G A G A B G G G F G F E"
         }
       ]
     }

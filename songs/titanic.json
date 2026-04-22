@@ -15,12 +15,12 @@
         {
           "lyrics": "",
           "indian": "Sa Re Ga.. ma Ga Re Sa Re Pa.... Ga Re Sa 'Dha Sa 'Pa",
-          "western": "C D E.. F E D C D G.... E D C 'A C 'G"
+          "western": "C D e. F E D C D g... E D C 'A C 'G"
         },
         {
           "lyrics": "",
           "indian": "Sa Re Ga.. ma Ga Re Sa Re Pa.... Ga Pa Dha Pa Re",
-          "western": "C D E.. F E D C D G.... E G A G D"
+          "western": "C D e. F E D C D g... E G A G D"
         }
       ]
     },
@@ -30,22 +30,22 @@
         {
           "lyrics": "",
           "indian": "Sa Sa Sa Sa 'Ni Sa Sa 'Ni Sa Re Ga Re Sa Sa Sa Sa 'Ni Sa Sa 'Pa..",
-          "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'G.."
+          "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'g."
         },
         {
           "lyrics": "",
           "indian": "Sa Sa Sa Sa 'Ni Sa Sa 'Ni Sa Re Ga Re Sa Sa Sa Sa 'Ni Sa Sa 'Pa..",
-          "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'G.."
+          "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'g."
         },
         {
           "lyrics": "",
           "indian": "Sa.......... Re.......... 'Pa Pa ma Ga Re Ga ma Ga.. Re Sa 'Ni Sa 'Ni 'Dha....'Pa",
-          "western": "C.......... D.......... 'G G F E D E F E.. D C 'B C 'B 'A....'G"
+          "western": "c......... d......... 'G G F E D E F e. D C 'B C 'B 'a...'G"
         },
         {
           "lyrics": "",
           "indian": "Sa.......... Re.......... 'Pa Pa ma Ga Re Ga ma Ga.. Re Sa 'Ni Sa 'Ni 'Ni Sa Re Ga Re Sa....",
-          "western": "C.......... D.......... 'G G F E D E F E.. D C 'B C 'B 'B C D E D C...."
+          "western": "c......... d......... 'G G F E D E F e. D C 'B C 'B 'B C D E D c..."
         }
       ]
     }

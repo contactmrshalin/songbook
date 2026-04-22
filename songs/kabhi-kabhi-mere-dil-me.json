@@ -19,43 +19,53 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "P PM | DP...M | M~GG | R R | G"
+          "indian": "P PM | DP...M | M~GG | R R | G",
+          "western": "P PM | DP...M | M~GG | R R | G"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "G~M G~DP | P...M GR | GRS"
+          "indian": "G~M G~DP | P...M GR | GRS",
+          "western": "G~M G~DP | P...M GR | GRS"
         },
         {
           "lyrics": "Kee | jaise | tujhko | banaya",
-          "indian": "G | GG | RR G | GR G"
+          "indian": "G | GG | RR G | GR G",
+          "western": "G | GG | RR G | GR G"
         },
         {
           "lyrics": "gaya | hai | mere | liye",
-          "indian": "R (G)RS | S | S~R R(G)R S | S S,N DD"
+          "indian": "R (G)RS | S | S~R R(G)R S | S S,N DD",
+          "western": "R (G)RS | S | S~R R(G)R S | S S,N DD"
         },
         {
           "lyrics": "Tu | abse | pehle | sitaro | me",
-          "indian": "P' | M G M | P P P | PP PD D(N)D | P"
+          "indian": "P' | M G M | P P P | PP PD D(N)D | P",
+          "western": "P' | M G M | P P P | PP PD D(N)D | P"
         },
         {
           "lyrics": "bas | rahee | thi | kahee",
-          "indian": "PP | PM P... | M | DP MG"
+          "indian": "PP | PM P... | M | DP MG",
+          "western": "PP | PM P... | M | DP MG"
         },
         {
           "lyrics": "Tujhe | jamin pe | bulaya",
-          "indian": "G G | G R... | G | R R(G)R G"
+          "indian": "G G | G R... | G | R R(G)R G",
+          "western": "G G | G R... | G | R R(G)R G"
         },
         {
           "lyrics": "gaya | hai | mere | liye",
-          "indian": "R (G)RS | S | S~R R(G)R S | S S,N DD"
+          "indian": "R (G)RS | S | S~R R(G)R S | S S,N DD",
+          "western": "R (G)RS | S | S~R R(G)R S | S S,N DD"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "P PM | DP...M | M~GG | R R | G"
+          "indian": "P PM | DP...M | M~GG | R R | G",
+          "western": "P PM | DP...M | M~GG | R R | G"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "G~M G~DP | P...M GR | GRS"
+          "indian": "G~M G~DP | P...M GR | GRS",
+          "western": "G~M G~DP | P...M GR | GRS"
         }
       ]
     },
@@ -64,7 +74,8 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "G... P D | P D P | GR S | R G"
+          "indian": "G... P D | P D P | GR S | R G",
+          "western": "G... P D | P D P | GR S | R G"
         }
       ]
     },
@@ -73,47 +84,58 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "P PM | DP...M | M~GG | R R | G"
+          "indian": "P PM | DP...M | M~GG | R R | G",
+          "western": "P PM | DP...M | M~GG | R R | G"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "G~M G~DP | P...M GR | GRS"
+          "indian": "G~M G~DP | P...M GR | GRS",
+          "western": "G~M G~DP | P...M GR | GRS"
         },
         {
           "lyrics": "Kee | yeh | badan | yeh | nigahe",
-          "indian": "G | G | G R... | G | G R... G"
+          "indian": "G | G | G R... | G | G R... G",
+          "western": "G | G | G R... | G | G R... G"
         },
         {
           "lyrics": "meree | amanat | hain",
-          "indian": "R(G)R S | SS R (G)R SS | S ,N DD"
+          "indian": "R(G)R S | SS R (G)R SS | S ,N DD",
+          "western": "R(G)R S | SS R (G)R SS | S ,N DD"
         },
         {
           "lyrics": "Yeh | gesuo | kee",
-          "indian": "P | M~G M P | P"
+          "indian": "P | M~G M P | P",
+          "western": "P | M~G M P | P"
         },
         {
           "lyrics": "ghanee | chhaon | hain",
-          "indian": "P P | PD D...(N)DP | P"
+          "indian": "P P | PD D...(N)DP | P",
+          "western": "P P | PD D...(N)DP | P"
         },
         {
           "lyrics": "meree | khatir",
-          "indian": "P(M)P... | MDP M~G"
+          "indian": "P(M)P... | MDP M~G",
+          "western": "P(M)P... | MDP M~G"
         },
         {
           "lyrics": "Yeh | honth | aur | yeh | baahe",
-          "indian": "G | G...G | R GG | G | R... G"
+          "indian": "G | G...G | R GG | G | R... G",
+          "western": "G | G...G | R GG | G | R... G"
         },
         {
           "lyrics": "meree amanat hain",
-          "indian": "R(G)R S | SS R (G)R SS | S ,N DD"
+          "indian": "R(G)R S | SS R (G)R SS | S ,N DD",
+          "western": "R(G)R S | SS R (G)R SS | S ,N DD"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "P PM | DP...M | M~GG | R R | G"
+          "indian": "P PM | DP...M | M~GG | R R | G",
+          "western": "P PM | DP...M | M~GG | R R | G"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "G~M G~DP | P...M GR | GRS"
+          "indian": "G~M G~DP | P...M GR | GRS",
+          "western": "G~M G~DP | P...M GR | GRS"
         }
       ]
     },
@@ -122,15 +144,18 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "S R | (S)R G | G R S ,D | S... R"
+          "indian": "S R | (S)R G | G R S ,D | S... R",
+          "western": "S R | (S)R G | G R S ,D | S... R"
         },
         {
           "lyrics": "",
-          "indian": "S' DD...S' | D~P... | S'~D... | D~S'"
+          "indian": "S' DD...S' | D~P... | S'~D... | D~S'",
+          "western": "S' DD...S' | D~P... | S'~D... | D~S'"
         },
         {
           "lyrics": "",
-          "indian": "S R | (S)R G | G R S ,D | S"
+          "indian": "S R | (S)R G | G R S ,D | S",
+          "western": "S R | (S)R G | G R S ,D | S"
         }
       ]
     },
@@ -139,59 +164,73 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere dil me",
-          "indian": "S S | N R | RR | R | R"
+          "indian": "S S | N R | RR | R | R",
+          "western": "S S | N R | RR | R | R"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "RR R | R(G)R S SRG | G"
+          "indian": "RR R | R(G)R S SRG | G",
+          "western": "RR R | R(G)R S SRG | G"
         },
         {
           "lyrics": "Kee | jaise | bajatee | hain",
-          "indian": "G | RGRG R S | SS S | S"
+          "indian": "G | RGRG R S | SS S | S",
+          "western": "G | RGRG R S | SS S | S"
         },
         {
           "lyrics": "shehnaiya | see | raaho | me",
-          "indian": "R~M M MM | M | G GPG | G~R"
+          "indian": "R~M M MM | M | G GPG | G~R",
+          "western": "R~M M MM | M | G GPG | G~R"
         },
         {
           "lyrics": "MUSIC:",
-          "indian": "(R)G...P | GR... | S ,DS ,D~S...."
+          "indian": "(R)G...P | GR... | S ,DS ,D~S....",
+          "western": "(R)G...P | GR... | S ,DS ,D~S...."
         },
         {
           "lyrics": "Kee | jaise | bajatee | hain",
-          "indian": "G | RGRG R S | SS S | S"
+          "indian": "G | RGRG R S | SS S | S",
+          "western": "G | RGRG R S | SS S | S"
         },
         {
           "lyrics": "shehnaiya | see | raaho | me",
-          "indian": "R~M M MM | M | G GPG | G~R"
+          "indian": "R~M M MM | M | G GPG | G~R",
+          "western": "R~M M MM | M | G GPG | G~R"
         },
         {
           "lyrics": "Suhag | rat | hain",
-          "indian": "PP M | D D | D~P"
+          "indian": "PP M | D D | D~P",
+          "western": "PP M | D D | D~P"
         },
         {
           "lyrics": "ghunghat | utha | raha | hu | mai",
-          "indian": "P~S N~D | N D P | P P... | MDP | MG"
+          "indian": "P~S N~D | N D P | P P... | MDP | MG",
+          "western": "P~S N~D | N D P | P P... | MDP | MG"
         },
         {
           "lyrics": "MUSIC:",
-          "indian": "S'... N DP | {DNDN}D P...M | {DPMG}"
+          "indian": "S'... N DP | {DNDN}D P...M | {DPMG}",
+          "western": "S'... N DP | {DNDN}D P...M | {DPMG}"
         },
         {
           "lyrics": "Suhag | rat | hain",
-          "indian": "PP M | D D | D~P"
+          "indian": "PP M | D D | D~P",
+          "western": "PP M | D D | D~P"
         },
         {
           "lyrics": "ghunghat | utha | raha | hu | mai",
-          "indian": "P~S N~D | N D P | P P... | MDP | MG"
+          "indian": "P~S N~D | N D P | P P... | MDP | MG",
+          "western": "P~S N~D | N D P | P P... | MDP | MG"
         },
         {
           "lyrics": "Simat | rahee | hai | tu",
-          "indian": "G GG | G R(G)R | G | G"
+          "indian": "G GG | G R(G)R | G | G",
+          "western": "G GG | G R(G)R | G | G"
         },
         {
           "lyrics": "sharma | ke | apni | baaho | me",
-          "indian": "R R(G)R G | R | G R S | S~R R(G)R S | S SN D(N)D"
+          "indian": "R R(G)R G | R | G R S | S~R R(G)R S | S SN D(N)D",
+          "western": "R R(G)R G | R | G R S | S~R R(G)R S | S SN D(N)D"
         }
       ]
     },
@@ -200,43 +239,53 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "P PM | DP...M | M~GG | R R | G"
+          "indian": "P PM | DP...M | M~GG | R R | G",
+          "western": "P PM | DP...M | M~GG | R R | G"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "G~M G~DP | P...M GR | GRS"
+          "indian": "G~M G~DP | P...M GR | GRS",
+          "western": "G~M G~DP | P...M GR | GRS"
         },
         {
           "lyrics": "Ke | jaise | tu | mujhe chaahegi",
-          "indian": "G | G G | R...G | G G | R G...R"
+          "indian": "G | G G | R...G | G G | R G...R",
+          "western": "G | G G | R...G | G G | R G...R"
         },
         {
           "lyrics": "umra | bhar | yun | hi",
-          "indian": "R(G)RS S | SR R(G)R | S | S ,N D"
+          "indian": "R(G)RS S | SR R(G)R | S | S ,N D",
+          "western": "R(G)RS S | SR R(G)R | S | S ,N D"
         },
         {
           "lyrics": "Uthhegi | meri | taraf",
-          "indian": "P M~GM | P P | P PP"
+          "indian": "P M~GM | P P | P PP",
+          "western": "P M~GM | P P | P PP"
         },
         {
           "lyrics": "pyaar | ki | najar | yun | hi",
-          "indian": "P D...D(N)DP | P | P(M)P... | M(D)P | M~G"
+          "indian": "P D...D(N)DP | P | P(M)P... | M(D)P | M~G",
+          "western": "P D...D(N)DP | P | P(M)P... | M(D)P | M~G"
         },
         {
           "lyrics": "Main | jaanata | hun | ke | tu",
-          "indian": "G | G G R...G | G | G | R"
+          "indian": "G | G G R...G | G | G | R",
+          "western": "G | G G R...G | G | G | R"
         },
         {
           "lyrics": "gair | hai | magar | yun | hi",
-          "indian": "G...R | GRS | S SR R(G)R | S | S ,N D"
+          "indian": "G...R | GRS | S SR R(G)R | S | S ,N D",
+          "western": "G...R | GRS | S SR R(G)R | S | S ,N D"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "P PM | DP...M | M~GG | R R | G"
+          "indian": "P PM | DP...M | M~GG | R R | G",
+          "western": "P PM | DP...M | M~GG | R R | G"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "G~M G~DP | P...M GR | GRS"
+          "indian": "G~M G~DP | P...M GR | GRS",
+          "western": "G~M G~DP | P...M GR | GRS"
         }
       ]
     }

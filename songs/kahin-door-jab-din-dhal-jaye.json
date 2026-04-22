@@ -15,47 +15,58 @@
       "lines": [
         {
           "lyrics": "Kahin door jab din dhal jaaye",
-          "indian": "Ni Ni: Ni: Ni Dha Pa Dha: Pa Ga Pa: Re"
+          "indian": "Ni Ni: Ni: Ni Dha Pa Dha: Pa Ga Pa: Re",
+          "western": "B B: B: B A G A: G E G: D"
         },
         {
           "lyrics": "Sanjh ki dulhan badan churaye",
-          "indian": "Ga: Ga Sa Ga: Ga Re Ga Ma Ga Ma: Ma"
+          "indian": "Ga: Ga Sa Ga: Ga Re Ga Ma Ga Ma: Ma",
+          "western": "E: E C E: E D E F# E F#: F#"
         },
         {
           "lyrics": "Chupke se aaye",
-          "indian": "Re Ga Ni Dha Pa: Pa"
+          "indian": "Re Ga Ni Dha Pa: Pa",
+          "western": "D E B A G: G"
         },
         {
           "lyrics": "Mere khayalon",
-          "indian": "Re' Re': R'(K) Re': Sa' Ni Dha"
+          "indian": "Re' Re': R'(K) Re': Sa' Ni Dha",
+          "western": "D' D': R'(K) D': C' B A"
         },
         {
           "lyrics": "Ke aangan mein",
-          "indian": "Dha Ni Sa' Ni Sa': Ni Dha Pa"
+          "indian": "Dha Ni Sa' Ni Sa': Ni Dha Pa",
+          "western": "A B C' B C': B A G"
         },
         {
           "lyrics": "Koi sapnon ke",
-          "indian": "Pa Dha Ni Dha Ni: Dha Pa Ma"
+          "indian": "Pa Dha Ni Dha Ni: Dha Pa Ma",
+          "western": "G A B A B: A G F#"
         },
         {
           "lyrics": "Deep jalaye",
-          "indian": "Ma Dha Re' R'(K) R'(K): R'(K) Ni Dha"
+          "indian": "Ma Dha Re' R'(K) R'(K): R'(K) Ni Dha",
+          "western": "F# A D' R'(K) R'(K): R'(K) B A"
         },
         {
           "lyrics": "Deep jalaye",
-          "indian": "Dha Re' Sa' Ni Ni: Ni Pa Dha Pa"
+          "indian": "Dha Re' Sa' Ni Ni: Ni Pa Dha Pa",
+          "western": "A D' C' B B: B G A G"
         },
         {
           "lyrics": "Kahin door jab din dhal jaaye",
-          "indian": "Ni Ni: Ni: Ni Dha Pa Dha: Pa Ga Pa: Re"
+          "indian": "Ni Ni: Ni: Ni Dha Pa Dha: Pa Ga Pa: Re",
+          "western": "B B: B: B A G A: G E G: D"
         },
         {
           "lyrics": "Sanjh ki dulhan badan churaye",
-          "indian": "Ga: Ga Sa Ga: Ga Re Ga Ma Ga Ma: Ma"
+          "indian": "Ga: Ga Sa Ga: Ga Re Ga Ma Ga Ma: Ma",
+          "western": "E: E C E: E D E F# E F#: F#"
         },
         {
           "lyrics": "Chupke se aaye",
-          "indian": "Re Ga Ni Dha Pa: Pa"
+          "indian": "Re Ga Ni Dha Pa: Pa",
+          "western": "D E B A G: G"
         },
         {
           "lyrics": "Music",
@@ -63,67 +74,83 @@
         },
         {
           "lyrics": "Kabhi yun hi jab hui",
-          "indian": "Re' Re' Ga' Ga' Re' Re' Ga' Ga'"
+          "indian": "Re' Re' Ga' Ga' Re' Re' Ga' Ga'",
+          "western": "D' D' E' E' D' D' E' E'"
         },
         {
           "lyrics": "Bojhal saansen",
-          "indian": "Ni Re' Pa' Ma' Ga': Ga'"
+          "indian": "Ni Re' Pa' Ma' Ga': Ga'",
+          "western": "B D' G' F#' E': E'"
         },
         {
           "lyrics": "Bhar aai baithe baithe",
-          "indian": "Sa' Sa' Sa' Dha Sa' Sa' Sa' Re' Ga'"
+          "indian": "Sa' Sa' Sa' Dha Sa' Sa' Sa' Re' Ga'",
+          "western": "C' C' C' A C' C' C' D' E'"
         },
         {
           "lyrics": "Jab yoon hi aankhen",
-          "indian": "Re' Ga' Ma' Ga' Re': Re'"
+          "indian": "Re' Ga' Ma' Ga' Re': Re'",
+          "western": "D' E' F#' E' D': D'"
         },
         {
           "lyrics": "Kabhi yun hi jab hui",
-          "indian": "Re' Re' Ga' Ga' Re' Re' Ga' Ga'"
+          "indian": "Re' Re' Ga' Ga' Re' Re' Ga' Ga'",
+          "western": "D' D' E' E' D' D' E' E'"
         },
         {
           "lyrics": "Bojhal saansen",
-          "indian": "Ni Re' Pa' Ma' Ga': Ga'"
+          "indian": "Ni Re' Pa' Ma' Ga': Ga'",
+          "western": "B D' G' F#' E': E'"
         },
         {
           "lyrics": "Bhar aai baithe baithe",
-          "indian": "Sa' Sa' Sa' Dha Sa' Sa' Sa' Re' Ga'"
+          "indian": "Sa' Sa' Sa' Dha Sa' Sa' Sa' Re' Ga'",
+          "western": "C' C' C' A C' C' C' D' E'"
         },
         {
           "lyrics": "Jab yoon hi aankhen",
-          "indian": "Re' Ga' Ma' Ga' Re': Re'"
+          "indian": "Re' Ga' Ma' Ga' Re': Re'",
+          "western": "D' E' F#' E' D': D'"
         },
         {
           "lyrics": "Kabhi machal ke",
-          "indian": "Re' Re': R'(K) Re': Sa' Ni Dha"
+          "indian": "Re' Re': R'(K) Re': Sa' Ni Dha",
+          "western": "D' D': R'(K) D': C' B A"
         },
         {
           "lyrics": "Pyaar se chal ke",
-          "indian": "Dha Ni Sa' Ni Sa': Ni Dha Pa"
+          "indian": "Dha Ni Sa' Ni Sa': Ni Dha Pa",
+          "western": "A B C' B C': B A G"
         },
         {
           "lyrics": "Chhuye koi mujhe par",
-          "indian": "Pa Dha Ni Dha Ni: Dha Pa Ma"
+          "indian": "Pa Dha Ni Dha Ni: Dha Pa Ma",
+          "western": "G A B A B: A G F#"
         },
         {
           "lyrics": "Nazar na aaye",
-          "indian": "Ma Dha Re' R'(K) R'(K): R'(K) Ni Dha"
+          "indian": "Ma Dha Re' R'(K) R'(K): R'(K) Ni Dha",
+          "western": "F# A D' R'(K) R'(K): R'(K) B A"
         },
         {
           "lyrics": "Nazar na aaye",
-          "indian": "Dha Re' Sa' Ni Ni: Ni Pa Dha Pa"
+          "indian": "Dha Re' Sa' Ni Ni: Ni Pa Dha Pa",
+          "western": "A D' C' B B: B G A G"
         },
         {
           "lyrics": "Kahin door jab din dhal jaaye",
-          "indian": "Ni Ni: Ni: Ni Dha Pa Dha: Pa Ga Pa: Re"
+          "indian": "Ni Ni: Ni: Ni Dha Pa Dha: Pa Ga Pa: Re",
+          "western": "B B: B: B A G A: G E G: D"
         },
         {
           "lyrics": "Sanjh ki dulhan badan churaye",
-          "indian": "Ga: Ga Sa Ga: Ga Re Ga Ma Ga Ma: Ma"
+          "indian": "Ga: Ga Sa Ga: Ga Re Ga Ma Ga Ma: Ma",
+          "western": "E: E C E: E D E F# E F#: F#"
         },
         {
           "lyrics": "Chupke se aaye",
-          "indian": "Re Ga Ni Dha Pa: Pa"
+          "indian": "Re Ga Ni Dha Pa: Pa",
+          "western": "D E B A G: G"
         }
       ]
     }

@@ -31,7 +31,7 @@
         {
           "lyrics": "Hoo gayaa",
           "indian": "Dha Dha(k).Dha Ni",
-          "western": "A A(K).A B"
+          "western": "A abA B"
         },
         {
           "lyrics": "Sambhaalo mujhkoo",
@@ -51,17 +51,17 @@
         {
           "lyrics": "Hoo gayaa",
           "indian": "Dha Dha(k).Dha Ni",
-          "western": "A A(K).A B"
+          "western": "A abA B"
         },
         {
           "lyrics": "Dil main meree",
           "indian": "Ga ma Dha Ga.",
-          "western": "E F A E."
+          "western": "E F A e"
         },
         {
           "lyrics": "Khwaab teree",
           "indian": "ma Dha Sa' ma.",
-          "western": "F A C' F."
+          "western": "F A C' f"
         },
         {
           "lyrics": "Tasveer kaise ho deewar pee",
@@ -71,12 +71,12 @@
         {
           "lyrics": "Tujh pee fidaa",
           "indian": "Ga ma Dha Ga.",
-          "western": "E F A E."
+          "western": "E F A e"
         },
         {
           "lyrics": "Main kyoon huaa",
           "indian": "ma Dha Sa' ma.",
-          "western": "F A C' F."
+          "western": "F A C' f"
         },
         {
           "lyrics": "Aataa hai gussa mujhe pyaar pee",
@@ -101,7 +101,7 @@
         {
           "lyrics": "Kyaa karoon mai dilrubaa",
           "indian": "Re' Sa' Re' Sa' Ni Dha Dha(k).Dha Ni",
-          "western": "D' C' D' C' B A A(K).A B"
+          "western": "D' C' D' C' B A abA B"
         }
       ]
     }

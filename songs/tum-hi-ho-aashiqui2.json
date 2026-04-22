@@ -18,7 +18,7 @@
         {
           "lyrics": "",
           "indian": "Dha.. Sa Ga Ga ma Sa Re Ni.",
-          "western": "A.. C E E F C D B."
+          "western": "a. C E E F C D b"
         }
       ]
     },
@@ -33,7 +33,7 @@
         {
           "lyrics": "Tere bina kya wajud mera",
           "indian": "Re Re Sa Re Re Sa Ni. Dha. Pa. Dha. Pa. Dha.",
-          "western": "D D C D D C B. A. G. A. G. A."
+          "western": "D D C D D C b a g a g a"
         },
         {
           "lyrics": "Tujh se juda agar ho jaayenge",
@@ -43,7 +43,7 @@
         {
           "lyrics": "To khud se hi ho jaayenge juda",
           "indian": "Sa Re Re Re Sa Re Re Sa Ni. Dha. Pa. Dha. Pa. Dha.",
-          "western": "C D D D C D D C B. A. G. A. G. A."
+          "western": "C D D D C D D C b a g a g a"
         },
         {
           "lyrics": "Kyonki tum hi ho, ab tum hi ho",
@@ -53,7 +53,7 @@
         {
           "lyrics": "Jindagi, ab tum hi ho…",
           "indian": "Ni. Re Sa Ni. Dha. Ni. Pa. Dha.. Ni. Sa Re",
-          "western": "B. D C B. A. B. G. A.. B. C D"
+          "western": "b D C b a b g a. b C D"
         },
         {
           "lyrics": "Chain bhi, mera dard bhi",
@@ -63,7 +63,7 @@
         {
           "lyrics": "Meri aashiqui, ab tum hi ho",
           "indian": "Ni. Ni. Ni. Re Sa Ni. Dha. Ni. Pa. Dha..",
-          "western": "B. B. B. D C B. A. B. G. A.."
+          "western": "b b b D C b a b g a."
         }
       ]
     },
@@ -73,22 +73,22 @@
         {
           "lyrics": "",
           "indian": "Dha.. Ni. Sa Re",
-          "western": "A.. B. C D"
+          "western": "a. b C D"
         },
         {
           "lyrics": "",
           "indian": "Re Ga.. Re Ga.. Re Sa Ni.",
-          "western": "D E.. D E.. D C B."
+          "western": "D e. D e. D C b"
         },
         {
           "lyrics": "",
           "indian": "Re Ga.. Re Ga.. Re Sa Ni.",
-          "western": "D E.. D E.. D C B."
+          "western": "D e. D e. D C b"
         },
         {
           "lyrics": "",
           "indian": "Sa Re.. Sa Re.. Sa Ni. Dha. Ni. Dha.",
-          "western": "C D.. C D.. C B. A. B. A."
+          "western": "C d. C d. C b a b a"
         }
       ]
     },
@@ -103,7 +103,7 @@
         {
           "lyrics": "Ek pal dur gawaara nahin",
           "indian": "Re Re Sa Re Re Re Sa Ni. Dha. Pa. Dha. Pa. Dha.",
-          "western": "D D C D D D C B. A. G. A. G. A."
+          "western": "D D C D D D C b a g a g a"
         },
         {
           "lyrics": "Tere lie har roj hain jite",
@@ -113,17 +113,17 @@
         {
           "lyrics": "Tujhako diya mera wakt sabhi",
           "indian": "Re Re Re Sa Re Re Sa Ni. Sa Ni. Dha. Pa. Dha. Pa. Dha.",
-          "western": "D D D C D D C B. C B. A. G. A. G. A."
+          "western": "D D D C D D C b C b a g a g a"
         },
         {
           "lyrics": "Koi lamha mera na ho tere bina",
           "indian": "Pa. Dha. Ni. Ni. Ni. Ni. Ni. ma ma Ga Ga Re Ga Re Ga",
-          "western": "G. A. B. B. B. B. B. F F E E D E D E"
+          "western": "g a b b b b b F F E E D E D E"
         },
         {
           "lyrics": "Har saans pe naam tera",
           "indian": "Ga Dha Pa Dha Dha Ga Ga Re Re Sa Re Sa.. Ni. Sa Ni..",
-          "western": "E A G A A E E D D C D C.. B. C B.."
+          "western": "E A G A A E E D D C D c. b C b."
         },
         {
           "lyrics": "Kyonki tum hi ho…",
@@ -138,17 +138,17 @@
         {
           "lyrics": "",
           "indian": "Dha.. Ni. Sa Re",
-          "western": "A.. B. C D"
+          "western": "a. b C D"
         },
         {
           "lyrics": "",
           "indian": "Re Ga.. Re Ga.. Re Sa Ni.",
-          "western": "D E.. D E.. D C B."
+          "western": "D e. D e. D C b"
         },
         {
           "lyrics": "",
           "indian": "Sa Re.. Sa Re.. Sa Ni. Dha. Ni. Dha.",
-          "western": "C D.. C D.. C B. A. B. A."
+          "western": "C d. C d. C b a b a"
         }
       ]
     },
@@ -178,12 +178,12 @@
         {
           "lyrics": "Tere saath mera hai nasib juda",
           "indian": "Pa. Dha. Ni. Ni. Dha. Ni. Ni. ma ma Ga Ga Re Ga Re Ga",
-          "western": "G. A. B. B. A. B. B. F F E E D E D E"
+          "western": "g a b b a b b F F E E D E D E"
         },
         {
           "lyrics": "Tujhe paake adhura na raha",
           "indian": "Ga Dha Pa Dha Dha Ga Ga Re Re Sa Re Sa.. Ni. Sa Ni..",
-          "western": "E A G A A E E D D C D C.. B. C B.."
+          "western": "E A G A A E E D D C D c. b C b."
         },
         {
           "lyrics": "Kyonki tum hi ho…",
@@ -203,7 +203,7 @@
         {
           "lyrics": "Jindagi, ab tum hi ho…",
           "indian": "Re Pa ma Ga Re Ga Sa Re.. Ga ma Pa",
-          "western": "D G F E D E C D.. E F G"
+          "western": "D G F E D E C d. E F G"
         },
         {
           "lyrics": "Chain bhi, mera dard bhi",
@@ -213,7 +213,7 @@
         {
           "lyrics": "Meri aashiqui, ab tum hi ho",
           "indian": "Ni. Ni. Ni. Re Sa Ni. Dha. Ni. Pa. Dha..",
-          "western": "B. B. B. D C B. A. B. G. A.."
+          "western": "b b b D C b a b g a."
         }
       ]
     }

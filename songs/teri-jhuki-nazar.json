@@ -15,83 +15,103 @@
       "lines": [
         {
           "lyrics": "Chaahe kuchh na kehna",
-          "indian": "Sa Sa Ga Ga Re Ga Ga Re Sa"
+          "indian": "Sa Sa Ga Ga Re Ga Ga Re Sa",
+          "western": "C C E E D E E D C"
         },
         {
           "lyrics": "Bhale chup tu rehna",
-          "indian": "Sa Sa Ga Ga Re Ga Ga Re Sa"
+          "indian": "Sa Sa Ga Ga Re Ga Ga Re Sa",
+          "western": "C C E E D E E D C"
         },
         {
           "lyrics": "Mujhe hai pata",
-          "indian": "Re Ga Re Re Re Sa ni"
+          "indian": "Re Ga Re Re Re Sa ni",
+          "western": "D E D D D C b"
         },
         {
           "lyrics": "Tere pyaar ka",
-          "indian": "Pa ma Ga Sa Re Sa ni"
+          "indian": "Pa ma Ga Sa Re Sa ni",
+          "western": "G F E C D C b"
         },
         {
           "lyrics": "Khamosh chehra",
-          "indian": "Sa Ga Re Ga Ga Re Sa"
+          "indian": "Sa Ga Re Ga Ga Re Sa",
+          "western": "C E D E E D C"
         },
         {
           "lyrics": "Aankhon pe pehra",
-          "indian": "Sa Re Ga Pa Ga Ga Re Sa"
+          "indian": "Sa Re Ga Pa Ga Ga Re Sa",
+          "western": "C D E G E E D C"
         },
         {
           "lyrics": "Khud hai gawah",
-          "indian": "Re Ga Re Re Re Sa ni"
+          "indian": "Re Ga Re Re Re Sa ni",
+          "western": "D E D D D C b"
         },
         {
           "lyrics": "Tere pyar ka",
-          "indian": "Re Ga Re Re Re Sa ni"
+          "indian": "Re Ga Re Re Re Sa ni",
+          "western": "D E D D D C b"
         },
         {
           "lyrics": "Teri jhuki nazar",
-          "indian": "ma Ga Re ma Ga Ga"
+          "indian": "ma Ga Re ma Ga Ga",
+          "western": "F E D F E E"
         },
         {
           "lyrics": "Teri har ada",
-          "indian": "Re Pa ma Ga Ga"
+          "indian": "Re Pa ma Ga Ga",
+          "western": "D G F E E"
         },
         {
           "lyrics": "Mujhe keh rahi",
-          "indian": "Re Ga Re Re Sa Sa"
+          "indian": "Re Ga Re Re Sa Sa",
+          "western": "D E D D C C"
         },
         {
           "lyrics": "Hai ye dastan",
-          "indian": "dha dha Ga Re Re"
+          "indian": "dha dha Ga Re Re",
+          "western": "a a E D D"
         },
         {
           "lyrics": "Koi shakhs hai",
-          "indian": "ma Ga Re ma Ga Ga"
+          "indian": "ma Ga Re ma Ga Ga",
+          "western": "F E D F E E"
         },
         {
           "lyrics": "Jo ki in dino",
-          "indian": "Re Pa ma Ga Ga"
+          "indian": "Re Pa ma Ga Ga",
+          "western": "D G F E E"
         },
         {
           "lyrics": "Tere zehan o dil",
-          "indian": "ma Pa Ga Re Sa Sa"
+          "indian": "ma Pa Ga Re Sa Sa",
+          "western": "F G E D C C"
         },
         {
           "lyrics": "Pe hai chha gaya",
-          "indian": "dha dha Ga Re Re"
+          "indian": "dha dha Ga Re Re",
+          "western": "a a E D D"
         },
         {
           "lyrics": "Teri jhuki nazar",
-          "indian": "ma Ga Re ma Ga Ga"
+          "indian": "ma Ga Re ma Ga Ga",
+          "western": "F E D F E E"
         },
         {
           "lyrics": "Teri har ada",
-          "indian": "Re Pa ma Ga Ga"
+          "indian": "Re Pa ma Ga Ga",
+          "western": "D G F E E"
         },
         {
           "lyrics": "Mujhe keh rahi",
-          "indian": "Re Ga Re Re Sa Sa"
+          "indian": "Re Ga Re Re Sa Sa",
+          "western": "D E D D C C"
         },
         {
           "lyrics": "Hai ye dastan",
-          "indian": "dha dha Ga Re Re"
+          "indian": "dha dha Ga Re Re",
+          "western": "a a E D D"
         }
       ]
     }

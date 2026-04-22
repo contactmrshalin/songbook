@@ -15,12 +15,12 @@
         {
           "lyrics": "Kuch na kaho kuch bhi na kaho",
           "indian": "Ga Pa: Sa ni: Ga Ga Ga Pa: ni Sa:",
-          "western": "E G: C B.: E E E G: B. C:"
+          "western": "E G: C b: E E E G: b C:"
         },
         {
           "lyrics": "Kuch na kaho kuch bhi na kaho",
           "indian": "Ga Pa: Sa ni: Ga Ga Ga Pa: ni Sa:",
-          "western": "E G: C B.: E E E G: B. C:"
+          "western": "E G: C b: E E E G: b C:"
         },
         {
           "lyrics": "Kya kehna hai kya sun na hai",
@@ -30,7 +30,7 @@
         {
           "lyrics": "Mujhko pata hai",
           "indian": "Pa Dha: Pa Ma Ma: Ga Re Ga Re.",
-          "western": "G A: G F# F#: E D E D."
+          "western": "G A: G F# F#: E D E d"
         },
         {
           "lyrics": "Tumko pata hai",
@@ -40,7 +40,7 @@
         {
           "lyrics": "Samay ka yeh pal",
           "indian": "Pa Ni Pa Dha Dha: Ni.",
-          "western": "G B G A A: B."
+          "western": "G B G A A: b"
         },
         {
           "lyrics": "Tham saa gaya hai",
@@ -60,12 +60,12 @@
         {
           "lyrics": "Bas ek main hoon bas ek tum ho",
           "indian": "Ga Pa: Ga Sa ni: Re Ga: Re ni Sa:",
-          "western": "E G: E C B.: D E: D B. C:"
+          "western": "E G: E C b: D E: D b C:"
         },
         {
           "lyrics": "Kuch na kaho kuch bhi na kaho",
           "indian": "Ga Pa: Sa ni: Ga Ga Ga Pa: ni Sa:",
-          "western": "E G: C B.: E E E G: B. C:"
+          "western": "E G: C b: E E E G: b C:"
         }
       ]
     }

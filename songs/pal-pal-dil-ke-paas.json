@@ -15,19 +15,23 @@
       "lines": [
         {
           "lyrics": "Pal pal dil kee paas tum rehtii hoo",
-          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa",
+          "western": "a: b: C: E D D: a a b b C C"
         },
         {
           "lyrics": "Pal pal dil kee paas tum rehtii hoo",
-          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa",
+          "western": "a: b: C: E D D: a a b b C C"
         },
         {
           "lyrics": "Jiivan miithii pyaas ye kahatii hoo",
-          "indian": "Ga: ma: Pa: Dha Pa Pa: Re Re Ga Ga ma Ga:"
+          "indian": "Ga: ma: Pa: Dha Pa Pa: Re Re Ga Ga ma Ga:",
+          "western": "E: F: G: A G G: D D E E F E:"
         },
         {
           "lyrics": "Pal pal dil kee paas tum rehtii hoo",
-          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa",
+          "western": "a: b: C: E D D: a a b b C C"
         },
         {
           "lyrics": "Music",
@@ -35,27 +39,33 @@
         },
         {
           "lyrics": "Har shaam aankhon par teraa aanchal laharaae",
-          "indian": "pa pa dha dha dha dha dha dha Ga Ga Re Re Sa Sa ni ni dha dha pa"
+          "indian": "pa pa dha dha dha dha dha dha Ga Ga Re Re Sa Sa ni ni dha dha pa",
+          "western": "g g a a a a a a E E D D C C b b a a g"
         },
         {
           "lyrics": "Har raat yaadon kii baaraat le aae",
-          "indian": "pa Pa Pa Pa Pa Dha Pa ma: Ga Re Re Re ma ma Ga Ga"
+          "indian": "pa Pa Pa Pa Pa Dha Pa ma: Ga Re Re Re ma ma Ga Ga",
+          "western": "g G G G G A G F: E D D D F F E E"
         },
         {
           "lyrics": "Main saans letaa huun terii khushbuu aati haii",
-          "indian": "Ga Re Ga Re Re Sa Sa pa Ga Re Re Ga Ga Re Re Sa Sa Sa pa"
+          "indian": "Ga Re Ga Re Re Sa Sa pa Ga Re Re Ga Ga Re Re Sa Sa Sa pa",
+          "western": "E D E D D C C g E D D E E D D C C C g"
         },
         {
           "lyrics": "Ek mahakaa mahakaa saa paigaam laati haii",
-          "indian": "Ga Re Re Ga Ga Re Re Sa Sa: Sa pa Ga Re Ga Re Re Sa Sa"
+          "indian": "Ga Re Re Ga Ga Re Re Sa Sa: Sa pa Ga Re Ga Re Re Sa Sa",
+          "western": "E D D E E D D C C: C g E D E D D C C"
         },
         {
           "lyrics": "Mere dil kii dhadkan bhii teree geet gaati haii",
-          "indian": "pa pa Pa Pa Pa Pa Dha Pa ma: Ga Re Re Re Re ma ma Ga Ga"
+          "indian": "pa pa Pa Pa Pa Pa Dha Pa ma: Ga Re Re Re Re ma ma Ga Ga",
+          "western": "g g G G G G A G F: E D D D D F F E E"
         },
         {
           "lyrics": "Pal pal dil kee paas tum rehtii hoo",
-          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa"
+          "indian": "dha: ni: Sa: Ga Re Re: dha dha ni ni Sa Sa",
+          "western": "a: b: C: E D D: a a b b C C"
         }
       ]
     }

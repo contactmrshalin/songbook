@@ -14,32 +14,32 @@
         {
           "lyrics": "Teri kayanaat",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C.."
+          "western": "c.c.debd.c.debd.c."
         },
         {
           "lyrics": "Mere khaali haath",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C.."
+          "western": "c.c.debd.c.debd.c."
         },
         {
           "lyrics": "Aur taar taar sapne",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..Sa..Sa..dha..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C..C..C..A..."
+          "western": "c.c.debd.c.debd.c.c.c.a."
         },
         {
           "lyrics": "Gaye zakhm jaag",
           "indian": "dha..dha..Sa.Re.Sa..dha..Sa.Re.Sa..dha..",
-          "western": "A...A...C.D.C..A...C.D.C..A..."
+          "western": "a.a.cdc.a.cdc.a."
         },
         {
           "lyrics": "Mere seene aag",
           "indian": "dha..dha..Sa.Re.Sa..dha..Sa.Re.Sa..dha..",
-          "western": "A...A...C.D.C..A...C.D.C..A..."
+          "western": "a.a.cdc.a.cdc.a."
         },
         {
           "lyrics": "Lagi saans saans tapne",
           "indian": "Dha(k)..Dha(k)..Dha(k)(k)…Dha(k)(k)..Dha(k)(k)…Dha(k)(k)..Dha(k)(k)..Dha(k)(k)..p…",
-          "western": "A...A...A.(k)…A.(k)..A.(k)…A.(k)..A.(k)..A.(k)..G.…"
+          "western": "ab.ab.Ab(k)…Ab(k)..Ab(k)…Ab(k)..Ab(k)..Ab(k)..p…"
         }
       ]
     },
@@ -49,17 +49,17 @@
         {
           "lyrics": "Teri kayanaat",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C.."
+          "western": "c.c.debd.c.debd.c."
         },
         {
           "lyrics": "Mere khaali haath",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C.."
+          "western": "c.c.debd.c.debd.c."
         },
         {
           "lyrics": "Aur taar taar sapne",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..Sa..Sa..dha..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C..C..C..A..."
+          "western": "c.c.debd.c.debd.c.c.c.a."
         }
       ]
     },
@@ -69,77 +69,77 @@
         {
           "lyrics": "Dardo se choor",
           "indian": "dha..dha..Sa.Re.Sa..dha..Sa.Re.Sa..dha..",
-          "western": "A...A...C.D.C..A...C.D.C..A..."
+          "western": "a.a.cdc.a.cdc.a."
         },
         {
           "lyrics": "Gham ka guroor",
           "indian": "dha..dha..Sa.Re.Sa..dha..Sa.Re.Sa..dha..",
-          "western": "A...A...C.D.C..A...C.D.C..A..."
+          "western": "a.a.cdc.a.cdc.a."
         },
         {
           "lyrics": "Kahoon kya main haal apne",
           "indian": "Dha(k)..Dha(k)..Dha(k)(k)…Dha(k)(k)..Dha(k)(k)…Dha(k)(k)..Dha(k)(k)..Dha(k)(k)..p…",
-          "western": "A...A...A.(k)…A.(k)..A.(k)…A.(k)..A.(k)..A.(k)..G.…"
+          "western": "ab.ab.Ab(k)…Ab(k)..Ab(k)…Ab(k)..Ab(k)..Ab(k)..p…"
         },
         {
           "lyrics": "Aawaara, aawaara",
           "indian": "Sa…Re..Ga..Re..Ga….Ga..Pa..Pa…Pa..ma…",
-          "western": "C…D..E..D..E….E..G..G…G..F…"
+          "western": "C…d.e.d.E….e.g.G…g.F…"
         },
         {
           "lyrics": "Aawaara angaara",
           "indian": "Sa…Re..ma..ma..Dha(k)….Dha(k)..ma..ma…ma..Ga(k)…",
-          "western": "C…D..F..F..Ab….Ab..F..F…F..Eb…"
+          "western": "C…d.f.f.Ab….ab.f.F…f.Eb…"
         },
         {
           "lyrics": "Raaton mein dooba",
           "indian": "Sa…Re..Ga..Re..Ga….Ga..Pa..Pa…Pa..ma…",
-          "western": "C…D..E..D..E….E..G..G…G..F…"
+          "western": "C…d.e.d.E….e.g.G…g.F…"
         },
         {
           "lyrics": "Ambar ka banjaara",
           "indian": "Sa…Re..ma..ma..Dha(k)….Dha(k)..ma..ma…ma..Ga(k)…",
-          "western": "C…D..F..F..Ab….Ab..F..F…F..Eb…"
+          "western": "C…d.f.f.Ab….ab.f.F…f.Eb…"
         },
         {
           "lyrics": "Jaane toota kyun",
           "indian": "ni…Sa..Re….Re..ma..ma…ma..Ga(k)…",
-          "western": "B.…C..D….D..F..F…F..Eb…"
+          "western": "b…c.D….d.f.F…f.Eb…"
         },
         {
           "lyrics": "Main sheesha na taara",
           "indian": "Sa…Re..Ga..Re..Ga….Pa…Pa..Ni(k)..Ni(k)…Ni(k)..Dha(k)…",
-          "western": "C…D..E..D..E….G…G..Bb..Bb…Bb..Ab…"
+          "western": "C…d.e.d.E….G…g.bb.Bb…bb.Ab…"
         },
         {
           "lyrics": "Teri kayanaat",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C.."
+          "western": "c.c.debd.c.debd.c."
         },
         {
           "lyrics": "Mere khaali haath",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C.."
+          "western": "c.c.debd.c.debd.c."
         },
         {
           "lyrics": "Aur taar taar sapne",
           "indian": "Sa..Sa..Re.Ga(k).Re..Sa..Re.Ga(k).Re..Sa..Sa..Sa..dha..",
-          "western": "C..C..D.Eb.D..C..D.Eb.D..C..C..C..A..."
+          "western": "c.c.debd.c.debd.c.c.c.a."
         },
         {
           "lyrics": "Gaye zakhm jaag",
           "indian": "dha..dha..Sa.Re.Sa..dha..Sa.Re.Sa..dha..",
-          "western": "A...A...C.D.C..A...C.D.C..A..."
+          "western": "a.a.cdc.a.cdc.a."
         },
         {
           "lyrics": "Mere seene aag",
           "indian": "dha..dha..Sa.Re.Sa..dha..Sa.Re.Sa..dha..",
-          "western": "A...A...C.D.C..A...C.D.C..A..."
+          "western": "a.a.cdc.a.cdc.a."
         },
         {
           "lyrics": "Lagi saans saans tapne",
           "indian": "Dha(k)..Dha(k)..Dha(k)(k)…Dha(k)(k)..Dha(k)(k)…Dha(k)(k)..Dha(k)(k)..Dha(k)(k)..p…",
-          "western": "A...A...A.(k)…A.(k)..A.(k)…A.(k)..A.(k)..A.(k)..G.…"
+          "western": "ab.ab.Ab(k)…Ab(k)..Ab(k)…Ab(k)..Ab(k)..Ab(k)..p…"
         }
       ]
     }

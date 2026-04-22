@@ -16,42 +16,42 @@
         {
           "lyrics": "Badle tere maahi",
           "indian": "Dha..Pa..ma..Ga..Pa...Pa..Ga..",
-          "western": "A..G..F..E..G...G..E.."
+          "western": "a.g.f.e.g..g.e."
         },
         {
           "lyrics": "Laake jo koyi saari",
           "indian": "Dha..Pa..ma..Ga..Pa...Pa..Ga..",
-          "western": "A..G..F..E..G...G..E.."
+          "western": "a.g.f.e.g..g.e."
         },
         {
           "lyrics": "Duniya bhi dede agar toh",
           "indian": "Pa..Sa'..Ni...Dha..Pa..ma..Pa...Ga..Re...ma...",
-          "western": "G..C'..B...A..G..F..G...E..D...F..."
+          "western": "g.C'..b..a.g.f.g..e.d..f.."
         },
         {
           "lyrics": "Kise duniya chahiye",
           "indian": "ma..Ga..Re..Sa..Dha(k)...Dha(k)..ma..Pa..",
-          "western": "F..E..D..C..Ab...Ab..F..G.."
+          "western": "f.e.d.c.ab..ab.f.g."
         },
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Ga..Ga..Ga..ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'..",
-          "western": "E..E..E..F..G..G.A..A..G..B..B..A..C'.."
+          "western": "e.e.e.f.g.ga.a.g.b.b.a.C'.."
         },
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Sa'..Ni..Sa'..Dha..Pa..ma..ma..ma..Dha..Pa..ma..Ga..",
-          "western": "C'..B..C'..A..G..F..F..F..A..G..F..E.."
+          "western": "C'..b.C'..a.g.f.f.f.a.g.f.e."
         },
         {
           "lyrics": "Kisi ki na madad na dua chahiye",
           "indian": "Ga..Ga..Ga..ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'..",
-          "western": "E..E..E..F..G..G.A..A..G..B..B..A..C'.."
+          "western": "e.e.e.f.g.ga.a.g.b.b.a.C'.."
         },
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Sa'..Ni..Sa'..Dha..Pa..ma..ma..ma..Dha..Pa..ma..Ga..",
-          "western": "C'..B..C'..A..G..F..F..F..A..G..F..E.."
+          "western": "C'..b.C'..a.g.f.f.f.a.g.f.e."
         }
       ]
     },
@@ -61,17 +61,17 @@
         {
           "lyrics": "Sunn haaniye jind jaaniye",
           "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'... Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'...Sa'..Ni..",
-          "western": "G.E'..D'..E'...D'..C'..D'... G.E'..D'..E'...D'..C'..D'...C'..B.."
+          "western": "gE'..D'..E'...D'..C'..D'... gE'..D'..E'...D'..C'..D'...C'..b."
         },
         {
           "lyrics": "Sau baar janam loon toh bhi",
           "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'..Sa'..Ni.Sa'..Sa'..Ni..Dha..",
-          "western": "G.E'..D'..E'...D'..C'..D'..C'..B.C'..C'..B..A.."
+          "western": "gE'..D'..E'...D'..C'..D'..C'..bC'..C'..b.a."
         },
         {
           "lyrics": "Tu hi humdum har dafa chahiye",
           "indian": "Dha..Pa..ma..ma..ma..Dha(k)..Pa..ma..Ga..",
-          "western": "A..G..F..F..F..Ab..G..F..E.."
+          "western": "a.g.f.f.f.ab.g.f.e."
         }
       ]
     },
@@ -81,12 +81,12 @@
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Ga..Ga..Ga..ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'..",
-          "western": "E..E..E..F..G..G.A..A..G..B..B..A..C'.."
+          "western": "e.e.e.f.g.ga.a.g.b.b.a.C'.."
         },
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Sa'..Ni..Sa'..Dha..Pa..ma..ma..ma..Dha..Pa..ma..Ga..",
-          "western": "C'..B..C'..A..G..F..F..F..A..G..F..E.."
+          "western": "C'..b.C'..a.g.f.f.f.a.g.f.e."
         }
       ]
     },
@@ -96,17 +96,17 @@
         {
           "lyrics": "Tu hi re tu hi re tu hi re",
           "indian": "Ni..Sa'..Sa'.. Ni..Sa'..Sa'.. Ni..Sa'..Sa'..",
-          "western": "B..C'..C'.. B..C'..C'.. B..C'..C'.."
+          "western": "b.C'..C'.. b.C'..C'.. b.C'..C'.."
         },
         {
           "lyrics": "Ni heeriye tu hi re tu hi re tu hi re",
           "indian": "Sa'..Sa'..Ga'..Re'..Pa..Dha..Dha.. Pa..Dha..Dha.. Pa..Dha..Dha..",
-          "western": "C'..C'..E'..D'..G..A..A.. G..A..A.. G..A..A.."
+          "western": "C'..C'..E'..D'..g.a.a. g.a.a. g.a.a."
         },
         {
           "lyrics": "Ni heeriye tu meri main hoon tera ranjha",
           "indian": "Dha..Dha..Sa'..Dha..Pa..ma..Dha...Dha..Dha..Sa'..Dha..ma..Pa...Pa...",
-          "western": "A..A..C'..A..G..F..A...A..A..C'..A..F..G...G..."
+          "western": "a.a.C'..a.g.f.a..a.a.C'..a.f.g..g.."
         }
       ]
     },
@@ -116,37 +116,37 @@
         {
           "lyrics": "Hoo jab tak teri neend na toote",
           "indian": "Ga...Ga..Ga..Pa..Dha..Sa'...Sa'... Ni..Sa'..Re'..Sa'..Dha...Dha...",
-          "western": "E...E..E..G..A..C'...C'... B..C'..D'..C'..A...A..."
+          "western": "e..e.e.g.a.C'...C'... b.C'..D'..C'..a..a.."
         },
         {
           "lyrics": "Ugta nahi hai sooraj mera",
           "indian": "Dha..Dha..Dha..Dha..Dha(k)...Ni...Sa'..Ni..Dha..Pa..Pa...Pa...",
-          "western": "A..A..A..A..Ab...B...C'..B..A..G..G...G..."
+          "western": "a.a.a.a.ab..b..C'..b.a.g.g..g.."
         },
         {
           "lyrics": "Khwaab rahe kis kaam ke mere",
           "indian": "Ga..Pa..Dha..Sa'...Sa'... Ni..Sa'..Re'..Sa'..Dha...Dha...",
-          "western": "E..G..A..C'...C'... B..C'..D'..C'..A...A..."
+          "western": "e.g.a.C'...C'... b.C'..D'..C'..a..a.."
         },
         {
           "lyrics": "Khwaab se pyara tu sach mera",
           "indian": "Dha..Dha..Dha..Dha..Dha(k)...Ni...Sa'..Ni..Dha..Pa..Pa..Pa...",
-          "western": "A..A..A..A..Ab...B...C'..B..A..G..G..G..."
+          "western": "a.a.a.a.ab..b..C'..b.a.g.g.g.."
         },
         {
           "lyrics": "Sunn haaniye jind jaaniye",
           "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'... Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'...Sa'..Ni..",
-          "western": "G.E'..D'..E'...D'..C'..D'... G.E'..D'..E'...D'..C'..D'...C'..B.."
+          "western": "gE'..D'..E'...D'..C'..D'... gE'..D'..E'...D'..C'..D'...C'..b."
         },
         {
           "lyrics": "Zakhmon ko mere marham ki jagah",
           "indian": "Pa.Ga'..Re'..Ga'...Re'..Sa'..Re'..Sa'..Ni.Sa'..Sa'..Ni..Dha..",
-          "western": "G.E'..D'..E'...D'..C'..D'..C'..B.C'..C'..B..A.."
+          "western": "gE'..D'..E'...D'..C'..D'..C'..bC'..C'..b.a."
         },
         {
           "lyrics": "Bas tera chua chahiye",
           "indian": "Dha..Pa..ma..ma..ma..Dha(k)..Pa..ma..Ga..",
-          "western": "A..G..F..F..F..Ab..G..F..E.."
+          "western": "a.g.f.f.f.ab.g.f.e."
         }
       ]
     },
@@ -156,37 +156,37 @@
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Ga..Ga..Ga..ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'..",
-          "western": "E..E..E..F..G..G.A..A..G..B..B..A..C'.."
+          "western": "e.e.e.f.g.ga.a.g.b.b.a.C'.."
         },
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Sa'..Ni..Sa'..Dha..Pa..ma..ma..ma..Dha..Pa..ma..Ga..",
-          "western": "C'..B..C'..A..G..F..F..F..A..G..F..E.."
+          "western": "C'..b.C'..a.g.f.f.f.a.g.f.e."
         },
         {
           "lyrics": "Kisi ki na madad na dua chahiye",
           "indian": "Ga..Ga..Ga..ma..Pa..Pa.Dha..Dha..Pa..Ni..Ni..Dha..Sa'..",
-          "western": "E..E..E..F..G..G.A..A..G..B..B..A..C'.."
+          "western": "e.e.e.f.g.ga.a.g.b.b.a.C'.."
         },
         {
           "lyrics": "Tu hai toh mujhe phir aur kya chahiye",
           "indian": "Sa'..Ni..Sa'..Dha..Pa..ma..ma..ma..Dha..Pa..ma..Ga..",
-          "western": "C'..B..C'..A..G..F..F..F..A..G..F..E.."
+          "western": "C'..b.C'..a.g.f.f.f.a.g.f.e."
         },
         {
           "lyrics": "Tu hi re tu hi re tu hi re",
           "indian": "Ni..Sa'..Sa'.. Ni..Sa'..Sa'.. Ni..Sa'..Sa'..",
-          "western": "B..C'..C'.. B..C'..C'.. B..C'..C'.."
+          "western": "b.C'..C'.. b.C'..C'.. b.C'..C'.."
         },
         {
           "lyrics": "Ni heeriye tu hi re tu hi re tu hi re",
           "indian": "Sa'..Sa'..Ga'..Re'..Pa..Dha..Dha.. Pa..Dha..Dha.. Pa..Dha..Dha..",
-          "western": "C'..C'..E'..D'..G..A..A.. G..A..A.. G..A..A.."
+          "western": "C'..C'..E'..D'..g.a.a. g.a.a. g.a.a."
         },
         {
           "lyrics": "Ni heeriye tu meri main hoon tera ranjha",
           "indian": "Dha..Dha..Sa'..Dha..Pa..ma..Dha...Dha..Dha..Sa'..Dha..ma..Pa...Pa...",
-          "western": "A..A..C'..A..G..F..A...A..A..C'..A..F..G...G..."
+          "western": "a.a.C'..a.g.f.a..a.a.C'..a.f.g..g.."
         }
       ]
     }
