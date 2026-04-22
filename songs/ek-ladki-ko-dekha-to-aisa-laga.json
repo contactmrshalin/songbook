@@ -1,0 +1,116 @@
+{
+  "id": "ek-ladki-ko-dekha-to-aisa-laga",
+  "title": "Ek Ladki Ko Dekha To Aisa Laga",
+  "export": true,
+  "info": [
+"Movie: 1942 - A Love Story (1994)",
+    "Singer: Kumar Sanu",
+    "Lyricist: Javed Akhtar",
+    "Music: R. D. Burman",
+    "Raag: Yaman / Desh (light)",
+    "Scale: A# bass/middle (flute)",
+    "Scale: A# BASS/MIDDLE"
+    
+  ],
+  "thumbnail": "images/ek-ladki-ko-dekha-to.png",
+  "background": "images/ek-ladki-ko-dekha-to.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Hoo ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "Sa': .S' Sa' Ni: Sa' Re' Ni: Sa' Re' Ni: Sa' Re' Ni Sa':"
+        },
+        {
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "Sa' Sa' Ni: Sa' Re' Ni: Sa' Re' Ni: Sa' Re' Ni Sa':"
+        },
+        {
+          "lyrics": "Jaisee khiltaa gulaab",
+          "indian": "Sa' Sa' Ni Sa' Pa Ni Dha"
+        },
+        {
+          "lyrics": "Jaisee shayaar kaa khwaab",
+          "indian": "Ni Sa' Ni Sa' Pa Ni Dha"
+        },
+        {
+          "lyrics": "Jaisee ujali kirann",
+          "indian": "Ni Sa' Ni Sa' Pa Ni Dha"
+        },
+        {
+          "lyrics": "Jaisee ban maii hiran",
+          "indian": "Dha Dha Ga ma Dha Pa Pa"
+        },
+        {
+          "lyrics": "Jaisee chandaani raat",
+          "indian": "Dha Dha Ga ma Dha Pa Pa"
+        },
+        {
+          "lyrics": "Jaisee narmi kii baat",
+          "indian": "Dha Dha ma Dha Sa' Dha Pa"
+        },
+        {
+          "lyrics": "Jaisee mandir mein hoo ekk",
+          "indian": "Pa Pa Pa Ni Sa' Ga' Re': Re' Re'"
+        },
+        {
+          "lyrics": "Jaltaa diyaa hoo",
+          "indian": "Pa Ni Sa' Ga' Re': .S'"
+        },
+        {
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "Sa' Sa' Ni: Sa' Re' Ni: Sa' Re' Ni: Sa' Re' Ni Sa':"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Hoo ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "Sa': .S' Sa' Ni: Sa' Re' Ni: Sa' Re' Ni: Sa' Re' Ni Sa'"
+        },
+        {
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "Sa' Sa' Ni: Sa' Re' Ni: Sa' Re' Ni: Sa' Re' Ni Sa':"
+        },
+        {
+          "lyrics": "Jaisee subhaa ka ruup",
+          "indian": "Sa' Sa' Ni Sa' Pa Ni Dha"
+        },
+        {
+          "lyrics": "Jaisee sardii ki dhoop",
+          "indian": "Ni Sa' Ni Sa' Pa Ni Dha"
+        },
+        {
+          "lyrics": "Jaisee bee naa ki taan",
+          "indian": "Ni Sa' Ni Sa' Pa Ni Dha"
+        },
+        {
+          "lyrics": "Jaisee rangoo ki jaan",
+          "indian": "Dha Dha Ga ma Dha Pa Pa"
+        },
+        {
+          "lyrics": "Jaisee balkhaaye beel",
+          "indian": "Dha Dha Ga ma Dha Pa Pa"
+        },
+        {
+          "lyrics": "Jaisee lehroon kaa khal",
+          "indian": "Dha Dha ma Dha Sa' Dha Pa"
+        },
+        {
+          "lyrics": "Jaisee khushbu liyee aayi",
+          "indian": "Pa Pa Pa Ni Sa' Ga' Re': Re' Re'"
+        },
+        {
+          "lyrics": "Thandii hawaaa hooo",
+          "indian": "Pa Ni Sa' Ga' Re': .S'"
+        },
+        {
+          "lyrics": "Ekk ladkii ko dekha toh aaisa lagaa",
+          "indian": "Sa' Sa' Ni: Sa' Re' Ni: Sa' Re' Ni: Sa' Re Ni Sa':"
+        }
+      ]
+    }
+  ]
+}

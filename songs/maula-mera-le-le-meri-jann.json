@@ -1,0 +1,67 @@
+{
+  "id": "maula-mera-le-le-meri-jann",
+  "title": "Maula Mera Le Le Meri Jann",
+  "export": true,
+  "info": [
+    "Film/Artist: Chak De India",
+    "Scale: D MAJOR",
+    "Source: https://www.notationsworld.com/maula-mera-le-le-meri-jann-sargam-and-flute-notes.html"
+  ],
+  "thumbnail": "images/maula-mera-le-le-meri-jann.png",
+  "background": "images/maula-mera-le-le-meri-jann.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Teejaa tera raang tha mai toh",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Teejaa tera raang tha mai toh",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Jiyaa teraa dhang sai mai toh",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Tuhii thaa maula tu hi aan",
+          "indian": "Ni Sa' Ni D(K).P Pa ma Pa ma ma Ga Re Sa."
+        },
+        {
+          "lyrics": "Maulaa mera le le meri jaan",
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+        },
+        {
+          "lyrics": "Maulaa mere le le meri jaan",
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+        },
+        {
+          "lyrics": "Teejaa tera rang tha mai toh",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Teejaa tera rang tha mai toh",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Jiyaa tera dhang sai mai toh",
+          "indian": "Sa' Sa' Sa' Sa' Ni Sa' Re' Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Tuhii tha maula tu hi aan",
+          "indian": "Ni Sa' Ni D(K).P Pa ma Pa ma ma Ga Re Sa."
+        },
+        {
+          "lyrics": "Maulaa mera le le meri jaan",
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+        },
+        {
+          "lyrics": "Maulaa mere le le meri jaan",
+          "indian": "Sa Sa ma Re ma Pa D(K).N(K) D(K).P Pa."
+        }
+      ]
+    }
+  ]
+}
