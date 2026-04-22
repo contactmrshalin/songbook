@@ -35,11 +35,9 @@ SITE_DIR = REPO_ROOT / "site"
 CONTENT_DIR = SITE_DIR / "content"
 SONGS_SECTION_DIR = CONTENT_DIR / "songs"
 
-_NOTE_RE = re.compile(
-    r"(Dha|dha|Ni|ni|Sa|Re|Ga|Ma|ma|Pa|pa)"
-    r"(\((?:k|T)\))?"
-    r"(['.])?"
-)
+# Import shared notation mapping utilities.
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from songbook.mapping import load_mapping as _load_mapping, build_flat_lookup as _build_flat_lookup, indian_to_western as _indian_to_western_fn
 
 def _read_json(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
@@ -140,45 +138,11 @@ def _boolish(v: Any) -> bool:
         return v.strip().lower() not in ("false", "f", "0", "no", "n", "off")
     return True
 
-def _indian_to_western(indian: str, mapping: dict[str, Any]) -> str:
-    """
-    Convert Indian word-form sargam to Western display notation.
-
-    Conventions:
-      - Middle octave: uppercase  (Sa -> C, Re -> D, ...)
-      - Low octave:    lowercase  (ni -> b, dha -> a, pa -> g)
-      - High octave:   uppercase + apostrophe (Sa' -> C')
-      - Komal:         flat       (Re(k) -> Db)
-      - Tivra:         sharp      (Ma(T) -> F#)
-    """
-    if not indian or not mapping:
+def _indian_to_western(indian: str, flat_lookup: dict[str, str]) -> str:
+    """Thin wrapper around the shared converter."""
+    if not indian or not flat_lookup:
         return ""
-
-    w2w = mapping.get("word_to_western_display", {})
-    flat_lookup: dict[str, str] = {}
-    for cat in ("shuddh", "low_octave", "komal", "tivra"):
-        flat_lookup.update(w2w.get(cat, {}))
-
-    def repl(m: re.Match[str]) -> str:
-        note = m.group(1)
-        accidental = m.group(2) or ""
-        octave = m.group(3) or ""
-
-        key = note + accidental
-        western = flat_lookup.get(key)
-        if western is None:
-            western = flat_lookup.get(note)
-        if western is None:
-            return m.group(0)
-
-        if octave == "'":
-            western = western + "'"
-        elif octave == ".":
-            western = western.lower()
-
-        return western
-
-    return _NOTE_RE.sub(repl, indian)
+    return _indian_to_western_fn(indian, flat_lookup)
 
 def build() -> None:
     # Try per-song layout via shared loader
@@ -197,7 +161,8 @@ def build() -> None:
     else:
         raise SystemExit(f"Missing song data: need either songs/ directory or {SONGS_JSON}")
 
-    mapping = _read_json(NOTATION_MAPPING_JSON) if NOTATION_MAPPING_JSON.exists() else {}
+    mapping_raw = _read_json(NOTATION_MAPPING_JSON) if NOTATION_MAPPING_JSON.exists() else {}
+    flat_lookup = _build_flat_lookup(mapping_raw) if mapping_raw else {}
     if not isinstance(songs, list):
         raise SystemExit("songs data must be a list")
 
@@ -267,8 +232,8 @@ def build() -> None:
                     continue
                 indian = str(ln.get("indian") or "")
                 western_val = ln.get("western")
-                if (western_val is None or str(western_val).strip() == "") and indian and mapping:
-                    western_val = _indian_to_western(indian, mapping)
+                if (western_val is None or str(western_val).strip() == "") and indian and flat_lookup:
+                    western_val = _indian_to_western(indian, flat_lookup)
                 new_ln = dict(ln)
                 if western_val and str(western_val).strip():
                     new_ln["western"] = str(western_val)
