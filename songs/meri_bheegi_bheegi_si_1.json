@@ -17,13 +17,11 @@
       "lines": [
         {
           "lyrics": "Meri bheegi bheegi si",
-          "indian": "Ni' Sa' Ga' Ga' Ga' Ga' Ga'—",
-          "western": "B' C' E' E' E' E' E'—"
+          "indian": "Ni' Sa' Ga' Ga' Ga' Ga' Ga'—"
         },
         {
           "lyrics": "Palkon pe reh gaye",
-          "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—",
-          "western": "B' C' D' E' D' C' B A—"
+          "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—"
         }
       ]
     },
@@ -32,13 +30,11 @@
       "lines": [
         {
           "lyrics": "Jaise mere sapne bikhar ke",
-          "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—",
-          "western": "B' C' E' C' B A A A—"
+          "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—"
         },
         {
           "lyrics": "Jaise mere sapne",
-          "indian": "Ni' Sa' Ga'—",
-          "western": "B' C' E'—"
+          "indian": "Ni' Sa' Ga'—"
         }
       ]
     },
@@ -47,8 +43,7 @@
       "lines": [
         {
           "lyrics": "Jale man tera bhi",
-          "indian": "ma' Ga' Pa'— ma' Ga' Ga'—",
-          "western": "F' E' G'— F' E' E'—"
+          "indian": "ma' Ga' Pa'— ma' Ga' Ga'—"
         }
       ]
     },
@@ -57,13 +52,11 @@
       "lines": [
         {
           "lyrics": "Meri bheegi bheegi si",
-          "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—",
-          "western": "B' C' D' E' D' C' B A—"
+          "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha—"
         },
         {
           "lyrics": "Palkon pe reh gaye",
-          "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—",
-          "western": "B' C' E' C' B A A A—"
+          "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha—"
         }
       ]
     },
@@ -72,8 +65,7 @@
       "lines": [
         {
           "lyrics": "Anamika…",
-          "indian": "Ni' Re' Sa' Ni'—",
-          "western": "B' D' C' B'—"
+          "indian": "Ni' Re' Sa' Ni'—"
         }
       ]
     }

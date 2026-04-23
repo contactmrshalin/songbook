@@ -15,8 +15,7 @@
       "lines": [
         {
           "lyrics": "Instrumental",
-          "indian": "Sa Re Ga ma | Ga Re Sa",
-          "western": "C D E F | E D C"
+          "indian": "Sa Re Ga ma | Ga Re Sa"
         }
       ]
     },
@@ -25,18 +24,15 @@
       "lines": [
         {
           "lyrics": "Ghar se nikalte hi",
-          "indian": "Sa Re Ga ma | Pa ma Ga Re",
-          "western": "C D E F | G F E D"
+          "indian": "Sa Re Ga ma | Pa ma Ga Re"
         },
         {
           "lyrics": "Kuch door chalte hi",
-          "indian": "Sa Re Ga ma | Pa Dha Pa ma",
-          "western": "C D E F | G A G F"
+          "indian": "Sa Re Ga ma | Pa Dha Pa ma"
         },
         {
           "lyrics": "Raste mein hai uska ghar",
-          "indian": "ma Pa Dha Ni | Dha Pa ma Ga | Re Sa",
-          "western": "F G A B | A G F E | D C"
+          "indian": "ma Pa Dha Ni | Dha Pa ma Ga | Re Sa"
         }
       ]
     },
@@ -45,18 +41,15 @@
       "lines": [
         {
           "lyrics": "Kal subah dekha to",
-          "indian": "Sa Re Ga ma | Pa ma Ga Re",
-          "western": "C D E F | G F E D"
+          "indian": "Sa Re Ga ma | Pa ma Ga Re"
         },
         {
           "lyrics": "Baal banaati woh",
-          "indian": "Sa Re Ga ma | Pa Dha Pa ma",
-          "western": "C D E F | G A G F"
+          "indian": "Sa Re Ga ma | Pa Dha Pa ma"
         },
         {
           "lyrics": "Khidki mein aayi nazar",
-          "indian": "ma Pa Dha Ni | Sa' Ni Dha Pa | ma Ga Re Sa",
-          "western": "F G A B | C' B A G | F E D C"
+          "indian": "ma Pa Dha Ni | Sa' Ni Dha Pa | ma Ga Re Sa"
         }
       ]
     },
@@ -65,23 +58,19 @@
       "lines": [
         {
           "lyrics": "Masoom chehra neechi nigahein",
-          "indian": "Ga ma Pa Dha | Ni Dha Pa ma | Ga ma Pa Dha | Ni Sa'",
-          "western": "E F G A | B A G F | E F G A | B C'"
+          "indian": "Ga ma Pa Dha | Ni Dha Pa ma | Ga ma Pa Dha | Ni Sa'"
         },
         {
           "lyrics": "Bholi si ladki bholi adaayein",
-          "indian": "Sa' Ni Dha Pa | ma Ga Re Sa | Re Ga ma Pa | Dha Pa ma",
-          "western": "C' B A G | F E D C | D E F G | A G F"
+          "indian": "Sa' Ni Dha Pa | ma Ga Re Sa | Re Ga ma Pa | Dha Pa ma"
         },
         {
           "lyrics": "Na apsara hai na woh pari hai",
-          "indian": "Ga ma Pa Dha | Ni Sa' Ni Dha | Pa ma Ga Re | Sa",
-          "western": "E F G A | B C' B A | G F E D | C"
+          "indian": "Ga ma Pa Dha | Ni Sa' Ni Dha | Pa ma Ga Re | Sa"
         },
         {
           "lyrics": "Lekin yeh uski jaadugari hai",
-          "indian": "Re Ga ma Pa | Dha Ni Sa' | Ni Dha Pa ma | Ga Re Sa",
-          "western": "D E F G | A B C' | B A G F | E D C"
+          "indian": "Re Ga ma Pa | Dha Ni Sa' | Ni Dha Pa ma | Ga Re Sa"
         }
       ]
     }

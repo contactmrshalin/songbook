@@ -16,23 +16,19 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastaan hai yeh",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:",
-          "western": "D'~C' D' C' A G F A:"
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:"
         },
         {
           "lyrics": "Kahan shuru kahan khatam",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:",
-          "western": "D'~C' D' C' A G F G:"
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:"
         },
         {
           "lyrics": "Yeh manzilen hain kaunsi",
-          "indian": "Dha Pa Dha Pa ma Ga Re Ga Re",
-          "western": "A G A G F E D E D"
+          "indian": "Dha Pa Dha Pa ma Ga Re Ga Re"
         },
         {
           "lyrics": "Na woh samajh sake na hum",
-          "indian": "Sa': Sa' Re' Sa' Dha Pa Re ma Sa:",
-          "western": "C': C' D' C' A G D F C:"
+          "indian": "Sa': Sa' Re' Sa' Dha Pa Re ma Sa:"
         }
       ]
     },
@@ -41,23 +37,19 @@
       "lines": [
         {
           "lyrics": "Yeh roshni ke saath kyun",
-          "indian": "ma Pa Dha Ni(k)~Dha Ni(k) Pa Ni(k):",
-          "western": "F G A Bb~A Bb G Bb:"
+          "indian": "ma Pa Dha Ni(k)~Dha Ni(k) Pa Ni(k):"
         },
         {
           "lyrics": "Dhuaan utha chiraag se",
-          "indian": "Re'~Sa' Re' Sa' Ni(k): Ni(k) Re' Sa'",
-          "western": "D'~C' D' C' Bb: Bb D' C'"
+          "indian": "Re'~Sa' Re' Sa' Ni(k): Ni(k) Re' Sa'"
         },
         {
           "lyrics": "Yeh khwaab dekhti hoon main",
-          "indian": "Ga' Ga' Re' Ga' Re' Ga' Sa' Ni(k)",
-          "western": "E' E' D' E' D' E' C' Bb"
+          "indian": "Ga' Ga' Re' Ga' Re' Ga' Sa' Ni(k)"
         },
         {
           "lyrics": "Ke jaag padi hoon khwaab se",
-          "indian": "Sa' Sa' Re' Sa' Dha Pa Re ma Sa:",
-          "western": "C' C' D' C' A G D F C:"
+          "indian": "Sa' Sa' Re' Sa' Dha Pa Re ma Sa:"
         }
       ]
     },
@@ -66,13 +58,11 @@
       "lines": [
         {
           "lyrics": "Ajeeb daastaan hai yeh",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:",
-          "western": "D'~C' D' C' A G F A:"
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:"
         },
         {
           "lyrics": "Kahan shuru kahan khatam",
-          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:",
-          "western": "D'~C' D' C' A G F G:"
+          "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:"
         }
       ]
     }

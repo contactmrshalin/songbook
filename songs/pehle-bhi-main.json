@@ -15,23 +15,19 @@
       "lines": [
         {
           "lyrics": "Pehle bhi main tumse mila hoon",
-          "indian": "Ga..Re..Sa..Re..Ga.. Ga..Re..Sa..Re..Ga...Re..",
-          "western": "e.d.c.d.e. e.d.c.d.e..d."
+          "indian": "Ga..Re..Sa..Re..Ga.. Ga..Re..Sa..Re..Ga...Re.."
         },
         {
           "lyrics": "Pehli dafa hi milke laga",
-          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k)..",
-          "western": "e.d.c.d.e..d. e.d.c.bb.bb."
+          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k).."
         },
         {
           "lyrics": "Toone chhua zakhmon ko mere",
-          "indian": "Ga..Re..Sa..Re..Ga...Pa...Ga.. Ga..Re..Sa..Re..Ga...Re..",
-          "western": "e.d.c.d.e..g..e. e.d.c.d.e..d."
+          "indian": "Ga..Re..Sa..Re..Ga...Pa...Ga.. Ga..Re..Sa..Re..Ga...Re.."
         },
         {
           "lyrics": "Marham marham dil pe laga",
-          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k)..",
-          "western": "e.d.c.d.e..d. e.d.c.bb.bb."
+          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k).."
         }
       ]
     },
@@ -40,18 +36,15 @@
       "lines": [
         {
           "lyrics": "Paagal paagal hain thode",
-          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha..",
-          "western": "C'..C'.. C'..C'..a.g.a."
+          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha.."
         },
         {
           "lyrics": "Baadal baadal hain dono",
-          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha..",
-          "western": "C'..C'.. C'..C'..a.g.a."
+          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha.."
         },
         {
           "lyrics": "Khul ke barse bheege aa zara",
-          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Dha..Sa'..Ga'.Re'...",
-          "western": "C'..C'.. C'..C'..a.a.C'..E'.D'..."
+          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Dha..Sa'..Ga'.Re'..."
         }
       ]
     },
@@ -60,23 +53,19 @@
       "lines": [
         {
           "lyrics": "Pehle bhi main tumse mila hoon",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'..",
-          "western": "E'..D'..C'..D'..E'.. E'..D'..C'..D'..E'...D'.."
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'.."
         },
         {
           "lyrics": "Pehli dafa hi milke laga…",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni..Sa'..Re'...",
-          "western": "E'..D'..C'..D'..E'...D'.. E'..D'..C'..b.b.ab.C'..D'..."
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni..Sa'..Re'..."
         },
         {
           "lyrics": "Toone chhua zakhmon ko mere",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Pa'...Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'..",
-          "western": "E'..D'..C'..D'..E'...G'...E'.. E'..D'..C'..D'..E'...D'.."
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Pa'...Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'.."
         },
         {
           "lyrics": "Marham marham dil pe laga",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni..",
-          "western": "E'..D'..C'..D'..E'...D'.. E'..D'..C'..b.b.ab."
+          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni.."
         }
       ]
     }

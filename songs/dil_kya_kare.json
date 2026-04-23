@@ -9,23 +9,19 @@
       "lines": [
         {
           "lyrics": "Dil kya kare jab kisi se",
-          "indian": "Ga Dha Ni Sa Ni Dha Ni Re",
-          "western": "E A B C B A B D"
+          "indian": "Ga Dha Ni Sa Ni Dha Ni Re"
         },
         {
           "lyrics": "Kisi ko pyar ho jaye",
-          "indian": "Dha SaDha SaDha SaReSa Dha _ Dha",
-          "western": "A CA CA CDC A _ A"
+          "indian": "Dha SaDha SaDha SaReSa Dha _ Dha"
         },
         {
           "lyrics": "Jane kahan kab kisi ko",
-          "indian": "Ga Dha Ni Sa, _NiDha Ni GaRe Re",
-          "western": "E A B C, _BA B ED D"
+          "indian": "Ga Dha Ni Sa, _NiDha Ni GaRe Re"
         },
         {
           "lyrics": "Kisi se pyar ho jaye",
-          "indian": "Dha SaDha SaDha SaReSa Dha _ Dha",
-          "western": "A CA CA CDC A _ A"
+          "indian": "Dha SaDha SaDha SaReSa Dha _ Dha"
         }
       ]
     },
@@ -34,23 +30,19 @@
       "lines": [
         {
           "lyrics": "Unchi unchi diwaron se",
-          "indian": "Ga' Re' Ga' Ga'Re'Ga' Ga Re Re ReSaNi",
-          "western": "E' D' E' E'D'E' E D D DCB"
+          "indian": "Ga' Re' Ga' Ga'Re'Ga' Ga Re Re ReSaNi"
         },
         {
           "lyrics": "Is duniya ki rasme",
-          "indian": "Ni niRe ReSaReGa _ReSa SaSa Sa ",
-          "western": "B bD DCDE _DC CC C "
+          "indian": "Ni niRe ReSaReGa _ReSa SaSa Sa "
         },
         {
           "lyrics": "Na kuch tere, bas main julie",
-          "indian": "Ga _GaRe Ga GaReGa, _ Ga Re Re ReSaNi",
-          "western": "E _ED E EDE, _ E D D DCB"
+          "indian": "Ga _GaRe Ga GaReGa, _ Ga Re Re ReSaNi"
         },
         {
           "lyrics": "Na kuch mere bas main",
-          "indian": "Ni niRe ReSaReGa _ReSa SaSa Sa _ Ni Dha",
-          "western": "B bD DCDE _DC CC C _ B A"
+          "indian": "Ni niRe ReSaReGa _ReSa SaSa Sa _ Ni Dha"
         }
       ]
     },
@@ -59,28 +51,23 @@
       "lines": [
         {
           "lyrics": "Jaise parbat pe,ghata jhuktihai",
-          "indian": "GaGa _GaDha Dha PaGa, Ga _GaDha Dha Pa",
-          "western": "EE _EA A GE, E _EA A G"
+          "indian": "GaGa _GaDha Dha PaGa, Ga _GaDha Dha Pa"
         },
         {
           "lyrics": "Jaise saagarmein, lehar uthti hai",
-          "indian": "GaGa _GaDha Dha PaGaGa. _GaDha Dha Pa",
-          "western": "EE _EA A GEe _EA A G"
+          "indian": "GaGa _GaDha Dha PaGaGa. _GaDha Dha Pa"
         },
         {
           "lyrics": "Aise kisi chehre pe, nigaahrukti hai",
-          "indian": "Sa NiSaNi SaNi SaSa, Ni DhaPa DhaPa __ Ga _ReSa",
-          "western": "C BCB CB CC, B AG AG __ E _DC"
+          "indian": "Sa NiSaNi SaNi SaSa, Ni DhaPa DhaPa __ Ga _ReSa"
         },
         {
           "lyrics": "Ho rok nahin sakti nazron ko",
-          "indian": " Ga Ga Re Ga GaReGa Ga Re Re ReSaNi",
-          "western": " E E D E EDE E D D DCB"
+          "indian": " Ga Ga Re Ga GaReGa Ga Re Re ReSaNi"
         },
         {
           "lyrics": "Duniya bhar ki rasmein",
-          "indian": "Ni niRe ReSaReGa _ReSa SaSa Sa _ Ni Dha",
-          "western": "B bD DCDE _DC CC C _ B A"
+          "indian": "Ni niRe ReSaReGa _ReSa SaSa Sa _ Ni Dha"
         }
       ]
     }

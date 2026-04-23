@@ -15,48 +15,39 @@
       "lines": [
         {
           "lyrics": "Tujhe dekha to yeh jaana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa",
-          "western": "C C C G A G E A B' G"
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
         },
         {
           "lyrics": "Pyaar hota hai deewana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)",
-          "western": "C C C G A G A E A E F#"
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
         },
         {
           "lyrics": "Ab yahan se kahan jaaye hum",
-          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)",
-          "western": "C F# D C F# D C E F#"
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
         },
         {
           "lyrics": "Teri baahon mein mar jaaye hum",
-          "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa",
-          "western": "C F# D C F# D E F# C"
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa"
         },
         {
           "lyrics": "Tujhe dekha to yeh jaana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa",
-          "western": "C C C G A G E A B' G"
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
         },
         {
           "lyrics": "Pyaar hota hai deewana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)",
-          "western": "C C C G A G A E A E F#"
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
         },
         {
           "lyrics": "Ab yahan se kahan jaaye hum",
-          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)",
-          "western": "C F# D C F# D C E F#"
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
         },
         {
           "lyrics": "Teri baahon mein mar jaaye hum",
-          "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa",
-          "western": "F# E A D' B' G A E A G A B' G A E A E F# C"
+          "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
         },
         {
           "lyrics": "Tujhe dekha to yeh jaana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa",
-          "western": "C C C G A G E A D' D' G"
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa"
         }
       ]
     },
@@ -65,28 +56,23 @@
       "lines": [
         {
           "lyrics": "(Interlude)",
-          "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa",
-          "western": "G A B' A G A C G"
+          "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa"
         },
         {
           "lyrics": "(Interlude)",
-          "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa",
-          "western": "G A B' A G A C G"
+          "indian": "Pa Dha Ni' Dha Pa Dha Sa Pa"
         },
         {
           "lyrics": "(Interlude)",
-          "indian": "Ni' Re' Ni' Pa Ni' Ni' Ni' Ni' Ni' Sa'' Sa'' Re''",
-          "western": "B' D' B' G B' B' B' B' B' C'' C'' D''"
+          "indian": "Ni' Re' Ni' Pa Ni' Ni' Ni' Ni' Ni' Sa'' Sa'' Re''"
         },
         {
           "lyrics": "(Interlude)",
-          "indian": "Re' Re' Pa Ni' Re' Sa'' Ga'' Ma(T)'' Sa'' Ma(T)'' Sa'' Re''",
-          "western": "D' D' G B' D' C'' E'' F#'' C'' F#'' C'' D''"
+          "indian": "Re' Re' Pa Ni' Re' Sa'' Ga'' Ma(T)'' Sa'' Ma(T)'' Sa'' Re''"
         },
         {
           "lyrics": "(Interlude)",
-          "indian": "Pa Dha Re' Sa'' Ni' Re' Pa",
-          "western": "G A D' C'' B' D' G"
+          "indian": "Pa Dha Re' Sa'' Ni' Re' Pa"
         }
       ]
     },
@@ -95,53 +81,43 @@
       "lines": [
         {
           "lyrics": "Aankhen meri",
-          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa",
-          "western": "G A C'' C'' G G A B' G"
+          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
         },
         {
           "lyrics": "sapne tere",
-          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa",
-          "western": "G A C'' C'' G G A B' G"
+          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
         },
         {
           "lyrics": "Dil mera, yaadein teri",
-          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa",
-          "western": "A G A B' F# F# B' G"
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
         },
         {
           "lyrics": "(repeat)",
-          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa",
-          "western": "A G A B' F# F# B' G"
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
         },
         {
           "lyrics": "O, mera hai kya",
-          "indian": "Pa Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa",
-          "western": "G G A C'' C'' G G A B' G"
+          "indian": "Pa Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
         },
         {
           "lyrics": "Sab kuch tera",
-          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa",
-          "western": "G A C'' C'' G G A B' G"
+          "indian": "Pa Dha Sa'' Sa'' Pa Pa Dha Ni' Pa"
         },
         {
           "lyrics": "Jaan teri, saansein teri",
-          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa",
-          "western": "A G A B' F# F# B' G"
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
         },
         {
           "lyrics": "(repeat)",
-          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa",
-          "western": "A G A B' F# F# B' G"
+          "indian": "Dha Pa Dha Ni' Ma(T) Ma(T) Ni' Pa"
         },
         {
           "lyrics": "Meri aankhon mein aansu tere aa gaye",
-          "indian": "Pa Dha Pa Dha Pa Dha Dha Ga Ma(T) Sa Pa Pa Dha Pa Dha Pa Dha Ma(T) Ga Dha",
-          "western": "G A G A G A A E F# C G G A G A G A F# E A"
+          "indian": "Pa Dha Pa Dha Pa Dha Dha Ga Ma(T) Sa Pa Pa Dha Pa Dha Pa Dha Ma(T) Ga Dha"
         },
         {
           "lyrics": "Muskuraane lage saare gham",
-          "indian": "Dha Dha Dha Re' Re' Ni' Re' Ni' Pa Ni' Pa Dha Ga Dha Ga Ma(T) Sa",
-          "western": "A A A D' D' B' D' B' G B' G A E A E F# C"
+          "indian": "Dha Dha Dha Re' Re' Ni' Re' Ni' Pa Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
         }
       ]
     },
@@ -150,48 +126,39 @@
       "lines": [
         {
           "lyrics": "Tujhe dekha to yeh jaana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa",
-          "western": "C C C G A G E A B' G"
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
         },
         {
           "lyrics": "Pyaar hota hai deewana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)",
-          "western": "C C C G A G A E A E F#"
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
         },
         {
           "lyrics": "Ab yahan se kahan jaaye hum",
-          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)",
-          "western": "C F# D C F# D C E F#"
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
         },
         {
           "lyrics": "Teri baahon mein mar jaaye hum",
-          "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa",
-          "western": "C F# D C F# D E F# C"
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Ga Ma(T) Sa"
         },
         {
           "lyrics": "Tujhe dekha to yeh jaana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa",
-          "western": "C C C G A G E A B' G"
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Ni' Pa"
         },
         {
           "lyrics": "Pyaar hota hai deewana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)",
-          "western": "C C C G A G A E A E F#"
+          "indian": "Sa Sa Sa Pa Dha Pa Dha Ga Dha Ga Ma(T)"
         },
         {
           "lyrics": "Ab yahan se kahan jaaye hum",
-          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)",
-          "western": "C F# D C F# D C E F#"
+          "indian": "Sa Ma(T) Re Sa Ma(T) Re Sa Ga Ma(T)"
         },
         {
           "lyrics": "Teri baahon mein mar jaaye hum",
-          "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa",
-          "western": "F# E A D' B' G A E A G A B' G A E A E F# C"
+          "indian": "Ma(T) Ga Dha Re' Ni' Pa Dha Ga Dha Pa Dha Ni' Pa Dha Ga Dha Ga Ma(T) Sa"
         },
         {
           "lyrics": "Tujhe dekha to yeh jaana sanam",
-          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa",
-          "western": "C C C G A G E A D' D' G"
+          "indian": "Sa Sa Sa Pa Dha Pa Ga Dha Re' Re' Pa"
         }
       ]
     }

@@ -17,8 +17,7 @@
       "lines": [
         {
           "lyrics": "Intro phrase",
-          "indian": "Dha Ni Re Sa Re Sa Re Ni...",
-          "western": "A B D C D C D b.."
+          "indian": "Dha Ni Re Sa Re Sa Re Ni..."
         }
       ]
     },
@@ -27,8 +26,7 @@
       "lines": [
         {
           "lyrics": "Continuation phrase",
-          "indian": "Dha Ni Ni Ga.. Re Sa Sa Re Re Ni",
-          "western": "A B B e. D C C D D B"
+          "indian": "Dha Ni Ni Ga.. Re Sa Sa Re Re Ni"
         }
       ]
     },
@@ -37,8 +35,7 @@
       "lines": [
         {
           "lyrics": "Main theme build",
-          "indian": "Dha Ni Ga Ga Re Ma(T) Ma(T) Ga Re Re(k) Re Re(k) Re Re(k) Ni",
-          "western": "A B E E D F# F# E D Db D Db D Db B"
+          "indian": "Dha Ni Ga Ga Re Ma(T) Ma(T) Ga Re Re(k) Re Re(k) Re Re(k) Ni"
         }
       ]
     },
@@ -47,8 +44,7 @@
       "lines": [
         {
           "lyrics": "Higher phrase",
-          "indian": "Ma(T) Dha(k) Dha........ Dha(k) Dha Dha(k)... Ga Re(k)",
-          "western": "F# Ab a....... Ab A ab.. E Db"
+          "indian": "Ma(T) Dha(k) Dha........ Dha(k) Dha Dha(k)... Ga Re(k)"
         }
       ]
     },
@@ -57,8 +53,7 @@
       "lines": [
         {
           "lyrics": "Bridge run",
-          "indian": "Re(k).. Ma(T)... Ga Ma(T)...",
-          "western": "db. f#.. E f#.."
+          "indian": "Re(k).. Ma(T)... Ga Ma(T)..."
         }
       ]
     },
@@ -67,8 +62,7 @@
       "lines": [
         {
           "lyrics": "Ending phrase",
-          "indian": "Re(k) Re(k) Ma(T).. Dha(k)... Dha.. Ni..........",
-          "western": "Db Db f#. ab.. a. b........."
+          "indian": "Re(k) Re(k) Ma(T).. Dha(k)... Dha.. Ni.........."
         }
       ]
     }

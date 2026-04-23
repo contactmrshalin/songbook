@@ -14,93 +14,75 @@
       "lines": [
         {
           "lyrics": "Vande mataram",
-          "indian": "pa: dha: Sa Re Sa Re:",
-          "western": "g: a: C D C D:"
+          "indian": "pa: dha: Sa Re Sa Re:"
         },
         {
           "lyrics": "Vande mataram",
-          "indian": "Sa: Re: ma Pa ma Pa:",
-          "western": "C: D: F G F G:"
+          "indian": "Sa: Re: ma Pa ma Pa:"
         },
         {
           "lyrics": "Sujalam",
-          "indian": "Pa Dha ma: Ga Re",
-          "western": "G A F: E D"
+          "indian": "Pa Dha ma: Ga Re"
         },
         {
           "lyrics": "Suphalam",
-          "indian": "Re Ga Sa: ni dha",
-          "western": "D E C: b a"
+          "indian": "Re Ga Sa: ni dha"
         },
         {
           "lyrics": "Malayaja shitalam",
-          "indian": "dha Re Sa Sa ni dha: ni pa:",
-          "western": "a D C C b a: b g:"
+          "indian": "dha Re Sa Sa ni dha: ni pa:"
         },
         {
           "lyrics": "Shasyashyamalam",
-          "indian": "pa: dha Sa Re Sa Re:",
-          "western": "g: a C D C D:"
+          "indian": "pa: dha Sa Re Sa Re:"
         },
         {
           "lyrics": "Mataram",
-          "indian": "Re ma Ga Ga Re:",
-          "western": "D F E E D:"
+          "indian": "Re ma Ga Ga Re:"
         },
         {
           "lyrics": "Vande mataram",
-          "indian": "Sa: Re: ma Pa ma Pa:",
-          "western": "C: D: F G F G:"
+          "indian": "Sa: Re: ma Pa ma Pa:"
         },
         {
           "lyrics": "Shubhrajyotsna",
-          "indian": "Sa: Re: ma: ma",
-          "western": "C: D: F: F"
+          "indian": "Sa: Re: ma: ma"
         },
         {
           "lyrics": "Pulakitayaminim",
-          "indian": "ma ma Pa ma Pa: ma Pa:",
-          "western": "F F G F G: F G:"
+          "indian": "ma ma Pa ma Pa: ma Pa:"
         },
         {
           "lyrics": "Phullakusumita",
-          "indian": "ma: ma ma Pa ma Pa",
-          "western": "F: F F G F G"
+          "indian": "ma: ma ma Pa ma Pa"
         },
         {
           "lyrics": "Drumadala shobhinim",
-          "indian": "Pa Dha Pa ma ma Ga ma Ga Re:",
-          "western": "G A G F F E F E D:"
+          "indian": "Pa Dha Pa ma ma Ga ma Ga Re:"
         },
         {
           "lyrics": "Suhasinim",
-          "indian": "dha dha Sa ni ni dha:",
-          "western": "a a C b b a:"
+          "indian": "dha dha Sa ni ni dha:"
         },
         {
           "lyrics": "Sumadhura bhashinim",
-          "indian": "dha ma Ga ma Ga Re: Ga Re:",
-          "western": "a F E F E D: E D:"
+          "indian": "dha ma Ga ma Ga Re: Ga Re:"
         },
         {
           "lyrics": "Sukhadam varadam",
-          "indian": "Sa Re ma: ma ma ma:",
-          "western": "C D F: F F F:"
+          "indian": "Sa Re ma: ma ma ma:"
         },
         {
           "lyrics": "Mataram",
-          "indian": "ma Pa ma Pa:",
-          "western": "F G F G:"
+          "indian": "ma Pa ma Pa:"
         },
         {
           "lyrics": "Vande mataram",
-          "indian": "Sa: Re: ma Pa ma Pa:",
-          "western": "C: D: F G F G:"
+          "indian": "Sa: Re: ma Pa ma Pa:"
         },
         {
           "lyrics": "Vande mataram",
-          "indian": "Sa: Re: ma Pa ma Pa:",
-          "western": "C: D: F G F G:"
+          "indian": "Sa: Re: ma Pa ma Pa:"
         }
       ]
     }

@@ -15,113 +15,91 @@
       "lines": [
         {
           "lyrics": "Paas aaye",
-          "indian": "Ni(k) Dha(k) Ni(k):",
-          "western": "Bb Ab Bb:"
+          "indian": "Ni(k) Dha(k) Ni(k):"
         },
         {
           "lyrics": "Dooriyaan phir bhi kam naa hui",
-          "indian": "ni Ga Pa Dha Pa Ma Re Ga Re Re Re Sa Re Sa",
-          "western": "b E G A G F# D E D D D C D C"
+          "indian": "ni Ga Pa Dha Pa Ma Re Ga Re Re Re Sa Re Sa"
         },
         {
           "lyrics": "Ek adhuri",
-          "indian": "Ni(k) Ni(k) Dha(k) Ni(k):",
-          "western": "Bb Bb Ab Bb:"
+          "indian": "Ni(k) Ni(k) Dha(k) Ni(k):"
         },
         {
           "lyrics": "Si hamari kahani rahi",
-          "indian": "ni Ga Pa Dha Pa Ma Re Ga: Re Re Re Sa Re Sa",
-          "western": "b E G A G F# D E: D D D C D C"
+          "indian": "ni Ga Pa Dha Pa Ma Re Ga: Re Re Re Sa Re Sa"
         },
         {
           "lyrics": "Aasmaan ko zameen",
-          "indian": "Ga Ma Pa: Ga: Re Ga:",
-          "western": "E F# G: E: D E:"
+          "indian": "Ga Ma Pa: Ga: Re Ga:"
         },
         {
           "lyrics": "Ye zaroori nahi",
-          "indian": "Ga Ma Pa: Ga: Re Ga:",
-          "western": "E F# G: E: D E:"
+          "indian": "Ga Ma Pa: Ga: Re Ga:"
         },
         {
           "lyrics": "Jaa mile jaa mile",
-          "indian": "Re Ga Re: dha Re Sa ni:",
-          "western": "D E D: a D C b:"
+          "indian": "Re Ga Re: dha Re Sa ni:"
         },
         {
           "lyrics": "Ishq saccha wahi",
-          "indian": "Ga Ma Pa: Ga: Re Ga:",
-          "western": "E F# G: E: D E:"
+          "indian": "Ga Ma Pa: Ga: Re Ga:"
         },
         {
           "lyrics": "Jjisko milti nahi",
-          "indian": "Ga Ma Pa: Ga: Re Ga:",
-          "western": "E F# G: E: D E:"
+          "indian": "Ga Ma Pa: Ga: Re Ga:"
         },
         {
           "lyrics": "Manzilein manzilein",
-          "indian": "Re Ga Re: dha Re Sa ni:",
-          "western": "D E D: a D C b:"
+          "indian": "Re Ga Re: dha Re Sa ni:"
         },
         {
           "lyrics": "Rang thhe noor tha",
-          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:",
-          "western": "D B A B: A B: A B:"
+          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:"
         },
         {
           "lyrics": "Jab kareeb tu tha",
-          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':",
-          "western": "A: B C': B C': B C':"
+          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':"
         },
         {
           "lyrics": "Ek jannat sa tha",
-          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:",
-          "western": "C' B A: G A: G A:"
+          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:"
         },
         {
           "lyrics": "yeh jahaan",
-          "indian": "Re' Sa' Ni: Sa' Ni Dha:",
-          "western": "D' C' B: C' B A:"
+          "indian": "Re' Sa' Ni: Sa' Ni Dha:"
         },
         {
           "lyrics": "Waqt ki ret pe",
-          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:",
-          "western": "D B A B: A B: A B:"
+          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:"
         },
         {
           "lyrics": "Kuch mere naam sa",
-          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':",
-          "western": "A: B C': B C': B C':"
+          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':"
         },
         {
           "lyrics": "Likh ke chhod gaya",
-          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:",
-          "western": "C' B A: G A: G A:"
+          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:"
         },
         {
           "lyrics": "Tu kahaan",
-          "indian": "Re' Sa' Ni: Sa' Ni Dha: Pa:",
-          "western": "D' C' B: C' B A: G:"
+          "indian": "Re' Sa' Ni: Sa' Ni Dha: Pa:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Pa Ma Ma Ga Ga Re: Re Re Ga:",
-          "western": "G F# F# E E D: D D E:"
+          "indian": "Pa Ma Ma Ga Ga Re: Re Re Ga:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Ma Ga Ga Re Re Re: dha dha ni:",
-          "western": "F# E E D D D: a a b:"
+          "indian": "Ma Ga Ga Re Re Re: dha dha ni:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Pa Ma Ma Ga Ga Re: Re Pa Ma Ga Ga:",
-          "western": "G F# F# E E D: D G F# E E:"
+          "indian": "Pa Ma Ma Ga Ga Re: Re Pa Ma Ga Ga:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Ma Ga Ga Re Re Re: dha Re Sa ni:",
-          "western": "F# E E D D D: a D C b:"
+          "indian": "Ma Ga Ga Re Re Re: dha Re Sa ni:"
         },
         {
           "lyrics": "Music",
@@ -129,83 +107,67 @@
         },
         {
           "lyrics": "Khushbuon se teri",
-          "indian": "Pa Ma Pa Ma: Ma Pa Ni: Ma:",
-          "western": "G F# G F#: F# G B: F#:"
+          "indian": "Pa Ma Pa Ma: Ma Pa Ni: Ma:"
         },
         {
           "lyrics": "Yunhi takra gaye",
-          "indian": "Ma: Ma Ma Dha: Pa Ma Ga Re Sa:",
-          "western": "F#: F# F# A: G F# E D C:"
+          "indian": "Ma: Ma Ma Dha: Pa Ma Ga Re Sa:"
         },
         {
           "lyrics": "Chalte chalte dekho na",
-          "indian": "Ga: Ma Ga: Ga: Ga Ma Pa Ma: Ga Re",
-          "western": "E: F# E: E: E F# G F#: E D"
+          "indian": "Ga: Ma Ga: Ga: Ga Ma Pa Ma: Ga Re"
         },
         {
           "lyrics": "Hum kahaan aa gaye",
-          "indian": "Re: Ma Pa: Dha: Ma Pa:",
-          "western": "D: F# G: A: F# G:"
+          "indian": "Re: Ma Pa: Dha: Ma Pa:"
         },
         {
           "lyrics": "Jannatein agar yahin",
-          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:",
-          "western": "D B A B: A B: A B:"
+          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:"
         },
         {
           "lyrics": "Tu dikhe kyon nahin",
-          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':",
-          "western": "A: B C': B C': B C':"
+          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':"
         },
         {
           "lyrics": "Chaand suraj sabhi",
-          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:",
-          "western": "C' B A: G A: G A:"
+          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:"
         },
         {
           "lyrics": "Hai yahaan",
-          "indian": "Re' Sa' Ni: Sa' Ni Dha:",
-          "western": "D' C' B: C' B A:"
+          "indian": "Re' Sa' Ni: Sa' Ni Dha:"
         },
         {
           "lyrics": "Intezar tera",
-          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:",
-          "western": "D B A B: A B: A B:"
+          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:"
         },
         {
           "lyrics": "Sadiyon se kar raha",
-          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':",
-          "western": "A: B C': B C': B C':"
+          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':"
         },
         {
           "lyrics": "Pyaasi baithi hai kab",
-          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:",
-          "western": "C' B A: G A: G A:"
+          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:"
         },
         {
           "lyrics": "Se yahaan",
-          "indian": "Re' Sa' Ni: Sa' Ni Dha: Pa:",
-          "western": "D' C' B: C' B A: G:"
+          "indian": "Re' Sa' Ni: Sa' Ni Dha: Pa:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Pa Ma Ma Ga Ga Re: Re Re Ga:",
-          "western": "G F# F# E E D: D D E:"
+          "indian": "Pa Ma Ma Ga Ga Re: Re Re Ga:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Ma Ga Ga Re Re Re: dha dha ni:",
-          "western": "F# E E D D D: a a b:"
+          "indian": "Ma Ga Ga Re Re Re: dha dha ni:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Pa Ma Ma Ga Ga Re: Re Pa Ma Ga Ga:",
-          "western": "G F# F# E E D: D G F# E E:"
+          "indian": "Pa Ma Ma Ga Ga Re: Re Pa Ma Ga Ga:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Ma Ga Ga Re Re Re: dha Re Sa ni:",
-          "western": "F# E E D D D: a D C b:"
+          "indian": "Ma Ga Ga Re Re Re: dha Re Sa ni:"
         },
         {
           "lyrics": "Music",
@@ -213,83 +175,67 @@
         },
         {
           "lyrics": "Pyaas ka ye safar",
-          "indian": "Pa Ma Pa Ma: Ma Pa Ni: Ma:",
-          "western": "G F# G F#: F# G B: F#:"
+          "indian": "Pa Ma Pa Ma: Ma Pa Ni: Ma:"
         },
         {
           "lyrics": "khatam ho jayega",
-          "indian": "Ma: Ma Ma Dha: Pa Ma Ga Re Sa:",
-          "western": "F#: F# F# A: G F# E D C:"
+          "indian": "Ma: Ma Ma Dha: Pa Ma Ga Re Sa:"
         },
         {
           "lyrics": "Kuch adhura sa jo tha",
-          "indian": "Ga: Ma Ga: Ga: Ga Ma Pa Ma: Ga Re",
-          "western": "E: F# E: E: E F# G F#: E D"
+          "indian": "Ga: Ma Ga: Ga: Ga Ma Pa Ma: Ga Re"
         },
         {
           "lyrics": "poora ho jayega",
-          "indian": "Re: Ma Pa: Dha: Ma Pa:",
-          "western": "D: F# G: A: F# G:"
+          "indian": "Re: Ma Pa: Dha: Ma Pa:"
         },
         {
           "lyrics": "Jhuk gaya aasmaan",
-          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:",
-          "western": "D B A B: A B: A B:"
+          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:"
         },
         {
           "lyrics": "Mill gaye do jahaan",
-          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':",
-          "western": "A: B C': B C': B C':"
+          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':"
         },
         {
           "lyrics": "Har taraf hai milan",
-          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:",
-          "western": "C' B A: G A: G A:"
+          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:"
         },
         {
           "lyrics": "Ka samaa",
-          "indian": "Re' Sa' Ni: Sa' Ni Dha:",
-          "western": "D' C' B: C' B A:"
+          "indian": "Re' Sa' Ni: Sa' Ni Dha:"
         },
         {
           "lyrics": "Doliya hain saji",
-          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:",
-          "western": "D B A B: A B: A B:"
+          "indian": "Re Ni Dha Ni: Dha Ni: Dha Ni:"
         },
         {
           "lyrics": "Khushbuein har kahin",
-          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':",
-          "western": "A: B C': B C': B C':"
+          "indian": "Dha: Ni Sa': Ni Sa': Ni Sa':"
         },
         {
           "lyrics": "Padhne aaya khuda",
-          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:",
-          "western": "C' B A: G A: G A:"
+          "indian": "Sa' Ni Dha: Pa Dha: Pa Dha:"
         },
         {
           "lyrics": "Khud yahaan",
-          "indian": "Re' Sa' Ni: Sa' Ni Dha: Pa:",
-          "western": "D' C' B: C' B A: G:"
+          "indian": "Re' Sa' Ni: Sa' Ni Dha: Pa:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Pa Ma Ma Ga Ga Re: Re Re Ga:",
-          "western": "G F# F# E E D: D D E:"
+          "indian": "Pa Ma Ma Ga Ga Re: Re Re Ga:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Ma Ga Ga Re Re Re: dha dha ni:",
-          "western": "F# E E D D D: a a b:"
+          "indian": "Ma Ga Ga Re Re Re: dha dha ni:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Pa Ma Ma Ga Ga Re: Re Pa Ma Ga Ga:",
-          "western": "G F# F# E E D: D G F# E E:"
+          "indian": "Pa Ma Ma Ga Ga Re: Re Pa Ma Ga Ga:"
         },
         {
           "lyrics": "Hamari adhuri kahani",
-          "indian": "Ma Ga Ga Re Re Re: dha Re Sa ni:",
-          "western": "F# E E D D D: a D C b:"
+          "indian": "Ma Ga Ga Re Re Re: dha Re Sa ni:"
         }
       ]
     }

@@ -18,23 +18,19 @@
       "lines": [
         {
           "lyrics": "Har ghadi badal rahi hai roop zindagi",
-          "indian": "Sa Ni Sa Ni Sa Ni Sa Ga Re Sa Ni Dha Ni Dha Ni",
-          "western": "C B C B C B C E D C B A B A B"
+          "indian": "Sa Ni Sa Ni Sa Ni Sa Ga Re Sa Ni Dha Ni Dha Ni"
         },
         {
           "lyrics": "Chaav hai kabhi kabhi hai dhoop zindagi",
-          "indian": "Sa Ni Sa Ni Sa Ni Sa Ga Re Sa Ni Dha Ni Dha Ni",
-          "western": "C B C B C B C E D C B A B A B"
+          "indian": "Sa Ni Sa Ni Sa Ni Sa Ga Re Sa Ni Dha Ni Dha Ni"
         },
         {
           "lyrics": "Har pal yahan jee bhar jiyo",
-          "indian": "Pa Dha Sa Dha maPaDhaPa",
-          "western": "G A C A FGAG"
+          "indian": "Pa Dha Sa Dha maPaDhaPa"
         },
         {
           "lyrics": "Jo hai samaa kal ho naa ho",
-          "indian": "Pa Dha Sa Dha Pama maNi(k)DhaPa",
-          "western": "G A C A GF FBbAG"
+          "indian": "Pa Dha Sa Dha Pama maNi(k)DhaPa"
         }
       ]
     },
@@ -43,23 +39,19 @@
       "lines": [
         {
           "lyrics": "Chaahe jo tumhe poore dil se",
-          "indian": "NiSaMaGaRe NiDhaNiSa",
-          "western": "BCF#ED BABC"
+          "indian": "NiSaMaGaRe NiDhaNiSa"
         },
         {
           "lyrics": "milta hai woh mushkil se",
-          "indian": "NiSaMaGaReGaRe NiDhaNiSaDhaPa",
-          "western": "BCF#EDED BABCAG"
+          "indian": "NiSaMaGaReGaRe NiDhaNiSaDhaPa"
         },
         {
           "lyrics": "Aisa jo koi kahin hai",
-          "indian": "NiSaMaGaRe NiDhaNiSa",
-          "western": "BCF#ED BABC"
+          "indian": "NiSaMaGaRe NiDhaNiSa"
         },
         {
           "lyrics": "bas wohi sabse haseen hai",
-          "indian": "NiSaMaGaReGaRe NiDhaNiSaDhaPa",
-          "western": "BCF#EDED BABCAG"
+          "indian": "NiSaMaGaReGaRe NiDhaNiSaDhaPa"
         }
       ]
     },
@@ -68,13 +60,11 @@
       "lines": [
         {
           "lyrics": "Us haath ko tum thaam lo",
-          "indian": "Pa Dha Sa Dha maPaDhaPa",
-          "western": "G A C A FGAG"
+          "indian": "Pa Dha Sa Dha maPaDhaPa"
         },
         {
           "lyrics": "woh meherbaan kal ho naa ho",
-          "indian": "Pa Dha Sa Dha Pama maNi(k)DhaPa",
-          "western": "G A C A GF FBbAG"
+          "indian": "Pa Dha Sa Dha Pama maNi(k)DhaPa"
         }
       ]
     }

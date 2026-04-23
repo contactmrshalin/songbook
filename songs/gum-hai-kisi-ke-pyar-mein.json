@@ -15,88 +15,71 @@
       "lines": [
         {
           "lyrics": "Gum hai | kisike | pyaar | mein",
-          "indian": "Ga(k) | Re | Ga(k)Re~Sa | Sa Sa | Sa~Pa,",
-          "western": "Eb | D | EbD~C | C C | C~G,"
+          "indian": "Ga(k) | Re | Ga(k)Re~Sa | Sa Sa | Sa~Pa,"
         },
         {
           "lyrics": "Dil | subah | shaam",
-          "indian": "Sa Re | Ga(k) Ga(k)~Ma(T) | Ga(k) | Ga(k) Re(k)..Sa Re(k)",
-          "western": "C D | Eb Eb~F# | Eb | Eb db.C Db"
+          "indian": "Sa Re | Ga(k) Ga(k)~Ma(T) | Ga(k) | Ga(k) Re(k)..Sa Re(k)"
         },
         {
           "lyrics": "Par | tumhe | likh | nahin | paaun",
-          "indian": "Ni | Ni Ma(T) | Ni | Sa. | Ni Ni.~Pa.",
-          "western": "B | B F# | B | c | B b~g"
+          "indian": "Ni | Ni Ma(T) | Ni | Sa. | Ni Ni.~Pa."
         },
         {
           "lyrics": "Main | usaka | naam",
-          "indian": "Pa. | Ni. Ni. | Sa…",
-          "western": "g | b b | C…"
+          "indian": "Pa. | Ni. Ni. | Sa…"
         },
         {
           "lyrics": "Haaye | raam",
-          "indian": "Ga(k)maGa(k) | Re…",
-          "western": "EbFEb | D…"
+          "indian": "Ga(k)maGa(k) | Re…"
         },
         {
           "lyrics": "Haaye | raam",
-          "indian": "Ga(k)maGa(k) | Re…",
-          "western": "EbFEb | D…"
+          "indian": "Ga(k)maGa(k) | Re…"
         },
         {
           "lyrics": "Kah | daalun | apane",
-          "indian": "PaPa | Pa Ni(k) Dha(k)' | Dha(k)'~PaMa(T)~Re",
-          "western": "GG | G Bb Ab' | Ab'~GF#~D"
+          "indian": "PaPa | Pa Ni(k) Dha(k)' | Dha(k)'~PaMa(T)~Re"
         },
         {
           "lyrics": "sab | haal | dil | ke",
-          "indian": "ReRe | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)",
-          "western": "DD | F#F# | G | G…F#~Eb"
+          "indian": "ReRe | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)"
         },
         {
           "lyrics": "Aur | kar | dun | jiwan",
-          "indian": "Ma(T)Ma(T) | Ma(T) | Ma(T) | Ni Ni Ma(T)Ma(T)",
-          "western": "F#F# | F# | F# | B B F#F#"
+          "indian": "Ma(T)Ma(T) | Ma(T) | Ma(T) | Ni Ni Ma(T)Ma(T)"
         },
         {
           "lyrics": "usake | hawaale",
-          "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re (ma){Ga(k)Re}…ma",
-          "western": "Eb~C Eb | Eb Eb…D (F){EbD}…F"
+          "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re (ma){Ga(k)Re}…ma"
         },
         {
           "lyrics": "Phir | chhod | de | chaahe",
-          "indian": "Ma(T) Ma(T) | Ma(T) Ma(T) | Ma(T) | Pa Ma(T) Pa Ma(T)",
-          "western": "F# F# | F# F# | F# | G F# G F#"
+          "indian": "Ma(T) Ma(T) | Ma(T) Ma(T) | Ma(T) | Pa Ma(T) Pa Ma(T)"
         },
         {
           "lyrics": "apana | bana | le",
-          "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re {SaNiSa}",
-          "western": "Eb~C Eb | Eb Eb…D {CBC}"
+          "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re {SaNiSa}"
         },
         {
           "lyrics": "Main | to | usaka | re",
-          "indian": "Pa. | Sa | Ga(k)Re… | (Sa)Re",
-          "western": "g | C | EbD… | (C)D"
+          "indian": "Pa. | Sa | Ga(k)Re… | (Sa)Re"
         },
         {
           "lyrics": "hua | diwaana",
-          "indian": "Ga(k)ReSa | Ga(k)ReSa Sa",
-          "western": "EbDC | EbDC C"
+          "indian": "Ga(k)ReSa | Ga(k)ReSa Sa"
         },
         {
           "lyrics": "Ab | to | jaisa | bhi",
-          "indian": "Pa. | Sa | Ga(k)Re…Ga(k) | (Sa)Re",
-          "western": "g | C | EbD…Eb | (C)D"
+          "indian": "Pa. | Sa | Ga(k)Re…Ga(k) | (Sa)Re"
         },
         {
           "lyrics": "mera | ho | anjaam | hooo",
-          "indian": "Ga(k)ReSa | Ga(k) | Re Sa Sa | (Re)Ga(k)",
-          "western": "EbDC | Eb | D C C | (D)Eb"
+          "indian": "Ga(k)ReSa | Ga(k) | Re Sa Sa | (Re)Ga(k)"
         },
         {
           "lyrics": "(Repeat)",
-          "indian": "GuMa hai kisike…",
-          "western": "GuF# hai kisike…"
+          "indian": "GuMa hai kisike…"
         }
       ]
     },
@@ -105,13 +88,11 @@
       "lines": [
         {
           "lyrics": "Socha | hai | ek | din",
-          "indian": "PaPa | Pa | Dha(k)Dha(k) | PaMa(T)",
-          "western": "GG | G | AbAb | GF#"
+          "indian": "PaPa | Pa | Dha(k)Dha(k) | PaMa(T)"
         },
         {
           "lyrics": "main | usase | mil | ke",
-          "indian": "Re | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)",
-          "western": "D | F#F# | G | G…F#~Eb"
+          "indian": "Re | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)"
         }
       ]
     }

@@ -14,12 +14,10 @@
       "name": "Intro (Starting Tune)",
       "lines": [
         {
-          "indian": "Sa* – Sa* Sa* – / Ni Sa* Pa* – / Ni – / Sa* – Sa* Sa* –",
-          "western": "C* – C* C* – / B C* G* – / B – / C* – C* C* –"
+          "indian": "Sa* – Sa* Sa* – / Ni Sa* Pa* – / Ni – / Sa* – Sa* Sa* –"
         },
         {
-          "indian": "Ni Sa* Pa* – / Sa* Ni Dha – Dha Dha – / Dha Ni Sa* Ga* Sa* – / Re* – Re* Re* –",
-          "western": "B C* G* – / C* B A – A A – / A B C* E* C* – / D* – D* D* –"
+          "indian": "Ni Sa* Pa* – / Sa* Ni Dha – Dha Dha – / Dha Ni Sa* Ga* Sa* – / Re* – Re* Re* –"
         }
       ]
     },
@@ -28,38 +26,31 @@
       "lines": [
         {
           "lyrics": "Pehla nasha",
-          "indian": "Ga Pa / Pa Dha –",
-          "western": "E G / G A –"
+          "indian": "Ga Pa / Pa Dha –"
         },
         {
           "lyrics": "Pehla khumaar",
-          "indian": "Ga Sa Re / Pa Pa –",
-          "western": "E C D / G G –"
+          "indian": "Ga Sa Re / Pa Pa –"
         },
         {
           "lyrics": "Naya pyaar hai naya intezaar",
-          "indian": "Ga – / Pa – Pa Pa / ma Ga Re – Re Re –",
-          "western": "E – / G – G G / F E D – D D –"
+          "indian": "Ga – / Pa – Pa Pa / ma Ga Re – Re Re –"
         },
         {
           "lyrics": "Kar loon main kya apna haal",
-          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –",
-          "western": "C .B .A .B C – / F E E –"
+          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –"
         },
         {
           "lyrics": "Aye dil-e-bekaraar",
-          "indian": "Dha Ni Sa Ga – Re Re –",
-          "western": "A B C E – D D –"
+          "indian": "Dha Ni Sa Ga – Re Re –"
         },
         {
           "lyrics": "Mere dil-e-bekaraar",
-          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –",
-          "western": "C .B .A .B C – / F E E –"
+          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –"
         },
         {
           "lyrics": "Tu hi bata",
-          "indian": "Sa Re Ga Sa Re –",
-          "western": "C D E C D –"
+          "indian": "Sa Re Ga Sa Re –"
         }
       ]
     },
@@ -68,23 +59,19 @@
       "lines": [
         {
           "lyrics": "Udta hi firoon in hawaon mein kahin",
-          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
-          "western": "C* B C* – / A – Bb A – / A G F D D / A G G –"
+          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa ma Re Re / Dha Pa Pa –"
         },
         {
           "lyrics": "Ya main jhool jaoon in ghataon mein kahin",
-          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
-          "western": "C* B C* – / A Bb C* A – / A G F D D / A G G –"
+          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa ma Re Re / Dha Pa Pa –"
         },
         {
           "lyrics": "Ek kar doon aasmaan aur zameen",
-          "indian": "Pa ma Pa Dha / Ni(k) Dha Pa – / Pa – ma Pa –",
-          "western": "G F G A / Bb A G – / G – F G –"
+          "indian": "Pa ma Pa Dha / Ni(k) Dha Pa – / Pa – ma Pa –"
         },
         {
           "lyrics": "Kaho yaaron kya karoon kya nahin",
-          "indian": "Pa ma Pa Dha / Ni(k) Sa* Sa* ma / ma Pa Ga ma –",
-          "western": "G F G A / Bb C* C* F / F G E F –"
+          "indian": "Pa ma Pa Dha / Ni(k) Sa* Sa* ma / ma Pa Ga ma –"
         }
       ]
     },
@@ -93,23 +80,19 @@
       "lines": [
         {
           "lyrics": "Usne baat ki kuchh aise dhang se",
-          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
-          "western": "C* B C* – / A – Bb A – / A G F D D / A G G –"
+          "indian": "Sa* Ni Sa* – / Dha – Ni(k) Dha – / Dha Pa ma Re Re / Dha Pa Pa –"
         },
         {
           "lyrics": "Sapne de gaya vo hazaaron range ke",
-          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa ma Re Re / Dha Pa Pa –",
-          "western": "C* B C* – / A Bb C* A – / A G F D D / A G G –"
+          "indian": "Sa* Ni Sa* – / Dha Ni(k) Sa* Dha – / Dha Pa ma Re Re / Dha Pa Pa –"
         },
         {
           "lyrics": "Reh jaoon jaise main haar ke",
-          "indian": "Pa ma Pa Dha / Ni(k) Dha Pa – / Pa – ma Pa –",
-          "western": "G F G A / Bb A G – / G – F G –"
+          "indian": "Pa ma Pa Dha / Ni(k) Dha Pa – / Pa – ma Pa –"
         },
         {
           "lyrics": "Aur choome vo mujhe pyaar se",
-          "indian": "Pa ma Pa Dha / Ni(k) Sa* Sa* ma / ma Pa Ga ma –",
-          "western": "G F G A / Bb C* C* F / F G E F –"
+          "indian": "Pa ma Pa Dha / Ni(k) Sa* Sa* ma / ma Pa Ga ma –"
         }
       ]
     },
@@ -118,23 +101,19 @@
       "lines": [
         {
           "lyrics": "Pehla nasha, pehla khumaar",
-          "indian": "Ga Pa / Pa Dha – / Ga Sa Re / Pa Pa –",
-          "western": "E G / G A – / E C D / G G –"
+          "indian": "Ga Pa / Pa Dha – / Ga Sa Re / Pa Pa –"
         },
         {
           "lyrics": "Naya pyaar hai naya intezaar",
-          "indian": "Ga – / Pa – Pa Pa / ma Ga Re – Re Re –",
-          "western": "E – / G – G G / F E D – D D –"
+          "indian": "Ga – / Pa – Pa Pa / ma Ga Re – Re Re –"
         },
         {
           "lyrics": "Kar loon main kya apna haal",
-          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –",
-          "western": "C .B .A .B C – / F E E –"
+          "indian": "Sa .Ni .Dha .Ni Sa – / ma Ga Ga –"
         },
         {
           "lyrics": "Aye dil-e-bekaraar, mere dil-e-bekaraar",
-          "indian": "Dha Ni Sa Ga – Re Re – / Sa .Ni .Dha .Ni Sa – ma Ga Ga –",
-          "western": "A B C E – D D – / C .B .A .B C – F E E –"
+          "indian": "Dha Ni Sa Ga – Re Re – / Sa .Ni .Dha .Ni Sa – ma Ga Ga –"
         }
       ]
     }

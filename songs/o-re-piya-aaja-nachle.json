@@ -18,13 +18,11 @@
       "lines": [
         {
           "lyrics": "Aaah...",
-          "indian": "Sa~Re Ga~Re Sa: Sa~Ni(k) Sa:",
-          "western": "C~D E~D C: C~Bb C:"
+          "indian": "Sa~Re Ga~Re Sa: Sa~Ni(k) Sa:"
         },
         {
           "lyrics": "Hmmmmm",
-          "indian": "Re Ga ma~Ga Re Sa:",
-          "western": "D E F~E D C:"
+          "indian": "Re Ga ma~Ga Re Sa:"
         }
       ]
     },
@@ -33,33 +31,27 @@
       "lines": [
         {
           "lyrics": "O re piya",
-          "indian": "Sa Re Ga~Re Sa:",
-          "western": "C D E~D C:"
+          "indian": "Sa Re Ga~Re Sa:"
         },
         {
           "lyrics": "Haaye…",
-          "indian": "Ni(k)~Sa:",
-          "western": "Bb~C:"
+          "indian": "Ni(k)~Sa:"
         },
         {
           "lyrics": "O re piya",
-          "indian": "Sa Re Ga~Re Sa:",
-          "western": "C D E~D C:"
+          "indian": "Sa Re Ga~Re Sa:"
         },
         {
           "lyrics": "Haaye…",
-          "indian": "Ni(k)~Sa:",
-          "western": "Bb~C:"
+          "indian": "Ni(k)~Sa:"
         },
         {
           "lyrics": "Udne laga kyon mann baawra",
-          "indian": "Ga ma Pa ma Ga Re Sa~Ni(k) Sa Re Ga:",
-          "western": "E F G F E D C~Bb C D E:"
+          "indian": "Ga ma Pa ma Ga Re Sa~Ni(k) Sa Re Ga:"
         },
         {
           "lyrics": "Aaya kahaan se mann baawra",
-          "indian": "Ga ma Pa ma Ga Re Sa~Ni(k) Sa:",
-          "western": "E F G F E D C~Bb C:"
+          "indian": "Ga ma Pa ma Ga Re Sa~Ni(k) Sa:"
         }
       ]
     },
@@ -68,13 +60,11 @@
       "lines": [
         {
           "lyrics": "Dole re dole re mann mora",
-          "indian": "Re Ga ma Pa ma Ga Re Sa:",
-          "western": "D E F G F E D C:"
+          "indian": "Re Ga ma Pa ma Ga Re Sa:"
         },
         {
           "lyrics": "Jhoome re jhoome re tan mora",
-          "indian": "Re Ga ma Pa Dha~Pa ma Ga Re:",
-          "western": "D E F G A~G F E D:"
+          "indian": "Re Ga ma Pa Dha~Pa ma Ga Re:"
         }
       ]
     },
@@ -83,23 +73,19 @@
       "lines": [
         {
           "lyrics": "Naina thag lenge",
-          "indian": "ma Pa Dha Pa ma Ga Re",
-          "western": "F G A G F E D"
+          "indian": "ma Pa Dha Pa ma Ga Re"
         },
         {
           "lyrics": "Chain chura lenge",
-          "indian": "ma Pa Dha Ni(k) Dha Pa ma:",
-          "western": "F G A Bb A G F:"
+          "indian": "ma Pa Dha Ni(k) Dha Pa ma:"
         },
         {
           "lyrics": "Bairi piya bole",
-          "indian": "Ga ma Pa ma Ga Re Sa",
-          "western": "E F G F E D C"
+          "indian": "Ga ma Pa ma Ga Re Sa"
         },
         {
           "lyrics": "O re piya haaye",
-          "indian": "Sa Re Ga~Re Sa: Ni(k)~Sa:",
-          "western": "C D E~D C: Bb~C:"
+          "indian": "Sa Re Ga~Re Sa: Ni(k)~Sa:"
         }
       ]
     },
@@ -108,18 +94,15 @@
       "lines": [
         {
           "lyrics": "Sajna aa bhi jaa",
-          "indian": "Pa Dha Ni(k) Sa'~Ni(k) Dha Pa:",
-          "western": "G A Bb C'~Bb A G:"
+          "indian": "Pa Dha Ni(k) Sa'~Ni(k) Dha Pa:"
         },
         {
           "lyrics": "Dil mein samaa jaa",
-          "indian": "Pa Dha Ni(k) Sa' Re' Sa' Ni(k) Dha",
-          "western": "G A Bb C' D' C' Bb A"
+          "indian": "Pa Dha Ni(k) Sa' Re' Sa' Ni(k) Dha"
         },
         {
           "lyrics": "O re piya",
-          "indian": "Sa' Ni(k) Dha Pa ma Ga Re Sa:",
-          "western": "C' Bb A G F E D C:"
+          "indian": "Sa' Ni(k) Dha Pa ma Ga Re Sa:"
         }
       ]
     },
@@ -128,8 +111,7 @@
       "lines": [
         {
           "lyrics": "Aaah haaye…",
-          "indian": "Sa Re Ga ma~Ga Re Sa Ni(k)~Sa:",
-          "western": "C D E F~E D C Bb~C:"
+          "indian": "Sa Re Ga ma~Ga Re Sa Ni(k)~Sa:"
         }
       ]
     }

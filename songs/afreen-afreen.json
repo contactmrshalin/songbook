@@ -15,93 +15,75 @@
       "lines": [
         {
           "lyrics": "Hohoo hoo ho hohoo hoo ho hohoo hoo ho",
-          "indian": "pa Sa ni Sa pa Sa ni Sa pa Sa ni Sa Sa: ni",
-          "western": "g C b C g C b C g C b C C: b"
+          "indian": "pa Sa ni Sa pa Sa ni Sa pa Sa ni Sa Sa: ni"
         },
         {
           "lyrics": "Hohoo hoo ho hohoo hoo ho hohoo hoo ho hoohoo",
-          "indian": "pa Sa ni Sa pa Sa ni Sa pa Sa ni Sa Sa Ga Re:",
-          "western": "g C b C g C b C g C b C C E D:"
+          "indian": "pa Sa ni Sa pa Sa ni Sa pa Sa ni Sa Sa Ga Re:"
         },
         {
           "lyrics": "Aisaa dekha nahii khoobsurat koii",
-          "indian": "Sa ni pa Re Re Re ni Sa Re Ga Re Pa ma Ga",
-          "western": "C b g D D D b C D E D G F E"
+          "indian": "Sa ni pa Re Re Re ni Sa Re Ga Re Pa ma Ga"
         },
         {
           "lyrics": "Jism jaise ajantaa ki murat koii",
-          "indian": "Sa ni pa Re Re Re Ga ni Sa Re Ga Re Pa ma Ga",
-          "western": "C b g D D D E b C D E D G F E"
+          "indian": "Sa ni pa Re Re Re Ga ni Sa Re Ga Re Pa ma Ga"
         },
         {
           "lyrics": "Kism jaise nighaao pe jaado koi",
-          "indian": "Sa ni Sa Ga Ga Ga Ga ma Re Pa ma Ga",
-          "western": "C b C E E E E F D G F E"
+          "indian": "Sa ni Sa Ga Ga Ga Ga ma Re Pa ma Ga"
         },
         {
           "lyrics": "Jism naghma koi jism khushboo koi",
-          "indian": "Sa ni Sa Ga Ga Ga Ga ma Re Pa ma Ga",
-          "western": "C b C E E E E F D G F E"
+          "indian": "Sa ni Sa Ga Ga Ga Ga ma Re Pa ma Ga"
         },
         {
           "lyrics": "Jism jaaise mehakti hui chaandnii",
-          "indian": "Ga ma Re Dha Dha Dha Dha ma ma Pa Dha Pa Pa",
-          "western": "E F D A A A A F F G A G G"
+          "indian": "Ga ma Re Dha Dha Dha Dha ma ma Pa Dha Pa Pa"
         },
         {
           "lyrics": "Jism jaise machaltii hui raagni",
-          "indian": "Ga ma Re Dha Dha Sa' Dha ma ma Pa Dha Pa Pa:",
-          "western": "E F D A A C' A F F G A G G:"
+          "indian": "Ga ma Re Dha Dha Sa' Dha ma ma Pa Dha Pa Pa:"
         },
         {
           "lyrics": "Jism jaise ke khilta hua ik chaman",
-          "indian": "Pa Pa Ni Ni Re' Sa' Dha Dha ma ma Pa Dha Pa Pa:",
-          "western": "G G B B D' C' A A F F G A G G:"
+          "indian": "Pa Pa Ni Ni Re' Sa' Dha Dha ma ma Pa Dha Pa Pa:"
         },
         {
           "lyrics": "Jism jaise kee suraj ki pehli kiran",
-          "indian": "Pa Pa Ni Ni Sa' Ga' Re' Dha Ni Dha Pa ma. ma Pa Dha Pa Pa",
-          "western": "G G B B C' E' D' A B A G f F G A G G"
+          "indian": "Pa Pa Ni Ni Sa' Ga' Re' Dha Ni Dha Pa ma. ma Pa Dha Pa Pa"
         },
         {
           "lyrics": "Jism tarshaa huaa dilkasho dilnashiin",
-          "indian": "Pa Pa Sa' Sa' Sa' Sa' Re' Ni Ni Sa' Sa' Sa' Sa'",
-          "western": "G G C' C' C' C' D' B B C' C' C' C'"
+          "indian": "Pa Pa Sa' Sa' Sa' Sa' Re' Ni Ni Sa' Sa' Sa' Sa'"
         },
         {
           "lyrics": "Sandli sandli marmari marmari",
-          "indian": "Ni Ni Ni Sa' Re' Sa' Ni Dha Dha ma ma Pa ma Ga Re",
-          "western": "B B B C' D' C' B A A F F G F E D"
+          "indian": "Ni Ni Ni Sa' Re' Sa' Ni Dha Dha ma ma Pa ma Ga Re"
         },
         {
           "lyrics": "Husan-e-jaana kii taaref mumkin nahii",
-          "indian": "Sa ni Sa Ga ma Ga Re Sa dha Sa Sa Sa Sa",
-          "western": "C b C E F E D C a C C C C"
+          "indian": "Sa ni Sa Ga ma Ga Re Sa dha Sa Sa Sa Sa"
         },
         {
           "lyrics": "Husan-e-jaana kii taaref mumkin nahii",
-          "indian": "ni dha ni Sa Ga ma Ga Re Sa dha Sa Sa Sa Sa",
-          "western": "b a b C E F E D C a C C C C"
+          "indian": "ni dha ni Sa Ga ma Ga Re Sa dha Sa Sa Sa Sa"
         },
         {
           "lyrics": "Afreen afreen afreen afreen",
-          "indian": "Ga ma Re Pa Pa Pa Pa Pa Pa Dha Re Ga ma",
-          "western": "E F D G G G G G G A D E F"
+          "indian": "Ga ma Re Pa Pa Pa Pa Pa Pa Dha Re Ga ma"
         },
         {
           "lyrics": "Tuu bhi dekha agar toh kahe humnashiin",
-          "indian": "Pa Pa Pa Dha Dha Ni Dha ma Pa. Pa Pa Pa Dha Pa ma Pa ma Ga Re",
-          "western": "G G G A A B A F g G G G A G F G F E D"
+          "indian": "Pa Pa Pa Dha Dha Ni Dha ma Pa. Pa Pa Pa Dha Pa ma Pa ma Ga Re"
         },
         {
           "lyrics": "Afreen afreen afreen afreen",
-          "indian": "Pa Pa Pa Ni Sa' Ni Dha Dha ma ma Pa ma Ga Re",
-          "western": "G G G B C' B A A F F G F E D"
+          "indian": "Pa Pa Pa Ni Sa' Ni Dha Dha ma ma Pa ma Ga Re"
         },
         {
           "lyrics": "Husan-e-jaana kii taaref mumkin nahii",
-          "indian": "Sa ni Sa Ga ma Ga Re Sa dha Sa Sa Sa Sa",
-          "western": "C b C E F E D C a C C C C"
+          "indian": "Sa ni Sa Ga ma Ga Re Sa dha Sa Sa Sa Sa"
         }
       ]
     }

@@ -14,28 +14,23 @@
       "lines": [
         {
           "lyrics": "Music",
-          "indian": "Ga ma Pa Dha Pa: Pa Pa",
-          "western": "E F G A G: G G"
+          "indian": "Ga ma Pa Dha Pa: Pa Pa"
         },
         {
           "lyrics": "",
-          "indian": "Sa' Ni Re' Sa' Ni: Dha Dha",
-          "western": "C' B D' C' B: A A"
+          "indian": "Sa' Ni Re' Sa' Ni: Dha Dha"
         },
         {
           "lyrics": "",
-          "indian": "Ga ma Pa Dha Dha: Dha Dha",
-          "western": "E F G A A: A A"
+          "indian": "Ga ma Pa Dha Dha: Dha Dha"
         },
         {
           "lyrics": "",
-          "indian": "Sa' Ni Dha Pa Pa: Dha Pa ma Ga",
-          "western": "C' B A G G: A G F E"
+          "indian": "Sa' Ni Dha Pa Pa: Dha Pa ma Ga"
         },
         {
           "lyrics": "Tere naam",
-          "indian": "Ni Sa' Re' Ni Sa':",
-          "western": "B C' D' B C':"
+          "indian": "Ni Sa' Re' Ni Sa':"
         },
         {
           "lyrics": "Laaa..",
@@ -43,8 +38,7 @@
         },
         {
           "lyrics": "Tere naam",
-          "indian": "Ni Sa' Re' Ni Sa':",
-          "western": "B C' D' B C':"
+          "indian": "Ni Sa' Re' Ni Sa':"
         },
         {
           "lyrics": "Laaa..",
@@ -52,43 +46,35 @@
         },
         {
           "lyrics": "Tere naam",
-          "indian": "Ni Sa' Re' Ni Sa': Re' Sa' Ni.",
-          "western": "B C' D' B C': D' C' b"
+          "indian": "Ni Sa' Re' Ni Sa': Re' Sa' Ni."
         },
         {
           "lyrics": "Humne kiya hai",
-          "indian": "Ni Sa' Dha Pa Pa Dha Pa ma Ga",
-          "western": "B C' A G G A G F E"
+          "indian": "Ni Sa' Dha Pa Pa Dha Pa ma Ga"
         },
         {
           "lyrics": "Jeevan apna sara sanam hooo",
-          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga.",
-          "western": "E F A: A: G B: A: G G: C' A F G e"
+          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga."
         },
         {
           "lyrics": "Jeevan apna sara sanam",
-          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa:",
-          "western": "E F A: A: G B: A: G G:"
+          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa:"
         },
         {
           "lyrics": "Pyar bahut",
-          "indian": "Ni Sa' Re': Ni Sa' Sa': Re' Sa' Ni.",
-          "western": "B C' D': B C' C': D' C' b"
+          "indian": "Ni Sa' Re': Ni Sa' Sa': Re' Sa' Ni."
         },
         {
           "lyrics": "Karte hai tumse",
-          "indian": "Ni Sa' Dha Pa Pa Dha Pa ma Ga",
-          "western": "B C' A G G A G F E"
+          "indian": "Ni Sa' Dha Pa Pa Dha Pa ma Ga"
         },
         {
           "lyrics": "Ishq hai tu humara sanam hooo",
-          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga.",
-          "western": "E F A: A: G B: A: G G: C' A F G e"
+          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga."
         },
         {
           "lyrics": "Ishq hai tu humara sanam",
-          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Sa':",
-          "western": "E F A: A: G B: A: G C':"
+          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Sa':"
         },
         {
           "lyrics": "Laaa….",
@@ -96,73 +82,59 @@
         },
         {
           "lyrics": "Music",
-          "indian": "Ga ma Pa Dha Pa: Pa Pa",
-          "western": "E F G A G: G G"
+          "indian": "Ga ma Pa Dha Pa: Pa Pa"
         },
         {
           "lyrics": "",
-          "indian": "Sa' Ni Re' Sa' Ni: Dha Dha",
-          "western": "C' B D' C' B: A A"
+          "indian": "Sa' Ni Re' Sa' Ni: Dha Dha"
         },
         {
           "lyrics": "",
-          "indian": "Ga ma Pa Dha Dha: Dha Dha",
-          "western": "E F G A A: A A"
+          "indian": "Ga ma Pa Dha Dha: Dha Dha"
         },
         {
           "lyrics": "",
-          "indian": "Sa' Ni Dha Pa Pa: Dha Pa ma Ga",
-          "western": "C' B A G G: A G F E"
+          "indian": "Sa' Ni Dha Pa Pa: Dha Pa ma Ga"
         },
         {
           "lyrics": "Gulshan bhi ab toh veerana lagta hai",
-          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha Pa:",
-          "western": "B C' D' C' B C' C' C' C' G A A G:"
+          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha Pa:"
         },
         {
           "lyrics": "Har apna humko begana lagta hai",
-          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha:",
-          "western": "B C' D' C' B C' C' C' C' G A A:"
+          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha:"
         },
         {
           "lyrics": "Hum teri yaadon mein khoye rehte hai",
-          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha Pa:",
-          "western": "B C' D' C' B C' C' C' C' G A A G:"
+          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha Pa:"
         },
         {
           "lyrics": "Log hum mein pagal deewana kehte hai",
-          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha:",
-          "western": "B C' D' C' B C' C' C' C' G A A:"
+          "indian": "Ni Sa' Re' Sa' Ni Sa' Sa' Sa' Sa' Pa Dha Dha:"
         },
         {
           "lyrics": "Tere bina",
-          "indian": "ma': Re' Ni Ni Dha:",
-          "western": "F': D' B B A:"
+          "indian": "ma': Re' Ni Ni Dha:"
         },
         {
           "lyrics": "Tere bina",
-          "indian": "Ga' Re' Ga': Sa' Dha Sa': Pa Dha Pa.",
-          "western": "E' D' E': C' A C': G A g"
+          "indian": "Ga' Re' Ga': Sa' Dha Sa': Pa Dha Pa."
         },
         {
           "lyrics": "Tere bina",
-          "indian": "Ni Sa' Re' Ni Sa': Re' Sa' Ni.",
-          "western": "B C' D' B C': D' C' b"
+          "indian": "Ni Sa' Re' Ni Sa': Re' Sa' Ni."
         },
         {
           "lyrics": "Namumkin hai",
-          "indian": "Ni Sa' Dha Pa Pa Dha Pa ma Ga",
-          "western": "B C' A G G A G F E"
+          "indian": "Ni Sa' Dha Pa Pa Dha Pa ma Ga"
         },
         {
           "lyrics": "Zindagi ka guzara sanam hoo",
-          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga.",
-          "western": "E F A: A: G B: A: G G: C' A F G e"
+          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Pa: Sa' Dha ma Pa Ga."
         },
         {
           "lyrics": "Zindagi ka guzara sanam",
-          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Sa':",
-          "western": "E F A: A: G B: A: G C':"
+          "indian": "Ga ma Dha: Dha: Pa Ni: Dha: Pa Sa':"
         }
       ]
     }

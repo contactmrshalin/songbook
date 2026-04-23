@@ -14,63 +14,51 @@
       "lines": [
         {
           "lyrics": "Baa baa black sheep",
-          "indian": "Sa Sa Pa Pa",
-          "western": "C C G G"
+          "indian": "Sa Sa Pa Pa"
         },
         {
           "lyrics": "Have you any wool",
-          "indian": "Dha Dha Dha Dha Pa",
-          "western": "A A A A G"
+          "indian": "Dha Dha Dha Dha Pa"
         },
         {
           "lyrics": "Yes sir yes sir",
-          "indian": "ma ma Ga Ga",
-          "western": "F F E E"
+          "indian": "ma ma Ga Ga"
         },
         {
           "lyrics": "Three bags full",
-          "indian": "Re Re Sa",
-          "western": "D D C"
+          "indian": "Re Re Sa"
         },
         {
           "lyrics": "One for the master",
-          "indian": "Pa Pa Pa ma ma",
-          "western": "G G G F F"
+          "indian": "Pa Pa Pa ma ma"
         },
         {
           "lyrics": "One for the dame",
-          "indian": "Ga Ga Ga Re",
-          "western": "E E E D"
+          "indian": "Ga Ga Ga Re"
         },
         {
           "lyrics": "One for the little boy",
-          "indian": "Pa Pa Pa ma ma ma",
-          "western": "G G G F F F"
+          "indian": "Pa Pa Pa ma ma ma"
         },
         {
           "lyrics": "Who lives down the lane",
-          "indian": "ma Ga Ga Re",
-          "western": "F E E D"
+          "indian": "ma Ga Ga Re"
         },
         {
           "lyrics": "Baa baa black sheep",
-          "indian": "Sa Sa Pa Pa",
-          "western": "C C G G"
+          "indian": "Sa Sa Pa Pa"
         },
         {
           "lyrics": "have you any wool",
-          "indian": "Dha Dha Dha Dha Pa",
-          "western": "A A A A G"
+          "indian": "Dha Dha Dha Dha Pa"
         },
         {
           "lyrics": "Yes sir yes sir",
-          "indian": "ma ma Ga Ga",
-          "western": "F F E E"
+          "indian": "ma ma Ga Ga"
         },
         {
           "lyrics": "Three bags full",
-          "indian": "Re Re Sa",
-          "western": "D D C"
+          "indian": "Re Re Sa"
         }
       ]
     }

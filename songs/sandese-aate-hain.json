@@ -15,23 +15,19 @@
       "lines": [
         {
           "lyrics": "Ooo hoo hoo hoo",
-          "indian": "Ga ma Dha Pa",
-          "western": "E F A G"
+          "indian": "Ga ma Dha Pa"
         },
         {
           "lyrics": "Hoo hoo hoo oohoo ho",
-          "indian": "ma Ga Re Ga Pa ma",
-          "western": "F E D E G F"
+          "indian": "ma Ga Re Ga Pa ma"
         },
         {
           "lyrics": "Hoo hoo hoo ",
-          "indian": "Sa Re Ga",
-          "western": "C D E"
+          "indian": "Sa Re Ga"
         },
         {
           "lyrics": "Oohh Oohh Oohh",
-          "indian": "Re Sa Ni Dha Re Sa",
-          "western": "D C B A D C"
+          "indian": "Re Sa Ni Dha Re Sa"
         }
       ]
     },
@@ -40,28 +36,23 @@
       "lines": [
         {
           "lyrics": "Sandese aate hain, humein tadpaate hain",
-          "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga",
-          "western": "G G G E D E | G G G E D E"
+          "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga"
         },
         {
           "lyrics": "Jo chitthi aati hai, wo poochhe jaati hai",
-          "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga",
-          "western": "G G G E D E | G G G E D E"
+          "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga"
         },
         {
           "lyrics": "Ke ghar kab aaoge, ke ghar kab aaoge",
-          "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha",
-          "western": "C C B A G A B A G A"
+          "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha"
         },
         {
           "lyrics": "Likho kab aaoge",
-          "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha",
-          "western": "C C B A G A B A G A"
+          "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha"
         },
         {
           "lyrics": "Ke tum bin ye ghar soona, soona hai",
-          "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa ma Ga",
-          "western": "D D D D E E D D E E D G F E"
+          "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa ma Ga"
         }
       ]
     }

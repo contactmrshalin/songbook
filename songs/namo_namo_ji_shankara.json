@@ -16,53 +16,43 @@
       "lines": [
         {
           "lyrics": "Jai ho jai ho Shankara",
-          "indian": "Dha Dha Sa Sa Re Re Ga~Re~Sa:",
-          "western": "A A C C D D E~D~C:"
+          "indian": "Dha Dha Sa Sa Re Re Ga~Re~Sa:"
         },
         {
           "lyrics": "Aadi dev Shankara",
-          "indian": "Re Ga ma Pa, Ga Re ReGaRe~Sa:",
-          "western": "D E F G, E D DED~C:"
+          "indian": "Re Ga ma Pa, Ga Re ReGaRe~Sa:"
         },
         {
           "lyrics": "Tere jaap ke bina",
-          "indian": "Dha Dha Sa Sa Re Pa Re Ga Re Sa",
-          "western": "A A C C D G D E D C"
+          "indian": "Dha Dha Sa Sa Re Pa Re Ga Re Sa"
         },
         {
           "lyrics": "Chale ye saans kis tarah",
-          "indian": "Re Re Ga ma Pa, Ga Re Re Ga Re Sa",
-          "western": "D D E F G, E D D E D C"
+          "indian": "Re Re Ga ma Pa, Ga Re Re Ga Re Sa"
         },
         {
           "lyrics": "Mera karm tu hi jaane",
-          "indian": "Sa'Sa'Sa'Re NiNi DhaPa",
-          "western": "C'C'C'D BB AG"
+          "indian": "Sa'Sa'Sa'Re NiNi DhaPa"
         },
         {
           "lyrics": "Kya bura hai kya bhala",
-          "indian": "PaDhaPa mama Dha Pa",
-          "western": "GAG FF A G"
+          "indian": "PaDhaPa mama Dha Pa"
         },
         {
           "lyrics": "Tere Raste pe Main to",
-          "indian": "Sa'Sa'Sa'Re NiNi DhaPa",
-          "western": "C'C'C'D BB AG"
+          "indian": "Sa'Sa'Sa'Re NiNi DhaPa"
         },
         {
           "lyrics": "Aankh moond ke chalaa",
-          "indian": "PaDhaPa mamama Dha Pa",
-          "western": "GAG FFF A G"
+          "indian": "PaDhaPa mamama Dha Pa"
         },
         {
           "lyrics": "Tere naam ki jot ne",
-          "indian": "PaPa PaDhaPaDhaPa MaGaRe PaDhaPaDhaPa MaGaRe",
-          "western": "GG GAGAG F#ED GAGAG F#ED"
+          "indian": "PaPa PaDhaPaDhaPa MaGaRe PaDhaPaDhaPa MaGaRe"
         },
         {
           "lyrics": "Saara har liya tamas mera",
-          "indian": "Re Ga Ga ma Ga Re Re SaSa",
-          "western": "D E E F E D D CC"
+          "indian": "Re Ga Ga ma Ga Re Re SaSa"
         }
       ]
     },
@@ -71,23 +61,19 @@
       "lines": [
         {
           "lyrics": "Namo Namo ji Shankara",
-          "indian": "Re Re GaGaGa ReGaGa",
-          "western": "D D EEE DEE"
+          "indian": "Re Re GaGaGa ReGaGa"
         },
         {
           "lyrics": "Bholenath Shankara",
-          "indian": "Re GaGaGa ReGaGa",
-          "western": "D EEE DEE"
+          "indian": "Re GaGaGa ReGaGa"
         },
         {
           "lyrics": "Hey Trilokinath Shambhu",
-          "indian": "ReRe ReRe ReRe ReRe",
-          "western": "DD DD DD DD"
+          "indian": "ReRe ReRe ReRe ReRe"
         },
         {
           "lyrics": "Hey Shivay Shankara",
-          "indian": "ReSa Ga ReSaSa",
-          "western": "DC E DCC"
+          "indian": "ReSa Ga ReSaSa"
         }
       ]
     }

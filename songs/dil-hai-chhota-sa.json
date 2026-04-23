@@ -15,43 +15,35 @@
       "lines": [
         {
           "lyrics": "Dil hai chhota sa",
-          "indian": "Sa..Ga..Re..ma..Ga..Ga..",
-          "western": "c.e.d.f.e.e."
+          "indian": "Sa..Ga..Re..ma..Ga..Ga.."
         },
         {
           "lyrics": "Chhoti si aasha",
-          "indian": "Re..Pa..ma..Ga..Ga..",
-          "western": "d.g.f.e.e."
+          "indian": "Re..Pa..ma..Ga..Ga.."
         },
         {
           "lyrics": "Masti bhare man ki",
-          "indian": "Sa..Ga..Re..ma..Ga..Ga..",
-          "western": "c.e.d.f.e.e."
+          "indian": "Sa..Ga..Re..ma..Ga..Ga.."
         },
         {
           "lyrics": "Bholi si aasha",
-          "indian": "Re..Pa..ma..Ga..Ga..",
-          "western": "d.g.f.e.e."
+          "indian": "Re..Pa..ma..Ga..Ga.."
         },
         {
           "lyrics": "Chaand taaron ko",
-          "indian": "Pa..Pa..Dha..Pa..Dha..Dha...",
-          "western": "g.g.a.g.a.a.."
+          "indian": "Pa..Pa..Dha..Pa..Dha..Dha..."
         },
         {
           "lyrics": "Chhoone ki aasha",
-          "indian": "Dha..Ni(k)..Dha..Ni(k)..Ni(k)...Dha..Ni(k)..Pa.Dha.Pa.",
-          "western": "a.bb.a.bb.bb..a.bb.gag"
+          "indian": "Dha..Ni(k)..Dha..Ni(k)..Ni(k)...Dha..Ni(k)..Pa.Dha.Pa."
         },
         {
           "lyrics": "Aasmaan mein",
-          "indian": "Pa..Dha..Pa..Ga..ma..ma...Ga.ma.Re.",
-          "western": "g.a.g.e.f.f..efd"
+          "indian": "Pa..Dha..Pa..Ga..ma..ma...Ga.ma.Re."
         },
         {
           "lyrics": "Udne ki aasha",
-          "indian": "Re..Pa..ma..Ga..Ga...Ga.Re.Sa.",
-          "western": "d.g.f.e.e..edc"
+          "indian": "Re..Pa..ma..Ga..Ga...Ga.Re.Sa."
         }
       ]
     },
@@ -60,23 +52,19 @@
       "lines": [
         {
           "lyrics": "Mahak jaaun main, aaj to aise",
-          "indian": "Ga Pa PaPa GaReSa | Sa Re Gama ReGaRe",
-          "western": "E G GG EDC | C D EF DED"
+          "indian": "Ga Pa PaPa GaReSa | Sa Re Gama ReGaRe"
         },
         {
           "lyrics": "Phul bagiya men, mahak hai jaise",
-          "indian": "Ga Pa PaPa GaReSa | Sa Re Gama ReGaRe",
-          "western": "E G GG EDC | C D EF DED"
+          "indian": "Ga Pa PaPa GaReSa | Sa Re Gama ReGaRe"
         },
         {
           "lyrics": "Baadalon ki main, odhun chunariya",
-          "indian": "Pa Pa Dha Pa Dha Dha | Pa Dha Ni(k)Dha Ni(k) Ni(k) DhaPa",
-          "western": "G G A G A A | G A BbA Bb Bb AG"
+          "indian": "Pa Pa Dha Pa Dha Dha | Pa Dha Ni(k)Dha Ni(k) Ni(k) DhaPa"
         },
         {
           "lyrics": "Jhum jaaun main, banke banvariya",
-          "indian": "Dha Ni(k) PaGa ma ma GaRe | Re Pa maGa GaGa ReSa",
-          "western": "A Bb GE F F ED | D G FE EE DC"
+          "indian": "Dha Ni(k) PaGa ma ma GaRe | Re Pa maGa GaGa ReSa"
         }
       ]
     }

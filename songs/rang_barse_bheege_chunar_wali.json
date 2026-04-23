@@ -13,23 +13,19 @@
       "lines": [
         {
           "lyrics": "Rang barse bheege chunar wali",
-          "indian": "Sa..Ni(k)..Sa..Re.. Ga(k)..Re..Sa..Sa..Re..Ga(k)..",
-          "western": "c.bb.c.d. eb.d.c.c.d.eb."
+          "indian": "Sa..Ni(k)..Sa..Re.. Ga(k)..Re..Sa..Sa..Re..Ga(k).."
         },
         {
           "lyrics": "Rang barse",
-          "indian": "Re..Sa..Re..Sa..Sa..",
-          "western": "d.c.d.c.c."
+          "indian": "Re..Sa..Re..Sa..Sa.."
         },
         {
           "lyrics": "O rang barse bheege chunar wali",
-          "indian": "ma..ma..ma..Ga..ma.. Ga(k)..Re..Sa..Sa..Re..Ga(k)..",
-          "western": "f.f.f.e.f. eb.d.c.c.d.eb."
+          "indian": "ma..ma..ma..Ga..ma.. Ga(k)..Re..Sa..Sa..Re..Ga(k).."
         },
         {
           "lyrics": "Rang barse",
-          "indian": "Re..Sa..Re..Sa..Sa..",
-          "western": "d.c.d.c.c."
+          "indian": "Re..Sa..Re..Sa..Sa.."
         }
       ]
     },
@@ -38,28 +34,23 @@
       "lines": [
         {
           "lyrics": "Sone ki thali mein",
-          "indian": "Sa..Ga..ma..Pa..Pa..Pa..",
-          "western": "c.e.f.g.g.g."
+          "indian": "Sa..Ga..ma..Pa..Pa..Pa.."
         },
         {
           "lyrics": "Jona parosa",
-          "indian": "Ga..ma..ma..Ga(k)..Sa..",
-          "western": "e.f.f.eb.c."
+          "indian": "Ga..ma..ma..Ga(k)..Sa.."
         },
         {
           "lyrics": "Haan sone ki thali mein",
-          "indian": "Sa..Sa..Ga..ma..Pa..Pa..Pa..",
-          "western": "c.c.e.f.g.g.g."
+          "indian": "Sa..Sa..Ga..ma..Pa..Pa..Pa.."
         },
         {
           "lyrics": "Arey khaye gori ka yaar bola tarse",
-          "indian": "Sa..Sa..Ni(k)..Sa..Re.. Ga(k)..Re..Sa..Sa..Re..Ga(k)..",
-          "western": "c.c.bb.c.d. eb.d.c.c.d.eb."
+          "indian": "Sa..Sa..Ni(k)..Sa..Re.. Ga(k)..Re..Sa..Sa..Re..Ga(k).."
         },
         {
           "lyrics": "Rang barse",
-          "indian": "Re..Sa..Re..Sa..Sa..",
-          "western": "d.c.d.c.c."
+          "indian": "Re..Sa..Re..Sa..Sa.."
         }
       ]
     }

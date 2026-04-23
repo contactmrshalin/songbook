@@ -15,193 +15,155 @@
       "lines": [
         {
           "lyrics": "Music:-",
-          "indian": "ni Sa Re Sa:",
-          "western": "b C D C:"
+          "indian": "ni Sa Re Sa:"
         },
         {
           "lyrics": "",
-          "indian": "ni Sa Re Ga ma Ga Re Sa",
-          "western": "b C D E F E D C"
+          "indian": "ni Sa Re Ga ma Ga Re Sa"
         },
         {
           "lyrics": "",
-          "indian": "ni Sa Re Sa: .",
-          "western": "b C D C: ."
+          "indian": "ni Sa Re Sa: ."
         },
         {
           "lyrics": "Nahi jeena tere baaju",
-          "indian": "Sa Re Sa ni pa dha Sa",
-          "western": "C D C b g a C"
+          "indian": "Sa Re Sa ni pa dha Sa"
         },
         {
           "lyrics": "Nahi jeena nahi jeena",
-          "indian": "Sa Re Sa Sa Re Sa",
-          "western": "C D C C D C"
+          "indian": "Sa Re Sa Sa Re Sa"
         },
         {
           "lyrics": "Nahi jeena tere baaju",
-          "indian": "Sa Re Sa ni pa dha Sa",
-          "western": "C D C b g a C"
+          "indian": "Sa Re Sa ni pa dha Sa"
         },
         {
           "lyrics": "Nahi jeena nahi jeena",
-          "indian": "Sa Re Sa Sa Re Sa",
-          "western": "C D C C D C"
+          "indian": "Sa Re Sa Sa Re Sa"
         },
         {
           "lyrics": "Main tenu samjhawanki",
-          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Naa tere bina lagda jee",
-          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Main tenu samjhawanki",
-          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Naa tere bina lagda jee",
-          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Tuu kii jaane pyaar meraa",
-          "indian": "Pa Pa Ga Pa Dha Dha: .Dha Ni Ni Pa",
-          "western": "G G E G A A: .A B B G"
+          "indian": "Pa Pa Ga Pa Dha Dha: .Dha Ni Ni Pa"
         },
         {
           "lyrics": "Min karoon intezaar teraa",
-          "indian": "Pa Pa Ga Sa' Ni Dha: Dha Sa' Ni Re' Ni Dha Pa",
-          "western": "G G E C' B A: A C' B D' B A G"
+          "indian": "Pa Pa Ga Sa' Ni Dha: Dha Sa' Ni Re' Ni Dha Pa"
         },
         {
           "lyrics": "Tu dil tunhion jaan meri",
-          "indian": "Pa Pa Ni Sa' Re' Sa': Ni Dha Pa ma ma Pa",
-          "western": "G G B C' D' C': B A G F F G"
+          "indian": "Pa Pa Ni Sa' Re' Sa': Ni Dha Pa ma ma Pa"
         },
         {
           "lyrics": "Main tenu samjhawanki",
-          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Naa tere bina lagda jee",
-          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Tuu kii jaane pyaar meraa",
-          "indian": "Pa Pa Ga Pa Dha Dha: .Dha Ni Ni Pa",
-          "western": "G G E G A A: .A B B G"
+          "indian": "Pa Pa Ga Pa Dha Dha: .Dha Ni Ni Pa"
         },
         {
           "lyrics": "Min karoon intezaar teraa",
-          "indian": "Pa Pa Ga Sa' Ni Dha: Dha Sa' Ni Re' Ni Dha Pa",
-          "western": "G G E C' B A: A C' B D' B A G"
+          "indian": "Pa Pa Ga Sa' Ni Dha: Dha Sa' Ni Re' Ni Dha Pa"
         },
         {
           "lyrics": "Tu dil tunhion jaan meri",
-          "indian": "Pa Pa Ni Sa' Re' Sa': Ni Dha Pa ma ma Pa",
-          "western": "G G B C' D' C': B A G F F G"
+          "indian": "Pa Pa Ni Sa' Re' Sa': Ni Dha Pa ma ma Pa"
         },
         {
           "lyrics": "Main tenu samjhawanki",
-          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Naa tere bina lagda jee",
-          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Mere dil ne chun liyaa nee",
-          "indian": "Ga Pa Pa Pa Pa Dha Dha Dha Ni Dha Pa",
-          "western": "E G G G G A A A B A G"
+          "indian": "Ga Pa Pa Pa Pa Dha Dha Dha Ni Dha Pa"
         },
         {
           "lyrics": "Tere dil diyaan raahan",
-          "indian": "ma Dha Dha Re' Ni Dha Pa",
-          "western": "F A A D' B A G"
+          "indian": "ma Dha Dha Re' Ni Dha Pa"
         },
         {
           "lyrics": "Tu joo mere naal tu rehtaa",
-          "indian": "Ga Pa Pa Pa Pa Dha Dha Dha Ni Dha Pa",
-          "western": "E G G G G A A A B A G"
+          "indian": "Ga Pa Pa Pa Pa Dha Dha Dha Ni Dha Pa"
         },
         {
           "lyrics": "Turpe meriyaan saahaa",
-          "indian": "ma Dha Dha Re' Ni Dha Pa",
-          "western": "F A A D' B A G"
+          "indian": "ma Dha Dha Re' Ni Dha Pa"
         },
         {
           "lyrics": "Jeena meraa hayeee",
-          "indian": "Pa Ni Ni Sa': .Ni Dha Ni Dha Pa",
-          "western": "G B B C': .B A B A G"
+          "indian": "Pa Ni Ni Sa': .Ni Dha Ni Dha Pa"
         },
         {
           "lyrics": "Hun hai teraa ki main karaan",
-          "indian": "Pa Ni Ni Re' Sa': Sa' Ga' Re' ma' Re' Ni Dha",
-          "western": "G B B D' C': C' E' D' F' D' B A"
+          "indian": "Pa Ni Ni Re' Sa': Sa' Ga' Re' ma' Re' Ni Dha"
         },
         {
           "lyrics": "Tuu kar eitbaar meraa",
-          "indian": "Pa Pa Ga Pa Dha Dha: .Dha Ni Ni Pa",
-          "western": "G G E G A A: .A B B G"
+          "indian": "Pa Pa Ga Pa Dha Dha: .Dha Ni Ni Pa"
         },
         {
           "lyrics": "Main kara intezaar teraa",
-          "indian": "Pa Pa Ga Sa' Ni Dha: Dha Sa' Ni Re' Ni Dha Pa",
-          "western": "G G E C' B A: A C' B D' B A G"
+          "indian": "Pa Pa Ga Sa' Ni Dha: Dha Sa' Ni Re' Ni Dha Pa"
         },
         {
           "lyrics": "Tu dil tunhion jaan meri",
-          "indian": "Pa Pa Ni Sa' Re' Sa': Ni Dha Pa ma ma Pa",
-          "western": "G G B C' D' C': B A G F F G"
+          "indian": "Pa Pa Ni Sa' Re' Sa': Ni Dha Pa ma ma Pa"
         },
         {
           "lyrics": "Main tenu samjhawanki",
-          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Naa tere bina lagda jee",
-          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa",
-          "western": "G E G E C C D: D E E C"
+          "indian": "Pa Ga Pa Ga Sa Sa Re: Re Ga Ga Sa"
         },
         {
           "lyrics": "Ve changaa nahion keeta beeba",
-          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa' Sa':",
-          "western": "C' B C' B C' A C' C' C':"
+          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa' Sa':"
         },
         {
           "lyrics": "Ve changaa nahion keeta beeba",
-          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa' Sa'",
-          "western": "C' B C' B C' A C' C' C'"
+          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa' Sa'"
         },
         {
           "lyrics": "Dil meraa tod kee",
-          "indian": "Pa Dha Dha Ni Dha Pa ma ma Dha Pa Pa",
-          "western": "G A A B A G F F A G G"
+          "indian": "Pa Dha Dha Ni Dha Pa ma ma Dha Pa Pa"
         },
         {
           "lyrics": "Vee bada pachhtaiyaan akhaan",
-          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa' Ni Re'",
-          "western": "C' B C' B C' A C' C' B D'"
+          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa' Ni Re'"
         },
         {
           "lyrics": "Vee bada pachhtaiyaan akhaan",
-          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa'",
-          "western": "C' B C' B C' A C' C'"
+          "indian": "Sa' Ni Sa' Ni Sa' Dha Sa' Sa'"
         },
         {
           "lyrics": "Naal tere jod kee",
-          "indian": "Pa Dha Dha Ni Dha Pa ma ma Dha Pa Pa",
-          "western": "G A A B A G F F A G G"
+          "indian": "Pa Dha Dha Ni Dha Pa ma ma Dha Pa Pa"
         }
       ]
     }

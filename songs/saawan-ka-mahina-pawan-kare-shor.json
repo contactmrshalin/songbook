@@ -17,23 +17,19 @@
       "lines": [
         {
           "lyrics": "Saawan ka mahina",
-          "indian": "Dha Pa Pa Ga Ga Ga Re Re Ga",
-          "western": "A G G E E E D D E"
+          "indian": "Dha Pa Pa Ga Ga Ga Re Re Ga"
         },
         {
           "lyrics": "Pawan kare shor",
-          "indian": "Re Re Re Ga Re Sa Re~Pa' (x2)",
-          "western": "D D D E D C D~G' (x2)"
+          "indian": "Re Re Re Ga Re Sa Re~Pa' (x2)"
         },
         {
           "lyrics": "Jiyara re jhoome aise",
-          "indian": "Re Re Re ma ma ma Ga Re Ga Re Sa Ni",
-          "western": "D D D F F F E D E D C B"
+          "indian": "Re Re Re ma ma ma Ga Re Ga Re Sa Ni"
         },
         {
           "lyrics": "Jaise banma naache mor",
-          "indian": "Ni Ni Sa Re Ga Re Ga Re Sa Sa",
-          "western": "B B C D E D E D C C"
+          "indian": "Ni Ni Sa Re Ga Re Ga Re Sa Sa"
         }
       ]
     },
@@ -42,8 +38,7 @@
       "lines": [
         {
           "lyrics": "Flute Music",
-          "indian": "Pa: Pa Pa Pa Dha Ni Dha Ni Dha Pa Re, Ga ma Ga ma Ga Re Sa Sa Dha Pa Dha~Pa",
-          "western": "G: G G G A B A B A G D, E F E F E D C C A G A~G"
+          "indian": "Pa: Pa Pa Pa Dha Ni Dha Ni Dha Pa Re, Ga ma Ga ma Ga Re Sa Sa Dha Pa Dha~Pa"
         }
       ]
     },
@@ -52,23 +47,19 @@
       "lines": [
         {
           "lyrics": "Ram gajab dhaaye, ye purvaiya",
-          "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa",
-          "western": "G G G G G G G C, C D D G G G G"
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa"
         },
         {
           "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
-          "indian": "Pa Dha Pa ma Ga Pa ma Ga Re, ma Re ma Ga Ga Ga",
-          "western": "G A G F E G F E D, F D F E E E"
+          "indian": "Pa Dha Pa ma Ga Pa ma Ga Re, ma Re ma Ga Ga Ga"
         },
         {
           "lyrics": "Ram gajab dhaaye, ye purvaiya",
-          "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa",
-          "western": "G G G G G G G C, C D D G G G G"
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa"
         },
         {
           "lyrics": "Naiya sambhaalo kit, khoye ho khivaiya",
-          "indian": "Pa Dha Pa ma Ga Pa ma Ga Re, ma Ga Re~ Ga Re Sa Sa",
-          "western": "G A G F E G F E D, F E D~ E D C C"
+          "indian": "Pa Dha Pa ma Ga Pa ma Ga Re, ma Ga Re~ Ga Re Sa Sa"
         }
       ]
     }

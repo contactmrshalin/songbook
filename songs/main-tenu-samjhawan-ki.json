@@ -15,28 +15,23 @@
       "lines": [
         {
           "lyrics": "Main tenu samjhaawan ki",
-          "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa",
-          "western": "G E G E C D: C D E: E: C"
+          "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa"
         },
         {
           "lyrics": "(x2) Main tenu samjhaawan ki",
-          "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa (x2)",
-          "western": "G E G E C D: C D E: E: C (x2)"
+          "indian": "Pa Ga Pa Ga Sa Re: Sa Re Ga: Ga: Sa (x2)"
         },
         {
           "lyrics": "Main karun intezaar tera",
-          "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa",
-          "western": "G E E C': B A C': B D C': B A G"
+          "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa"
         },
         {
           "lyrics": "Tu ki jaane pyaar mera",
-          "indian": "Pa: Ga: | Pa Dha Dha: Dha | Ni Ni Pa",
-          "western": "G: E: | G A A: A | B B G"
+          "indian": "Pa: Ga: | Pa Dha Dha: Dha | Ni Ni Pa"
         },
         {
           "lyrics": "Tu dil tu (yoon) jaan meri",
-          "indian": "Pa Pa Ni: Sa' Re | Sa': Dha: ma: ma Pa Ga",
-          "western": "G G B: C' D | C': A: F: F G E"
+          "indian": "Pa Pa Ni: Sa' Re | Sa': Dha: ma: ma Pa Ga"
         }
       ]
     },
@@ -45,28 +40,23 @@
       "lines": [
         {
           "lyrics": "Mere dil ne chun laiyaa ne",
-          "indian": "Ga ma Pa Pa, Dha Dha Dha, Dha: Dha: -",
-          "western": "E F G G, A A A, A: A: -"
+          "indian": "Ga ma Pa Pa, Dha Dha Dha, Dha: Dha: -"
         },
         {
           "lyrics": "Tu jo mere naal ture",
-          "indian": "Ga ma Pa Pa, Pa Dha Dha, Dha Sa Ni Dha -",
-          "western": "E F G G, G A A, A C B A -"
+          "indian": "Ga ma Pa Pa, Pa Dha Dha, Dha Sa Ni Dha -"
         },
         {
           "lyrics": "Jeena mera (haay)",
-          "indian": "Pa Ni Sa': - Ni: -",
-          "western": "G B C': - B: -"
+          "indian": "Pa Ni Sa': - Ni: -"
         },
         {
           "lyrics": "Retbaar mera",
-          "indian": "Pa Dha: Dha: ma Ni Pa -",
-          "western": "G A: A: F B G -"
+          "indian": "Pa Dha: Dha: ma Ni Pa -"
         },
         {
           "lyrics": "Main karun intezaar tera (repeat)",
-          "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa",
-          "western": "G E E C': B A C': B D C': B A G"
+          "indian": "Pa Ga Ga Sa': Ni Dha Sa': Ni Re Sa': Ni Dha Pa"
         }
       ]
     }

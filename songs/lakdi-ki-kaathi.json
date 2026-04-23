@@ -15,18 +15,15 @@
       "lines": [
         {
           "lyrics": "Lakdii kii kaathi kaathii ppeee ghodaa",
-          "indian": "Sa Sa Re Ga Pa: Ga Re | Sa. Re Ga Pa: Ga Re",
-          "western": "C C D E G: E D | c D E G: E D"
+          "indian": "Sa Sa Re Ga Pa: Ga Re | Sa. Re Ga Pa: Ga Re"
         },
         {
           "lyrics": "Ghodaa dii dum peee joo maaraa hathoraa",
-          "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:",
-          "western": "C: D E G: E D C D E G G:"
+          "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:"
         },
         {
           "lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa",
-          "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa",
-          "western": "A A A A G G F F E E D D C C"
+          "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa"
         },
         {
           "lyrics": "(Repeat x3)",
@@ -39,13 +36,11 @@
       "lines": [
         {
           "lyrics": "Ghodaa phaunchaa chauk main chaukk main thaa naaii",
-          "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha",
-          "western": "G G C' A A A | G G C' A A"
+          "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha"
         },
         {
           "lyrics": "Ghodee jii kii naai nee hazaamat joo banaii",
-          "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga ma Pa",
-          "western": "G G G C' C' B B A | G A G E F G"
+          "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga ma Pa"
         },
         {
           "lyrics": "Tabak tabakk tabak tabakk",
@@ -53,18 +48,15 @@
         },
         {
           "lyrics": "Ghodaa phaunchaa chauk main chaukk main thaa naaii",
-          "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha",
-          "western": "G G C' A A A | G G C' A A"
+          "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha"
         },
         {
           "lyrics": "Ghodee jii kii naai nee hazaamat joo banaii",
-          "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga ma Pa",
-          "western": "G G G C' C' B B A | G A G E F G"
+          "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga ma Pa"
         },
         {
           "lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa",
-          "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa",
-          "western": "A A A A G G F F E E D D C C"
+          "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa"
         }
       ]
     },
@@ -73,18 +65,15 @@
       "lines": [
         {
           "lyrics": "Lakdii kii kaathi kaathii ppeee ghodaa",
-          "indian": "Sa Sa Re Ga Pa: Ga Re | Sa. Re Ga Pa: Ga Re",
-          "western": "C C D E G: E D | c D E G: E D"
+          "indian": "Sa Sa Re Ga Pa: Ga Re | Sa. Re Ga Pa: Ga Re"
         },
         {
           "lyrics": "Ghodaa dii dum peee joo maaraa hathoraa",
-          "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:",
-          "western": "C: D E G: E D C D E G G:"
+          "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:"
         },
         {
           "lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa",
-          "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa",
-          "western": "A A A A G G F F E E D D C C"
+          "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa"
         }
       ]
     }

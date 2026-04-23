@@ -15,43 +15,35 @@
       "lines": [
         {
           "lyrics": "Tu paas hai mere",
-          "indian": "Pa Pa Pa Pa ma Ga(k)",
-          "western": "G G G G F Eb"
+          "indian": "Pa Pa Pa Pa ma Ga(k)"
         },
         {
           "lyrics": "Paas hai aise",
-          "indian": "ma.. ma.. ma.. ma. Pa ma Ga(k)",
-          "western": "f. f. f. f G F Eb"
+          "indian": "ma.. ma.. ma.. ma. Pa ma Ga(k)"
         },
         {
           "lyrics": "Mera koi ehsaas",
-          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni",
-          "western": "C C C C: B A B B"
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni"
         },
         {
           "lyrics": "Hai jaise",
-          "indian": "Ni Ni Sa Sa Re Ga",
-          "western": "B B C C D E"
+          "indian": "Ni Ni Sa Sa Re Ga"
         },
         {
           "lyrics": "Tu paas hai mere paas",
-          "indian": "Ga Ga Ga Pa: ma Ga Re Re",
-          "western": "E E E G: F E D D"
+          "indian": "Ga Ga Ga Pa: ma Ga Re Re"
         },
         {
           "lyrics": "Hai aise",
-          "indian": "Re Re Re Ga Re Sa",
-          "western": "D D D E D C"
+          "indian": "Re Re Re Ga Re Sa"
         },
         {
           "lyrics": "Mera koi ehsaas",
-          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:",
-          "western": "C C C C: B A B B:"
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:"
         },
         {
           "lyrics": "Hai jaise",
-          "indian": "Sa Sa Ni Dha",
-          "western": "C C B A"
+          "indian": "Sa Sa Ni Dha"
         }
       ]
     },
@@ -60,43 +52,35 @@
       "lines": [
         {
           "lyrics": "Haaye main mar hi jaaun",
-          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa",
-          "western": "C B B C C B A G"
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
         },
         {
           "lyrics": "Jo tujhko na paaun",
-          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa",
-          "western": "C B B C C B A G"
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
         },
         {
           "lyrics": "Baaton mein teri main",
-          "indian": "ma ma ma ma Re Re Ga Re Ga Ni",
-          "western": "F F F F D D E D E B"
+          "indian": "ma ma ma ma Re Re Ga Re Ga Ni"
         },
         {
           "lyrics": "Raatein bitaaun",
-          "indian": "Ni Sa Sa Ni Ni Sa",
-          "western": "B C C B B C"
+          "indian": "Ni Sa Sa Ni Ni Sa"
         },
         {
           "lyrics": "Honthon pe lamha lamha",
-          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa",
-          "western": "C B B C C B A G"
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
         },
         {
           "lyrics": "Hai naam tera haaye",
-          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa",
-          "western": "C B B C C B A G"
+          "indian": "Sa Ni Ni Sa Sa Ni Dha Pa"
         },
         {
           "lyrics": "Tujhko hi gaaun main",
-          "indian": "ma ma ma ma Re Re Ga Re Ga Ni",
-          "western": "F F F F D D E D E B"
+          "indian": "ma ma ma ma Re Re Ga Re Ga Ni"
         },
         {
           "lyrics": "Tujhko pukaaroon",
-          "indian": "Ni Ni Ni Sa Re Pa Ga:",
-          "western": "B B B C D G E:"
+          "indian": "Ni Ni Ni Sa Re Pa Ga:"
         }
       ]
     },
@@ -105,18 +89,15 @@
       "lines": [
         {
           "lyrics": "Ooo…",
-          "indian": "Re Pa Ga: Re Dha Pa: ma Ga:",
-          "western": "D G E: D A G: F E:"
+          "indian": "Re Pa Ga: Re Dha Pa: ma Ga:"
         },
         {
           "lyrics": "Ooo…",
-          "indian": "Re Sa ma Ga Re Sa Ni:",
-          "western": "D C F E D C B:"
+          "indian": "Re Sa ma Ga Re Sa Ni:"
         },
         {
           "lyrics": "Ooo…",
-          "indian": "Sa: Re: Sa: Re:",
-          "western": "C: D: C: D:"
+          "indian": "Sa: Re: Sa: Re:"
         }
       ]
     },
@@ -125,43 +106,35 @@
       "lines": [
         {
           "lyrics": "Saiyaara tu toh badla",
-          "indian": "Ga Ga Ga Ga: Re Sa Re Re:",
-          "western": "E E E E: D C D D:"
+          "indian": "Ga Ga Ga Ga: Re Sa Re Re:"
         },
         {
           "lyrics": "Nahin hai",
-          "indian": "Re Re: Ga Re Sa",
-          "western": "D D: E D C"
+          "indian": "Re Re: Ga Re Sa"
         },
         {
           "lyrics": "Mausam zara sa rootha",
-          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni",
-          "western": "C C C C: B A B B"
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni"
         },
         {
           "lyrics": "Hua hai",
-          "indian": "Ni Ni Sa Sa Re Ga",
-          "western": "B B C C D E"
+          "indian": "Ni Ni Sa Sa Re Ga"
         },
         {
           "lyrics": "Saiyaara tu toh badla",
-          "indian": "Ga Ga Ga Pa: ma Ga Re Re:",
-          "western": "E E E G: F E D D:"
+          "indian": "Ga Ga Ga Pa: ma Ga Re Re:"
         },
         {
           "lyrics": "Nahin hai",
-          "indian": "Re Re Re Ga Re Sa",
-          "western": "D D D E D C"
+          "indian": "Re Re Re Ga Re Sa"
         },
         {
           "lyrics": "Mausam zara sa rootha",
-          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:",
-          "western": "C C C C: B A B B:"
+          "indian": "Sa Sa Sa Sa: Ni Dha Ni Ni:"
         },
         {
           "lyrics": "Hua hai",
-          "indian": "Sa Sa Ni Dha:",
-          "western": "C C B A:"
+          "indian": "Sa Sa Ni Dha:"
         }
       ]
     }
