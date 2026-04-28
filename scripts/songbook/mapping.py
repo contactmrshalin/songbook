@@ -24,7 +24,8 @@ NOTE_RE = re.compile(
 
 def load_mapping(root):
     """Load notation_mapping.json from the project root."""
-    mapping_path = root / "notation_mapping.json"
+    data = root / "data" if (root / "data").is_dir() else root
+    mapping_path = data / "notation_mapping.json"
     with open(mapping_path, "r", encoding="utf-8") as f:
         return json.load(f)
 

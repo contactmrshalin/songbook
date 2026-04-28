@@ -22,8 +22,9 @@ from typing import Any, Dict
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SONGS_JSON = ROOT / "songs.json"
-NOTATION_MAPPING_JSON = ROOT / "notation_mapping.json"
+_DATA = ROOT / "data" if (ROOT / "data").is_dir() else ROOT
+SONGS_JSON = _DATA / "songs.json"
+NOTATION_MAPPING_JSON = _DATA / "notation_mapping.json"
 
 
 def _default_notation_mapping() -> Dict[str, Any]:

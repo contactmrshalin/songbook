@@ -53,6 +53,12 @@ def _read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _data_dir(root: Path) -> Path:
+    """Return the data directory: ``root/data/`` or ``root/`` (legacy)."""
+    d = root / "data"
+    return d if d.is_dir() else root
+
+
 def _uses_per_song_layout(root: Path) -> bool:
     """
     Return True when the project uses the per-song file layout.
@@ -60,7 +66,7 @@ def _uses_per_song_layout(root: Path) -> bool:
     Detection: the ``songs/`` directory exists **and** contains at least
     one ``.json`` file.
     """
-    songs_dir = root / "songs"
+    songs_dir = _data_dir(root) / "songs"
     if not songs_dir.is_dir():
         return False
     return any(songs_dir.glob("*.json"))
@@ -68,7 +74,7 @@ def _uses_per_song_layout(root: Path) -> bool:
 
 def _load_legacy(root: Path) -> Dict[str, Any]:
     """Load the monolithic ``songs.json`` and return its top-level dict."""
-    return _read_json(root / "songs.json")
+    return _read_json(_data_dir(root) / "songs.json")
 
 
 # ---------------------------------------------------------------------------
@@ -83,7 +89,7 @@ def load_book_meta(root: Path) -> Tuple[str, Dict[str, Any]]:
     is not detected.
     """
     if _uses_per_song_layout(root):
-        book = _read_json(root / "book.json")
+        book = _read_json(_data_dir(root) / "book.json")
         return book.get("book_title", "My Songbook"), book.get("book_meta", {}) or {}
 
     data = _load_legacy(root)
@@ -97,7 +103,7 @@ def load_song_order(root: Path) -> List[str]:
     Falls back to extracting IDs from ``songs.json["songs"]``.
     """
     if _uses_per_song_layout(root):
-        book = _read_json(root / "book.json")
+        book = _read_json(_data_dir(root) / "book.json")
         return list(book.get("song_order", []))
 
     data = _load_legacy(root)
@@ -115,7 +121,7 @@ def load_song(root: Path, song_id: str) -> Dict[str, Any]:
 
     Raises ``FileNotFoundError`` if the song cannot be found in either layout.
     """
-    per_song_path = root / "songs" / f"{song_id}.json"
+    per_song_path = _data_dir(root) / "songs" / f"{song_id}.json"
     if per_song_path.is_file():
         return _read_json(per_song_path)
 
@@ -150,7 +156,7 @@ def load_all_songs(root: Path) -> List[Dict[str, Any]]:
 
     order = load_song_order(root)
 
-    songs_dir = root / "songs"
+    songs_dir = _data_dir(root) / "songs"
     all_files = {p.stem: p for p in sorted(songs_dir.glob("*.json"))}
 
     ordered: List[Dict[str, Any]] = []
@@ -209,7 +215,7 @@ def save_song(root: Path, song: Dict[str, Any]) -> Path:
 
     Creates the ``songs/`` directory if it does not exist.
     """
-    songs_dir = root / "songs"
+    songs_dir = _data_dir(root) / "songs"
     songs_dir.mkdir(exist_ok=True)
 
     song_id = str(song["id"])
@@ -232,7 +238,7 @@ def save_book_meta(
         "book_meta": book_meta,
         "song_order": song_order,
     }
-    path = root / "book.json"
+    path = _data_dir(root) / "book.json"
     _write_json(path, book)
     return path
 
@@ -241,7 +247,7 @@ def iter_song_files(root: Path) -> List[Path]:
     """
     Return all ``songs/*.json`` file paths, sorted alphabetically.
     """
-    songs_dir = root / "songs"
+    songs_dir = _data_dir(root) / "songs"
     if not songs_dir.is_dir():
         return []
     return sorted(songs_dir.glob("*.json"))

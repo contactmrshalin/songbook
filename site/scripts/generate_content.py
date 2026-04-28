@@ -27,9 +27,10 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SONGS_JSON = REPO_ROOT / "songs.json"
-IMAGES_DIR = REPO_ROOT / "images"
-NOTATION_MAPPING_JSON = REPO_ROOT / "notation_mapping.json"
+_DATA = REPO_ROOT / "data" if (REPO_ROOT / "data").is_dir() else REPO_ROOT
+SONGS_JSON = _DATA / "songs.json"
+IMAGES_DIR = _DATA / "images"
+NOTATION_MAPPING_JSON = _DATA / "notation_mapping.json"
 
 SITE_DIR = REPO_ROOT / "site"
 CONTENT_DIR = SITE_DIR / "content"

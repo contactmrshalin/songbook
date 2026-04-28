@@ -39,10 +39,11 @@ def preview_file(file_path, flat):
 
 def main():
     root = Path(__file__).resolve().parents[1]
+    data = root / "data" if (root / "data").is_dir() else root
     mapping = load_mapping(root)
     flat = build_flat_lookup(mapping)
 
-    songs_dir = root / "songs"
+    songs_dir = data / "songs"
 
     # Optional filter by song id
     filter_id = sys.argv[1] if len(sys.argv) > 1 else None

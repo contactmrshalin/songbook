@@ -71,7 +71,8 @@ def download_image_to_project(root: Path, song_id: str, image_url: str, *, timeo
     if ext not in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
         ext = ".png"
 
-    images_dir = root / "images"
+    data = root / "data" if (root / "data").is_dir() else root
+    images_dir = data / "images"
     images_dir.mkdir(exist_ok=True)
     filename = f"{song_id}{ext}"
     out_path = images_dir / filename

@@ -1,92 +1,33 @@
-import fs from "fs";
-import path from "path";
 import type { Song, BookMeta } from "@/types/song";
+import bundle from "@/generated/song-bundle.json";
 
-const SONGS_DIR = path.join(process.cwd(), "..", "songs");
-const BOOK_JSON = path.join(process.cwd(), "..", "book.json");
-const NOTATION_MAPPING = path.join(
-  process.cwd(),
-  "..",
-  "notation_mapping.json"
-);
+// All data comes from the pre-generated bundle (built by scripts/prebuild.mjs).
+// No `fs` calls — works on Vercel, local dev, and any static host.
 
-let cachedSongs: Song[] | null = null;
-let cachedBookMeta: BookMeta | null = null;
+const allSongs: Song[] = bundle.songs as unknown as Song[];
+const bookMeta: BookMeta = bundle.bookMeta as unknown as BookMeta;
+const notationMapping: Record<string, unknown> =
+  bundle.notationMapping as unknown as Record<string, unknown>;
 
 export function getNotationMapping() {
-  const raw = fs.readFileSync(NOTATION_MAPPING, "utf-8");
-  return JSON.parse(raw);
+  return notationMapping;
 }
 
 export function getBookMeta(): BookMeta {
-  if (cachedBookMeta) return cachedBookMeta;
-  const raw = fs.readFileSync(BOOK_JSON, "utf-8");
-  cachedBookMeta = JSON.parse(raw) as BookMeta;
-  return cachedBookMeta;
+  return bookMeta;
 }
 
 export function getAllSongs(): Song[] {
-  if (cachedSongs) return cachedSongs;
-
-  const bookMeta = getBookMeta();
-  const songFiles = fs.readdirSync(SONGS_DIR).filter((f) => f.endsWith(".json"));
-
-  const songsMap = new Map<string, Song>();
-
-  for (const file of songFiles) {
-    const raw = fs.readFileSync(path.join(SONGS_DIR, file), "utf-8");
-    const song = JSON.parse(raw) as Song;
-    // Normalize song data - handle missing optional fields
-    if (!Array.isArray(song.info)) song.info = [];
-    if (!Array.isArray(song.sections)) song.sections = [];
-    for (const section of song.sections) {
-      if (!section.name) section.name = "Untitled";
-      if (!Array.isArray(section.lines)) section.lines = [];
-    }
-    // Only include exported songs (default is true)
-    if (song.export !== false) {
-      songsMap.set(song.id, song);
-    }
-  }
-
-  // Order songs according to book.json song_order
-  const ordered: Song[] = [];
-  for (const id of bookMeta.song_order) {
-    const song = songsMap.get(id);
-    if (song) {
-      ordered.push(song);
-      songsMap.delete(id);
-    }
-  }
-  // Append any songs not in the order
-  for (const song of songsMap.values()) {
-    ordered.push(song);
-  }
-
-  cachedSongs = ordered;
-  return ordered;
+  return allSongs;
 }
 
 export function getSongById(id: string): Song | undefined {
-  const songPath = path.join(SONGS_DIR, `${id}.json`);
-  if (fs.existsSync(songPath)) {
-    const raw = fs.readFileSync(songPath, "utf-8");
-    const song = JSON.parse(raw) as Song;
-    if (!Array.isArray(song.info)) song.info = [];
-    if (!Array.isArray(song.sections)) song.sections = [];
-    for (const section of song.sections) {
-      if (!section.name) section.name = "Untitled";
-      if (!Array.isArray(section.lines)) section.lines = [];
-    }
-    return song;
-  }
-  // Try searching all songs
-  return getAllSongs().find((s) => s.id === id);
+  return allSongs.find((s) => s.id === id);
 }
 
 export function searchSongs(query: string): Song[] {
   const q = query.toLowerCase();
-  return getAllSongs().filter((song) => {
+  return allSongs.filter((song) => {
     const searchable = [
       song.title,
       ...song.info,
@@ -124,7 +65,6 @@ export function extractMeta(info: string[]): Record<string, string> {
 
 // Convert Indian notation to ABC notation for ABCjs rendering
 export function indianToABC(indianNotation: string): string {
-  // Map sargam to ABC note letters
   const noteMap: Record<string, string> = {
     Sa: "C",
     Re: "D",
@@ -134,20 +74,16 @@ export function indianToABC(indianNotation: string): string {
     Pa: "G",
     Dha: "A",
     Ni: "B",
-    // Low octave
     pa: "G,",
     dha: "A,",
     ni: "B,",
-    // Komal
     "Re(k)": "_D",
     "Ga(k)": "_E",
     "Dha(k)": "_A",
     "Ni(k)": "_B",
-    // Tivra
     "Ma(T)": "^F",
   };
 
-  // Simple tokenizer - split on spaces, map tokens
   const tokens = indianNotation.split(/\s+/);
   const abcNotes: string[] = [];
 
@@ -157,18 +93,15 @@ export function indianToABC(indianNotation: string): string {
       continue;
     }
 
-    // Check for high octave marker
     let note = token.replace(/'+/g, "").replace(/\.+/g, "").replace(/:/g, "");
     const isHigh = token.includes("'");
     const isHold = token.includes(":") || token.includes("..");
 
-    // Remove ornament markers for ABC conversion
     note = note.replace(/~/g, "").replace(/\(/g, "").replace(/\)/g, "");
 
     if (noteMap[note]) {
       let abcNote = noteMap[note];
       if (isHigh) {
-        // ABC uses lowercase for octave up
         abcNote = abcNote.toLowerCase();
       }
       if (isHold) {
@@ -205,7 +138,7 @@ export function indianToMidi(
     "Ma(T)": 6,
   };
 
-  const baseMidi = 60 + (baseOctave - 4) * 12; // C4 = 60
+  const baseMidi = 60 + (baseOctave - 4) * 12;
   const tokens = indianNotation.split(/\s+/);
   const midiNotes: number[] = [];
 
@@ -220,8 +153,7 @@ export function indianToMidi(
       .replace(/\^/g, "");
     const isHigh = token.includes("'");
 
-    // Try matching the note
-    let semitone = noteToSemitone[note];
+    const semitone = noteToSemitone[note];
     if (semitone !== undefined) {
       let midi = baseMidi + semitone;
       if (isHigh) midi += 12;

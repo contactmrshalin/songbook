@@ -44,7 +44,8 @@ def main() -> None:
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
-    songs_dir = root / "songs"
+    data = root / "data" if (root / "data").is_dir() else root
+    songs_dir = data / "songs"
     count = 0
     for p in sorted(songs_dir.glob("*.json")):
         if strip_file(p, dry_run=args.dry_run):

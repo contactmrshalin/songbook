@@ -31,7 +31,8 @@ from typing import Any, Dict, List, Optional, Tuple
 # Notation mapping (centralized)
 # -----------------------------
 _ROOT = Path(__file__).resolve().parents[1]
-_NOTATION_MAPPING_PATH = _ROOT / "notation_mapping.json"
+_DATA = _ROOT / "data" if (_ROOT / "data").is_dir() else _ROOT
+_NOTATION_MAPPING_PATH = _DATA / "notation_mapping.json"
 
 
 def _default_notation_mapping() -> Dict[str, Any]:
