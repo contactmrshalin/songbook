@@ -1,21 +1,35 @@
-{{ $gallery := partial "get-gallery.html" . }}
-{{ with $gallery }}
-  {{ $song := dict }}
-  {{ with .page.Params.songJson }}
-    {{ $song = . | transform.Unmarshal }}
-  {{ end }}
-  {{ $subtitle := "" }}
-  {{ with (index ($song.info | default (slice)) 0) }}
-    {{ $subtitle = . }}
-  {{ end }}
-  <a class="card songbook-card" href="{{ .page.RelPermalink }}" title="{{ .page.Title }}" data-songbook-card data-songbook-hay="{{ printf "%s %s %s" .page.Title .page.RelPermalink $subtitle | plainify }}">
-    <figure style="background-color: {{ .color }}">
-      <img class="lazyload" width="{{ .thumbnail.Width }}" height="{{ .thumbnail.Height }}" data-src="{{ .thumbnail.RelPermalink }}" alt="{{ .page.Title }}" />
-    </figure>
-    <div>
-      <h2>{{ .page.Title }}</h2>
-      <p class="songbook-card__subtitle">{{ $subtitle }}</p>
-    </div>
-  </a>
-{{ end }}
+{{- $song := dict -}}
+{{- with .Params.songJson -}}
+  {{- $song = . | transform.Unmarshal -}}
+{{- end -}}
 
+{{- $images := where (.Resources.ByType "image") "Params.hidden" "ne" true -}}
+{{- $covers := where $images "Params.cover" "eq" true -}}
+{{- $cover := (index $covers 0) | default (index $images 0) -}}
+{{- $thumb := "" -}}
+{{- with $cover -}}
+  {{- $thumb = .Filter (slice images.AutoOrient (images.Process "fit 400x400")) -}}
+{{- end -}}
+
+{{- $subtitle := "" -}}
+{{- with (index ($song.info | default (slice)) 0) -}}
+  {{- $subtitle = . -}}
+{{- end -}}
+
+<a class="song-card" href="{{ .RelPermalink }}" title="{{ .Title }}" data-songbook-card data-songbook-hay="{{ printf "%s %s %s" .Title .RelPermalink $subtitle | plainify }}">
+  <div class="song-card-thumb-wrap">
+    {{- with $thumb -}}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }}" loading="lazy" />
+    {{- else -}}
+      <div class="song-card-thumb-placeholder">
+        {{ partial "icon.html" (dict "icon" "music" "size" "40") }}
+      </div>
+    {{- end -}}
+  </div>
+  <div class="song-card-body">
+    <h3 class="song-card-title">{{ .Title }}</h3>
+    {{- with $subtitle -}}
+      <p class="song-card-subtitle">{{ . }}</p>
+    {{- end -}}
+  </div>
+</a>

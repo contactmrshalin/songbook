@@ -1,0 +1,22 @@
+{{- $icon := .icon -}}
+{{- $class := .class | default "" -}}
+{{- $size := .size | default "16" -}}
+<svg class="icon {{ $class }}" width="{{ $size }}" height="{{ $size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+{{- if eq $icon "arrow-left" }}<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>{{ end -}}
+{{- if eq $icon "search" }}<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>{{ end -}}
+{{- if eq $icon "play" }}<polygon points="6 3 20 12 6 21 6 3"/>{{ end -}}
+{{- if eq $icon "pause" }}<rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/>{{ end -}}
+{{- if eq $icon "skip-back" }}<polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/>{{ end -}}
+{{- if eq $icon "skip-forward" }}<polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/>{{ end -}}
+{{- if eq $icon "chevron-down" }}<path d="m6 9 6 6 6-6"/>{{ end -}}
+{{- if eq $icon "chevron-up" }}<path d="m18 15-6-6-6 6"/>{{ end -}}
+{{- if eq $icon "music" }}<circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/>{{ end -}}
+{{- if eq $icon "info" }}<circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>{{ end -}}
+{{- if eq $icon "gauge" }}<path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/>{{ end -}}
+{{- if eq $icon "volume" }}<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>{{ end -}}
+{{- if eq $icon "volume-x" }}<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="22" y1="9" x2="16" y2="15"/><line x1="16" y1="9" x2="22" y2="15"/>{{ end -}}
+{{- if eq $icon "repeat" }}<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>{{ end -}}
+{{- if eq $icon "mic" }}<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/>{{ end -}}
+{{- if eq $icon "film" }}<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M3 7.5h4"/><path d="M3 12h18"/><path d="M3 16.5h4"/><path d="M17 3v18"/><path d="M17 7.5h4"/><path d="M17 16.5h4"/>{{ end -}}
+{{- if eq $icon "timer" }}<line x1="10" x2="14" y1="2" y2="2"/><line x1="12" x2="15" y1="14" y2="11"/><circle cx="12" cy="14" r="8"/>{{ end -}}
+</svg>
