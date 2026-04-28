@@ -28,23 +28,17 @@
   {{ $scale := "" }}
   {{ $raag := "" }}
   {{ range ($song.info | default (slice)) }}
-    {{ $lower := . | lower }}
-    {{ if findRE "(?i)^(singer|artist|film)" . }}
-      {{ $parts := split . ":" }}
-      {{ if gt (len $parts) 1 }}
-        {{ $key := index $parts 0 | lower }}
-        {{ $val := index $parts 1 | strings.TrimLeft " " }}
-        {{ if findRE "singer|artist" $key }}{{ $singer = $val }}{{ end }}
-        {{ if findRE "film|movie" $key }}{{ $movie = $val }}{{ end }}
+    {{ $parts := split . ":" }}
+    {{ if gt (len $parts) 1 }}
+      {{ $key := index $parts 0 | lower | strings.TrimSpace }}
+      {{ $val := index $parts 1 | strings.TrimLeft " " }}
+      {{/* "film/artist" is a combined key — treat as singer */}}
+      {{ if eq $key "film/artist" }}{{ $singer = $val }}
+      {{ else if findRE "singer|artist" $key }}{{ $singer = $val }}
+      {{ else if findRE "film|movie" $key }}{{ $movie = $val }}
+      {{ else if findRE "scale" $key }}{{ $scale = $val }}
+      {{ else if findRE "raag|raga" $key }}{{ $raag = $val }}
       {{ end }}
-    {{ end }}
-    {{ if findRE "(?i)^scale" . }}
-      {{ $parts := split . ":" }}
-      {{ if gt (len $parts) 1 }}{{ $scale = index $parts 1 | strings.TrimLeft " " }}{{ end }}
-    {{ end }}
-    {{ if findRE "(?i)^raag" . }}
-      {{ $parts := split . ":" }}
-      {{ if gt (len $parts) 1 }}{{ $raag = index $parts 1 | strings.TrimLeft " " }}{{ end }}
     {{ end }}
   {{ end }}
 
