@@ -274,7 +274,7 @@ export default function SongViewer({ song }: SongViewerProps) {
       )}
 
       {/* Notation content */}
-      <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
+      <main className="flex-1 max-w-4xl lg:max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
         {song.sections.map((section, si) => (
           <div key={si} className="mb-6">
             {/* Section header */}
@@ -292,7 +292,7 @@ export default function SongViewer({ song }: SongViewerProps) {
 
             {/* Lines */}
             {expandedSections.has(si) && (
-              <div className="mt-2 space-y-1">
+              <div className="mt-2 space-y-1 lg:columns-2 lg:gap-x-10">
                 {section.lines.map((line, li) => {
                   const globalIdx = song.sections
                     .slice(0, si)
@@ -300,7 +300,7 @@ export default function SongViewer({ song }: SongViewerProps) {
                   const key = `${si}-${li}`;
 
                   return (
-                    <div key={key} ref={setLineRef(key)} className="flex items-start gap-2">
+                    <div key={key} ref={setLineRef(key)} className="flex items-start gap-2 break-inside-avoid">
                       <div className="flex-1">
                         <NotationLine
                           line={line}

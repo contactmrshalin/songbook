@@ -506,6 +506,9 @@ body {
 @media (min-width: 640px) {
   .song-content { padding: 1.5rem 1.5rem 8rem; }
 }
+@media (min-width: 900px) {
+  .song-content { max-width: 72rem; }
+}
 
 /* ---- 20. Section Header ---- */
 .section-header {
@@ -543,6 +546,11 @@ body {
 /* ---- 21. Section Lines Container ---- */
 .section-lines {
   margin-top: 0.5rem;
+  column-count: 1;
+  column-gap: 2.5rem;
+}
+@media (min-width: 900px) {
+  .section-lines { column-count: 2; }
 }
 .section-lines[hidden] { display: none; }
 
@@ -557,6 +565,7 @@ body {
   border-radius: 8px;
   transition: background 0.2s;
   cursor: pointer;
+  break-inside: avoid;
 }
 .notation-line:hover {
   background: var(--highlight-note);
