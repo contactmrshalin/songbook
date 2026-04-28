@@ -1,19 +1,14 @@
 {{ define "main" }}
-  <section class="songbook-song">
-    <div class="songbook-page">
-      <div class="songbook-page__inner">
-        <header class="songbook-header">
-          <div class="songbook-header__meta">
-            <h1 class="songbook-header__title">{{ .Title }}</h1>
-          </div>
-        </header>
-        <div class="songbook-toolbar">
-          <a class="songbook-btn" href="{{ "" | absURL }}">Back to Index</a>
-        </div>
-        <div class="songbook-body notation-guide-body">
-          {{ .Content }}
-        </div>
-      </div>
+  <div class="guide-page">
+    <div class="guide-page-header">
+      <a href="{{ "/" | relURL }}" class="back-link">
+        {{ partial "icon.html" (dict "icon" "arrow-left" "size" "16") }}
+        <span>Back to Songs</span>
+      </a>
     </div>
-  </section>
+    <h1 style="font-family: 'Libre Baskerville', Georgia, serif; font-size: 2rem; margin-bottom: 1.5rem;">{{ .Title }}</h1>
+    <div class="notation-guide-body">
+      {{ .Content }}
+    </div>
+  </div>
 {{ end }}
