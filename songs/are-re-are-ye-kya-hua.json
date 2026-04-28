@@ -1,0 +1,99 @@
+{
+  "id": "are-re-are-ye-kya-hua",
+  "title": "Are Re Are Ye Kya Hua",
+  "export": true,
+  "info": [
+    "Film/Artist: Dil To Pagal Hai",
+    "Scale: G# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/are-re-are-ye-kya-hua-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/are-re-are-ye-kya-hua.png",
+  "background": "images/are-re-are-ye-kya-hua.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Are re are yeh kya hua",
+          "indian": "dha ni Sa dha dha Ga Re: Sa ni",
+          "western": "a b C a a E D: C b"
+        },
+        {
+          "lyrics": "Maine na yeh jaana",
+          "indian": "dha ni Sa dha dha ma: Ga:",
+          "western": "a b C a a F: E:"
+        },
+        {
+          "lyrics": "Are re are ban jaaye na",
+          "indian": "dha ni Sa dha dha Ga Re: Sa ni",
+          "western": "a b C a a E D: C b"
+        },
+        {
+          "lyrics": "Kahin koi afsaana",
+          "indian": "Sa Re Ga ni Sa: ni: dha:",
+          "western": "C D E b C: b: a:"
+        },
+        {
+          "lyrics": "Are re are kuch ho gaya",
+          "indian": "dha ni Sa dha dha Ga Re: Sa ni",
+          "western": "a b C a a E D: C b"
+        },
+        {
+          "lyrics": "Koi na pehchana",
+          "indian": "dha ni Sa dha dha ma: Ga:",
+          "western": "a b C a a F: E:"
+        },
+        {
+          "lyrics": "Are re are banta hai toh",
+          "indian": "dha ni Sa dha dha Ga Re: Sa ni",
+          "western": "a b C a a E D: C b"
+        },
+        {
+          "lyrics": "Ban jaaye afsana",
+          "indian": "Sa Re Ga ni Sa: ni: dha:",
+          "western": "C D E b C: b: a:"
+        },
+        {
+          "lyrics": "Haath mera thaam lo",
+          "indian": "dha Sa Ga Re Ga: Re Sa",
+          "western": "a C E D E: D C"
+        },
+        {
+          "lyrics": "Saath jab tak ho",
+          "indian": "dha Sa Ga Ga Pa Pa Re",
+          "western": "a C E E G G D"
+        },
+        {
+          "lyrics": "Baat kuch hoti rahe",
+          "indian": "dha Sa Ga Re Ga: Re Sa",
+          "western": "a C E D E: D C"
+        },
+        {
+          "lyrics": "Baat jab tak ho",
+          "indian": "dha Sa Ga Ga Pa Pa Re",
+          "western": "a C E E G G D"
+        },
+        {
+          "lyrics": "Saamne baithe raho tum",
+          "indian": "Ga Ga Ga: Dha: Pa Dha: Pa Ga Re Re",
+          "western": "E E E: A: G A: G E D D"
+        },
+        {
+          "lyrics": "Raat jab tak ho…",
+          "indian": "Sa Ga Sa Ga Re Sa ni: Sa ni dha",
+          "western": "C E C E D C b: C b a"
+        },
+        {
+          "lyrics": "Are re are yeh kya hua",
+          "indian": "dha ni Sa dha dha Ga Re: Sa ni",
+          "western": "a b C a a E D: C b"
+        },
+        {
+          "lyrics": "Maine na yeh jaana",
+          "indian": "dha ni Sa dha dha ma: Ga:",
+          "western": "a b C a a F: E:"
+        }
+      ]
+    }
+  ]
+}
