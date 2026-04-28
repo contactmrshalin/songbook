@@ -1,0 +1,184 @@
+{
+  "id": "tu-hi-re",
+  "title": "Tu Hi Re",
+  "export": true,
+  "info": [
+    "Singer: Hariharan / Kavita Krishnamurty",
+    "Movie: Bombay",
+    "Raag: Charukeshi",
+    "Flute: G#",
+    "Source: https://notesandsargam.com/tu-hi-re/"
+  ],
+  "thumbnail": "images/tu-hi-re.png",
+  "background": "images/tu-hi-re.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Sargam notations for song Tuhi Re",
+          "indian": ""
+        },
+        {
+          "lyrics": "Singer : Hariharan / Kavita Krishnamurty",
+          "indian": ""
+        },
+        {
+          "lyrics": "Music : A R Rehman",
+          "indian": ""
+        },
+        {
+          "lyrics": "Movie: Bombay",
+          "indian": ""
+        },
+        {
+          "lyrics": "Raag : Charukeshi",
+          "indian": ""
+        },
+        {
+          "lyrics": "Flute used for notations : G#",
+          "indian": ""
+        },
+        {
+          "lyrics": "Tuhi | re | Tuhi | re…",
+          "indian": "R R | R~G{MGR}... | RR(P) | G",
+          "western": "R R | R~G{MGR}... | RR(P) | G"
+        },
+        {
+          "lyrics": "Tere | bina | main | kaise | jiyoon",
+          "indian": "R G | MM~(P) | M | G~R R | R RSN",
+          "western": "R G | MM~(P) | M | G~R R | R RSN"
+        },
+        {
+          "lyrics": "Aaja | re | aaja | re",
+          "indian": "N~R R(G)R | R~S | S R | SRS N DP",
+          "western": "N~R R(G)R | R~S | S R | SRS N DP"
+        },
+        {
+          "lyrics": "yoonhi | tadpana | tu | mujhko",
+          "indian": ",P ,P | D S SS | R~N | D P P",
+          "western": ",P ,P | D S SS | R~N | D P P"
+        },
+        {
+          "lyrics": "Jaan | re | jaan | re",
+          "indian": "N~R {R(G)R} | R~S SR | S R | SRS N DP",
+          "western": "N~R {R(G)R} | R~S SR | S R | SRS N DP"
+        },
+        {
+          "lyrics": "In | sanson | me | bas | jaa | tu",
+          "indian": ",P ,P | D S S | S | R N | D~P | P",
+          "western": ",P ,P | D S S | S | R N | D~P | P"
+        },
+        {
+          "lyrics": "[repeat for following lines…]",
+          "indian": ""
+        },
+        {
+          "lyrics": "Chand re chand re",
+          "indian": ""
+        },
+        {
+          "lyrics": "Aaja dil ki zameen pe tu",
+          "indian": ""
+        },
+        {
+          "lyrics": "Chahat | hai | agar | aake | mujhse | milja | tu",
+          "indian": "P'M PP P' D | P | MP(M)G | G G | GG MP | D'M G R | R",
+          "western": "P'M PP P' D | P | MP(M)G | G G | GG MP | D'M G R | R"
+        },
+        {
+          "lyrics": "Ya | Phir | aisa | kar",
+          "indian": "P'M | P'... P'ND | P'M | P MG",
+          "western": "P'M | P'... P'ND | P'M | P MG"
+        },
+        {
+          "lyrics": "Dharti | se | mila de | mujhako",
+          "indian": "G G G | P | P D M | G R R {NRMGRNS}",
+          "western": "G G G | P | P D M | G R R {NRMGRNS}"
+        },
+        {
+          "lyrics": "Tuhi re…",
+          "indian": ""
+        },
+        {
+          "lyrics": "In | sanson | ka | dekho | tum | pagalpan | ye",
+          "indian": "S | R P | M~G M~R | R R | SR | R R SRgR | S ND",
+          "western": "S | R P | M~G M~R | R R | SR | R R SRgR | S ND"
+        },
+        {
+          "lyrics": "Aye | nahi | inhe | chain",
+          "indian": "S R | P M~G M~R | R R | SR",
+          "western": "S R | P M~G M~R | R R | SR"
+        },
+        {
+          "lyrics": "[repeat for following lines…]",
+          "indian": ""
+        },
+        {
+          "lyrics": "Mujhse | ye | bole | main | raho | me | teri",
+          "indian": ""
+        },
+        {
+          "lyrics": "Apne | bichha | du | ye | nain",
+          "indian": ""
+        },
+        {
+          "lyrics": "Inn | unche | pahado | se | jaa | de | dunga | main",
+          "indian": "R g | D'D' | D'D'D' | D' | PD | D | DP DP | gR",
+          "western": "R g | D'D' | D'D'D' | D' | PD | D | DP DP | gR"
+        },
+        {
+          "lyrics": "Gar | tum | na | ayi | kahi",
+          "indian": "Rg | P' | D' | D'~S'N' | D'D'",
+          "western": "Rg | P' | D' | D'~S'N' | D'D'"
+        },
+        {
+          "lyrics": "[repeat for following lines…]",
+          "indian": ""
+        },
+        {
+          "lyrics": "Tum | udhar | jaan | ummeed | meri | jo | todo",
+          "indian": ""
+        },
+        {
+          "lyrics": "Idhar | ye | jahan | chhoru | main",
+          "indian": ""
+        },
+        {
+          "lyrics": "Maut | aur | zindagi",
+          "indian": "P'P' | P'G | GP(D)P MG RS",
+          "western": "P'P' | P'G | GP(D)P MG RS"
+        },
+        {
+          "lyrics": "Tere | haatho | me | de | diya | re",
+          "indian": "SS | S R | GP | GR | SN | DNSND",
+          "western": "SS | S R | GP | GR | SN | DNSND"
+        },
+        {
+          "lyrics": "“Tu Hi Re” from Bombay is one of those songs that gets straight to your soul. With A.R. Rahman’s haunting composition, Hariharan’s soulful voice, and Manisha Koirala’s expressive performance, it’s pure magic. But like most beautiful things, getting it right wasn’t easy.",
+          "indian": ""
+        },
+        {
+          "lyrics": "Manisha once shared how shooting for this iconic song wasn’t as romantic as it looked on screen. Imagine standing on sharp, slippery rocks with waves crashing all around you — sounds scary, right? Well, that’s exactly what she did. And if that wasn’t enough, the next scene had her running through a jungle full of leeches! Apparently, every step she took came with a fresh batch of those little bloodsuckers clinging to her legs. The crew tried everything from salt to boots, but nature had its own plans.",
+          "indian": ""
+        },
+        {
+          "lyrics": "The stunning Bekal Fort in Kerala, where the song was filmed, added another layer of grandeur. Overlooking the Arabian Sea, its ancient stone walls stood in stark contrast to the tender emotions of the song. It’s no wonder the location became a tourist hotspot after the movie’s release.",
+          "indian": ""
+        },
+        {
+          "lyrics": "Here’s another lesser-known nugget — K.S. Chitra originally recorded the Hindi version of “Tu Hi Re.” But the music label reportedly wanted a more familiar North Indian voice, leading to Kavita Krishnamurthy stepping in. Chitra, being the gracious artist she is, had nothing but praise for Rahman, who personally informed her about the switch. It’s moments like these that remind you how much thought and care go into creating the music we love.",
+          "indian": ""
+        },
+        {
+          "lyrics": "Next time you listen to “Tu Hi Re,” just think about the crashing waves, the relentless leeches, and the resilience of the team behind it. Makes the song feel even more special, doesn’t it?",
+          "indian": ""
+        },
+        {
+          "lyrics": "Post Views: 1,090",
+          "indian": ""
+        }
+      ]
+    }
+  ]
+}
