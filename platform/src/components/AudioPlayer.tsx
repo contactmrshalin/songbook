@@ -19,38 +19,490 @@ interface AudioPlayerProps {
   song: Song;
 }
 
-// Indian note → MIDI mapping
+// ── Indian note → MIDI mapping ─────────────────────────────────────
 const NOTE_TO_MIDI: Record<string, number> = {
+  // Middle octave (madhya saptak)
   Sa: 60, Re: 62, Ga: 64, ma: 65, Ma: 66, Pa: 67, Dha: 69, Ni: 71,
-  pa: 55, dha: 57, ni: 59,
-  "Sa'": 72, "Re'": 74, "Ga'": 76, "ma'": 77, "Pa'": 79, "Dha'": 81, "Ni'": 83,
+  // Lower octave (mandra saptak) — lowercase convention
+  pa: 55, dha: 57, ni: 59, sa: 48,
+  // Lowercase with komal modifiers (seen in data)
+  "dha(k)": 56, "ni(k)": 58,
+  // Single-letter lowercase (abbreviation for lower octave)
+  p: 55, d: 57, n: 59, s: 48,
+  // Upper octave (taar saptak) — trailing apostrophe
+  "Sa'": 72, "Re'": 74, "Ga'": 76, "ma'": 77, "Ma'": 78,
+  "Pa'": 79, "Dha'": 81, "Ni'": 83,
+  // Komal (flat) variants
   "Re(k)": 61, "Ga(k)": 63, "Dha(k)": 68, "Ni(k)": 70,
+  // Tivra (sharp) variant
   "Ma(T)": 66,
+};
+
+// Abbreviated single-letter → canonical note name
+const ABBREV: Record<string, string> = {
+  S: "Sa", R: "Re", G: "Ga", M: "Ma", P: "Pa", D: "Dha", N: "Ni", Dh: "Dha",
 };
 
 function midiToFreq(midi: number): number {
   return 440 * Math.pow(2, (midi - 69) / 12);
 }
 
-// Tokenize notation — keeps spaces and bar lines as separate tokens for display,
-// but we also return the "playable" index mapping
 export function tokenizeNotation(indian: string): string[] {
   if (!indian) return [];
   return indian.split(/\s+/).filter(Boolean);
 }
 
-function resolveTokenMidi(token: string): number | undefined {
-  const clean = token.replace(/:/g, "").replace(/\./g, "").replace(/~/g, "").replace(/\^/g, "").replace(/\(/g, "").replace(/\)/g, "");
-  let midi = NOTE_TO_MIDI[clean];
-  if (midi === undefined) {
-    // Try without octave markers
-    const base = clean.replace(/'/g, "");
-    midi = NOTE_TO_MIDI[base];
-    if (midi !== undefined && clean.includes("'")) {
-      midi += 12;
+// ── Comprehensive notation parser ──────────────────────────────────
+// Handles every pattern found across 152 song files:
+//   Dot-compounds:  Sa.Re.Ga, Dha(k)..Sa..ma..Ga..Ga..
+//   Unicode …:      Dha(k)…Ni(k)…Pa..
+//   Meend/glide:    Ni~Dha, Ga~ (cross-token), Ma(T)~GaMa(T)
+//   Holds:          Sa:, Pa::, Pa—
+//   Grace notes:    (Re)Ga, Dha(Ni)Dha, (Dha) Ni (cross-token)
+//   Compounds:      DhaPa, PaMa(T), Ga(k)ma, Ma(T)Ma(T)
+//   Leading ':      'Sa, 'Dha (lower octave)
+//   Abbreviated:    S, R, G, D, P, Dh, N
+//   Rests:          _, __, ., -, —, /
+//   Markers:        |, *, ^, ,, {}  (stripped/ignored)
+
+type PlayEvent =
+  | { type: "note"; midi: number; duration: number }
+  | { type: "rest"; duration: number }
+  | { type: "meend"; fromMidi: number; toMidi: number; duration: number };
+
+interface ParsedToken {
+  events: PlayEvent[];
+  totalBeats: number;
+}
+
+// ── Note resolution ────────────────────────────────────────────────
+
+/** Resolve a single note name (with octave/modifier) to MIDI number. */
+function resolveSimpleNote(raw: string): number | undefined {
+  let t = raw;
+  // Strip decorative markers that don't affect pitch
+  t = t.replace(/[*^,|/{}—–]/g, "");
+  if (!t) return undefined;
+
+  // Leading apostrophe → lower octave (-12)
+  let octaveShift = 0;
+  if (t.startsWith("'")) {
+    octaveShift = -12;
+    t = t.slice(1);
+  }
+
+  // Direct lookup (handles Sa, Re(k), Ma(T), Sa', etc.)
+  let midi = NOTE_TO_MIDI[t];
+  if (midi !== undefined) return midi + octaveShift;
+
+  // Strip trailing apostrophe and shift up
+  const base = t.replace(/'/g, "");
+  midi = NOTE_TO_MIDI[base];
+  if (midi !== undefined && t.includes("'")) return midi + 12 + octaveShift;
+  if (midi !== undefined) return midi + octaveShift;
+
+  // Try abbreviated note names: S→Sa, R→Re, Dh→Dha, etc.
+  const canon = ABBREV[t] || ABBREV[base];
+  if (canon) {
+    midi = NOTE_TO_MIDI[canon];
+    if (midi !== undefined) {
+      const result = t.includes("'") ? midi + 12 : midi;
+      return result + octaveShift;
     }
   }
-  return midi;
+
+  return undefined;
+}
+
+// ── Compound note splitting ────────────────────────────────────────
+
+/** Regex for one Indian note name (longest alternatives first, then abbreviations). */
+const NOTE_RE = /^(Dha|dha|Sa|sa|Re|Ga|Ma|ma|Pa|pa|Ni|ni|Dh|S|R|G|M|P|D|N|s|r|g|m|p|d|n)(\([kT]\))?(')?/;
+
+/** Greedily split "DhaPa" or "PaMa(T)" into individual MIDI notes. */
+function splitCompoundNotes(token: string): number[] {
+  const midis: number[] = [];
+  let remaining = token;
+
+  while (remaining.length > 0) {
+    const m = remaining.match(NOTE_RE);
+    if (!m) break;
+    const noteStr = m[0];
+    const midi = resolveSimpleNote(noteStr);
+    if (midi === undefined) break;
+    midis.push(midi);
+    remaining = remaining.slice(noteStr.length);
+  }
+
+  return remaining.length === 0 ? midis : [];
+}
+
+// ── Dot-compound detection ─────────────────────────────────────────
+// Tokens like "Sa.Re.Ga", "Dha(k)..Sa..ma..Ga..Ga.." contain multiple
+// notes separated by dots/ellipsis — played as rapid staccato sequence.
+
+function tryParseDotCompound(token: string): ParsedToken | null {
+  // Normalize Unicode ellipsis (…) to double ASCII dots
+  const normalized = token.replace(/\u2026/g, "..");
+  // Split on sequences of 1+ dots
+  const segments = normalized.split(/\.+/).filter((s) => s.length > 0);
+  if (segments.length < 2) return null;
+
+  // Try resolving each segment as a note (with possible modifiers)
+  const midis: number[] = [];
+  for (const seg of segments) {
+    // A segment may itself be a compound like "GaRe" or have modifiers
+    const midi = resolveSimpleNote(seg);
+    if (midi !== undefined) {
+      midis.push(midi);
+    } else {
+      // Try as a sub-compound: "GaRe" within a dot-compound
+      const sub = splitCompoundNotes(seg);
+      if (sub.length > 0) {
+        midis.push(...sub);
+      } else {
+        return null; // Unresolvable segment — bail out
+      }
+    }
+  }
+
+  // Each note gets 0.5 beats (rapid passage), minimum 1 beat total
+  const perNote = Math.min(0.5, 1.0 / midis.length);
+  const events: PlayEvent[] = midis.map((midi) => ({
+    type: "note" as const,
+    midi,
+    duration: perNote * 0.85, // slightly shorter for staccato feel
+  }));
+  return { events, totalBeats: Math.max(1, midis.length * perNote) };
+}
+
+// ── Meend parsing ──────────────────────────────────────────────────
+
+/** Parse a single-token meend: "Ni~Dha", "Ma(T)~GaMa(T)", "Ga~Re~Sa:" */
+function parseMeendToken(token: string): ParsedToken {
+  let work = token;
+  let holdMult = 1.0;
+  if (work.endsWith(":")) {
+    holdMult = 1.5;
+    work = work.slice(0, -1);
+  }
+  // Strip trailing dots/dashes
+  work = work.replace(/[.—–]+$/, "");
+
+  const parts = work.split("~").filter(Boolean);
+
+  if (parts.length >= 2) {
+    // Resolve first and last note for the glide
+    const fromMidi = resolveSimpleNote(parts[0]);
+    // The target may itself be a compound like "GaMa(T)" — take last note
+    let toMidi: number | undefined;
+    const lastPart = parts[parts.length - 1];
+    toMidi = resolveSimpleNote(lastPart);
+    if (toMidi === undefined) {
+      const sub = splitCompoundNotes(lastPart);
+      if (sub.length > 0) toMidi = sub[sub.length - 1];
+    }
+
+    if (fromMidi !== undefined && toMidi !== undefined) {
+      return {
+        events: [{ type: "meend", fromMidi, toMidi, duration: holdMult }],
+        totalBeats: holdMult,
+      };
+    }
+  }
+
+  // Fallback: strip ~ and play as note/compound
+  const clean = token.replace(/[~:—–.]+/g, "");
+  const midi = resolveSimpleNote(clean);
+  if (midi !== undefined) {
+    return { events: [{ type: "note", midi, duration: holdMult }], totalBeats: holdMult };
+  }
+  const compound = splitCompoundNotes(clean);
+  if (compound.length > 0) {
+    const perNote = holdMult / compound.length;
+    return {
+      events: compound.map((m) => ({ type: "note" as const, midi: m, duration: perNote })),
+      totalBeats: holdMult,
+    };
+  }
+  return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
+}
+
+// ── Main token parser ──────────────────────────────────────────────
+
+function parseToken(token: string): ParsedToken {
+  // Normalize: replace Unicode ellipsis with double dots
+  const tok = token.replace(/\u2026/g, "..");
+
+  // Bar lines and slashes — tiny gap, no sound
+  if (tok === "|" || tok === "/") {
+    return { events: [], totalBeats: 0.25 };
+  }
+
+  // Pure rest tokens: _, __, ., .., -, —, –, :
+  if (/^[._\-—–:\/]+$/.test(tok)) {
+    return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
+  }
+
+  // Non-musical markers: (x2), (2x), (na-hi), etc.
+  if (/^\([^)]*[0-9x\-][^)]*\)$/.test(tok)) {
+    return { events: [{ type: "rest", duration: 0.5 }], totalBeats: 0.5 };
+  }
+
+  // Meend (frequency glide): tokens containing ~
+  if (tok.includes("~")) {
+    return parseMeendToken(tok);
+  }
+
+  // Dot-compound: Sa.Re.Ga, Dha(k)..Sa..ma..Ga..Ga.., etc.
+  // Must check BEFORE stripping trailing dots
+  const dotCompound = tryParseDotCompound(tok);
+  if (dotCompound) return dotCompound;
+
+  // ── Strip trailing modifiers ──
+  let work = tok;
+  let holdMult = 1.0;
+
+  // Trailing colons → hold (each : adds 0.5×)
+  const colonMatch = work.match(/:+$/);
+  if (colonMatch) {
+    holdMult += colonMatch[0].length * 0.5;
+    work = work.slice(0, -colonMatch[0].length);
+  }
+
+  // Trailing em-dashes → hold
+  const dashMatch = work.match(/[—–]+$/);
+  if (dashMatch) {
+    holdMult += dashMatch[0].length * 0.5;
+    work = work.slice(0, -dashMatch[0].length);
+  }
+
+  // Trailing commas → brief pause
+  let trailingPause = 0;
+  const commaMatch = work.match(/,+$/);
+  if (commaMatch) {
+    trailingPause = commaMatch[0].length * 0.3;
+    work = work.slice(0, -commaMatch[0].length);
+  }
+
+  // Trailing dots → pause beats
+  let trailingDots = 0;
+  const dotSuffix = work.match(/(\.+)$/);
+  if (dotSuffix) {
+    trailingDots = dotSuffix[1].length;
+    work = work.slice(0, -trailingDots);
+  }
+
+  // Trailing bar lines, asterisks, carets
+  work = work.replace(/[|*^]+$/, "");
+
+  // Strip curly braces (treat content as notation)
+  work = work.replace(/[{}]/g, "");
+
+  // Leading underscore → rest prefix + compound
+  if (work.startsWith("_") && work.length > 1) {
+    const notesPart = work.slice(1);
+    const compound = splitCompoundNotes(notesPart);
+    if (compound.length > 0) {
+      const events: PlayEvent[] = [{ type: "rest", duration: 0.5 }];
+      const perNote = 0.5 / compound.length;
+      compound.forEach((m) => events.push({ type: "note", midi: m, duration: perNote }));
+      return { events, totalBeats: 1 };
+    }
+  }
+
+  const totalExtra = trailingDots + trailingPause;
+
+  // Leading dot → grace/pickup note (after totalExtra is computed)
+  if (work.startsWith(".") && work.length > 1) {
+    const notesPart = work.slice(1);
+    const midi = resolveSimpleNote(notesPart);
+    if (midi !== undefined) {
+      return { events: [{ type: "note", midi, duration: holdMult }], totalBeats: holdMult };
+    }
+    const compound = splitCompoundNotes(notesPart);
+    if (compound.length > 0) {
+      const perNote = holdMult / compound.length;
+      return {
+        events: compound.map((m) => ({ type: "note" as const, midi: m, duration: perNote })),
+        totalBeats: holdMult,
+      };
+    }
+  }
+
+  // Grace note prefix: (Re)Ga, (Re)Ga(k), (Ga)ReSa
+  const gracePrefix = work.match(/^\(([^)]+)\)(.+)$/);
+  if (gracePrefix && gracePrefix[1] !== "k" && gracePrefix[1] !== "T") {
+    const graceMidi = resolveSimpleNote(gracePrefix[1]);
+    // Main part might be compound: (Ga)ReSa
+    let mainMidis: number[] = [];
+    const mainSingle = resolveSimpleNote(gracePrefix[2]);
+    if (mainSingle !== undefined) {
+      mainMidis = [mainSingle];
+    } else {
+      mainMidis = splitCompoundNotes(gracePrefix[2]);
+    }
+    if (graceMidi !== undefined && mainMidis.length > 0) {
+      const events: PlayEvent[] = [
+        { type: "note", midi: graceMidi, duration: 0.15 * holdMult },
+      ];
+      const mainDur = (0.85 * holdMult) / mainMidis.length;
+      mainMidis.forEach((m) => events.push({ type: "note", midi: m, duration: mainDur }));
+      if (totalExtra > 0) events.push({ type: "rest", duration: totalExtra });
+      return { events, totalBeats: holdMult + totalExtra };
+    }
+  }
+
+  // Embedded grace: Re(Ga)Re, Dha(Ni)Dha — where inner is NOT (k)/(T)
+  const embGrace = work.match(/^(.+?)\(([^)]+)\)(.+)$/);
+  if (embGrace && embGrace[2] !== "k" && embGrace[2] !== "T") {
+    const m1 = resolveSimpleNote(embGrace[1]);
+    const gm = resolveSimpleNote(embGrace[2]);
+    // Third part may be compound
+    let m3list: number[] = [];
+    const m3single = resolveSimpleNote(embGrace[3]);
+    if (m3single !== undefined) m3list = [m3single];
+    else m3list = splitCompoundNotes(embGrace[3]);
+
+    if (m1 !== undefined && gm !== undefined && m3list.length > 0) {
+      const events: PlayEvent[] = [
+        { type: "note", midi: m1, duration: 0.4 * holdMult },
+        { type: "note", midi: gm, duration: 0.15 * holdMult },
+      ];
+      const tailDur = (0.45 * holdMult) / m3list.length;
+      m3list.forEach((m) => events.push({ type: "note", midi: m, duration: tailDur }));
+      if (totalExtra > 0) events.push({ type: "rest", duration: totalExtra });
+      return { events, totalBeats: holdMult + totalExtra };
+    }
+  }
+
+  // Single known note
+  const singleMidi = resolveSimpleNote(work);
+  if (singleMidi !== undefined) {
+    const events: PlayEvent[] = [{ type: "note", midi: singleMidi, duration: holdMult }];
+    if (totalExtra > 0) events.push({ type: "rest", duration: totalExtra });
+    return { events, totalBeats: holdMult + totalExtra };
+  }
+
+  // Compound note: DhaPa, PaMa(T), GaReSa, Ma(T)Ma(T), Ga(k)ma
+  const compound = splitCompoundNotes(work);
+  if (compound.length > 1) {
+    const perNote = holdMult / compound.length;
+    const events: PlayEvent[] = compound.map((midi) => ({
+      type: "note" as const,
+      midi,
+      duration: perNote,
+    }));
+    if (totalExtra > 0) events.push({ type: "rest", duration: totalExtra });
+    return { events, totalBeats: holdMult + totalExtra };
+  }
+
+  // Standalone grace marker: (Dha), (Ni)
+  const standaloneGrace = work.match(/^\(([^)]+)\)$/);
+  if (standaloneGrace && standaloneGrace[1] !== "k" && standaloneGrace[1] !== "T") {
+    const midi = resolveSimpleNote(standaloneGrace[1]);
+    if (midi !== undefined) {
+      return { events: [{ type: "note", midi, duration: 0.5 }], totalBeats: 0.5 };
+    }
+  }
+
+  // Last resort: strip ALL non-alphabetic chars (including mismatched parens) and try
+  const stripped = work.replace(/[^A-Za-z']/g, "");
+  if (stripped && stripped !== work) {
+    const midi = resolveSimpleNote(stripped);
+    if (midi !== undefined) {
+      return { events: [{ type: "note", midi, duration: holdMult }], totalBeats: holdMult };
+    }
+    const sub = splitCompoundNotes(stripped);
+    if (sub.length > 0) {
+      const perNote = holdMult / sub.length;
+      return {
+        events: sub.map((m) => ({ type: "note" as const, midi: m, duration: perNote })),
+        totalBeats: holdMult,
+      };
+    }
+  }
+
+  // Unrecognized — one beat of silence
+  return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
+}
+
+// ── Cross-token lookahead ──────────────────────────────────────────
+// Handles ornaments that span two space-separated tokens:
+//   "Ga~ Sa"   → meend from Ga to Sa
+//   "(Dha) Ni" → grace note Dha before main note Ni
+
+interface ScheduledEvent {
+  displayTokenIdx: number;
+  events: PlayEvent[];
+  totalBeats: number;
+}
+
+function parseTokenSequence(tokens: string[]): ScheduledEvent[] {
+  const result: ScheduledEvent[] = [];
+  let i = 0;
+
+  while (i < tokens.length) {
+    const token = tokens[i];
+
+    // Cross-token meend: "Ga~" followed by "Sa"
+    if (token.length > 1 && token.endsWith("~") && i + 1 < tokens.length) {
+      const sourceNote = token.slice(0, -1);
+      const targetRaw = tokens[i + 1];
+      const targetClean = targetRaw.replace(/:+$/, "").replace(/\.+$/, "").replace(/[—–]+$/, "");
+      const fromMidi = resolveSimpleNote(sourceNote);
+      const toMidi = resolveSimpleNote(targetClean);
+
+      if (fromMidi !== undefined && toMidi !== undefined) {
+        result.push({
+          displayTokenIdx: i,
+          events: [{ type: "meend", fromMidi, toMidi, duration: 2.0 }],
+          totalBeats: 1.0,
+        });
+        result.push({
+          displayTokenIdx: i + 1,
+          events: [],
+          totalBeats: 1.0,
+        });
+        i += 2;
+        continue;
+      }
+    }
+
+    // Cross-token grace: "(Dha)" followed by "Ni"
+    if (/^\([^)]+\)$/.test(token) && i + 1 < tokens.length) {
+      const inner = token.slice(1, -1);
+      if (inner !== "k" && inner !== "T" && !/[0-9x]/.test(inner)) {
+        const graceMidi = resolveSimpleNote(inner);
+        if (graceMidi !== undefined) {
+          const nextParsed = parseToken(tokens[i + 1]);
+          result.push({
+            displayTokenIdx: i,
+            events: [{ type: "note", midi: graceMidi, duration: 0.15 }],
+            totalBeats: 0.15,
+          });
+          result.push({
+            displayTokenIdx: i + 1,
+            events: nextParsed.events,
+            totalBeats: nextParsed.totalBeats,
+          });
+          i += 2;
+          continue;
+        }
+      }
+    }
+
+    // Regular token
+    const parsed = parseToken(token);
+    result.push({
+      displayTokenIdx: i,
+      events: parsed.events,
+      totalBeats: parsed.totalBeats,
+    });
+    i++;
+  }
+
+  return result;
 }
 
 export default function AudioPlayer({ song }: AudioPlayerProps) {
@@ -141,6 +593,37 @@ export default function AudioPlayer({ song }: AudioPlayerProps) {
     osc.stop(ctx.currentTime + duration);
   }, [getAudioContext]);
 
+  // Play a meend (frequency glide) between two notes
+  const playMeend = useCallback((fromMidi: number, toMidi: number, duration: number) => {
+    const ctx = getAudioContext();
+    if (!ctx || !gainNodeRef.current) return;
+
+    const osc = ctx.createOscillator();
+    const noteGain = ctx.createGain();
+    const inst = instrumentRef.current;
+    const vol = isMutedRef.current ? 0 : volumeRef.current;
+
+    osc.type = inst === "flute" || inst === "piccolo" ? "sine" : "triangle";
+    // Start at the source frequency
+    osc.frequency.setValueAtTime(midiToFreq(fromMidi), ctx.currentTime);
+    // Glide to target over 80% of duration for a smooth meend
+    osc.frequency.linearRampToValueAtTime(
+      midiToFreq(toMidi),
+      ctx.currentTime + duration * 0.8
+    );
+
+    // Envelope: attack → sustain → release
+    noteGain.gain.setValueAtTime(0, ctx.currentTime);
+    noteGain.gain.linearRampToValueAtTime(vol * 0.5, ctx.currentTime + 0.04);
+    noteGain.gain.linearRampToValueAtTime(vol * 0.35, ctx.currentTime + duration * 0.6);
+    noteGain.gain.linearRampToValueAtTime(0, ctx.currentTime + duration);
+
+    osc.connect(noteGain);
+    noteGain.connect(gainNodeRef.current);
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + duration);
+  }, [getAudioContext]);
+
   // Cancel all pending note and line-advance timers
   const cancelPendingTimers = useCallback(() => {
     for (const t of noteTimeoutsRef.current) {
@@ -177,44 +660,60 @@ export default function AudioPlayer({ song }: AudioPlayerProps) {
       return;
     }
 
-    const noteDuration = (60 / tempoRef.current) * 0.8; // seconds per note
-    const noteIntervalMs = noteDuration * 1000;
+    const beatDuration = (60 / tempoRef.current) * 0.8; // seconds per beat
+    const beatMs = beatDuration * 1000; // ms per beat
 
-    // Schedule each token
-    tokens.forEach((token, tokenIdx) => {
-      const delay = tokenIdx * noteIntervalMs;
+    // Parse tokens with cross-token lookahead (meend: Ga~ Sa, grace: (Dha) Ni)
+    const scheduled = parseTokenSequence(tokens);
 
-      const tid = setTimeout(() => {
+    let cumulativeMs = 0;
+
+    scheduled.forEach((se) => {
+      const tokenStartMs = cumulativeMs;
+
+      // Highlight the original display token
+      const hTid = setTimeout(() => {
         if (!isPlayingRef.current) return;
+        setCurrentTokenIndex(se.displayTokenIdx);
+      }, tokenStartMs);
+      noteTimeoutsRef.current.push(hTid);
 
-        // Highlight this token
-        setCurrentTokenIndex(tokenIdx);
+      // Schedule play events within this token
+      let eventOffsetMs = 0;
+      for (const evt of se.events) {
+        const evtStartMs = tokenStartMs + eventOffsetMs;
+        const evtDurSec = evt.duration * beatDuration;
 
-        // Play sound if it's a real note (not a bar line or rest)
-        const isBarOrRest = token === "|" || token === "." || token === "_" || token === "-" || token === "—";
-        if (!isBarOrRest) {
-          const isHold = token.includes(":");
-          const midi = resolveTokenMidi(token);
-          if (midi !== undefined) {
-            const dur = isHold ? noteDuration * 1.5 : noteDuration;
-            playNote(midi, dur);
-          }
+        if (evt.type === "note") {
+          const tid = setTimeout(() => {
+            if (!isPlayingRef.current) return;
+            playNote(evt.midi, evtDurSec);
+          }, evtStartMs);
+          noteTimeoutsRef.current.push(tid);
+        } else if (evt.type === "meend") {
+          const tid = setTimeout(() => {
+            if (!isPlayingRef.current) return;
+            playMeend(evt.fromMidi, evt.toMidi, evtDurSec);
+          }, evtStartMs);
+          noteTimeoutsRef.current.push(tid);
         }
-      }, delay);
+        // "rest" events: no sound, just advance time
 
-      noteTimeoutsRef.current.push(tid);
+        eventOffsetMs += evt.duration * beatMs;
+      }
+
+      cumulativeMs += se.totalBeats * beatMs;
     });
 
     // After all tokens finish, add a small gap then advance to next line
-    const totalLineDuration = tokens.length * noteIntervalMs;
-    const gapMs = noteIntervalMs * 0.5; // half-beat gap between lines
+    const gapMs = beatMs * 0.5; // half-beat gap between lines
 
     lineAdvanceTimeoutRef.current = setTimeout(() => {
       if (isPlayingRef.current) {
         advanceToNextLineFnRef.current();
       }
-    }, totalLineDuration + gapMs);
-  }, [allLines, playNote, cancelPendingTimers, setCurrentNoteIndex, setCurrentTokenIndex]);
+    }, cumulativeMs + gapMs);
+  }, [allLines, playNote, playMeend, cancelPendingTimers, setCurrentNoteIndex, setCurrentTokenIndex]);
 
   // Advance to the next line (uses playLineFnRef to avoid circular dependency)
   const advanceToNextLine = useCallback(() => {

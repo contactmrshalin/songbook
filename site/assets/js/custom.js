@@ -141,27 +141,262 @@
   //    with per-token highlighting
   // ========================================
 
-  // Indian note → MIDI mapping
+  // ── Indian note → MIDI mapping ─────────────────────────────────────
   var NOTE_TO_MIDI = {
     Sa: 60, Re: 62, Ga: 64, ma: 65, Ma: 66, Pa: 67, Dha: 69, Ni: 71,
-    pa: 55, dha: 57, ni: 59,
-    "Sa'": 72, "Re'": 74, "Ga'": 76, "ma'": 77, "Pa'": 79, "Dha'": 81, "Ni'": 83,
+    pa: 55, dha: 57, ni: 59, sa: 48,
+    "dha(k)": 56, "ni(k)": 58,
+    p: 55, d: 57, n: 59, s: 48,
+    "Sa'": 72, "Re'": 74, "Ga'": 76, "ma'": 77, "Ma'": 78,
+    "Pa'": 79, "Dha'": 81, "Ni'": 83,
     "Re(k)": 61, "Ga(k)": 63, "Dha(k)": 68, "Ni(k)": 70, "Ma(T)": 66
   };
+  var ABBREV = { S:"Sa",R:"Re",G:"Ga",M:"Ma",P:"Pa",D:"Dha",N:"Ni",Dh:"Dha" };
 
   function midiToFreq(midi) {
     return 440 * Math.pow(2, (midi - 69) / 12);
   }
 
-  function resolveTokenMidi(token) {
-    var clean = token.replace(/:/g, "").replace(/\./g, "").replace(/~/g, "").replace(/\^/g, "").replace(/\(/g, "").replace(/\)/g, "");
-    var midi = NOTE_TO_MIDI[clean];
-    if (midi === undefined) {
-      var base = clean.replace(/'/g, "");
-      midi = NOTE_TO_MIDI[base];
-      if (midi !== undefined && clean.indexOf("'") >= 0) midi += 12;
+  // ── Comprehensive notation parser ──────────────────────────────────
+
+  function resolveSimpleNote(raw) {
+    var t = raw.replace(/[*^,|/{}—–]/g, "");
+    if (!t) return undefined;
+    var shift = 0;
+    if (t.charAt(0) === "'") { shift = -12; t = t.slice(1); }
+    var midi = NOTE_TO_MIDI[t];
+    if (midi !== undefined) return midi + shift;
+    var base = t.replace(/'/g, "");
+    midi = NOTE_TO_MIDI[base];
+    if (midi !== undefined && t.indexOf("'") >= 0) return midi + 12 + shift;
+    if (midi !== undefined) return midi + shift;
+    var canon = ABBREV[t] || ABBREV[base];
+    if (canon) {
+      midi = NOTE_TO_MIDI[canon];
+      if (midi !== undefined) return (t.indexOf("'") >= 0 ? midi + 12 : midi) + shift;
     }
-    return midi;
+    return undefined;
+  }
+
+  var NOTE_RE = /^(Dha|dha|Sa|sa|Re|Ga|Ma|ma|Pa|pa|Ni|ni|Dh|S|R|G|M|P|D|N|s|r|g|m|p|d|n)(\([kT]\))?(')?/;
+
+  function splitCompoundNotes(token) {
+    var midis = [], remaining = token;
+    while (remaining.length > 0) {
+      var m = remaining.match(NOTE_RE);
+      if (!m) break;
+      var midi = resolveSimpleNote(m[0]);
+      if (midi === undefined) break;
+      midis.push(midi);
+      remaining = remaining.slice(m[0].length);
+    }
+    return remaining.length === 0 ? midis : [];
+  }
+
+  function tryParseDotCompound(token) {
+    var normalized = token.replace(/\u2026/g, "..");
+    var segments = normalized.split(/\.+/).filter(function(s) { return s.length > 0; });
+    if (segments.length < 2) return null;
+    var midis = [];
+    for (var i = 0; i < segments.length; i++) {
+      var midi = resolveSimpleNote(segments[i]);
+      if (midi !== undefined) { midis.push(midi); }
+      else {
+        var sub = splitCompoundNotes(segments[i]);
+        if (sub.length > 0) { midis = midis.concat(sub); }
+        else { return null; }
+      }
+    }
+    var perNote = Math.min(0.5, 1.0 / midis.length);
+    var events = midis.map(function(m) { return { type: "note", midi: m, duration: perNote * 0.85 }; });
+    return { events: events, totalBeats: Math.max(1, midis.length * perNote) };
+  }
+
+  function parseMeendToken(token) {
+    var work = token;
+    var holdMult = 1.0;
+    if (work.charAt(work.length - 1) === ":") { holdMult = 1.5; work = work.slice(0, -1); }
+    work = work.replace(/[.—–]+$/, "");
+    var parts = work.split("~").filter(Boolean);
+    if (parts.length >= 2) {
+      var fromMidi = resolveSimpleNote(parts[0]);
+      var lastPart = parts[parts.length - 1];
+      var toMidi = resolveSimpleNote(lastPart);
+      if (toMidi === undefined) {
+        var sub = splitCompoundNotes(lastPart);
+        if (sub.length > 0) toMidi = sub[sub.length - 1];
+      }
+      if (fromMidi !== undefined && toMidi !== undefined) {
+        return { events: [{ type: "meend", fromMidi: fromMidi, toMidi: toMidi, duration: holdMult }], totalBeats: holdMult };
+      }
+    }
+    var clean = token.replace(/[~:.—–]+/g, "");
+    var midi = resolveSimpleNote(clean);
+    if (midi !== undefined) return { events: [{ type: "note", midi: midi, duration: holdMult }], totalBeats: holdMult };
+    var compound = splitCompoundNotes(clean);
+    if (compound.length > 0) {
+      var pn = holdMult / compound.length;
+      return { events: compound.map(function(m) { return { type: "note", midi: m, duration: pn }; }), totalBeats: holdMult };
+    }
+    return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
+  }
+
+  function parseToken(token) {
+    var tok = token.replace(/\u2026/g, "..");
+    if (tok === "|" || tok === "/") return { events: [], totalBeats: 0.25 };
+    if (/^[._\-\u2014\u2013:\/,]+$/.test(tok)) return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
+    if (/^\([^)]*[0-9x\-][^)]*\)$/.test(tok)) return { events: [{ type: "rest", duration: 0.5 }], totalBeats: 0.5 };
+    if (tok.indexOf("~") >= 0) return parseMeendToken(tok);
+
+    var dotCompound = tryParseDotCompound(tok);
+    if (dotCompound) return dotCompound;
+
+    var work = tok;
+    var holdMult = 1.0;
+    var colonMatch = work.match(/:+$/);
+    if (colonMatch) { holdMult += colonMatch[0].length * 0.5; work = work.slice(0, -colonMatch[0].length); }
+    var dashMatch = work.match(/[\u2014\u2013]+$/);
+    if (dashMatch) { holdMult += dashMatch[0].length * 0.5; work = work.slice(0, -dashMatch[0].length); }
+    var trailingPause = 0;
+    var commaMatch = work.match(/,+$/);
+    if (commaMatch) { trailingPause = commaMatch[0].length * 0.3; work = work.slice(0, -commaMatch[0].length); }
+    var trailingDots = 0;
+    var dotSuffix = work.match(/(\.+)$/);
+    if (dotSuffix) { trailingDots = dotSuffix[1].length; work = work.slice(0, -trailingDots); }
+    work = work.replace(/[|*^]+$/, "");
+    work = work.replace(/[{}]/g, "");
+
+    if (work.charAt(0) === "_" && work.length > 1) {
+      var uCompound = splitCompoundNotes(work.slice(1));
+      if (uCompound.length > 0) {
+        var evts = [{ type: "rest", duration: 0.5 }];
+        var up = 0.5 / uCompound.length;
+        uCompound.forEach(function(m) { evts.push({ type: "note", midi: m, duration: up }); });
+        return { events: evts, totalBeats: 1 };
+      }
+    }
+
+    var totalExtra = trailingDots + trailingPause;
+
+    if (work.charAt(0) === "." && work.length > 1) {
+      var notesPart = work.slice(1);
+      var lmidi = resolveSimpleNote(notesPart);
+      if (lmidi !== undefined) return { events: [{ type: "note", midi: lmidi, duration: holdMult }], totalBeats: holdMult };
+      var lcomp = splitCompoundNotes(notesPart);
+      if (lcomp.length > 0) {
+        var lp = holdMult / lcomp.length;
+        return { events: lcomp.map(function(m) { return { type: "note", midi: m, duration: lp }; }), totalBeats: holdMult };
+      }
+    }
+
+    var gracePrefix = work.match(/^\(([^)]+)\)(.+)$/);
+    if (gracePrefix && gracePrefix[1] !== "k" && gracePrefix[1] !== "T") {
+      var gMidi = resolveSimpleNote(gracePrefix[1]);
+      var mainMidis = [];
+      var mainSingle = resolveSimpleNote(gracePrefix[2]);
+      if (mainSingle !== undefined) mainMidis = [mainSingle];
+      else mainMidis = splitCompoundNotes(gracePrefix[2]);
+      if (gMidi !== undefined && mainMidis.length > 0) {
+        var gev = [{ type: "note", midi: gMidi, duration: 0.15 * holdMult }];
+        var md = (0.85 * holdMult) / mainMidis.length;
+        mainMidis.forEach(function(m) { gev.push({ type: "note", midi: m, duration: md }); });
+        if (totalExtra > 0) gev.push({ type: "rest", duration: totalExtra });
+        return { events: gev, totalBeats: holdMult + totalExtra };
+      }
+    }
+
+    var embGrace = work.match(/^(.+?)\(([^)]+)\)(.+)$/);
+    if (embGrace && embGrace[2] !== "k" && embGrace[2] !== "T") {
+      var em1 = resolveSimpleNote(embGrace[1]);
+      var egm = resolveSimpleNote(embGrace[2]);
+      var em3list = [];
+      var em3s = resolveSimpleNote(embGrace[3]);
+      if (em3s !== undefined) em3list = [em3s]; else em3list = splitCompoundNotes(embGrace[3]);
+      if (em1 !== undefined && egm !== undefined && em3list.length > 0) {
+        var eev = [
+          { type: "note", midi: em1, duration: 0.4 * holdMult },
+          { type: "note", midi: egm, duration: 0.15 * holdMult }
+        ];
+        var td = (0.45 * holdMult) / em3list.length;
+        em3list.forEach(function(m) { eev.push({ type: "note", midi: m, duration: td }); });
+        if (totalExtra > 0) eev.push({ type: "rest", duration: totalExtra });
+        return { events: eev, totalBeats: holdMult + totalExtra };
+      }
+    }
+
+    var singleMidi = resolveSimpleNote(work);
+    if (singleMidi !== undefined) {
+      var sev = [{ type: "note", midi: singleMidi, duration: holdMult }];
+      if (totalExtra > 0) sev.push({ type: "rest", duration: totalExtra });
+      return { events: sev, totalBeats: holdMult + totalExtra };
+    }
+
+    var compound = splitCompoundNotes(work);
+    if (compound.length > 1) {
+      var cpn = holdMult / compound.length;
+      var cev = compound.map(function(m) { return { type: "note", midi: m, duration: cpn }; });
+      if (totalExtra > 0) cev.push({ type: "rest", duration: totalExtra });
+      return { events: cev, totalBeats: holdMult + totalExtra };
+    }
+
+    var standaloneGrace = work.match(/^\(([^)]+)\)$/);
+    if (standaloneGrace && standaloneGrace[1] !== "k" && standaloneGrace[1] !== "T") {
+      var sgm = resolveSimpleNote(standaloneGrace[1]);
+      if (sgm !== undefined) return { events: [{ type: "note", midi: sgm, duration: 0.5 }], totalBeats: 0.5 };
+    }
+
+    var stripped = work.replace(/[^A-Za-z']/g, "");
+    if (stripped && stripped !== work) {
+      var smidi = resolveSimpleNote(stripped);
+      if (smidi !== undefined) return { events: [{ type: "note", midi: smidi, duration: holdMult }], totalBeats: holdMult };
+      var ssub = splitCompoundNotes(stripped);
+      if (ssub.length > 0) {
+        var sp = holdMult / ssub.length;
+        return { events: ssub.map(function(m) { return { type: "note", midi: m, duration: sp }; }), totalBeats: holdMult };
+      }
+    }
+
+    return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
+  }
+
+  // ── Cross-token lookahead ──────────────────────────────────────────
+
+  function parseTokenSequence(tokens) {
+    var result = [];
+    var i = 0;
+    while (i < tokens.length) {
+      var token = tokens[i];
+
+      if (token.length > 1 && token.charAt(token.length - 1) === "~" && i + 1 < tokens.length) {
+        var sourceNote = token.slice(0, -1);
+        var targetClean = tokens[i + 1].replace(/:+$/, "").replace(/\.+$/, "").replace(/[\u2014\u2013]+$/, "");
+        var fromMidi = resolveSimpleNote(sourceNote);
+        var toMidi = resolveSimpleNote(targetClean);
+        if (fromMidi !== undefined && toMidi !== undefined) {
+          result.push({ displayTokenIdx: i, events: [{ type: "meend", fromMidi: fromMidi, toMidi: toMidi, duration: 2.0 }], totalBeats: 1.0 });
+          result.push({ displayTokenIdx: i + 1, events: [], totalBeats: 1.0 });
+          i += 2; continue;
+        }
+      }
+
+      if (/^\([^)]+\)$/.test(token) && i + 1 < tokens.length) {
+        var inner = token.slice(1, -1);
+        if (inner !== "k" && inner !== "T" && !/[0-9x]/.test(inner)) {
+          var graceMidi = resolveSimpleNote(inner);
+          if (graceMidi !== undefined) {
+            var nextParsed = parseToken(tokens[i + 1]);
+            result.push({ displayTokenIdx: i, events: [{ type: "note", midi: graceMidi, duration: 0.15 }], totalBeats: 0.15 });
+            result.push({ displayTokenIdx: i + 1, events: nextParsed.events, totalBeats: nextParsed.totalBeats });
+            i += 2; continue;
+          }
+        }
+      }
+
+      var parsed = parseToken(token);
+      result.push({ displayTokenIdx: i, events: parsed.events, totalBeats: parsed.totalBeats });
+      i++;
+    }
+    return result;
   }
 
   function tokenize(str) {
@@ -251,6 +486,31 @@
       osc.stop(ctx.currentTime + duration);
     }
 
+    function playMeend(fromMidi, toMidi, duration) {
+      var ctx = getAudioCtx();
+      if (!ctx || !gainNode) return;
+      var osc = ctx.createOscillator();
+      var noteGain = ctx.createGain();
+      var vol = isMuted ? 0 : volume;
+
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(midiToFreq(fromMidi), ctx.currentTime);
+      osc.frequency.linearRampToValueAtTime(
+        midiToFreq(toMidi),
+        ctx.currentTime + duration * 0.8
+      );
+
+      noteGain.gain.setValueAtTime(0, ctx.currentTime);
+      noteGain.gain.linearRampToValueAtTime(vol * 0.5, ctx.currentTime + 0.04);
+      noteGain.gain.linearRampToValueAtTime(vol * 0.35, ctx.currentTime + duration * 0.6);
+      noteGain.gain.linearRampToValueAtTime(0, ctx.currentTime + duration);
+
+      osc.connect(noteGain);
+      noteGain.connect(gainNode);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + duration);
+    }
+
     function cancelTimers() {
       for (var i = 0; i < noteTimeouts.length; i++) clearTimeout(noteTimeouts[i]);
       noteTimeouts = [];
@@ -317,33 +577,61 @@
         return;
       }
 
-      var noteDuration = (60 / tempo) * 0.8;
-      var noteIntervalMs = noteDuration * 1000;
+      var beatDuration = (60 / tempo) * 0.8; // seconds per beat
+      var beatMs = beatDuration * 1000;
 
-      tokens.forEach(function(token, tokenIdx) {
-        var delay = tokenIdx * noteIntervalMs;
-        var tid = setTimeout(function() {
-          if (!isPlaying) return;
-          highlightToken(lineIdx, tokenIdx);
+      // Parse tokens with cross-token lookahead (meend: Ga~ Sa, grace: (Dha) Ni)
+      var scheduled = parseTokenSequence(tokens);
+      var cumulativeMs = 0;
 
-          var isBarOrRest = (token === "|" || token === "." || token === "_" || token === "-" || token === "—");
-          if (!isBarOrRest) {
-            var isHold = token.indexOf(":") >= 0;
-            var midi = resolveTokenMidi(token);
-            if (midi !== undefined) {
-              playNote(midi, isHold ? noteDuration * 1.5 : noteDuration);
-            }
+      scheduled.forEach(function(se) {
+        var tokenStartMs = cumulativeMs;
+
+        // Highlight the original display token
+        (function(idx, delay) {
+          var hTid = setTimeout(function() {
+            if (!isPlaying) return;
+            highlightToken(lineIdx, idx);
+          }, delay);
+          noteTimeouts.push(hTid);
+        })(se.displayTokenIdx, tokenStartMs);
+
+        // Schedule play events within this entry
+        var eventOffsetMs = 0;
+        for (var e = 0; e < se.events.length; e++) {
+          var evt = se.events[e];
+          var evtStartMs = tokenStartMs + eventOffsetMs;
+          var evtDurSec = evt.duration * beatDuration;
+
+          if (evt.type === "note") {
+            (function(midi, dur, delay) {
+              var tid = setTimeout(function() {
+                if (!isPlaying) return;
+                playNote(midi, dur);
+              }, delay);
+              noteTimeouts.push(tid);
+            })(evt.midi, evtDurSec, evtStartMs);
+          } else if (evt.type === "meend") {
+            (function(from, to, dur, delay) {
+              var tid = setTimeout(function() {
+                if (!isPlaying) return;
+                playMeend(from, to, dur);
+              }, delay);
+              noteTimeouts.push(tid);
+            })(evt.fromMidi, evt.toMidi, evtDurSec, evtStartMs);
           }
-        }, delay);
-        noteTimeouts.push(tid);
+
+          eventOffsetMs += evt.duration * beatMs;
+        }
+
+        cumulativeMs += se.totalBeats * beatMs;
       });
 
       // Advance after all tokens
-      var totalDuration = tokens.length * noteIntervalMs;
-      var gapMs = noteIntervalMs * 0.5;
+      var gapMs = beatMs * 0.5;
       lineAdvanceTimeout = setTimeout(function() {
         if (isPlaying) advanceToNextLine();
-      }, totalDuration + gapMs);
+      }, cumulativeMs + gapMs);
     }
 
     function advanceToNextLine() {
