@@ -39,8 +39,9 @@ yarn-error.log*
 # song data copied by deploy.sh for Vercel CLI
 .songdata/
 
-# images copied by deploy.sh for Vercel CLI
-public/song-images/
+# images — tracked in Git so Vercel can serve them
+# (copied locally by scripts/setup-dev.sh from data/images/)
+# public/song-images/
 
 # generated song bundle — tracked in Git so Vercel can build
 # (rebuilt locally by scripts/prebuild.mjs or setup-dev.sh)

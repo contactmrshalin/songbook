@@ -23,7 +23,7 @@ site/content/songs/
 
 # Vercel deploy temp files (created by deploy.sh, cleaned after deploy)
 platform/.songdata/
-platform/public/song-images/
+# platform/public/song-images/ — now tracked for Vercel builds
 
 # Archives / exports
 *.zip
