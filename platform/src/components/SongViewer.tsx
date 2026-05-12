@@ -18,6 +18,8 @@ import NotationLine from "./NotationLine";
 import NotationToggle from "./NotationToggle";
 import AudioPlayer from "./AudioPlayer";
 import FingeringDiagram from "./FingeringDiagram";
+import AdBanner from "./AdBanner";
+import { AD_SLOTS, ADS_CONFIG } from "@/lib/ads.config";
 import type { Song } from "@/types/song";
 
 interface SongViewerProps {
@@ -273,53 +275,87 @@ export default function SongViewer({ song }: SongViewerProps) {
         </div>
       )}
 
+      {/* Ad: Below hero */}
+      <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 mt-4 relative z-[1]">
+        <AdBanner
+          slot={AD_SLOTS.SONG_TOP}
+          format="horizontal"
+          className="ad-song-top"
+        />
+      </div>
+
       {/* Notation content */}
       <main className="flex-1 max-w-4xl lg:max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
         {song.sections.map((section, si) => (
-          <div key={si} className="mb-6">
-            {/* Section header */}
-            <button
-              className="section-header w-full text-left flex items-center justify-between group"
-              onClick={() => toggleSection(si)}
-            >
-              <span>{section.name}</span>
-              {expandedSections.has(si) ? (
-                <ChevronUp className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
-              ) : (
-                <ChevronDown className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
-              )}
-            </button>
+          <div key={si}>
+            <div className="mb-6">
+              {/* Section header */}
+              <button
+                className="section-header w-full text-left flex items-center justify-between group"
+                onClick={() => toggleSection(si)}
+              >
+                <span>{section.name}</span>
+                {expandedSections.has(si) ? (
+                  <ChevronUp className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
+                ) : (
+                  <ChevronDown className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
+                )}
+              </button>
 
-            {/* Lines */}
-            {expandedSections.has(si) && (
-              <div className="mt-2 space-y-1 lg:columns-2 lg:gap-x-10">
-                {section.lines.map((line, li) => {
-                  const globalIdx = song.sections
-                    .slice(0, si)
-                    .reduce((sum, s) => sum + s.lines.length, 0) + li;
-                  const key = `${si}-${li}`;
+              {/* Lines */}
+              {expandedSections.has(si) && (
+                <div className="mt-2 space-y-1 lg:columns-2 lg:gap-x-10">
+                  {section.lines.map((line, li) => {
+                    const globalIdx = song.sections
+                      .slice(0, si)
+                      .reduce((sum, s) => sum + s.lines.length, 0) + li;
+                    const key = `${si}-${li}`;
 
-                  return (
-                    <div key={key} ref={setLineRef(key)} className="flex items-start gap-2 break-inside-avoid">
-                      <div className="flex-1">
-                        <NotationLine
-                          line={line}
-                          lineIndex={globalIdx}
-                          isActive={currentNoteIndex === globalIdx}
-                        />
-                      </div>
-                      {showFingerings && line.indian && (
-                        <div className="flex-shrink-0 pt-1">
-                          <FingeringDiagram notation={line.indian} />
+                    return (
+                      <div key={key} ref={setLineRef(key)} className="flex items-start gap-2 break-inside-avoid">
+                        <div className="flex-1">
+                          <NotationLine
+                            line={line}
+                            lineIndex={globalIdx}
+                            isActive={currentNoteIndex === globalIdx}
+                          />
                         </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            )}
+                        {showFingerings && line.indian && (
+                          <div className="flex-shrink-0 pt-1">
+                            <FingeringDiagram notation={line.indian} />
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+
+            {/* Ad: Mid-content — show after every N sections */}
+            {si > 0 &&
+              si < song.sections.length - 1 &&
+              (si + 1) % ADS_CONFIG.midContentInterval === 0 && (
+                <div className="my-6">
+                  <AdBanner
+                    slot={AD_SLOTS.SONG_MID}
+                    layout="in-article"
+                    format="auto"
+                    className="ad-song-mid"
+                  />
+                </div>
+              )}
           </div>
         ))}
+
+        {/* Ad: Bottom of notation */}
+        <div className="mt-8 mb-4">
+          <AdBanner
+            slot={AD_SLOTS.SONG_BOTTOM}
+            format="rectangle"
+            className="ad-song-bottom"
+          />
+        </div>
       </main>
 
       {/* Audio player floating bar */}

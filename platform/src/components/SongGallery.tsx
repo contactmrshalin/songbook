@@ -4,6 +4,8 @@ import { useState, useMemo } from "react";
 import { Search, Filter, Music2 } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import SongCard from "./SongCard";
+import AdBanner from "./AdBanner";
+import { AD_SLOTS, ADS_CONFIG } from "@/lib/ads.config";
 import type { Song } from "@/types/song";
 
 interface SongGalleryProps {
@@ -122,11 +124,24 @@ export default function SongGallery({ songs }: SongGalleryProps) {
         </p>
       </div>
 
-      {/* Song grid */}
+      {/* Song grid with in-feed ads */}
       {filteredSongs.length > 0 ? (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {filteredSongs.map((song) => (
-            <SongCard key={song.id} song={song} />
+          {filteredSongs.map((song, idx) => (
+            <div key={song.id} className="contents">
+              <SongCard song={song} />
+              {/* In-feed ad after every N cards */}
+              {(idx + 1) % ADS_CONFIG.homeFeedInterval === 0 &&
+                idx < filteredSongs.length - 1 && (
+                  <div className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-5">
+                    <AdBanner
+                      slot={AD_SLOTS.HOME_FEED}
+                      format="horizontal"
+                      className="ad-home-feed"
+                    />
+                  </div>
+                )}
+            </div>
           ))}
         </div>
       ) : (

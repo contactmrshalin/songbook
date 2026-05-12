@@ -28,10 +28,21 @@
       </div>
     </div>
 
-    {{/* Song Grid */}}
+    {{/* Ad: Top of homepage */}}
+    <div class="ad-wrapper ad-home-top-wrapper">
+      {{ partial "adsense.html" (dict "slot" "1234567894" "format" "horizontal" "class" "ad-home-top") }}
+    </div>
+
+    {{/* Song Grid with in-feed ads */}}
     <div class="song-grid" data-songbook-grid>
-      {{ range $songs }}
+      {{ range $idx, $page := $songs }}
         {{ partial "album-card.html" . }}
+        {{/* In-feed ad after every 8 cards */}}
+        {{ if and (modBool (add $idx 1) 8) (lt $idx (sub (len $songs) 1)) }}
+          <div class="ad-feed-card">
+            {{ partial "adsense.html" (dict "slot" "1234567893" "format" "auto" "class" "ad-home-feed") }}
+          </div>
+        {{ end }}
       {{ end }}
     </div>
 

@@ -377,3 +377,54 @@ input[type="range"]::-webkit-slider-thumb {
     font-size: 0.8rem;
   }
 }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Google AdSense — Ad container styling
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.ad-container {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.ad-container .adsbygoogle {
+  width: 100%;
+}
+
+/* Song page ad spacing */
+.ad-song-top {
+  margin-bottom: 0.5rem;
+}
+
+.ad-song-mid {
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  padding: 1rem 0;
+}
+
+.ad-song-bottom {
+  border-top: 1px solid var(--border-light);
+  padding-top: 1.5rem;
+}
+
+/* Homepage feed ads */
+.ad-home-top {
+  margin-bottom: 0.5rem;
+}
+
+.ad-home-feed {
+  padding: 1rem 0;
+}
+
+/* Dev-mode placeholder (when AdSense ID not set) */
+.ad-placeholder {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+/* Hide ads below audio player bar area */
+@media (max-width: 480px) {
+  .ad-song-mid {
+    padding: 0.75rem 0;
+  }
+}

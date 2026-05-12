@@ -1,6 +1,8 @@
 import { getAllSongs } from "@/lib/songs";
 import Header from "@/components/Header";
 import SongGallery from "@/components/SongGallery";
+import AdBanner from "@/components/AdBanner";
+import { AD_SLOTS } from "@/lib/ads.config";
 
 export default function Home() {
   const songs = getAllSongs();
@@ -20,6 +22,15 @@ export default function Home() {
           <p className="text-[var(--text-muted)] text-sm sm:text-base">
             {songs.length} songs with sargam notations for flute, harmonium &amp; more
           </p>
+        </div>
+
+        {/* Ad: Top of homepage */}
+        <div className="mb-6">
+          <AdBanner
+            slot={AD_SLOTS.HOME_TOP}
+            format="horizontal"
+            className="ad-home-top"
+          />
         </div>
 
         <SongGallery songs={songs} />

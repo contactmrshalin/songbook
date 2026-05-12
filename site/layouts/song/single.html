@@ -133,6 +133,11 @@
       </div>
     </div>
 
+    {{/* Ad: Below hero */}}
+    <div class="ad-wrapper ad-song-top-wrapper">
+      {{ partial "adsense.html" (dict "slot" "1234567890" "format" "horizontal" "class" "ad-song-top") }}
+    </div>
+
     {{/* Notation content */}}
     <main class="song-content">
       {{ $globalIdx := 0 }}
@@ -186,8 +191,19 @@
               {{ $globalIdx = add $globalIdx 1 }}
             {{ end }}
           </div>
+        {{/* Ad: Mid-content — show after every 3rd section */}}
+        {{ if and (gt $si 0) (modBool (add $si 1) 3) }}
+          <div class="ad-wrapper ad-song-mid-wrapper">
+            {{ partial "adsense.html" (dict "slot" "1234567891" "format" "auto" "layout" "in-article" "class" "ad-song-mid") }}
+          </div>
+        {{ end }}
         </div>
       {{ end }}
+
+      {{/* Ad: Bottom of notation */}}
+      <div class="ad-wrapper ad-song-bottom-wrapper">
+        {{ partial "adsense.html" (dict "slot" "1234567892" "format" "rectangle" "class" "ad-song-bottom") }}
+      </div>
     </main>
 
     {{/* Audio player bar */}}
