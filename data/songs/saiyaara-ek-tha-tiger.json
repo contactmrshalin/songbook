@@ -1,0 +1,160 @@
+{
+  "id": "saiyaara-ek-tha-tiger",
+  "title": "Saiyaara (Ek Tha Tiger)",
+  "thumbnail": "images/saiyaara-title-song-2025.png",
+  "background": "images/saiyaara-title-song-2025.png",
+  "info": [
+    "Movie: Ek Tha Tiger (2012)",
+    "Singer: Mohit Chauhan, Taraannum Mallik",
+    "Music: Sohail Sen",
+    "Lyrics: Kausar Munir"
+  ],
+  "sections": [
+    {
+      "name": "HUMMING",
+      "lines": [
+        {
+          "lyrics": "(Humming)",
+          "indian": "dha ni SaGa ReGa.... ReSa ni⁀dha pa dha ni Re Sa Re..."
+        },
+        {
+          "lyrics": "(Humming)",
+          "indian": "pa dha niRe SaRe... Sani dha⁀pa pa dha niSa niSa...."
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Main tere kal mein hoon",
+          "indian": "Ga Ga Ga ReGa Ga Re⁀Sa"
+        },
+        {
+          "lyrics": "Aaj mein hoon",
+          "indian": "Re Re Re ReGa Ga Re⁀Sa"
+        },
+        {
+          "lyrics": "Main teri saanson ke",
+          "indian": "Sa Sa Sa niSa Sa ni⁀dha"
+        },
+        {
+          "lyrics": "Saaz mein hoon",
+          "indian": "ni ni ni ni Sa Re"
+        },
+        {
+          "lyrics": "Aankhein jhuka ke",
+          "indian": "Ga Ga Ga Pa.. Ma Ga"
+        },
+        {
+          "lyrics": "Sunle mujhe tu",
+          "indian": "Re Re Re ReGa GaRe"
+        },
+        {
+          "lyrics": "Main tere dil ki",
+          "indian": "Sa Sa Sa niSaSa ni⁀dha"
+        },
+        {
+          "lyrics": "Aawaz mein hoon",
+          "indian": "ni niRe... Sa ni⁀dha dha"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Tu hausla hai",
+          "indian": "pa dha Sa ni dha dha"
+        },
+        {
+          "lyrics": "Tu hai iraada",
+          "indian": "pa dha Sa ni dha dha"
+        },
+        {
+          "lyrics": "Aadhi main tujhmein",
+          "indian": "Sa Sa Sa Sa Ga⁀Re"
+        },
+        {
+          "lyrics": "Mujhmein tu aadha",
+          "indian": "ni niRe Sa ni dha dha"
+        },
+        {
+          "lyrics": "Tootoo na main bhi",
+          "indian": "pa dha Sa ni dha ReSanidha"
+        },
+        {
+          "lyrics": "Toote na tu bhi",
+          "indian": "padha dhaRe Sa ni⁀dha dha"
+        },
+        {
+          "lyrics": "Main tera sapna",
+          "indian": "Sa Sa Sa Sa Ga⁀Re"
+        },
+        {
+          "lyrics": "Tu mera vaada",
+          "indian": "GaRe MaGa Sa ni ReSanidha"
+        }
+      ]
+    },
+    {
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "lyrics": "Haaye, main mar hee jaaun",
+          "indian": "ninini ReSaSa ni dha⁀pa"
+        },
+        {
+          "lyrics": "Jo tujhko na paaun",
+          "indian": "ninini ReSaSa ni dha⁀pa"
+        },
+        {
+          "lyrics": "Baaton mein teri main",
+          "indian": "MaMaMa Ma⁀Re Re GaGa⁀ni"
+        },
+        {
+          "lyrics": "Raatein bitaun",
+          "indian": "ni ReSaSa ni ni Sa"
+        },
+        {
+          "lyrics": "Hothon pe lamha-lamha",
+          "indian": "ninini ReSaSa ni dha⁀pa"
+        },
+        {
+          "lyrics": "Hai naam tera, haaye",
+          "indian": "ninini ReSaSa ni dha⁀pa"
+        },
+        {
+          "lyrics": "Tujhko hee gaaun main",
+          "indian": "MaMaMa Ma⁀Re Re GaGa⁀ni"
+        },
+        {
+          "lyrics": "Tujhko pukaarun",
+          "indian": "SaSa niSa Re Pa Ga, Re Pa Ga, Re Dha Pa Ma Ga,"
+        }
+      ]
+    },
+    {
+      "name": "HOOK / OUTRO",
+      "lines": [
+        {
+          "lyrics": "Ooo…",
+          "indian": "Sa Re Ga Ma Ga Re Sa ni, SaSaRe SaSaRe...."
+        },
+        {
+          "lyrics": "",
+          "indian": ""
+        },
+        {
+          "lyrics": "Saiyaara tu to badla nahi hai.........",
+          "indian": ""
+        },
+        {
+          "lyrics": "Mausam zara sa rootha hua hai.......",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "export": true
+}
