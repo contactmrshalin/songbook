@@ -19,11 +19,8 @@
   {{ $css := resources.Get "css/custom.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
 
-  {{/* Google AdSense — replace pub-6628890818019640 with your actual ID */}}
-  {{ $adsenseId := "pub-6628890818019640" }}
-  {{ if ne $adsenseId "pub-6628890818019640" }}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsenseId }}" crossorigin="anonymous"></script>
-  {{ end }}
+  {{/* Google AdSense */}}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6628890818019640" crossorigin="anonymous"></script>
 </head>
 <body class="paper-bg">
   {{ block "main" . }}{{ end }}

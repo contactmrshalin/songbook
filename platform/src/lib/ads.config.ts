@@ -31,7 +31,7 @@
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // 🔑  Replace this with your actual Google AdSense Publisher ID
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-export const ADSENSE_PUBLISHER_ID: string = "pub-6628890818019640";
+export const ADSENSE_PUBLISHER_ID: string = "ca-pub-6628890818019640";
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // 🎯  Ad Slot IDs — create these in your AdSense dashboard
@@ -74,7 +74,7 @@ export const ADS_CONFIG = {
 export function isAdSenseConfigured(): boolean {
   return (
     ADS_CONFIG.enabled &&
-    ADSENSE_PUBLISHER_ID !== "pub-6628890818019640" &&
+    ADSENSE_PUBLISHER_ID !== "ca-pub-XXXXXXXXXXXXXXXX" &&
     ADSENSE_PUBLISHER_ID.startsWith("ca-pub-")
   );
 }

@@ -1,37 +1,24 @@
 {{/*
   Google AdSense Partial
 
-  ⚠️  SETUP REQUIRED:
-  1. Sign up at https://www.google.com/adsense/
-  2. Replace "pub-6628890818019640" below with your actual Publisher ID
-  3. Create ad slots in AdSense dashboard and update the slot IDs
-
   Usage in templates:
     {{ partial "adsense.html" (dict "slot" "1234567890" "format" "auto" "class" "ad-song-top") }}
 */}}
 
-{{- $publisherId := "pub-6628890818019640" -}}
+{{- $publisherId := "ca-pub-6628890818019640" -}}
 {{- $slot := .slot | default "" -}}
 {{- $format := .format | default "auto" -}}
 {{- $layout := .layout | default "" -}}
 {{- $class := .class | default "" -}}
 {{- $responsive := .responsive | default "true" -}}
 
-{{- if ne $publisherId "pub-6628890818019640" -}}
-  <div class="ad-container {{ $class }}">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="{{ $publisherId }}"
-         data-ad-slot="{{ $slot }}"
-         data-ad-format="{{ $format }}"
-         {{ with $layout }}data-ad-layout="{{ . }}"{{ end }}
-         data-full-width-responsive="{{ $responsive }}"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-{{- else -}}
-  <div class="ad-placeholder {{ $class }}">
-    <div class="ad-placeholder-inner">
-      Ad Space &mdash; Configure your AdSense Publisher ID in <code>layouts/partials/adsense.html</code>
-    </div>
-  </div>
-{{- end -}}
+<div class="ad-container {{ $class }}">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ $publisherId }}"
+       data-ad-slot="{{ $slot }}"
+       data-ad-format="{{ $format }}"
+       {{ with $layout }}data-ad-layout="{{ . }}"{{ end }}
+       data-full-width-responsive="{{ $responsive }}"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>

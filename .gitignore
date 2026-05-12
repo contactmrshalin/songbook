@@ -36,3 +36,5 @@ platform/public/song-images/
 # Keep this file tracked (do not ignore)
 !.gitignore
 .github/instructions/wmt-copilot.instructions.md
+.vercel
+.env*.local
