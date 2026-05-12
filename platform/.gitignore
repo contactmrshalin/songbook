@@ -42,8 +42,9 @@ yarn-error.log*
 # images copied by deploy.sh for Vercel CLI
 public/song-images/
 
-# generated song bundle (built by scripts/prebuild.mjs)
-src/generated/
+# generated song bundle — tracked in Git so Vercel can build
+# (rebuilt locally by scripts/prebuild.mjs or setup-dev.sh)
+# src/generated/
 
 # typescript
 *.tsbuildinfo

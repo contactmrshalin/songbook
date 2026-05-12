@@ -30,6 +30,14 @@ function findDataRoot() {
     }
   }
 
+  // If the bundle already exists (committed to Git), skip generation
+  if (fs.existsSync(OUTPUT)) {
+    console.log(
+      `⏭️  Song data directory not found, but ${path.relative(PLATFORM_DIR, OUTPUT)} already exists — skipping generation.`
+    );
+    process.exit(0);
+  }
+
   console.error("ERROR: Cannot find song data in any of:", candidates);
   process.exit(1);
 }
