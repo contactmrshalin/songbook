@@ -12,7 +12,8 @@ const BRANCH = "main";
 
 interface GitHubFile {
   path: string;
-  content: string; // plain text (will be base64-encoded)
+  content: string; // plain text (utf-8) or base64-encoded binary
+  encoding?: "utf-8" | "base64"; // default: "utf-8"
 }
 
 interface CommitResult {
@@ -101,16 +102,17 @@ export async function commitFiles(
     const commitData = await commitRes.json();
     const baseTreeSha = commitData.tree.sha;
 
-    // 3. Create blobs for each file
+    // 3. Create blobs for each file (supports both utf-8 text and base64 binary)
     const treeItems = [];
     for (const file of files) {
+      const encoding = file.encoding || "utf-8";
       const blobRes = await githubApi(
         `/repos/${REPO_OWNER}/${REPO_NAME}/git/blobs`,
         {
           method: "POST",
           body: JSON.stringify({
             content: file.content,
-            encoding: "utf-8",
+            encoding,
           }),
         }
       );

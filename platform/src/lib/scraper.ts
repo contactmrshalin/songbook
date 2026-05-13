@@ -31,17 +31,63 @@ export async function fetchHtml(url: string): Promise<string> {
   return res.text();
 }
 
-export async function downloadImage(imageUrl: string): Promise<Buffer> {
+export interface DownloadedImage {
+  buffer: Buffer;
+  contentType: string; // e.g. "image/jpeg"
+  extension: string; // e.g. ".jpg"
+}
+
+export async function downloadImage(imageUrl: string): Promise<DownloadedImage> {
   const res = await fetch(imageUrl, {
     headers: {
       "User-Agent": USER_AGENT,
       Accept: "image/*,*/*;q=0.8",
     },
+    redirect: "follow",
     signal: AbortSignal.timeout(30_000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} fetching image: ${imageUrl}`);
+
+  const contentType = res.headers.get("content-type") || "image/png";
   const arrayBuf = await res.arrayBuffer();
-  return Buffer.from(arrayBuf);
+  const buffer = Buffer.from(arrayBuf);
+
+  // Detect extension from content-type, then URL path, then fallback
+  let extension = contentTypeToExt(contentType);
+  if (!extension) {
+    extension = extFromUrl(imageUrl);
+  }
+  if (!extension) {
+    // Sniff magic bytes: JPEG starts with FF D8, PNG with 89 50 4E 47
+    if (buffer[0] === 0xff && buffer[1] === 0xd8) extension = ".jpg";
+    else if (buffer[0] === 0x89 && buffer[1] === 0x50) extension = ".png";
+    else if (buffer[0] === 0x52 && buffer[1] === 0x49) extension = ".webp"; // RIFF
+    else extension = ".jpg"; // safe default for photos
+  }
+
+  return { buffer, contentType, extension };
+}
+
+function contentTypeToExt(ct: string): string | null {
+  const mime = ct.split(";")[0].trim().toLowerCase();
+  const map: Record<string, string> = {
+    "image/jpeg": ".jpg",
+    "image/jpg": ".jpg",
+    "image/png": ".png",
+    "image/webp": ".webp",
+    "image/gif": ".gif",
+  };
+  return map[mime] || null;
+}
+
+function extFromUrl(url: string): string | null {
+  try {
+    const pathname = new URL(url).pathname.toLowerCase();
+    for (const ext of [".png", ".jpg", ".jpeg", ".webp", ".gif"]) {
+      if (pathname.endsWith(ext)) return ext === ".jpeg" ? ".jpg" : ext;
+    }
+  } catch { /* ignore */ }
+  return null;
 }
 
 // ---------------------------------------------------------------------------
