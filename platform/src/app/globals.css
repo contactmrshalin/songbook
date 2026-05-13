@@ -428,3 +428,35 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 0.75rem 0;
   }
 }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Admin Panel
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.admin-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  transition: all 0.2s;
+  outline: none;
+}
+
+.admin-input:focus {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+.admin-input::placeholder {
+  color: var(--text-muted);
+}
+
+.admin-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
