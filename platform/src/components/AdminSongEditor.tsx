@@ -17,6 +17,9 @@ import {
   Image as ImageIcon,
   FileJson,
   ExternalLink,
+  Search,
+  List,
+  X,
 } from "lucide-react";
 import type { Song, SongSection, SongLine } from "@/types/song";
 
@@ -24,11 +27,33 @@ interface Props {
   password: string;
 }
 
+type Tab = "scrape" | "manage";
 type Step = "scrape" | "edit" | "published";
 
+interface SongListItem {
+  id: string;
+  title: string;
+  sections: number;
+  lines: number;
+  inOrder: boolean;
+}
+
 export default function AdminSongEditor({ password }: Props) {
-  // Step management
+  // Tab + step management
+  const [tab, setTab] = useState<Tab>("scrape");
   const [step, setStep] = useState<Step>("scrape");
+
+  // Manage songs state
+  const [songList, setSongList] = useState<SongListItem[]>([]);
+  const [songListLoading, setSongListLoading] = useState(false);
+  const [songListError, setSongListError] = useState("");
+  const [songSearch, setSongSearch] = useState("");
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [deleteConfirmId, setDeleteConfirmId] = useState<string | null>(null);
+  const [deleteResult, setDeleteResult] = useState<{
+    success: boolean;
+    message: string;
+  } | null>(null);
 
   // Scrape state
   const [url, setUrl] = useState("");
@@ -233,6 +258,80 @@ export default function AdminSongEditor({ password }: Props) {
   };
 
   // -----------------------------------------------------------------------
+  // Manage songs — load list
+  // -----------------------------------------------------------------------
+  const loadSongList = async () => {
+    setSongListLoading(true);
+    setSongListError("");
+    setDeleteResult(null);
+
+    try {
+      const res = await fetch("/api/admin/songs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        setSongListError(data.error || "Failed to load songs");
+        return;
+      }
+
+      setSongList(data.songs);
+    } catch (err) {
+      setSongListError(err instanceof Error ? err.message : "Network error");
+    } finally {
+      setSongListLoading(false);
+    }
+  };
+
+  // -----------------------------------------------------------------------
+  // Manage songs — delete
+  // -----------------------------------------------------------------------
+  const handleDelete = async (songId: string) => {
+    setDeletingId(songId);
+    setDeleteResult(null);
+
+    try {
+      const res = await fetch("/api/admin/delete", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ songId, password, deleteImage: true }),
+      });
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        setDeleteResult({
+          success: false,
+          message: data.error || "Delete failed",
+        });
+        return;
+      }
+
+      setDeleteResult({ success: true, message: data.message });
+      // Remove from local list
+      setSongList((prev) => prev.filter((s) => s.id !== songId));
+      setDeleteConfirmId(null);
+    } catch (err) {
+      setDeleteResult({
+        success: false,
+        message: err instanceof Error ? err.message : "Network error",
+      });
+    } finally {
+      setDeletingId(null);
+    }
+  };
+
+  const filteredSongs = songList.filter((s) => {
+    if (!songSearch.trim()) return true;
+    const q = songSearch.toLowerCase();
+    return (
+      s.id.toLowerCase().includes(q) || s.title.toLowerCase().includes(q)
+    );
+  });
+
+  // -----------------------------------------------------------------------
   // Reset for new song
   // -----------------------------------------------------------------------
   const handleReset = () => {
@@ -275,38 +374,237 @@ export default function AdminSongEditor({ password }: Props) {
                   Admin Panel
                 </h1>
                 <p className="text-[0.65rem] text-[var(--text-muted)] -mt-0.5 tracking-wider uppercase">
-                  Scrape &amp; Publish Songs
+                  Scrape, Publish &amp; Manage
                 </p>
               </div>
             </Link>
 
-            {/* Step indicator */}
-            <div className="flex items-center gap-2 text-sm">
-              <StepBadge
-                label="1. Scrape"
-                active={step === "scrape"}
-                done={step === "edit" || step === "published"}
-              />
-              <span className="text-[var(--text-muted)]">→</span>
-              <StepBadge
-                label="2. Edit"
-                active={step === "edit"}
-                done={step === "published"}
-              />
-              <span className="text-[var(--text-muted)]">→</span>
-              <StepBadge
-                label="3. Publish"
-                active={step === "published"}
-                done={false}
-              />
+            {/* Tab switcher + Step indicator */}
+            <div className="flex items-center gap-3 text-sm">
+              {/* Tab buttons */}
+              <div className="flex items-center bg-[var(--bg-secondary)] rounded-xl p-1 border border-[var(--border-light)]">
+                <button
+                  onClick={() => { setTab("scrape"); }}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors flex items-center gap-1.5 ${
+                    tab === "scrape"
+                      ? "bg-[var(--accent-primary)] text-white"
+                      : "text-[var(--text-muted)] hover:text-[var(--text-primary)]"
+                  }`}
+                >
+                  <Globe className="w-3.5 h-3.5" />
+                  Scrape
+                </button>
+                <button
+                  onClick={() => { setTab("manage"); if (songList.length === 0) loadSongList(); }}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors flex items-center gap-1.5 ${
+                    tab === "manage"
+                      ? "bg-[var(--accent-primary)] text-white"
+                      : "text-[var(--text-muted)] hover:text-[var(--text-primary)]"
+                  }`}
+                >
+                  <List className="w-3.5 h-3.5" />
+                  Manage
+                </button>
+              </div>
+
+              {/* Step indicator — only show on scrape tab */}
+              {tab === "scrape" && (
+                <div className="hidden sm:flex items-center gap-2">
+                  <StepBadge
+                    label="1. Scrape"
+                    active={step === "scrape"}
+                    done={step === "edit" || step === "published"}
+                  />
+                  <span className="text-[var(--text-muted)]">→</span>
+                  <StepBadge
+                    label="2. Edit"
+                    active={step === "edit"}
+                    done={step === "published"}
+                  />
+                  <span className="text-[var(--text-muted)]">→</span>
+                  <StepBadge
+                    label="3. Publish"
+                    active={step === "published"}
+                    done={false}
+                  />
+                </div>
+              )}
+
+              {tab === "manage" && songList.length > 0 && (
+                <span className="text-xs text-[var(--text-muted)]">
+                  {songList.length} songs
+                </span>
+              )}
             </div>
           </div>
         </div>
       </header>
 
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* ============== MANAGE SONGS TAB ============== */}
+        {tab === "manage" && (
+          <div className="space-y-4">
+            {/* Search bar */}
+            <div className="flex items-center gap-3">
+              <div className="relative flex-1">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" />
+                <input
+                  type="text"
+                  value={songSearch}
+                  onChange={(e) => setSongSearch(e.target.value)}
+                  placeholder="Search songs by title or ID..."
+                  className="admin-input pl-10"
+                  autoFocus
+                />
+                {songSearch && (
+                  <button
+                    onClick={() => setSongSearch("")}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-[var(--text-primary)]"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+              <button
+                onClick={loadSongList}
+                disabled={songListLoading}
+                className="px-4 py-2.5 rounded-xl bg-[var(--bg-secondary)] border border-[var(--border-light)] text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--border-light)] transition-colors disabled:opacity-50 flex items-center gap-2"
+              >
+                {songListLoading ? (
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                ) : (
+                  <List className="w-4 h-4" />
+                )}
+                Refresh
+              </button>
+            </div>
+
+            {/* Delete result banner */}
+            {deleteResult && (
+              <div
+                className={`flex items-center gap-2 p-3 rounded-xl text-sm ${
+                  deleteResult.success
+                    ? "bg-green-500/10 border border-green-500/20 text-green-500"
+                    : "bg-red-500/10 border border-red-500/20 text-red-400"
+                }`}
+              >
+                {deleteResult.success ? (
+                  <CheckCircle2 className="w-4 h-4 shrink-0" />
+                ) : (
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                )}
+                {deleteResult.message}
+              </div>
+            )}
+
+            {/* Error */}
+            {songListError && (
+              <div className="flex items-center gap-2 p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm">
+                <AlertCircle className="w-4 h-4 shrink-0" />
+                {songListError}
+              </div>
+            )}
+
+            {/* Loading */}
+            {songListLoading && songList.length === 0 && (
+              <div className="text-center py-12 text-[var(--text-muted)]">
+                <Loader2 className="w-6 h-6 animate-spin mx-auto mb-3" />
+                Loading songs from GitHub...
+              </div>
+            )}
+
+            {/* Song list */}
+            {!songListLoading && songList.length === 0 && !songListError && (
+              <div className="text-center py-12 text-[var(--text-muted)]">
+                <List className="w-8 h-8 mx-auto mb-3 opacity-50" />
+                <p>No songs loaded yet.</p>
+                <button
+                  onClick={loadSongList}
+                  className="mt-3 text-sm text-[var(--accent-primary)] hover:underline"
+                >
+                  Load song list from GitHub
+                </button>
+              </div>
+            )}
+
+            {filteredSongs.length > 0 && (
+              <div className="space-y-2">
+                {songSearch && (
+                  <p className="text-xs text-[var(--text-muted)]">
+                    Showing {filteredSongs.length} of {songList.length} songs
+                  </p>
+                )}
+
+                {filteredSongs.map((s) => (
+                  <div
+                    key={s.id}
+                    className="glass rounded-xl border border-[var(--border-light)] px-4 py-3 flex items-center justify-between gap-4"
+                  >
+                    <div className="min-w-0 flex-1">
+                      <div className="font-medium text-[var(--text-primary)] truncate">
+                        {s.title}
+                      </div>
+                      <div className="text-xs text-[var(--text-muted)] mt-0.5">
+                        <span className="font-mono">{s.id}</span>
+                        <span className="mx-1.5">·</span>
+                        {s.sections} sections · {s.lines} lines
+                      </div>
+                    </div>
+
+                    {deleteConfirmId === s.id ? (
+                      <div className="flex items-center gap-2 shrink-0">
+                        <span className="text-xs text-red-400 font-medium">
+                          Delete?
+                        </span>
+                        <button
+                          onClick={() => handleDelete(s.id)}
+                          disabled={deletingId === s.id}
+                          className="px-3 py-1.5 rounded-lg bg-red-600 text-white text-xs font-medium hover:bg-red-700 transition-colors disabled:opacity-50 flex items-center gap-1"
+                        >
+                          {deletingId === s.id ? (
+                            <Loader2 className="w-3 h-3 animate-spin" />
+                          ) : (
+                            <Trash2 className="w-3 h-3" />
+                          )}
+                          Confirm
+                        </button>
+                        <button
+                          onClick={() => setDeleteConfirmId(null)}
+                          className="px-3 py-1.5 rounded-lg border border-[var(--border-light)] text-xs font-medium text-[var(--text-muted)] hover:bg-[var(--bg-secondary)] transition-colors"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={() => {
+                          setDeleteConfirmId(s.id);
+                          setDeleteResult(null);
+                        }}
+                        className="p-2 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors shrink-0"
+                        title={`Delete ${s.title}`}
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {songList.length > 0 && filteredSongs.length === 0 && songSearch && (
+              <div className="text-center py-8 text-[var(--text-muted)]">
+                <Search className="w-6 h-6 mx-auto mb-2 opacity-50" />
+                <p className="text-sm">
+                  No songs match &quot;{songSearch}&quot;
+                </p>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* ============== STEP 1: SCRAPE ============== */}
-        {step === "scrape" && (
+        {tab === "scrape" && step === "scrape" && (
           <div className="max-w-2xl mx-auto">
             <div className="glass rounded-2xl p-6 border border-[var(--border-light)] shadow-xl">
               <div className="flex items-center gap-2 mb-6">
@@ -392,7 +690,7 @@ export default function AdminSongEditor({ password }: Props) {
         )}
 
         {/* ============== STEP 2: EDIT ============== */}
-        {step === "edit" && song && (
+        {tab === "scrape" && step === "edit" && song && (
           <div className="space-y-6">
             {/* Back + summary bar */}
             <div className="flex items-center justify-between">
@@ -658,7 +956,7 @@ export default function AdminSongEditor({ password }: Props) {
         )}
 
         {/* ============== STEP 3: PUBLISHED ============== */}
-        {step === "published" && publishResult?.success && (
+        {tab === "scrape" && step === "published" && publishResult?.success && (
           <div className="max-w-lg mx-auto text-center py-12">
             <div className="w-16 h-16 rounded-full bg-green-500/20 flex items-center justify-center mx-auto mb-6">
               <CheckCircle2 className="w-8 h-8 text-green-500" />

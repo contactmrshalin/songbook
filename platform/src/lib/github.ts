@@ -226,3 +226,117 @@ export async function uploadImage(
     };
   }
 }
+
+/**
+ * Delete files from the repo in a single atomic commit using the Git Data API.
+ *
+ * Works by creating a new tree that omits the deleted paths (sha: null).
+ */
+export async function deleteFiles(
+  paths: string[],
+  message: string
+): Promise<CommitResult> {
+  try {
+    // 1. Get the latest commit SHA on the branch
+    const refRes = await githubApi(
+      `/repos/${REPO_OWNER}/${REPO_NAME}/git/refs/heads/${BRANCH}`
+    );
+    if (!refRes.ok) {
+      return { success: false, error: `Failed to get branch ref: ${refRes.status}` };
+    }
+    const refData = await refRes.json();
+    const latestCommitSha = refData.object.sha;
+
+    // 2. Get the tree SHA of the latest commit
+    const commitRes = await githubApi(
+      `/repos/${REPO_OWNER}/${REPO_NAME}/git/commits/${latestCommitSha}`
+    );
+    if (!commitRes.ok) {
+      return { success: false, error: `Failed to get commit: ${commitRes.status}` };
+    }
+    const commitData = await commitRes.json();
+    const baseTreeSha = commitData.tree.sha;
+
+    // 3. Build tree entries — setting sha to null deletes the file
+    const treeItems = paths.map((p) => ({
+      path: p,
+      mode: "100644" as const,
+      type: "blob" as const,
+      sha: null,
+    }));
+
+    // 4. Create a new tree
+    const treeRes = await githubApi(
+      `/repos/${REPO_OWNER}/${REPO_NAME}/git/trees`,
+      {
+        method: "POST",
+        body: JSON.stringify({
+          base_tree: baseTreeSha,
+          tree: treeItems,
+        }),
+      }
+    );
+    if (!treeRes.ok) {
+      return { success: false, error: `Failed to create tree: ${treeRes.status}` };
+    }
+    const treeData = await treeRes.json();
+
+    // 5. Create the commit
+    const newCommitRes = await githubApi(
+      `/repos/${REPO_OWNER}/${REPO_NAME}/git/commits`,
+      {
+        method: "POST",
+        body: JSON.stringify({
+          message,
+          tree: treeData.sha,
+          parents: [latestCommitSha],
+        }),
+      }
+    );
+    if (!newCommitRes.ok) {
+      return { success: false, error: `Failed to create commit: ${newCommitRes.status}` };
+    }
+    const newCommitData = await newCommitRes.json();
+
+    // 6. Update the branch reference
+    const updateRefRes = await githubApi(
+      `/repos/${REPO_OWNER}/${REPO_NAME}/git/refs/heads/${BRANCH}`,
+      {
+        method: "PATCH",
+        body: JSON.stringify({
+          sha: newCommitData.sha,
+        }),
+      }
+    );
+    if (!updateRefRes.ok) {
+      return { success: false, error: `Failed to update branch: ${updateRefRes.status}` };
+    }
+
+    return { success: true, commitSha: newCommitData.sha };
+  } catch (err) {
+    return {
+      success: false,
+      error: err instanceof Error ? err.message : String(err),
+    };
+  }
+}
+
+/**
+ * List files in a directory of the repo.
+ * Returns an array of {name, path, type} objects.
+ */
+export async function listRepoDir(
+  dirPath: string
+): Promise<{ name: string; path: string; type: string }[] | null> {
+  const res = await githubApi(
+    `/repos/${REPO_OWNER}/${REPO_NAME}/contents/${dirPath}?ref=${BRANCH}`
+  );
+  if (!res.ok) return null;
+  const data = await res.json();
+  if (!Array.isArray(data)) return null;
+  return data.map((item: { name: string; path: string; type: string }) => ({
+    name: item.name,
+    path: item.path,
+    type: item.type,
+  }));
+}
