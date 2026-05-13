@@ -126,14 +126,23 @@ export default function SongGallery({ songs }: SongGalleryProps) {
 
       {/* Song grid with in-feed ads */}
       {filteredSongs.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {filteredSongs.map((song, idx) => (
-            <div key={song.id} className="contents">
-              <SongCard song={song} />
-              {/* In-feed ad after every N cards */}
-              {(idx + 1) % ADS_CONFIG.homeFeedInterval === 0 &&
-                idx < filteredSongs.length - 1 && (
-                  <div className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-5">
+        <div className="space-y-4">
+          {(() => {
+            const chunks: Song[][] = [];
+            const interval = ADS_CONFIG.homeFeedInterval;
+            for (let i = 0; i < filteredSongs.length; i += interval) {
+              chunks.push(filteredSongs.slice(i, i + interval));
+            }
+            return chunks.map((chunk, chunkIdx) => (
+              <div key={chunkIdx}>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                  {chunk.map((song) => (
+                    <SongCard key={song.id} song={song} />
+                  ))}
+                </div>
+                {/* In-feed ad between chunks (not after the last one) */}
+                {chunkIdx < chunks.length - 1 && (
+                  <div className="my-4">
                     <AdBanner
                       slot={AD_SLOTS.HOME_FEED}
                       format="horizontal"
@@ -141,8 +150,9 @@ export default function SongGallery({ songs }: SongGalleryProps) {
                     />
                   </div>
                 )}
-            </div>
-          ))}
+              </div>
+            ));
+          })()}
         </div>
       ) : (
         <div className="flex flex-col items-center justify-center py-20 text-center">
