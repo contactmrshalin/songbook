@@ -50,11 +50,22 @@ export async function POST(request: Request) {
       try {
         const img = await downloadImage(imageUrl.trim());
         const filename = `${song.id}${img.extension}`;
+        const base64Content = img.buffer.toString("base64");
+
+        // Commit to data/images/ (for Hugo / GitHub Pages site)
         filesToCommit.push({
           path: `data/images/${filename}`,
-          content: img.buffer.toString("base64"),
+          content: base64Content,
           encoding: "base64",
         });
+
+        // Also commit to platform/public/song-images/ (for Vercel / Next.js site)
+        filesToCommit.push({
+          path: `platform/public/song-images/${filename}`,
+          content: base64Content,
+          encoding: "base64",
+        });
+
         imagePath = `images/${filename}`;
         // Update song thumbnail/background to match actual file
         song.thumbnail = imagePath;
