@@ -39,16 +39,16 @@ export const ADSENSE_PUBLISHER_ID: string = "ca-pub-6628890818019640";
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 export const AD_SLOTS = {
   /** Below song hero — Leaderboard (728×90 or responsive) */
-  SONG_TOP: "1234567890",
+  SONG_TOP: "4763967009",
 
   /** Between song sections — In-article ad (responsive) */
-  SONG_MID: "1234567891",
+  SONG_MID: "5300970310",
 
   /** After notation, before player — Rectangle (336×280 or responsive) */
-  SONG_BOTTOM: "1234567892",
+  SONG_BOTTOM: "5292020002",
 
   /** Homepage — between song cards in the grid */
-  HOME_FEED: "1234567893",
+  HOME_FEED: "7045296826",
 
   /** Homepage — top banner below header */
   HOME_TOP: "1234567894",
