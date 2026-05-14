@@ -39,34 +39,40 @@ export default function AdBanner({
     if (!isAdSenseConfigured()) return;
     if (isLoaded.current) return;
 
-    try {
-      const adsbygoogle = (window as unknown as Record<string, unknown[]>)
-        .adsbygoogle;
-      if (adsbygoogle) {
-        adsbygoogle.push({});
+    // Ensure adsbygoogle array exists, then push to request an ad
+    const tryLoad = () => {
+      try {
+        const win = window as unknown as Record<string, unknown[]>;
+        win.adsbygoogle = win.adsbygoogle || [];
+        win.adsbygoogle.push({});
         isLoaded.current = true;
+      } catch {
+        // AdSense not loaded or blocked by ad blocker — fail silently
       }
-    } catch {
-      // AdSense not loaded or blocked by ad blocker — fail silently
+    };
+
+    // If the AdSense script hasn't loaded yet, wait for it
+    if (typeof (window as unknown as Record<string, unknown>).adsbygoogle !== "undefined") {
+      tryLoad();
+    } else {
+      // Poll briefly for the script to load (max ~3s)
+      let attempts = 0;
+      const interval = setInterval(() => {
+        attempts++;
+        if (typeof (window as unknown as Record<string, unknown>).adsbygoogle !== "undefined") {
+          clearInterval(interval);
+          tryLoad();
+        } else if (attempts > 15) {
+          clearInterval(interval);
+        }
+      }, 200);
+      return () => clearInterval(interval);
     }
   }, []);
 
   // Don't render anything if AdSense isn't configured
   if (!isAdSenseConfigured()) {
-    return (
-      <div className={`ad-placeholder ${className}`}>
-        <div
-          className="flex items-center justify-center rounded-lg border-2 border-dashed
-                      border-[var(--border-light)] bg-[var(--bg-secondary)]/50 py-4 px-6
-                      text-xs text-[var(--text-muted)]"
-        >
-          Ad Space — Configure your AdSense Publisher ID in{" "}
-          <code className="mx-1 px-1.5 py-0.5 bg-[var(--bg-tertiary)] rounded text-[10px]">
-            src/lib/ads.config.ts
-          </code>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   return (
