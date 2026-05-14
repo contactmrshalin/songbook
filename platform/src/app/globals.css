@@ -391,13 +391,13 @@ input[type="range"]::-webkit-slider-thumb {
   width: 100%;
 }
 
-/* Collapse unfilled/empty ad containers so they don't leave blank gaps */
-.ad-container:has(.adsbygoogle[data-ad-status="unfilled"]),
-.ad-container:has(.adsbygoogle:empty) {
+/*
+ * Collapse ad containers only AFTER AdSense has processed them
+ * and explicitly marked them as unfilled. Never hide :empty —
+ * that would prevent AdSense from loading in the first place.
+ */
+.ad-container:has(> .adsbygoogle[data-ad-status="unfilled"]) {
   display: none !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 /* Song page ad spacing */
