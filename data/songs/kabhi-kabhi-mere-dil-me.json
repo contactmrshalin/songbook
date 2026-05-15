@@ -19,11 +19,11 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "Pa PaMa(T) | DhaPa...Ma(T) | Ma(T)~GaGa | Re Re | Ga"
+          "indian": "Pa PaMa(T) | DhaPa .Ma(T) | Ma(T)~GaGa | Re Re | Ga"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "Ga~Ma(T) Ga~DhaPa | Pa...Ma(T) GaRe | GaReSa"
+          "indian": "Ga~Ma(T) Ga~DhaPa | Pa .Ma(T) GaRe | GaReSa"
         },
         {
           "lyrics": "Kee | jaise | tujhko | banaya",
@@ -39,11 +39,11 @@
         },
         {
           "lyrics": "bas | rahee | thi | kahee",
-          "indian": "PaPa | PaMa(T) Pa... | Ma(T) | DhaPa Ma(T)Ga"
+          "indian": "PaPa | PaMa(T) Pa . | Ma(T) | DhaPa Ma(T)Ga"
         },
         {
           "lyrics": "Tujhe | jamin pe | bulaya",
-          "indian": "Ga Ga | Ga Re... | Ga | Re Re(Ga)Re Ga"
+          "indian": "Ga Ga | Ga Re . | Ga | Re Re(Ga)Re Ga"
         },
         {
           "lyrics": "gaya | hai | mere | liye",
@@ -51,11 +51,11 @@
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "Pa PaMa(T) | DhaPa...Ma(T) | Ma(T)~GaGa | Re Re | Ga"
+          "indian": "Pa PaMa(T) | DhaPa .Ma(T) | Ma(T)~GaGa | Re Re | Ga"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "Ga~Ma(T) Ga~DhaPa | Pa...Ma(T) GaRe | GaReSa"
+          "indian": "Ga~Ma(T) Ga~DhaPa | Pa .Ma(T) GaRe | GaReSa"
         }
       ]
     },
@@ -64,7 +64,7 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Ga... Pa Dha | Pa Dha Pa | GaRe Sa | Re Ga"
+          "indian": "Ga . Pa Dha | Pa Dha Pa | GaRe Sa | Re Ga"
         }
       ]
     },
@@ -73,15 +73,15 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "Pa PaMa(T) | DhaPa...Ma(T) | Ma(T)~GaGa | Re Re | Ga"
+          "indian": "Pa PaMa(T) | DhaPa .Ma(T) | Ma(T)~GaGa | Re Re | Ga"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "Ga~Ma(T) Ga~DhaPa | Pa...Ma(T) GaRe | GaReSa"
+          "indian": "Ga~Ma(T) Ga~DhaPa | Pa .Ma(T) GaRe | GaReSa"
         },
         {
           "lyrics": "Kee | yeh | badan | yeh | nigahe",
-          "indian": "Ga | Ga | Ga Re... | Ga | Ga Re... Ga"
+          "indian": "Ga | Ga | Ga Re . | Ga | Ga Re . Ga"
         },
         {
           "lyrics": "meree | amanat | hain",
@@ -93,15 +93,15 @@
         },
         {
           "lyrics": "ghanee | chhaon | hain",
-          "indian": "Pa Pa | PaDha Dha...(Ni)DhaPa | Pa"
+          "indian": "Pa Pa | PaDha Dha .(Ni)DhaPa | Pa"
         },
         {
           "lyrics": "meree | khatir",
-          "indian": "Pa(Ma(T))Pa... | Ma(T)DhaPa Ma(T)~Ga"
+          "indian": "Pa(Ma(T))Pa . | Ma(T)DhaPa Ma(T)~Ga"
         },
         {
           "lyrics": "Yeh | honth | aur | yeh | baahe",
-          "indian": "Ga | Ga...Ga | Re GaGa | Ga | Re... Ga"
+          "indian": "Ga | Ga .Ga | Re GaGa | Ga | Re . Ga"
         },
         {
           "lyrics": "meree amanat hain",
@@ -109,11 +109,11 @@
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "Pa PaMa(T) | DhaPa...Ma(T) | Ma(T)~GaGa | Re Re | Ga"
+          "indian": "Pa PaMa(T) | DhaPa .Ma(T) | Ma(T)~GaGa | Re Re | Ga"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "Ga~Ma(T) Ga~DhaPa | Pa...Ma(T) GaRe | GaReSa"
+          "indian": "Ga~Ma(T) Ga~DhaPa | Pa .Ma(T) GaRe | GaReSa"
         }
       ]
     },
@@ -122,11 +122,11 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Sa Re | (Sa)Re Ga | Ga Re Sa Dha. | Sa... Re"
+          "indian": "Sa Re | (Sa)Re Ga | Ga Re Sa Dha. | Sa . Re"
         },
         {
           "lyrics": "",
-          "indian": "Sa' DhaDha...Sa' | Dha~Pa... | Sa'~Dha... | Dha~Sa'"
+          "indian": "Sa' DhaDha .Sa' | Dha~Pa . | Sa'~Dha . | Dha~Sa'"
         },
         {
           "lyrics": "",
@@ -155,7 +155,7 @@
         },
         {
           "lyrics": "MUSIC:",
-          "indian": "(Re)Ga...Pa | GaRe... | Sa Dha.Sa Dha.~Sa...."
+          "indian": "(Re)Ga .Pa | GaRe . | Sa Dha.Sa Dha.~Sa"
         },
         {
           "lyrics": "Kee | jaise | bajatee | hain",
@@ -171,11 +171,11 @@
         },
         {
           "lyrics": "ghunghat | utha | raha | hu | mai",
-          "indian": "Pa~Sa Ni~Dha | Ni Dha Pa | Pa Pa... | Ma(T)DhaPa | Ma(T)Ga"
+          "indian": "Pa~Sa Ni~Dha | Ni Dha Pa | Pa Pa . | Ma(T)DhaPa | Ma(T)Ga"
         },
         {
           "lyrics": "MUSIC:",
-          "indian": "Sa'... Ni DhaPa | {DhaNiDhaNi}Dha Pa...Ma(T) | {DhaPaMa(T)Ga}"
+          "indian": "Sa' . Ni DhaPa | {DhaNiDhaNi}Dha Pa .Ma(T) | {DhaPaMa(T)Ga}"
         },
         {
           "lyrics": "Suhag | rat | hain",
@@ -183,7 +183,7 @@
         },
         {
           "lyrics": "ghunghat | utha | raha | hu | mai",
-          "indian": "Pa~Sa Ni~Dha | Ni Dha Pa | Pa Pa... | Ma(T)DhaPa | Ma(T)Ga"
+          "indian": "Pa~Sa Ni~Dha | Ni Dha Pa | Pa Pa . | Ma(T)DhaPa | Ma(T)Ga"
         },
         {
           "lyrics": "Simat | rahee | hai | tu",
@@ -200,15 +200,15 @@
       "lines": [
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "Pa PaMa(T) | DhaPa...Ma(T) | Ma(T)~GaGa | Re Re | Ga"
+          "indian": "Pa PaMa(T) | DhaPa .Ma(T) | Ma(T)~GaGa | Re Re | Ga"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "Ga~Ma(T) Ga~DhaPa | Pa...Ma(T) GaRe | GaReSa"
+          "indian": "Ga~Ma(T) Ga~DhaPa | Pa .Ma(T) GaRe | GaReSa"
         },
         {
           "lyrics": "Ke | jaise | tu | mujhe chaahegi",
-          "indian": "Ga | Ga Ga | Re...Ga | Ga Ga | Re Ga...Re"
+          "indian": "Ga | Ga Ga | Re .Ga | Ga Ga | Re Ga .Re"
         },
         {
           "lyrics": "umra | bhar | yun | hi",
@@ -220,23 +220,23 @@
         },
         {
           "lyrics": "pyaar | ki | najar | yun | hi",
-          "indian": "Pa Dha...Dha(Ni)DhaPa | Pa | Pa(Ma(T))Pa... | Ma(T)(Dha)Pa | Ma(T)~Ga"
+          "indian": "Pa Dha .Dha(Ni)DhaPa | Pa | Pa(Ma(T))Pa . | Ma(T)(Dha)Pa | Ma(T)~Ga"
         },
         {
           "lyrics": "Main | jaanata | hun | ke | tu",
-          "indian": "Ga | Ga Ga Re...Ga | Ga | Ga | Re"
+          "indian": "Ga | Ga Ga Re .Ga | Ga | Ga | Re"
         },
         {
           "lyrics": "gair | hai | magar | yun | hi",
-          "indian": "Ga...Re | GaReSa | Sa SaRe Re(Ga)Re | Sa | Sa Ni. Dha"
+          "indian": "Ga .Re | GaReSa | Sa SaRe Re(Ga)Re | Sa | Sa Ni. Dha"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
-          "indian": "Pa PaMa(T) | DhaPa...Ma(T) | Ma(T)~GaGa | Re Re | Ga"
+          "indian": "Pa PaMa(T) | DhaPa .Ma(T) | Ma(T)~GaGa | Re Re | Ga"
         },
         {
           "lyrics": "khayal | aata | hai",
-          "indian": "Ga~Ma(T) Ga~DhaPa | Pa...Ma(T) GaRe | GaReSa"
+          "indian": "Ga~Ma(T) Ga~DhaPa | Pa .Ma(T) GaRe | GaReSa"
         }
       ]
     }

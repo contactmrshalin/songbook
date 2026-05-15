@@ -15,19 +15,19 @@
       "lines": [
         {
           "lyrics": "Pehle bhi main tumse mila hoon",
-          "indian": "Ga..Re..Sa..Re..Ga.. Ga..Re..Sa..Re..Ga...Re.."
+          "indian": "Ga Re Sa Re Ga  Ga Re Sa Re Ga .Re"
         },
         {
           "lyrics": "Pehli dafa hi milke laga",
-          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k).."
+          "indian": "Ga Re Sa Re Ga .Re  Ga Re Sa Ni(k) Ni(k)"
         },
         {
           "lyrics": "Toone chhua zakhmon ko mere",
-          "indian": "Ga..Re..Sa..Re..Ga...Pa...Ga.. Ga..Re..Sa..Re..Ga...Re.."
+          "indian": "Ga Re Sa Re Ga .Pa .Ga  Ga Re Sa Re Ga .Re"
         },
         {
           "lyrics": "Marham marham dil pe laga",
-          "indian": "Ga..Re..Sa..Re..Ga...Re.. Ga..Re..Sa..Ni(k)..Ni(k).."
+          "indian": "Ga Re Sa Re Ga .Re  Ga Re Sa Ni(k) Ni(k)"
         }
       ]
     },
@@ -36,15 +36,15 @@
       "lines": [
         {
           "lyrics": "Paagal paagal hain thode",
-          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha.."
+          "indian": "Sa' Sa'  Sa' Sa' Dha Pa Dha"
         },
         {
           "lyrics": "Baadal baadal hain dono",
-          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Pa..Dha.."
+          "indian": "Sa' Sa'  Sa' Sa' Dha Pa Dha"
         },
         {
           "lyrics": "Khul ke barse bheege aa zara",
-          "indian": "Sa'..Sa'.. Sa'..Sa'..Dha..Dha..Sa'..Ga'.Re'..."
+          "indian": "Sa' Sa'  Sa' Sa' Dha Dha Sa' Ga'.Re' ."
         }
       ]
     },
@@ -53,19 +53,19 @@
       "lines": [
         {
           "lyrics": "Pehle bhi main tumse mila hoon",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'.."
+          "indian": "Ga' Re' Sa' Re' Ga'  Ga' Re' Sa' Re' Ga' .Re'"
         },
         {
           "lyrics": "Pehli dafa hi milke laga…",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni..Sa'..Re'..."
+          "indian": "Ga' Re' Sa' Re' Ga' .Re'  Ga' Re' Sa' Ni Ni Dha.Ni Sa' Re' ."
         },
         {
           "lyrics": "Toone chhua zakhmon ko mere",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Pa'...Ga'.. Ga'..Re'..Sa'..Re'..Ga'...Re'.."
+          "indian": "Ga' Re' Sa' Re' Ga' .Pa' .Ga'  Ga' Re' Sa' Re' Ga' .Re'"
         },
         {
           "lyrics": "Marham marham dil pe laga",
-          "indian": "Ga'..Re'..Sa'..Re'..Ga'...Re'.. Ga'..Re'..Sa'..Ni..Ni..Dha.Ni.."
+          "indian": "Ga' Re' Sa' Re' Ga' .Re'  Ga' Re' Sa' Ni Ni Dha.Ni"
         }
       ]
     }

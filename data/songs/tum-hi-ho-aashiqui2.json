@@ -17,7 +17,7 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Dha.. Sa Ga Ga ma Sa Re Ni."
+          "indian": "Dha  Sa Ga Ga ma Sa Re Ni."
         }
       ]
     },
@@ -46,7 +46,7 @@
         },
         {
           "lyrics": "Jindagi, ab tum hi ho…",
-          "indian": "Ni. Re Sa Ni. Dha. Ni. Pa. Dha.. Ni. Sa Re"
+          "indian": "Ni. Re Sa Ni. Dha. Ni. Pa. Dha  Ni. Sa Re"
         },
         {
           "lyrics": "Chain bhi, mera dard bhi",
@@ -54,7 +54,7 @@
         },
         {
           "lyrics": "Meri aashiqui, ab tum hi ho",
-          "indian": "Ni. Ni. Ni. Re Sa Ni. Dha. Ni. Pa. Dha.."
+          "indian": "Ni. Ni. Ni. Re Sa Ni. Dha. Ni. Pa. Dha"
         }
       ]
     },
@@ -63,19 +63,19 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Dha.. Ni. Sa Re"
+          "indian": "Dha  Ni. Sa Re"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga.. Re Ga.. Re Sa Ni."
+          "indian": "Re Ga  Re Ga  Re Sa Ni."
         },
         {
           "lyrics": "",
-          "indian": "Re Ga.. Re Ga.. Re Sa Ni."
+          "indian": "Re Ga  Re Ga  Re Sa Ni."
         },
         {
           "lyrics": "",
-          "indian": "Sa Re.. Sa Re.. Sa Ni. Dha. Ni. Dha."
+          "indian": "Sa Re  Sa Re  Sa Ni. Dha. Ni. Dha."
         }
       ]
     },
@@ -104,7 +104,7 @@
         },
         {
           "lyrics": "Har saans pe naam tera",
-          "indian": "Ga Dha Pa Dha Dha Ga Ga Re Re Sa Re Sa.. Ni. Sa Ni.."
+          "indian": "Ga Dha Pa Dha Dha Ga Ga Re Re Sa Re Sa  Ni. Sa Ni"
         },
         {
           "lyrics": "Kyonki tum hi ho…",
@@ -117,15 +117,15 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Dha.. Ni. Sa Re"
+          "indian": "Dha  Ni. Sa Re"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga.. Re Ga.. Re Sa Ni."
+          "indian": "Re Ga  Re Ga  Re Sa Ni."
         },
         {
           "lyrics": "",
-          "indian": "Sa Re.. Sa Re.. Sa Ni. Dha. Ni. Dha."
+          "indian": "Sa Re  Sa Re  Sa Ni. Dha. Ni. Dha."
         }
       ]
     },
@@ -154,7 +154,7 @@
         },
         {
           "lyrics": "Tujhe paake adhura na raha",
-          "indian": "Ga Dha Pa Dha Dha Ga Ga Re Re Sa Re Sa.. Ni. Sa Ni.."
+          "indian": "Ga Dha Pa Dha Dha Ga Ga Re Re Sa Re Sa  Ni. Sa Ni"
         },
         {
           "lyrics": "Kyonki tum hi ho…",
@@ -171,7 +171,7 @@
         },
         {
           "lyrics": "Jindagi, ab tum hi ho…",
-          "indian": "Re Pa ma Ga Re Ga Sa Re.. Ga ma Pa"
+          "indian": "Re Pa ma Ga Re Ga Sa Re  Ga ma Pa"
         },
         {
           "lyrics": "Chain bhi, mera dard bhi",
@@ -179,7 +179,7 @@
         },
         {
           "lyrics": "Meri aashiqui, ab tum hi ho",
-          "indian": "Ni. Ni. Ni. Re Sa Ni. Dha. Ni. Pa. Dha.."
+          "indian": "Ni. Ni. Ni. Re Sa Ni. Dha. Ni. Pa. Dha"
         }
       ]
     }
