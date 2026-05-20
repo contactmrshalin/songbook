@@ -1,7 +1,13 @@
 {
   "id": "bade-achche-lagte-hain",
   "title": "Bade Achche Lagte Hain",
-  "info": [],
+  "info": [
+    "Film: Balika Badhu (1976)",
+    "Singer: Amit Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi",
+    "Raag: Charukeshi"
+  ],
   "thumbnail": "images/bade_achhe_lagte_hain_thumb.jpeg",
   "background": "images/bade_achhe_lagte_hain_thumb.jpeg",
   "sections": [
@@ -47,5 +53,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "A timeless classic, \"Bade Achche Lagte Hain\" is a tender and melodious ballad that captures the innocent charm of young love. Amit Kumar's soulful rendition, combined with R.D. Burman's exquisite composition, creates a serene and deeply romantic atmosphere, making it a perennial favorite. Its simple yet profound lyrics resonate with listeners across generations.",
+  "trivia": [
+    "This song marked a significant milestone in Amit Kumar's career, establishing him as a prominent playback singer in Bollywood.",
+    "Composed by the legendary R.D. Burman, the song's melody is often cited as being based on the Carnatic Raag Charukeshi, known for its melancholic yet sweet character.",
+    "The song's enduring popularity led to its re-interpretation in various forms, including a popular Indian television serial of the same name.",
+    "Anand Bakshi's simple yet profound lyrics perfectly complement the song's gentle mood, expressing heartfelt affection with understated elegance."
+  ]
 }
