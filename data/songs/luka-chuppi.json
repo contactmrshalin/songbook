@@ -1,0 +1,154 @@
+{
+  "id": "luka-chuppi",
+  "title": "Luka Chuppi",
+  "export": true,
+  "info": [
+    "Film/Artist: Lata Mangeshkar",
+    "Scale: A BASS/MIDDLE"
+  ],
+  "thumbnail": "images/luka-chuppi.jpg",
+  "background": "images/luka-chuppi.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Luka chuppi",
+          "indian": "Ni Ni Ni Ni Re' Sa':"
+        },
+        {
+          "lyrics": "Bahut hui",
+          "indian": "Ni Ni Ni Ni Re' Sa':"
+        },
+        {
+          "lyrics": "Saamne aa",
+          "indian": "Ni Sa' Ni Dha Dha Dha:"
+        },
+        {
+          "lyrics": "Ja naa",
+          "indian": "Dha Pa Pa Dha Ni"
+        },
+        {
+          "lyrics": "Kahan kahan",
+          "indian": "Ni Ni Ni Ni Re' Sa': Sa' Re' Sa' Ni"
+        },
+        {
+          "lyrics": "Dhoondha tujhe",
+          "indian": "Ni Ni Ni Ni Re' Sa':"
+        },
+        {
+          "lyrics": "Thak gayi hai ab",
+          "indian": "Ni Sa' Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "Teri maa",
+          "indian": "Dha Dha Pa Pa Dha Ni"
+        },
+        {
+          "lyrics": "Aaja saanjh hui",
+          "indian": "Pa Dha Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Mujhe teri fikar",
+          "indian": "Dha Pa Sa' Sa' Sa' Ni:"
+        },
+        {
+          "lyrics": "Dhundhla gayi",
+          "indian": "Pa Dha Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Dekh meri nazar",
+          "indian": "Dha Ni Sa' Re' Sa' Sa' Sa' Ni:"
+        },
+        {
+          "lyrics": "Aa ja na",
+          "indian": "Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Aaja saanjh hui",
+          "indian": "Pa Dha Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Mujhe teri fikar",
+          "indian": "Dha Pa Sa' Sa' Sa' Ni:"
+        },
+        {
+          "lyrics": "Dhundhla gayi",
+          "indian": "Pa Dha Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Dekh meri nazar",
+          "indian": "Dha Ni Sa' Re' Sa' Sa' Sa' Ni:"
+        },
+        {
+          "lyrics": "Aa ja na",
+          "indian": "Pa Ma Pa:"
+        },
+        {
+          "lyrics": "Kya bataoon maa kahan hoon main",
+          "indian": "Sa Re Ma: Pa Dha Pa: Pa Pa: Pa Pa: ."
+        },
+        {
+          "lyrics": "Yahan udne ko mere",
+          "indian": "Sa Re Ma Ma Pa Dha Pa: Pa Re Ga Sa"
+        },
+        {
+          "lyrics": "Khula aasmaan hai",
+          "indian": "Ga Ga Sa Re Ga ma Ga Re: Re:"
+        },
+        {
+          "lyrics": "Tere kisson jaisa bhola salona",
+          "indian": "Sa Re Ma Ma Pa Dha Dha Pa: Pa Re Ga Sa"
+        },
+        {
+          "lyrics": "Jahan hain yahan sapno vala",
+          "indian": "Ga Ga Sa Re Ga ma Ga Re Re Sa Sa ni ni pa dha"
+        },
+        {
+          "lyrics": "Meri patang",
+          "indian": "ni ni ni ni Re Sa: Sa Re Sa ni"
+        },
+        {
+          "lyrics": "Ho befikar",
+          "indian": "ni ni ni ni Re Sa: Sa Re Sa ni"
+        },
+        {
+          "lyrics": "Udd rahi hai maa",
+          "indian": "ni Sa ni dha: dha pa pa dha ni"
+        },
+        {
+          "lyrics": "Dor koi",
+          "indian": "ni ni ni ni Re Sa: Sa Re Sa ni"
+        },
+        {
+          "lyrics": "Loote nahin",
+          "indian": "ni ni ni ni Re Sa: Sa Re Sa ni"
+        },
+        {
+          "lyrics": "Beech se kaate na",
+          "indian": "ni Sa ni dha dha: dha pa pa dha ni"
+        },
+        {
+          "lyrics": "Aaja saanjh hui",
+          "indian": "Pa Dha Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Mujhe teri fikar",
+          "indian": "Dha Pa Sa' Sa' Sa' Ni:"
+        },
+        {
+          "lyrics": "Dhundhla gayi",
+          "indian": "Pa Dha Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Dekh meri nazar",
+          "indian": "Dha Ni Sa' Re' Sa' Sa' Sa' Ni:"
+        },
+        {
+          "lyrics": "Aa ja na",
+          "indian": "Pa Ma Pa:"
+        }
+      ]
+    }
+  ]
+}
