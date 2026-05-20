@@ -19,11 +19,13 @@ import NotationToggle from "./NotationToggle";
 import AudioPlayer from "./AudioPlayer";
 import FingeringDiagram from "./FingeringDiagram";
 import AdBanner from "./AdBanner";
+import RandomSongSuggestions from "./RandomSongSuggestions";
 import { AD_SLOTS, ADS_CONFIG } from "@/lib/ads.config";
 import type { Song } from "@/types/song";
 
 interface SongViewerProps {
   song: Song;
+  otherSongs?: Song[];
 }
 
 function extractMeta(info: string[]): Record<string, string> {
@@ -44,7 +46,7 @@ function extractMeta(info: string[]): Record<string, string> {
   return meta;
 }
 
-export default function SongViewer({ song }: SongViewerProps) {
+export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
   const { currentNoteIndex, showFingerings, setShowFingerings } = useAppStore();
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
     () => new Set(song.sections.map((_, i) => i))
@@ -347,6 +349,11 @@ export default function SongViewer({ song }: SongViewerProps) {
               )}
           </div>
         ))}
+
+        {/* Random song suggestions */}
+        {otherSongs.length > 0 && (
+          <RandomSongSuggestions songs={otherSongs} count={3} />
+        )}
 
         {/* Ad: Bottom of notation */}
         <div className="mt-8 mb-4">

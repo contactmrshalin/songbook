@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAllSongs, getSongById } from "@/lib/songs";
 import SongViewer from "@/components/SongViewer";
+import type { Song } from "@/types/song";
 
 // Generate static params for all songs at build time
 export async function generateStaticParams() {
@@ -41,5 +42,7 @@ export default async function SongPage({
     notFound();
   }
 
-  return <SongViewer song={song} />;
+  const otherSongs: Song[] = getAllSongs().filter((s) => s.id !== id);
+
+  return <SongViewer song={song} otherSongs={otherSongs} />;
 }
