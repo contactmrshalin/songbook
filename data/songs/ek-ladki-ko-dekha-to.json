@@ -8,7 +8,8 @@
     "Music: R. D. Burman",
     "Raag: Yaman / Desh (light)",
     "Scale: A# bass/middle (flute)",
-    "Notation: . = low octave, ' = high octave, .. = hold"
+    "Notation: . = low octave, ' = high octave, .. = hold",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/ek-ladki-ko-dekha-to.png",
   "background": "images/1942_a_love_story_bg.png",
@@ -117,5 +118,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "An evergreen romantic ballad, \"Ek Ladki Ko Dekha\" is a timeless classic from R. D. Burman's final masterpiece soundtrack. Kumar Sanu's soulful rendition, coupled with Javed Akhtar's evocative poetry, creates an atmosphere of pure, innocent love. Its gentle melody, predominantly rooted in Raag Yaman, and iconic flute motif make it a benchmark for romantic Hindi film music.",
+  "trivia": [
+    "This song is widely regarded as one of R. D. Burman's last major compositions before his untimely demise in 1994, making it a poignant farewell from the legendary music director.",
+    "The song's iconic flute motif, played by Ronu Majumdar, is instantly recognizable and became a signature element, contributing significantly to its enduring popularity.",
+    "\"Ek Ladki Ko Dekha\" swept the Filmfare Awards, earning R. D. Burman the Best Music Director award (posthumously) and Kumar Sanu the Best Male Playback Singer award.",
+    "The lyrics by Javed Akhtar are celebrated for their simple yet profound descriptions of love, using everyday analogies to paint a vivid picture of a beloved."
+  ]
 }
