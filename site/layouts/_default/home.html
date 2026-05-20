@@ -28,6 +28,20 @@
       </div>
     </div>
 
+    {{/* Raag / Thaat Filter */}}
+    <div class="filter-bar" id="filterBar">
+      <div class="filter-bar-toggle">
+        <span class="filter-label">Filter by:</span>
+        <div class="toggle-pill">
+          <button type="button" id="filterByRaag" class="active">Raag</button>
+          <button type="button" id="filterByThaat">Thaat</button>
+        </div>
+      </div>
+      <div class="filter-chips" id="filterChips">
+        {{/* Populated dynamically by JS from data-raag / data-thaat card attributes */}}
+      </div>
+    </div>
+
     {{/* Ad: Top of homepage */}}
     <div class="ad-wrapper ad-home-top-wrapper">
       {{ partial "adsense.html" (dict "slot" "1234567894" "format" "horizontal" "class" "ad-home-top") }}

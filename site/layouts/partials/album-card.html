@@ -16,7 +16,19 @@
   {{- $subtitle = . -}}
 {{- end -}}
 
-<a class="song-card" href="{{ .RelPermalink }}" title="{{ .Title }}" data-songbook-card data-songbook-hay="{{ printf "%s %s %s" .Title .RelPermalink $subtitle | plainify }}">
+{{- $raag := "" -}}
+{{- $thaat := "" -}}
+{{- range ($song.info | default (slice)) -}}
+  {{- $parts := split . ":" -}}
+  {{- if gt (len $parts) 1 -}}
+    {{- $key := index $parts 0 | lower | strings.TrimSpace -}}
+    {{- $val := index $parts 1 | strings.TrimLeft " " | replaceRE `\s*\(.*?\)` "" | strings.TrimSpace -}}
+    {{- if eq $key "raag" -}}{{- $raag = $val -}}{{- end -}}
+    {{- if eq $key "thaat" -}}{{- $thaat = $val -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<a class="song-card" href="{{ .RelPermalink }}" title="{{ .Title }}" data-songbook-card data-songbook-hay="{{ printf "%s %s %s" .Title .RelPermalink $subtitle | plainify }}" data-raag="{{ $raag }}" data-thaat="{{ $thaat }}">
   <div class="song-card-thumb-wrap">
     {{- with $thumb -}}
       <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }}" loading="lazy" />

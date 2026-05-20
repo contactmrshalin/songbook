@@ -40,30 +40,154 @@
   }
 
   // ========================================
-  // 2. SEARCH (Home page)
+  // 2. SEARCH + RAAG/THAAT FILTER (Home page)
+  //    Shared state drives a single applyAllFilters()
+  //    so both search and filter can coexist cleanly.
   // ========================================
-  function initSearch() {
-    var input = document.querySelector("[data-songbook-search]");
+
+  var _searchQuery = "";
+  var _activeFilter = "all";
+  var _filterType = "raag"; // "raag" | "thaat"
+
+  function applyAllFilters() {
     var cards = Array.from(document.querySelectorAll("[data-songbook-card]"));
     var countEl = document.querySelector("[data-songbook-count]");
-    if (!input || cards.length === 0) return;
+    var q = _searchQuery.trim().toLowerCase();
+    var visible = 0;
 
-    function norm(s) { return (s || "").toLowerCase().trim(); }
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i];
+      var show = true;
 
-    function applyFilter() {
-      var q = norm(input.value);
-      var visible = 0;
-      for (var i = 0; i < cards.length; i++) {
-        var hay = norm(cards[i].getAttribute("data-songbook-hay"));
-        var show = !q || hay.includes(q);
-        cards[i].style.display = show ? "" : "none";
-        if (show) visible++;
+      // Text search
+      if (q) {
+        var hay = (card.getAttribute("data-songbook-hay") || "").toLowerCase();
+        show = hay.includes(q);
       }
-      if (countEl) countEl.textContent = String(visible);
+
+      // Raag / Thaat filter
+      if (show && _activeFilter !== "all") {
+        var val = (card.getAttribute("data-" + _filterType) || "").trim();
+        show = val === _activeFilter;
+      }
+
+      card.style.display = show ? "" : "none";
+      if (show) visible++;
     }
 
-    input.addEventListener("input", applyFilter);
-    applyFilter();
+    if (countEl) countEl.textContent = String(visible);
+  }
+
+  function initSearch() {
+    var input = document.querySelector("[data-songbook-search]");
+    if (!input) return;
+
+    input.addEventListener("input", function() {
+      _searchQuery = input.value;
+      applyAllFilters();
+    });
+
+    applyAllFilters();
+  }
+
+  // ========================================
+  // 2b. RAAG / THAAT FILTER
+  // ========================================
+  function initRaagThaatFilter() {
+    var filterBar = document.getElementById("filterBar");
+    if (!filterBar) return;
+
+    var cards = Array.from(document.querySelectorAll("[data-songbook-card]"));
+    if (cards.length === 0) { filterBar.style.display = "none"; return; }
+
+    // Collect unique non-empty raags and thaats from card data attributes
+    var raagObj = {}, thaatObj = {};
+    for (var i = 0; i < cards.length; i++) {
+      var r = (cards[i].getAttribute("data-raag") || "").trim();
+      var t = (cards[i].getAttribute("data-thaat") || "").trim();
+      if (r) raagObj[r] = true;
+      if (t) thaatObj[t] = true;
+    }
+    var raags = Object.keys(raagObj).sort();
+    var thaats = Object.keys(thaatObj).sort();
+
+    // Hide the entire filter bar if no data exists at all
+    if (raags.length === 0 && thaats.length === 0) {
+      filterBar.style.display = "none";
+      return;
+    }
+
+    function getActiveOptions() {
+      return _filterType === "raag" ? raags : thaats;
+    }
+
+    function renderChips() {
+      var chipsEl = document.getElementById("filterChips");
+      if (!chipsEl) return;
+      chipsEl.innerHTML = "";
+
+      // "All Songs" chip
+      var allBtn = document.createElement("button");
+      allBtn.type = "button";
+      allBtn.className = "filter-chip" + (_activeFilter === "all" ? " active" : "");
+      allBtn.textContent = "All Songs";
+      allBtn.addEventListener("click", function() { setFilter("all"); });
+      chipsEl.appendChild(allBtn);
+
+      var options = getActiveOptions();
+      if (options.length === 0) {
+        var hint = document.createElement("span");
+        hint.className = "filter-empty-hint";
+        hint.textContent = "No " + _filterType + " data yet \u2014 enrich songs to populate filters";
+        chipsEl.appendChild(hint);
+      } else {
+        for (var j = 0; j < options.length; j++) {
+          (function(opt) {
+            var btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "filter-chip" + (_activeFilter === opt ? " active" : "");
+            btn.textContent = opt;
+            btn.addEventListener("click", function() { setFilter(opt); });
+            chipsEl.appendChild(btn);
+          })(options[j]);
+        }
+      }
+    }
+
+    function setFilter(value) {
+      _activeFilter = value;
+      renderChips();
+      applyAllFilters();
+    }
+
+    // Toggle pill: Raag / Thaat
+    var raagBtn = document.getElementById("filterByRaag");
+    var thaatBtn = document.getElementById("filterByThaat");
+
+    if (raagBtn) {
+      raagBtn.addEventListener("click", function() {
+        _filterType = "raag";
+        _activeFilter = "all";
+        raagBtn.classList.add("active");
+        if (thaatBtn) thaatBtn.classList.remove("active");
+        renderChips();
+        applyAllFilters();
+      });
+    }
+
+    if (thaatBtn) {
+      thaatBtn.addEventListener("click", function() {
+        _filterType = "thaat";
+        _activeFilter = "all";
+        thaatBtn.classList.add("active");
+        if (raagBtn) raagBtn.classList.remove("active");
+        renderChips();
+        applyAllFilters();
+      });
+    }
+
+    // Initial render
+    renderChips();
   }
 
   // ========================================
@@ -757,6 +881,7 @@
   function init() {
     initNotationToggle();
     initSearch();
+    initRaagThaatFilter();
     initSectionCollapse();
     initInfoToggle();
     initNotationGuideModal();
