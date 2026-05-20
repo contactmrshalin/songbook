@@ -175,7 +175,7 @@ async function enrichSong(title, info, missingMeta, needsDescription, needsTrivi
     const value = parsed[key];
     if (!value || typeof value !== "string" || !value.trim()) continue;
     if (key === "year" && (parsed.movie ?? "").includes(value)) continue;
-    newFields.push(`${labelMap[key] ?? key}: ${value.trim()} (AI)`);
+    newFields.push(`${labelMap[key] ?? key}: ${value.trim()}`);
   }
 
   const description =

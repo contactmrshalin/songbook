@@ -135,7 +135,7 @@ export async function POST(request: Request) {
       // Skip year if it's already embedded in the movie line (avoid duplication)
       if (key === "year" && typeof parsed.movie === "string" && parsed.movie.includes(value)) continue;
       const label = labelMap[key] ?? key;
-      newFields.push(`${label}: ${value.trim()} (AI)`);
+      newFields.push(`${label}: ${value.trim()}`);
     }
 
     const description =

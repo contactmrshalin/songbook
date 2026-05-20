@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, Filter, Music2 } from "lucide-react";
+import { Search, Music2 } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import SongCard from "./SongCard";
 import AdBanner from "./AdBanner";
@@ -22,25 +22,40 @@ function extractMeta(info: string[]): Record<string, string> {
       if (key.includes("movie") || key.includes("film")) meta.movie = val;
       else if (key.includes("singer") || key.includes("artist")) meta.singer = val;
       else if (key.includes("scale")) meta.scale = val;
-      else if (key.includes("raag")) meta.raag = val;
+      else if (key === "raag") meta.raag = val;
+      else if (key === "thaat") meta.thaat = val;
     }
   }
   return meta;
 }
 
+/** Normalise a raag/thaat label — strip parenthetical suffixes like "(light)" */
+function normaliseLabel(raw: string): string {
+  return raw.replace(/\s*\(.*?\)/g, "").trim();
+}
+
 export default function SongGallery({ songs }: SongGalleryProps) {
   const { searchQuery, setSearchQuery } = useAppStore();
   const [activeFilter, setActiveFilter] = useState<string>("all");
+  const [filterType, setFilterType] = useState<"raag" | "thaat">("raag");
 
-  // Extract unique raags for filter chips
-  const raags = useMemo(() => {
+  // Extract unique raags and thaats for filter chips
+  const { raags, thaats } = useMemo(() => {
     const raagSet = new Set<string>();
+    const thaatSet = new Set<string>();
     for (const song of songs) {
       const meta = extractMeta(song.info);
-      if (meta.raag) raagSet.add(meta.raag);
+      if (meta.raag) raagSet.add(normaliseLabel(meta.raag));
+      if (meta.thaat) thaatSet.add(normaliseLabel(meta.thaat));
     }
-    return Array.from(raagSet).sort();
+    return {
+      raags: Array.from(raagSet).sort(),
+      thaats: Array.from(thaatSet).sort(),
+    };
   }, [songs]);
+
+  const activeOptions = filterType === "raag" ? raags : thaats;
+  const hasFilters = raags.length > 0 || thaats.length > 0;
 
   // Filter songs by search query and active filter
   const filteredSongs = useMemo(() => {
@@ -61,16 +76,17 @@ export default function SongGallery({ songs }: SongGalleryProps) {
       });
     }
 
-    // Raag filter
+    // Raag / Thaat filter
     if (activeFilter !== "all") {
       result = result.filter((song) => {
         const meta = extractMeta(song.info);
-        return meta.raag === activeFilter;
+        const value = filterType === "raag" ? meta.raag : meta.thaat;
+        return value ? normaliseLabel(value) === activeFilter : false;
       });
     }
 
     return result;
-  }, [songs, searchQuery, activeFilter]);
+  }, [songs, searchQuery, activeFilter, filterType]);
 
   return (
     <div>
@@ -88,31 +104,58 @@ export default function SongGallery({ songs }: SongGalleryProps) {
       </div>
 
       {/* Filter chips */}
-      {raags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-6">
-          <button
-            className={`badge cursor-pointer transition-colors ${
-              activeFilter === "all"
-                ? "bg-[var(--accent-primary)] text-white"
-                : "bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
-            }`}
-            onClick={() => setActiveFilter("all")}
-          >
-            All Songs
-          </button>
-          {raags.map((raag) => (
+      {hasFilters && (
+        <div className="mb-6 space-y-3">
+          {/* Raag / Thaat toggle pill */}
+          <div className="flex items-center gap-3">
+            <span className="text-xs font-medium text-[var(--text-muted)]">Filter by:</span>
+            <div className="toggle-pill">
+              <button
+                className={filterType === "raag" ? "active" : ""}
+                onClick={() => { setFilterType("raag"); setActiveFilter("all"); }}
+              >
+                Raag
+              </button>
+              <button
+                className={filterType === "thaat" ? "active" : ""}
+                onClick={() => { setFilterType("thaat"); setActiveFilter("all"); }}
+              >
+                Thaat
+              </button>
+            </div>
+          </div>
+
+          {/* Chips row */}
+          <div className="flex flex-wrap gap-2">
             <button
-              key={raag}
               className={`badge cursor-pointer transition-colors ${
-                activeFilter === raag
+                activeFilter === "all"
                   ? "bg-[var(--accent-primary)] text-white"
                   : "bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
               }`}
-              onClick={() => setActiveFilter(raag)}
+              onClick={() => setActiveFilter("all")}
             >
-              {raag}
+              All Songs
             </button>
-          ))}
+            {activeOptions.map((option) => (
+              <button
+                key={option}
+                className={`badge cursor-pointer transition-colors ${
+                  activeFilter === option
+                    ? "bg-[var(--accent-primary)] text-white"
+                    : "bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
+                }`}
+                onClick={() => setActiveFilter(option)}
+              >
+                {option}
+              </button>
+            ))}
+            {activeOptions.length === 0 && (
+              <span className="text-xs text-[var(--text-muted)] italic py-1">
+                No {filterType} data yet — enrich songs to populate filters
+              </span>
+            )}
+          </div>
         </div>
       )}
 

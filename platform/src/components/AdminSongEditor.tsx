@@ -38,6 +38,7 @@ interface SongListItem {
   sections: number;
   lines: number;
   inOrder: boolean;
+  enriched: boolean;
 }
 
 export default function AdminSongEditor({ password }: Props) {
@@ -774,26 +775,50 @@ export default function AdminSongEditor({ password }: Props) {
                           </span>
                         </button>
 
-                        {/* Enrich with AI button */}
-                        <button
-                          onClick={() => handleLoadSong(s.id, true)}
-                          disabled={
-                            loadingEditId === s.id ||
-                            loadingEnrichId === s.id ||
-                            !!deletingId
-                          }
-                          title={`Enrich ${s.title} with AI`}
-                          className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-[var(--accent-primary)] hover:bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
-                        >
-                          {loadingEnrichId === s.id ? (
-                            <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                          ) : (
-                            <Sparkles className="w-3.5 h-3.5" />
-                          )}
-                          <span className="hidden sm:inline">
-                            {loadingEnrichId === s.id ? "Enriching…" : "Enrich"}
-                          </span>
-                        </button>
+                        {/* Enrich / Re-enrich with AI button */}
+                        {s.enriched ? (
+                          /* Already enriched — subdued "Re-enrich" to avoid accidental API spend */
+                          <button
+                            onClick={() => handleLoadSong(s.id, true)}
+                            disabled={
+                              loadingEditId === s.id ||
+                              loadingEnrichId === s.id ||
+                              !!deletingId
+                            }
+                            title={`Re-enrich ${s.title} with AI (already has description/trivia)`}
+                            className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-[var(--text-muted)] hover:bg-[var(--bg-secondary)] border border-[var(--border-light)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                          >
+                            {loadingEnrichId === s.id ? (
+                              <Loader2 className="w-3 h-3 animate-spin" />
+                            ) : (
+                              <Sparkles className="w-3 h-3" />
+                            )}
+                            <span className="hidden sm:inline">
+                              {loadingEnrichId === s.id ? "Enriching…" : "Re-enrich"}
+                            </span>
+                          </button>
+                        ) : (
+                          /* Not yet enriched — prominent "Enrich" button */
+                          <button
+                            onClick={() => handleLoadSong(s.id, true)}
+                            disabled={
+                              loadingEditId === s.id ||
+                              loadingEnrichId === s.id ||
+                              !!deletingId
+                            }
+                            title={`Enrich ${s.title} with AI`}
+                            className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-[var(--accent-primary)] hover:bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                          >
+                            {loadingEnrichId === s.id ? (
+                              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                            ) : (
+                              <Sparkles className="w-3.5 h-3.5" />
+                            )}
+                            <span className="hidden sm:inline">
+                              {loadingEnrichId === s.id ? "Enriching…" : "Enrich"}
+                            </span>
+                          </button>
+                        )}
 
                         {/* Delete button */}
                         <button

@@ -54,6 +54,7 @@ export async function POST(request: Request) {
       sections: s.sections.length,
       lines: s.sections.reduce((acc, sec) => acc + sec.lines.length, 0),
       inOrder: songOrder.includes(s.id),
+      enriched: !!(s.description || (s.trivia && s.trivia.length > 0)),
     }));
 
     // Sort: songs in book order first, then alphabetical by title
