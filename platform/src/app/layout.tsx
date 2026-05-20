@@ -33,7 +33,9 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head>
+      <head />
+      <body className="min-h-full flex flex-col antialiased paper-bg">
+        {children}
         {adsConfigured && (
           <Script
             async
@@ -42,9 +44,6 @@ export default function RootLayout({
             strategy="afterInteractive"
           />
         )}
-      </head>
-      <body className="min-h-full flex flex-col antialiased paper-bg">
-        {children}
       </body>
     </html>
   );

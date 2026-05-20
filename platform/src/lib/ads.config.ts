@@ -51,7 +51,7 @@ export const AD_SLOTS = {
   HOME_FEED: "7045296826",
 
   /** Homepage — top banner below header */
-  HOME_TOP: "1234567894",
+  HOME_TOP: "5237987606",
 } as const;
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
