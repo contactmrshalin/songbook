@@ -12,6 +12,7 @@ import {
   ChevronUp,
   Eye,
   Info,
+  BookOpen,
 } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import NotationLine from "./NotationLine";
@@ -20,6 +21,7 @@ import AudioPlayer from "./AudioPlayer";
 import FingeringDiagram from "./FingeringDiagram";
 import AdBanner from "./AdBanner";
 import RandomSongSuggestions from "./RandomSongSuggestions";
+import NotationGuideModal from "./NotationGuideModal";
 import { AD_SLOTS, ADS_CONFIG } from "@/lib/ads.config";
 import type { Song } from "@/types/song";
 
@@ -52,6 +54,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
     () => new Set(song.sections.map((_, i) => i))
   );
   const [showInfo, setShowInfo] = useState(false);
+  const [showNotationGuide, setShowNotationGuide] = useState(false);
   const lineRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   const meta = extractMeta(song.info);
@@ -176,6 +179,14 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
               title="Song info"
             >
               <Info className="w-3.5 h-3.5" />
+            </button>
+            <button
+              onClick={() => setShowNotationGuide(true)}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors
+                         bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:bg-[var(--accent-primary)] hover:text-white"
+              title="How to read notes"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
             </button>
           </div>
         </div>
@@ -367,6 +378,12 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
 
       {/* Audio player floating bar */}
       <AudioPlayer song={song} />
+
+      {/* Notation guide modal */}
+      <NotationGuideModal
+        isOpen={showNotationGuide}
+        onClose={() => setShowNotationGuide(false)}
+      />
     </div>
   );
 }
