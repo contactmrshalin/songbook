@@ -1,0 +1,118 @@
+{
+  "id": "o-sanam",
+  "title": "O Sanam",
+  "export": true,
+  "info": [
+    "Film/Artist: Lucky Ali",
+    "Scale: G BASS/MIDDLE"
+  ],
+  "thumbnail": "images/o-sanam.jpg",
+  "background": "images/o-sanam.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "Hmmm: : : : : ."
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa: Ga ma Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re: Ma. Ma Ma Pa Ga Ma Pa:"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa ma Ga ma Ga Sa"
+        },
+        {
+          "lyrics": "Shaam sawere teri yaadein aati hain",
+          "indian": "Ga: Ga: Re Re Re Re Sa ma ma Ga Sa Re Re:"
+        },
+        {
+          "lyrics": "Aake dil ko mere yun tadpaati hain",
+          "indian": "Ga: Ga: Re Re Re Sa ma ma Ga Sa Re Sa ni:"
+        },
+        {
+          "lyrics": "O Sanam mohabbat ki kasam…",
+          "indian": "ma: Sa Re Re pa ma ma Sa Re Sa ni Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "",
+          "indian": "Hmmm: : : : : ."
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa: Ga ma Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re: Ma. Ma Ma Pa Ga Ma Pa:"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa ma Ga ma Ga Sa"
+        },
+        {
+          "lyrics": "Milke bichhad naa to dastoor ho gaya",
+          "indian": "Ga: Ga: Re Re Re Re Sa ma ma Ga Sa Re Re:"
+        },
+        {
+          "lyrics": "Yadoon mein teri majboor ho gaya",
+          "indian": "Ga Ga Ga Re Re Re Sa ma ma Ga Sa Re Sa ni:"
+        },
+        {
+          "lyrics": "O Sanam teri yadoon ki kasam",
+          "indian": "ma: Sa Re Re pa pa ma ma Sa Re Sa ni Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "",
+          "indian": "Hmmm: : : : : ."
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa: Ga ma Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "Re: Ma. Ma Ma Pa Ga Ma Pa:"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa ma Ga ma Ga Sa"
+        },
+        {
+          "lyrics": "Samjhe zamaana ke dil hai khilona",
+          "indian": "pa: pa: Ga Ga: Ga Sa Re: Re: Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Jaana hai ab kya hai dil ka lagana",
+          "indian": "dha: Sa: Sa Sa ma Ga Re: Re: Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Nazron se ab naa humko girana",
+          "indian": "dha: dha: pa dha ma: Re: Re: Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Mar bhi gaye to bhul na jaana",
+          "indian": "dha: Sa: Sa Sa Dha Pa Pa: Pa: Ga Pa Pa Ga Re Sa"
+        },
+        {
+          "lyrics": "Aankhon mein basi ho par door ho kahin",
+          "indian": "Ga Ga Ga Re Re Re Sa ma: Sa Re Re:"
+        },
+        {
+          "lyrics": "Dil ke kareeb ho ye mujhko hai yakin",
+          "indian": "Ga Ga Ga Re: Re Sa ma ma Ga Sa Re Sa ni:"
+        },
+        {
+          "lyrics": "O Sanam tere pyar ki kasam",
+          "indian": "ma: Sa Re Re: pa pa ma: Sa Re Sa ni Sa ni dha ni Sa:"
+        }
+      ]
+    }
+  ]
+}
