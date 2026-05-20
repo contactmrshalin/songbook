@@ -3,7 +3,11 @@
   "title": "Chandan Sa Badan",
   "info": [
     "Film: Saraswatichandra",
-    "Notation: . = low octave, ' = high octave, .. = hold"
+    "Singer: Mukesh",
+    "Music: Kalyanji-Anandji",
+    "Lyrics: Indeevar",
+    "Raag: Yaman Kalyan",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/chandan-sa-badan.png",
   "background": "images/chandan-sa-badan.png",
@@ -75,5 +79,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "This timeless melody from 'Saraswatichandra' is a masterpiece of romantic expression, rendered with unparalleled soulfulness by Mukesh. Its foundation in Raag Yaman Kalyan lends it a profound, contemplative beauty, making it a classic example of how Indian classical music enriches film compositions. The song evokes a mood of tender admiration and poetic longing, resonating deeply with listeners across generations.",
+  "trivia": [
+    "The film 'Saraswatichandra' is based on the acclaimed Gujarati novel by Govardhanram Tripathi, a cornerstone of Gujarati literature.",
+    "Kalyanji-Anandji masterfully composed this song in Raag Yaman Kalyan, showcasing their ability to blend classical purity with popular appeal, solidifying their reputation early in their career.",
+    "Mukesh's rendition of 'Chandan Sa Badan' is widely regarded as one of his most iconic and emotionally charged performances, perfectly capturing the lyrical essence of divine beauty and devotion.",
+    "The song's enduring popularity is a testament to its exquisite melody, poetic lyrics, and Mukesh's unforgettable voice, making it a staple in classic Hindi film music collections."
+  ]
 }
