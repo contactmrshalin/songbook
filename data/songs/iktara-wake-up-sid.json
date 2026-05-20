@@ -28,11 +28,11 @@
         },
         {
           "lyrics": "Kyuun dikhaye sapna tu sote jaagte",
-          "indian": "Re  Sa  Ni  Re  Pa  ma  Ga  Re  ma  Ga  Re   Sa. Sa"
+          "indian": "Re  Sa  Ni  Re  Pa  ma  Ga  Re  ma  Ga  Re   Sa Sa"
         },
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "Sa. Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
+          "indian": "Sa Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
         },
         {
           "lyrics": "Nainoo ko mund mund",
@@ -44,7 +44,7 @@
         },
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "Sa. Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
+          "indian": "Sa Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
         },
         {
           "lyrics": "Nainoo ko mund mund",
@@ -61,39 +61,39 @@
         },
         {
           "lyrics": "Anjaane raaste",
-          "indian": "ma. Pa  Pa  Ga  Re   Sa. Sa"
+          "indian": "ma Pa  Pa  Ga  Re   Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Re  Re. Re. Re. Re  Re. Re. Re. Re."
+          "indian": "Ni  Ni  Re  Re Re Re  Re Re Re Re  Re Re Re Re"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "Ga  Pa  Ga  Re  Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ga  Pa  Ga  Re  Re Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Dheemee bole koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Dheemee bole koi iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Re  Re. Re. Re. Re  Re. Re. Re. Re."
+          "indian": "Ni  Ni  Re  Re Re Re  Re Re Re Re  Re Re Re Re"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "Ga  Pa  Ga  Re  Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ga  Pa  Ga  Re  Re Sa  Sa Sa Sa Sa"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "lines": [
         {
           "lyrics": "Sun rahi hoon sudhbudh kho ke",
-          "indian": "'Ga  'Re  'Re  'Sa  Ni. 'Sa. 'Sa. Ni  Pa. Dha. Dha. Pa"
+          "indian": "'Ga  'Re  'Re  'Sa  Ni 'Sa. 'Sa. Ni  Pa Dha Dha Pa"
         },
         {
           "lyrics": "Koi main kahani",
@@ -114,7 +114,7 @@
         },
         {
           "lyrics": "Main to kisiki ho ke",
-          "indian": "'Ga  'Re  'Re  'Sa  Ni. 'Sa. 'Sa. Ni  Pa. Dha. Dha. Pa"
+          "indian": "'Ga  'Re  'Re  'Sa  Ni 'Sa. 'Sa. Ni  Pa Dha Dha Pa"
         },
         {
           "lyrics": "Yeh bhi na jaani",
@@ -126,11 +126,11 @@
         },
         {
           "lyrics": "Kise hai pataaa..",
-          "indian": "Pa. Dha  Sa  Re. Sa. Re   Ga. Re. Sa. Dha"
+          "indian": "Pa Dha  Sa  Re Sa Re   Ga Re Sa Dha"
         },
         {
           "lyrics": "Kise hai pataaa..",
-          "indian": "Dha. Pa  Dha  Re. Sa"
+          "indian": "Dha Pa  Dha  Re Sa"
         }
       ]
     },
@@ -139,7 +139,7 @@
       "lines": [
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "Sa. Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
+          "indian": "Sa Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
         },
         {
           "lyrics": "Nainoo ko mund mund",
@@ -151,7 +151,7 @@
         },
         {
           "lyrics": "Joo barse sapna boon boon",
-          "indian": "Sa. Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
+          "indian": "Sa Sa  Sa  Ga  Ga  ma  ma  Dha  Dha"
         },
         {
           "lyrics": "Nainoo ko mund mund",
@@ -163,39 +163,39 @@
         },
         {
           "lyrics": "Anjaane raaste",
-          "indian": "ma. Pa  Pa  Ga  Re   Sa. Sa"
+          "indian": "ma Pa  Pa  Ga  Re   Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Re  Re. Re. Re. Re  Re. Re. Re. Re."
+          "indian": "Ni  Ni  Re  Re Re Re  Re Re Re Re  Re Re Re Re"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "Ga  Pa  Ga  Re  Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ga  Pa  Ga  Re  Re Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Dheemee bole koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Dheemee bole koi iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ni  Ni  Re  Re Re Sa  Sa Sa Sa Sa"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara iktara",
-          "indian": "Ni  Ni  Re  Re. Re. Re  Re. Re. Re. Re  Re. Re. Re. Re."
+          "indian": "Ni  Ni  Re  Re Re Re  Re Re Re Re  Re Re Re Re"
         },
         {
           "lyrics": "Goonjaa sa hai koi iktara",
-          "indian": "Ga  Pa  Ga  Re  Re. Sa  Sa. Sa. Sa. Sa"
+          "indian": "Ga  Pa  Ga  Re  Re Sa  Sa Sa Sa Sa"
         }
       ]
     }

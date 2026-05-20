@@ -31,7 +31,7 @@
         },
         {
           "lyrics": "gaya | hai | mere | liye",
-          "indian": "Re (Ga)ReSa | Sa | Sa~Re Re(Ga)Re Sa | Sa SaNi. DhaDha"
+          "indian": "Re (Ga)ReSa | Sa | Sa~Re Re(Ga)Re Sa | Sa SaNi DhaDha"
         },
         {
           "lyrics": "Tu | abse | pehle | sitaro | me",
@@ -47,7 +47,7 @@
         },
         {
           "lyrics": "gaya | hai | mere | liye",
-          "indian": "Re (Ga)ReSa | Sa | Sa~Re Re(Ga)Re Sa | Sa SaNi. DhaDha"
+          "indian": "Re (Ga)ReSa | Sa | Sa~Re Re(Ga)Re Sa | Sa SaNi DhaDha"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
@@ -85,7 +85,7 @@
         },
         {
           "lyrics": "meree | amanat | hain",
-          "indian": "Re(Ga)Re Sa | SaSa Re (Ga)Re SaSa | Sa Ni. DhaDha"
+          "indian": "Re(Ga)Re Sa | SaSa Re (Ga)Re SaSa | Sa Ni DhaDha"
         },
         {
           "lyrics": "Yeh | gesuo | kee",
@@ -105,7 +105,7 @@
         },
         {
           "lyrics": "meree amanat hain",
-          "indian": "Re(Ga)Re Sa | SaSa Re (Ga)Re SaSa | Sa Ni. DhaDha"
+          "indian": "Re(Ga)Re Sa | SaSa Re (Ga)Re SaSa | Sa Ni DhaDha"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
@@ -122,7 +122,7 @@
       "lines": [
         {
           "lyrics": "",
-          "indian": "Sa Re | (Sa)Re Ga | Ga Re Sa Dha. | Sa . Re"
+          "indian": "Sa Re | (Sa)Re Ga | Ga Re Sa Dha | Sa . Re"
         },
         {
           "lyrics": "",
@@ -130,7 +130,7 @@
         },
         {
           "lyrics": "",
-          "indian": "Sa Re | (Sa)Re Ga | Ga Re Sa Dha. | Sa"
+          "indian": "Sa Re | (Sa)Re Ga | Ga Re Sa Dha | Sa"
         }
       ]
     },
@@ -212,7 +212,7 @@
         },
         {
           "lyrics": "umra | bhar | yun | hi",
-          "indian": "Re(Ga)ReSa Sa | SaRe Re(Ga)Re | Sa | Sa Ni. Dha"
+          "indian": "Re(Ga)ReSa Sa | SaRe Re(Ga)Re | Sa | Sa Ni Dha"
         },
         {
           "lyrics": "Uthhegi | meri | taraf",
@@ -228,7 +228,7 @@
         },
         {
           "lyrics": "gair | hai | magar | yun | hi",
-          "indian": "Ga .Re | GaReSa | Sa SaRe Re(Ga)Re | Sa | Sa Ni. Dha"
+          "indian": "Ga .Re | GaReSa | Sa SaRe Re(Ga)Re | Sa | Sa Ni Dha"
         },
         {
           "lyrics": "Kabhi | kabhi | mere | dil me",
