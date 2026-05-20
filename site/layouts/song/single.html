@@ -163,126 +163,193 @@
       {{ partial "adsense.html" (dict "slot" "1234567890" "format" "horizontal" "class" "ad-song-top") }}
     </div>
 
-    {{/* About this Song — description + trivia (AI-enriched) */}}
-    {{ if or $song.description $song.trivia }}
-      <div class="song-about-card">
-        <div class="song-about-header">
-          {{ partial "icon.html" (dict "icon" "sparkles" "size" "14") }}
-          <span>About this Song</span>
-        </div>
-        {{ with $song.description }}
-          <div class="song-about-description">
-            <div class="song-about-accent"></div>
-            <p>{{ . }}</p>
-          </div>
-        {{ end }}
-        {{ with $song.trivia }}
-          <ul class="song-about-trivia">
-            {{ range $i, $fact := . }}
-              <li>
-                <span class="trivia-num">{{ add $i 1 }}</span>
-                <span>{{ $fact }}</span>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
-      </div>
+    {{/* Pre-compute suggestions once — reused in both mobile center and desktop sidebar */}}
+    {{ $otherPages := where .Site.RegularPages "Section" "songs" }}
+    {{ $otherPages = where $otherPages "Permalink" "ne" .Permalink }}
+    {{ $suggestions := slice }}
+    {{ if $otherPages }}
+      {{ $suggestions = first 5 (shuffle $otherPages) }}
     {{ end }}
 
-    {{/* Notation content */}}
-    <main class="song-content">
-      {{ $globalIdx := 0 }}
-      {{ range $si, $section := ($song.sections | default (slice)) }}
-        <div class="song-section">
-          {{/* Section header (collapsible) */}}
-          <button class="section-header" type="button" data-section-toggle="{{ $si }}">
-            <span class="section-name">{{ $section.name }}</span>
-            {{ partial "icon.html" (dict "icon" "chevron-up" "size" "16") }}
-          </button>
+    {{/* 3-column layout: [About sidebar] [Notation] [Try Next sidebar] */}}
+    <main class="song-3col-main">
+      <div class="song-3col-wrap">
 
-          {{/* Section lines */}}
-          <div class="section-lines" data-section-body="{{ $si }}">
-            {{ range $li, $line := ($section.lines | default (slice)) }}
-              <div class="notation-line" data-line-index="{{ $globalIdx }}" role="button" tabindex="0" aria-label="Line {{ add $globalIdx 1 }}: {{ $line.lyrics | default "Notation" }}">
-                {{/* Lyrics */}}
-                {{ with $line.lyrics }}
-                  {{ if ne (strings.TrimSpace .) "" }}
-                    <div class="lyrics-text">{{ . }}</div>
-                  {{ end }}
+        {{/* ── LEFT SIDEBAR: About this Song (xl+, hidden on mobile) ── */}}
+        <aside class="song-col-sidebar song-col-left">
+          {{ if or $song.description $song.trivia }}
+            <div class="song-sidebar-card">
+              <div class="song-sidebar-card-header">
+                {{ partial "icon.html" (dict "icon" "sparkles" "size" "13") }}
+                <span>About</span>
+              </div>
+              <div class="song-sidebar-card-body">
+                {{ with $song.description }}
+                  <div class="song-about-description">
+                    <div class="song-about-accent"></div>
+                    <p>{{ . }}</p>
+                  </div>
                 {{ end }}
-
-                {{/* Notation tokens */}}
-                {{ if or $line.indian $line.western }}
-                  <div class="notation-tokens">
-                    {{/* Indian notation */}}
-                    {{ with $line.indian }}
-                      <div class="notation-text notation-indian">
-                        {{ range $ti, $token := split . " " }}
-                          {{ if ne $token "" }}
-                            <span class="note-token{{ if eq $token "|" }} bar{{ end }}" data-token-index="{{ $ti }}">{{ $token }}</span>
-                          {{ end }}
-                        {{ end }}
-                      </div>
+                {{ with $song.trivia }}
+                  <ul class="song-about-trivia">
+                    {{ range $i, $fact := . }}
+                      <li>
+                        <span class="trivia-num">{{ add $i 1 }}</span>
+                        <span>{{ $fact }}</span>
+                      </li>
                     {{ end }}
+                  </ul>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </aside>
 
-                    {{/* Western notation */}}
-                    {{ with $line.western }}
-                      <span class="notation-separator notation-western">│</span>
-                      <div class="notation-text western notation-western">
-                        {{ range $ti, $token := split . " " }}
-                          {{ if ne $token "" }}
-                            <span class="note-token{{ if eq $token "|" }} bar{{ end }}" data-token-index="{{ $ti }}">{{ $token }}</span>
-                          {{ end }}
+        {{/* ── CENTER: Notation column ── */}}
+        <div class="song-col-center">
+
+          {{/* About card — mobile/tablet only, collapsible via <details> */}}
+          {{ if or $song.description $song.trivia }}
+            <details class="song-about-card song-mobile-only" open>
+              <summary class="song-about-summary">
+                {{ partial "icon.html" (dict "icon" "sparkles" "size" "14") }}
+                <span>About this Song</span>
+                {{ partial "icon.html" (dict "icon" "chevron-down" "size" "14" "class" "about-chevron") }}
+              </summary>
+              <div class="song-about-body">
+                {{ with $song.description }}
+                  <div class="song-about-description">
+                    <div class="song-about-accent"></div>
+                    <p>{{ . }}</p>
+                  </div>
+                {{ end }}
+                {{ with $song.trivia }}
+                  <ul class="song-about-trivia">
+                    {{ range $i, $fact := . }}
+                      <li>
+                        <span class="trivia-num">{{ add $i 1 }}</span>
+                        <span>{{ $fact }}</span>
+                      </li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </div>
+            </details>
+          {{ end }}
+
+          {{/* Notation sections */}}
+          {{ $globalIdx := 0 }}
+          {{ range $si, $section := ($song.sections | default (slice)) }}
+            <div class="song-section">
+              <button class="section-header" type="button" data-section-toggle="{{ $si }}">
+                <span class="section-name">{{ $section.name }}</span>
+                {{ partial "icon.html" (dict "icon" "chevron-up" "size" "16") }}
+              </button>
+              <div class="section-lines" data-section-body="{{ $si }}">
+                {{ range $li, $line := ($section.lines | default (slice)) }}
+                  <div class="notation-line" data-line-index="{{ $globalIdx }}" role="button" tabindex="0" aria-label="Line {{ add $globalIdx 1 }}: {{ $line.lyrics | default "Notation" }}">
+                    {{ with $line.lyrics }}
+                      {{ if ne (strings.TrimSpace .) "" }}
+                        <div class="lyrics-text">{{ . }}</div>
+                      {{ end }}
+                    {{ end }}
+                    {{ if or $line.indian $line.western }}
+                      <div class="notation-tokens">
+                        {{ with $line.indian }}
+                          <div class="notation-text notation-indian">
+                            {{ range $ti, $token := split . " " }}
+                              {{ if ne $token "" }}
+                                <span class="note-token{{ if eq $token "|" }} bar{{ end }}" data-token-index="{{ $ti }}">{{ $token }}</span>
+                              {{ end }}
+                            {{ end }}
+                          </div>
+                        {{ end }}
+                        {{ with $line.western }}
+                          <span class="notation-separator notation-western">│</span>
+                          <div class="notation-text western notation-western">
+                            {{ range $ti, $token := split . " " }}
+                              {{ if ne $token "" }}
+                                <span class="note-token{{ if eq $token "|" }} bar{{ end }}" data-token-index="{{ $ti }}">{{ $token }}</span>
+                              {{ end }}
+                            {{ end }}
+                          </div>
                         {{ end }}
                       </div>
                     {{ end }}
                   </div>
+                  {{ $globalIdx = add $globalIdx 1 }}
                 {{ end }}
               </div>
-              {{ $globalIdx = add $globalIdx 1 }}
-            {{ end }}
-          </div>
-        {{/* Ad: Mid-content — show after every 3rd section */}}
-        {{ if and (gt $si 0) (modBool (add $si 1) 3) }}
-          <div class="ad-wrapper ad-song-mid-wrapper">
-            {{ partial "adsense.html" (dict "slot" "1234567891" "format" "auto" "layout" "in-article" "class" "ad-song-mid") }}
-          </div>
-        {{ end }}
-        </div>
-      {{ end }}
+              {{ if and (gt $si 0) (modBool (add $si 1) 3) }}
+                <div class="ad-wrapper ad-song-mid-wrapper">
+                  {{ partial "adsense.html" (dict "slot" "1234567891" "format" "auto" "layout" "in-article" "class" "ad-song-mid") }}
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
 
-      {{/* Ad: Bottom of notation */}}
-      <div class="ad-wrapper ad-song-bottom-wrapper">
-        {{ partial "adsense.html" (dict "slot" "1234567892" "format" "rectangle" "class" "ad-song-bottom") }}
-      </div>
-
-      {{/* Try Next Song — random picks from other songs */}}
-      {{ $otherPages := where .Site.RegularPages "Section" "songs" }}
-      {{ $otherPages = where $otherPages "Permalink" "ne" .Permalink }}
-      {{ if $otherPages }}
-        {{ $suggestions := first 5 (shuffle $otherPages) }}
-        <div class="try-next-section">
-          <div class="try-next-header">
-            {{ partial "icon.html" (dict "icon" "shuffle" "size" "14") }}
-            <span>Try Next Song</span>
+          {{/* Bottom ad */}}
+          <div class="ad-wrapper ad-song-bottom-wrapper">
+            {{ partial "adsense.html" (dict "slot" "1234567892" "format" "rectangle" "class" "ad-song-bottom") }}
           </div>
-          <div class="try-next-list">
-            {{ range $suggestions }}
-              <a class="try-next-card" href="{{ .RelPermalink }}">
-                {{ $tn := .Resources.GetMatch "*.png" }}
-                {{ $tn = $tn | default (.Resources.GetMatch "*.jpg") }}
-                {{ $tn = $tn | default (.Resources.GetMatch "*.jpeg") }}
-                {{ if $tn }}
-                  <img src="{{ $tn.RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
-                {{ else }}
-                  <div class="try-next-thumb-placeholder">{{ partial "icon.html" (dict "icon" "music" "size" "18") }}</div>
+
+          {{/* Try Next Song — mobile/tablet only */}}
+          {{ if $suggestions }}
+            <div class="try-next-section song-mobile-only">
+              <div class="try-next-header">
+                {{ partial "icon.html" (dict "icon" "shuffle" "size" "14") }}
+                <span>Try Next Song</span>
+              </div>
+              <div class="try-next-list">
+                {{ range $suggestions }}
+                  <a class="try-next-card" href="{{ .RelPermalink }}">
+                    {{ $tn := .Resources.GetMatch "*.png" }}
+                    {{ $tn = $tn | default (.Resources.GetMatch "*.jpg") }}
+                    {{ $tn = $tn | default (.Resources.GetMatch "*.jpeg") }}
+                    {{ if $tn }}
+                      <img src="{{ $tn.RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
+                    {{ else }}
+                      <div class="try-next-thumb-placeholder">{{ partial "icon.html" (dict "icon" "music" "size" "18") }}</div>
+                    {{ end }}
+                    <span class="try-next-title">{{ .Title }}</span>
+                  </a>
                 {{ end }}
-                <span class="try-next-title">{{ .Title }}</span>
-              </a>
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
+              </div>
+            </div>
+          {{ end }}
+
+        </div>{{/* end song-col-center */}}
+
+        {{/* ── RIGHT SIDEBAR: Try Next Song (xl+, hidden on mobile) ── */}}
+        {{ if $suggestions }}
+          <aside class="song-col-sidebar song-col-right">
+            <div class="song-sidebar-card">
+              <div class="song-sidebar-card-header">
+                {{ partial "icon.html" (dict "icon" "shuffle" "size" "13") }}
+                <span>Try Next Song</span>
+              </div>
+              <div class="song-sidebar-card-body">
+                <div class="try-next-list try-next-list-sidebar">
+                  {{ range $suggestions }}
+                    <a class="try-next-card" href="{{ .RelPermalink }}">
+                      {{ $tn := .Resources.GetMatch "*.png" }}
+                      {{ $tn = $tn | default (.Resources.GetMatch "*.jpg") }}
+                      {{ $tn = $tn | default (.Resources.GetMatch "*.jpeg") }}
+                      {{ if $tn }}
+                        <img src="{{ $tn.RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
+                      {{ else }}
+                        <div class="try-next-thumb-placeholder">{{ partial "icon.html" (dict "icon" "music" "size" "18") }}</div>
+                      {{ end }}
+                      <span class="try-next-title">{{ .Title }}</span>
+                    </a>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </aside>
+        {{ end }}
+
+      </div>{{/* end song-3col-wrap */}}
     </main>
 
     {{/* Audio player bar */}}

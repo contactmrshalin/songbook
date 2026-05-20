@@ -1296,3 +1296,174 @@ input[type="range"]::-moz-range-thumb {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* ======================================================
+   3-COLUMN SONG DETAIL LAYOUT
+   xl+: [About sidebar | Notation center | Try Next sidebar]
+   <xl: single column, About+TryNext inline (mobile-only)
+   ====================================================== */
+
+/* Outer wrapper: replaces old .song-content for the new layout */
+.song-3col-main {
+  flex: 1;
+  width: 100%;
+  padding: 1.5rem 1rem 8rem;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 640px) {
+  .song-3col-main { padding: 1.5rem 1.5rem 8rem; }
+}
+
+/* Inner flex row */
+.song-3col-wrap {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1280px) {
+  .song-3col-wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+
+/* Left + right sidebars: hidden below xl */
+.song-col-sidebar {
+  display: none;
+  width: 14rem;
+  flex-shrink: 0;
+}
+@media (min-width: 1280px) {
+  .song-col-sidebar {
+    display: block;
+    position: sticky;
+    top: 5rem;
+    align-self: flex-start;
+  }
+}
+
+/* Center column: takes all remaining width */
+.song-col-center {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Mobile-only blocks: hidden once sidebars appear at xl+ */
+.song-mobile-only { display: block; }
+@media (min-width: 1280px) {
+  .song-mobile-only { display: none !important; }
+}
+
+/* ── Sidebar card widget ── */
+.song-sidebar-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 1.5rem;
+}
+.song-sidebar-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(255,101,132,0.04));
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-primary);
+}
+.song-sidebar-card-body {
+  padding: 0.75rem;
+}
+
+/* Inside sidebar: description has no card background — just the accent bar */
+.song-sidebar-card-body .song-about-description {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+.song-sidebar-card-body .song-about-trivia li {
+  padding: 0.5rem 0.625rem;
+  font-size: 0.75rem;
+}
+
+/* ── About card as <details> on mobile ── */
+/* Override the old standalone .song-about-card block styles */
+details.song-about-card {
+  max-width: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  background: var(--bg-card);
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  position: static;
+  z-index: auto;
+}
+
+/* Summary row — the clickable header */
+.song-about-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(255,101,132,0.04));
+  border-bottom: 1px solid var(--border-light);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-primary);
+}
+/* Hide browser default marker */
+.song-about-summary::-webkit-details-marker { display: none; }
+.song-about-summary::marker { display: none; }
+
+/* Chevron rotates when <details> is open */
+.song-about-summary .about-chevron {
+  margin-left: auto;
+  transition: transform 0.22s ease;
+}
+details[open] .song-about-summary .about-chevron {
+  transform: rotate(180deg);
+}
+
+/* Body of the <details> element */
+.song-about-body {
+  padding: 0.75rem;
+}
+.song-about-body .song-about-description {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Try-Next inside sidebar: slightly more compact cards */
+.try-next-list-sidebar .try-next-card {
+  padding: 0.5rem 0.625rem;
+}
+.try-next-list-sidebar .try-next-card img,
+.try-next-list-sidebar .try-next-thumb-placeholder {
+  width: 36px;
+  height: 36px;
+}
+.try-next-list-sidebar .try-next-title {
+  font-size: 0.8rem;
+}
