@@ -106,6 +106,21 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
 
   return (
     <div className="min-h-screen flex flex-col relative isolate">
+      {/* Page-level background wallpaper — one image, fixed, covers entire page */}
+      {song.background && (
+        <div
+          className="fixed inset-0 z-0 pointer-events-none"
+          style={{
+            backgroundImage: `url('/song-images/${song.background.replace("images/", "")}')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            opacity: 0.13,
+            filter: "saturate(1.1) contrast(1.05)",
+          }}
+        />
+      )}
+
       {/* Top bar */}
       <header className="sticky top-0 z-40 glass border-b border-[var(--border-light)]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
@@ -131,23 +146,22 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
         </div>
       </header>
 
-      {/* Song header with background */}
-      <div className="relative overflow-hidden z-[1]">
-        {/* Background image */}
+      {/* Song header — dark frosted glass panel over the page-level wallpaper */}
+      <div className="relative z-[1]">
+        {/* Glass overlay — backdrop-filter blurs the fixed wallpaper behind it */}
         <div className="absolute inset-0 z-0">
-          {song.background ? (
-            <Image
-              src={`/song-images/${song.background.replace("images/", "")}`}
-              alt=""
-              fill
-              className="object-cover blur-sm"
-              sizes="100vw"
-              unoptimized
-            />
-          ) : (
-            <div className="w-full h-full bg-gradient-to-br from-[var(--accent-primary)] to-[var(--accent-secondary)]" />
+          {!song.background && (
+            <div className="absolute inset-0 bg-gradient-to-br from-[var(--accent-primary)] to-[var(--accent-secondary)]" />
           )}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[var(--bg-primary)]" />
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "rgba(0, 0, 0, 0.52)",
+              backdropFilter: "blur(16px)",
+              WebkitBackdropFilter: "blur(16px)",
+              borderBottom: "1px solid rgba(255,255,255,0.07)",
+            }}
+          />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 pt-8 pb-10">

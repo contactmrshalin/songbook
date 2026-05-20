@@ -58,6 +58,11 @@
   {{ end }}
 
   <div class="song-page">
+    {{/* Page-level background wallpaper — one image, fixed, covers entire page */}}
+    {{ with $bg }}
+      <div class="page-bg-image" style="background-image: url('{{ . }}')"></div>
+    {{ end }}
+
     {{/* Sticky header */}}
     <header class="sticky-header glass">
       <div class="header-inner">
@@ -78,15 +83,14 @@
       </div>
     </header>
 
-    {{/* Hero section */}}
+    {{/* Hero section — dark glass panel on top of the page-level wallpaper */}}
     <div class="song-hero">
       <div class="song-hero-bg">
-        {{ if $bg }}
-          <img class="song-hero-bg-img" src="{{ $bg }}" alt="" />
-        {{ else }}
+        {{ if not $bg }}
+          {{/* Fallback: show accent gradient when no background image */}}
           <div class="song-hero-bg-gradient"></div>
         {{ end }}
-        <div class="song-hero-overlay"></div>
+        <div class="song-hero-glass"></div>
       </div>
       <div class="song-hero-content">
         <div class="song-hero-thumb">
