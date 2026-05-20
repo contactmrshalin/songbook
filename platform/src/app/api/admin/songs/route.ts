@@ -1,26 +1,44 @@
 import { getFileContent } from "@/lib/github";
 import { getAllSongs } from "@/lib/songs";
+import type { Song } from "@/types/song";
 
 export const dynamic = "force-dynamic";
 
 /**
  * POST /api/admin/songs
  * Body: { password: string }
+ *   → Returns the full song list (title, id, section/line counts).
  *
- * Returns the song list. Uses the pre-built bundle for fast response
- * (title, id, section/line counts) and checks book.json from GitHub
- * for the authoritative song_order.
+ * Body: { password: string, songId: string }
+ *   → Returns the full Song JSON for the given ID fetched live from GitHub.
+ *
+ * Uses the pre-built bundle for list mode (fast, no per-song API calls).
+ * Fetches directly from GitHub for single-song load so edits are always fresh.
  */
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { password } = body as { password?: string };
+    const { password, songId } = body as { password?: string; songId?: string };
 
     const adminPassword = process.env.ADMIN_PASSWORD;
     if (!adminPassword || password !== adminPassword) {
       return Response.json({ error: "Unauthorized" }, { status: 401 });
     }
 
+    // ── Single-song load ──────────────────────────────────────────────────
+    if (songId) {
+      const content = await getFileContent(`data/songs/${songId}.json`);
+      if (!content) {
+        return Response.json(
+          { error: `Song not found: ${songId}.json` },
+          { status: 404 }
+        );
+      }
+      const song: Song = JSON.parse(content);
+      return Response.json({ success: true, song });
+    }
+
+    // ── Song list (default) ───────────────────────────────────────────────
     // Get book.json from GitHub for the live song order
     const bookRaw = await getFileContent("data/book.json");
     const songOrder: string[] = bookRaw

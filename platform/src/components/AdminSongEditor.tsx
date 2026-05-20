@@ -21,6 +21,7 @@ import {
   List,
   X,
   Sparkles,
+  Pencil,
 } from "lucide-react";
 import type { Song, SongSection, SongLine } from "@/types/song";
 
@@ -81,6 +82,13 @@ export default function AdminSongEditor({ password }: Props) {
     success: boolean;
     message: string;
   } | null>(null);
+
+  // Edit source — tracks whether the current song came from scraping or the manage list
+  const [editSource, setEditSource] = useState<"scrape" | "manage">("scrape");
+
+  // Per-song loading indicators in the manage tab
+  const [loadingEditId, setLoadingEditId] = useState<string | null>(null);
+  const [loadingEnrichId, setLoadingEnrichId] = useState<string | null>(null);
 
   // Collapsible sections
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
@@ -308,12 +316,26 @@ export default function AdminSongEditor({ password }: Props) {
         return;
       }
 
-      setPublishResult({
-        success: true,
-        message: data.message,
-        commitSha: data.commitSha,
-      });
-      setStep("published");
+      if (editSource === "manage") {
+        // Return directly to manage tab with a success banner — no separate "published" page
+        const updatedTitle = song!.title;
+        setSong(null);
+        setStep("scrape");
+        setEditSource("scrape");
+        setPublishResult(null);
+        setEnrichResult(null);
+        setExpandedSections(new Set());
+        setTab("manage");
+        setDeleteResult({ success: true, message: `✓ "${updatedTitle}" updated on GitHub successfully!` });
+        loadSongList(); // Refresh the list so counts / metadata reflect changes
+      } else {
+        setPublishResult({
+          success: true,
+          message: data.message,
+          commitSha: data.commitSha,
+        });
+        setStep("published");
+      }
     } catch (err) {
       setPublishResult({
         success: false,
@@ -412,6 +434,92 @@ export default function AdminSongEditor({ password }: Props) {
     setPublishResult(null);
     setEnrichResult(null);
     setExpandedSections(new Set());
+    setEditSource("scrape");
+  };
+
+  // -----------------------------------------------------------------------
+  // Load an existing song from GitHub for editing (optionally with AI enrich)
+  // -----------------------------------------------------------------------
+  const handleLoadSong = async (songId: string, autoEnrich: boolean) => {
+    const setLoading = autoEnrich ? setLoadingEnrichId : setLoadingEditId;
+    setLoading(songId);
+    setSongListError("");
+    setDeleteResult(null);
+
+    try {
+      // Fetch the live JSON from GitHub via the extended songs endpoint
+      const res = await fetch("/api/admin/songs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password, songId }),
+      });
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        setSongListError(data.error || "Failed to load song from GitHub");
+        return;
+      }
+
+      let loadedSong: Song = data.song;
+      let initialEnrichResult: { success: boolean; message: string } | null = null;
+
+      // Optionally enrich inline before opening the editor
+      if (autoEnrich) {
+        const enrichRes = await fetch("/api/admin/enrich", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ song: loadedSong, password }),
+        });
+        const enrichData = await enrichRes.json();
+
+        if (enrichRes.ok && enrichData.success) {
+          const newFields: string[] = enrichData.newFields ?? [];
+          const description: string | null = enrichData.description ?? null;
+          const trivia: string[] | null = enrichData.trivia ?? null;
+          const added: string[] = [];
+          if (newFields.length) added.push(...newFields.map((f: string) => f.split(":")[0]));
+          if (description) added.push("Description");
+          if (trivia?.length) added.push("Trivia");
+
+          if (added.length > 0) {
+            loadedSong = {
+              ...loadedSong,
+              info: [...loadedSong.info, ...newFields],
+              ...(description ? { description } : {}),
+              ...(trivia?.length ? { trivia } : {}),
+            };
+            initialEnrichResult = {
+              success: true,
+              message: `AI added: ${added.join(", ")} — review below then publish`,
+            };
+          } else {
+            initialEnrichResult = {
+              success: true,
+              message: "All fields already present — nothing to add.",
+            };
+          }
+        } else {
+          initialEnrichResult = {
+            success: false,
+            message: enrichData.error || "Enrichment failed",
+          };
+        }
+      }
+
+      // Open in editor
+      setSong(loadedSong);
+      setExpandedSections(new Set(loadedSong.sections.map((_, i) => i)));
+      setImageUrl("");
+      setPublishResult(null);
+      setEnrichResult(initialEnrichResult);
+      setEditSource("manage");
+      setTab("scrape");
+      setStep("edit");
+    } catch (err) {
+      setSongListError(err instanceof Error ? err.message : "Network error");
+    } finally {
+      setLoading(null);
+    }
   };
 
   // -----------------------------------------------------------------------
@@ -644,16 +752,62 @@ export default function AdminSongEditor({ password }: Props) {
                         </button>
                       </div>
                     ) : (
-                      <button
-                        onClick={() => {
-                          setDeleteConfirmId(s.id);
-                          setDeleteResult(null);
-                        }}
-                        className="p-2 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors shrink-0"
-                        title={`Delete ${s.title}`}
-                      >
-                        <Trash2 className="w-4 h-4" />
-                      </button>
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        {/* Edit button */}
+                        <button
+                          onClick={() => handleLoadSong(s.id, false)}
+                          disabled={
+                            loadingEditId === s.id ||
+                            loadingEnrichId === s.id ||
+                            !!deletingId
+                          }
+                          title={`Edit ${s.title}`}
+                          className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-[var(--text-secondary)] hover:bg-[var(--bg-secondary)] border border-[var(--border-light)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                        >
+                          {loadingEditId === s.id ? (
+                            <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                          ) : (
+                            <Pencil className="w-3.5 h-3.5" />
+                          )}
+                          <span className="hidden sm:inline">
+                            {loadingEditId === s.id ? "Loading…" : "Edit"}
+                          </span>
+                        </button>
+
+                        {/* Enrich with AI button */}
+                        <button
+                          onClick={() => handleLoadSong(s.id, true)}
+                          disabled={
+                            loadingEditId === s.id ||
+                            loadingEnrichId === s.id ||
+                            !!deletingId
+                          }
+                          title={`Enrich ${s.title} with AI`}
+                          className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-[var(--accent-primary)] hover:bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                        >
+                          {loadingEnrichId === s.id ? (
+                            <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                          ) : (
+                            <Sparkles className="w-3.5 h-3.5" />
+                          )}
+                          <span className="hidden sm:inline">
+                            {loadingEnrichId === s.id ? "Enriching…" : "Enrich"}
+                          </span>
+                        </button>
+
+                        {/* Delete button */}
+                        <button
+                          onClick={() => {
+                            setDeleteConfirmId(s.id);
+                            setDeleteResult(null);
+                          }}
+                          disabled={loadingEditId === s.id || loadingEnrichId === s.id}
+                          className="p-2 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                          title={`Delete ${s.title}`}
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </button>
+                      </div>
                     )}
                   </div>
                 ))}
@@ -763,11 +917,24 @@ export default function AdminSongEditor({ password }: Props) {
             {/* Back + summary bar */}
             <div className="flex items-center justify-between">
               <button
-                onClick={() => setStep("scrape")}
+                onClick={() => {
+                  if (editSource === "manage") {
+                    // Return to manage tab without saving
+                    setSong(null);
+                    setStep("scrape");
+                    setEditSource("scrape");
+                    setEnrichResult(null);
+                    setPublishResult(null);
+                    setExpandedSections(new Set());
+                    setTab("manage");
+                  } else {
+                    setStep("scrape");
+                  }
+                }}
                 className="flex items-center gap-1 text-sm text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
               >
                 <ArrowLeft className="w-4 h-4" />
-                Back to scrape
+                {editSource === "manage" ? "Back to manage" : "Back to scrape"}
               </button>
               <div className="text-sm text-[var(--text-muted)]">
                 {song.sections.length} sections · {totalLines} lines
@@ -781,12 +948,26 @@ export default function AdminSongEditor({ password }: Props) {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="admin-label">Song ID</label>
+                  <label className="admin-label">
+                    Song ID
+                    {editSource === "manage" && (
+                      <span className="ml-1.5 text-[var(--text-muted)] font-normal text-[0.7rem]">
+                        (read-only)
+                      </span>
+                    )}
+                  </label>
                   <input
                     type="text"
                     value={song.id}
-                    onChange={(e) => updateSongField("id", e.target.value)}
-                    className="admin-input"
+                    onChange={(e) =>
+                      editSource !== "manage" && updateSongField("id", e.target.value)
+                    }
+                    readOnly={editSource === "manage"}
+                    className={`admin-input ${
+                      editSource === "manage"
+                        ? "opacity-60 cursor-not-allowed select-all"
+                        : ""
+                    }`}
                   />
                 </div>
                 <div>
@@ -1114,12 +1295,12 @@ export default function AdminSongEditor({ password }: Props) {
                   {publishing ? (
                     <>
                       <Loader2 className="w-4 h-4 animate-spin" />
-                      Publishing...
+                      {editSource === "manage" ? "Updating…" : "Publishing…"}
                     </>
                   ) : (
                     <>
                       <Send className="w-4 h-4" />
-                      Publish to GitHub
+                      {editSource === "manage" ? "Update on GitHub" : "Publish to GitHub"}
                     </>
                   )}
                 </button>
