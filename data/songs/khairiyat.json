@@ -1,0 +1,103 @@
+{
+  "id": "khairiyat",
+  "title": "Khairiyat",
+  "export": true,
+  "info": [
+    "Film/Artist: Chhichhore",
+    "Scale: D# BASS/MIDDLE"
+  ],
+  "thumbnail": "images/khairiyat.png",
+  "background": "images/khairiyat.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Khairiyat puchhon",
+          "indian": "Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Kabhi toh kaifiyatt puchhon",
+          "indian": "Sa' Ni Dha Pa Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Tumhare bin deewane kaa",
+          "indian": "Sa' Ni Dha Pa Pa Ma Pa Sa' Ni"
+        },
+        {
+          "lyrics": "Kya haal haii",
+          "indian": "Pa ma Pa Ga"
+        },
+        {
+          "lyrics": "Dil mera dekho",
+          "indian": "Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Naa meri haisiyat puchhoo",
+          "indian": "Sa' Ni Dha Pa Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Tere bin ekk din jaisee",
+          "indian": "Sa' Ni Dha Pa Pa Ma Pa Sa' Ni"
+        },
+        {
+          "lyrics": "Sau saal haii",
+          "indian": "Pa ma Pa Ga"
+        },
+        {
+          "lyrics": "Anjaam hai tai meraa",
+          "indian": "Dha Ni Sa' Re': .S' Ga' Re'"
+        },
+        {
+          "lyrics": "Hona tumhe hai meraa",
+          "indian": "Pa Dha Ni Sa': .N Re' Sa'"
+        },
+        {
+          "lyrics": "Jitni bhii ho dooriyan",
+          "indian": "ma Pa Dha Ni: .D Sa' Ni"
+        },
+        {
+          "lyrics": "Filhaal haii",
+          "indian": "Dha Dha Ni Dha Dha(k)"
+        },
+        {
+          "lyrics": "Yee dooriyan filhaal haii",
+          "indian": "Pa: ma Dha Pa ma ma Pa Ga:"
+        },
+        {
+          "lyrics": "Hoo hoo khairiyat puchhon",
+          "indian": "Sa' Ni Dha Pa Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Kabhi toh kaifiyatt puchhon",
+          "indian": "Sa' Ni Dha Pa Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Tumhare bin deewane kaa",
+          "indian": "Sa' Ni Dha Pa Pa Ma Pa Sa' Ni"
+        },
+        {
+          "lyrics": "Kya haal haii",
+          "indian": "Pa ma Pa Ga"
+        },
+        {
+          "lyrics": "Dil mera dekho",
+          "indian": "Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Naa meri haisiyat puchhoo",
+          "indian": "Sa' Ni Dha Pa Dha Pa Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Tere bin ekk din jaisee",
+          "indian": "Sa' Ni Dha Pa Pa Ma Pa Sa' Ni"
+        },
+        {
+          "lyrics": "Sau saal haii",
+          "indian": "Pa ma Pa Ga"
+        }
+      ]
+    }
+  ],
+  "description": "https://i.scdn.co/image/ab67616d0000b273eaa6b4bfb5954ee5a5a8ce9e"
+}
