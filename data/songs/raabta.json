@@ -1,0 +1,202 @@
+{
+  "id": "raabta",
+  "title": "Raabta",
+  "export": true,
+  "info": [
+    "Film/Artist: Full Song",
+    "Scale: C BASS/MIDDLE"
+  ],
+  "thumbnail": "images/raabta.jpg",
+  "background": "images/raabta.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kehte hain khuda ne iss",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Jahaan mein sabhi ke liye",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Kisi na kisi ko hai",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Banaaya harr kisi ke liyee",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Tera milna hai uss",
+          "indian": "dha Sa Re Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Rab ka ishaara maano",
+          "indian": "dha Sa Re Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Mujhko banaya tere jaise hi kisi ke liye",
+          "indian": "Re Sa Sa ni ni dha dha pa pa dha ni dha ni Sa Re Ga"
+        },
+        {
+          "lyrics": "Kehte hain khuda ne iss",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Jahaan mein sabhi ke liye",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Kisi na kisi ko hai",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Banaaya harr kisi ke liyee",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Tera milna hai uss",
+          "indian": "dha Sa Re Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Rab ka ishaara maano",
+          "indian": "dha Sa Re Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Mujhko banaya tere jaise hi kisi ke liye",
+          "indian": "Re Sa Sa ni ni dha dha pa pa dha ni dha ni Sa Re Ga"
+        },
+        {
+          "lyrics": "Kuch toh hai tujh se raabta",
+          "indian": "Ga Re Ga Re Ga Re Ga Pa Pa ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Kuch toh hai tujh se raabta",
+          "indian": "Sa ni Sa ni Sa ni Sa Ga Ga pa dha"
+        },
+        {
+          "lyrics": "Kaise hum jaane hume kyaa pataa",
+          "indian": "Ga Re Ga Re Ga Re Ga Pa Pa ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Kuch toh hai tujh se raabta",
+          "indian": "Sa ni Sa ni Sa ni Sa Ga Ga pa dha"
+        },
+        {
+          "lyrics": "Tu humsafar haii",
+          "indian": "dha ma Ga Ga Re Re Ga"
+        },
+        {
+          "lyrics": "Phir kyaa fikar haii",
+          "indian": "dha ma Ga Ga Re Re Ga"
+        },
+        {
+          "lyrics": "Jeene ki wajah hi yehi hai",
+          "indian": "Ga Re Re Sa Sa ni ni dha"
+        },
+        {
+          "lyrics": "Marna issi ke liye",
+          "indian": "pa dha ni dha ni Sa Re Ga"
+        },
+        {
+          "lyrics": "Kehte hain khuda ne iss",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Jahaan mein sabhi ke liye",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Kisi na kisi ko hai",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Banaaya harr kisi ke liyee",
+          "indian": "Ga Ga Re Re Sa Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Hmm meharbaani jaate jaate mujhpe kar gayaa",
+          "indian": "ni ni ni Sa Re Sa Sa ni Sa Re Sa Sa ni ni dha dha pa pa"
+        },
+        {
+          "lyrics": "Guzarta saa lamha ek daaman bhar gayaa",
+          "indian": "ni ni Sa Re Sa Sa ni Sa Re Sa Sa ni ni dha dha pa dha"
+        },
+        {
+          "lyrics": "Teraa nazaara mila roshan sitaara milaa",
+          "indian": "dha ni Sa ma Ga Re Ga dha ni Sa Re Ga Re Re"
+        },
+        {
+          "lyrics": "Taqdeer ki kastiyon ko kinaara milaa",
+          "indian": "dha ni Sa Sa Sa ni Re Sa ni dha pa dha ni dha pa pa"
+        },
+        {
+          "lyrics": "Sadhiyon se tarsee hain jaisi zindagi ke liye",
+          "indian": "pa ni Sa ni Sa ni Re Sa pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Teri sohbat mein duaayein hain ussi ke liyee",
+          "indian": "pa ni Sa ni Sa ni Re Sa pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Tera milna hai uss rab kaa ishaara maano",
+          "indian": "dha Sa Re Sa Re Sa Ga Re dha Sa Re Sa Re Sa Ga Re"
+        },
+        {
+          "lyrics": "Mujhko banaaya tere jaise hi kisii ke liyee",
+          "indian": "Re Sa Sa ni ni dha dha pa pa dha ni dha ni Sa Re Ga"
+        },
+        {
+          "lyrics": "Kuch toh hai tujh se raabta",
+          "indian": "Ga Re Ga Re Ga Re Ga Pa Pa ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Kuch toh hai tujh se raabta",
+          "indian": "Sa ni Sa ni Sa ni Sa Ga Ga pa dha"
+        },
+        {
+          "lyrics": "Kaise hum jaane hume kyaa pataa",
+          "indian": "Ga Re Ga Re Ga Re Ga Pa Pa ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Kuch toh hai tujh se raabta",
+          "indian": "Sa ni Sa ni Sa ni Sa Ga Ga pa dha"
+        },
+        {
+          "lyrics": "Tu humsafar haii",
+          "indian": "dha ma Ga Ga Re Re Ga"
+        },
+        {
+          "lyrics": "Phir kyaa fikar haii",
+          "indian": "dha ma Ga Ga Re Re Ga"
+        },
+        {
+          "lyrics": "Jeene ki wajah hi yehi hai",
+          "indian": "Ga Re Re Sa Sa ni ni dha"
+        },
+        {
+          "lyrics": "Marna issi ke liye",
+          "indian": "pa dha ni dha ni Sa Re Ga"
+        },
+        {
+          "lyrics": "Kehte hain khuda ne iss",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Jahaan mein sabhi ke liye",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Kisi na kisi ko hai",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        },
+        {
+          "lyrics": "Banaaya harr kisi ke liyee",
+          "indian": "pa ni Sa ni Sa ni Re Sa"
+        }
+      ]
+    }
+  ]
+}
