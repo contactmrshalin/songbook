@@ -1,0 +1,65 @@
+{
+  "id": "laadki",
+  "title": "Laadki",
+  "export": true,
+  "info": [
+    "Scale: G MAJOR"
+  ],
+  "thumbnail": "images/laadki.jpg",
+  "background": "images/laadki.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dorii yeh kinchi dori",
+          "indian": "pa Ga Re Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Palnee ki tune mori",
+          "indian": "pa Ga Re Ga Re Sa Re dha:"
+        },
+        {
+          "lyrics": "Meree sapno ko jhulaya sari raat",
+          "indian": "dha dha pa pa pa Pa Pa Pa Pa Re Sa Sa:"
+        },
+        {
+          "lyrics": "Bhalee bagiya terri chhodi",
+          "indian": "pa pa pa Ga Re Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Bhalee nindiya teri chhodi",
+          "indian": "pa pa pa Ga Re Ga Re Sa Re dha:"
+        },
+        {
+          "lyrics": "Bass itni si yaad tu rakhiyoon meri baat",
+          "indian": "dha dha pa pa pa Pa Pa Pa Pa Re Sa Sa:"
+        },
+        {
+          "lyrics": "Terii laadki mein haahaa",
+          "indian": "Sa Sa Ga Ga ma Pa: ma ma Ga"
+        },
+        {
+          "lyrics": "Terii laadki mein",
+          "indian": "Sa Sa Ga Ga ma Pa: ma ma Ga"
+        },
+        {
+          "lyrics": "Terii laadki mein  chhodugi na tera hath",
+          "indian": "Sa Sa Ga Ga ma Pa: Ga Re ma Ga: Re Sa Sa: ."
+        },
+        {
+          "lyrics": "Terii laadki mein haahaa",
+          "indian": "Sa Sa Ga Ga ma Pa: ma ma Ga"
+        },
+        {
+          "lyrics": "Terii laadki mein",
+          "indian": "Sa Sa Ga Ga ma Pa: ma ma Ga"
+        },
+        {
+          "lyrics": "Terii laadki mein  chhodugi na tera hath",
+          "indian": "Sa Sa Ga Ga ma Pa: Ga Re ma Ga: Re Sa Sa: ."
+        }
+      ]
+    }
+  ]
+}
