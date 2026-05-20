@@ -2,7 +2,11 @@
   "id": "jan_gan_mana_anthem",
   "title": "Jana Gana Mana",
   "info": [
-    "type: National Anthem"
+    "type: National Anthem",
+    "Music: Rabindranath Tagore (AI)",
+    "Lyrics: Rabindranath Tagore (AI)",
+    "Raag: Bilawal (AI)",
+    "Thaat: Bilawal (AI)"
   ],
   "thumbnail": "images/jan_gan_mana_anthem.png",
   "background": "images/jan_gan_mana_anthem.png",
@@ -79,5 +83,12 @@
         }
       ]
     }
+  ],
+  "description": "India's national anthem, 'Jana Gana Mana,' is a profound and majestic composition that evokes a sense of unity and national pride. Its melody, penned by the polymath Rabindranath Tagore, carries a solemn yet uplifting quality, reflecting the diverse cultural tapestry and aspirations of the nation. The song's structure is simple yet powerful, making it universally recognizable and deeply resonant across India.",
+  "trivia": [
+    "The song was originally composed in Bengali by Rabindranath Tagore as 'Bharoto Bhagyo Bidhata' and was first publicly sung on December 27, 1911, at the Calcutta Session of the Indian National Congress.",
+    "The full song consists of five stanzas, but only the first stanza was officially adopted as the National Anthem of India by the Constituent Assembly on January 24, 1950.",
+    "Rabindranath Tagore himself translated 'Jana Gana Mana' into English as 'The Morning Song of India' in 1919.",
+    "While often associated with the Bilawal raag, the anthem's melody is a unique creation by Tagore, blending traditional Indian musical elements with a Western-influenced harmonic structure, making it accessible and grand."
   ]
 }

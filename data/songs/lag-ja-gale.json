@@ -6,7 +6,8 @@
     "Singer: Lata Mangeshkar",
     "Lyrics: Raja Mehdi Ali Khan",
     "Music: Madan Mohan",
-    "Based on Raag: Pahadi"
+    "Based on Raag: Pahadi",
+    "Thaat: Bilawal (AI)"
   ],
   "thumbnail": "images/lag_ja_gale_thumb1.png",
   "background": "images/lag_ja_gale_bg.jpeg",
@@ -110,11 +111,11 @@
     }
   ],
   "export": true,
-  "description": "Lag Ja Gale is an immortal classic that perfectly encapsulates the melancholic romance of Hindi cinema's golden era. Lata Mangeshkar's ethereal voice, combined with Madan Mohan's exquisite composition and Raja Mehdi Ali Khan's poignant lyrics, creates a timeless masterpiece that continues to resonate with listeners for its sheer beauty and emotional depth. It's a quintessential example of how simple melodies can achieve profound impact.",
+  "description": "Lag Ja Gale is an iconic, melancholic masterpiece that captures the bittersweet essence of love and impermanence. Composed by Madan Mohan in the soulful Raag Pahadi, the song is elevated by Lata Mangeshkar's hauntingly beautiful vocals and lush, expressive orchestral arrangements. It remains one of the most celebrated ghazals in Indian cinema, evoking a deep sense of nostalgia and romantic longing.",
   "trivia": [
-    "Lata Mangeshkar herself frequently cited 'Lag Ja Gale' as one of her all-time favorite songs that she had ever sung, a testament to its profound emotional resonance.",
-    "Madan Mohan, despite being a prolific and highly respected composer known for his melodic genius, never won a Filmfare Award for Best Music Director during his lifetime, making this song a powerful reminder of his often-underrated brilliance.",
-    "The song's haunting melody and Sadhana's iconic portrayal on screen, particularly her signature fringe hairstyle, contributed significantly to its enduring visual and auditory appeal, making it synonymous with classic Bollywood romance.",
-    "Reportedly, the song was initially considered too slow and not commercial enough by some producers, but director Raj Khosla insisted on its inclusion in 'Woh Kaun Thi', recognizing its timeless potential."
+    "The song was initially rejected by the film's director, Raj Khosla, but was reinstated after actor Manoj Kumar intervened and praised the composition.",
+    "It is composed in Raag Pahadi, a raga originating from the folk music of the Himalayas, which is beautifully suited for conveying light, romantic, and peaceful moods.",
+    "Lata Mangeshkar considered this song to be among her top personal favorites and one of her finest collaborations with music director Madan Mohan, who was often called the 'King of Ghazals.'",
+    "The song's enduring popularity has led to numerous covers and tributes by artists worldwide, making it one of the most globally recognized Hindi film songs of all time."
   ]
 }

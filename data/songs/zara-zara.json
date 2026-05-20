@@ -6,7 +6,12 @@
   "info": [
     "Song: Zara Zara",
     "Movie: Rehnaa Hai Terre Dil Mein (2001)",
-    "Scale (Western): Sa = C"
+    "Scale (Western): Sa = C",
+    "Singer: Bombay Jayashri (AI)",
+    "Music: Harris Jayaraj (AI)",
+    "Lyrics: Sameer (AI)",
+    "Raag: Hamsadhwani (AI)",
+    "Thaat: Bilawal (AI)"
   ],
   "sections": [
     {
@@ -111,5 +116,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "An iconic romantic ballad, \"Zara Zara\" perfectly captures the essence of burgeoning love and sensual longing. Bombay Jayashri's ethereal vocals, combined with Harris Jayaraj's lush arrangement, create a dreamlike atmosphere, making it a timeless favorite for its tender melody and evocative lyrics.",
+  "trivia": [
+    "\"Zara Zara\" is the Hindi remake of the Tamil song \"Vaseegara\" from the film \"Minnale\" (2001), both composed by Harris Jayaraj and sung by Bombay Jayashri.",
+    "Renowned Carnatic vocalist Bombay Jayashri made her playback singing debut in Hindi cinema with this song, bringing a unique classical sensibility to its rendition.",
+    "The song's captivating melody is based on Raag Hamsadhwani, a pentatonic (five-note) raga, which gives it a distinct, flowing, and melodious character.",
+    "Despite being a remake, \"Zara Zara\" achieved immense popularity and became a significant hit, cementing its place as one of the most beloved romantic songs of the early 2000s."
+  ]
 }
