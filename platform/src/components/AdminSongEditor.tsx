@@ -270,7 +270,7 @@ export default function AdminSongEditor({ password }: Props) {
         if (!prev) return prev;
         return {
           ...prev,
-          info: [...prev.info, ...newFields],
+          info: [...(prev.info ?? []), ...newFields],
           ...(description ? { description } : {}),
           ...(trivia?.length ? { trivia } : {}),
         };
@@ -509,7 +509,7 @@ export default function AdminSongEditor({ password }: Props) {
 
       // Open in editor
       setSong(loadedSong);
-      setExpandedSections(new Set(loadedSong.sections.map((_, i) => i)));
+      setExpandedSections(new Set((loadedSong.sections ?? []).map((_, i) => i)));
       setImageUrl("");
       setPublishResult(null);
       setEnrichResult(initialEnrichResult);
@@ -1058,7 +1058,7 @@ export default function AdminSongEditor({ password }: Props) {
                 )}
 
                 <div className="space-y-2">
-                  {song.info.map((line, idx) => (
+                  {(song.info ?? []).map((line, idx) => (
                     <div key={idx} className="flex items-center gap-2">
                       <input
                         type="text"
@@ -1177,7 +1177,7 @@ export default function AdminSongEditor({ password }: Props) {
                 </button>
               </div>
 
-              {song.sections.map((section, sIdx) => (
+              {(song.sections ?? []).map((section, sIdx) => (
                 <div
                   key={sIdx}
                   className="glass rounded-2xl border border-[var(--border-light)] overflow-hidden"

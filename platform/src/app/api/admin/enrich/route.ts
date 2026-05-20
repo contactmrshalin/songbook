@@ -68,7 +68,8 @@ export async function POST(request: Request) {
     }
 
     // Determine which metadata fields are missing
-    const existing = extractMeta(song.info);
+    // Defensive: guard against songs that have no info array yet (e.g. freshly added stubs)
+    const existing = extractMeta(song.info ?? []);
     const missingMeta: string[] = [];
     if (!existing.movie) missingMeta.push("movie");
     if (!existing.singer) missingMeta.push("singer");
