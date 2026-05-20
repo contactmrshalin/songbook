@@ -1,6 +1,10 @@
 import type { Song } from "@/types/song";
 
 export const dynamic = "force-dynamic";
+// Extend Vercel function timeout to 60 s (Pro plan) so retries have room to breathe.
+// On Hobby (10 s cap) the function may still time out during heavy Gemini demand —
+// the user will just see "Try again" which is the right behaviour.
+export const maxDuration = 60;
 
 // Mirror of extractMeta in SongViewer — determines which fields are already present
 function extractMeta(info: string[]): Record<string, string> {
@@ -194,20 +198,23 @@ async function callGeminiWithRetry(
     const errText = await res.text();
 
     if (isQuota && attempt < maxRetries) {
-      // Exponential back-off: 5s, 15s, 45s
-      const waitMs = 5000 * Math.pow(3, attempt - 1);
-      console.warn(`[enrich] Quota hit (${res.status}), waiting ${waitMs / 1000}s before retry ${attempt}/${maxRetries}`);
+      // Short back-off (1 s, 3 s) — keeps total wait well under Vercel's 60 s limit.
+      // The local batch script uses its own longer delays; this route prioritises
+      // staying alive within the serverless timeout.
+      const waitMs = 1000 * Math.pow(3, attempt - 1); // 1 s, 3 s
+      console.warn(`[enrich] Quota/overload (${res.status}), waiting ${waitMs / 1000}s before retry ${attempt}/${maxRetries}`);
       await new Promise((r) => setTimeout(r, waitMs));
       continue;
     }
 
-    return {
-      error: `Gemini API error ${res.status}: ${errText.slice(0, 300)}${
-        res.status === 429
-          ? " — free tier quota exceeded. Upgrade to pay-as-you-go or wait until quota resets."
-          : ""
-      }`,
-    };
+    const friendlyMsg =
+      res.status === 429
+        ? "Gemini free-tier quota exceeded — wait a minute then try again, or upgrade to pay-as-you-go."
+        : res.status === 503
+          ? "Gemini is experiencing high demand right now. Please try again in a few seconds."
+          : `Gemini API error ${res.status}`;
+
+    return { error: `${friendlyMsg} (${errText.slice(0, 200)})` };
   }
 
   return { error: "Gemini API: max retries exceeded" };
