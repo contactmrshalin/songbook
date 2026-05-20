@@ -4,7 +4,10 @@
   "info": [
     "Movie: Kudrat (1981)",
     "Singer: Kishore Kumar",
-    "Music: R. D. Burman"
+    "Music: R. D. Burman",
+    "Lyrics: Majrooh Sultanpuri",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
   ],
   "thumbnail": "images/humein_tumse_pyar_kitna_thumb.jpeg",
   "background": "images/humein_tumse_pyar_kitna_thumb.jpeg",
@@ -63,5 +66,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "Hamein Tum Se Pyar Kitna is a timeless romantic ballad that beautifully showcases Kishore Kumar's emotive voice, set against R.D. Burman's soulful composition. Its melancholic yet deeply romantic melody, rooted in classical traditions, perfectly captures the depth of unspoken love and longing. The song remains a quintessential expression of heartfelt affection in Indian cinema.",
+  "trivia": [
+    "The film 'Kudrat' features two iconic versions of this song: a poignant male rendition by Kishore Kumar and a breathtaking classical rendition by Begum Parveen Sultana, both composed by R.D. Burman.",
+    "Kishore Kumar not only lent his voice to this memorable track but also directed the film 'Kudrat,' making it one of his few directorial ventures.",
+    "Composed in Raag Bhairavi, the song exemplifies R.D. Burman's mastery in blending classical Indian music with popular film melodies, creating an accessible yet profound musical experience.",
+    "Majrooh Sultanpuri's simple yet profound lyrics perfectly encapsulate the intensity of love, contributing significantly to the song's enduring appeal and making it a staple for expressing deep affection."
+  ]
 }
