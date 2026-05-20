@@ -2,9 +2,14 @@
   "id": "titanic-theme-song",
   "title": "Titanic Theme Song",
   "export": true,
-  "info": [],
-  "thumbnail": "images/titanic-theme-song.jpg",
-  "background": "images/titanic-theme-song.jpg",
+  "info": [
+    "Film: Titanic (1997)",
+    "Singer: Céline Dion",
+    "Music: James Horner",
+    "Lyrics: Will Jennings"
+  ],
+  "thumbnail": "images/titanic-theme-song.png",
+  "background": "images/titanic-theme-song.png",
   "sections": [
     {
       "name": "PRELUDE:",
@@ -84,12 +89,15 @@
         {
           "lyrics": "My heart will go on and on… {oooo nnnnn}",
           "indian": "S N S R G MG R... RGR S"
-        },
-        {
-          "lyrics": "[Then with these notes, one can improvise further for the rest of the song]",
-          "indian": ""
         }
       ]
     }
+  ],
+  "description": "The iconic theme song from James Cameron's epic film, \"Titanic,\" \"My Heart Will Go On\" is a powerful ballad performed by Céline Dion. Its soaring melody and emotive vocals perfectly capture the film's themes of enduring love and tragic loss, making it a global phenomenon and one of the best-selling singles of all time. The song's dramatic build-up and memorable chorus cemented its place in cinematic and musical history.",
+  "trivia": [
+    "Director James Cameron was initially against having a pop song over the end credits, preferring an instrumental score. Composer James Horner secretly worked with lyricist Will Jennings and Céline Dion to record a demo.",
+    "Céline Dion herself was initially hesitant to record the song, feeling she had already done too many movie themes. Her husband and manager, René Angélil, convinced her to record the demo.",
+    "The song won four Grammy Awards, including Record of the Year and Song of the Year, and an Academy Award for Best Original Song. It became one of the best-selling singles of all time, selling over 18 million copies worldwide.",
+    "The distinctive penny whistle (or tin whistle) motif that opens and recurs throughout the song was originally composed by James Horner for the film's instrumental score and later adapted into the song."
   ]
 }
