@@ -6,7 +6,8 @@
     "Music: Shankar–Ehsaan–Loy",
     "Lyrics: Javed Akhtar",
     "Scale: G major",
-    "Notation: . = low octave, ' = high octave, .. = hold"
+    "Notation: . = low octave, ' = high octave, .. = hold",
+    "Singer: Shilpa Rao, Amitabh Bhattacharya (AI)"
   ],
   "thumbnail": "images/iktara-wake-up-sid.png",
   "background": "images/iktara-wake-up-sid.png",
@@ -200,5 +201,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "Iktara is a soulful and introspective track that perfectly captures the urban angst and longing for connection. Its melancholic yet hopeful melody, combined with poignant lyrics, creates a deeply resonant experience. The song masterfully blends contemporary pop sensibilities with a folk-like emotional core, making it a standout piece in modern Bollywood music.",
+  "trivia": [
+    "The song became an anthem for a generation grappling with urban loneliness and self-discovery, perfectly encapsulating the film's coming-of-age theme.",
+    "Shilpa Rao's distinctive, slightly husky voice brought a unique blend of vulnerability and strength to the melody, making it instantly recognizable.",
+    "Javed Akhtar's poignant lyrics beautifully articulate feelings of longing and the search for connection amidst the bustling city life, often cited as some of his most evocative work.",
+    "Despite its contemporary arrangement, the song's title 'Iktara' (a single-stringed folk instrument) hints at its underlying simplicity and emotional directness, connecting to traditional Indian musical ethos."
+  ]
 }
