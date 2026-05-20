@@ -76,7 +76,7 @@ export default function NotationLine({
 
       {/* Notation — rendered as individual tokens */}
       {hasNotation && (
-        <div className="flex flex-wrap gap-x-1">
+        <div className="flex flex-col gap-y-0.5">
           {/* Indian notation tokens */}
           {(notationMode === "indian" || notationMode === "both") && (
             <div className="notation-text flex flex-wrap gap-x-1 items-center">
@@ -106,12 +106,9 @@ export default function NotationLine({
             </div>
           )}
 
-          {/* Western notation tokens */}
+          {/* Western notation tokens — separate line in "both" mode */}
           {(notationMode === "western" || notationMode === "both") && (
             <div className="notation-text western flex flex-wrap gap-x-1 items-center">
-              {notationMode === "both" && (
-                <span className="text-[var(--text-muted)] mx-1">|</span>
-              )}
               {westernTokens.map((token, idx) => {
                 const isCurrentToken = isActive && currentTokenIndex === idx;
                 const isPastToken = isActive && currentTokenIndex > idx && currentTokenIndex >= 0;

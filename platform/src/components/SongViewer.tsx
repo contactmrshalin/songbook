@@ -10,7 +10,6 @@ import {
   Mic2,
   ChevronDown,
   ChevronUp,
-  Eye,
   Info,
   BookOpen,
 } from "lucide-react";
@@ -18,7 +17,6 @@ import { useAppStore } from "@/lib/store";
 import NotationLine from "./NotationLine";
 import NotationToggle from "./NotationToggle";
 import AudioPlayer from "./AudioPlayer";
-import FingeringDiagram from "./FingeringDiagram";
 import AdBanner from "./AdBanner";
 import RandomSongSuggestions from "./RandomSongSuggestions";
 import NotationGuideModal from "./NotationGuideModal";
@@ -49,7 +47,7 @@ function extractMeta(info: string[]): Record<string, string> {
 }
 
 export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
-  const { currentNoteIndex, showFingerings, setShowFingerings } = useAppStore();
+  const { currentNoteIndex } = useAppStore();
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
     () => new Set(song.sections.map((_, i) => i))
   );
@@ -157,18 +155,6 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
 
           <div className="flex items-center gap-3">
             <NotationToggle />
-            <button
-              onClick={() => setShowFingerings(!showFingerings)}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                showFingerings
-                  ? "bg-[var(--accent-primary)] text-white"
-                  : "bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
-              }`}
-              title="Toggle fingering diagrams"
-            >
-              <Eye className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Fingerings</span>
-            </button>
             <button
               onClick={() => setShowInfo(!showInfo)}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
@@ -325,19 +311,12 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
                     const key = `${si}-${li}`;
 
                     return (
-                      <div key={key} ref={setLineRef(key)} className="flex items-start gap-2 break-inside-avoid">
-                        <div className="flex-1">
-                          <NotationLine
-                            line={line}
-                            lineIndex={globalIdx}
-                            isActive={currentNoteIndex === globalIdx}
-                          />
-                        </div>
-                        {showFingerings && line.indian && (
-                          <div className="flex-shrink-0 pt-1">
-                            <FingeringDiagram notation={line.indian} />
-                          </div>
-                        )}
+                      <div key={key} ref={setLineRef(key)} className="break-inside-avoid">
+                        <NotationLine
+                          line={line}
+                          lineIndex={globalIdx}
+                          isActive={currentNoteIndex === globalIdx}
+                        />
                       </div>
                     );
                   })}
