@@ -104,36 +104,8 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
     }
   }, [currentNoteIndex, song.sections]);
 
-  const bgImageUrl = song.background
-    ? `/song-images/${song.background.replace("images/", "")}`
-    : null;
-
   return (
     <div className="min-h-screen flex flex-col relative isolate">
-      {/* Full-page fixed background image (gh-pages style) */}
-      {bgImageUrl && (
-        <>
-          <div
-            className="fixed inset-0 z-0 pointer-events-none"
-            style={{
-              backgroundImage: `url('${bgImageUrl}')`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              opacity: 0.12,
-              filter: "saturate(1.05) contrast(1.05)",
-            }}
-          />
-          {/* Light veil for readability */}
-          <div
-            className="fixed inset-0 z-0 pointer-events-none"
-            style={{
-              background: "linear-gradient(to bottom, rgba(255,255,255,0.14), rgba(255,255,255,0.55))",
-            }}
-          />
-        </>
-      )}
-
       {/* Top bar */}
       <header className="sticky top-0 z-40 glass border-b border-[var(--border-light)]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
