@@ -5,7 +5,12 @@
   "info": [
     "Film/Artist: Kati Patang",
     "Scale: C BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/yeh-shaam-mastani-sargam-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/yeh-shaam-mastani-sargam-and-flute-notes.html",
+    "Singer: Kishore Kumar (AI)",
+    "Music: R.D. Burman (AI)",
+    "Lyrics: Anand Bakshi (AI)",
+    "Raag: Pilu (AI)",
+    "Thaat: Kafi (AI)"
   ],
   "thumbnail": "images/yeh-shaam-mastani.png",
   "background": "images/yeh-shaam-mastani.png",
@@ -183,5 +188,12 @@
         }
       ]
     }
+  ],
+  "description": "This evergreen romantic classic perfectly captures the essence of a blossoming love amidst a picturesque setting. Kishore Kumar's inimitable voice, full of playful charm and tender emotion, brings Anand Bakshi's poetic lyrics to life, making it a timeless serenade. R.D. Burman's composition, with its gentle rhythm and flowing melody, creates an atmosphere of pure, unadulterated romance that continues to enchant listeners.",
+  "trivia": [
+    "The song is famously picturised on the superstar Rajesh Khanna, who is seen serenading Asha Parekh on a toy train, adding to its iconic visual appeal.",
+    "It is considered one of Kishore Kumar's signature songs, showcasing his unique ability to convey both lightheartedness and deep emotion through his singing.",
+    "R.D. Burman's arrangement for 'Yeh Shaam Mastani' is a masterclass in simplicity and effectiveness, using minimal instrumentation to create maximum impact, particularly with the memorable guitar riff.",
+    "The film 'Kati Patang' was a massive box office success, and its soundtrack, primarily composed by R.D. Burman, played a significant role in its popularity, with this song being a standout."
   ]
 }
