@@ -3,7 +3,11 @@
   "title": "Saare Jahan Se Achchha",
   "info": [
     "Poet: Muhammad Iqbal",
-    "Released/Written: 16 Aug 1904"
+    "Released/Written: 16 Aug 1904",
+    "Music: Pandit Ravi Shankar",
+    "Lyrics: Muhammad Iqbal",
+    "Raag: Khamaj",
+    "Thaat: Khamaj"
   ],
   "thumbnail": "images/sare_jahan_se_achha.png",
   "background": "images/sare_jahan_se_achha.png",
@@ -121,5 +125,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "Saare Jahan Se Achchha is an iconic patriotic song that has resonated deeply with generations of Indians. Originally a poem titled \"Tarānah-e-Hindi,\" it beautifully expresses a profound love for the Indian subcontinent, celebrating its natural beauty, cultural heritage, and resilience. Its stirring melody and powerful lyrics have made it an enduring symbol of national pride and unity.",
+  "trivia": [
+    "The poem was originally written by Muhammad Iqbal in 1904 while he was a lecturer at Government College, Lahore, and was first published in the weekly journal Ittehad.",
+    "Mahatma Gandhi was deeply moved by the song and reportedly sang it hundreds of times during his imprisonment in Yerawada Jail, often requesting it from fellow inmates.",
+    "The widely recognized and popular tune for \"Saare Jahan Se Achchha\" was composed by the legendary sitar maestro Pandit Ravi Shankar in 1950 for a performance by the Indian National Army.",
+    "Before \"Jana Gana Mana\" was officially adopted as India's national anthem, \"Saare Jahan Se Achchha\" was considered an unofficial national anthem and played a significant role in the Indian independence movement."
+  ]
 }
