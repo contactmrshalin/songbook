@@ -6,7 +6,8 @@
     "Singer: Lata Mangeshkar",
     "Lyricist: Shailendra",
     "Music Director: Shankar–Jaikishan",
-    "Raag: Yaman (light / film usage)"
+    "Raag: Yaman (light / film usage)",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/ajeeb_dastan.png",
   "background": "images/ajeeb_dastan.png",
@@ -67,5 +68,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "This timeless classic is a poignant reflection on the unpredictable nature of life and love, delivered with unparalleled emotional depth by Lata Mangeshkar. Shankar-Jaikishan's masterful composition, rooted in Raag Yaman, creates a melancholic yet hopeful atmosphere, making it a staple of Indian film music. The song's enduring appeal lies in its universal theme and exquisite blend of classical melody with popular accessibility.",
+  "trivia": [
+    "The song is picturised on the legendary actress Meena Kumari, whose expressive performance perfectly complements Lata Mangeshkar's soulful rendition.",
+    "Despite its classical underpinnings in Raag Yaman, Shankar-Jaikishan crafted the melody with such simplicity and grace that it became accessible and beloved by a mass audience.",
+    "Lyricist Shailendra's words, 'Ajeeb Daastaan Hai Yeh, Kahan Shuru Kahan Khatam,' beautifully encapsulate the song's philosophical core about life's mysterious journey.",
+    "It remains one of Lata Mangeshkar's most iconic and requested songs, often cited as a prime example of her ability to convey profound emotion through her voice."
+  ]
 }
