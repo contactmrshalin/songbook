@@ -7,7 +7,9 @@
     "Movie: Manzil (1979)",
     "Singer: Kishore Kumar",
     "Music Director: R.D. Burman",
-    "Lyricist: Yogesh"
+    "Lyricist: Yogesh",
+    "Raag: Shivranjani",
+    "Thaat: Bhairavi"
   ],
   "sections": [
     {
@@ -31,5 +33,12 @@
         }
       ]
     }
+  ],
+  "description": "This iconic monsoon melody perfectly captures the romance and melancholic beauty of the rainy season. Kishore Kumar's soulful rendition, coupled with R.D. Burman's minimalist yet deeply evocative composition, makes it an enduring classic. The song's gentle rhythm and poignant lyrics create an atmosphere of introspection and tender longing.",
+  "trivia": [
+    "The song features two equally beloved versions: one by Kishore Kumar and another by Lata Mangeshkar, both composed by R.D. Burman for the same film.",
+    "It was famously filmed on Amitabh Bachchan and Moushumi Chatterjee, capturing the essence of Mumbai's monsoon with iconic shots of the city's streets and landmarks.",
+    "The simple yet profound lyrics by Yogesh beautifully articulate the emotions associated with rain, making it a timeless anthem for the monsoon season.",
+    "Raag Shivranjani, a pentatonic scale known for its melancholic and devotional mood, forms the classical backbone of this popular composition."
   ]
 }
