@@ -27,17 +27,26 @@
   {{ $movie := "" }}
   {{ $scale := "" }}
   {{ $raag := "" }}
+  {{ $thaat := "" }}
+  {{ $music := "" }}
+  {{ $lyrics := "" }}
+  {{ $year := "" }}
   {{ range ($song.info | default (slice)) }}
     {{ $parts := split . ":" }}
     {{ if gt (len $parts) 1 }}
       {{ $key := index $parts 0 | lower | strings.TrimSpace }}
-      {{ $val := index $parts 1 | strings.TrimLeft " " }}
+      {{/* Re-join everything after the first colon to handle values containing colons */}}
+      {{ $val := delimit (after 1 $parts) ":" | strings.TrimLeft " " | strings.TrimSpace }}
       {{/* "film/artist" is a combined key — treat as singer */}}
       {{ if eq $key "film/artist" }}{{ $singer = $val }}
       {{ else if findRE "singer|artist" $key }}{{ $singer = $val }}
       {{ else if findRE "film|movie" $key }}{{ $movie = $val }}
       {{ else if findRE "scale" $key }}{{ $scale = $val }}
       {{ else if findRE "raag|raga" $key }}{{ $raag = $val }}
+      {{ else if findRE "thaat" $key }}{{ $thaat = $val }}
+      {{ else if findRE "lyric" $key }}{{ $lyrics = $val }}
+      {{ else if findRE "music|composer" $key }}{{ $music = $val }}
+      {{ else if findRE "year" $key }}{{ $year = $val }}
       {{ end }}
     {{ end }}
   {{ end }}
@@ -104,6 +113,18 @@
                 {{ . }}
               </span>
             {{ end }}
+            {{ with $music }}
+              <span class="hero-meta-item">
+                {{ partial "icon.html" (dict "icon" "music" "size" "14") }}
+                {{ . }}
+              </span>
+            {{ end }}
+            {{ with $lyrics }}
+              <span class="hero-meta-item">
+                {{ partial "icon.html" (dict "icon" "feather" "size" "14") }}
+                {{ . }}
+              </span>
+            {{ end }}
           </div>
           <div class="hero-meta-row">
             {{ with $scale }}
@@ -111,6 +132,12 @@
             {{ end }}
             {{ with $raag }}
               <span class="hero-badge">Raag: {{ . }}</span>
+            {{ end }}
+            {{ with $thaat }}
+              <span class="hero-badge">Thaat: {{ . }}</span>
+            {{ end }}
+            {{ with $year }}
+              <span class="hero-badge">{{ . }}</span>
             {{ end }}
           </div>
         </div>
@@ -131,6 +158,32 @@
     <div class="ad-wrapper ad-song-top-wrapper">
       {{ partial "adsense.html" (dict "slot" "1234567890" "format" "horizontal" "class" "ad-song-top") }}
     </div>
+
+    {{/* About this Song — description + trivia (AI-enriched) */}}
+    {{ if or $song.description $song.trivia }}
+      <div class="song-about-card">
+        <div class="song-about-header">
+          {{ partial "icon.html" (dict "icon" "sparkles" "size" "14") }}
+          <span>About this Song</span>
+        </div>
+        {{ with $song.description }}
+          <div class="song-about-description">
+            <div class="song-about-accent"></div>
+            <p>{{ . }}</p>
+          </div>
+        {{ end }}
+        {{ with $song.trivia }}
+          <ul class="song-about-trivia">
+            {{ range $i, $fact := . }}
+              <li>
+                <span class="trivia-num">{{ add $i 1 }}</span>
+                <span>{{ $fact }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    {{ end }}
 
     {{/* Notation content */}}
     <main class="song-content">
@@ -198,6 +251,34 @@
       <div class="ad-wrapper ad-song-bottom-wrapper">
         {{ partial "adsense.html" (dict "slot" "1234567892" "format" "rectangle" "class" "ad-song-bottom") }}
       </div>
+
+      {{/* Try Next Song — random picks from other songs */}}
+      {{ $otherPages := where .Site.RegularPages "Section" "songs" }}
+      {{ $otherPages = where $otherPages "Permalink" "ne" .Permalink }}
+      {{ if $otherPages }}
+        {{ $suggestions := first 5 (shuffle $otherPages) }}
+        <div class="try-next-section">
+          <div class="try-next-header">
+            {{ partial "icon.html" (dict "icon" "shuffle" "size" "14") }}
+            <span>Try Next Song</span>
+          </div>
+          <div class="try-next-list">
+            {{ range $suggestions }}
+              <a class="try-next-card" href="{{ .RelPermalink }}">
+                {{ $tn := .Resources.GetMatch "*.png" }}
+                {{ $tn = $tn | default (.Resources.GetMatch "*.jpg") }}
+                {{ $tn = $tn | default (.Resources.GetMatch "*.jpeg") }}
+                {{ if $tn }}
+                  <img src="{{ $tn.RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
+                {{ else }}
+                  <div class="try-next-thumb-placeholder">{{ partial "icon.html" (dict "icon" "music" "size" "18") }}</div>
+                {{ end }}
+                <span class="try-next-title">{{ .Title }}</span>
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
     </main>
 
     {{/* Audio player bar */}}

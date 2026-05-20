@@ -146,21 +146,20 @@ def _indian_to_western(indian: str, flat_lookup: dict[str, str]) -> str:
     return _indian_to_western_fn(indian, flat_lookup)
 
 def build() -> None:
-    # Try per-song layout via shared loader
+    # Always delegate to the shared loader which correctly detects
+    # the per-song layout (data/songs/) vs legacy monolith (data/songs.json).
     songs: list = []
-    songs_dir = REPO_ROOT / "songs"
-    if songs_dir.is_dir() and any(songs_dir.glob("*.json")):
-        sys.path.insert(0, str(REPO_ROOT / "scripts"))
-        try:
-            from load_songs import load_all_songs
-            songs = load_all_songs(REPO_ROOT)
-        except ImportError:
-            raise SystemExit("Per-song layout detected but load_songs.py not found in scripts/.")
-    elif SONGS_JSON.exists():
-        data = _read_json(SONGS_JSON)
-        songs = data.get("songs") or []
-    else:
-        raise SystemExit(f"Missing song data: need either songs/ directory or {SONGS_JSON}")
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+    try:
+        from load_songs import load_all_songs
+        songs = load_all_songs(REPO_ROOT)
+    except ImportError:
+        # Fallback: read legacy monolith directly
+        if SONGS_JSON.exists():
+            data = _read_json(SONGS_JSON)
+            songs = data.get("songs") or []
+        else:
+            raise SystemExit(f"Missing song data: need either data/songs/ directory or {SONGS_JSON}")
 
     mapping_raw = _read_json(NOTATION_MAPPING_JSON) if NOTATION_MAPPING_JSON.exists() else {}
     flat_lookup = _build_flat_lookup(mapping_raw) if mapping_raw else {}
@@ -242,6 +241,10 @@ def build() -> None:
             new_sec = dict(sec)
             new_sec["lines"] = new_lines
             enriched_sections.append(new_sec)
+        description = str(s.get("description") or "").strip()
+        trivia_raw = s.get("trivia")
+        trivia = [str(t).strip() for t in (trivia_raw or []) if t and str(t).strip()] if isinstance(trivia_raw, list) else []
+
         payload = {
             "id": sid,
             "title": title,
@@ -249,6 +252,10 @@ def build() -> None:
             "sections": enriched_sections,
             "background": bg_filename,
         }
+        if description:
+            payload["description"] = description
+        if trivia:
+            payload["trivia"] = trivia
         payload_json = json.dumps(payload, ensure_ascii=False)
 
         front_matter_lines: list[str] = []
