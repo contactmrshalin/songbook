@@ -272,20 +272,68 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
         />
       </div>
 
-      {/* Notation content + sidebar */}
-      {/* max-w keeps the two-column block centred: 640 notation + 48 gap + 288 sidebar = 976px */}
+      {/* Notation content — 3-col on xl+: [spacer] [notation] [sidebar] */}
       <main className="flex-1 w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
-        <div className="flex flex-col lg:flex-row lg:items-start lg:gap-12 lg:mx-auto"
-          style={{ maxWidth: "calc(640px + 3rem + 288px)" }}
-        >
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col xl:flex-row xl:items-start xl:gap-10">
 
-          {/* ── Left: notation sections ───────────────────────────────────── */}
-          {/* Fixed width on desktop so justify-center on parent works properly */}
-          <div className="w-full lg:w-[640px] lg:flex-shrink-0 min-w-0">
-
-            {/* About this song — shown when description or trivia is present */}
+          {/* Left column: About this song on xl+ (empty spacer when no enriched data) */}
+          <div className="hidden xl:block xl:w-56 xl:flex-shrink-0 sticky top-20 self-start">
             {(song.description || (song.trivia && song.trivia.length > 0)) && (
-              <div className="mb-6 rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+              <div className="rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+                {/* Header */}
+                <div
+                  className="flex items-center gap-2 px-4 py-3 border-b border-[var(--border-light)]"
+                  style={{ background: "linear-gradient(135deg, rgba(108,99,255,0.07) 0%, rgba(255,101,132,0.04) 100%)" }}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
+                  <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                    About
+                  </span>
+                </div>
+                {/* Content */}
+                <div className="bg-[var(--bg-card)] px-4 py-4 space-y-3">
+                  {song.description && (
+                    <div className="relative pl-3">
+                      <div
+                        className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                        style={{ background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))" }}
+                      />
+                      <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                        {song.description}
+                      </p>
+                    </div>
+                  )}
+                  {song.trivia && song.trivia.length > 0 && (
+                    <ul className="space-y-2">
+                      {song.trivia.map((fact, i) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-2 rounded-xl px-2.5 py-2 text-xs"
+                          style={{ background: "rgba(108,99,255,0.05)" }}
+                        >
+                          <span
+                            className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center text-[0.6rem] font-bold text-white mt-0.5"
+                            style={{ background: "var(--accent-primary)" }}
+                          >
+                            {i + 1}
+                          </span>
+                          <span className="text-[var(--text-muted)] leading-relaxed">{fact}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Notation column */}
+          <div className="flex-1 min-w-0 max-w-4xl mx-auto xl:mx-0 xl:max-w-none">
+
+            {/* About this song — mobile/tablet only (shown above notation on small screens) */}
+            {(song.description || (song.trivia && song.trivia.length > 0)) && (
+              <div className="xl:hidden mb-6 rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
                 {/* Card header — click to collapse/expand */}
                 <button
                   onClick={() => setShowAbout((v) => !v)}
@@ -308,7 +356,6 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
                 </button>
 
                 {showAbout && <div className="bg-[var(--bg-card)] px-5 py-4 space-y-4">
-                  {/* Description — pull-quote style with left accent bar */}
                   {song.description && (
                     <div className="relative pl-4">
                       <div
@@ -322,8 +369,6 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
                       </p>
                     </div>
                   )}
-
-                  {/* Trivia — numbered fact cards */}
                   {song.trivia && song.trivia.length > 0 && (
                     <ul className="space-y-2">
                       {song.trivia.map((fact, i) => (
@@ -402,8 +447,8 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
               </div>
             ))}
 
-            {/* Ad: Bottom of notation (mobile only — hidden on lg when sidebar is present) */}
-            <div className="mt-8 mb-4 lg:hidden">
+            {/* Ad: Bottom of notation */}
+            <div className="mt-8 mb-4">
               <AdBanner
                 slot={AD_SLOTS.SONG_BOTTOM}
                 format="rectangle"
@@ -411,20 +456,18 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
               />
             </div>
 
-            {/* Suggestions on mobile — shown below content */}
+            {/* Suggestions below notation on mobile / tablet (< xl) */}
             {otherSongs.length > 0 && (
-              <div className="lg:hidden">
-                <RandomSongSuggestions songs={otherSongs} count={4} />
+              <div className="xl:hidden">
+                <RandomSongSuggestions songs={otherSongs} count={5} />
               </div>
             )}
           </div>
 
-          {/* ── Right: sticky sidebar (lg+) ───────────────────────────────── */}
+          {/* Right: sticky sidebar on xl+ */}
           {otherSongs.length > 0 && (
-            <aside className="hidden lg:block w-72 flex-shrink-0 sticky top-20 self-start">
+            <aside className="hidden xl:block xl:w-56 xl:flex-shrink-0 sticky top-20 self-start">
               <RandomSongSuggestions songs={otherSongs} count={5} />
-
-              {/* Ad below suggestions in sidebar */}
               <div className="mt-4">
                 <AdBanner
                   slot={AD_SLOTS.SONG_BOTTOM}
@@ -435,6 +478,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
             </aside>
           )}
 
+          </div>{/* end 3-col flex */}
         </div>
       </main>
 
