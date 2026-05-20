@@ -5,7 +5,12 @@
   "info": [
     "Film/Artist: Kishore Kumar",
     "Scale: D# BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/aa-chal-ke-tujhe-sargam-harmonium-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/aa-chal-ke-tujhe-sargam-harmonium-and-flute-notes.html",
+    "Singer: Kishore Kumar (AI)",
+    "Music: Kishore Kumar (AI)",
+    "Lyrics: Kishore Kumar (AI)",
+    "Raag: Bilawal (AI)",
+    "Thaat: Bilawal (AI)"
   ],
   "thumbnail": "images/aa-chal-ke-tujhe.png",
   "background": "images/aa-chal-ke-tujhe.png",
@@ -103,5 +108,12 @@
         }
       ]
     }
+  ],
+  "description": "A serene and optimistic masterpiece, this song is a gentle lullaby-like invitation to a utopian world free of sorrow. Composed, written, and sung by Kishore Kumar, its minimalist arrangement relies on a soothing acoustic guitar and flute, perfectly capturing a father's tender reassurance to his son.",
+  "trivia": [
+    "This song is from the film 'Door Gagan Ki Chhaon Mein' (1964), which marked Kishore Kumar's directorial debut, inspired by the 1958 American film 'The Proud Rebel'.",
+    "Kishore Kumar wore multiple hats for this track, serving as the singer, lyricist, composer, director, and lead actor, showcasing his immense multi-faceted genius.",
+    "The child actor in the song to whom Kishore Kumar sings is his real-life son, Amit Kumar, making the on-screen father-son chemistry deeply authentic.",
+    "Musically, the song is based on Raag Bilawal, utilizing all Shuddh (natural) notes to evoke a sense of pure, untainted innocence and peace."
   ]
 }

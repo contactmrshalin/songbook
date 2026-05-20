@@ -8,10 +8,11 @@ import {
   Music2,
   Film,
   Mic2,
+  Guitar,
   ChevronDown,
   ChevronUp,
-  Info,
   BookOpen,
+  Sparkles,
 } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import NotationLine from "./NotationLine";
@@ -38,8 +39,11 @@ function extractMeta(info: string[]): Record<string, string> {
       if (key.includes("movie") || key.includes("film")) meta.movie = val;
       else if (key.includes("singer") || key.includes("artist")) meta.singer = val;
       else if (key.includes("scale")) meta.scale = val;
-      else if (key.includes("raag")) meta.raag = val;
+      else if (key.includes("raag") || key.includes("raga")) meta.raag = val;
+      else if (key.includes("thaat")) meta.thaat = val;
       else if (key.includes("music") || key.includes("composer")) meta.music = val;
+      else if (key.includes("lyric")) meta.lyrics = val;
+      else if (key.includes("year")) meta.year = val;
       else if (key.includes("source")) meta.source = val;
     }
   }
@@ -51,23 +55,11 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
     () => new Set(song.sections.map((_, i) => i))
   );
-  const [showInfo, setShowInfo] = useState(false);
   const [showNotationGuide, setShowNotationGuide] = useState(false);
+  const [showAbout, setShowAbout] = useState(true);
   const lineRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   const meta = extractMeta(song.info);
-
-  // Flatten lines to calculate global line index for active highlighting
-  const allLines = song.sections.flatMap((section, si) =>
-    section.lines.map((line, li) => ({
-      line,
-      sectionIndex: si,
-      lineIndex: li,
-      globalIndex: song.sections
-        .slice(0, si)
-        .reduce((sum, s) => sum + s.lines.length, 0) + li,
-    }))
-  );
 
   const toggleSection = (index: number) => {
     setExpandedSections((prev) => {
@@ -156,17 +148,6 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
           <div className="flex items-center gap-3">
             <NotationToggle />
             <button
-              onClick={() => setShowInfo(!showInfo)}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                showInfo
-                  ? "bg-[var(--accent-warm)] text-white"
-                  : "bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
-              }`}
-              title="Song info"
-            >
-              <Info className="w-3.5 h-3.5" />
-            </button>
-            <button
               onClick={() => setShowNotationGuide(true)}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors
                          bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:bg-[var(--accent-primary)] hover:text-white"
@@ -197,8 +178,8 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[var(--bg-primary)]" />
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 pt-8 pb-12">
-          <div className="flex items-start gap-4">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 pt-8 pb-10">
+          <div className="flex items-start gap-4 sm:gap-5">
             {/* Thumbnail */}
             <div className="flex-shrink-0 w-20 h-20 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg">
               {song.thumbnail ? (
@@ -220,26 +201,42 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
             {/* Title & meta */}
             <div className="flex-1 min-w-0">
               <h1
-                className="text-xl sm:text-2xl font-bold text-white mb-2 leading-tight"
+                className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 leading-tight"
                 style={{ fontFamily: "'Libre Baskerville', Georgia, serif" }}
               >
                 {song.title}
               </h1>
-              <div className="flex flex-wrap gap-3">
+
+              {/* Primary meta row — movie, singer, composer */}
+              <div className="flex flex-wrap gap-x-4 gap-y-1.5 mb-3">
                 {meta.movie && (
-                  <span className="flex items-center gap-1.5 text-sm text-white/70">
-                    <Film className="w-3.5 h-3.5" />
+                  <span className="flex items-center gap-1.5 text-sm text-white/75">
+                    <Film className="w-3.5 h-3.5 flex-shrink-0" />
                     {meta.movie}
                   </span>
                 )}
                 {meta.singer && (
-                  <span className="flex items-center gap-1.5 text-sm text-white/70">
-                    <Mic2 className="w-3.5 h-3.5" />
+                  <span className="flex items-center gap-1.5 text-sm text-white/75">
+                    <Mic2 className="w-3.5 h-3.5 flex-shrink-0" />
                     {meta.singer}
                   </span>
                 )}
+                {meta.music && (
+                  <span className="flex items-center gap-1.5 text-sm text-white/75">
+                    <Guitar className="w-3.5 h-3.5 flex-shrink-0" />
+                    {meta.music}
+                  </span>
+                )}
+                {meta.lyrics && (
+                  <span className="flex items-center gap-1.5 text-sm text-white/75">
+                    <Music2 className="w-3.5 h-3.5 flex-shrink-0" />
+                    {meta.lyrics}
+                  </span>
+                )}
               </div>
-              <div className="flex flex-wrap gap-2 mt-2">
+
+              {/* Badges — scale, raag, year */}
+              <div className="flex flex-wrap gap-2">
                 {meta.scale && (
                   <span className="badge bg-white/20 text-white backdrop-blur-sm text-xs">
                     Scale: {meta.scale}
@@ -250,29 +247,21 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
                     Raag: {meta.raag}
                   </span>
                 )}
+                {meta.thaat && (
+                  <span className="badge bg-white/20 text-white backdrop-blur-sm text-xs">
+                    Thaat: {meta.thaat}
+                  </span>
+                )}
+                {meta.year && (
+                  <span className="badge bg-white/20 text-white backdrop-blur-sm text-xs">
+                    {meta.year}
+                  </span>
+                )}
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Song info panel (collapsible) */}
-      {showInfo && (
-        <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 -mt-4 mb-4 relative z-[2]">
-          <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-light)] p-4 shadow-sm">
-            <h3 className="text-sm font-semibold text-[var(--text-secondary)] mb-2">
-              Song Information
-            </h3>
-            <div className="space-y-1">
-              {song.info.map((line, i) => (
-                <p key={i} className="text-sm text-[var(--text-muted)]">
-                  {line}
-                </p>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Ad: Below hero */}
       <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 mt-4 relative z-[1]">
@@ -283,75 +272,169 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
         />
       </div>
 
-      {/* Notation content */}
-      <main className="flex-1 max-w-4xl lg:max-w-6xl mx-auto w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
-        {song.sections.map((section, si) => (
-          <div key={si}>
-            <div className="mb-6">
-              {/* Section header */}
-              <button
-                className="section-header w-full text-left flex items-center justify-between group"
-                onClick={() => toggleSection(si)}
-              >
-                <span>{section.name}</span>
-                {expandedSections.has(si) ? (
-                  <ChevronUp className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
-                ) : (
-                  <ChevronDown className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
-                )}
-              </button>
+      {/* Notation content + sidebar */}
+      {/* max-w keeps the two-column block centred: 640 notation + 48 gap + 288 sidebar = 976px */}
+      <main className="flex-1 w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:gap-12 lg:mx-auto"
+          style={{ maxWidth: "calc(640px + 3rem + 288px)" }}
+        >
 
-              {/* Lines */}
-              {expandedSections.has(si) && (
-                <div className="mt-2 space-y-1 lg:columns-2 lg:gap-x-10">
-                  {section.lines.map((line, li) => {
-                    const globalIdx = song.sections
-                      .slice(0, si)
-                      .reduce((sum, s) => sum + s.lines.length, 0) + li;
-                    const key = `${si}-${li}`;
+          {/* ── Left: notation sections ───────────────────────────────────── */}
+          {/* Fixed width on desktop so justify-center on parent works properly */}
+          <div className="w-full lg:w-[640px] lg:flex-shrink-0 min-w-0">
 
-                    return (
-                      <div key={key} ref={setLineRef(key)} className="break-inside-avoid">
-                        <NotationLine
-                          line={line}
-                          lineIndex={globalIdx}
-                          isActive={currentNoteIndex === globalIdx}
-                        />
-                      </div>
-                    );
-                  })}
+            {/* About this song — shown when description or trivia is present */}
+            {(song.description || (song.trivia && song.trivia.length > 0)) && (
+              <div className="mb-6 rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+                {/* Card header — click to collapse/expand */}
+                <button
+                  onClick={() => setShowAbout((v) => !v)}
+                  className="w-full flex items-center justify-between gap-2 px-5 py-3 border-b border-[var(--border-light)] transition-colors hover:brightness-95"
+                  style={{
+                    background: "linear-gradient(135deg, rgba(108,99,255,0.07) 0%, rgba(255,101,132,0.04) 100%)",
+                  }}
+                >
+                  <div className="flex items-center gap-2">
+                    <Sparkles className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
+                    <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                      About this song
+                    </span>
+                  </div>
+                  {showAbout ? (
+                    <ChevronUp className="w-4 h-4 text-[var(--text-muted)]" />
+                  ) : (
+                    <ChevronDown className="w-4 h-4 text-[var(--text-muted)]" />
+                  )}
+                </button>
+
+                {showAbout && <div className="bg-[var(--bg-card)] px-5 py-4 space-y-4">
+                  {/* Description — pull-quote style with left accent bar */}
+                  {song.description && (
+                    <div className="relative pl-4">
+                      <div
+                        className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                        style={{
+                          background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))",
+                        }}
+                      />
+                      <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                        {song.description}
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Trivia — numbered fact cards */}
+                  {song.trivia && song.trivia.length > 0 && (
+                    <ul className="space-y-2">
+                      {song.trivia.map((fact, i) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-3 rounded-xl px-3 py-2.5 text-sm"
+                          style={{ background: "rgba(108,99,255,0.05)" }}
+                        >
+                          <span
+                            className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-[0.65rem] font-bold text-white mt-0.5"
+                            style={{ background: "var(--accent-primary)" }}
+                          >
+                            {i + 1}
+                          </span>
+                          <span className="text-[var(--text-muted)] leading-relaxed">{fact}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>}
+              </div>
+            )}
+
+            {song.sections.map((section, si) => (
+              <div key={si}>
+                <div className="mb-6">
+                  {/* Section header */}
+                  <button
+                    className="section-header w-full text-left flex items-center justify-between group"
+                    onClick={() => toggleSection(si)}
+                  >
+                    <span>{section.name}</span>
+                    {expandedSections.has(si) ? (
+                      <ChevronUp className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 text-[var(--text-muted)] opacity-0 group-hover:opacity-100 transition-opacity" />
+                    )}
+                  </button>
+
+                  {/* Lines */}
+                  {expandedSections.has(si) && (
+                    <div className="mt-2 space-y-1">
+                      {section.lines.map((line, li) => {
+                        const globalIdx = song.sections
+                          .slice(0, si)
+                          .reduce((sum, s) => sum + s.lines.length, 0) + li;
+                        const key = `${si}-${li}`;
+
+                        return (
+                          <div key={key} ref={setLineRef(key)} className="break-inside-avoid">
+                            <NotationLine
+                              line={line}
+                              lineIndex={globalIdx}
+                              isActive={currentNoteIndex === globalIdx}
+                            />
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
-              )}
+
+                {/* Ad: Mid-content — show after every N sections */}
+                {si > 0 &&
+                  si < song.sections.length - 1 &&
+                  (si + 1) % ADS_CONFIG.midContentInterval === 0 && (
+                    <div className="my-6">
+                      <AdBanner
+                        slot={AD_SLOTS.SONG_MID}
+                        layout="in-article"
+                        format="auto"
+                        className="ad-song-mid"
+                      />
+                    </div>
+                  )}
+              </div>
+            ))}
+
+            {/* Ad: Bottom of notation (mobile only — hidden on lg when sidebar is present) */}
+            <div className="mt-8 mb-4 lg:hidden">
+              <AdBanner
+                slot={AD_SLOTS.SONG_BOTTOM}
+                format="rectangle"
+                className="ad-song-bottom"
+              />
             </div>
 
-            {/* Ad: Mid-content — show after every N sections */}
-            {si > 0 &&
-              si < song.sections.length - 1 &&
-              (si + 1) % ADS_CONFIG.midContentInterval === 0 && (
-                <div className="my-6">
-                  <AdBanner
-                    slot={AD_SLOTS.SONG_MID}
-                    layout="in-article"
-                    format="auto"
-                    className="ad-song-mid"
-                  />
-                </div>
-              )}
+            {/* Suggestions on mobile — shown below content */}
+            {otherSongs.length > 0 && (
+              <div className="lg:hidden">
+                <RandomSongSuggestions songs={otherSongs} count={4} />
+              </div>
+            )}
           </div>
-        ))}
 
-        {/* Random song suggestions */}
-        {otherSongs.length > 0 && (
-          <RandomSongSuggestions songs={otherSongs} count={3} />
-        )}
+          {/* ── Right: sticky sidebar (lg+) ───────────────────────────────── */}
+          {otherSongs.length > 0 && (
+            <aside className="hidden lg:block w-72 flex-shrink-0 sticky top-20 self-start">
+              <RandomSongSuggestions songs={otherSongs} count={5} />
 
-        {/* Ad: Bottom of notation */}
-        <div className="mt-8 mb-4">
-          <AdBanner
-            slot={AD_SLOTS.SONG_BOTTOM}
-            format="rectangle"
-            className="ad-song-bottom"
-          />
+              {/* Ad below suggestions in sidebar */}
+              <div className="mt-4">
+                <AdBanner
+                  slot={AD_SLOTS.SONG_BOTTOM}
+                  format="rectangle"
+                  className="ad-song-bottom"
+                />
+              </div>
+            </aside>
+          )}
+
         </div>
       </main>
 

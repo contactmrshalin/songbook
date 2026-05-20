@@ -5,7 +5,12 @@
   "info": [
     "Film/Artist: Jab We Met",
     "Scale: F# MAJOR",
-    "Source: https://www.notationsworld.com/aaoge-jab-tum-jab-we-met-sargam-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/aaoge-jab-tum-jab-we-met-sargam-and-flute-notes.html",
+    "Singer: Ustad Rashid Khan (AI)",
+    "Music: Sandesh Shandilya (AI)",
+    "Lyrics: Irshad Kamil (AI)",
+    "Raag: Yaman (AI)",
+    "Thaat: Kalyan (AI)"
   ],
   "thumbnail": "images/aaoge-jab-tum.png",
   "background": "images/aaoge-jab-tum.png",
@@ -99,5 +104,12 @@
         }
       ]
     }
+  ],
+  "description": "A breathtaking semi-classical masterpiece, 'Aaoge Jab Tum' beautifully captures the bittersweet ache of longing and anticipation. Composed in the serene evening raga Yaman, the song blends traditional Hindustani classical elements with contemporary acoustic arrangements. Ustad Rashid Khan's soulful, effortless rendition elevates the track into a timeless anthem of love and hope.",
+  "trivia": [
+    "While Pritam composed the rest of the chart-topping soundtrack for Jab We Met, 'Aaoge Jab Tum' was specially composed by guest music director Sandesh Shandilya.",
+    "This song marked a rare and highly successful foray into mainstream Bollywood playback singing for the legendary Hindustani classical vocalist Ustad Rashid Khan.",
+    "The composition is based on Raag Yaman, a fundamental raga of the Kalyan Thaat, which is traditionally performed during the first quarter of the night and evokes a mood of peace and devotion.",
+    "The song's minimalist arrangement relies heavily on the acoustic guitar, harmonium, and tabla, allowing Ustad Rashid Khan's intricate sargams and taans to take center stage."
   ]
 }

@@ -22,6 +22,10 @@ export interface Song {
   background: string;
   background_mode?: "cover" | "tile" | "contain";
   sections: SongSection[];
+  /** Short engaging description of the song (AI-generated, user-editable) */
+  description?: string;
+  /** Interesting trivia facts about the song (AI-generated, user-editable) */
+  trivia?: string[];
 }
 
 export interface BookMeta {

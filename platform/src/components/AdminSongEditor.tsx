@@ -20,6 +20,7 @@ import {
   Search,
   List,
   X,
+  Sparkles,
 } from "lucide-react";
 import type { Song, SongSection, SongLine } from "@/types/song";
 
@@ -72,6 +73,13 @@ export default function AdminSongEditor({ password }: Props) {
     success: boolean;
     message: string;
     commitSha?: string;
+  } | null>(null);
+
+  // Enrich state
+  const [enriching, setEnriching] = useState(false);
+  const [enrichResult, setEnrichResult] = useState<{
+    success: boolean;
+    message: string;
   } | null>(null);
 
   // Collapsible sections
@@ -214,6 +222,65 @@ export default function AdminSongEditor({ password }: Props) {
   };
 
   // -----------------------------------------------------------------------
+  // Enrich with AI
+  // -----------------------------------------------------------------------
+  const handleEnrich = async () => {
+    if (!song) return;
+    setEnriching(true);
+    setEnrichResult(null);
+
+    try {
+      const res = await fetch("/api/admin/enrich", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ song, password }),
+      });
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        setEnrichResult({ success: false, message: data.error || "Enrichment failed" });
+        return;
+      }
+
+      const newFields: string[] = data.newFields ?? [];
+      const description: string | null = data.description ?? null;
+      const trivia: string[] | null = data.trivia ?? null;
+
+      const added: string[] = [];
+      if (newFields.length > 0) added.push(...newFields.map((f: string) => f.split(":")[0]));
+      if (description) added.push("Description");
+      if (trivia?.length) added.push("Trivia");
+
+      if (added.length === 0) {
+        setEnrichResult({ success: true, message: "All fields already present — nothing to add." });
+        return;
+      }
+
+      // Merge all enriched data into song
+      setSong((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          info: [...prev.info, ...newFields],
+          ...(description ? { description } : {}),
+          ...(trivia?.length ? { trivia } : {}),
+        };
+      });
+      setEnrichResult({
+        success: true,
+        message: `Added: ${added.join(", ")}`,
+      });
+    } catch (err) {
+      setEnrichResult({
+        success: false,
+        message: err instanceof Error ? err.message : "Network error",
+      });
+    } finally {
+      setEnriching(false);
+    }
+  };
+
+  // -----------------------------------------------------------------------
   // Publish
   // -----------------------------------------------------------------------
   const handlePublish = async () => {
@@ -343,6 +410,7 @@ export default function AdminSongEditor({ password }: Props) {
     setImageUrl("");
     setScrapeError("");
     setPublishResult(null);
+    setEnrichResult(null);
     setExpandedSections(new Set());
   };
 
@@ -736,13 +804,53 @@ export default function AdminSongEditor({ password }: Props) {
               <div className="mt-4">
                 <div className="flex items-center justify-between mb-2">
                   <label className="admin-label mb-0">Info / Metadata</label>
-                  <button
-                    onClick={addInfo}
-                    className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1"
-                  >
-                    <Plus className="w-3 h-3" /> Add
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={handleEnrich}
+                      disabled={enriching}
+                      title="Auto-fill missing metadata using AI (requires ANTHROPIC_API_KEY)"
+                      className="flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium
+                                 bg-[var(--accent-primary)]/10 text-[var(--accent-primary)]
+                                 hover:bg-[var(--accent-primary)]/20 disabled:opacity-50
+                                 disabled:cursor-not-allowed transition-colors border border-[var(--accent-primary)]/20"
+                    >
+                      {enriching ? (
+                        <Loader2 className="w-3 h-3 animate-spin" />
+                      ) : (
+                        <Sparkles className="w-3 h-3" />
+                      )}
+                      {enriching ? "Enriching…" : "Enrich with AI"}
+                    </button>
+                    <button
+                      onClick={addInfo}
+                      className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1"
+                    >
+                      <Plus className="w-3 h-3" /> Add
+                    </button>
+                  </div>
                 </div>
+
+                {/* Enrich result banner */}
+                {enrichResult && (
+                  <div
+                    className={`flex items-start gap-2 p-2.5 rounded-xl mb-2 text-xs ${
+                      enrichResult.success
+                        ? "bg-green-500/10 border border-green-500/20 text-green-600"
+                        : "bg-red-500/10 border border-red-500/20 text-red-400"
+                    }`}
+                  >
+                    {enrichResult.success ? (
+                      <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 shrink-0" />
+                    ) : (
+                      <AlertCircle className="w-3.5 h-3.5 mt-0.5 shrink-0" />
+                    )}
+                    <span>{enrichResult.message}</span>
+                    {enrichResult.success && (
+                      <span className="ml-1 text-[var(--text-muted)]">— review &amp; edit before publishing</span>
+                    )}
+                  </div>
+                )}
+
                 <div className="space-y-2">
                   {song.info.map((line, idx) => (
                     <div key={idx} className="flex items-center gap-2">
@@ -755,6 +863,71 @@ export default function AdminSongEditor({ password }: Props) {
                       />
                       <button
                         onClick={() => removeInfo(idx)}
+                        className="p-2 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Description */}
+              <div className="mt-4">
+                <div className="flex items-center justify-between mb-1">
+                  <label className="admin-label mb-0">Description (optional)</label>
+                  {song.description && (
+                    <button
+                      onClick={() => setSong({ ...song, description: undefined })}
+                      className="text-xs text-red-400 hover:underline"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+                <textarea
+                  value={song.description ?? ""}
+                  onChange={(e) =>
+                    setSong({ ...song, description: e.target.value || undefined })
+                  }
+                  placeholder="A short engaging description of the song shown to users…"
+                  rows={3}
+                  className="admin-input resize-none text-sm"
+                />
+              </div>
+
+              {/* Trivia */}
+              <div className="mt-4">
+                <div className="flex items-center justify-between mb-2">
+                  <label className="admin-label mb-0">Trivia / Interesting Facts</label>
+                  <button
+                    onClick={() =>
+                      setSong({ ...song, trivia: [...(song.trivia ?? []), ""] })
+                    }
+                    className="text-xs text-[var(--accent-primary)] hover:underline flex items-center gap-1"
+                  >
+                    <Plus className="w-3 h-3" /> Add fact
+                  </button>
+                </div>
+                <div className="space-y-2">
+                  {(song.trivia ?? []).map((fact, idx) => (
+                    <div key={idx} className="flex items-center gap-2">
+                      <input
+                        type="text"
+                        value={fact}
+                        onChange={(e) => {
+                          const next = [...(song.trivia ?? [])];
+                          next[idx] = e.target.value;
+                          setSong({ ...song, trivia: next });
+                        }}
+                        className="admin-input flex-1 text-sm"
+                        placeholder="Interesting fact…"
+                      />
+                      <button
+                        onClick={() => {
+                          const next = (song.trivia ?? []).filter((_, i) => i !== idx);
+                          setSong({ ...song, trivia: next.length ? next : undefined });
+                        }}
                         className="p-2 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors"
                       >
                         <Trash2 className="w-4 h-4" />

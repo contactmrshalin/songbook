@@ -5,7 +5,11 @@
   "info": [
     "Film/Artist: Jal",
     "Scale: D# BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/aadat-jal-sargam-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/aadat-jal-sargam-and-flute-notes.html",
+    "Singer: Atif Aslam (AI)",
+    "Music: Goher Mumtaz (AI)",
+    "Lyrics: Goher Mumtaz (AI)",
+    "Year: 2004 (AI)"
   ],
   "thumbnail": "images/aadat.png",
   "background": "images/aadat.png",
@@ -79,5 +83,12 @@
         }
       ]
     }
+  ],
+  "description": "A defining anthem of the 2000s South Asian indie-rock scene, 'Aadat' is celebrated for its iconic melancholic arpeggiated guitar intro and soulful, high-pitched vocals. It captured the raw angst of heartbreak and became a massive cross-border hit, bridging the music spaces of Pakistan and India.",
+  "trivia": [
+    "The song was originally recorded by Atif Aslam and Goher Mumtaz in a local Pakistani studio for a mere 3,000 Pakistani rupees.",
+    "An unreleased version of the song leaked on the internet in 2003, becoming a viral sensation across college campuses and file-sharing networks before the official album was even released.",
+    "The overwhelming success of the song paradoxically led to a split within the band, prompting Atif Aslam to launch his solo career and Farhan Saeed to step in as Jal's new lead vocalist.",
+    "Its immense popularity in India led filmmaker Mahesh Bhatt to license the track for the Bollywood movie 'Kalyug' (2005), which officially introduced Atif Aslam's voice to the Indian film industry."
   ]
 }
