@@ -93,8 +93,10 @@ export async function POST(request: Request) {
 
     const prompt = buildPrompt(song.title, song.info, missingMeta, needsDescription, needsTrivia);
 
-    // Call Gemini API with retry on quota errors (429)
-    const GEMINI_MODEL = "gemini-flash-latest";
+    // gemini-2.5-flash: current-gen model available to all accounts on v1beta.
+    // gemini-2.0-flash-lite is retired for new accounts; gemini-flash-latest may still work for older ones.
+    // Override via GEMINI_MODEL env var in Vercel / local .env.local if needed.
+    const GEMINI_MODEL = process.env.GEMINI_MODEL ?? "gemini-2.5-flash";
     const geminiData = await callGeminiWithRetry(apiKey, GEMINI_MODEL, prompt);
     if ("error" in geminiData) {
       return Response.json(geminiData, { status: 502 });
@@ -163,6 +165,7 @@ export async function POST(request: Request) {
 
 /**
  * Call Gemini with up to 3 retries on quota/rate-limit errors (429 / 503).
+ * Always uses v1beta — systemInstruction and responseMimeType are v1beta-only features.
  * Returns the parsed JSON response body, or an { error } object on failure.
  */
 async function callGeminiWithRetry(
@@ -171,6 +174,7 @@ async function callGeminiWithRetry(
   prompt: string,
   maxRetries = 3
 ): Promise<Record<string, unknown>> {
+  // Always v1beta: systemInstruction + responseMimeType are only supported there.
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
   const payload = {
     systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
@@ -207,14 +211,30 @@ async function callGeminiWithRetry(
       continue;
     }
 
-    const friendlyMsg =
-      res.status === 429
-        ? "Gemini free-tier quota exceeded — wait a minute then try again, or upgrade to pay-as-you-go."
-        : res.status === 503
-          ? "Gemini is experiencing high demand right now. Please try again in a few seconds."
-          : `Gemini API error ${res.status}`;
+    // Extract Google's own reason string from the error body for better diagnostics
+    let googleReason = "";
+    try {
+      const errJson = JSON.parse(errText);
+      googleReason = errJson?.error?.message ?? errJson?.error?.status ?? "";
+    } catch {
+      googleReason = errText.slice(0, 120);
+    }
 
-    return { error: `${friendlyMsg} (${errText.slice(0, 200)})` };
+    let friendlyMsg: string;
+    if (res.status === 429) {
+      // Google distinguishes RATE_LIMIT_EXCEEDED (per-minute) vs RESOURCE_EXHAUSTED (daily)
+      const isPerMinute = googleReason.toLowerCase().includes("rate") ||
+        googleReason.toLowerCase().includes("per minute");
+      friendlyMsg = isPerMinute
+        ? `Gemini rate limit hit (too many requests per minute) — wait 60 s then try again. [${googleReason}]`
+        : `Gemini daily quota exceeded — wait until midnight Pacific time or add a paid billing account. [${googleReason}]`;
+    } else if (res.status === 503) {
+      friendlyMsg = `Gemini is overloaded right now — please try again in a few seconds. [${googleReason}]`;
+    } else {
+      friendlyMsg = `Gemini API error ${res.status}: ${googleReason}`;
+    }
+
+    return { error: friendlyMsg };
   }
 
   return { error: "Gemini API: max retries exceeded" };

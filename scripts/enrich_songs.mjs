@@ -40,7 +40,10 @@ const delayIdx = args.indexOf("--delay-ms");
 // Free tier limit: 15 RPM = 1 req per 4s. Default 4500ms gives a comfortable margin.
 const DELAY_MS = delayIdx >= 0 ? parseInt(args[delayIdx + 1], 10) : 4500;
 
-const GEMINI_MODEL = process.env.GEMINI_MODEL ?? "gemini-flash-latest";
+// gemini-2.5-flash: current-gen, available to all accounts on v1beta.
+// gemini-2.0-flash-lite is retired for new accounts.
+// Override: GEMINI_MODEL=gemini-2.5-flash node scripts/enrich_songs.mjs
+const GEMINI_MODEL = process.env.GEMINI_MODEL ?? "gemini-2.5-flash";
 
 // ─── API key ──────────────────────────────────────────────────────────────
 const GOOGLE_AI_API_KEY = process.env.GOOGLE_AI_API_KEY;

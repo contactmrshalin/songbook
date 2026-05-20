@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Inter } from "next/font/google";
 import { ADSENSE_PUBLISHER_ID, isAdSenseConfigured } from "@/lib/ads.config";
 import "./globals.css";
@@ -33,17 +32,19 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head />
-      <body className="min-h-full flex flex-col antialiased paper-bg">
-        {children}
+      <head>
         {adsConfigured && (
-          <Script
+          // Plain <script> avoids the "data-nscript" attribute that next/script
+          // injects, which triggers an AdSense auto-ads validator warning.
+          <script
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
             crossOrigin="anonymous"
-            strategy="afterInteractive"
           />
         )}
+      </head>
+      <body className="min-h-full flex flex-col antialiased paper-bg">
+        {children}
       </body>
     </html>
   );
