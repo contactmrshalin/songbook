@@ -4,7 +4,8 @@
   "info": [
     "Devotional (Mantra)",
     "Scale (flute): D (bass/middle)",
-    "Sargam / Harmonium / Flute notes"
+    "Sargam / Harmonium / Flute notes",
+    "Lyrics: Om Bhur Bhuvaḥ Svaḥ, Tat Savitur Vareṇyaṃ, Bhargo Devasya Dhīmahi, Dhiyo Yo Naḥ Prachodayāt. (AI)"
   ],
   "thumbnail": "images/gayatri-mantra.png",
   "background": "images/gayatri-mantra.png",
@@ -52,5 +53,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "The Gayatri Mantra is one of the most revered and ancient Vedic mantras, found in the Rig Veda. It is a universal prayer for wisdom, enlightenment, and spiritual guidance, invoking the divine light of the sun (Savitur) to illuminate the intellect. Its simple yet profound structure makes it a powerful tool for meditation and spiritual contemplation, transcending religious boundaries.",
+  "trivia": [
+    "The Gayatri Mantra is found in Mandala 3, Sukta 62, Verse 10 of the Rig Veda, one of the oldest sacred texts of Hinduism, dating back to around 1500-1200 BCE.",
+    "It is often referred to as 'Ved Mata' (Mother of the Vedas) and is considered the essence of all Vedic knowledge, embodying the supreme truth.",
+    "The mantra translates to a prayer for the divine light to illuminate our intellect, guiding us towards wisdom and righteousness.",
+    "Chanting the Gayatri Mantra is believed to purify the mind, bring peace, enhance concentration, and foster spiritual growth, making it a cornerstone of daily spiritual practice for many."
+  ]
 }
