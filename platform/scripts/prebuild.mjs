@@ -156,13 +156,16 @@ if (!fs.existsSync(veroverDest)) {
   fs.mkdirSync(verovioDestDir, { recursive: true });
   console.log(`🎼 Downloading Verovio WASM bundle from CDN...`);
   try {
-    const resp = await fetch(VEROVIO_CDN_URL);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30000);
+    const resp = await fetch(VEROVIO_CDN_URL, { signal: controller.signal });
+    clearTimeout(timeout);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const buf = Buffer.from(await resp.arrayBuffer());
     fs.writeFileSync(veroverDest, buf);
     console.log(`🎼 Verovio WASM bundle saved to public/verovio/ (${(buf.length / 1024 / 1024).toFixed(1)}MB)`);
   } catch (err) {
-    console.warn(`⚠  Failed to download Verovio from CDN: ${err.message} — sheet music rendering may not work.`);
+    console.warn(`⚠  Failed to download Verovio from CDN: ${err.message} — will load from CDN at runtime instead.`);
   }
 } else {
   console.log(`🎼 Verovio bundle already present in public/verovio/`);

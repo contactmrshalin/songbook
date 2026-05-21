@@ -110,7 +110,15 @@ function loadVerovioScript(): Promise<void> {
     script.src = "/verovio/verovio-toolkit-wasm.js";
     script.async = true;
     script.onload = () => waitForVerovio(resolve, reject);
-    script.onerror = () => reject(new Error("Failed to load Verovio script from /verovio/verovio-toolkit-wasm.js"));
+    script.onerror = () => {
+      // Fallback: load from CDN if local file is unavailable
+      const cdnScript = document.createElement("script");
+      cdnScript.src = "https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js";
+      cdnScript.async = true;
+      cdnScript.onload = () => waitForVerovio(resolve, reject);
+      cdnScript.onerror = () => reject(new Error("Failed to load Verovio from both local and CDN"));
+      document.head.appendChild(cdnScript);
+    };
     document.head.appendChild(script);
   });
 
