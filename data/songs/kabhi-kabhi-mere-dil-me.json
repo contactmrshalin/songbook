@@ -9,7 +9,8 @@
     "Music Director: Khayyam",
     "Raag: Yaman",
     "Flute: G#",
-    "Source: https://notesandsargam.com/kabhi-kabhi-mere-dil-me/"
+    "Source: https://notesandsargam.com/kabhi-kabhi-mere-dil-me/",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/kabhi-kabhi-mere-dil-me.png",
   "background": "images/kabhi-kabhi-mere-dil-me.png",
@@ -240,5 +241,12 @@
         }
       ]
     }
+  ],
+  "description": "“Kabhi Kabhi Mere Dil Mein” is an enduring romantic anthem, celebrated for its profound poetic depth and Mukesh's soulful rendition. Composed by the legendary Khayyam, this song masterfully blends classical sensibilities with a lush orchestral arrangement, creating an atmosphere of tender longing and timeless romance. It remains a quintessential example of Hindi film music's golden era, resonating with generations for its emotional honesty and musical grandeur.",
+  "trivia": [
+    "The lyrics originated from a poem written by Saahir Ludhiyanvi years before the film's release, first published in his collection 'Talkhiyan'.",
+    "The film features multiple versions, including the iconic solo by Mukesh, a romantic duet by Mukesh and Lata Mangeshkar, and a poignant recited version by Amitabh Bachchan, which sets the mood for the film.",
+    "Composer Khayyam's minimalist yet grand orchestration, featuring a prominent piano and string section, became a hallmark of his style and perfectly complemented Saahir's profound poetry.",
+    "This song is widely considered one of Mukesh's most iconic and enduring performances, solidifying his legacy as 'The Voice of Romance' in Indian cinema."
   ]
 }
