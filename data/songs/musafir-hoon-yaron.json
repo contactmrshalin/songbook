@@ -1,0 +1,106 @@
+{
+  "id": "musafir-hoon-yaron",
+  "title": "Musafir Hoon Yaron",
+  "export": true,
+  "info": [
+    "Film/Artist: Kishore Kumar",
+    "Scale: C BASS/MIDDLE"
+  ],
+  "thumbnail": "images/musafir-hoon-yaron.jpg",
+  "background": "images/musafir-hoon-yaron.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Musafir hoon yaron",
+          "indian": "Pa Dha Sa' Dha Sa' Sa': Re' Ni(k) Dha:"
+        },
+        {
+          "lyrics": "Na ghar hain na thikaana",
+          "indian": "Pa Dha Sa' Dha Sa' Sa': Sa': Re' Ni(k) Dha:"
+        },
+        {
+          "lyrics": "Mujhe chalte jaana hain",
+          "indian": "ma ma Dha Dha Dha: Ni(k) Dha Pa: Dha ma"
+        },
+        {
+          "lyrics": "Bas chalte jaana hain",
+          "indian": "Dha ma Dha Ni(k) Dha Pa: Pa:"
+        },
+        {
+          "lyrics": "Musafir hoon yaron",
+          "indian": "Pa Dha Sa' Dha Sa' Sa': Re' Ni(k) Dha:"
+        },
+        {
+          "lyrics": "Na ghar hain na thikaana",
+          "indian": "Pa Dha Sa' Dha Sa' Sa': Sa': Re' Ni(k) Dha:"
+        },
+        {
+          "lyrics": "Mujhe chalte jaana hain",
+          "indian": "ma ma Dha Dha Dha: Ni(k) Dha Pa: Dha ma"
+        },
+        {
+          "lyrics": "Bas chalte jaana hain",
+          "indian": "Dha ma Dha Ni(k) Dha Pa: Pa:"
+        },
+        {
+          "lyrics": "Ek raah ruk gayi",
+          "indian": "Sa': Sa' Sa': Sa' Re' Re': Re' Re'"
+        },
+        {
+          "lyrics": "Toh aur jood gayi…",
+          "indian": "Re' Re': Re' ma': Ga' Ga': Ga' Re' Re' Sa'"
+        },
+        {
+          "lyrics": "Main mooda to saath saath",
+          "indian": "Sa' Sa' Sa': Sa' Re': Re' Re'"
+        },
+        {
+          "lyrics": "Raah mood gayi",
+          "indian": "Re': Re' ma': Ga' Ga':"
+        },
+        {
+          "lyrics": "Ek raah ruk gayi",
+          "indian": "Sa': Sa' Sa': Sa' Re' Re': Re' Re'"
+        },
+        {
+          "lyrics": "Toh aur jood gayi…",
+          "indian": "Re' Re': Re' ma': Ga' Ga': Ga' Re' Re' Sa'"
+        },
+        {
+          "lyrics": "Main mooda to saath saath",
+          "indian": "Sa' Sa' Sa': Sa' Re': Re' Re'"
+        },
+        {
+          "lyrics": "Raah mood gayi",
+          "indian": "Re': Re' ma': Ga' Ga':"
+        },
+        {
+          "lyrics": "Hawa ke paron par",
+          "indian": "Sa' Sa' Ni(k): Ni(k) Dha: Dha Dha Pa: Pa ma"
+        },
+        {
+          "lyrics": "Mera aashiyaana",
+          "indian": "Dha: Ni(k) Sa': Ni(k): Dha Pa Pa: Dha"
+        },
+        {
+          "lyrics": "Musafir hoon yaron",
+          "indian": "Pa Dha Sa' Dha Sa' Sa': Re' Ni(k) Dha:"
+        },
+        {
+          "lyrics": "Na ghar hain na thikaana",
+          "indian": "Pa Dha Sa' Dha Sa' Sa': Sa': Re' Ni(k) Dha:"
+        },
+        {
+          "lyrics": "Mujhe chalte jaana hain",
+          "indian": "ma ma Dha Dha Dha: Ni(k) Dha Pa: Dha ma"
+        },
+        {
+          "lyrics": "Bas chalte jaana hain",
+          "indian": "Dha ma Dha Ni(k) Dha Pa: Pa:"
+        }
+      ]
+    }
+  ]
+}
