@@ -3,7 +3,11 @@
   "title": "Roja Jaaneman",
   "info": [
     "Movie: Roja",
-    "Sargam / Harmonium / Flute notes"
+    "Singer: S. P. Balasubrahmanyam",
+    "Music: A. R. Rahman",
+    "Lyrics: P. K. Mishra",
+    "Raag: Hamsadhwani",
+    "Thaat: Bilawal"
   ],
   "thumbnail": "images/roja-jaaneman.png",
   "background": "images/roja-jaaneman.png",
@@ -101,5 +105,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "This iconic song from A. R. Rahman's debut film \"Roja\" introduced a revolutionary sound to Indian cinema, blending traditional Carnatic melodies with contemporary arrangements. Its haunting beauty and romantic intensity perfectly capture the film's emotional core, making it a timeless classic. The song's innovative use of instrumentation and S. P. Balasubrahmanyam's soulful rendition create an unforgettable listening experience.",
+  "trivia": [
+    "\"Roja Jaaneman\" is the Hindi adaptation of the Tamil song \"Kadhal Rojave,\" which marked A. R. Rahman's groundbreaking debut as a music director.",
+    "The melody is primarily based on the Carnatic Raag Hamsadhwani, known for its bright, uplifting, and majestic character, often associated with devotion and heroism.",
+    "The song's innovative soundscape, combining traditional Indian instruments with synthesizers and electronic elements, set a new benchmark for film music in India.",
+    "The film \"Roja\" and its soundtrack, including this song, played a significant role in bringing A. R. Rahman national and international acclaim, earning him the National Film Award for Best Music Direction."
+  ]
 }
