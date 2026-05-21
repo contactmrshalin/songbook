@@ -1,10 +1,10 @@
 {
   "id": "zindagi-ka-safar",
-  "title": "Zindagi Ka Safar (Easy)",
+  "title": "Zindagi Ka Safar",
   "export": true,
   "info": [
-    "Film/Artist: Easy Version",
-    "Scale: D# BASS/MIDDLE"
+    "Film/Artist: Safar",
+    "Scale: A# BASS/MIDDLE"
   ],
   "thumbnail": "images/zindagi-ka-safar.jpg",
   "background": "images/zindagi-ka-safar.jpg",
@@ -14,143 +14,143 @@
       "lines": [
         {
           "lyrics": "Zindagi ka safar",
-          "indian": "dha dha Re: Re Re Ga"
+          "indian": "Re Re Pa: Pa Pa Dha"
         },
         {
           "lyrics": "Hai ye kaisa safar",
-          "indian": "Ga Ga Ga Re Re Sa: Sa: Sa Sa"
+          "indian": "Dha Dha Dha Pa Pa ma: ma: ma ma"
         },
         {
           "lyrics": "Koi samjha nahin koi jaana nahin",
-          "indian": "Sa Sa Ga: Ga Ga Ma Ma Ga Re: Re: Re Re"
+          "indian": "ma ma Dha: Dha Dha Ni Ni Dha Pa: Pa: Pa Pa"
         },
         {
           "lyrics": "Zindagi ka safar",
-          "indian": "dha dha Re: Re Re Ga"
+          "indian": "Re Re Pa: Pa Pa Dha"
         },
         {
           "lyrics": "Hai ye kaisa safar",
-          "indian": "Ga Ga Ga Re Re Sa: Sa: Sa Sa"
+          "indian": "Dha Dha Dha Pa Pa ma: ma: ma ma"
         },
         {
           "lyrics": "Koi samjha nahin koi jaana nahin",
-          "indian": "Sa Sa Ga: Ga Ga Ma Ma Ga Re: Re: Re Re"
+          "indian": "ma ma Dha: Dha Dha Ni Ni Dha Pa: Pa: Pa Pa"
         },
         {
           "lyrics": "Hai ye kaisi dagar",
-          "indian": "Ma Dha Pa Ma: Ma Dha Pa Ma"
+          "indian": "Ni Re' Sa' Ni: Ni Re' Sa' Ni"
         },
         {
           "lyrics": "Chalte hain sab magar",
-          "indian": "Ma Dha Pa Ma: Pa: Ma Ga:"
+          "indian": "Ni Re' Sa' Ni: Sa': Ni Dha:"
         },
         {
           "lyrics": "Koi samjha nahin",
-          "indian": "Ga Ga Ga: Ga Ga Ma"
+          "indian": "Dha Dha Dha: Dha Dha Ni"
         },
         {
           "lyrics": "Koi jaana nahin",
-          "indian": "Ma Ga Re: Re: Re Re"
+          "indian": "Ni Dha Pa: Pa: Pa Pa"
         },
         {
           "lyrics": "Zindagi ko bahut",
-          "indian": "Ma Pa Dha: Ni Dha Dha"
+          "indian": "Ni Sa' Re': Ga' Re' Re'"
         },
         {
           "lyrics": "Pyaar hamne kiya….",
-          "indian": "Dha Pa Ma Ga: Dha Dha Dha: Ni Dha Pa Ma"
+          "indian": "Re' Sa' Ni Dha: Re' Re' Re': Ga' Re' Sa' Ni"
         },
         {
           "lyrics": "Maut se bhi mohab-",
-          "indian": "Ma Pa Ni: Ni Ni Re' Sa':"
+          "indian": "Ni Sa' Ga': Ga' Ga' Pa' ma':"
         },
         {
           "lyrics": "Bat Nibhaaenge ham",
-          "indian": "Sa' Sa' Ni Dha Pa: Ni Dha Dha"
+          "indian": "ma' ma' Ga' Re' Sa': Ga' Re' Re'"
         },
         {
           "lyrics": "Rote rote zamaa-",
-          "indian": "Ma Pa Dha: Ni Dha Dha"
+          "indian": "Ni Sa' Re': Ga' Re' Re'"
         },
         {
           "lyrics": "Ne mein aaye magar",
-          "indian": "Dha Pa Ma Ga: Dha Dha Dha:"
+          "indian": "Re' Sa' Ni Dha: Re' Re' Re':"
         },
         {
           "lyrics": "Hanste hanste zamaa-",
-          "indian": "Ma Pa Ni: Ni Ni Re' Sa':"
+          "indian": "Ni Sa' Ga': Ga' Ga' Pa' ma':"
         },
         {
           "lyrics": "Ne se jaaenge ham",
-          "indian": "Sa' Sa' Ni Dha Pa: Ni Dha Dha"
+          "indian": "ma' ma' Ga' Re' Sa': Ga' Re' Re'"
         },
         {
           "lyrics": "Jaaenge par kidhar",
-          "indian": "dha dha Re: Re Re Ga"
+          "indian": "Re Re Pa: Pa Pa Dha"
         },
         {
           "lyrics": "Hai kise ye khabar",
-          "indian": "Ga Ga Ga Re Re Sa: Sa: Sa Sa"
+          "indian": "Dha Dha Dha Pa Pa ma: ma: ma ma"
         },
         {
           "lyrics": "Koi samjha nahin koi jaana nahin",
-          "indian": "Sa Sa Ga: Ga Ga Ma Ma Ga Re: Re: Re Re"
+          "indian": "ma ma Dha: Dha Dha Ni Ni Dha Pa: Pa: Pa Pa"
         },
         {
           "lyrics": "Aise jeevan bhi hain",
-          "indian": "Ma Pa Dha: Ni Dha Dha"
+          "indian": "Ni Sa' Re': Ga' Re' Re'"
         },
         {
           "lyrics": "Jo jiye hi nahin",
-          "indian": "Dha Pa Ma Ga: Dha Dha Dha: Ni Dha Pa Ma"
+          "indian": "Re' Sa' Ni Dha: Re' Re' Re': Ga' Re' Sa' Ni"
         },
         {
           "lyrics": "Jinko jeene se peh-",
-          "indian": "Ma Pa Ni: Ni Ni Re' Sa':"
+          "indian": "Ni Sa' Ga': Ga' Ga' Pa' ma':"
         },
         {
           "lyrics": "Le Hi maut aa gayi",
-          "indian": "Sa' Sa' Ni Dha Pa: Ni Dha Dha"
+          "indian": "ma' ma' Ga' Re' Sa': Ga' Re' Re'"
         },
         {
           "lyrics": "Phool aise bhi hain",
-          "indian": "Ma Pa Dha: Ni Dha Dha"
+          "indian": "Ni Sa' Re': Ga' Re' Re'"
         },
         {
           "lyrics": "Jo khile hi nahin",
-          "indian": "Dha Pa Ma Ga: Dha Dha Dha:"
+          "indian": "Re' Sa' Ni Dha: Re' Re' Re':"
         },
         {
           "lyrics": "Jinko khilne se peh-",
-          "indian": "Ma Pa Ni: Ni Ni Re' Sa':"
+          "indian": "Ni Sa' Ga': Ga' Ga' Pa' ma':"
         },
         {
           "lyrics": "Le fiza kha gai",
-          "indian": "Sa' Sa' Ni Dha Pa: Ni Dha Dha"
+          "indian": "ma' ma' Ga' Re' Sa': Ga' Re' Re'"
         },
         {
           "lyrics": "Hai pareshaan nazar",
-          "indian": "dha dha Re: Re Re Ga"
+          "indian": "Re Re Pa: Pa Pa Dha"
         },
         {
           "lyrics": "Thak gaye chaaraagar",
-          "indian": "Ga Ga Ga Re Re Sa: Sa: Sa Sa"
+          "indian": "Dha Dha Dha Pa Pa ma: ma: ma ma"
         },
         {
           "lyrics": "Koi samjha nahin koi jaana nahin",
-          "indian": "Sa Sa Ga: Ga Ga Ma Ma Ga Re: Re: Re Re"
+          "indian": "ma ma Dha: Dha Dha Ni Ni Dha Pa: Pa: Pa Pa"
         },
         {
           "lyrics": "Zindagi ka safar",
-          "indian": "dha dha Re: Re Re Ga"
+          "indian": "Re Re Pa: Pa Pa Dha"
         },
         {
           "lyrics": "Hai ye kaisa safar",
-          "indian": "Ga Ga Ga Re Re Sa: Sa: Sa Sa"
+          "indian": "Dha Dha Dha Pa Pa ma: ma: ma ma"
         },
         {
           "lyrics": "Koi samjha nahin koi jaana nahin",
-          "indian": "Sa Sa Ga: Ga Ga Ma Ma Ga Re: Re: Re Re"
+          "indian": "ma ma Dha: Dha Dha Ni Ni Dha Pa: Pa: Pa Pa"
         }
       ]
     }
