@@ -1,5 +1,6 @@
 import { commitFiles, getFileContent } from "@/lib/github";
 import { downloadImage } from "@/lib/scraper";
+import { songToMusicXml } from "@/lib/toMusicXml";
 import type { Song } from "@/types/song";
 
 export const dynamic = "force-dynamic";
@@ -76,14 +77,32 @@ export async function POST(request: Request) {
       }
     }
 
-    // 2. Song JSON
+    // 2. MusicXML — regenerate from current sargam notation on every publish
+    try {
+      const musicXmlContent = songToMusicXml(song);
+      const musicXmlPath = `musicxml/${song.id}.musicxml`;
+
+      // Commit to platform/public/musicxml/ so the Next.js API route can serve it
+      filesToCommit.push({
+        path: `platform/public/musicxml/${song.id}.musicxml`,
+        content: musicXmlContent,
+      });
+
+      // Record the path in the song so the viewer knows where to fetch it
+      song.musicxml = musicXmlPath;
+    } catch (xmlErr) {
+      // MusicXML generation failed — log but don't block the publish
+      console.error("[publish] MusicXML generation failed:", xmlErr);
+    }
+
+    // 3. Song JSON (after musicxml field has been set)
     const songJson = JSON.stringify(song, null, 2) + "\n";
     filesToCommit.push({
       path: `data/songs/${song.id}.json`,
       content: songJson,
     });
 
-    // 3. Update book.json — add song to song_order if not already there
+    // 4. Update book.json — add song to song_order if not already there
     const bookRaw = await getFileContent("data/book.json");
     if (bookRaw) {
       const book = JSON.parse(bookRaw);
@@ -98,7 +117,7 @@ export async function POST(request: Request) {
       });
     }
 
-    // 4. Single atomic commit with everything
+    // 5. Single atomic commit with everything
     const lineCount = song.sections.reduce(
       (acc, s) => acc + s.lines.length,
       0
