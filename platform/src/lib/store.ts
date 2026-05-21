@@ -39,7 +39,12 @@ interface AppState {
 export const useAppStore = create<AppState>((set) => ({
   // Notation
   notationMode: "indian",
-  setNotationMode: (mode) => set({ notationMode: mode }),
+  setNotationMode: (mode) => {
+    if (typeof window !== "undefined") {
+      try { localStorage.setItem("notationMode", mode); } catch {}
+    }
+    set({ notationMode: mode });
+  },
 
   // Audio
   isPlaying: false,

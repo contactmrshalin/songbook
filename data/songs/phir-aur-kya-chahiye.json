@@ -161,5 +161,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/phir-aur-kya-chahiye.musicxml"
 }

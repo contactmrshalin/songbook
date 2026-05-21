@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <work><work-title>Gum Hai Kisi Ke Pyar Mein</work-title></work>
+  <identification><encoding><software>Songbook Pipeline</software></encoding></identification>
+  <part-list><score-part id="P1"><part-name>Lead</part-name></score-part></part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>2</divisions>
+        <key><fifths>0</fifths></key>
+        <time><beats>4</beats><beat-type>4</beat-type></time>
+        <clef><sign>G</sign><line>2</line></clef>
+      </attributes>
+      <direction placement="below"><direction-type><words>Lyric1=Indian (Sargam), Lyric2=Western (Pitch+Oct). Ornaments: meend "~" as slur, kan "(x)y" as grace, hold ":" as longer duration.</words></direction-type></direction>
+      <direction placement="below"><direction-type><words>STHAYI</words></direction-type></direction>
+      <direction placement="below"><direction-type><words>Gum hai | kisike | pyaar | mein</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="stop"/>
+        </notations>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Dil | subah | shaam</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+    </measure>
+    <measure number="2">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="stop"/>
+        </notations>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>r</text></lyric>
+        <lyric number="2"><text>D♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+    </measure>
+    <measure number="3">
+      <note>
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>r</text></lyric>
+        <lyric number="2"><text>D♭4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Par | tumhe | likh | nahin | paaun</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Main | usaka | naam</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+    </measure>
+    <measure number="4">
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Haaye | raam</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>m</text></lyric>
+        <lyric number="2"><text>F4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Haaye | raam</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+    </measure>
+    <measure number="5">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>m</text></lyric>
+        <lyric number="2"><text>F4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Kah | daalun | apane</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>n</text></lyric>
+        <lyric number="2"><text>B♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>d&apos;</text></lyric>
+        <lyric number="2"><text>A♭5</text></lyric>
+      </note>
+    </measure>
+    <measure number="6">
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>sab | haal | dil | ke</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+    </measure>
+    <measure number="7">
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Aur | kar | dun | jiwan</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+    </measure>
+    <measure number="8">
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>usake | hawaale</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="stop"/>
+        </notations>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+    </measure>
+    <measure number="9">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>m</text></lyric>
+        <lyric number="2"><text>F4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Phir | chhod | de | chaahe</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+    </measure>
+    <measure number="10">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>apana | bana | le</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="stop"/>
+        </notations>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+    </measure>
+    <measure number="11">
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>N</text></lyric>
+        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Main | to | usaka | re</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <grace/>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>hua | diwaana</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+    </measure>
+    <measure number="12">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>Ab | to | jaisa | bhi</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+    </measure>
+    <measure number="13">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <grace/>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>mera | ho | anjaam | hooo</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+    </measure>
+    <measure number="14">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>S</text></lyric>
+        <lyric number="2"><text>C4</text></lyric>
+      </note>
+      <note>
+        <grace/>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>(Repeat)</words></direction-type></direction>
+      <direction placement="below"><direction-type><words>ANTARA</words></direction-type></direction>
+      <direction placement="below"><direction-type><words>Socha | hai | ek | din</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>d</text></lyric>
+        <lyric number="2"><text>A♭4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>d</text></lyric>
+        <lyric number="2"><text>A♭4</text></lyric>
+      </note>
+    </measure>
+    <measure number="15">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <direction placement="below"><direction-type><words>main | usase | mil | ke</words></direction-type></direction>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>R</text></lyric>
+        <lyric number="2"><text>D4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>P</text></lyric>
+        <lyric number="2"><text>G4</text></lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1"><text>M</text></lyric>
+        <lyric number="2"><text>F#4</text></lyric>
+      </note>
+    </measure>
+    <measure number="16">
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <notations>
+          <slur type="start"/>
+        </notations>
+        <lyric number="1"><text>g</text></lyric>
+        <lyric number="2"><text>E♭4</text></lyric>
+      </note>
+    </measure>
+  </part>
+</score-partwise>

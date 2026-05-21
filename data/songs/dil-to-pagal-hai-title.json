@@ -116,5 +116,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/dil-to-pagal-hai-title.musicxml"
 }

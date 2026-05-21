@@ -125,5 +125,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/kabhi-alvida-naa-kehna.musicxml"
 }

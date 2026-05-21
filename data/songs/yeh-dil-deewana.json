@@ -90,5 +90,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/yeh-dil-deewana.musicxml"
 }

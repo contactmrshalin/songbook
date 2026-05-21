@@ -70,5 +70,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/pehle-bhi-main.musicxml"
 }

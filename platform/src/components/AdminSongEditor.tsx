@@ -24,6 +24,7 @@ import {
   Pencil,
 } from "lucide-react";
 import type { Song, SongSection, SongLine } from "@/types/song";
+import { transposeNotation } from "@/lib/transpose";
 
 interface Props {
   password: string;
@@ -228,6 +229,22 @@ export default function AdminSongEditor({ password }: Props) {
     if (next.has(idx)) next.delete(idx);
     else next.add(idx);
     setExpandedSections(next);
+  };
+
+  // Transpose all sargam lines in a section by ±1 semitone
+  const transposeSection = (sIdx: number, semitones: number) => {
+    if (!song) return;
+    const newSections = song.sections.map((section, i) => {
+      if (i !== sIdx) return section;
+      return {
+        ...section,
+        lines: section.lines.map((line) => ({
+          ...line,
+          indian: transposeNotation(line.indian, semitones),
+        })),
+      };
+    });
+    setSong({ ...song, sections: newSections });
   };
 
   // -----------------------------------------------------------------------
@@ -1207,15 +1224,40 @@ export default function AdminSongEditor({ password }: Props) {
                         ({section.lines.length} lines)
                       </span>
                     </div>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        removeSection(sIdx);
-                      }}
-                      className="p-1.5 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors"
-                    >
-                      <Trash2 className="w-4 h-4" />
-                    </button>
+
+                    {/* Right side: transpose controls + delete */}
+                    <div className="flex items-center gap-1" onClick={(e) => e.stopPropagation()}>
+                      {/* Transpose buttons */}
+                      <span className="text-[10px] text-[var(--text-muted)] mr-1 hidden sm:inline">
+                        Transpose:
+                      </span>
+                      <button
+                        onClick={() => transposeSection(sIdx, -1)}
+                        title="Shift all notes down 1 semitone"
+                        className="px-2 py-1 rounded text-xs font-mono font-medium text-[var(--text-secondary)]
+                                   hover:bg-[var(--accent-primary)]/10 hover:text-[var(--accent-primary)]
+                                   border border-[var(--border-light)] transition-colors"
+                      >
+                        −1
+                      </button>
+                      <button
+                        onClick={() => transposeSection(sIdx, 1)}
+                        title="Shift all notes up 1 semitone"
+                        className="px-2 py-1 rounded text-xs font-mono font-medium text-[var(--text-secondary)]
+                                   hover:bg-[var(--accent-primary)]/10 hover:text-[var(--accent-primary)]
+                                   border border-[var(--border-light)] transition-colors"
+                      >
+                        +1
+                      </button>
+
+                      {/* Delete */}
+                      <button
+                        onClick={() => removeSection(sIdx)}
+                        className="p-1.5 rounded-lg text-red-400 hover:bg-red-500/10 transition-colors ml-1"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
                   </div>
 
                   {/* Section lines */}

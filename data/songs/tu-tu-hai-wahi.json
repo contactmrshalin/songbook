@@ -60,5 +60,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/tu-tu-hai-wahi.musicxml"
 }

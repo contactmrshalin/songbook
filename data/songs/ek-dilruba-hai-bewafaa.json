@@ -191,5 +191,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/ek-dilruba-hai-bewafaa.musicxml"
 }

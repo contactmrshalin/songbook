@@ -117,5 +117,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/ae-mere-pyare-watan.musicxml"
 }

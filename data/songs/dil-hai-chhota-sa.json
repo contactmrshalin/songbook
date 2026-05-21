@@ -69,5 +69,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/dil-hai-chhota-sa.musicxml"
 }

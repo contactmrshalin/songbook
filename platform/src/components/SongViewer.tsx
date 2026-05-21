@@ -21,6 +21,7 @@ import AudioPlayer from "./AudioPlayer";
 import AdBanner from "./AdBanner";
 import RandomSongSuggestions from "./RandomSongSuggestions";
 import NotationGuideModal from "./NotationGuideModal";
+import SheetMusicViewer from "./SheetMusicViewer";
 import { AD_SLOTS, ADS_CONFIG } from "@/lib/ads.config";
 import type { Song } from "@/types/song";
 
@@ -51,7 +52,7 @@ function extractMeta(info: string[]): Record<string, string> {
 }
 
 export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
-  const { currentNoteIndex } = useAppStore();
+  const { currentNoteIndex, notationMode } = useAppStore();
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
     () => new Set(song.sections.map((_, i) => i))
   );
@@ -84,9 +85,10 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
     []
   );
 
-  // Auto-scroll to the active line during playback
+  // Auto-scroll to the active line during playback (skip in sheet music mode)
   useEffect(() => {
     if (currentNoteIndex < 0) return;
+    if (notationMode === "sheet") return;
 
     // Find which section and line index this global index maps to
     let remaining = currentNoteIndex;
@@ -102,7 +104,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
       }
       remaining -= section.lines.length;
     }
-  }, [currentNoteIndex, song.sections]);
+  }, [currentNoteIndex, notationMode, song.sections]);
 
   return (
     <div className="min-h-screen flex flex-col relative isolate">
@@ -379,7 +381,13 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
               </div>
             )}
 
-            {song.sections.map((section, si) => (
+            {/* ── Sheet Music view — shown inline when Sheet mode is active ── */}
+            {notationMode === "sheet" ? (
+              <SheetMusicViewer song={song} alwaysOpen />
+            ) : null}
+
+            {/* ── Notation sections — hidden in sheet mode ── */}
+            {notationMode !== "sheet" && song.sections.map((section, si) => (
               <div key={si}>
                 <div className="mb-6">
                   {/* Section header */}

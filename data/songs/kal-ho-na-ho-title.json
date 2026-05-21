@@ -69,5 +69,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/kal-ho-na-ho-title.musicxml"
 }

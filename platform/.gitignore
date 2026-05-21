@@ -50,3 +50,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Verovio WASM bundle — 7.3 MB, copied from node_modules by scripts/prebuild.mjs
+# Regenerated automatically before every build; no need to track in Git.
+/public/verovio/

@@ -85,5 +85,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/chhu-kar-mere-mann-ko.musicxml"
 }

@@ -174,5 +174,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/ek-din-bik-jayega.musicxml"
 }

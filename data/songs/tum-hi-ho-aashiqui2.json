@@ -184,5 +184,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/tum-hi-ho-aashiqui2.musicxml"
 }

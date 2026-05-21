@@ -77,5 +77,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/chand-chupa-badal-mein.musicxml"
 }

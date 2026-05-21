@@ -97,5 +97,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/gum-hai-kisi-ke-pyar-mein.musicxml"
 }

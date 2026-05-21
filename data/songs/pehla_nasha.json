@@ -118,5 +118,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/pehla_nasha.musicxml"
 }

@@ -39,5 +39,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/hero-flute-tune.musicxml"
 }

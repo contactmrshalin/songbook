@@ -26,6 +26,13 @@ export interface Song {
   description?: string;
   /** Interesting trivia facts about the song (AI-generated, user-editable) */
   trivia?: string[];
+  /**
+   * Path to a MusicXML file for this song, relative to the data/ directory.
+   * Set by scrape_musicxml.py (downloaded from URL) or build_songbook.py
+   * (auto-generated from sargam).  Served via GET /api/musicxml/[id].
+   * Example: "musicxml/pal-pal-dil-ke-paas.musicxml"
+   */
+  musicxml?: string;
 }
 
 export interface BookMeta {
@@ -37,7 +44,7 @@ export interface BookMeta {
   song_order: string[];
 }
 
-export type NotationMode = "indian" | "western" | "both";
+export type NotationMode = "indian" | "western" | "both" | "sheet";
 
 export type SongStatus = "published" | "pending_review" | "draft";
 

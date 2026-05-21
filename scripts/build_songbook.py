@@ -76,6 +76,7 @@ _NOTATION = _load_notation_mapping()
 _TOKEN_TO_WESTERN: Dict[str, Tuple[str, int]] = {
     k: (str(v.get("step", "")), int(v.get("alter", 0)))
     for k, v in (_NOTATION.get("token_to_western", {}) or {}).items()
+    if isinstance(v, dict)  # skip _comment and other non-mapping entries
 }
 
 # DOCX deps (optional until DOCX generation is invoked)

@@ -167,5 +167,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/kalank-title-track.musicxml"
 }

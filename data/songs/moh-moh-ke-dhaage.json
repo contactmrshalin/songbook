@@ -110,5 +110,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/moh-moh-ke-dhaage.musicxml"
 }

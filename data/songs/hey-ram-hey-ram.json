@@ -86,5 +86,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/hey-ram-hey-ram.musicxml"
 }

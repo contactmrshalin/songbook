@@ -207,5 +207,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/tujhe-dekha-to-yeh-jaana-sanam.musicxml"
 }

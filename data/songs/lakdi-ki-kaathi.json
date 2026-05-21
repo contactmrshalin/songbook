@@ -78,5 +78,6 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "musicxml": "musicxml/lakdi-ki-kaathi.musicxml"
 }
