@@ -46,11 +46,14 @@ interface VerovioToolkit {
   /** Returns a base64-encoded MIDI string for the loaded score. */
   renderToMIDI(options?: Record<string, unknown>): string;
   /**
-   * Returns a JSON string with an array of timing entries used for cursor
-   * sync during playback.  Each entry: { tstamp: number, on: string[], off: string[] }
+   * Returns the timemap for the loaded score.
+   * NOTE: Verovio v4.x returns a plain JavaScript array of objects, NOT a JSON
+   * string, despite older documentation saying otherwise. The call site must
+   * handle both cases (string from older builds, array from v4+).
+   * Each entry: { tstamp: number, on: string[], off: string[] }
    * where tstamp is milliseconds and on/off are SVG element IDs.
    */
-  renderToTimemap(options?: Record<string, unknown>): string;
+  renderToTimemap(options?: Record<string, unknown>): string | object[];
 }
 
 interface VerovioGlobal {
@@ -218,7 +221,14 @@ export default function VerovioRenderer({
         if (onMidiReady) {
           try {
             const midiBase64 = toolkit.renderToMIDI();
-            const timemapJson = toolkit.renderToTimemap();
+            const timemapRaw = toolkit.renderToTimemap();
+            // Verovio v4+ returns a JS array directly; older builds returned a
+            // JSON string. Normalise to a string so the rest of the pipeline
+            // (verovioPlay.ts → JSON.parse) always receives valid JSON.
+            const timemapJson =
+              typeof timemapRaw === "string"
+                ? timemapRaw
+                : JSON.stringify(timemapRaw);
             if (midiBase64 && timemapJson) {
               onMidiReady(midiBase64, timemapJson);
               // Pre-warm Tone.js + @tonejs/midi so the first Play click has zero
