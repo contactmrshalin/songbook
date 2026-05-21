@@ -3,7 +3,11 @@
   "title": "Raataan Lambiyan",
   "info": [
     "Scale (flute): A# (bass/middle)",
-    "Sargam / Harmonium / Flute notes"
+    "Sargam / Harmonium / Flute notes",
+    "Film: Shershaah (2021)",
+    "Singer: Jubin Nautiyal, Asees Kaur",
+    "Music: Tanishk Bagchi",
+    "Lyrics: Tanishk Bagchi"
   ],
   "thumbnail": "images/raataan-lambiyan.png",
   "background": "images/raataan-lambiyan.png",
@@ -113,5 +117,12 @@
       ]
     }
   ],
-  "export": true
+  "export": true,
+  "description": "Raataan Lambiyan is a soulful romantic ballad that became an anthem for love and longing upon its release. Its gentle melody, combined with heartfelt lyrics, perfectly captures the essence of spending endless nights with a loved one. The song's serene yet captivating mood made it an instant favorite, resonating deeply with audiences for its emotional depth and soothing musical arrangement.",
+  "trivia": [
+    "It was one of the most streamed songs of 2021 in India, topping various music charts and becoming a viral sensation.",
+    "The song's popularity was significantly boosted by its use in numerous social media reels and short videos, making it a cultural phenomenon.",
+    "\"Raataan Lambiyan\" won several awards, including the IIFA Award for Best Playback Singer (Male) for Jubin Nautiyal and Best Lyrics for Tanishk Bagchi.",
+    "The music video features the lead actors of \"Shershaah,\" Sidharth Malhotra and Kiara Advani, depicting their tender on-screen romance, which added to the song's emotional appeal."
+  ]
 }
