@@ -5,7 +5,8 @@
   "thumbnail": "images/om_namah_shivay_dhun.png",
   "info": [
     "Type: Bhajan / Dhun",
-    "Notation Style: Indian Sargam"
+    "Notation Style: Indian Sargam",
+    "Lyrics: Om Namah Shivay"
   ],
   "sections": [
     {
@@ -53,5 +54,12 @@
         }
       ]
     }
+  ],
+  "description": "The \"Om Namah Shivay Dhun\" is a meditative and devotional chant centered around the sacred 'Panchakshara Mantra' dedicated to Lord Shiva. As a 'dhun', it features a simple, repetitive melodic phrase designed to induce a state of tranquility and spiritual focus. Its timeless melody and profound spiritual resonance make it a cornerstone of Hindu devotional music, often used for meditation, prayer, and congregational chanting.",
+  "trivia": [
+    "The mantra 'Om Namah Shivay' translates to 'I bow to Shiva' and is one of the most important mantras in Shaivism, a major tradition within Hinduism.",
+    "It is often referred to as the 'Panchakshara Mantra' (five-syllable mantra) because of its core five syllables: Na, Ma, Shi, Va, Ya, which are believed to represent the five elements (earth, water, fire, air, ether) and the five faces of Shiva.",
+    "While many versions exist, a 'dhun' typically emphasizes a continuous, flowing melody rather than a structured composition, making it ideal for sustained chanting and creating a meditative atmosphere.",
+    "The chant is widely used in yoga and meditation practices globally, transcending its religious origins to become a universal symbol of peace and spiritual connection."
   ]
 }
