@@ -1,0 +1,17 @@
+# Netlify build configuration for Songbook
+# The Next.js app lives in the platform/ subdirectory.
+# In the Netlify dashboard the "Base directory" will be picked up automatically
+# from the [build] base setting below — no manual dashboard configuration needed.
+
+[build]
+  base    = "platform"
+  command = "npm ci --legacy-peer-deps && node scripts/prebuild.mjs && next build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# @netlify/plugin-nextjs enables full SSR, API routes, and image optimisation.
+# Pinned here so Netlify uses the same version as the one in package.json.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
