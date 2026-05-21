@@ -7,8 +7,9 @@
  * Renderer selection order (first match wins):
  *   1. URL query param  ?renderer=<type>   — runtime, for testing without rebuild
  *   2. NEXT_PUBLIC_SHEET_MUSIC_RENDERER    — build-time env var (baked into bundle)
- *   3. Default: "abc"                      — abcjs, works for all 167 songs with
- *                                            zero pre-generation needed
+ *   3. Default: "verovio"                  — highest fidelity MusicXML rendering;
+ *                                            falls back to "abc" automatically
+ *                                            when MusicXML is not yet generated.
  *
  * ⚠ NEXT_PUBLIC_* env vars are baked into the JS bundle at `next build`.
  *   Changing the env var requires a rebuild to take effect in production.
@@ -60,7 +61,7 @@ export function getRenderer(): RendererType {
   if (fromEnv) return fromEnv;
 
   // 3. Default
-  return "abc";
+  return "verovio";
 }
 
 /**
@@ -72,6 +73,12 @@ export function getRenderer(): RendererType {
  *   - Call `onReady()` once rendering is complete
  *   - Call `onError(message)` on failure
  *   - Clean up (clear the container, destroy instances) on unmount via useEffect
+ *
+ * Optional callbacks (Verovio only):
+ *   - Call `onFallback()` when MusicXML is missing (404) so the viewer can
+ *     switch to the abc renderer automatically — do NOT call onReady after this.
+ *   - Call `onMidiReady(base64, timemapJson)` after all SVG pages are rendered
+ *     to hand MIDI + timing data to the viewer for playback.
  */
 export interface RendererProps {
   /** The song to render */
@@ -82,4 +89,16 @@ export interface RendererProps {
   onReady: () => void;
   /** Called with a human-readable error string on failure */
   onError: (msg: string) => void;
+  /**
+   * (Verovio / OSMD only) Called when the MusicXML file returns 404.
+   * The viewer will switch to the abc renderer instead of showing an error.
+   * The renderer must NOT call onReady after calling onFallback.
+   */
+  onFallback?: () => void;
+  /**
+   * (Verovio only) Called after all SVG pages are rendered with the
+   * base64-encoded MIDI string and the Verovio timemap JSON string.
+   * Used by SheetMusicViewer to enable the play button.
+   */
+  onMidiReady?: (midiBase64: string, timemapJson: string) => void;
 }

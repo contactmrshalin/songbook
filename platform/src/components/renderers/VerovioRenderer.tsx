@@ -43,6 +43,14 @@ interface VerovioToolkit {
   loadData(data: string): boolean;
   getPageCount(): number;
   renderToSVG(page: number): string;
+  /** Returns a base64-encoded MIDI string for the loaded score. */
+  renderToMIDI(options?: Record<string, unknown>): string;
+  /**
+   * Returns a JSON string with an array of timing entries used for cursor
+   * sync during playback.  Each entry: { tstamp: number, on: string[], off: string[] }
+   * where tstamp is milliseconds and on/off are SVG element IDs.
+   */
+  renderToTimemap(options?: Record<string, unknown>): string;
 }
 
 interface VerovioGlobal {
@@ -138,7 +146,14 @@ function waitForVerovio(resolve: () => void, reject: (e: Error) => void, attempt
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
-export default function VerovioRenderer({ song, containerRef, onReady, onError }: RendererProps) {
+export default function VerovioRenderer({
+  song,
+  containerRef,
+  onReady,
+  onError,
+  onFallback,
+  onMidiReady,
+}: RendererProps) {
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -152,8 +167,11 @@ export default function VerovioRenderer({ song, containerRef, onReady, onError }
         if (cancelled) return;
 
         if (res.status === 404) {
-          if (containerRef.current) containerRef.current.innerHTML = NOT_FOUND_HTML(song.id);
-          onReady();
+          // No MusicXML for this song — fall back to the abc renderer instead
+          // of showing a yellow "not generated" box.  The viewer handles the
+          // renderer switch; we must NOT call onReady here.
+          if (containerRef.current) containerRef.current.innerHTML = "";
+          onFallback?.();
           return;
         }
         if (!res.ok) throw new Error(`Failed to load MusicXML: HTTP ${res.status}`);
@@ -194,7 +212,25 @@ export default function VerovioRenderer({ song, containerRef, onReady, onError }
           containerRef.current.appendChild(wrapper);
         }
 
-        if (!cancelled) onReady();
+        if (cancelled) return;
+
+        // 5. Extract MIDI + timemap for playback (non-fatal if unavailable)
+        if (onMidiReady) {
+          try {
+            const midiBase64 = toolkit.renderToMIDI();
+            const timemapJson = toolkit.renderToTimemap();
+            if (midiBase64 && timemapJson) {
+              onMidiReady(midiBase64, timemapJson);
+              // Pre-warm Tone.js + @tonejs/midi so the first Play click has zero
+              // dynamic-import latency.  Fire-and-forget — failures are ignored.
+              Promise.all([import("tone"), import("@tonejs/midi")]).catch(() => {});
+            }
+          } catch (midiErr) {
+            console.warn("[VerovioRenderer] MIDI/timemap extraction failed:", midiErr);
+          }
+        }
+
+        onReady();
       } catch (err) {
         if (!cancelled) {
           console.error("[VerovioRenderer] error:", err);

@@ -13,7 +13,7 @@
  * Renderer selection (first match wins):
  *   ?renderer=<type>                    URL param — runtime override
  *   NEXT_PUBLIC_SHEET_MUSIC_RENDERER    build-time env var
- *   default: "abc"
+ *   default: "verovio" (falls back to abc when MusicXML not generated)
  *
  * Architecture:
  *   - This component owns the `containerRef` div that renderers write into.
@@ -41,9 +41,14 @@ import {
   Download,
   Printer,
   AlertCircle,
+  Play,
+  Pause,
+  Square,
+  Pencil,
 } from "lucide-react";
 import type { Song } from "@/types/song";
 import { getRenderer, type RendererType } from "@/lib/sheetMusicConfig";
+import type { PlaybackControls } from "@/lib/verovioPlay";
 
 // ── Lazy renderer imports ─────────────────────────────────────────────────────
 // Only the selected renderer is ever loaded by the browser.
@@ -97,28 +102,106 @@ export default function SheetMusicViewer({
   );
   const [errorMsg, setErrorMsg] = useState("");
 
-  // Read renderer type synchronously on client to avoid a flicker of the badge.
+  // Renderer type — starts from env/URL, but can switch to "abc" on 404 fallback.
   // Guard with typeof window so SSR renders "abc" without crashing.
-  const [rendererType] = useState<RendererType>(() => {
+  const [rendererType, setRendererType] = useState<RendererType>(() => {
     if (typeof window === "undefined") return "abc";
     return getRenderer();
   });
 
+  // MIDI data handed off by VerovioRenderer after SVG render
+  const [midiData, setMidiData] = useState<{
+    midiBase64: string;
+    timemapJson: string;
+  } | null>(null);
+
+  // Playback state
+  const [playState, setPlayState] = useState<"stopped" | "playing" | "paused">("stopped");
+  const playbackRef = useRef<PlaybackControls | null>(null);
+
   // Reset to loading state when the song changes while the panel is open
-  // (the renderer remounts via key={song.id} which triggers cleanup + fresh render)
+  // (the renderer remounts via key which triggers cleanup + fresh render)
   useEffect(() => {
     if (isOpen) {
+      // Stop any ongoing playback before resetting
+      playbackRef.current?.stop();
+      playbackRef.current = null;
+      setPlayState("stopped");
+      setMidiData(null);
       setStatus("loading");
       setErrorMsg("");
+      // Restore default renderer in case a previous song fell back to abc
+      const defaultRenderer =
+        typeof window !== "undefined" ? getRenderer() : "abc";
+      setRendererType(defaultRenderer);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [song.id]);
+
+  // Cleanup playback on unmount
+  useEffect(() => {
+    return () => {
+      playbackRef.current?.stop();
+      playbackRef.current = null;
+    };
+  }, []);
 
   // Stable callbacks passed to renderer components
   const handleReady = useCallback(() => setStatus("ready"), []);
   const handleError = useCallback((msg: string) => {
     setErrorMsg(msg);
     setStatus("error");
+  }, []);
+
+  // Called by VerovioRenderer when MusicXML returns 404 — switch to abc silently
+  const handleFallback = useCallback(() => {
+    setMidiData(null);
+    setRendererType("abc");
+    // Keep status as "loading" — AbcRenderer will call handleReady when done
+  }, []);
+
+  // Called by VerovioRenderer after SVG pages are rendered
+  const handleMidiReady = useCallback((midiBase64: string, timemapJson: string) => {
+    setMidiData({ midiBase64, timemapJson });
+  }, []);
+
+  // Play / pause / resume toggle (called from a click event — safe for Tone.start())
+  const handlePlayPause = useCallback(async () => {
+    if (playState === "playing") {
+      playbackRef.current?.pause();
+      setPlayState("paused");
+      return;
+    }
+    if (playState === "paused") {
+      playbackRef.current?.resume();
+      setPlayState("playing");
+      return;
+    }
+    // stopped — start fresh playback
+    if (!midiData) return;
+    try {
+      const { startPlayback } = await import("@/lib/verovioPlay");
+      const controls = await startPlayback(
+        midiData.midiBase64,
+        midiData.timemapJson,
+        containerRef,
+        () => {
+          setPlayState("stopped");
+          playbackRef.current = null;
+        }
+      );
+      playbackRef.current = controls;
+      setPlayState("playing");
+    } catch (err) {
+      console.error("[SheetMusicViewer] playback failed:", err);
+    }
+  }, [playState, midiData]);
+
+  // Stop button
+  const handleStop = useCallback(() => {
+    playbackRef.current?.stop();
+    playbackRef.current = null;
+    setPlayState("stopped");
   }, []);
 
   // ── Toggle ──────────────────────────────────────────────────────────────────
@@ -177,10 +260,65 @@ export default function SheetMusicViewer({
 
   // ── Active renderer component ───────────────────────────────────────────────
   const RendererComponent = getRendererComponent(rendererType);
+  // Key includes rendererType so React remounts when we fall back to "abc"
+  const rendererKey = `${song.id}-${rendererType}`;
 
   // ── Action buttons shared between header and inline toolbar ───────────────
   const actionButtons = (
     <>
+      {/* Play / Pause — only when Verovio has produced MIDI data */}
+      {midiData && status === "ready" && (
+        <>
+          {/* Play / Pause toggle */}
+          <span
+            onClick={(e) => { e.stopPropagation(); handlePlayPause(); }}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === "Enter") { e.stopPropagation(); handlePlayPause(); } }}
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-medium
+                       transition-colors cursor-pointer
+                       ${
+                         playState === "playing"
+                           ? "bg-[var(--accent-primary)] text-white"
+                           : "bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-[var(--accent-primary)] hover:text-white"
+                       }`}
+            title={
+              playState === "playing"
+                ? "Pause playback"
+                : playState === "paused"
+                ? "Resume playback"
+                : "Play sheet music"
+            }
+          >
+            {playState === "playing" ? (
+              <Pause className="w-3 h-3" />
+            ) : (
+              <Play className="w-3 h-3" />
+            )}
+            <span className="hidden sm:inline">
+              {playState === "playing" ? "Pause" : playState === "paused" ? "Resume" : "Play"}
+            </span>
+          </span>
+
+          {/* Stop — only visible when playing or paused */}
+          {playState !== "stopped" && (
+            <span
+              onClick={(e) => { e.stopPropagation(); handleStop(); }}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => { if (e.key === "Enter") { e.stopPropagation(); handleStop(); } }}
+              className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-medium
+                         bg-[var(--bg-secondary)] text-[var(--text-secondary)]
+                         hover:bg-red-500 hover:text-white transition-colors cursor-pointer"
+              title="Stop playback"
+            >
+              <Square className="w-3 h-3" />
+              <span className="hidden sm:inline">Stop</span>
+            </span>
+          )}
+        </>
+      )}
+
       {/* Download MusicXML — visible when song has a pre-generated file */}
       {song.musicxml && (
         <span
@@ -218,6 +356,20 @@ export default function SheetMusicViewer({
           <span className="hidden sm:inline">Print</span>
         </span>
       )}
+
+      {/* Edit in Admin — always visible so admins can jump straight to the editor */}
+      <a
+        href={`/admin?songId=${song.id}`}
+        onClick={(e) => e.stopPropagation()}
+        className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-medium
+                   bg-[var(--bg-secondary)] text-[var(--text-secondary)]
+                   hover:bg-[var(--accent-primary)] hover:text-white transition-colors cursor-pointer
+                   no-underline"
+        title="Edit notation in the Admin editor"
+      >
+        <Pencil className="w-3 h-3" />
+        <span className="hidden sm:inline">Edit</span>
+      </a>
     </>
   );
 
@@ -277,11 +429,13 @@ export default function SheetMusicViewer({
 
           <Suspense fallback={null}>
             <RendererComponent
-              key={song.id}
+              key={rendererKey}
               song={song}
               containerRef={containerRef}
               onReady={handleReady}
               onError={handleError}
+              onFallback={handleFallback}
+              onMidiReady={handleMidiReady}
             />
           </Suspense>
 
@@ -308,6 +462,7 @@ export default function SheetMusicViewer({
           {status === "ready" && rendererType !== "abc" && (
             <p className="px-4 pb-3 text-[10px] text-gray-400">
               Rendered from MusicXML via {RENDERER_LABELS[rendererType]}.
+              {midiData && " · Use Play to listen with note highlighting."}
             </p>
           )}
         </div>
@@ -389,15 +544,17 @@ export default function SheetMusicViewer({
             style={{ minHeight: status === "ready" ? undefined : "0px" }}
           />
 
-          {/* Renderer component — remounted when song changes via key prop */}
+          {/* Renderer component — remounted when song or renderer changes via key */}
           {status !== "idle" && (
             <Suspense fallback={null}>
               <RendererComponent
-                key={song.id}
+                key={rendererKey}
                 song={song}
                 containerRef={containerRef}
                 onReady={handleReady}
                 onError={handleError}
+                onFallback={handleFallback}
+                onMidiReady={handleMidiReady}
               />
             </Suspense>
           )}
@@ -426,6 +583,7 @@ export default function SheetMusicViewer({
           {status === "ready" && rendererType !== "abc" && (
             <p className="px-4 pb-3 text-[10px] text-gray-400">
               Rendered from MusicXML via {RENDERER_LABELS[rendererType]}.
+              {midiData && " · Use Play to listen with note highlighting."}
             </p>
           )}
         </div>
