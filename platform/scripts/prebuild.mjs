@@ -142,25 +142,28 @@ if (fs.existsSync(srcMxmlDir)) {
   // Run `python scripts/scrape_musicxml.py --generate-all` to populate data/musicxml/
 }
 
-// ── Copy Verovio UMD bundle into public/verovio/ ──────────────────────────
+// ── Download Verovio UMD bundle into public/verovio/ ──────────────────────────
 // Verovio is an Emscripten-compiled WASM library with Node.js-specific code
 // paths that can't be processed by Turbopack/webpack for browser bundles.
 // Instead we serve the pre-built UMD file as a static asset and load it at
 // runtime via a <script> tag (VerovioRenderer.tsx), bypassing the bundler.
-const verovioSrc = path.join(PLATFORM_DIR, "node_modules", "verovio", "dist", "verovio-toolkit-wasm.js");
+// Downloaded from CDN to avoid including the heavy npm package in the project.
+const VEROVIO_CDN_URL = "https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js";
 const verovioDestDir = path.join(PLATFORM_DIR, "public", "verovio");
 const veroverDest = path.join(verovioDestDir, "verovio-toolkit-wasm.js");
 
-if (fs.existsSync(verovioSrc)) {
+if (!fs.existsSync(veroverDest)) {
   fs.mkdirSync(verovioDestDir, { recursive: true });
-  const srcMtime = fs.statSync(verovioSrc).mtimeMs;
-  const destMtime = fs.existsSync(veroverDest) ? fs.statSync(veroverDest).mtimeMs : 0;
-  if (srcMtime > destMtime) {
-    fs.copyFileSync(verovioSrc, veroverDest);
-    console.log(`🎼 Copied Verovio WASM bundle to public/verovio/ (${(fs.statSync(veroverDest).size / 1024 / 1024).toFixed(1)}MB)`);
-  } else {
-    console.log(`🎼 Verovio bundle already up-to-date in public/verovio/`);
+  console.log(`🎼 Downloading Verovio WASM bundle from CDN...`);
+  try {
+    const resp = await fetch(VEROVIO_CDN_URL);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const buf = Buffer.from(await resp.arrayBuffer());
+    fs.writeFileSync(veroverDest, buf);
+    console.log(`🎼 Verovio WASM bundle saved to public/verovio/ (${(buf.length / 1024 / 1024).toFixed(1)}MB)`);
+  } catch (err) {
+    console.warn(`⚠  Failed to download Verovio from CDN: ${err.message} — sheet music rendering may not work.`);
   }
 } else {
-  console.warn(`⚠  Verovio source not found at ${verovioSrc} — skipping copy. Run 'bun install' to install dependencies.`);
+  console.log(`🎼 Verovio bundle already present in public/verovio/`);
 }

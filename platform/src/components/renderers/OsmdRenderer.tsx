@@ -15,6 +15,39 @@
 import { useEffect } from "react";
 import type { RendererProps } from "@/lib/sheetMusicConfig";
 
+// ── Load OSMD from CDN via script tag (avoids bundling the heavy package) ──
+const OSMD_CDN_URL = "https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.9.9/build/opensheetmusicdisplay.min.js";
+let osmdLoadPromise: Promise<void> | null = null;
+
+function loadOsmdScript(): Promise<void> {
+  if (osmdLoadPromise) return osmdLoadPromise;
+
+  osmdLoadPromise = new Promise<void>((resolve, reject) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    if ((window as any).opensheetmusicdisplay?.OpenSheetMusicDisplay) {
+      resolve();
+      return;
+    }
+
+    const existing = document.querySelector(`script[src="${OSMD_CDN_URL}"]`);
+    if (existing) {
+      existing.addEventListener("load", () => resolve());
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      if ((window as any).opensheetmusicdisplay?.OpenSheetMusicDisplay) resolve();
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = OSMD_CDN_URL;
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("Failed to load OSMD from CDN"));
+    document.head.appendChild(script);
+  });
+
+  return osmdLoadPromise;
+}
+
 // Error shown when MusicXML hasn't been generated yet
 const NOT_FOUND_HTML = (songId: string) => `
   <div style="padding:16px 20px;font-family:system-ui,sans-serif;color:#92400e;
@@ -61,8 +94,10 @@ export default function OsmdRenderer({ song, containerRef, onReady, onError }: R
         const xmlString = await res.text();
         if (cancelled) return;
 
-        // 2. Lazy-load OSMD (browser only, ~400 KB)
-        const { OpenSheetMusicDisplay } = await import("opensheetmusicdisplay");
+        // 2. Lazy-load OSMD from CDN (browser only, ~400 KB)
+        await loadOsmdScript();
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const { OpenSheetMusicDisplay } = (window as any).opensheetmusicdisplay;
         if (cancelled || !containerRef.current) return;
 
         // 3. Instantiate and render
