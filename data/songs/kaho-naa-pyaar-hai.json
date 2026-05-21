@@ -5,7 +5,10 @@
   "info": [
     "Film/Artist: Title Song",
     "Scale: A BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/kaho-naa-pyaar-hai-sargam-harmonium-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/kaho-naa-pyaar-hai-sargam-harmonium-and-flute-notes.html",
+    "Singer: Lucky Ali, Alka Yagnik",
+    "Music: Rajesh Roshan",
+    "Lyrics: Ibrahim Ashk"
   ],
   "thumbnail": "images/kaho-naa-pyaar-hai.png",
   "background": "images/kaho-naa-pyaar-hai.png",
@@ -63,5 +66,12 @@
         }
       ]
     }
+  ],
+  "description": "The title track from the blockbuster film \"Kaho Naa... Pyaar Hai\" is an iconic romantic duet that perfectly captures the essence of young love. Its catchy melody, vibrant orchestration, and the distinct voices of Lucky Ali and Alka Yagnik made it an instant anthem, defining the sound of early 2000s Bollywood romance. The song's youthful energy and memorable hook ensured its enduring popularity.",
+  "trivia": [
+    "The film \"Kaho Naa... Pyaar Hai\" marked the highly successful debut of Hrithik Roshan and Ameesha Patel, with its music playing a pivotal role in its box office triumph.",
+    "Music director Rajesh Roshan is the brother of the film's director Rakesh Roshan and uncle to lead actor Hrithik Roshan.",
+    "Lucky Ali's unique, slightly melancholic vocal style brought a fresh and distinctive quality to the male lead, making this one of his most recognizable Bollywood songs.",
+    "The song's memorable choreography, showcasing Hrithik Roshan's exceptional dance skills, significantly contributed to its widespread appeal and helped establish him as a dancing sensation."
   ]
 }
