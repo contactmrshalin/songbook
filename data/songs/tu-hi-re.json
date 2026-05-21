@@ -41,32 +41,32 @@
         },
         {
           "lyrics": "Tuhi | re | Tuhi | re…",
-          "indian": "R R | R~G{MGR} . | RR(P) | G",
+          "indian": "Re Re | Re~Ga{Ma(T)GaRe} . | ReRe(Pa) | Ga",
           "western": "R R | R~G{MGR} . | RR(P) | G"
         },
         {
           "lyrics": "Tere | bina | main | kaise | jiyoon",
-          "indian": "R G | MM~(P) | M | G~R R | R RSN",
+          "indian": "Re Ga | Ma(T)Ma(T)~(Pa) | Ma(T) | Ga~Re Re | Re ReSaNi",
           "western": "R G | MM~(P) | M | G~R R | R RSN"
         },
         {
           "lyrics": "Aaja | re | aaja | re",
-          "indian": "N~R R(G)R | R~S | S R | SRS N DP",
+          "indian": "Ni~Re Re(Ga)Re | Re~Sa | Sa Re | SaReSa Ni DhaPa",
           "western": "N~R R(G)R | R~S | S R | SRS N DP"
         },
         {
           "lyrics": "yoonhi | tadpana | tu | mujhko",
-          "indian": ",P ,P | D S SS | R~N | D P P",
+          "indian": "Pa. Pa. | Dha Sa SaSa | Re~Ni | Dha Pa Pa",
           "western": ",P ,P | D S SS | R~N | D P P"
         },
         {
           "lyrics": "Jaan | re | jaan | re",
-          "indian": "N~R {R(G)R} | R~S SR | S R | SRS N DP",
+          "indian": "Ni~Re {Re(Ga)Re} | Re~Sa SaRe | Sa Re | SaReSa Ni DhaPa",
           "western": "N~R {R(G)R} | R~S SR | S R | SRS N DP"
         },
         {
           "lyrics": "In | sanson | me | bas | jaa | tu",
-          "indian": ",P ,P | D S S | S | R N | D~P | P",
+          "indian": "Pa. Pa. | Dha Sa Sa | Sa | Re Ni | Dha~Pa | Pa",
           "western": ",P ,P | D S S | S | R N | D~P | P"
         },
         {
@@ -83,17 +83,17 @@
         },
         {
           "lyrics": "Chahat | hai | agar | aake | mujhse | milja | tu",
-          "indian": "P'M PP P' D | P | MP(M)G | G G | GG MP | D'M G R | R",
+          "indian": "Pa'Ma(T) PaPa Pa' Dha | Pa | Ma(T)Pa(Ma(T))Ga | Ga Ga | GaGa Ma(T)Pa | Dha'Ma(T) Ga Re | Re",
           "western": "P'M PP P' D | P | MP(M)G | G G | GG MP | D'M G R | R"
         },
         {
           "lyrics": "Ya | Phir | aisa | kar",
-          "indian": "P'M | P' . P'ND | P'M | P MG",
+          "indian": "Pa'Ma(T) | Pa' . Pa'NiDha | Pa'Ma(T) | Pa Ma(T)Ga",
           "western": "P'M | P' . P'ND | P'M | P MG"
         },
         {
           "lyrics": "Dharti | se | mila de | mujhako",
-          "indian": "G G G | P | P D M | G R R {NRMGRNS}",
+          "indian": "Ga Ga Ga | Pa | Pa Dha Ma(T) | Ga Re Re {NiReMa(T)GaReNiSa}",
           "western": "G G G | P | P D M | G R R {NRMGRNS}"
         },
         {
@@ -102,12 +102,12 @@
         },
         {
           "lyrics": "In | sanson | ka | dekho | tum | pagalpan | ye",
-          "indian": "S | R P | M~G M~R | R R | SR | R R SRgR | S ND",
+          "indian": "Sa | Re Pa | Ma(T)~Ga Ma(T)~Re | Re Re | SaRe | Re Re SaReGa(k)Re | Sa NiDha",
           "western": "S | R P | M~G M~R | R R | SR | R R SRgR | S ND"
         },
         {
           "lyrics": "Aye | nahi | inhe | chain",
-          "indian": "S R | P M~G M~R | R R | SR",
+          "indian": "Sa Re | Pa Ma(T)~Ga Ma(T)~Re | Re Re | SaRe",
           "western": "S R | P M~G M~R | R R | SR"
         },
         {
@@ -124,12 +124,12 @@
         },
         {
           "lyrics": "Inn | unche | pahado | se | jaa | de | dunga | main",
-          "indian": "R g | D'D' | D'D'D' | D' | PD | D | DP DP | gR",
+          "indian": "Re Ga(k) | Dha'Dha' | Dha'Dha'Dha' | Dha' | PaDha | Dha | DhaPa DhaPa | Ga(k)Re",
           "western": "R g | D'D' | D'D'D' | D' | PD | D | DP DP | gR"
         },
         {
           "lyrics": "Gar | tum | na | ayi | kahi",
-          "indian": "Rg | P' | D' | D'~S'N' | D'D'",
+          "indian": "ReGa(k) | Pa' | Dha' | Dha'~Sa'Ni' | Dha'Dha'",
           "western": "Rg | P' | D' | D'~S'N' | D'D'"
         },
         {
@@ -146,12 +146,12 @@
         },
         {
           "lyrics": "Maut | aur | zindagi",
-          "indian": "P'P' | P'G | GP(D)P MG RS",
+          "indian": "Pa'Pa' | Pa'Ga | GaPa(Dha)Pa Ma(T)Ga ReSa",
           "western": "P'P' | P'G | GP(D)P MG RS"
         },
         {
           "lyrics": "Tere | haatho | me | de | diya | re",
-          "indian": "SS | S R | GP | GR | SN | DNSND",
+          "indian": "SaSa | Sa Re | GaPa | GaRe | SaNi | DhaNiSaNiDha",
           "western": "SS | S R | GP | GR | SN | DNSND"
         },
         {

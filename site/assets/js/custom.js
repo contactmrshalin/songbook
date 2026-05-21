@@ -360,7 +360,7 @@
     var compound = splitCompoundNotes(clean);
     if (compound.length > 0) {
       var pn = holdMult / compound.length;
-      return { events: compound.map(function(m) { return { type: "note", midi: m, duration: pn }; }), totalBeats: holdMult };
+      return { events: compound.map(function(m) { return { type: "note", midi: m, duration: pn * 0.88 }; }), totalBeats: holdMult };
     }
     return { events: [{ type: "rest", duration: 1 }], totalBeats: 1 };
   }
@@ -395,7 +395,7 @@
       if (uCompound.length > 0) {
         var evts = [{ type: "rest", duration: 0.5 }];
         var up = 0.5 / uCompound.length;
-        uCompound.forEach(function(m) { evts.push({ type: "note", midi: m, duration: up }); });
+        uCompound.forEach(function(m) { evts.push({ type: "note", midi: m, duration: up * 0.88 }); });
         return { events: evts, totalBeats: 1 };
       }
     }
@@ -409,7 +409,7 @@
       var lcomp = splitCompoundNotes(notesPart);
       if (lcomp.length > 0) {
         var lp = holdMult / lcomp.length;
-        return { events: lcomp.map(function(m) { return { type: "note", midi: m, duration: lp }; }), totalBeats: holdMult };
+        return { events: lcomp.map(function(m) { return { type: "note", midi: m, duration: lp * 0.88 }; }), totalBeats: holdMult };
       }
     }
 
@@ -421,8 +421,8 @@
       if (mainSingle !== undefined) mainMidis = [mainSingle];
       else mainMidis = splitCompoundNotes(gracePrefix[2]);
       if (gMidi !== undefined && mainMidis.length > 0) {
-        var gev = [{ type: "note", midi: gMidi, duration: 0.15 * holdMult }];
-        var md = (0.85 * holdMult) / mainMidis.length;
+        var gev = [{ type: "note", midi: gMidi, duration: 0.25 * holdMult }];
+        var md = (0.75 * holdMult) / mainMidis.length;
         mainMidis.forEach(function(m) { gev.push({ type: "note", midi: m, duration: md }); });
         if (totalExtra > 0) gev.push({ type: "rest", duration: totalExtra });
         return { events: gev, totalBeats: holdMult + totalExtra };
@@ -439,9 +439,9 @@
       if (em1 !== undefined && egm !== undefined && em3list.length > 0) {
         var eev = [
           { type: "note", midi: em1, duration: 0.4 * holdMult },
-          { type: "note", midi: egm, duration: 0.15 * holdMult }
+          { type: "note", midi: egm, duration: 0.2 * holdMult }
         ];
-        var td = (0.45 * holdMult) / em3list.length;
+        var td = (0.4 * holdMult) / em3list.length;
         em3list.forEach(function(m) { eev.push({ type: "note", midi: m, duration: td }); });
         if (totalExtra > 0) eev.push({ type: "rest", duration: totalExtra });
         return { events: eev, totalBeats: holdMult + totalExtra };
@@ -458,7 +458,8 @@
     var compound = splitCompoundNotes(work);
     if (compound.length > 1) {
       var cpn = holdMult / compound.length;
-      var cev = compound.map(function(m) { return { type: "note", midi: m, duration: cpn }; });
+      // Play each note at 88% of its time slot so fast runs sound distinct, not slurred
+      var cev = compound.map(function(m) { return { type: "note", midi: m, duration: cpn * 0.88 }; });
       if (totalExtra > 0) cev.push({ type: "rest", duration: totalExtra });
       return { events: cev, totalBeats: holdMult + totalExtra };
     }
@@ -509,7 +510,7 @@
           var graceMidi = resolveSimpleNote(inner);
           if (graceMidi !== undefined) {
             var nextParsed = parseToken(tokens[i + 1]);
-            result.push({ displayTokenIdx: i, events: [{ type: "note", midi: graceMidi, duration: 0.15 }], totalBeats: 0.15 });
+            result.push({ displayTokenIdx: i, events: [{ type: "note", midi: graceMidi, duration: 0.25 }], totalBeats: 0.25 });
             result.push({ displayTokenIdx: i + 1, events: nextParsed.events, totalBeats: nextParsed.totalBeats });
             i += 2; continue;
           }
@@ -599,8 +600,11 @@
       osc.type = "sine"; // flute-like
       osc.frequency.value = midiToFreq(midiNote);
 
+      // Proportional envelope: attack scales with note duration (max 40ms) so very
+      // short compound notes and grace notes are still audible, not swallowed by the ramp.
+      var attack = Math.min(0.04, duration * 0.15);
       noteGain.gain.setValueAtTime(0, ctx.currentTime);
-      noteGain.gain.linearRampToValueAtTime(vol * 0.5, ctx.currentTime + 0.04);
+      noteGain.gain.linearRampToValueAtTime(vol * 0.5, ctx.currentTime + attack);
       noteGain.gain.linearRampToValueAtTime(vol * 0.35, ctx.currentTime + duration * 0.6);
       noteGain.gain.linearRampToValueAtTime(0, ctx.currentTime + duration);
 

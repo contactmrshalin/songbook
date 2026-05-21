@@ -55,8 +55,8 @@ _ACC_TIVRA = str((_NOTATION.get("accidental_markers", {}) or {}).get("tivra", "(
 # Canonical word forms.
 _WORD_CANON = {"SA": "Sa", "RE": "Re", "GA": "Ga", "MA": "Ma", "PA": "Pa", "DHA": "Dha", "NI": "Ni"}
 
-# Letter → canonical word (for shuddh). Ma is special: m=Ma, M=Ma(T).
-_LETTER_WORD = {"S": "Sa", "R": "Re", "G": "Ga", "P": "Pa", "D": "Dha", "N": "Ni", "m": "Ma"}
+# Letter → canonical word (for shuddh). Ma is special: m=ma (shuddh/natural F), M=Ma(T) (tivra/sharp F#).
+_LETTER_WORD = {"S": "Sa", "R": "Re", "G": "Ga", "P": "Pa", "D": "Dha", "N": "Ni", "m": "ma"}
 
 # Lowercase komal letters → canonical word + komal marker.
 _KOMAL_LOWER = {"r": "Re", "g": "Ga", "d": "Dha", "n": "Ni"}
@@ -207,7 +207,7 @@ def _normalize_song_sections(song: Dict[str, Any]) -> int:
 
 def main() -> None:
     # Try per-song layout first
-    songs_dir = ROOT / "songs"
+    songs_dir = _DATA / "songs"
     if songs_dir.is_dir() and any(songs_dir.glob("*.json")):
         # Process each song file individually
         changed = 0
