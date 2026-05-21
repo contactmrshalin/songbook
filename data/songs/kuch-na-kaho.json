@@ -4,7 +4,12 @@
   "export": true,
   "info": [
     "Film/Artist: 1942 A Love Story",
-    "Source: https://www.notationsworld.com/kuch-na-kaho-sargam-harmonium-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/kuch-na-kaho-sargam-harmonium-and-flute-notes.html",
+    "Singer: Kumar Sanu",
+    "Music: R.D. Burman",
+    "Lyrics: Javed Akhtar",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/kuch-na-kaho.png",
   "background": "images/kuch-na-kaho.png",
@@ -58,5 +63,12 @@
         }
       ]
     }
+  ],
+  "description": "This iconic romantic ballad from '1942 A Love Story' beautifully captures the unspoken emotions of love and longing. Its serene melody, steeped in classical nuances, creates an atmosphere of tender intimacy and quiet contemplation. The song remains a timeless classic, celebrated for its exquisite composition and heartfelt rendition.",
+  "trivia": [
+    "This song is one of the last major works of the legendary music director R.D. Burman, released posthumously, making it a poignant farewell from the maestro.",
+    "Kumar Sanu's soulful rendition earned him the Filmfare Award for Best Male Playback Singer, solidifying his status as a leading voice of romantic songs.",
+    "The melody is a prime example of how Raag Yaman's characteristic notes and phrases can be seamlessly woven into popular film music, giving it a rich, classical depth.",
+    "The film's soundtrack, including 'Kuch Na Kaho', is widely regarded as one of R.D. Burman's finest and most mature compositions, showcasing his versatility and genius."
   ]
 }
