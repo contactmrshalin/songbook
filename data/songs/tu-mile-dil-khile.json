@@ -1,0 +1,83 @@
+{
+  "id": "tu-mile-dil-khile",
+  "title": "Tu Mile Dil Khile",
+  "export": true,
+  "info": [
+    "Film/Artist: Criminal",
+    "Scale: C BASS/MIDDLE",
+    "Singer: Kumar Sanu, Alka Yagnik",
+    "Music: M. M. Keeravani",
+    "Lyrics: Indeevar",
+    "Raag: Yaman",
+    "Thaat: Kalyan",
+    "Year: 1995"
+  ],
+  "thumbnail": "images/tu-mile-dil-khile.jpg",
+  "background": "images/tu-mile-dil-khile.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tu milee dil khilee",
+          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+        },
+        {
+          "lyrics": "Aur jeene ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+        },
+        {
+          "lyrics": "Tu milee dil khilee",
+          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+        },
+        {
+          "lyrics": "Aur jeene ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+        },
+        {
+          "lyrics": "Naa hoo tu udaas teree paas paas",
+          "indian": "Re ma Dha Dha Dha Dha Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Mainn rahoonga zindagi bhar",
+          "indian": "Dha Dha Dha Sa' Dha Sa' Dha ma"
+        },
+        {
+          "lyrics": "Naa hoo tu udaas teree paas paas",
+          "indian": "Re ma Dha Dha Dha Dha Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Mainn rahoonga zindagi bhar",
+          "indian": "Dha Dha Dha Sa' Dha Sa' Dha Sa'"
+        },
+        {
+          "lyrics": "Saaree sansaar kaa pyaar maine tujhi mein paayaa",
+          "indian": "Dha Sa' Ga' Ga' Re' Ga' Ga' Re' ma' ma' Ga' Re' Sa' Dha Pa"
+        },
+        {
+          "lyrics": "Tu milee dil khilee",
+          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+        },
+        {
+          "lyrics": "Aur jeene ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+        },
+        {
+          "lyrics": "Haan tu milee dil khilee",
+          "indian": "Dha Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+        },
+        {
+          "lyrics": "Aur jeenee ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic romantic ballad from 'Criminal' is a testament to M. M. Keeravani's melodic genius, beautifully rendered by Kumar Sanu and Alka Yagnik. Its soulful melody, deeply rooted in Indian classical sensibilities, creates an atmosphere of tender longing and profound love. The song's enduring appeal lies in its elegant composition and the heartfelt emotion it conveys, making it a timeless classic of 90s Bollywood.",
+  "trivia": [
+    "The music director, M. M. Keeravani, is also known as M. M. Kreem in Hindi cinema and later gained international acclaim, winning an Oscar for 'Naatu Naatu' from 'RRR'.",
+    "The film 'Criminal' was a bilingual production, released in both Hindi and Telugu (as 'The Villain'), with Keeravani composing for both versions.",
+    "Besides the popular duet by Kumar Sanu and Alka Yagnik, there is also a beloved female solo version sung by K. S. Chithra, showcasing the song's versatility.",
+    "The song's melody is strongly based on Raag Yaman, a prominent evening raga known for its romantic and devotional mood, characterized by the use of teevra Madhyam."
+  ]
+}
