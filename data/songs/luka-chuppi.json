@@ -4,7 +4,12 @@
   "export": true,
   "info": [
     "Film/Artist: Lata Mangeshkar",
-    "Scale: A BASS/MIDDLE"
+    "Scale: A BASS/MIDDLE",
+    "Singer: Lata Mangeshkar, A.R. Rahman",
+    "Music: A.R. Rahman",
+    "Lyrics: Prasoon Joshi",
+    "Raag: Bageshree",
+    "Thaat: Kafi"
   ],
   "thumbnail": "images/luka-chuppi.jpg",
   "background": "images/luka-chuppi.jpg",
@@ -150,5 +155,12 @@
         }
       ]
     }
+  ],
+  "description": "This hauntingly beautiful lullaby from 'Rang De Basanti' is a poignant exploration of a mother's grief and longing. It masterfully blends the timeless voice of Lata Mangeshkar with A.R. Rahman's soulful rendition, creating an emotionally resonant piece that transcends cultural boundaries. The song's melancholic melody, rooted in classical Indian music, perfectly captures the film's themes of loss and remembrance.",
+  "trivia": [
+    "Lata Mangeshkar recorded her vocals for 'Luka Chuppi' in Mumbai, while A.R. Rahman recorded his parts in Chennai, showcasing a remarkable remote collaboration.",
+    "The song's lyrics by Prasoon Joshi are deeply symbolic, using the childhood game of hide-and-seek ('Luka Chuppi') as a metaphor for the elusive nature of memory and the pain of a lost loved one.",
+    "It is picturized on Waheeda Rehman and Soha Ali Khan, depicting a mother's emotional journey as she grapples with the memory of her deceased son, adding immense depth to the narrative.",
+    "The composition draws heavily from Raag Bageshree, a late-night raga known for its somber, introspective, and devotional mood, which perfectly underpins the song's emotional core."
   ]
 }
