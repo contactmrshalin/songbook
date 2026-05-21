@@ -5,7 +5,7 @@
 
 [build]
   base    = "platform"
-  command = "npm install --legacy-peer-deps && node scripts/prebuild.mjs && next build"
+  command = "npm install --legacy-peer-deps --ignore-scripts && node scripts/prebuild.mjs && next build"
   publish = ".next"
 
 [build.environment]
