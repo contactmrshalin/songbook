@@ -1,0 +1,142 @@
+{
+  "id": "kaun-tujhe",
+  "title": "Kaun Tujhe",
+  "export": true,
+  "info": [
+    "Film/Artist: M.S. Dhoni The Untold Story",
+    "Scale: A# BASS/MIDDLE"
+  ],
+  "thumbnail": "images/kaun-tujhe.jpg",
+  "background": "images/kaun-tujhe.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tuu aata hai seena mai",
+          "indian": "Ni Sa' Ni Dha Pa Ma Ma Pa Pa Dha Dha"
+        },
+        {
+          "lyrics": "Jab jab saanse bharti huu",
+          "indian": "Dha Dha Ni Dha Pa Ma Ga Ga Ma Ma Pa Pa"
+        },
+        {
+          "lyrics": "Tere dil ki galiyon see",
+          "indian": "Ni Sa' Ni Dha Pa Ma Ma Pa Pa Dha Dha"
+        },
+        {
+          "lyrics": "Main har roz guzarti huu",
+          "indian": "Dha Ni Dha Pa Ma Pa Ma Ga Ga Ga"
+        },
+        {
+          "lyrics": "Hawa kee jaise chalta hai tuu",
+          "indian": "Ni Ni Sa' Ni Dha Pa Ma Ma Pa Pa Dha Dha Re"
+        },
+        {
+          "lyrics": "Main ret jaisi udti huu",
+          "indian": "Dha Ni Dha Pa Ma Ga Ga Ma Ma Pa Pa"
+        },
+        {
+          "lyrics": "Kayun tujhe yun pyaar karegaa",
+          "indian": "Ga' Ni Ni Ni Dha Pa Ma Pa Pa Pa Dha Dha Re"
+        },
+        {
+          "lyrics": "Jaisee main karti hoon",
+          "indian": "Dha Ni Dha Pa Ma Pa Ma Ga Ga Ga"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Ga Ma Pa Dha Ni Sa' Ni Dha Dha: Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Re Ga Ma Pa Dha Ni Ma Pa Ga"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Ga Ma Pa Dha Ni Sa' Ni Dha Dha: Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Re Ga Ma Pa Dha Ni Ma Pa Ga"
+        },
+        {
+          "lyrics": "Music:-",
+          "indian": "pa dha ni: Ga Ma Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "pa dha ni: Pa Dha Pa Ma"
+        },
+        {
+          "lyrics": "",
+          "indian": "pa dha ni: Ga Ma Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "pa dha ni: Pa Dha Pa Ma"
+        },
+        {
+          "lyrics": "Meri nazar kaa safar",
+          "indian": "Ga Ni Dha Ni Pa Ma Pa"
+        },
+        {
+          "lyrics": "Tujhpe hii aake rukee",
+          "indian": "Ga Ni Dha Ni Pa Ma Dha"
+        },
+        {
+          "lyrics": "Kehne koo baaki hai kyaa",
+          "indian": "Ga Ni Dha Ni Pa Ma Pa: Dha Pa Ma"
+        },
+        {
+          "lyrics": "Kehna thaa jo keh chukee",
+          "indian": "Ga Ni Dha Ni Pa Ma Dha"
+        },
+        {
+          "lyrics": "Meri nigaahein haii",
+          "indian": "Ni Sa' Pa' Ma' Ga' Ni"
+        },
+        {
+          "lyrics": "Teri nigahon pee",
+          "indian": "Dha Ni Ga' Re' Sa' Pa"
+        },
+        {
+          "lyrics": "Tujhe khabar kya bekhabarr",
+          "indian": "Pa Dha Sa' Ni Dha Pa Pa Dha Pa Dha Pa Ma:"
+        },
+        {
+          "lyrics": "Main tujhse hii chhup chhup kee",
+          "indian": "Ni Sa' Ni Dha Pa Ma Ma Pa Pa Dha Dha"
+        },
+        {
+          "lyrics": "Teri aakhein padhti hoonn",
+          "indian": "Dha Ni Dha Pa Ma Ga Ga Ma Ma Pa Pa"
+        },
+        {
+          "lyrics": "Kayun tujhe yun pyaar karegaa",
+          "indian": "Ga' Ni Ni Ni Dha Pa Ma Pa Pa Pa Dha Dha Re"
+        },
+        {
+          "lyrics": "Jaisee main karti hoon",
+          "indian": "Dha Ni Dha Pa Ma Pa Ma Ga Ga Ga"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Ga Ma Pa Dha Ni Sa' Ni Dha Dha: Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Re Ga Ma Pa Dha Ni Ma Pa Ga"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Ga Ma Pa Dha Ni Sa' Ni Dha Dha: Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Hoo Hoo Hoo….",
+          "indian": "Re Ga Ma Pa Dha Ni Ma Pa Ga"
+        }
+      ]
+    }
+  ]
+}
