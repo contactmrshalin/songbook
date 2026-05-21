@@ -1,0 +1,109 @@
+{
+  "id": "jeena-yahan-marna-yahan",
+  "title": "Jeena Yahan Marna Yahan",
+  "export": true,
+  "info": [
+    "Film/Artist: Mera Naam Joker",
+    "Scale: C# BASS/MIDDLE",
+    "Singer: Raj Kapoor",
+    "Music: Shankar-Jaikishan",
+    "Lyrics: Shailendra",
+    "Year: 1970"
+  ],
+  "thumbnail": "images/jeena-yahan-marna-yahan.jpg",
+  "background": "images/jeena-yahan-marna-yahan.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Jeena yahan marna yahan",
+          "indian": "ni Ga: Ma Pa Ma Ga(k): Ga Ma"
+        },
+        {
+          "lyrics": "Iske siva jaana kahan",
+          "indian": "ni Ga(k): Ga Ma Pa Ma: G(K).G"
+        },
+        {
+          "lyrics": "Jeena yahan marna yahan",
+          "indian": "ni Ga: Ma Pa Ma Ga(k): Ga Ma"
+        },
+        {
+          "lyrics": "Iske siva jaana kahan",
+          "indian": "ni Ga(k): Ga Ma Pa Ma: G(K).G"
+        },
+        {
+          "lyrics": "Ji chahe jab humko awaaz do",
+          "indian": "Ni Sa': Dha Ni Ni: Ni Ni Sa': Dha Ni"
+        },
+        {
+          "lyrics": "Hum hain wahin hum thhe jahan",
+          "indian": "Dha Ma: Dha Pa Ma Ga(k): Ma Ga"
+        },
+        {
+          "lyrics": "Apne yahin dono jahan",
+          "indian": "ni Ga: Ma Pa Ma Ga(k): Ga Ma"
+        },
+        {
+          "lyrics": "Iske siva jaana kahan",
+          "indian": "ni Ga(k): Ga Ma Pa Ma: G(K).G"
+        },
+        {
+          "lyrics": "Yeh mera geet jeevan sangeet",
+          "indian": "Dha(k) Dha(k): Ma Dha(k) Dha Dha Dha(k) Dha"
+        },
+        {
+          "lyrics": "Kal bhi koi dohrayega",
+          "indian": "Sa' Sa': Ni Sa': Sa' Ni Dha: Pa Ni"
+        },
+        {
+          "lyrics": "Yeh mera geet jeevan sangeet",
+          "indian": "Dha(k) Dha(k): Ma Dha(k) Dha Dha Dha(k) Dha"
+        },
+        {
+          "lyrics": "Kal bhi koi dohrayega",
+          "indian": "Sa' Sa': Ni Sa': Sa' Ni Dha: Pa Ni"
+        },
+        {
+          "lyrics": "Jag ko hasane bahrupiya",
+          "indian": "Dha(k) Dha(k): Ma Dha(k) Dha(k) Dha Dha: D(K).D"
+        },
+        {
+          "lyrics": "Roop badal phir aayega",
+          "indian": "Sa': Ni Sa' Sa' Ga' Ga' Ni: Ni Ni"
+        },
+        {
+          "lyrics": "Swarg yahin nark yahan",
+          "indian": "ni Ga: Ma Pa Ma Ga(k): Ga Ma"
+        },
+        {
+          "lyrics": "Iske siva jana kahan",
+          "indian": "ni Ga(k): Ga Ma Pa Ma: G(K).G"
+        },
+        {
+          "lyrics": "Ji chahe jab humko awaaz do",
+          "indian": "Ni Sa': Dha Ni Ni: Ni Ni Sa': Dha Ni"
+        },
+        {
+          "lyrics": "Hum hain wahin hum thhe jahan",
+          "indian": "Dha Ma: Dha Pa Ma Ga(k): Ma Ga"
+        },
+        {
+          "lyrics": "Apne yahin dono jahan",
+          "indian": "ni Ga: Ma Pa Ma Ga(k): Ga Ma"
+        },
+        {
+          "lyrics": "Iske siva jaana kahan",
+          "indian": "ni Ga(k): Ga Ma Pa Ma: G(K).G"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic song, sung by Raj Kapoor himself, is a poignant ode to the life of a clown, encapsulating the bittersweet reality of entertaining others while hiding personal sorrow. Its melancholic melody and profound lyrics create a timeless anthem for resilience and the human spirit. The song perfectly embodies the film's philosophical exploration of life, death, and the enduring show.",
+  "trivia": [
+    "The song is famously picturised on Raj Kapoor's character, Raju the clown, delivering a powerful performance that became synonymous with his on-screen persona.",
+    "Lyricist Shailendra's words are deeply philosophical, reflecting on the transient nature of life and the enduring spirit of the performer, making it one of his most celebrated works.",
+    "Shankar-Jaikishan's composition masterfully blends a circus-like grandeur with a profound sense of pathos, creating a unique soundscape that perfectly complements the film's theme.",
+    "Despite the film 'Mera Naam Joker' initially underperforming at the box office, this song, along with others from the soundtrack, achieved immense popularity and has since become a classic, revered for its emotional depth and artistic merit."
+  ]
+}
