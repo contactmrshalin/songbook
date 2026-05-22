@@ -5,7 +5,10 @@
   "info": [
     "Film/Artist: DDLJ",
     "Scale: G MAJOR",
-    "Source: https://www.notationsworld.com/tujhe-dekha-to-yeh-jana-sanam-ddlj-sargam-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/tujhe-dekha-to-yeh-jana-sanam-ddlj-sargam-and-flute-notes.html",
+    "Singer: Lata Mangeshkar, Kumar Sanu",
+    "Music: Jatin-Lalit",
+    "Lyrics: Anand Bakshi"
   ],
   "thumbnail": "images/tujhe-dekha-to-yeh-jana-sanam.png",
   "background": "images/tujhe-dekha-to-yeh-jana-sanam.png",
@@ -56,5 +59,12 @@
       ]
     }
   ],
-  "musicxml": "musicxml/tujhe-dekha-to-yeh-jana-sanam.musicxml"
+  "musicxml": "musicxml/tujhe-dekha-to-yeh-jana-sanam.musicxml",
+  "description": "“Tujhe Dekha To Yeh Jana Sanam” is an iconic romantic anthem from the timeless film \"Dilwale Dulhania Le Jayenge.\" Its enchanting melody, coupled with the pristine voices of Lata Mangeshkar and Kumar Sanu, perfectly captures the blossoming of first love amidst picturesque European landscapes. The song's simple yet profound lyrical expression of affection has cemented its place as one of Bollywood's most beloved love songs.",
+  "trivia": [
+    "The song is famously picturised on Shah Rukh Khan and Kajol in the lush mustard fields of Punjab, a scene that has become synonymous with Bollywood romance.",
+    "Composed by Jatin-Lalit, its melody is instantly recognizable and played a significant role in the film's monumental success, defining the sound of romantic Bollywood music for a generation.",
+    "The collaboration between legendary singers Lata Mangeshkar and Kumar Sanu brought a unique blend of timeless grace and youthful energy to the track.",
+    "\"Dilwale Dulhania Le Jayenge\" holds the record for the longest-running film in Indian cinema history, and \"Tujhe Dekha To Yeh Jana Sanam\" remains one of its most enduring musical highlights."
+  ]
 }
