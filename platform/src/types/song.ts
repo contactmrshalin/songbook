@@ -44,7 +44,7 @@ export interface BookMeta {
   song_order: string[];
 }
 
-export type NotationMode = "indian" | "western" | "both" | "sheet";
+export type NotationMode = "indian" | "western" | "sheet";
 
 export type SongStatus = "published" | "pending_review" | "draft";
 

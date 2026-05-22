@@ -12,9 +12,9 @@ export default function NotationToggle() {
   // after hydration so there is at most one brief render with the default.
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("notationMode") as NotationMode | null;
-      if (saved && saved !== notationMode) {
-        setNotationMode(saved);
+      const saved = localStorage.getItem("notationMode") as string | null;
+      if (saved && saved !== notationMode && saved !== "both") {
+        setNotationMode(saved as NotationMode);
       }
     } catch {
       // localStorage unavailable (private mode, etc.) — use default
@@ -25,7 +25,6 @@ export default function NotationToggle() {
   const modes: { key: NotationMode; label: string }[] = [
     { key: "indian",  label: "Sargam"  },
     { key: "western", label: "Western" },
-    { key: "both",    label: "Both"    },
     { key: "sheet",   label: "Sheet"   },
   ];
 
