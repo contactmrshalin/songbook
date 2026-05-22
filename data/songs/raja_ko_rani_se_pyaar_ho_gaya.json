@@ -9,7 +9,10 @@
     "Singer: Alka Yagnik, Udit Narayan",
     "Composer: Jatin-Lalit",
     "Lyricist: Majrooh Sultanpuri",
-    "Notation Source: Sargam-style pattern (tutorial aligned)"
+    "Notation Source: Sargam-style pattern (tutorial aligned)",
+    "Film: Akele Hum Akele Tum (1995)",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
   "sections": [
     {
@@ -79,5 +82,12 @@
       ]
     }
   ],
-  "musicxml": "musicxml/raja_ko_rani_se_pyaar_ho_gaya.musicxml"
+  "musicxml": "musicxml/raja_ko_rani_se_pyaar_ho_gaya.musicxml",
+  "description": "This iconic duet from 'Akele Hum Akele Tum' is a quintessential romantic track, beautifully rendered by Alka Yagnik and Udit Narayan. Composed by Jatin-Lalit, the song elegantly blends popular appeal with a strong classical foundation, primarily based on Raag Yaman. Its enchanting melody and heartfelt lyrics perfectly capture the blossoming of love, making it an enduring favorite.",
+  "trivia": [
+    "The song's melody is a brilliant example of Jatin-Lalit's signature style, known for its sweet, hummable tunes often rooted in classical Indian music.",
+    "It features the legendary vocal pairing of Alka Yagnik and Udit Narayan, whose chemistry defined many hit duets of the 1990s.",
+    "The lyrics were penned by the veteran Majrooh Sultanpuri, showcasing his timeless ability to craft simple yet profound expressions of love.",
+    "The film 'Akele Hum Akele Tum' was an adaptation of the Hollywood classic 'Kramer vs. Kramer', though this song provided a lighter, romantic counterpoint to the film's more dramatic themes."
+  ]
 }

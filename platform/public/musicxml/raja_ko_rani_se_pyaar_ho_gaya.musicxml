@@ -1,20 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC
+  "-//Recordare//DTD MusicXML 3.1 Partwise//EN"
+  "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
-  <work><work-title>Raja Ko Rani Se Pyaar Ho Gaya</work-title></work>
-  <identification><encoding><software>Songbook Pipeline</software></encoding></identification>
-  <part-list><score-part id="P1"><part-name>Lead</part-name></score-part></part-list>
+  <work>
+    <work-title>Raja Ko Rani Se Pyaar Ho Gaya</work-title>
+  </work>
+  <identification>
+    <encoding>
+      <software>Songbook Pipeline</software>
+      <encoding-date>2026-05-22</encoding-date>
+    </encoding>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Voice</part-name>
+    </score-part>
+  </part-list>
   <part id="P1">
     <measure number="1">
       <attributes>
         <divisions>2</divisions>
-        <key><fifths>0</fifths></key>
-        <time><beats>4</beats><beat-type>4</beat-type></time>
-        <clef><sign>G</sign><line>2</line></clef>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
       </attributes>
-      <direction placement="below"><direction-type><words>Lyric1=Indian (Sargam), Lyric2=Western (Pitch+Oct). Ornaments: meend "~" as slur, kan "(x)y" as grace, hold ":" as longer duration.</words></direction-type></direction>
-      <direction placement="below"><direction-type><words>Chorus – Raja ko rani se pyaar ho gaya</words></direction-type></direction>
-      <direction placement="below"><direction-type><words>Raja ko rani se pyaar ho gaya</words></direction-type></direction>
+      <direction placement="above">
+        <direction-type>
+          <words>Chorus – Raja ko rani se pyaar ho gaya</words>
+        </direction-type>
+      </direction>
       <note>
         <pitch>
           <step>E</step>
@@ -22,8 +45,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -32,8 +57,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -42,8 +69,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -52,8 +81,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -62,8 +93,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -72,8 +105,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -82,8 +117,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -92,11 +129,23 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
     </measure>
     <measure number="2">
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
       <note>
         <pitch>
           <step>G</step>
@@ -104,8 +153,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>P</text></lyric>
-        <lyric number="2"><text>G4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Pa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -114,8 +165,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -124,10 +177,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
-      <direction placement="below"><direction-type><words>Pehli nazar mein pehla pyaar ho gaya</words></direction-type></direction>
       <note>
         <pitch>
           <step>E</step>
@@ -135,8 +189,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -145,8 +201,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -155,40 +213,48 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
     </measure>
     <measure number="3">
       <note>
         <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
           <step>E</step>
           <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -197,28 +263,25 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
       <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
+        <rest/>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
       </note>
       <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
+        <rest/>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -227,11 +290,18 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re</text>
+        </lyric>
       </note>
-      <direction placement="below"><direction-type><words>Verse</words></direction-type></direction>
-      <direction placement="below"><direction-type><words>Dil jigar dono ghaayal huye</words></direction-type></direction>
+      <direction placement="above">
+        <direction-type>
+          <words>Verse</words>
+        </direction-type>
+      </direction>
+    </measure>
+    <measure number="4">
       <note>
         <pitch>
           <step>D</step>
@@ -239,8 +309,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -249,8 +321,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -259,11 +333,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
-    </measure>
-    <measure number="4">
       <note>
         <pitch>
           <step>F</step>
@@ -271,8 +345,15 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m&apos;</text></lyric>
-        <lyric number="2"><text>F5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma'</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -281,8 +362,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -291,8 +374,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -301,9 +386,13 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
+    </measure>
+    <measure number="5">
       <note>
         <pitch>
           <step>C</step>
@@ -311,8 +400,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -321,8 +412,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -331,10 +424,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
-      <direction placement="below"><direction-type><words>Teer-e-nazar dil le paar ho gaya</words></direction-type></direction>
       <note>
         <pitch>
           <step>G</step>
@@ -342,11 +436,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>P</text></lyric>
-        <lyric number="2"><text>G4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Pa</text>
+        </lyric>
       </note>
-    </measure>
-    <measure number="5">
       <note>
         <pitch>
           <step>E</step>
@@ -354,8 +448,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -364,8 +460,15 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -374,90 +477,29 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
     </measure>
     <measure number="6">
       <note>
         <pitch>
-          <step>D</step>
+          <step>C</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
       </note>
       <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
+        <rest/>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
       </note>
       <note>
         <pitch>
@@ -466,8 +508,32 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -476,8 +542,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -486,51 +554,29 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
     </measure>
     <measure number="7">
       <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>O, Rani ko dekho</words></direction-type></direction>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -539,8 +585,32 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -549,8 +619,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -559,81 +631,56 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>Nazrein mili toh</words></direction-type></direction>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
     </measure>
     <measure number="8">
       <note>
         <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
-      </note>
-      <note>
-        <pitch>
           <step>D</step>
           <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
-          <step>C</step>
+          <step>E</step>
           <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
       <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
+        <rest/>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -642,29 +689,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>aankhen, churane lagi</words></direction-type></direction>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -673,8 +701,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
     </measure>
     <measure number="9">
@@ -685,8 +715,22 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -695,8 +739,25 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m&apos;</text></lyric>
-        <lyric number="2"><text>F5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma'</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -705,8 +766,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -715,48 +778,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re</text>
+        </lyric>
       </note>
     </measure>
     <measure number="10">
@@ -767,59 +792,61 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
           <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>Ho karti bhi kya woh</words></direction-type></direction>
-      <note>
-        <pitch>
-          <step>E</step>
           <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -828,51 +855,68 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa'</text>
+        </lyric>
       </note>
     </measure>
     <measure number="11">
       <note>
         <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
           <step>E</step>
           <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G&apos;</text></lyric>
-        <lyric number="2"><text>E5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga'</text>
+        </lyric>
       </note>
-      <direction placement="below"><direction-type><words>Sar ko jhuka ke kangna ghumane lagi</words></direction-type></direction>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
       <note>
         <pitch>
-          <step>B</step>
+          <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -881,50 +925,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S&apos;</text></lyric>
-        <lyric number="2"><text>C5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>aankhen, churane lagi</words></direction-type></direction>
     </measure>
     <measure number="12">
       <note>
@@ -934,8 +939,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -944,18 +951,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R&apos;</text></lyric>
-        <lyric number="2"><text>D5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re'</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -964,8 +963,25 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m&apos;</text></lyric>
-        <lyric number="2"><text>F5</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma'</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
       </note>
       <note>
         <pitch>
@@ -974,71 +990,36 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
       <note>
         <pitch>
-          <step>D</step>
-          <octave>4</octave>
+          <step>F</step>
+          <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma'</text>
+        </lyric>
       </note>
     </measure>
     <measure number="13">
       <note>
         <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>O, Raja ne aisa jaadu chalaya</words></direction-type></direction>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>m&apos;</text></lyric>
-        <lyric number="2"><text>F5</text></lyric>
-      </note>
-      <note>
-        <pitch>
           <step>F</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1047,8 +1028,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1057,8 +1040,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1067,8 +1052,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1077,8 +1064,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1087,40 +1076,48 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>P</text></lyric>
-        <lyric number="2"><text>G4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Pa</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
       </note>
     </measure>
     <measure number="14">
       <note>
         <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
           <step>D</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1129,8 +1126,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1139,8 +1138,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1149,10 +1150,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
-      <direction placement="below"><direction-type><words>Raja ne aisa jaadu chalaya</words></direction-type></direction>
       <note>
         <pitch>
           <step>F</step>
@@ -1160,8 +1162,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1170,11 +1174,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re</text>
+        </lyric>
       </note>
-    </measure>
-    <measure number="15">
       <note>
         <pitch>
           <step>C</step>
@@ -1182,8 +1186,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1192,9 +1198,13 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
+    </measure>
+    <measure number="15">
       <note>
         <pitch>
           <step>A</step>
@@ -1202,8 +1212,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1212,8 +1224,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>P</text></lyric>
-        <lyric number="2"><text>G4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Pa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1222,8 +1236,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1232,8 +1248,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1242,8 +1260,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Re</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1252,41 +1272,48 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
     </measure>
     <measure number="16">
       <note>
         <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>m</text></lyric>
-        <lyric number="2"><text>F4</text></lyric>
-      </note>
-      <note>
-        <pitch>
           <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <direction placement="below"><direction-type><words>Na karte karte</words></direction-type></direction>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ga</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1295,8 +1322,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1305,8 +1334,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1315,10 +1346,11 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
-      <direction placement="below"><direction-type><words>ikraar ho gaya</words></direction-type></direction>
       <note>
         <pitch>
           <step>B</step>
@@ -1326,8 +1358,10 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1336,60 +1370,34 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Sa</text>
+        </lyric>
       </note>
     </measure>
     <measure number="17">
       <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
+        <rest/>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>G</text></lyric>
-        <lyric number="2"><text>E4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>R</text></lyric>
-        <lyric number="2"><text>D4</text></lyric>
       </note>
       <note>
         <pitch>
@@ -1398,70 +1406,15 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
       </note>
       <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
+        <rest/>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-    </measure>
-    <measure number="18">
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>S</text></lyric>
-        <lyric number="2"><text>C4</text></lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <type>eighth</type>
-        <lyric number="1"><text>N</text></lyric>
-        <lyric number="2"><text>B4</text></lyric>
       </note>
       <note>
         <pitch>
@@ -1470,8 +1423,39 @@
         </pitch>
         <duration>1</duration>
         <type>eighth</type>
-        <lyric number="1"><text>D</text></lyric>
-        <lyric number="2"><text>A4</text></lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ni</text>
+        </lyric>
+      </note>
+      <note>
+        <rest/>
+        <duration>1</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Dha</text>
+        </lyric>
       </note>
     </measure>
   </part>
