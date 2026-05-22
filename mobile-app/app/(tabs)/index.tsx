@@ -78,6 +78,10 @@ export default function SongbookScreen() {
         mediaPlaybackRequiresUserAction={false}
         cacheEnabled={true}
         cacheMode="LOAD_DEFAULT"
+        mixedContentMode="compatibility"
+        allowsInlineMediaPlayback={true}
+        setSupportMultipleWindows={false}
+        originWhitelist={['https://*', 'http://*']}
       />
     </View>
   );

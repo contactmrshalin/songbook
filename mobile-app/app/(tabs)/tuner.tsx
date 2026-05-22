@@ -206,13 +206,16 @@ export default function TunerScreen() {
       {/* Hidden WebView for audio processing */}
       <WebView
         ref={webViewRef}
-        source={{ html: TUNER_HTML }}
+        source={{ html: TUNER_HTML, baseUrl: 'https://localhost' }}
         onMessage={onMessage}
         style={styles.hiddenWebView}
         mediaPlaybackRequiresUserAction={false}
         allowsInlineMediaPlayback={true}
         javaScriptEnabled={true}
         mediaCapturePermissionGrantType="grant"
+        allowFileAccess={true}
+        androidLayerType="hardware"
+        originWhitelist={['*']}
       />
 
       <ScrollView
