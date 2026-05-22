@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "installCommand": "npm ci --legacy-peer-deps",
+  "installCommand": "npm ci --legacy-peer-deps --ignore-scripts",
   "buildCommand": "node scripts/prebuild.mjs && next build"
 }
