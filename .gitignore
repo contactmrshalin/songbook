@@ -20,6 +20,7 @@ dist/
 site/public/
 site/resources/
 site/content/songs/
+data/musicxml/
 
 # Vercel deploy temp files (created by deploy.sh, cleaned after deploy)
 platform/.songdata/
