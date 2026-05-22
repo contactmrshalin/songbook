@@ -7,7 +7,8 @@
     "Movie: Mr. X In Bombay (1964)",
     "Singer: Kishore Kumar",
     "Music Director: Laxmikant–Pyarelal",
-    "Difficulty: Beginner–Intermediate"
+    "Difficulty: Beginner–Intermediate",
+    "Lyrics: Mere mehboob qayamat hogi\nAaj rusva teri galiyon mein mohabbat hogi\nNaam niklega tera hi lab se\nBaat niklegi to har su teri shohrat hogi\nMere mehboob qayamat hogi\nAaj rusva teri galiyon mein mohabbat hogi\n\nMeri mit jayegi hasti teri chahat mein\nAur tarasogi tum meri mohabbat mein\nMere mehboob qayamat hogi\nAaj rusva teri galiyon mein mohabbat hogi\n\nMere sanam bewafa ho tum\nJo wada kiya tha nibha na sake\nMere sanam bewafa ho tum\nJo wada kiya tha nibha na sake\nEk mehfil mein aakar\nPhir kabhi tanha na sake\nMere mehboob qayamat hogi\nAaj rusva teri galiyon mein mohabbat hogi"
   ],
   "thumbnail": "images/mere-mehboob-qayamat-hogi.png",
   "background": "images/mere-mehboob-qayamat-hogi.png",
@@ -98,5 +99,12 @@
       ]
     }
   ],
-  "musicxml": "musicxml/mere-mehboob-qayamat-hogi.musicxml"
+  "musicxml": "musicxml/mere-mehboob-qayamat-hogi.musicxml",
+  "description": "This iconic song is a masterclass in melancholic expression, delivered with unparalleled pathos by Kishore Kumar. Its enduring appeal lies in its simple yet profound lyrics, depicting the agony of unrequited love and betrayal. Laxmikant-Pyarelal's haunting melody perfectly complements the mood, making it a timeless classic that continues to resonate with listeners across generations.",
+  "trivia": [
+    "This song is one of Kishore Kumar's most celebrated and emotionally charged performances, showcasing his incredible versatility beyond his usual comedic roles.",
+    "It was composed by the legendary duo Laxmikant–Pyarelal early in their career, establishing their prowess in creating memorable melodies.",
+    "The poignant lyrics were penned by Anand Bakshi, who went on to become one of Bollywood's most prolific and successful lyricists.",
+    "Despite being from a relatively lesser-known film, 'Mr. X In Bombay', the song achieved immense popularity and remains a staple on radio and in cover versions, cementing its place in Indian music history."
+  ]
 }
