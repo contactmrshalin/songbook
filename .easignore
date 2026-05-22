@@ -13,3 +13,6 @@ data/images/
 .wibey/
 *.pyc
 __pycache__/
+# Exclude root workspace files so EAS treats mobile-app as standalone
+/package.json
+/package-lock.json
