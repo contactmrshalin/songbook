@@ -1,0 +1,17 @@
+{
+  "name": "songbook-pipeline-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "mobile-app",
+    "platform"
+  ],
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
+}

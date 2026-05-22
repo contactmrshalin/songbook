@@ -40,7 +40,4 @@ platform/.songdata/
 .vercel
 .env*.local
 
-# Stray lockfiles at repo root (app lives in platform/, not root)
-/package-lock.json
-/package.json
 node_modules/
