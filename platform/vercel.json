@@ -1,5 +1,4 @@
 {
   "framework": "nextjs",
-  "installCommand": "npm cache clean --force && npm ci --legacy-peer-deps --ignore-scripts",
   "buildCommand": "node scripts/prebuild.mjs && next build"
 }
