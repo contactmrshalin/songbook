@@ -1,5 +1,10 @@
 {
   "framework": "nextjs",
   "installCommand": "yarn install --frozen-lockfile --ignore-scripts",
-  "buildCommand": "node scripts/prebuild.mjs && next build"
+  "buildCommand": "node scripts/prebuild.mjs && next build",
+  "git": {
+    "deploymentEnabled": {
+      "gh-pages": false
+    }
+  }
 }
