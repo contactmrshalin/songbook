@@ -78,5 +78,12 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/raghupati-raghav.musicxml"
+  "musicxml": "musicxml/raghupati-raghav.musicxml",
+  "description": "Raghupati Raghav Raja Ram is a timeless Hindu bhajan, deeply intertwined with India's struggle for independence and the philosophy of Mahatma Gandhi. Its simple, repetitive melody and profound lyrics evoke a sense of peace, devotion, and the universal message of truth and non-violence. It serves as a powerful reminder of spiritual unity and the pursuit of righteousness.",
+  "trivia": [
+    "This bhajan was a personal favorite of Mahatma Gandhi and was regularly sung at his prayer meetings, becoming an anthem of the Indian freedom movement.",
+    "Gandhi famously added the line \"Ishwar Allah Tero Naam, Sabko Sanmati De Bhagwan\" (God's names are Ishwar and Allah, may He grant wisdom to all) to promote religious harmony and unity among all communities.",
+    "The bhajan's enduring appeal lies in its simple, accessible melodic structure, making it easy for people of all ages and musical backgrounds to learn and sing.",
+    "Beyond its spiritual significance, \"Raghupati Raghav Raja Ram\" has permeated Indian culture, appearing in numerous films, documentaries, and public gatherings as a symbol of peace and national identity."
+  ]
 }
