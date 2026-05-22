@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Song Notations",
+    "slug": "song-notations",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.songnotations.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Microphone is used for the flute tuner to detect pitch."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.songnotations.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Song Notations to access your microphone for the flute tuner."
+        }
+      ],
+      "expo-asset"
+    ],
+    "scheme": "songnotations",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "382f3773-0881-4b25-b3e8-334f29832128"
+      }
+    }
+  }
+}

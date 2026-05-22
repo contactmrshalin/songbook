@@ -1,0 +1,14 @@
+# Ignore everything not needed for mobile-app build
+.venv/
+site/
+scripts/
+tests/
+misc/
+fonts/
+platform/
+data/images/
+.vercel/
+.vscode/
+.wibey/
+*.pyc
+__pycache__/
