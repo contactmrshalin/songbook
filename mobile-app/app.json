@@ -41,7 +41,8 @@
           "microphonePermission": "Allow Song Notations to access your microphone for the flute tuner."
         }
       ],
-      "expo-asset"
+      "expo-asset",
+      "expo-font"
     ],
     "scheme": "songnotations",
     "extra": {

@@ -108,11 +108,39 @@ console.log(
   `✅ Bundled ${ordered.length} songs into src/generated/song-bundle.json (${(fs.statSync(OUTPUT).size / 1024).toFixed(0)}KB)`
 );
 
-// ── MusicXML generation ───────────────────────────────────────────────────
-// MusicXML is now generated on-the-fly by /api/musicxml/[id] from the song's
-// sargam notation data (via lib/toMusicXml.ts). No pre-generated files needed.
-// If data/musicxml/ exists with manually curated files, they will still be
-// served preferentially by the API route.
+// ── Copy MusicXML files into public/musicxml/ ─────────────────────────────
+// This makes them available as static assets in Next.js (and on Vercel),
+// so /api/musicxml/[id] can read them from process.cwd()/public/musicxml/
+// instead of relying on a relative path that breaks outside the monorepo.
+const srcMxmlDir = path.join(DATA_ROOT, "musicxml");
+const destMxmlDir = path.join(PLATFORM_DIR, "public", "musicxml");
+
+if (fs.existsSync(srcMxmlDir)) {
+  fs.mkdirSync(destMxmlDir, { recursive: true });
+  const mxmlFiles = fs.readdirSync(srcMxmlDir).filter(
+    (f) => f.endsWith(".musicxml") || f.endsWith(".mxl")
+  );
+  let copied = 0;
+  for (const file of mxmlFiles) {
+    const src = path.join(srcMxmlDir, file);
+    const dest = path.join(destMxmlDir, file);
+    // Only copy if source is newer or dest doesn't exist (avoid unnecessary writes)
+    const srcMtime = fs.statSync(src).mtimeMs;
+    const destMtime = fs.existsSync(dest) ? fs.statSync(dest).mtimeMs : 0;
+    if (srcMtime > destMtime) {
+      fs.copyFileSync(src, dest);
+      copied++;
+    }
+  }
+  if (copied > 0) {
+    console.log(`🎼 Copied ${copied} MusicXML file(s) to public/musicxml/`);
+  } else if (mxmlFiles.length > 0) {
+    console.log(`🎼 MusicXML files already up-to-date in public/musicxml/ (${mxmlFiles.length} file(s))`);
+  }
+} else {
+  // No musicxml dir yet — that's fine, the sheet music viewer generates ABC on-the-fly
+  // Run `python scripts/scrape_musicxml.py --generate-all` to populate data/musicxml/
+}
 
 // ── Download Verovio UMD bundle into public/verovio/ ──────────────────────────
 // Verovio is an Emscripten-compiled WASM library with Node.js-specific code
