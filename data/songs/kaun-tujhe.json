@@ -4,7 +4,11 @@
   "export": true,
   "info": [
     "Film/Artist: M.S. Dhoni The Untold Story",
-    "Scale: A# BASS/MIDDLE"
+    "Scale: A# BASS/MIDDLE",
+    "Singer: Palak Muchhal",
+    "Music: Amaal Mallik",
+    "Lyrics: Manoj Muntashir",
+    "Year: M.S. Dhoni The Untold Story (2016)"
   ],
   "sections": [
     {
@@ -137,5 +141,12 @@
       ]
     }
   ],
-  "musicxml": "musicxml/kaun-tujhe.musicxml"
+  "musicxml": "musicxml/kaun-tujhe.musicxml",
+  "description": "Kaun Tujhe is a poignant romantic ballad that beautifully captures the essence of selfless love and longing. Featured in the biopic \"M.S. Dhoni: The Untold Story,\" its tender melody and heartfelt lyrics convey deep emotional vulnerability, making it a standout track known for its soothing yet impactful delivery. The song's gentle orchestration and Palak Muchhal's emotive vocals create an intimate atmosphere, resonating deeply with listeners.",
+  "trivia": [
+    "The song is picturised on Disha Patani, who plays Priyanka Jha, the love interest of M.S. Dhoni in the film.",
+    "Amaal Mallik, the music director, also composed another popular track from the same film, \"Besabriyaan.\"",
+    "Manoj Muntashir's lyrics for \"Kaun Tujhe\" were widely praised for their simplicity and profound emotional depth, becoming a favorite among romantic song enthusiasts.",
+    "Palak Muchhal's rendition earned her significant recognition and solidified her position as a prominent voice in contemporary Bollywood music."
+  ]
 }
