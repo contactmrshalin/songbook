@@ -208,5 +208,12 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/tujhe-dekha-to-yeh-jaana-sanam.musicxml"
+  "musicxml": "musicxml/tujhe-dekha-to-yeh-jaana-sanam.musicxml",
+  "description": "Tujhe Dekha To Yeh Jaana Sanam\" is an iconic romantic anthem from the landmark film \"Dilwale Dulhania Le Jayenge.\" Its simple yet deeply evocative melody perfectly captures the blossoming love between the protagonists, becoming synonymous with Bollywood romance. The song's gentle orchestration and heartfelt vocals create a timeless, dreamy atmosphere that continues to enchant listeners.",
+  "trivia": [
+    "This song is arguably the most recognizable love theme from \"Dilwale Dulhania Le Jayenge,\" a film that redefined romantic cinema in India.",
+    "It was famously filmed in the picturesque mustard fields of Punjab, India, which became an iconic backdrop for romantic scenes in Bollywood.",
+    "The legendary voices of Kumar Sanu and Lata Mangeshkar lent an unparalleled emotional depth to the song, making it a classic duet.",
+    "Jatin-Lalit's composition, with its memorable hook and soothing arrangement, played a significant role in the film's monumental success and remains a beloved tune."
+  ]
 }
