@@ -1,4 +1,5 @@
 {
   "framework": "nextjs",
+  "installCommand": "yarn install --no-lockfile --ignore-scripts",
   "buildCommand": "node scripts/prebuild.mjs && next build"
 }
