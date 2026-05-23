@@ -1,0 +1,86 @@
+{
+  "id": "zara-zara",
+  "title": "Zara Zara",
+  "export": true,
+  "info": [
+    "Film/Artist: RHTDM",
+    "Scale: D MAJOR",
+    "Source: https://www.notationsworld.com/zara-zara-rhtdm-sargam-and-flute-notes.html",
+    "Singer: Bombay Jayashri",
+    "Music: Harris Jayaraj",
+    "Lyrics: Sameer"
+  ],
+  "thumbnail": "images/zara-zara.jpg",
+  "background": "images/zara-zara.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Musicc..",
+          "indian": "Ga Ga Ga ma Ga Re: Sa ni ni: Sa Re: Sa ni dha:"
+        },
+        {
+          "lyrics": "",
+          "indian": "Sa Re Ga Ga Ga ma Ga Re: Sa ni ni: Sa Re: Sa ni dha:"
+        },
+        {
+          "lyrics": "",
+          "indian": "dha Sa Sa Sa Sa Re Re Re Re Ga: Pa Dha: Ni"
+        },
+        {
+          "lyrics": "",
+          "indian": "Dha: Pa ma Ga: ma Ga Re Ga ma: Re Sa ni:"
+        },
+        {
+          "lyrics": "Zaraa zaraa begekya hai mehekta haii",
+          "indian": "Ni Sa': Ni Sa' Sa' Ni Sa' Re' Ni Sa' Sa' Ni Sa' Re' Ni Sa'"
+        },
+        {
+          "lyrics": "Aaaj toh mera tan badann mai pyasi huu",
+          "indian": "Ni Ni Ga' Re' Ni Sa': Ni Sa' Sa' Ni Sa' Re' Ni Sa'"
+        },
+        {
+          "lyrics": "Mujhee bhar laii apni bhaaho main",
+          "indian": "Sa' Ni Sa' Re' Ni Sa': Dha Sa' Ni Ni Pa"
+        },
+        {
+          "lyrics": "Zaraa zaraa begekya hai mehekta haii",
+          "indian": "Ni Sa': Ni Sa' Sa' Ni Sa' Re' Ni Sa' Sa' Ni Sa' Re' Ni Sa'"
+        },
+        {
+          "lyrics": "Aaaj toh mera tan badann mai pyasi huu",
+          "indian": "Ni Ni Ga' Re' Ni Sa': Ni Sa' Sa' Ni Sa' Re' Ni Sa'"
+        },
+        {
+          "lyrics": "Mujhee bhar laii apni bhaaho main",
+          "indian": "Sa' Ni Sa' Re' Ni Sa': Dha Sa' Ni Ni Pa"
+        },
+        {
+          "lyrics": "Hainn meri kasam tujhkoo sanam",
+          "indian": "Dha Dha: Sa' Ni Pa: Pa Pa Ni Dha ma:"
+        },
+        {
+          "lyrics": "Door kain naa ja",
+          "indian": "ma: Pa ma Ga: Ni Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Yehh duri kehti hain",
+          "indian": "Dha: Sa' Ni Pa: Pa Pa Ni Dha ma:"
+        },
+        {
+          "lyrics": "Pass mere aaj re",
+          "indian": "ma: Pa ma Ga: Ni Sa' Ni Dha:"
+        }
+      ]
+    }
+  ],
+  "description": "Zara Zara is an iconic romantic ballad that perfectly encapsulates the tender stirrings of new love. Bombay Jayashri's ethereal vocals, combined with Harris Jayaraj's soothing melody, create an intimate and dreamy atmosphere. The song's gentle rhythm and heartfelt lyrics have made it a timeless favorite for generations of romantics.",
+  "trivia": [
+    "The song is a Hindi adaptation of 'Vaseegara' from the Tamil film 'Minnale' (2001), which also starred R. Madhavan and was composed by Harris Jayaraj, with vocals by Bombay Jayashri.",
+    "Despite being a renowned Carnatic classical vocalist, 'Zara Zara' became one of Bombay Jayashri's most recognizable and beloved Bollywood songs, showcasing her versatility.",
+    "The film 'Rehnaa Hai Terre Dil Mein' gained cult status over the years, largely attributed to its memorable soundtrack, with 'Zara Zara' being a standout track.",
+    "The song's enduring popularity is often credited to its simple yet profound melody and the emotional depth conveyed through its minimalist arrangement."
+  ],
+  "musicxml": "musicxml/zara-zara.musicxml"
+}
