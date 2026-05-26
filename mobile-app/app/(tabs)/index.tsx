@@ -82,6 +82,41 @@ export default function SongbookScreen() {
         allowsInlineMediaPlayback={true}
         setSupportMultipleWindows={false}
         originWhitelist={['https://*', 'http://*']}
+        overScrollMode="never"
+        textZoom={100}
+        allowFileAccess={true}
+        allowUniversalAccessFromFileURLs={false}
+        injectedJavaScript={`
+          // Fix viewport for proper rendering
+          var meta = document.querySelector('meta[name="viewport"]');
+          if (!meta) {
+            meta = document.createElement('meta');
+            meta.name = 'viewport';
+            meta.content = 'width=device-width, initial-scale=1, maximum-scale=5';
+            document.head.appendChild(meta);
+          }
+          // Suppress ad-related errors that may halt execution
+          window.adsbygoogle = window.adsbygoogle || [];
+          // WebView rendering fixes
+          (function() {
+            var style = document.createElement('style');
+            style.textContent = [
+              // Fixed backgrounds cause scroll issues in WebView
+              '.fixed.inset-0.z-0 { position: absolute; }',
+              // Ensure glass overlays have solid fallback for WebViews without backdrop-filter
+              '.glass { background: rgba(249,247,241,0.97) !important; }',
+              '.glass-dark { background: rgba(26,26,46,0.97) !important; }',
+              // Ensure notation content is visible with correct colors
+              '.notation-line { position: relative; z-index: 2; }',
+              '.notation-text { color: #6C63FF; font-size: 15px; line-height: 1.6; }',
+              '.lyrics-text { color: #1A1A2E; font-size: 16px; line-height: 1.5; }',
+              // Song header glass fallback
+              '.song-header-glass { background: linear-gradient(to bottom, rgba(40,40,70,0.85), rgba(26,26,46,0.95)) !important; }'
+            ].join('\\n');
+            document.head.appendChild(style);
+          })();
+          true;
+        `}
       />
     </View>
   );

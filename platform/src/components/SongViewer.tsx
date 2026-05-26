@@ -156,11 +156,8 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
             <div className="absolute inset-0 bg-gradient-to-br from-[var(--accent-primary)] to-[var(--accent-secondary)]" />
           )}
           <div
-            className="absolute inset-0"
+            className="absolute inset-0 song-header-glass"
             style={{
-              background: "linear-gradient(to bottom, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.07) 20%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.52) 100%)",
-              backdropFilter: "blur(22px) saturate(1.8) brightness(0.72)",
-              WebkitBackdropFilter: "blur(22px) saturate(1.8) brightness(0.72)",
               borderBottom: "1px solid rgba(255,255,255,0.08)",
               boxShadow: "inset 0 1px 0 rgba(255,255,255,0.28)",
             }}

@@ -50,6 +50,7 @@ export default function TabLayout() {
         name="tanpura"
         options={{
           title: "Tanpura",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="radio-outline" size={size} color={color} />
           ),

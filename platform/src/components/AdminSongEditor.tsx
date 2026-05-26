@@ -22,6 +22,7 @@ import {
   X,
   Sparkles,
   Pencil,
+  RefreshCw,
 } from "lucide-react";
 import type { Song, SongSection, SongLine } from "@/types/song";
 import { transposeNotation } from "@/lib/transpose";
@@ -91,6 +92,12 @@ export default function AdminSongEditor({ password }: Props) {
   // Per-song loading indicators in the manage tab
   const [loadingEditId, setLoadingEditId] = useState<string | null>(null);
   const [loadingEnrichId, setLoadingEnrichId] = useState<string | null>(null);
+
+  // Re-scrape state
+  const [rescrapeId, setRescrapeId] = useState<string | null>(null);
+  const [rescrapeUrl, setRescrapeUrl] = useState("");
+  const [rescraping, setRescraping] = useState(false);
+  const [rescrapeError, setRescrapeError] = useState("");
 
   // Collapsible sections
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
@@ -541,6 +548,75 @@ export default function AdminSongEditor({ password }: Props) {
   };
 
   // -----------------------------------------------------------------------
+  // Re-scrape — update notations from a new URL source, keeping enriched data
+  // -----------------------------------------------------------------------
+  const handleRescrape = async (songId: string) => {
+    if (!rescrapeUrl.trim()) return;
+    setRescraping(true);
+    setRescrapeError("");
+
+    try {
+      // 1. Fetch existing song from GitHub
+      const songRes = await fetch("/api/admin/songs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password, songId }),
+      });
+      const songData = await songRes.json();
+
+      if (!songRes.ok || !songData.success) {
+        setRescrapeError(songData.error || "Failed to load existing song");
+        return;
+      }
+
+      // 2. Re-scrape from new URL
+      const scrapeRes = await fetch("/api/admin/rescrape", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          url: rescrapeUrl.trim(),
+          songId,
+          password,
+        }),
+      });
+      const scrapeData = await scrapeRes.json();
+
+      if (!scrapeRes.ok || !scrapeData.success) {
+        setRescrapeError(scrapeData.error || "Re-scrape failed");
+        return;
+      }
+
+      // 3. Merge: replace only sections, keep everything else intact
+      const existingSong: Song = songData.song;
+      const mergedSong: Song = {
+        ...existingSong,
+        sections: scrapeData.sections,
+      };
+
+      // 4. Open in editor so admin can review before publishing
+      setSong(mergedSong);
+      setExpandedSections(new Set(mergedSong.sections.map((_: SongSection, i: number) => i)));
+      setImageUrl("");
+      setPublishResult(null);
+      setEnrichResult({
+        success: true,
+        message: `Notations re-scraped (${scrapeData.sectionCount} sections, ${scrapeData.lineCount} lines) — thumbnail, description & trivia preserved. Review and publish.`,
+      });
+      setEditSource("manage");
+      setTab("scrape");
+      setStep("edit");
+
+      // Reset re-scrape dialog state
+      setRescrapeId(null);
+      setRescrapeUrl("");
+    } catch (err) {
+      setRescrapeError(err instanceof Error ? err.message : "Network error");
+    } finally {
+      setRescraping(false);
+    }
+  };
+
+  // -----------------------------------------------------------------------
   // Render
   // -----------------------------------------------------------------------
 
@@ -732,8 +808,9 @@ export default function AdminSongEditor({ password }: Props) {
                 {filteredSongs.map((s) => (
                   <div
                     key={s.id}
-                    className="glass rounded-xl border border-[var(--border-light)] px-4 py-3 flex items-center justify-between gap-4"
+                    className="glass rounded-xl border border-[var(--border-light)] px-4 py-3 space-y-3"
                   >
+                    <div className="flex items-center justify-between gap-4">
                     <div className="min-w-0 flex-1">
                       <div className="font-medium text-[var(--text-primary)] truncate">
                         {s.title}
@@ -837,6 +914,25 @@ export default function AdminSongEditor({ password }: Props) {
                           </button>
                         )}
 
+                        {/* Re-scrape button */}
+                        <button
+                          onClick={() => {
+                            setRescrapeId(s.id);
+                            setRescrapeUrl("");
+                            setRescrapeError("");
+                          }}
+                          disabled={
+                            loadingEditId === s.id ||
+                            loadingEnrichId === s.id ||
+                            !!deletingId
+                          }
+                          title={`Re-scrape notations for ${s.title} from a new source`}
+                          className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-orange-400 hover:bg-orange-500/10 border border-orange-400/20 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                        >
+                          <RefreshCw className="w-3.5 h-3.5" />
+                          <span className="hidden sm:inline">Re-scrape</span>
+                        </button>
+
                         {/* Delete button */}
                         <button
                           onClick={() => {
@@ -852,6 +948,65 @@ export default function AdminSongEditor({ password }: Props) {
                       </div>
                     )}
                   </div>
+
+                  {/* Re-scrape inline panel */}
+                  {rescrapeId === s.id && (
+                    <div className="glass rounded-xl border border-orange-400/20 px-4 py-3 space-y-2">
+                      <div className="flex items-center gap-2">
+                        <RefreshCw className="w-4 h-4 text-orange-400" />
+                        <span className="text-sm font-medium text-[var(--text-primary)]">
+                          Re-scrape notations for &quot;{s.title}&quot;
+                        </span>
+                      </div>
+                      <p className="text-xs text-[var(--text-muted)]">
+                        Enter a new source URL. Only notations will be updated — thumbnail, description, trivia and other metadata will be preserved.
+                      </p>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="url"
+                          value={rescrapeUrl}
+                          onChange={(e) => setRescrapeUrl(e.target.value)}
+                          placeholder="https://www.notationsworld.com/..."
+                          className="admin-input flex-1 text-sm"
+                          autoFocus
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter" && rescrapeUrl.trim()) {
+                              handleRescrape(s.id);
+                            }
+                          }}
+                        />
+                        <button
+                          onClick={() => handleRescrape(s.id)}
+                          disabled={!rescrapeUrl.trim() || rescraping}
+                          className="px-3 py-2 rounded-lg bg-orange-500 text-white text-xs font-medium hover:bg-orange-600 transition-colors disabled:opacity-50 flex items-center gap-1.5"
+                        >
+                          {rescraping ? (
+                            <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                          ) : (
+                            <RefreshCw className="w-3.5 h-3.5" />
+                          )}
+                          {rescraping ? "Scraping…" : "Re-scrape"}
+                        </button>
+                        <button
+                          onClick={() => {
+                            setRescrapeId(null);
+                            setRescrapeUrl("");
+                            setRescrapeError("");
+                          }}
+                          className="px-3 py-2 rounded-lg border border-[var(--border-light)] text-xs font-medium text-[var(--text-muted)] hover:bg-[var(--bg-secondary)] transition-colors"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                      {rescrapeError && (
+                        <div className="flex items-center gap-2 p-2 rounded-lg bg-red-500/10 border border-red-500/20 text-red-400 text-xs">
+                          <AlertCircle className="w-3.5 h-3.5 shrink-0" />
+                          {rescrapeError}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
                 ))}
               </div>
             )}

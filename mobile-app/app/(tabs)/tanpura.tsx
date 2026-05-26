@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity, ScrollView, SafeAreaView } from "react-native";
 import Slider from "@react-native-community/slider";
 import { WebView } from "react-native-webview";
 
@@ -227,7 +227,7 @@ export default function TanpuraScreen() {
   };
 
   return (
-    <View style={styles.outerContainer}>
+    <SafeAreaView style={styles.outerContainer}>
       {/* Hidden WebView for audio synthesis */}
       <WebView
         ref={webViewRef}
@@ -375,7 +375,7 @@ export default function TanpuraScreen() {
         </Text>
       </TouchableOpacity>
     </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -396,7 +396,8 @@ const styles = StyleSheet.create({
   },
   container: {
     alignItems: "center",
-    padding: 20,
+    paddingHorizontal: 20,
+    paddingTop: 12,
     paddingBottom: 40,
   },
   title: {
