@@ -4,7 +4,12 @@
   "info": [
     "Movie: Dum Laga Ke Haisha",
     "Scale (flute): D (bass/middle)",
-    "Sargam / Harmonium / Flute notes"
+    "Sargam / Harmonium / Flute notes",
+    "Singer: Papon, Monali Thakur",
+    "Music: Anu Malik",
+    "Lyrics: Varun Grover",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/moh-moh-ke-dhaage.png",
   "background": "images/moh-moh-ke-dhaage.png",
@@ -137,5 +142,12 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/moh-moh-ke-dhaage.musicxml"
+  "musicxml": "musicxml/moh-moh-ke-dhaage.musicxml",
+  "description": "Moh Moh Ke Dhaage is a tender and soulful ballad that beautifully captures the essence of nascent love and deep emotional connection. Its gentle melody, rooted in classical Indian music, combined with Varun Grover's exquisite poetry, creates an atmosphere of profound longing and delicate affection. The song marked a significant and acclaimed return to form for music director Anu Malik, showcasing his mastery of melody.",
+  "trivia": [
+    "The song marked a remarkable comeback for music director Anu Malik, who received widespread critical acclaim and several awards for its composition, proving his enduring melodic genius.",
+    "Lyricist Varun Grover won the National Film Award for Best Lyrics for this song, lauded for its simple yet deeply poetic and evocative language that perfectly complements the melody.",
+    "Both Papon (male version) and Monali Thakur (female version) received immense praise for their soulful renditions, with Monali Thakur winning the National Film Award for Best Female Playback Singer.",
+    "The song is widely recognized for its strong classical foundation, particularly its clear inspiration from Raag Yaman, which lends it a timeless and deeply resonant quality."
+  ]
 }
