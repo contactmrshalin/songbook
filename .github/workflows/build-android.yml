@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'mobile-app/**'
+      - 'package-lock.json'
       - '.github/workflows/build-android.yml'
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: mobile-app/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -41,9 +42,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: .
 
       - name: Verify modules
         run: ls node_modules/expo-router/package.json
+        working-directory: .
 
       - name: Build APK
         run: eas build --platform android --profile preview --local --non-interactive --output ./app-preview.apk
