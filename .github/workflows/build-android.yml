@@ -24,6 +24,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+          cache-dependency-path: mobile-app/package-lock.json
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -38,7 +40,10 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Verify modules
+        run: ls node_modules/expo-router/package.json
 
       - name: Build APK
         run: eas build --platform android --profile preview --local --non-interactive --output ./app-preview.apk
