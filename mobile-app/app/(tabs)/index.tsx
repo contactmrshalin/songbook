@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
-import { StyleSheet, View, Text, ActivityIndicator, BackHandler, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Text, ActivityIndicator, BackHandler, TouchableOpacity, Platform, Linking } from "react-native";
 import { WebView } from "react-native-webview";
 import { useFocusEffect } from "@react-navigation/native";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 
 const SONGBOOK_URL = "https://songnotations.vercel.app/";
 
@@ -37,6 +37,19 @@ export default function SongbookScreen() {
     setLoading(true);
     setKey((prev) => prev + 1);
   };
+
+  // On web, render an iframe directly instead of react-native-webview
+  if (Platform.OS === "web") {
+    return (
+      <View style={styles.container}>
+        <iframe
+          src={SONGBOOK_URL}
+          style={{ flex: 1, width: "100%", height: "100%", border: "none" } as any}
+          allow="autoplay"
+        />
+      </View>
+    );
+  }
 
   return (
     <View style={styles.container}>
