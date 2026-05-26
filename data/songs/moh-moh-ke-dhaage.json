@@ -11,101 +11,127 @@
   "background_mode": "cover",
   "sections": [
     {
-      "name": "Prelude (Humming)",
+      "name": "STHAYI",
       "lines": [
         {
           "lyrics": "Hmhmhmhmhmhm…",
-          "indian": "Ga Re Ga Re Ga Re Ga .Re.Sa.Ni(k).Pa ."
+          "indian": "Ga Re Ga Re Ga Re Ga: Re Sa ni pa"
         },
         {
           "lyrics": "Hmhmhmhmhmhm",
-          "indian": "Ga Re Ga Re Ga Re Ga ."
+          "indian": "Ga Re Ga Re Ga Re Ga:"
         },
         {
           "lyrics": "Hmhmhmhmhmhm…",
-          "indian": "Ga Re Ga Re Ga Re Ga .Re.Sa.Ni(k).Pa ."
+          "indian": "Ga Re Ga Re Ga Re Ga: Re Sa ni pa"
         },
         {
           "lyrics": "Hmhmhmhmhmhm",
-          "indian": "Ga Re Ga Re Ga Re Ga ."
-        }
-      ]
-    },
-    {
-      "name": "Mukhda",
-      "lines": [
+          "indian": "Ga Re Ga Re Ga Re Ga:"
+        },
         {
           "lyrics": "Yeh moh moh ke dhaagee",
-          "indian": "Ni(k) Re Ga Ga.Ga Ga ma.Re Sa Ni(k)"
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
         },
         {
           "lyrics": "Teri ungliyon se jaa uljhee",
-          "indian": "Ni(k) Re Pa.Re Ga Re Sa.Ni(k) Sa Sa"
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
         },
         {
-          "lyrics": "(Flute Music)",
+          "lyrics": "Flute Music",
           "indian": ""
         },
         {
           "lyrics": "Yeh moh moh ke dhaagee",
-          "indian": "Ni(k) Re Ga Ga.Ga Ga ma.Re Sa Ni(k)"
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
         },
         {
           "lyrics": "Teri ungliyon se jaa uljhee",
-          "indian": "Ni(k) Re Pa.Re Ga Re Sa.Ni(k) Sa Sa"
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
         },
         {
           "lyrics": "Koi toh toh naa laagee",
-          "indian": "Ni(k) Re Ga Ga.Ga Ga ma.Re Sa Ni(k) Sa"
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
         },
         {
           "lyrics": "Kis tarah girah yeh suljhee",
-          "indian": "Ni(k) Re Pa.Re Ga Re Sa.Ni(k) Sa Sa"
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
         },
         {
           "lyrics": "Hai room room ek taaraa ahaahaa",
-          "indian": "Pa ma Ga ma ma Pa Dha(k) Dha(k) .Pa ma Pa ma"
+          "indian": "Pa Ma Ga Ma Ma Pa Dha(k) Dha(k): .P Ma Pa Ma"
         },
         {
           "lyrics": "Hai room room ek taara",
-          "indian": "Pa ma Ga ma ma Pa Dha(k) Dha(k)"
+          "indian": "Pa Ma Ga Ma Ma Pa Dha(k) Dha(k)"
         },
         {
           "lyrics": "Joo badloon mein se gujree",
-          "indian": "Sa' Ni Dha(k) Dha(k).Sa' Ni Dha(k) Pa Pa .ma Ga ma Ga"
-        }
-      ]
-    },
-    {
-      "name": "Verse",
-      "lines": [
+          "indian": "Sa' Ni Dha(k) D(K).S' Ni Dha(k) Pa Pa: .M Ga Ma Ga"
+        },
         {
-          "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
-          "indian": "Sa.Re.Ga.Pa.Dha.Sa' Ni Pa.Pa.Re Ga Re Sa.Sa"
+          "lyrics": "Yeh moh moh ke dhaagee",
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
+        },
+        {
+          "lyrics": "Teri ungliyon se jaa uljhee",
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
+        },
+        {
+          "lyrics": "Koi toh toh naa laagee",
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
+        },
+        {
+          "lyrics": "Kis tarah girah yeh suljhee",
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
         },
         {
           "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
-          "indian": "Sa.Re.Ga.Pa.Dha.Sa' Ni Pa.Pa.Re Ga Re Sa.Sa"
+          "indian": "Sa Re Ga Pa Dha Sa' Ni Pa Pa Re Ga Re Sa Sa"
+        },
+        {
+          "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
+          "indian": "Sa Re Ga Pa Dha Sa' Ni Pa Pa Re Ga Re Sa Sa"
         },
         {
           "lyrics": "Kaise tune ankahaa",
-          "indian": "Sa Ni(k) Pa.Pa Pa.Ni(k).Sa.Re"
+          "indian": "Sa ni pa pa pa ni Sa Re"
         },
         {
           "lyrics": "Tunee ankahaa sab sunaa",
-          "indian": "Re.Sa Sa.Ga.ma.Pa Re Ni(k).Sa"
+          "indian": "Re Sa Sa Ga ma Pa Re ni Sa"
         },
         {
           "lyrics": "Tuu hoga zara paagal tune mujhko hai chunaa",
-          "indian": "Sa.Re.Ga.Pa.Dha.Sa' Ni Pa.Pa.Re Ga Re Sa.Sa"
+          "indian": "Sa Re Ga Pa Dha Sa' Ni Pa Pa Re Ga Re Sa Sa"
         },
         {
           "lyrics": "Tuu dil saa hai mein raat aaana dono",
-          "indian": "Pa .ma Ga ma Ga  Ga ma Pa Dha(k) .Pa ma Pa ma"
+          "indian": "Pa: Ma Ga Ma Ga Ga Ma Pa Dha(k): Pa Ma Pa Ma"
         },
         {
           "lyrics": "Mil jaayein shaymon ki tarahh",
-          "indian": "Ni Ni Ni Dha(k) Dha(k).Sa' Ni Dha(k) Pa ma Ga"
+          "indian": "Ni Ni Ni Dha(k) D(K).S' Ni Dha(k) Pa Ma Ga"
+        },
+        {
+          "lyrics": "Yeh moh moh ke dhaagee",
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
+        },
+        {
+          "lyrics": "Teri ungliyon se jaa uljhee",
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
+        },
+        {
+          "lyrics": "Koi toh toh naa laagee",
+          "indian": "ni Re Ga Ga Ga Ga ma Re Sa ni"
+        },
+        {
+          "lyrics": "Kis tarah girah yeh suljhee",
+          "indian": "ni Re Pa Re Ga Re Sa ni Sa Sa"
         }
       ]
     }
