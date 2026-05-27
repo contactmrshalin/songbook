@@ -1,0 +1,207 @@
+{
+  "id": "zindagi-mil-ke-bitayenge",
+  "title": "Zindagi Mil Ke Bitayenge",
+  "export": true,
+  "info": [
+    "Source: https://notesandsargam.com/zindagi-mil-ke-bitayenge/"
+  ],
+  "thumbnail": "images/zindagi-mil-ke-bitayenge.jpg",
+  "background": "images/zindagi-mil-ke-bitayenge.jpg",
+  "sections": [
+    {
+      "name": "PRELUDE:",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": ",N S R... | P M | G R(G)R ,D..."
+        },
+        {
+          "lyrics": "",
+          "indian": ",D ,N S... | P M | G R(G)R ,N..."
+        },
+        {
+          "lyrics": "",
+          "indian": ",N S | R | PMP | D D | G"
+        },
+        {
+          "lyrics": "",
+          "indian": "PP M MM M MM M MM M MM"
+        },
+        {
+          "lyrics": "",
+          "indian": "P PP P PP N"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA:",
+      "lines": [
+        {
+          "lyrics": "Zindagi | mil ke | bitayenge",
+          "indian": ",N S R... | P M | G R(G)R ,D..."
+        },
+        {
+          "lyrics": "Haal-e-dil | gaa ke | sunaaenge",
+          "indian": ",D ,N S... | P M | G R(G)R ,N..."
+        },
+        {
+          "lyrics": "Ham | to | saat | rang | hai",
+          "indian": ",N S | R | PMP | D D | G"
+        },
+        {
+          "lyrics": "ye | jahaan | rangin | banayenge",
+          "indian": "P | P M | R M | D PM P"
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE:",
+      "lines": [
+        {
+          "lyrics": "Mouthorgan:",
+          "indian": "GR GR GR ,D ,N"
+        },
+        {
+          "lyrics": "",
+          "indian": "GR GR GR ,D..."
+        },
+        {
+          "lyrics": "",
+          "indian": "GR GR GR ,N ,M"
+        },
+        {
+          "lyrics": "",
+          "indian": "MP MP MP MP MP"
+        },
+        {
+          "lyrics": "Violins:",
+          "indian": "GR GR GR ,D ,N"
+        },
+        {
+          "lyrics": "",
+          "indian": "GR GR GR ,D..."
+        },
+        {
+          "lyrics": "",
+          "indian": "GR GR GR ,N ,M"
+        },
+        {
+          "lyrics": "",
+          "indian": "PD ND PM PMGR GRS,N"
+        },
+        {
+          "lyrics": "Keyborad:",
+          "indian": "RgR rR GMG gG M PM GM S'NP"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1:",
+      "lines": [
+        {
+          "lyrics": "Saragam | hamase | bane,",
+          "indian": "GG R | N D | N P..."
+        },
+        {
+          "lyrics": "nagmen | hamase | jawaan",
+          "indian": "GG R | N D | P G..."
+        },
+        {
+          "lyrics": "Jhume | asamaan",
+          "indian": "S G | G R G MP M..."
+        },
+        {
+          "lyrics": "Are | Ham | hi | to | duniya | ke |",
+          "indian": "S'S' | S'S' | S' | N | S' N D | D"
+        },
+        {
+          "lyrics": "saat | ajube | hai,",
+          "indian": "DNS' | R' S' N | D"
+        },
+        {
+          "lyrics": "hamse | hai | jahaan",
+          "indian": "S' S' | S' | S' S'R' N..."
+        },
+        {
+          "lyrics": "Tua tua | Tua Tua | Tua Tua | Hey",
+          "indian": "MP MP | MP MP | MP MP | N"
+        },
+        {
+          "lyrics": "Zindagi milke…",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE:",
+      "lines": [
+        {
+          "lyrics": "Violins:",
+          "indian": ",P,N GR GR ,NR GR GR GR ,NR (x2)"
+        },
+        {
+          "lyrics": "Trumpet:",
+          "indian": ",P ,N G RGR G,N..."
+        },
+        {
+          "lyrics": "",
+          "indian": ",P ,N G RGR GRG..."
+        },
+        {
+          "lyrics": "Whistle:",
+          "indian": "GM PD... MM P G"
+        },
+        {
+          "lyrics": "",
+          "indian": "GG MR ,D S ,N..."
+        },
+        {
+          "lyrics": "Keyborad:",
+          "indian": "RgR rR GMG gG M PM GM S'NP"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2:",
+      "lines": [
+        {
+          "lyrics": "(Same notations)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Khushiyaan baatenge ham",
+          "indian": ""
+        },
+        {
+          "lyrics": "har gam milake sahen",
+          "indian": ""
+        },
+        {
+          "lyrics": "Fir kyon ansu bahen",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ban ke sahaara ek duje ka",
+          "indian": ""
+        },
+        {
+          "lyrics": "yun hi chalate rahen",
+          "indian": ""
+        },
+        {
+          "lyrics": "Tua tua | Tua Tua | Tua Tua | Hey",
+          "indian": ""
+        },
+        {
+          "lyrics": "Zindagi milke…",
+          "indian": ""
+        },
+        {
+          "lyrics": "Post Views: 396",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/zindagi-mil-ke-bitayenge.musicxml"
+}
