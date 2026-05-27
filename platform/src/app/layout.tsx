@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ADSENSE_PUBLISHER_ID, isAdSenseConfigured } from "@/lib/ads.config";
+import AdSenseLoader from "@/components/AdSenseLoader";
 import "./globals.css";
 
 const inter = Inter({
@@ -28,22 +28,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const adsConfigured = isAdSenseConfigured();
-
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head>
-        {adsConfigured && (
-          // Plain <script> avoids the "data-nscript" attribute that next/script
-          // injects, which triggers an AdSense auto-ads validator warning.
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
-            crossOrigin="anonymous"
-          />
-        )}
-      </head>
+      <head />
       <body className="min-h-full flex flex-col antialiased paper-bg">
+        <AdSenseLoader />
         {children}
       </body>
     </html>

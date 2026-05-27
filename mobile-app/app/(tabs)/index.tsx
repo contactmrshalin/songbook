@@ -83,6 +83,10 @@ export default function SongbookScreen() {
             setHasError(true);
           }
         }}
+        onContentProcessDidTerminate={() => {
+          // WebView process crashed (common on Android) — reload
+          setKey((prev) => prev + 1);
+        }}
         onNavigationStateChange={(navState) => setCanGoBack(navState.canGoBack)}
         javaScriptEnabled={true}
         domStorageEnabled={true}
@@ -99,6 +103,52 @@ export default function SongbookScreen() {
         textZoom={100}
         allowFileAccess={true}
         allowUniversalAccessFromFileURLs={false}
+        userAgent="Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+        injectedJavaScriptBeforeContentLoaded={`
+          // Block AdSense from loading — it crashes in app WebViews
+          // Stub the adsbygoogle array so push() calls don't throw
+          window.adsbygoogle = window.adsbygoogle || [];
+          window.adsbygoogle.push = function() {};
+
+          // Intercept and block ad script requests
+          (function() {
+            var origCreateElement = document.createElement.bind(document);
+            document.createElement = function(tag) {
+              var el = origCreateElement(tag);
+              if (tag.toLowerCase() === 'script') {
+                var origSetAttr = el.setAttribute.bind(el);
+                el.setAttribute = function(name, value) {
+                  if (name === 'src' && value && value.indexOf('pagead2.googlesyndication.com') !== -1) {
+                    return; // Block AdSense script
+                  }
+                  return origSetAttr(name, value);
+                };
+                Object.defineProperty(el, 'src', {
+                  set: function(v) {
+                    if (v && v.indexOf('pagead2.googlesyndication.com') !== -1) return;
+                    origSetAttr('src', v);
+                  },
+                  get: function() { return el.getAttribute('src') || ''; }
+                });
+              }
+              return el;
+            };
+          })();
+
+          // Global error handler to prevent uncaught errors from crashing hydration
+          window.addEventListener('error', function(e) {
+            if (e.filename && (e.filename.indexOf('adsbygoogle') !== -1 || e.filename.indexOf('googlesyndication') !== -1)) {
+              e.preventDefault();
+              return true;
+            }
+          });
+          window.addEventListener('unhandledrejection', function(e) {
+            if (e.reason && String(e.reason).indexOf('adsbygoogle') !== -1) {
+              e.preventDefault();
+            }
+          });
+          true;
+        `}
         injectedJavaScript={`
           // Fix viewport for proper rendering
           var meta = document.querySelector('meta[name="viewport"]');
@@ -108,12 +158,18 @@ export default function SongbookScreen() {
             meta.content = 'width=device-width, initial-scale=1, maximum-scale=5';
             document.head.appendChild(meta);
           }
-          // Suppress ad-related errors that may halt execution
-          window.adsbygoogle = window.adsbygoogle || [];
+
+          // Remove any ad containers that may have loaded before injection
+          document.querySelectorAll('.ad-container, ins.adsbygoogle').forEach(function(el) {
+            el.remove();
+          });
+
           // WebView rendering fixes
           (function() {
             var style = document.createElement('style');
             style.textContent = [
+              // Hide ad placeholders
+              '.ad-container, ins.adsbygoogle { display: none !important; }',
               // Fixed backgrounds cause scroll issues in WebView
               '.fixed.inset-0.z-0 { position: absolute; }',
               // Ensure glass overlays have solid fallback for WebViews without backdrop-filter
