@@ -4,7 +4,6 @@
   "export": true,
   "info": [
     "Film/Artist: 1942 A Love Story",
-    "Source: https://www.notationsworld.com/kuch-na-kaho-sargam-harmonium-and-flute-notes.html",
     "Singer: Kumar Sanu",
     "Music: R.D. Burman",
     "Lyrics: Javed Akhtar",
@@ -15,51 +14,207 @@
   "background": "images/kuch-na-kaho.png",
   "sections": [
     {
-      "name": "STHAYI",
+      "name": "STHAYI:",
       "lines": [
         {
-          "lyrics": "Kuch na kaho kuch bhi na kaho",
-          "indian": "Ga Pa: Sa ni: Ga Ga Ga Pa: ni Sa:"
+          "lyrics": "Kuchh | na | kaho,",
+          "indian": "G | P | S ,N..."
         },
         {
-          "lyrics": "Kuch na kaho kuch bhi na kaho",
-          "indian": "Ga Pa: Sa ni: Ga Ga Ga Pa: ni Sa:"
+          "lyrics": "(Violins: ,P ,D S ,N)",
+          "indian": ""
         },
         {
-          "lyrics": "Kya kehna hai kya sun na hai",
-          "indian": "Sa: Re Ga ma ma: ma: Pa ma Ga Re Ga:"
+          "lyrics": "kuchh | bhi | na | kaho",
+          "indian": "G | G | P | ,N S"
         },
         {
-          "lyrics": "Mujhko pata hai",
-          "indian": "Pa Dha: Pa Ma Ma: Ga Re Ga Re"
+          "lyrics": "(Violins: GP RG ,DS)",
+          "indian": ""
         },
         {
-          "lyrics": "Tumko pata hai",
-          "indian": "Dha Ni: Dha Ma Pa:"
+          "lyrics": "Kya | kahana | hai",
+          "indian": "S | Rg M# | M#..."
         },
         {
-          "lyrics": "Samay ka yeh pal",
-          "indian": "Pa Ni Pa Dha Dha: Ni"
+          "lyrics": "kya | sunana | hai",
+          "indian": "M# | P M# R | g..."
         },
         {
-          "lyrics": "Tham saa gaya hai",
-          "indian": "Ni Ni: Dha Ni Sa':"
+          "lyrics": "Mujhako | pata | hai",
+          "indian": "P P | D M# | M#... G{RMgR}"
         },
         {
-          "lyrics": "Aur is pal mein",
-          "indian": "Sa' Sa' Re' Re' Ni Ni: Dha Pa Dha"
+          "lyrics": "tumako | pata | hai",
+          "indian": "D DN | D M# | P..."
         },
         {
-          "lyrics": "Koi nahi hai",
-          "indian": "Dha Ni Dha Ni Pa Ma Pa:"
+          "lyrics": "Samay | ka | ye | pal",
+          "indian": "P DN | D~P | N~D | D....{DNDN}"
         },
         {
-          "lyrics": "Bas ek main hoon bas ek tum ho",
-          "indian": "Ga Pa: Ga Sa ni: Re Ga: Re ni Sa:"
+          "lyrics": "tham | sa | gaya | hai",
+          "indian": "N | N~D | N N | S'..."
         },
         {
-          "lyrics": "Kuch na kaho kuch bhi na kaho",
-          "indian": "Ga Pa: Sa ni: Ga Ga Ga Pa: ni Sa:"
+          "lyrics": "Aur | is | pal | men",
+          "indian": "S' | S' R' | S'~N | N....D...P~n~D~P"
+        },
+        {
+          "lyrics": "koi | nahin | hai",
+          "indian": "D~n D~n | D M | P..."
+        },
+        {
+          "lyrics": "Bas | ek | main | hun",
+          "indian": "G... | GPG | S(r)S | ,N..."
+        },
+        {
+          "lyrics": "bas | ek | tum | ho",
+          "indian": "R | R~g...R | ,N | ,N(r)S..."
+        },
+        {
+          "lyrics": "(Flute: P GP GP GP S)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kucch na kaho….",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "lyrics": "(Bells)",
+          "indian": "N D P G"
+        },
+        {
+          "lyrics": "(Flute)",
+          "indian": "R S(r)S... S (N)S (x3)"
+        },
+        {
+          "lyrics": "",
+          "indian": "R~g~G"
+        },
+        {
+          "lyrics": "",
+          "indian": "R S(r)S... S (N)S"
+        },
+        {
+          "lyrics": "(Bells)",
+          "indian": "S M D"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA:",
+      "lines": [
+        {
+          "lyrics": "Kitane | gahare | halake",
+          "indian": "NN D~N D | PP D M# | M# P"
+        },
+        {
+          "lyrics": "shaam | ke | rang | hain | chhalake",
+          "indian": "D N(D)N | D | P D | D | M# P"
+        },
+        {
+          "lyrics": "Parabat | se | yun",
+          "indian": "G M(D)P | M | G"
+        },
+        {
+          "lyrics": "utare | baadal",
+          "indian": "G M(D)P | M | G"
+        },
+        {
+          "lyrics": "jaise | anchal | dhalake",
+          "indian": "P P | N N | N S'...~N"
+        },
+        {
+          "lyrics": "Kitane | gahare | halake",
+          "indian": "NN D~N D | PP D M# | M# P"
+        },
+        {
+          "lyrics": "shaam | ke | rang | hain | chhalake",
+          "indian": "D N(D)N | D | P D | D | M# P"
+        },
+        {
+          "lyrics": "Parabat | se | yun",
+          "indian": "G M(D)P | M | G"
+        },
+        {
+          "lyrics": "utare | baadal",
+          "indian": "GG MD{P~nDP} | M G"
+        },
+        {
+          "lyrics": "jaise | anchal | dhalake",
+          "indian": "P P | N N | N S'"
+        },
+        {
+          "lyrics": "Aur is pal men..",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "lyrics": "(Violins)",
+          "indian": ",P G RS ,P..."
+        },
+        {
+          "lyrics": "",
+          "indian": ",P G RS ,D.."
+        },
+        {
+          "lyrics": "",
+          "indian": ",D M GR ,N..."
+        },
+        {
+          "lyrics": "",
+          "indian": ",N(S),N ,D ,N S"
+        },
+        {
+          "lyrics": "(Violin)",
+          "indian": ",P ,N ,P R"
+        },
+        {
+          "lyrics": "",
+          "indian": "PM DP MP G"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2:",
+      "lines": [
+        {
+          "lyrics": "[Same SARGAM for following lines as for Antara 1]",
+          "indian": ""
+        },
+        {
+          "lyrics": "Sulagi | sulagi | saanse",
+          "indian": ""
+        },
+        {
+          "lyrics": "bahaki | bahaki | dhadkan",
+          "indian": ""
+        },
+        {
+          "lyrics": "Mahake | mahake",
+          "indian": ""
+        },
+        {
+          "lyrics": "shaam | ke | saae",
+          "indian": ""
+        },
+        {
+          "lyrics": "pighale | pighale | tan | man",
+          "indian": ""
+        },
+        {
+          "lyrics": "Aur | is | pal | men..",
+          "indian": ""
         }
       ]
     }
