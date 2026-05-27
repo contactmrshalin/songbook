@@ -235,9 +235,26 @@ _SKIP_PATTERNS = [
     re.compile(r"^\s*CAPITAL\s+LETTERS", re.IGNORECASE),
     re.compile(r"^\s*small\s+letters", re.IGNORECASE),
     re.compile(r"^\s*Post\s+Views\s*:", re.IGNORECASE),
+    # Intro line on notesandsargam pages
+    re.compile(r"^\s*Sargam\s+notations\s+for\s+(the\s+)?song\b", re.IGNORECASE),
+    # Metadata lines (already extracted separately)
+    re.compile(r"^\s*(Movie|Lyricist|Singers?|Music\s*Director|Music|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:", re.IGNORECASE),
     # Scale info line (we extract this separately in metadata)
     re.compile(r"^\s*SCALE\s+(OF\s+)?(THE\s+)?(FLUTE|SONG)\s+IS", re.IGNORECASE),
 ]
+
+def _is_prose_paragraph(line: str) -> bool:
+    """Detect long editorial/blog prose that is not song lyrics."""
+    t = line.strip()
+    # Song lyrics are typically short (< 80 chars). Blog paragraphs are much longer.
+    if len(t) > 150 and t.count('. ') >= 1:
+        return True
+    if len(t) > 100 and t.count('. ') >= 2:
+        return True
+    # Quoted song titles followed by prose (editorial pattern)
+    if re.match(r'^["\u201c].+?["\u201d]\s+(from|is|was|by)\b', t) and len(t) > 80:
+        return True
+    return False
 
 def _is_skip_line(line: str) -> bool:
     """Return True if this line is boilerplate / reference / not song content."""
@@ -489,7 +506,7 @@ def _extract_metadata(title: str, lines: List[str]) -> Tuple[str, List[str]]:
         l = line.strip()
 
         # notesandsargam metadata lines, e.g. "Movie : Kabhi Kabhi (1976)"
-        m = re.match(r"^(Movie|Lyricist|Singers?|Music\s+Director|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:\s*(.+)$", l, re.IGNORECASE)
+        m = re.match(r"^(Movie|Lyricist|Singers?|Music\s*Director|Music|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:\s*(.+)$", l, re.IGNORECASE)
         if m:
             k = m.group(1).strip()
             v = m.group(2).strip()
@@ -577,9 +594,18 @@ def extract_song_from_url(
             if _is_section_header(line):
                 start_idx = idx
                 break
+        # If no section header found, start from the first notation line.
+        if start_idx is None:
+            for idx, line in enumerate(lines):
+                if _is_sargam_line(line):
+                    # Include the line before if it looks like lyrics (paired)
+                    start_idx = max(0, idx - 1) if idx > 0 and _is_lyrics_line(lines[idx - 1]) else idx
+                    break
         scan_lines = lines[start_idx:] if start_idx is not None else lines
         for line in scan_lines:
             if _is_skip_line(line):
+                continue
+            if _is_prose_paragraph(line):
                 continue
             content_lines.append(line)
     else:
