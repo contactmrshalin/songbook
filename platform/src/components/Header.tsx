@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Music, Edit3, BookOpen, Search, Shield } from "lucide-react";
+import { Music, Edit3, BookOpen, Search, Shield, Mic } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 
 export default function Header() {
@@ -57,6 +57,13 @@ export default function Header() {
             >
               <Edit3 className="w-4 h-4" />
               <span className="hidden sm:inline">Editor</span>
+            </Link>
+            <Link
+              href="/tools/tuner"
+              className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--bg-secondary)] transition-colors"
+            >
+              <Mic className="w-4 h-4" />
+              <span className="hidden sm:inline">Tools</span>
             </Link>
             <Link
               href="/admin"
