@@ -1,0 +1,94 @@
+{
+  "id": "ankhon-me-teri-sargam",
+  "title": "Ankhon Me Teri Sargam",
+  "export": true,
+  "info": [
+    "Film: Om Shanti Om (2007)",
+    "Singer: KK",
+    "Music: Vishal-Shekhar",
+    "Lyrics: Vishal Dadlani"
+  ],
+  "thumbnail": "images/ankhon-me-teri-sargam.jpg",
+  "background": "images/ankhon-me-teri-sargam.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "aankhon | me | teri",
+          "indian": "S P | S | P S"
+        },
+        {
+          "lyrics": "ajab si | ajab si | adaayen | hain",
+          "indian": "PPS R | MGR S | N D P | P"
+        },
+        {
+          "lyrics": "dil | ko | banaa | de | jo | patng | saaanse",
+          "indian": "d | d | dd | S | S | RS~R R | GRS S"
+        },
+        {
+          "lyrics": "ye | teri | wo | hawaayen | hain",
+          "indian": "S | SP...(D)PMG | R | S GRS | S"
+        },
+        {
+          "lyrics": "Ho o oo oo",
+          "indian": "S R G(M)GR S"
+        },
+        {
+          "lyrics": "aankhon men teri",
+          "indian": ""
+        },
+        {
+          "lyrics": "ajaba si ajaba si adaayen hain",
+          "indian": ""
+        },
+        {
+          "lyrics": "ayi | aisi | raat | hai | jo",
+          "indian": "G~S | SS | S~DD | R | G"
+        },
+        {
+          "lyrics": "bahut | khushanasib | hai",
+          "indian": "P P | R R{GRS}S | S"
+        },
+        {
+          "lyrics": "chaahe | jise | dur | se | duniyaa",
+          "indian": "GS | G S | SD | D | R G"
+        },
+        {
+          "lyrics": "wo | mere | karib | hai",
+          "indian": "P | PR | R{GRS}S | S"
+        },
+        {
+          "lyrics": "kitnaa | kuchh | kehanaa | hai",
+          "indian": "GGGP | S'N | D'D'D' | P"
+        },
+        {
+          "lyrics": "fir | bhi | hai | dil | me",
+          "indian": "D'D' | D' | P | D'D' | D'"
+        },
+        {
+          "lyrics": "sawaal | kayee",
+          "indian": "P {GRS}D' | P' P'...{MPMG}"
+        },
+        {
+          "lyrics": "sapanon | men | jo | roj",
+          "indian": "GGGP | S' | N | D'D'"
+        },
+        {
+          "lyrics": "kahaa | hai | wo",
+          "indian": "PD' | D' | P"
+        },
+        {
+          "lyrics": "fir | se | kahu | yaa | nahin",
+          "indian": "D' | D' | P{MGR} | M | G R~M~G~R"
+        }
+      ]
+    }
+  ],
+  "description": "Ankhon Mein Teri Sargam is a soulful and romantic ballad from \"Om Shanti Om\", beautifully rendered by the late KK. Its melancholic yet hopeful melody perfectly captures the protagonist's unspoken affection and longing, making it a timeless anthem for unrequited love. The song's gentle orchestration and KK's emotive vocals create an intimate atmosphere, drawing listeners into its poignant narrative.",
+  "trivia": [
+    "Vishal-Shekhar crafted a simple yet effective arrangement, relying heavily on acoustic guitars and a soaring string section to build its emotional arc, making it stand out amidst the film's more upbeat numbers.",
+    "Vishal Dadlani's lyrics beautifully articulate the feeling of seeing a 'sargam' (musical notes) in someone's eyes, symbolizing the profound inspiration and music that love brings into one's life."
+  ],
+  "musicxml": "musicxml/ankhon-me-teri-sargam.musicxml"
+}
