@@ -7,7 +7,8 @@
     "dev": "node scripts/prebuild.mjs && next dev",
     "build": "node scripts/prebuild.mjs && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "tsx scripts/scrape.ts"
   },
   "dependencies": {
     "@tonejs/midi": "^2.0.28",
@@ -28,6 +29,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
+    "tsx": "^4.22.3",
     "typescript": "^5"
   }
 }

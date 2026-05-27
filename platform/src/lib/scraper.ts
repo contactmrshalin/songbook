@@ -19,16 +19,58 @@ const USER_AGENT =
   "Chrome/120.0.0.0 Safari/537.36";
 
 export async function fetchHtml(url: string): Promise<string> {
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept: "text/html,application/xhtml+xml,*/*",
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-    signal: AbortSignal.timeout(30_000),
+  // Use https module directly because Node.js undici fetch has a 10s connect
+  // timeout that is too short for some sites (notesandsargam.com).
+  const { default: https } = await import("https");
+  const { default: http } = await import("http");
+
+  return new Promise<string>((resolve, reject) => {
+    const parsedUrl = new URL(url);
+    const client = parsedUrl.protocol === "https:" ? https : http;
+
+    const req = client.get(
+      url,
+      {
+        headers: {
+          "User-Agent": USER_AGENT,
+          Accept: "text/html,application/xhtml+xml,*/*",
+          "Accept-Language": "en-US,en;q=0.9",
+        },
+        timeout: 30_000,
+        family: 4, // Force IPv4 — avoids IPv6 connect timeouts
+      },
+      (res) => {
+        // Follow redirects
+        if (
+          res.statusCode &&
+          res.statusCode >= 300 &&
+          res.statusCode < 400 &&
+          res.headers.location
+        ) {
+          fetchHtml(res.headers.location).then(resolve, reject);
+          return;
+        }
+        if (res.statusCode && res.statusCode >= 400) {
+          reject(new Error(`HTTP ${res.statusCode}: ${url}`));
+          return;
+        }
+        const chunks: Buffer[] = [];
+        res.on("data", (chunk: Buffer) => chunks.push(chunk));
+        res.on("end", () => {
+          const charset =
+            res.headers["content-type"]?.match(/charset=([^\s;]+)/i)?.[1] ||
+            "utf-8";
+          resolve(Buffer.concat(chunks).toString(charset as BufferEncoding));
+        });
+        res.on("error", reject);
+      }
+    );
+    req.on("timeout", () => {
+      req.destroy();
+      reject(new Error(`Timeout fetching: ${url}`));
+    });
+    req.on("error", reject);
   });
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
-  return res.text();
 }
 
 export interface DownloadedImage {
@@ -137,8 +179,9 @@ function htmlToLines(rawHtml: string): string[] {
 function notesandsargamHtmlToLines(rawHtml: string): string[] {
   let body = rawHtml;
 
-  // Anchor on the song-content intro
-  const anchor = body.match(/Sargam\s+notations\s+for\s+song\b/i);
+  // Anchor on the song-content intro paragraph (require <p> tag to avoid
+  // matching meta description tags that contain similar text)
+  const anchor = body.match(/<p>\s*Sargam\s+notations\s+for\s+(?:the\s+)?song\b/i);
   if (anchor && anchor.index !== undefined) {
     body = body.slice(anchor.index);
   }
@@ -225,11 +268,26 @@ const SKIP_PATTERNS: RegExp[] = [
   /^\s*How\s+to\s+read\s+SARGAM/i,
   /^\s*CAPITAL\s+LETTERS/i,
   /^\s*small\s+letters/i,
+  /^\s*Post\s+Views\s*:/i,
+  // Intro line on notesandsargam pages
+  /^\s*Sargam\s+notations\s+for\s+(the\s+)?song\b/i,
+  // Metadata lines (already extracted separately)
+  /^\s*(Movie|Lyricist|Singers?|Music\s*Director|Music|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:/i,
+  /^\s*Sargam\s+for\s+Song\s*:/i,
   /^\s*SCALE\s+(OF\s+)?(THE\s+)?(FLUTE|SONG)\s+IS/i,
 ];
 
 function isSkipLine(line: string): boolean {
   return SKIP_PATTERNS.some((pat) => pat.test(line));
+}
+
+function isProseParagraph(line: string): boolean {
+  const t = line.trim();
+  if (t.length > 150 && (t.match(/\. /g) || []).length >= 1) return true;
+  if (t.length > 100 && (t.match(/\. /g) || []).length >= 2) return true;
+  if (/^["\u201c].+?["\u201d]\s+(from|is|was|by)\b/.test(t) && t.length > 80)
+    return true;
+  return false;
 }
 
 function isSargamLine(line: string): boolean {
@@ -462,7 +520,7 @@ function extractMetadata(
 
     // notesandsargam metadata: "Movie : Kabhi Kabhi (1976)"
     const metaMatch = l.match(
-      /^(Movie|Lyricist|Singer|Music\s+Director|Raag|Scale|Flute\s+used\s+for\s+notations)\s*:\s*(.+)$/i
+      /^(Movie|Lyricist|Singers?|Music\s*Director|Music|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:\s*(.+)$/i
     );
     if (metaMatch) {
       let k = metaMatch[1].trim();
@@ -616,8 +674,20 @@ export async function extractSongFromUrl(
         break;
       }
     }
+    // If no section header found, start from first notation line
+    if (startIdx === null) {
+      for (let idx = 0; idx < lines.length; idx++) {
+        if (isSargamLine(lines[idx])) {
+          startIdx =
+            idx > 0 && isLyricsLine(lines[idx - 1]) ? idx - 1 : idx;
+          break;
+        }
+      }
+    }
     const scanLines = startIdx !== null ? lines.slice(startIdx) : lines;
-    contentLines = scanLines.filter((l) => !isSkipLine(l));
+    contentLines = scanLines.filter(
+      (l) => !isSkipLine(l) && !isProseParagraph(l)
+    );
   } else {
     contentLines = [];
     let inContent = false;
