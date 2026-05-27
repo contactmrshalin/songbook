@@ -142,7 +142,7 @@ def notesandsargam_html_to_lines(raw_html: str) -> List[str]:
     body = raw_html
 
     # Anchor on the main song-content intro paragraph, not site-wide text.
-    anchor = re.search(r"<p>\s*Sargam\s+notations\s+for\s+song\b", body, re.IGNORECASE)
+    anchor = re.search(r"<p>\s*Sargam\s+notations\s+for\s+(?:the\s+)?song\b", body, re.IGNORECASE)
     if anchor:
         body = body[anchor.start():]
 
@@ -234,6 +234,7 @@ _SKIP_PATTERNS = [
     re.compile(r"^\s*How\s+to\s+read\s+SARGAM", re.IGNORECASE),
     re.compile(r"^\s*CAPITAL\s+LETTERS", re.IGNORECASE),
     re.compile(r"^\s*small\s+letters", re.IGNORECASE),
+    re.compile(r"^\s*Post\s+Views\s*:", re.IGNORECASE),
     # Scale info line (we extract this separately in metadata)
     re.compile(r"^\s*SCALE\s+(OF\s+)?(THE\s+)?(FLUTE|SONG)\s+IS", re.IGNORECASE),
 ]
@@ -488,7 +489,7 @@ def _extract_metadata(title: str, lines: List[str]) -> Tuple[str, List[str]]:
         l = line.strip()
 
         # notesandsargam metadata lines, e.g. "Movie : Kabhi Kabhi (1976)"
-        m = re.match(r"^(Movie|Lyricist|Singer|Music\s+Director|Raag|Scale|Flute\s+used\s+for\s+notations)\s*:\s*(.+)$", l, re.IGNORECASE)
+        m = re.match(r"^(Movie|Lyricist|Singers?|Music\s+Director|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:\s*(.+)$", l, re.IGNORECASE)
         if m:
             k = m.group(1).strip()
             v = m.group(2).strip()
