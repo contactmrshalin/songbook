@@ -1,109 +1,95 @@
-"""Generate app icons for Song Notations mobile app."""
-from PIL import Image, ImageDraw, ImageFont
+"""Generate app icons for Song Notations mobile app.
+
+Uses the same Lucide 'music' icon as the Vercel platform app header:
+  <path d="M9 18V5l12-2v13"/>
+  <circle cx="6" cy="18" r="3"/>
+  <circle cx="18" cy="16" r="3"/>
+"""
+from PIL import Image, ImageDraw
 import math
 import os
 
 SIZE = 1024
 CENTER = SIZE // 2
 
+
 def create_icon():
-    """Create a 1024x1024 app icon with gradient background and musical symbols."""
+    """Create a 1024x1024 app icon matching the Vercel app's music icon."""
     img = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
 
-    # Gradient background: deep purple to indigo
+    # Rounded-square background with the same accent purple
+    # Fill with solid accent color (matches the header icon box)
+    corner_radius = 220
+    draw.rounded_rectangle(
+        [0, 0, SIZE, SIZE],
+        radius=corner_radius,
+        fill=(108, 99, 255, 255),
+    )
+
+    # Subtle gradient overlay (lighter at top-left, darker at bottom-right)
+    overlay = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
     for y in range(SIZE):
-        ratio = y / SIZE
-        # Radial-ish gradient from center
-        r = int(26 + (108 - 26) * (1 - ratio) * 0.3)
-        g = int(26 + (99 - 26) * (1 - ratio) * 0.2)
-        b = int(46 + (255 - 46) * (1 - ratio) * 0.4)
         for x in range(SIZE):
-            # Radial component
-            dx = (x - CENTER) / CENTER
-            dy = (y - CENTER) / CENTER
-            dist = math.sqrt(dx * dx + dy * dy)
-            radial = max(0, 1 - dist * 0.8)
-            rr = int(r + (108 - r) * radial * 0.5)
-            gg = int(g + (99 - g) * radial * 0.3)
-            bb = int(b + (255 - b) * radial * 0.6)
-            img.putpixel((x, y), (rr, gg, bb, 255))
+            # Diagonal gradient
+            t = (x + y) / (2 * SIZE)
+            alpha = int(t * 50)
+            overlay.putpixel((x, y), (0, 0, 0, alpha))
+    img = Image.alpha_composite(img, overlay)
+    draw = ImageDraw.Draw(img)
 
-    # Draw a rounded rectangle background for cleaner look
-    # (icon masking handles corners, but let's add an inner glow)
+    # Draw the Lucide music icon scaled to fit
+    # Original viewBox: 0 0 24 24
+    # Scale to fit inside icon with padding
+    padding = 200
+    scale = (SIZE - 2 * padding) / 24.0
+    ox, oy = padding, padding  # offset
 
-    # Draw decorative staff lines (subtle)
-    staff_color = (255, 255, 255, 25)
-    for i in range(5):
-        y_pos = 350 + i * 70
-        draw.line([(100, y_pos), (924, y_pos)], fill=staff_color, width=3)
+    def sx(x):
+        return ox + x * scale
 
-    # Draw a large treble clef / musical note symbol
-    # We'll draw a stylized "Sa" in Devanagari-inspired style + musical note
+    def sy(y):
+        return oy + y * scale
 
-    # Musical note (eighth note) - large and centered
-    note_color = (255, 255, 255, 240)
+    stroke_color = (255, 255, 255, 255)
+    stroke_width = int(2 * scale * 0.85)  # scale stroke proportionally
 
-    # Note head (filled ellipse)
-    note_cx, note_cy = CENTER - 40, CENTER + 80
+    # Path: M9 18V5l12-2v13
+    # Line from (9,5) to (9,18) - left stem
+    draw.line([(sx(9), sy(5)), (sx(9), sy(18))], fill=stroke_color, width=stroke_width)
+    # Line from (9,5) to (21,3) - top connecting bar
+    draw.line([(sx(9), sy(5)), (sx(21), sy(3))], fill=stroke_color, width=stroke_width)
+    # Line from (21,3) to (21,16) - right stem
+    draw.line([(sx(21), sy(3)), (sx(21), sy(16))], fill=stroke_color, width=stroke_width)
+
+    # Circle at (6, 18) r=3 - left note head
+    r = 3 * scale
+    cx1, cy1 = sx(6), sy(18)
     draw.ellipse(
-        [note_cx - 70, note_cy - 50, note_cx + 70, note_cy + 50],
-        fill=note_color,
+        [cx1 - r, cy1 - r, cx1 + r, cy1 + r],
+        outline=stroke_color,
+        width=stroke_width,
     )
-
-    # Note stem
-    stem_x = note_cx + 65
-    draw.rectangle([stem_x, note_cy - 280, stem_x + 12, note_cy], fill=note_color)
-
-    # Note flag (curved)
-    flag_points = []
-    for t in range(30):
-        tt = t / 29.0
-        fx = stem_x + 12 + math.sin(tt * math.pi) * 60
-        fy = note_cy - 280 + tt * 140
-        flag_points.append((fx, fy))
-    # Draw flag as thick lines
-    for i in range(len(flag_points) - 1):
-        draw.line([flag_points[i], flag_points[i + 1]], fill=note_color, width=14)
-
-    # Draw "Sa" text below the note
-    sa_color = (108, 99, 255, 255)  # Accent purple
-    try:
-        # Try system fonts
-        font_paths = [
-            "/System/Library/Fonts/Helvetica.ttc",
-            "/System/Library/Fonts/SFNSDisplay.ttf",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-        ]
-        font = None
-        for fp in font_paths:
-            if os.path.exists(fp):
-                font = ImageFont.truetype(fp, 180)
-                break
-        if font is None:
-            font = ImageFont.load_default()
-    except Exception:
-        font = ImageFont.load_default()
-
-    # "Sa" text at bottom
-    text = "Sa"
-    bbox = draw.textbbox((0, 0), text, font=font)
-    tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-    draw.text(
-        (CENTER - tw // 2, SIZE - 250),
-        text,
-        fill=(255, 255, 255, 220),
-        font=font,
-    )
-
-    # Subtle glow ring around center
-    for r in range(200, 260, 4):
-        alpha = int(30 * (1 - (r - 200) / 60))
-        glow_color = (108, 99, 255, alpha)
+    # Fill the note heads for better visibility at small sizes
+    inner_r = r - stroke_width // 2
+    if inner_r > 0:
         draw.ellipse(
-            [CENTER - r, CENTER - r, CENTER + r, CENTER + r],
-            outline=glow_color,
-            width=2,
+            [cx1 - inner_r, cy1 - inner_r, cx1 + inner_r, cy1 + inner_r],
+            fill=stroke_color,
+        )
+
+    # Circle at (18, 16) r=3 - right note head
+    cx2, cy2 = sx(18), sy(16)
+    draw.ellipse(
+        [cx2 - r, cy2 - r, cx2 + r, cy2 + r],
+        outline=stroke_color,
+        width=stroke_width,
+    )
+    if inner_r > 0:
+        draw.ellipse(
+            [cx2 - inner_r, cy2 - inner_r, cx2 + inner_r, cy2 + inner_r],
+            fill=stroke_color,
         )
 
     return img
