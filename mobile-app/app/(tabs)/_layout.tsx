@@ -23,6 +23,7 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Songbook",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="musical-notes" size={size} color={color} />
           ),
