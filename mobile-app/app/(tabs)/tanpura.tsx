@@ -269,7 +269,7 @@ export default function TanpuraScreen() {
 
   return (
     <SafeAreaView style={styles.outerContainer}>
-      {/* Hidden WebView for audio synthesis */}
+      {/* Hidden WebView for audio synthesis — must be at least 1x1 on Android */}
       <WebView
         ref={webViewRef}
         source={{ html: TANPURA_HTML, baseUrl: "https://localhost" }}
@@ -278,6 +278,8 @@ export default function TanpuraScreen() {
         mediaPlaybackRequiresUserAction={false}
         javaScriptEnabled={true}
         originWhitelist={["*"]}
+        androidLayerType="hardware"
+        allowsInlineMediaPlayback={true}
       />
 
       <ScrollView
@@ -510,10 +512,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#0d0705",
   },
   hiddenWebView: {
-    width: 0,
-    height: 0,
+    width: 1,
+    height: 1,
     opacity: 0,
     position: "absolute",
+    top: -1,
+    left: -1,
   },
   scrollContainer: {
     flex: 1,

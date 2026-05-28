@@ -72,7 +72,7 @@ export default function SongbookScreen() {
         key={key}
         ref={webViewRef}
         source={{ uri: SONGBOOK_URL }}
-        style={[styles.webview, hasError && { display: "none" }]}
+        style={[styles.webview, hasError && styles.hiddenWebview]}
         onLoadStart={() => { setLoading(true); setHasError(false); }}
         onLoadEnd={() => setLoading(false)}
         onError={() => { setLoading(false); setHasError(true); }}
@@ -103,39 +103,14 @@ export default function SongbookScreen() {
         textZoom={100}
         allowFileAccess={true}
         allowUniversalAccessFromFileURLs={false}
+        androidLayerType="hardware"
         userAgent="Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
         injectedJavaScriptBeforeContentLoaded={`
-          // Block AdSense from loading — it crashes in app WebViews
-          // Stub the adsbygoogle array so push() calls don't throw
+          // Block AdSense — stub array so push() calls don't throw
           window.adsbygoogle = window.adsbygoogle || [];
           window.adsbygoogle.push = function() {};
 
-          // Intercept and block ad script requests
-          (function() {
-            var origCreateElement = document.createElement.bind(document);
-            document.createElement = function(tag) {
-              var el = origCreateElement(tag);
-              if (tag.toLowerCase() === 'script') {
-                var origSetAttr = el.setAttribute.bind(el);
-                el.setAttribute = function(name, value) {
-                  if (name === 'src' && value && value.indexOf('pagead2.googlesyndication.com') !== -1) {
-                    return; // Block AdSense script
-                  }
-                  return origSetAttr(name, value);
-                };
-                Object.defineProperty(el, 'src', {
-                  set: function(v) {
-                    if (v && v.indexOf('pagead2.googlesyndication.com') !== -1) return;
-                    origSetAttr('src', v);
-                  },
-                  get: function() { return el.getAttribute('src') || ''; }
-                });
-              }
-              return el;
-            };
-          })();
-
-          // Global error handler to prevent uncaught errors from crashing hydration
+          // Suppress ad-related errors so they don't crash hydration
           window.addEventListener('error', function(e) {
             if (e.filename && (e.filename.indexOf('adsbygoogle') !== -1 || e.filename.indexOf('googlesyndication') !== -1)) {
               e.preventDefault();
@@ -198,6 +173,11 @@ const styles = StyleSheet.create({
   },
   webview: {
     flex: 1,
+  },
+  hiddenWebview: {
+    flex: 0,
+    height: 0,
+    opacity: 0,
   },
   loadingContainer: {
     position: "absolute",
