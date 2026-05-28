@@ -5,7 +5,6 @@ import {
   Text,
   TouchableOpacity,
   ScrollView,
-  SafeAreaView,
   Dimensions,
   Animated,
   Platform,
@@ -268,7 +267,7 @@ export default function TanpuraScreen() {
   const STRING_COLORS = ["#D4A574", "#E8C99A", "#E8C99A", "#C49A6C"];
 
   return (
-    <SafeAreaView style={styles.outerContainer}>
+    <View style={styles.outerContainer}>
       {/* Hidden WebView for audio synthesis — must be at least 1x1 on Android */}
       <WebView
         ref={webViewRef}
@@ -288,7 +287,6 @@ export default function TanpuraScreen() {
         showsVerticalScrollIndicator={false}
       >
         {/* Header */}
-        <Text style={styles.title}>🎵 Tanpura</Text>
         <Text style={styles.subtitle}>Continuous drone for riyaaz practice</Text>
 
         {/* Tanpura Instrument Graphic */}
@@ -502,7 +500,7 @@ export default function TanpuraScreen() {
           </Text>
         </View>
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 }
 

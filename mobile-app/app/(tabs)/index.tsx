@@ -104,7 +104,6 @@ export default function SongbookScreen() {
         allowFileAccess={true}
         allowUniversalAccessFromFileURLs={false}
         androidLayerType="hardware"
-        userAgent="Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
         injectedJavaScriptBeforeContentLoaded={`
           // Block AdSense — stub array so push() calls don't throw
           window.adsbygoogle = window.adsbygoogle || [];
@@ -122,6 +121,9 @@ export default function SongbookScreen() {
               e.preventDefault();
             }
           });
+
+          // Mark WebView context so the platform can detect it
+          window.__SONGBOOK_WEBVIEW__ = true;
           true;
         `}
         injectedJavaScript={`
@@ -145,17 +147,20 @@ export default function SongbookScreen() {
             style.textContent = [
               // Hide ad placeholders
               '.ad-container, ins.adsbygoogle { display: none !important; }',
-              // Fixed backgrounds cause scroll issues in WebView
-              '.fixed.inset-0.z-0 { position: absolute; }',
+              // Fixed backgrounds: use absolute only for decorative z-0 overlays, not layout containers
+              '[class*="fixed"][class*="inset-0"][class*="z-0"]:not([class*="z-1"]):not([class*="z-2"]):not([class*="z-5"]):not([class*="z-10"]) { position: absolute; }',
               // Ensure glass overlays have solid fallback for WebViews without backdrop-filter
-              '.glass { background: rgba(249,247,241,0.97) !important; }',
-              '.glass-dark { background: rgba(26,26,46,0.97) !important; }',
+              '.glass { background: rgba(249,247,241,0.97) !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }',
+              '.glass-dark { background: rgba(26,26,46,0.97) !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }',
               // Ensure notation content is visible with correct colors
               '.notation-line { position: relative; z-index: 2; }',
               '.notation-text { color: #6C63FF; font-size: 15px; line-height: 1.6; }',
               '.lyrics-text { color: #1A1A2E; font-size: 16px; line-height: 1.5; }',
               // Song header glass fallback
-              '.song-header-glass { background: linear-gradient(to bottom, rgba(40,40,70,0.85), rgba(26,26,46,0.95)) !important; }'
+              '.song-header-glass { background: linear-gradient(to bottom, rgba(40,40,70,0.85), rgba(26,26,46,0.95)) !important; }',
+              // Ensure Next.js page content renders correctly
+              '#__next { min-height: 100vh; }',
+              'main { position: relative; z-index: 1; }'
             ].join('\\n');
             document.head.appendChild(style);
           })();

@@ -51,7 +51,10 @@ export default function TabLayout() {
         name="tanpura"
         options={{
           title: "Tanpura",
-          headerShown: false,
+          headerStyle: {
+            backgroundColor: "#0d0705",
+          },
+          headerTintColor: "#E8C99A",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="radio-outline" size={size} color={color} />
           ),
