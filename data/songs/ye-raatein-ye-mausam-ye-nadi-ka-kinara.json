@@ -1,0 +1,82 @@
+{
+  "id": "ye-raatein-ye-mausam-ye-nadi-ka-kinara",
+  "title": "Ye Raatein Ye Mausam Ye Nadi Ka Kinara",
+  "export": true,
+  "info": [
+    "Film: Dilli Ka Thug (1958)",
+    "Singer: Kishore Kumar, Asha Bhosle",
+    "Music: N. Dutta",
+    "Lyrics: Shailendra",
+    "Raag: Pilu",
+    "Thaat: Kafi"
+  ],
+  "thumbnail": "images/ye-raatein-ye-mausam-ye-nadi-ka-kinara.jpg",
+  "background": "images/ye-raatein-ye-mausam-ye-nadi-ka-kinara.jpg",
+  "sections": [
+    {
+      "name": "INTERLUDE:",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "P d P g...."
+        },
+        {
+          "lyrics": "",
+          "indian": "Mg Mg RS g..."
+        },
+        {
+          "lyrics": "",
+          "indian": "P N P R"
+        },
+        {
+          "lyrics": "",
+          "indian": "RS RS NP S"
+        },
+        {
+          "lyrics": "Ye | kya | baat | hai",
+          "indian": "P' | P'S' | S n | P'"
+        },
+        {
+          "lyrics": "aaj | ki | chaandani | men",
+          "indian": "MM | MP' | g M Pd | P"
+        },
+        {
+          "lyrics": "",
+          "indian": "Interlude : n'.... S'g' R' n'S' {N(S)NdP}"
+        },
+        {
+          "lyrics": "ke | ham | kho | gaye",
+          "indian": "P' | P'S' | S | n P'"
+        },
+        {
+          "lyrics": "pyaar | ki | raagini | men",
+          "indian": "MM | MP' | g M Pd | P"
+        },
+        {
+          "lyrics": "Ye | baahon | men | baahen,",
+          "indian": "P | P~n n | d | nd S'"
+        },
+        {
+          "lyrics": "ye | bahaki | nigaahen",
+          "indian": "d' | n n | d n d S'"
+        },
+        {
+          "lyrics": "lo | aane | laga | zindagi | ka | maza",
+          "indian": "d' | n dn~P | PP M | P M R~S | R | M g"
+        },
+        {
+          "lyrics": "Ye raaten, ye mausam….",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "description": "This timeless duet perfectly captures the essence of youthful romance and idyllic settings. Kishore Kumar and Asha Bhosle's playful yet soulful rendition, combined with N. Dutta's charming melody, creates an atmosphere of pure enchantment. It remains a beloved classic, epitomizing the golden era of Bollywood's romantic songs.",
+  "trivia": [
+    "The song features Kishore Kumar not just as a singer but also as the lead actor in the film, alongside Nutan.",
+    "N. Dutta, while not as prolific as some of his contemporaries, composed several memorable songs, and this one stands out as one of his most iconic and enduring creations.",
+    "Lyricist Shailendra's simple yet evocative words paint a vivid picture of a romantic evening by the river, making the song incredibly relatable and picturesque.",
+    "The song's enduring popularity is a testament to its universal appeal, often covered and referenced in popular culture, cementing its status as a quintessential romantic duet."
+  ],
+  "musicxml": "musicxml/ye-raatein-ye-mausam-ye-nadi-ka-kinara.musicxml"
+}
