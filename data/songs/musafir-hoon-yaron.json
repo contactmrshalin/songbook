@@ -4,7 +4,10 @@
   "export": true,
   "info": [
     "Film/Artist: Kishore Kumar",
-    "Scale: C BASS/MIDDLE"
+    "Scale: C BASS/MIDDLE",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Rajendra Krishan"
   ],
   "thumbnail": "images/musafir-hoon-yaron.jpg",
   "background": "images/musafir-hoon-yaron.jpg",
@@ -102,6 +105,13 @@
         }
       ]
     }
+  ],
+  "description": "Musafir Hoon Yaron is an iconic philosophical anthem sung by the legendary Kishore Kumar, capturing the essence of life as a journey. Composed by R.D. Burman, its simple yet profound lyrics resonate with anyone who sees themselves as a traveler in life, making it a timeless classic that evokes both introspection and a sense of carefree wanderlust. The song's lighthearted melody perfectly complements its deep message, creating an unforgettable listening experience.",
+  "trivia": [
+    "This song is from the cult classic comedy film \"Padosan,\" though it stands out as a more reflective piece compared to the film's predominantly humorous tone.",
+    "R.D. Burman's composition is notable for its minimalist yet effective arrangement, allowing Kishore Kumar's distinctive voice and the poignant lyrics to take center stage.",
+    "The lyrics by Rajendra Krishan are celebrated for their universal appeal and philosophical depth, portraying life as an unpredictable journey where one must embrace the unknown.",
+    "Kishore Kumar's rendition is often cited as one of his most beloved and iconic performances, showcasing his unique ability to convey complex emotions with effortless charm."
   ],
   "musicxml": "musicxml/musafir-hoon-yaron.musicxml"
 }
