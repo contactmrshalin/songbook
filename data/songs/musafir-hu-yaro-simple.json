@@ -1,0 +1,91 @@
+{
+  "id": "musafir-hu-yaro-simple",
+  "title": "Musafir Hu Yaro - Easy",
+  "export": true,
+  "info": [
+    "Source: https://notesandsargam.com/musafir-hu-yaro/",
+    "Film: Padosan (1968)",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Rajendra Krishan",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
+  ],
+  "thumbnail": "images/musafir-hu-yaro.png",
+  "background": "images/musafir-hu-yaro.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Musaafir | hu | yaaro",
+          "indian": "D NRNR R | G | SN"
+        },
+        {
+          "lyrics": "naa | ghar | hai | naa | tikhaana",
+          "indian": "D | NRNR | R | R | GSN"
+        },
+        {
+          "lyrics": "Hm hm… he",
+          "indian": "R S... G M"
+        },
+        {
+          "lyrics": "Musaafir | hu | yaaro",
+          "indian": "D NRNR R | G | SN"
+        },
+        {
+          "lyrics": "naa | ghar | hai | naa | tikhaana",
+          "indian": "D | NRNR | R | R | GSN"
+        },
+        {
+          "lyrics": "Mujhe | chalate | jaana | hai",
+          "indian": ".P.P~N | .N N | N(R)SN | D...N"
+        },
+        {
+          "lyrics": "bas | chalate | jaana",
+          "indian": "N~P | NSN | DD"
+        },
+        {
+          "lyrics": "Ek | raah | ruk | gayee",
+          "indian": "RR | RR | G | GG"
+        },
+        {
+          "lyrics": "toh | aur | jud | gayee",
+          "indian": "G | GG | PM | MM {PMGMGR}"
+        },
+        {
+          "lyrics": "Mai | mura | tho | saath | saath",
+          "indian": "R | RR | R | GG | G"
+        },
+        {
+          "lyrics": "raha | mur | gayi",
+          "indian": "G G | PM | MM"
+        },
+        {
+          "lyrics": "Hawaao | ke | paro | par",
+          "indian": "RR~S | S~N | NN~D | D~P"
+        },
+        {
+          "lyrics": "meraa | ashiana",
+          "indian": "N{NSR} | SND N"
+        },
+        {
+          "lyrics": "Musaafir hu yaaro ….",
+          "indian": ""
+        },
+        {
+          "lyrics": "https://youtu.be/_nCi5kwD1Y8",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "description": "This iconic song perfectly encapsulates a carefree, wandering spirit, delivered with Kishore Kumar's inimitable charm and philosophical depth. R.D. Burman's innovative composition blends a catchy Western-influenced rhythm with a distinctly Indian melodic sensibility, creating a timeless anthem for the journey of life. Its lighthearted yet profound message makes it a beloved classic that continues to resonate with listeners.",
+  "trivia": [
+    "Kishore Kumar not only lent his voice but also famously acted in 'Padosan,' making this a self-performed classic where he embodies the character's spirit on screen.",
+    "The song's distinctive opening guitar riff is a signature R.D. Burman touch, instantly recognizable and influential in Hindi film music.",
+    "While not strictly classical, the melody subtly draws from the expansive and emotive notes of Raag Bhairavi, lending it a melancholic yet hopeful undertone.",
+    "The film 'Padosan' is considered one of Hindi cinema's greatest comedies, and 'Musafir Hu Yaro' serves as a pivotal song reflecting the protagonist's journey and outlook on life."
+  ],
+  "musicxml": "musicxml/musafir-hu-yaro-simple.musicxml"
+}
