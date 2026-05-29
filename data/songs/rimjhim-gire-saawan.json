@@ -13,23 +13,100 @@
   ],
   "sections": [
     {
-      "name": "PART 1 – MUKHDA",
+      "name": "HUMMING:",
       "lines": [
         {
-          "lyrics": "Rimjhim gire saawan",
-          "indian": "Dha.SaReGamaDha Ga: GaGa:"
+          "lyrics": "Hmm…hmm.. | Hmm.. hmm.. hmm",
+          "indian": ",D...G... | (g)M...G... R... | (g)MG... R... G"
+        }
+      ]
+    },
+    {
+      "name": "STHAYI:",
+      "lines": [
+        {
+          "lyrics": "Rim jhim | gire | sawan",
+          "indian": "DDNSR | GD' | GG"
         },
         {
-          "lyrics": "Sulag sulag jaaye mann",
-          "indian": "maGaRe maGaRe ReRe(k)Re:"
+          "lyrics": "Sulag | sulag | jaaye |.man",
+          "indian": "g(M)gR | g(M)gR | RR~r | R"
+        },
+        {
+          "lyrics": "Bheege | aaj | is | mausam | mein",
+          "indian": "NR | GMPP | PP | PMP | PG"
+        },
+        {
+          "lyrics": "Lagi | kaisi | yeh | agan..",
+          "indian": "GP | DNS'N | .D | DDGMDG"
+        },
+        {
+          "lyrics": "Rim jhim gire sawan…",
+          "indian": ""
+        },
+        {
+          "lyrics": "Interlude (SITAR):",
+          "indian": "MGRSNN~R"
+        },
+        {
+          "lyrics": "",
+          "indian": "GRSNDD~S"
+        },
+        {
+          "lyrics": "",
+          "indian": "NRS"
+        },
+        {
+          "lyrics": "",
+          "indian": "GP GMD NS NOP"
+        },
+        {
+          "lyrics": "",
+          "indian": "NDd... dD dD dD"
+        },
+        {
+          "lyrics": "Antara #1:",
+          "indian": ""
+        },
+        {
+          "lyrics": "Jab | ghunghruon | si",
+          "indian": "ND | DGG {GMGRGM} | M"
+        },
+        {
+          "lyrics": "bajti | hain | boondein",
+          "indian": "DDD | D | dDNN"
+        },
+        {
+          "lyrics": "Armaan | hamare",
+          "indian": "N'R'~N'N~D | DD G G(M)G~R R"
+        },
+        {
+          "lyrics": "palkein | na | moondein",
+          "indian": "(g)MM | M | D'D'"
+        },
+        {
+          "lyrics": "Kaise | dekhein | sapne | nayan",
+          "indian": "DN | SR | GD'G | GG"
+        },
+        {
+          "lyrics": "Sulag | sulag | jaaye | man",
+          "indian": "g(M)gR | PMR | RR | RYN"
         },
         {
           "lyrics": "Bheege aaj is mausam mein",
-          "indian": "Ni(k)RePa Ma(T)Pa Ma(T)PaMa(T)Pa Ga:"
+          "indian": ""
         },
         {
-          "lyrics": "Lagi kaisi ye agan",
-          "indian": "GaPaSa' NiDha Gama Gama Dha Ga:"
+          "lyrics": "Lagi kaisi yeh agan",
+          "indian": ""
+        },
+        {
+          "lyrics": "Rim jhim gire sawan…",
+          "indian": ""
+        },
+        {
+          "lyrics": "(Rest of the song follows the same notations)",
+          "indian": ""
         }
       ]
     }
