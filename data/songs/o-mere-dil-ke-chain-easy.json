@@ -1,0 +1,141 @@
+{
+  "id": "o-mere-dil-ke-chain-easy",
+  "title": "O Mere Dil Ke Chain - Easy",
+  "export": true,
+  "info": [
+    "Film: Mere Jeevan Saathi (1972)",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Majrooh Sultanpuri"
+  ],
+  "thumbnail": "images/o-mere-dil-ke-chain-easy.jpg",
+  "background": "images/o-mere-dil-ke-chain-easy.jpg",
+  "sections": [
+    {
+      "name": "PRELUDE :",
+      "lines": [
+        {
+          "lyrics": "Ting ding ting ting ting tin tin tin",
+          "indian": "D S R M R GGG... 2"
+        },
+        {
+          "lyrics": "",
+          "indian": "Hmmm..."
+        },
+        {
+          "lyrics": "",
+          "indian": "M... MRG... S D R"
+        },
+        {
+          "lyrics": "",
+          "indian": "M~GR M~GR R"
+        },
+        {
+          "lyrics": "O mere | dil | ke | chain – 2",
+          "indian": "R SR | R | S | RSD"
+        },
+        {
+          "lyrics": "",
+          "indian": "R SR | R | S | RSD... (N)DP"
+        },
+        {
+          "lyrics": "Chain | aaye | mere | dil ko",
+          "indian": "P~D | D~S | S~R | RG G"
+        },
+        {
+          "lyrics": "duaa | kiijiye",
+          "indian": "S RG | G S R"
+        },
+        {
+          "lyrics": "",
+          "indian": "{MGR}... 3"
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE :",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "RM MD' DP DP"
+        },
+        {
+          "lyrics": "",
+          "indian": "MG RGR"
+        },
+        {
+          "lyrics": "",
+          "indian": "MGR MGR PMG"
+        },
+        {
+          "lyrics": "",
+          "indian": "MGR DR"
+        },
+        {
+          "lyrics": "Apanaa | hi | sayaa",
+          "indian": "MMG | M | G~RR"
+        },
+        {
+          "lyrics": "dekh | ke | tum",
+          "indian": "GR | G | R~S"
+        },
+        {
+          "lyrics": "jaane | jahaan",
+          "indian": "RS | R S~D"
+        },
+        {
+          "lyrics": "sharmaa | gaye",
+          "indian": "DN R | RR"
+        },
+        {
+          "lyrics": "Abhi | to | ye | pahali",
+          "indian": "MM | G | M | G RR"
+        },
+        {
+          "lyrics": "manjil | hai",
+          "indian": "GRG | R~S"
+        },
+        {
+          "lyrics": "Tum | to | abhi | se",
+          "indian": "R | S | RS | D"
+        },
+        {
+          "lyrics": "ghabaraa | gaye",
+          "indian": "DNR | RR"
+        },
+        {
+          "lyrics": "Meraa | kyaa | hogaa",
+          "indian": "RG | MD' | RG GM"
+        },
+        {
+          "lyrics": "socho | to | jaraa",
+          "indian": "GM MP | G | GGR {GRS}"
+        },
+        {
+          "lyrics": "Haay | aise | naa",
+          "indian": "P~D | D~S | S~R"
+        },
+        {
+          "lyrics": "aahen | bharaa | kijiye",
+          "indian": "RG G | S RG | G S R"
+        },
+        {
+          "lyrics": "O mere dil ke chain…",
+          "indian": ""
+        },
+        {
+          "lyrics": "www.youtube.com/watch?v=heXQRxM2Gro",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "description": "An iconic romantic ballad, \"O Mere Dil Ke Chain\" perfectly captures the essence of 70s Bollywood romance. Kishore Kumar's inimitable voice brings to life R.D. Burman's timeless melody, creating a song that remains a beloved classic for its heartfelt emotion and enduring charm. Its simple yet profound lyrics resonate with anyone who has experienced the pangs of love.",
+  "trivia": [
+    "This song is considered one of Kishore Kumar's most iconic and defining performances, solidifying his status as the 'Voice of Romance'.",
+    "Composed by the legendary R.D. Burman, the song showcases his genius in crafting catchy yet emotionally rich melodies that transcend generations.",
+    "It was picturised on superstar Rajesh Khanna and actress Tanuja in the film 'Mere Jeevan Saathi', becoming one of the most memorable on-screen romantic numbers of its era.",
+    "Despite the film itself having a moderate run at the box office, its soundtrack, particularly 'O Mere Dil Ke Chain', was a massive success and remains a classic in Indian cinema music."
+  ],
+  "musicxml": "musicxml/o-mere-dil-ke-chain-easy.musicxml"
+}
