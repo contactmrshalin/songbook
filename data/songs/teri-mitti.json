@@ -1,78 +1,98 @@
 {
   "id": "teri-mitti",
   "title": "Teri Mitti",
-  "export": false,
+  "export": true,
   "info": [
-    "Movie: Kesari",
-    "Singer: B Praak",
-    "Music Director: Arko",
-    "Lyricist: Manoj Muntashir",
-    "Raag feel: Bhairavi / patriotic folk blend",
-    "Scale: C",
-    "Ornaments: ~ meend, : hold, ( ) kan"
+    "Scale: D# BASS/MIDDLE"
   ],
-  "thumbnail": "placeholder://song_thumb",
+  "thumbnail": "images/teri-mitti.jpg",
+  "background": "images/teri-mitti.jpg",
   "sections": [
     {
-      "name": "INTRO",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "",
-          "indian": "Re Ga, ma Ga Re Ga"
+          "lyrics": "Talwaron pee sar vaar diye",
+          "indian": "Sa': Sa' Re' Ga' Re' Ga': Re' Sa': Sa' Re' Ga' Re' Ga'"
+        },
+        {
+          "lyrics": "Angaronn mein jiism jalaya hai",
+          "indian": "Ga': Ga': Ga' Re': Re' Sa': Sa' Sa' Sa': Ni Dha: Sa' Ni Sa':"
+        },
+        {
+          "lyrics": "Tabb jaake ke kahin humne sar pe",
+          "indian": "Sa': Sa': Sa': Sa' Re' Sa' Re' Sa' Ni: Pa: Ni Ni Sa'"
+        },
+        {
+          "lyrics": "Yehh kesari rang sajaya hai",
+          "indian": "Pa Ni Sa' Re': Re' Re' Re': Re' Ga' Re' Ga Re' Sa' Ni Dha Ni Ni Sa':"
+        },
+        {
+          "lyrics": "Aee meri zameen afsos nahi",
+          "indian": "Re Re Re Ga Ga Ga Re Re Re Ga Ga"
+        },
+        {
+          "lyrics": "Joo tere liye sau dard sahe",
+          "indian": "Re Re: Re Ga Re: Re Sa dha: dha Sa Sa"
+        },
+        {
+          "lyrics": "Mehfoozz rahe teri aan sada",
+          "indian": "Sa ni ni: ni Sa Sa Sa ni Re: Sa ni dha"
+        },
+        {
+          "lyrics": "Chahee jaan meri yeh rahe na rahe",
+          "indian": "dha pa pa: pa pa pa Re Re Ga Sa: Sa Sa Sa"
+        },
+        {
+          "lyrics": "Aee meri zamin mehboob meri",
+          "indian": "Re' Re' Re' Ga' Ga': Ga' Re' Re' Re' Ga' Ga'"
+        },
+        {
+          "lyrics": "Merii nas nas mein tera ishq bahe",
+          "indian": "Ga' Re' Re': Re': Re': Ga' Re': Sa' Dha Dha Sa' Sa'"
+        },
+        {
+          "lyrics": "Feekaa na pade kabhi rang tera",
+          "indian": "Sa' Ni Ni: Ni Sa' Sa': Sa' Ni Re': Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Jismonn se nikal ke khoon kahe",
+          "indian": "Dha Pa Pa: Pa Pa Pa Re' Re' Ga' Sa': Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Music",
+          "indian": "Re: Ga ma Ga Re: Ga"
         },
         {
           "lyrics": "",
-          "indian": "Re Ga Re Pa: Dha Pa : Re :"
+          "indian": "Re: Ga: Re: Pa: Dha Re:"
         },
         {
-          "lyrics": "",
-          "indian": "Re Ga, Pa ma Ga Re Ga"
+          "lyrics": "Teri Mitti mein mill jawaan",
+          "indian": "Pa Pa Pa Dha Dha Sa': Sa' Ni Re' Sa' Sa' Ni Dha"
         },
         {
-          "lyrics": "",
-          "indian": "Re Ga Re Pa: Dha : Re : Ga Re Sa"
+          "lyrics": "Gul banke main khill jawaan",
+          "indian": "Dha Pa Pa Dha Dha Sa': Sa' Ni Re' Sa' Sa' Ni Dha"
         },
         {
-          "lyrics": "",
-          "indian": "Ga Re Re Re Ga Ga, Ga Re Re Re Ga Ga"
+          "lyrics": "Itni si hai dil ki aarzoo",
+          "indian": "Dha Pa Pa: Dha Dha Pa Pa: Dha: ma Ga Ga Pa:"
         },
         {
-          "lyrics": "",
-          "indian": "Ga Re Re Re Re Ga Re Sa Dha, Dha Sa Sa"
+          "lyrics": "Teri nadiyon mein beh jawaan",
+          "indian": "Pa Pa Pa Dha Dha Sa': Sa' Ni Re' Sa' Sa' Ni Dha"
         },
         {
-          "lyrics": "",
-          "indian": "Sa Ni Ni Ni Sa Sa, Sa Ni Re Sa Sa Ni Dha Dha Dha Pa"
+          "lyrics": "Tere kheton mein lehrawaan",
+          "indian": "Dha Pa Pa Dha Dha Sa': Sa' Ni Re' Sa' Sa' Ni Dha"
         },
         {
-          "lyrics": "",
-          "indian": "Pa Pa Pa Pa Pa Re Re Ga Re Sa Sa"
-        },
-        {
-          "lyrics": "",
-          "indian": "Re' Re' Re' Re' Ga' Ga', Re' Re' Re' Re' Ga' Ga'"
-        },
-        {
-          "lyrics": "",
-          "indian": "Sa' Ni Ni Ni Sa' Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
-        },
-        {
-          "lyrics": "",
-          "indian": "Dha Pa Pa Dha Dha Sa', Sa' Ni Re' Sa' Sa' Ni Dha Dha Dha Pa"
-        },
-        {
-          "lyrics": "",
-          "indian": "Pa Dha, Dha Pa Pa Dha Ni Dha ma Ga Ga Pa"
-        },
-        {
-          "lyrics": "",
-          "indian": "Re Ga, ma Ga Re Ga"
-        },
-        {
-          "lyrics": "",
-          "indian": "Re Ga Re Pa: Dha Pa : Re :"
+          "lyrics": "Itni si hai dil ki aarzoo",
+          "indian": "Dha Pa Pa: Dha Dha Pa Pa: Dha: ma Ga Ga Pa:"
         }
       ]
     }
-  ]
+  ],
+  "musicxml": "musicxml/teri-mitti.musicxml"
 }
