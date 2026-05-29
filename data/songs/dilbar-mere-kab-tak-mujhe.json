@@ -1,0 +1,134 @@
+{
+  "id": "dilbar-mere-kab-tak-mujhe",
+  "title": "Dilbar Mere Kab Tak Mujhe",
+  "export": true,
+  "info": [
+    "Film/Artist: Satte Pe Satta",
+    "Scale: E BASS/MIDDLE",
+    "Singer: Kishore Kumar, Anette Pinto",
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi",
+    "Year: 1982"
+  ],
+  "thumbnail": "images/dilbar-mere-kab-tak-mujhe.jpg",
+  "background": "images/dilbar-mere-kab-tak-mujhe.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dilbar mere kab tak mujhe",
+          "indian": "dha Re: ma Dha: Ni(k) Dha: ma Dha:"
+        },
+        {
+          "lyrics": "Aise hi tadpaaoge",
+          "indian": "Ni(k) Dha: ma Ni(k) Dha: ma Pa:"
+        },
+        {
+          "lyrics": "Mai aag dil mein laga dunga wo",
+          "indian": "Ni(k) Ni(k): Ni(k) Dha Dha: Pa Dha Dha: ma Re"
+        },
+        {
+          "lyrics": "Ke pal mein pighal jaaoge",
+          "indian": "Re(k) dha Re(k): Ga Pa: ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Dilbar mere kab tak mujhe",
+          "indian": "dha Re: ma Dha: Ni(k) Dha: ma Dha:"
+        },
+        {
+          "lyrics": "Aise hi tadpaaoge",
+          "indian": "Ni(k) Dha: ma Ni(k) Dha: ma Pa:"
+        },
+        {
+          "lyrics": "Mai aag dil mein laga dunga wo",
+          "indian": "Ni(k) Ni(k): Ni(k) Dha Dha: Pa Dha Dha: ma Re"
+        },
+        {
+          "lyrics": "Ke pal mein pighal jaaoge",
+          "indian": "Re(k) dha Re(k): Ga Pa: ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Yek din aayega pyaar ho jaayega",
+          "indian": "Ma Ma: Pa: Dha Ni: Ma: Pa: Dha N(K).D Pa:"
+        },
+        {
+          "lyrics": "Hoo oo",
+          "indian": "Dha Ni(k)"
+        },
+        {
+          "lyrics": "Mai aag dil mein laga dunga woh",
+          "indian": "Ni(k) Ni(k): Ni(k) Dha Dha: Pa Dha Dha: ma Re"
+        },
+        {
+          "lyrics": "Ke pal mein pighal jaaoge",
+          "indian": "Re(k) dha Re(k): Ga Pa: ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Sochoge jab mere baare",
+          "indian": "Re Re: Re Re Re: Re Re Re"
+        },
+        {
+          "lyrics": "Mein tanahaiyon me",
+          "indian": "Re Re Re Ga Re Sa ni:"
+        },
+        {
+          "lyrics": "Ghir jaaoge aaur bhi",
+          "indian": "Ga Ga: Ga Ga Ga: Ga Ga Ga"
+        },
+        {
+          "lyrics": "Meri parachhaiyon me",
+          "indian": "Ga Ga Ga Pa ma ma: Ga Re"
+        },
+        {
+          "lyrics": "Sochoge jab mere baare",
+          "indian": "Re Re: Re Re Re: Re Re Re"
+        },
+        {
+          "lyrics": "Mein tanahaiyon me",
+          "indian": "Re Re Re Ga Re Sa ni:"
+        },
+        {
+          "lyrics": "Ghir jaaoge aaur bhi",
+          "indian": "Ga Ga: Ga Ga Ga: Ga Ga Ga"
+        },
+        {
+          "lyrics": "Meri parachhaiyon me",
+          "indian": "Ga Ga Ga Pa ma ma:"
+        },
+        {
+          "lyrics": "O dil machal jaayega",
+          "indian": "Dha Sa': Sa' Ni(k) Dha: N(K).D Pa:"
+        },
+        {
+          "lyrics": "Pyaar ho jaayega",
+          "indian": "Ni(k): Dha Pa Dha Dha:"
+        },
+        {
+          "lyrics": "Dilbar mere kab tak mujhe",
+          "indian": "dha Re: ma Dha: Ni(k) Dha: ma Dha:"
+        },
+        {
+          "lyrics": "Aise hi tadpaaoge",
+          "indian": "Ni(k) Dha: ma Ni(k) Dha: ma Pa:"
+        },
+        {
+          "lyrics": "Mai aag dil mein laga dunga wo",
+          "indian": "Ni(k) Ni(k): Ni(k) Dha Dha: Pa Dha Dha: ma Re"
+        },
+        {
+          "lyrics": "Ke pal mein pighal jaaoge",
+          "indian": "Re(k) dha Re(k): Ga Pa: ma Ga ma Ga Re:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic track from \"Satte Pe Satta\" is a quintessential R.D. Burman creation, brimming with his signature upbeat energy and innovative arrangements. Kishore Kumar's playful and energetic vocals perfectly capture the flirtatious mood, making it a timeless romantic anthem. Its catchy melody and rhythmic drive have ensured its enduring popularity across generations, cementing its place as a Bollywood classic.",
+  "trivia": [
+    "The film \"Satte Pe Satta\" (1982) is a cult classic, known for its unique storyline and ensemble cast, with this song being one of its most memorable musical highlights.",
+    "R.D. Burman masterfully blended Western pop influences with Indian sensibilities, creating a sound that was both modern and deeply rooted in popular Indian music.",
+    "Kishore Kumar's dynamic rendition is often cited as one of his most vibrant performances, showcasing his incredible versatility and ability to infuse songs with character.",
+    "The song's enduring appeal is evident in its frequent play at parties and celebrations, and it has been remixed and reinterpreted multiple times over the years, though the original remains unparalleled."
+  ],
+  "musicxml": "musicxml/dilbar-mere-kab-tak-mujhe.musicxml"
+}
