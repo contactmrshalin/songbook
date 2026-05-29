@@ -1,0 +1,229 @@
+{
+  "id": "chura-ke-dil-mera",
+  "title": "Chura Ke Dil Mera",
+  "export": true,
+  "info": [
+    "Film/Artist: Main Khiladi Tu Anari",
+    "Scale: B BASS/MIDDLE",
+    "Singer: Alka Yagnik, Kumar Sanu",
+    "Music: Anu Malik",
+    "Lyrics: Rani Malik"
+  ],
+  "thumbnail": "images/chura-ke-dil-mera.jpg",
+  "background": "images/chura-ke-dil-mera.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Chura ke dil mera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Goriya chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Chura ke dil mera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Goriya chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Uda ke nindiyan",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Kahan tu chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Pagal hua deewana hua",
+          "indian": "Ni Ni Re' Ni Pa Dha Dha Sa' Dha"
+        },
+        {
+          "lyrics": "Pagal hua deewana hua",
+          "indian": "Ni Ni Re' Ni Pa Dha Dha Sa' Dha"
+        },
+        {
+          "lyrics": "Kaisi yeh dil ki lagi",
+          "indian": "Ga Ga Ga Ga ma Pa Dha Ga:"
+        },
+        {
+          "lyrics": "Ooo",
+          "indian": ""
+        },
+        {
+          "lyrics": "Chura ke dil tera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Chali main chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Mujhe kya pata",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Kahan main chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Manzil meri bas tu hi tu",
+          "indian": "Ni Ni Re' Ni Dha Dha Sa' Dha"
+        },
+        {
+          "lyrics": "Manzil meri bas tu hi tu",
+          "indian": "Ni Ni Re' Ni Dha Dha Sa' Dha"
+        },
+        {
+          "lyrics": "Teri gali main chali",
+          "indian": "Ga Ga Ga Ga ma Pa Dha Ga:"
+        },
+        {
+          "lyrics": "Ooo",
+          "indian": ""
+        },
+        {
+          "lyrics": "Chura ke dil mera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Goriya chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Chura ke dil tera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Chali main chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Abhi toh lage hai…",
+          "indian": "Re ma Dha Sa' Ni: Dha Pa ma Re"
+        },
+        {
+          "lyrics": "Chahaton ke mele…",
+          "indian": "Re ma Dha Sa' Ni: Dha Pa ma Re"
+        },
+        {
+          "lyrics": "Abhi dil mera",
+          "indian": "Sa' Dha ma Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Dhadkano se khele",
+          "indian": "Ga ma Pa Ga ma: Ga Pa: ma Ga Re"
+        },
+        {
+          "lyrics": "Kisi modh par main",
+          "indian": "Re ma Dha Sa' Ni: Dha Pa ma Re"
+        },
+        {
+          "lyrics": "Tumko pukaarun",
+          "indian": "Re ma Dha Sa' Ni: Dha Pa ma Re"
+        },
+        {
+          "lyrics": "Bahana koi",
+          "indian": "Sa' Dha ma Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Bana toh na loge",
+          "indian": "Ga ma Pa Ga ma: ma:"
+        },
+        {
+          "lyrics": "Agar main bata doon",
+          "indian": "Re' Re': Sa': Dha Re': Re':"
+        },
+        {
+          "lyrics": "Mere dil mein kya hai",
+          "indian": "Ga' Re': Sa': Ni: Sa' Re' Ga' Re' Sa'"
+        },
+        {
+          "lyrics": "Toh mujhse nigaahein",
+          "indian": "Sa' Sa': Sa' Ni Dha Ni Re' Ni Dha: Pa"
+        },
+        {
+          "lyrics": "Chura toh na loge",
+          "indian": "Ni Sa': Dha: ma Dha: Dha:"
+        },
+        {
+          "lyrics": "Agar badh gayi",
+          "indian": "Re' Re': Sa': Dha Ga' ma' Ga' Ga' Re' Re'"
+        },
+        {
+          "lyrics": "Hai betaabiyan",
+          "indian": "Ga' Re': Sa': Ni: Sa' Re' Ga' Re' Sa'"
+        },
+        {
+          "lyrics": "Kahin mujhse daaman",
+          "indian": "Sa' Sa': Sa' Ni Dha Ni Re' Ni Dha: Pa"
+        },
+        {
+          "lyrics": "Chhuda toh na loge",
+          "indian": "Ni Sa': Dha: ma Dha: Dha:"
+        },
+        {
+          "lyrics": "Kehta hai dil",
+          "indian": "Re ma Dha ma Pa:"
+        },
+        {
+          "lyrics": "Dhadakte hue",
+          "indian": "Sa Ga Pa Ga ma:"
+        },
+        {
+          "lyrics": "Tum sanam hamare",
+          "indian": "Re ma Dha ma Pa Pa: Pa"
+        },
+        {
+          "lyrics": "Hum tumhare hue",
+          "indian": "Sa Ga Pa Ga ma: Pa: Dha: Ni"
+        },
+        {
+          "lyrics": "Manzil meri bas tu hi tu",
+          "indian": "Ni Ni Re' Ni Dha Dha Sa' Dha"
+        },
+        {
+          "lyrics": "Manzil meri bas tu hi tu",
+          "indian": "Ni Ni Re' Ni Dha Dha Sa' Dha"
+        },
+        {
+          "lyrics": "Teri gali main chali",
+          "indian": "Ga Ga Ga Ga ma Pa Dha Ga:"
+        },
+        {
+          "lyrics": "Ooo",
+          "indian": ""
+        },
+        {
+          "lyrics": "Chura ke dil mera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Goriya chali",
+          "indian": "Sa Re Ga Sa Re"
+        },
+        {
+          "lyrics": "Chura ke dil tera",
+          "indian": "Sa' Dha ma Ga Re Ga: Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Chali main chali",
+          "indian": "Sa Re Ga Sa Re"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic track from the 90s is a quintessential Bollywood romantic dance number, perfectly capturing the era's energetic and playful spirit. Kumar Sanu and Alka Yagnik's vibrant vocals, combined with Anu Malik's catchy composition, created an instant classic that remains beloved for its infectious rhythm and memorable melody. It's a prime example of the peppy, fun-loving sound that dominated Hindi film music of the time.",
+  "trivia": [
+    "The song is famously picturized on Akshay Kumar and Shilpa Shetty, whose sizzling on-screen chemistry became a highlight of the film and a benchmark for romantic duets in the 90s.",
+    "Anu Malik's composition for 'Chura Ke Dil Mera' is often cited as one of his most recognizable and successful works, showcasing his knack for creating immensely popular, foot-tapping tunes.",
+    "The song's enduring popularity led to its recreation in the 2021 film 'Hungama 2', featuring Shilpa Shetty herself, introducing the track to a new generation of listeners.",
+    "The hook line and melody are instantly recognizable, making it a staple at parties and a nostalgic favorite for anyone who grew up with 90s Bollywood music."
+  ],
+  "musicxml": "musicxml/chura-ke-dil-mera.musicxml"
+}
