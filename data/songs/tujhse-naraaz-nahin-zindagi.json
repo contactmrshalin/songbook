@@ -4,10 +4,14 @@
   "export": true,
   "info": [
     "Film/Artist: Masoom",
-    "Source: https://www.notationsworld.com/tujhse-naraaz-nahin-zindagi-sargam-and-flute-notes.html"
+    "Singer: Lata Mangeshkar, Anup Ghoshal",
+    "Music: R.D. Burman",
+    "Lyrics: Gulzar",
+    "Raag: Khamaj",
+    "Thaat: Khamaj"
   ],
-  "thumbnail": "images/tujhse-naraaz-nahin-zindagi.png",
-  "background": "images/tujhse-naraaz-nahin-zindagi.png",
+  "thumbnail": "images/tujhse-naraaz-nahin-zindagi.jpg",
+  "background": "images/tujhse-naraaz-nahin-zindagi.jpg",
   "sections": [
     {
       "name": "STHAYI",
@@ -146,6 +150,13 @@
         }
       ]
     }
+  ],
+  "description": "This poignant melody from 'Masoom' is a masterpiece of introspection, exploring themes of life's unpredictable journey and the search for peace amidst its challenges. Gulzar's profound lyrics, set to R.D. Burman's sensitive composition, create an atmosphere of gentle melancholy and quiet contemplation. The song's enduring appeal lies in its universal message and its ability to touch the listener's soul with its understated beauty.",
+  "trivia": [
+    "The film 'Masoom' features two distinct versions of the song: a female rendition by Lata Mangeshkar and a male rendition by Anup Ghoshal, both equally cherished.",
+    "Gulzar's lyrics are celebrated for their philosophical depth, using simple language to convey complex emotions about life's perceived injustices and eventual acceptance.",
+    "R.D. Burman, often known for his upbeat and experimental compositions, showcased his versatility with this song, crafting a melody that is deeply rooted in Indian classical sensibilities yet universally accessible.",
+    "The song is often cited as one of R.D. Burman's most soulful and critically acclaimed works, demonstrating his mastery beyond popular dance numbers and showcasing his ability to compose for profound emotional impact."
   ],
   "musicxml": "musicxml/tujhse-naraaz-nahin-zindagi.musicxml"
 }
