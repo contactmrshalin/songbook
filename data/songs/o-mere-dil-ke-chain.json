@@ -1,0 +1,126 @@
+{
+  "id": "o-mere-dil-ke-chain",
+  "title": "O Mere Dil Ke Chain",
+  "export": true,
+  "info": [
+    "Film/Artist: Kishore Kumar",
+    "Scale: C BASS/MIDDLE",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Majrooh Sultanpuri",
+    "Year: Mere Jeevan Saathi (1972)"
+  ],
+  "thumbnail": "images/o-mere-dil-ke-chain.jpg",
+  "background": "images/o-mere-dil-ke-chain.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "O mere",
+          "indian": "Dha Pa Dha:"
+        },
+        {
+          "lyrics": "Dil ke chain",
+          "indian": "Dha Pa Dha Pa Ga:"
+        },
+        {
+          "lyrics": "O mere",
+          "indian": "Dha Pa Dha:"
+        },
+        {
+          "lyrics": "Dil ke chain",
+          "indian": "Dha Pa Dha Pa Ga: ma Ga Re."
+        },
+        {
+          "lyrics": "Chain aae mere",
+          "indian": "Re Ga Ga Pa Pa Dha"
+        },
+        {
+          "lyrics": "Dil ko duaa kijiye",
+          "indian": "Ni Ni Pa Ni Ni Pa Dha:"
+        },
+        {
+          "lyrics": "O mere",
+          "indian": "Dha Pa Dha:"
+        },
+        {
+          "lyrics": "Dil ke chain",
+          "indian": "Dha Pa Dha Pa Ga: ma Ga Re."
+        },
+        {
+          "lyrics": "Chain aae mere",
+          "indian": "Re Ga Ga Pa Pa Dha"
+        },
+        {
+          "lyrics": "Dil ko duaa kijiye",
+          "indian": "Ni Ni Pa Ni Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Apna hi saya",
+          "indian": "Sa' Sa' Ni Sa' Ni Dha Dha"
+        },
+        {
+          "lyrics": "Dekh ke tum",
+          "indian": "Ni Ni Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Jaane jahaan sharma gae",
+          "indian": "Dha Dha Pa Dha Pa ma Ga ma Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Abhi to ye pahali",
+          "indian": "Sa' Sa' Ni Sa' Ni Dha Dha"
+        },
+        {
+          "lyrics": "Manzil hai",
+          "indian": "Ni Ni Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Tum to abhi se ghabaraa gae",
+          "indian": "Dha Dha Pa Dha Pa ma Ga ma Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Mera kya hogaa",
+          "indian": "Dha Ni Sa' Ga': Dha Ni Sa':"
+        },
+        {
+          "lyrics": "Socho to zara",
+          "indian": "Ni Sa' Re': Ni Dha Ni Dha Pa: Dha Pa Ga."
+        },
+        {
+          "lyrics": "Haay aise naa",
+          "indian": "Re Ga Ga Pa Pa Dha"
+        },
+        {
+          "lyrics": "Aanhen bharaa kijiye",
+          "indian": "Ni Ni Pa Ni Ni Pa Dha"
+        },
+        {
+          "lyrics": "O mere",
+          "indian": "Dha Pa Dha:"
+        },
+        {
+          "lyrics": "Dil ke chain",
+          "indian": "Dha Pa Dha Pa Ga: ma Ga Re."
+        },
+        {
+          "lyrics": "Chain aae mere",
+          "indian": "Re Ga Ga Pa Pa Dha"
+        },
+        {
+          "lyrics": "Dil ko duaa kijiye",
+          "indian": "Ni Ni Pa Ni Ni Pa Dha"
+        }
+      ]
+    }
+  ],
+  "description": "This evergreen romantic ballad is a quintessential Kishore Kumar masterpiece, showcasing his unparalleled ability to convey deep emotion with effortless charm. Composed by the legendary R.D. Burman, its catchy melody and distinctive rhythm have made it an enduring favorite across generations. The song perfectly encapsulates the mood of yearning and affection, making it a timeless classic of Hindi cinema.",
+  "trivia": [
+    "The song was picturised on the superstar Rajesh Khanna, who often lip-synced to Kishore Kumar's voice, forming one of Hindi cinema's most iconic actor-singer duos.",
+    "R.D. Burman's composition for 'O Mere Dil Ke Chain' is noted for its unique blend of Western instrumentation and Indian melodic sensibilities, a hallmark of his innovative style.",
+    "Despite the film 'Mere Jeevan Saathi' not being a major box office success, its soundtrack, particularly this song, became immensely popular and remains a classic.",
+    "The song's opening guitar riff and the distinctive 'cha-cha-cha' rhythm section are instantly recognizable and contribute significantly to its enduring appeal."
+  ],
+  "musicxml": "musicxml/o-mere-dil-ke-chain.musicxml"
+}
