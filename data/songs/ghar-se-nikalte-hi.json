@@ -11,66 +11,111 @@
   "background": "images/ghar-se-nikalte-hi.png",
   "sections": [
     {
-      "name": "Intro",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Instrumental",
-          "indian": "Sa Re Ga ma | Ga Re Sa"
-        }
-      ]
-    },
-    {
-      "name": "Mukhda",
-      "lines": [
-        {
-          "lyrics": "Ghar se nikalte hi",
-          "indian": "Sa Re Ga ma | Pa ma Ga Re"
+          "lyrics": "Ghar see nikaltee hii",
+          "indian": "ni Sa dha ni Sa: ni Re Sa"
         },
         {
-          "lyrics": "Kuch door chalte hi",
-          "indian": "Sa Re Ga ma | Pa Dha Pa ma"
+          "lyrics": "Kuch door chaltee hii",
+          "indian": "Ga Ga Ga Pa Re: ni Re Sa"
         },
         {
-          "lyrics": "Raste mein hai uska ghar",
-          "indian": "ma Pa Dha Ni | Dha Pa ma Ga | Re Sa"
-        }
-      ]
-    },
-    {
-      "name": "Mukhda Repeat",
-      "lines": [
-        {
-          "lyrics": "Kal subah dekha to",
-          "indian": "Sa Re Ga ma | Pa ma Ga Re"
+          "lyrics": "Rastee main haii uskaa gharr",
+          "indian": "Pa Pa Sa' Ni Pa: Re Re Re Ga"
         },
         {
-          "lyrics": "Baal banaati woh",
-          "indian": "Sa Re Ga ma | Pa Dha Pa ma"
+          "lyrics": "Pehlii dafaa mainee",
+          "indian": "ni Sa dha ni Sa: ni Re Sa"
         },
         {
-          "lyrics": "Khidki mein aayi nazar",
-          "indian": "ma Pa Dha Ni | Sa' Ni Dha Pa | ma Ga Re Sa"
-        }
-      ]
-    },
-    {
-      "name": "Antara",
-      "lines": [
-        {
-          "lyrics": "Masoom chehra neechi nigahein",
-          "indian": "Ga ma Pa Dha | Ni Dha Pa ma | Ga ma Pa Dha | Ni Sa'"
+          "lyrics": "Jab uskoo dekha thaa",
+          "indian": "Ga Ga Ga Pa Re: ni Re Sa"
         },
         {
-          "lyrics": "Bholi si ladki bholi adaayein",
-          "indian": "Sa' Ni Dha Pa | ma Ga Re Sa | Re Ga ma Pa | Dha Pa ma"
+          "lyrics": "Saanse gayii yeh theharee",
+          "indian": "Pa Pa Sa' Ni Pa: Re Pa ma Ga"
         },
         {
-          "lyrics": "Na apsara hai na woh pari hai",
-          "indian": "Ga ma Pa Dha | Ni Sa' Ni Dha | Pa ma Ga Re | Sa"
+          "lyrics": "Rehtii hai dil mein meree",
+          "indian": "Re Ga Pa Ga Sa ni Re:"
         },
         {
-          "lyrics": "Lekin yeh uski jaadugari hai",
-          "indian": "Re Ga ma Pa | Dha Ni Sa' | Ni Dha Pa ma | Ga Re Sa"
+          "lyrics": "Kaisee bataaun usee",
+          "indian": "Re Ga Pa Ga Sa ni Sa:"
+        },
+        {
+          "lyrics": "Main toh nahii keh sakhaa",
+          "indian": "Re Ga Pa Ga Sa ni Re:"
+        },
+        {
+          "lyrics": "Koii batadee usee",
+          "indian": "Re Ga Pa Ga Sa ni Sa:"
+        },
+        {
+          "lyrics": "Ghar see nikaltee hii",
+          "indian": "ni Sa dha ni Sa: ni Re Sa"
+        },
+        {
+          "lyrics": "Kuch door chaltee hii",
+          "indian": "Ga Ga Ga Pa Re: ni Re Sa"
+        },
+        {
+          "lyrics": "Rastee main haii uskaa gharr",
+          "indian": "Pa Pa Sa' Ni Pa: Re Re Re Ga"
+        },
+        {
+          "lyrics": "Uskii gali mein haii dhalii",
+          "indian": "Ga Pa Ga Pa Ga Pa Ga Pa"
+        },
+        {
+          "lyrics": "Kitni hii shaamein merii",
+          "indian": "dha Sa dha Re Re Sa Ga"
+        },
+        {
+          "lyrics": "Kedhee kabhi woh joo mujhee",
+          "indian": "Ga Pa Ga Pa Ga Pa Dha Pa"
+        },
+        {
+          "lyrics": "Khush hoon main itnee main hii",
+          "indian": "dha Sa dha Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Mainee tareeke sauu aazmaaye",
+          "indian": "Ga ma Dha Dha: Dha Ga ma Dha Pa: Pa"
+        },
+        {
+          "lyrics": "Jaake useey naa kuch bol paayee",
+          "indian": "Ga ma Dha Dha: Dha Ni Ni Sa' Dha Ga ma Dha Pa: Pa"
+        },
+        {
+          "lyrics": "Baithee rahee hum raat bharr",
+          "indian": "Ma Ma Ma Ma Pa Re Pa ma Ga"
+        },
+        {
+          "lyrics": "Joo paas jaata hoon",
+          "indian": "ni Sa dha ni Sa: ni Re Sa"
+        },
+        {
+          "lyrics": "Sab bhool jaataa hoon",
+          "indian": "Ga Ga Ga Pa Re: ni Re Sa"
+        },
+        {
+          "lyrics": "Miltii yeh jab yehh nazarr",
+          "indian": "Pa Pa Sa' Ni Pa: Re Re Re Ga"
+        },
+        {
+          "lyrics": "Ghar see nikaltee hii",
+          "indian": "ni Sa dha ni Sa: ni Re Sa"
+        },
+        {
+          "lyrics": "Kuch door chaltee hii",
+          "indian": "Ga Ga Ga Pa Re: ni Re Sa"
+        },
+        {
+          "lyrics": "Rastee mein haii uskaa gharr",
+          "indian": "Pa Pa Sa' Ni Pa: Re Re Re Ga"
         }
       ]
     }
