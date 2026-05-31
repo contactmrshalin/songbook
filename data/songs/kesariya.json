@@ -1,0 +1,257 @@
+{
+  "id": "kesariya",
+  "title": "Kesariya",
+  "export": true,
+  "info": [
+    "Film/Artist: Brahmastra",
+    "Scale: C BASS/MIDDLE",
+    "Singer: Arijit Singh",
+    "Music: Pritam",
+    "Lyrics: Amitabh Bhattacharya"
+  ],
+  "thumbnail": "images/kesariya.jpg",
+  "background": "images/kesariya.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Mujhko",
+          "indian": "Pa Pa: Ga: .m Ga Re"
+        },
+        {
+          "lyrics": "Itna bataye koi",
+          "indian": "Re Ga ma Ga Re: Sa: ni Sa:"
+        },
+        {
+          "lyrics": "Kaise tujhse",
+          "indian": "pa dha Pa Pa: Ga: .m Ga Re"
+        },
+        {
+          "lyrics": "Dil na lagaye koi",
+          "indian": "Re Ga ma Ga Re: Sa: ni Sa:"
+        },
+        {
+          "lyrics": "Rabba ne tujhko banaane me",
+          "indian": "Sa Re Re Ga: Pa Pa ma Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Kar di hain husn ki",
+          "indian": "Pa Pa ma Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Khaali tijoriyan",
+          "indian": "Pa ma Ga Re Sa Re:"
+        },
+        {
+          "lyrics": "Kaajal ki syaahi se likhi hai",
+          "indian": "Sa Re Re Ga: Pa ma Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Tune jaane",
+          "indian": "Pa ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Kitno ki love story’an",
+          "indian": "pa dha Sa Sa Re Ga Ga Ga ma Ga Re"
+        },
+        {
+          "lyrics": "Kesariya tera",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Ishq hai piya",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rang jaaun jo main",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Haath lagau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Din beete saara",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Teri fikr mein",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rain saari teri",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Khair manau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa: .n pa"
+        },
+        {
+          "lyrics": "Kesariya tera",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Ishq hai piya",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rang jaaun jo main",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Haath lagau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Din beete saara",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Teri fikr mein",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rain saari teri",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Khair manau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa: .n Re:"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Patjhad ke mausam mein bhi",
+          "indian": "Ga Ga Pa Ga Sa Re Re Re"
+        },
+        {
+          "lyrics": "Rangi chanaron jaisi",
+          "indian": "Re Re ma Ga Re Ga Ga Ga"
+        },
+        {
+          "lyrics": "Jhanke sannnaton mein tu",
+          "indian": "Ga Ga Pa Ga Sa Re Re Re"
+        },
+        {
+          "lyrics": "Veena ke taaron jaisi",
+          "indian": "Re Re ma Ga Re Ga Ga Ga"
+        },
+        {
+          "lyrics": "Sadiyo se bhi lambi ye",
+          "indian": "Ga Ga Pa Ga Sa Re Re Re"
+        },
+        {
+          "lyrics": "Mann ki amavase hain",
+          "indian": "Re Re ma Ga Re Ga Ga Ga"
+        },
+        {
+          "lyrics": "Aur tu phuljadiyon waale",
+          "indian": "Ga Ga Pa Ga Sa Re Re Re"
+        },
+        {
+          "lyrics": "Tyohaaron jaisi",
+          "indian": "Re Re ma Ga Re Ga"
+        },
+        {
+          "lyrics": "Chanda bhi deewana hai tera",
+          "indian": "Sa Re Re Ga: Pa Pa ma Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Jalti hai tujhse",
+          "indian": "Pa Pa ma Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Sari chakoriyan",
+          "indian": "Pa ma Ga Re Sa Re:"
+        },
+        {
+          "lyrics": "Kaajal ki syaahi se likhi",
+          "indian": "Sa Re Re Ga: Pa ma Ga Re Sa Re Ga:"
+        },
+        {
+          "lyrics": "Hai tune jaane",
+          "indian": "Pa ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Kitno ki love story’an",
+          "indian": "pa dha Sa Sa Re Ga Ga Ga ma Ga Re"
+        },
+        {
+          "lyrics": "Kesariya tera",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Ishq hai piya",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rang jaaun jo main",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Haath lagau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Din beete saara",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Teri fikr mein",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rain saari teri",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Khair manau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa: .n pa"
+        },
+        {
+          "lyrics": "Kesariya tera",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Ishq hai piya",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rang jaaun jo main",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Haath lagau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Din beete saara",
+          "indian": "Sa: Ga Re Ga Re Sa: ni"
+        },
+        {
+          "lyrics": "Teri fikr mein",
+          "indian": "Pa Pa Pa Dha Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Rain saari teri",
+          "indian": "Re Re ni ni Re Re Re"
+        },
+        {
+          "lyrics": "Khair manau",
+          "indian": "ni Re Ga ma Re Ga: Re Sa: .n Re:"
+        }
+      ]
+    }
+  ],
+  "description": "Kesariya is a soulful romantic ballad that became an instant anthem for love, capturing hearts with its tender melody and Arijit Singh's emotive vocals. The song beautifully encapsulates the film's theme of an eternal connection, painting a vivid picture of devotion and longing. Its gentle orchestration and heartfelt lyrics create an immersive and deeply moving listening experience.",
+  "trivia": [
+    "The song was an unprecedented success, topping charts across various platforms and becoming one of the most streamed Indian songs of 2022.",
+    "Initially, a short phrase 'Love Storiya' in the song's hook drew some online criticism, but it quickly faded as the song's overall popularity soared.",
+    "The music video, featuring lead actors Ranbir Kapoor and Alia Bhatt, was shot against the picturesque backdrop of Varanasi, adding to the song's visual appeal and romantic ambiance.",
+    "Pritam's composition for Kesariya is characterized by its simple yet profound melody, which perfectly complements Amitabh Bhattacharya's poetic lyrics about the color of love and devotion."
+  ],
+  "musicxml": "musicxml/kesariya.musicxml"
+}
