@@ -5,6 +5,8 @@ Scrape song notations from web pages and generate songs/<id>.json files.
 
 Supported sites:
   - notationsworld.com (primary)
+  - notesandsargam.com
+  - sangeetbook.com (English Lyrics section with Hindi sargam notation)
   - Generic pages with alternating lyrics / sargam-notation lines
 
 Usage:
@@ -178,6 +180,58 @@ def notesandsargam_html_to_lines(raw_html: str) -> List[str]:
     lines = [l.strip() for l in body.split("\n")]
     return [l for l in lines if l and l != "================"]
 
+def sangeetbook_html_to_lines(raw_html: str) -> List[str]:
+    """
+    Extract text lines from sangeetbook.com pages (English Lyrics section).
+
+    These pages have both Hindi and English lyrics sections. We extract
+    only the "English Lyrics" section which pairs romanized lyrics with
+    Hindi sargam notation (Devanagari).
+    """
+    body = raw_html
+
+    # Find the "English Lyrics" section heading
+    anchor = re.search(r"<h3[^>]*>\s*English\s+Lyrics\s*[-–]?\s*</h3>", body, re.IGNORECASE)
+    if not anchor:
+        # Fallback: look for a generic marker
+        anchor = re.search(r"English\s+Lyrics\s*[-–]", body, re.IGNORECASE)
+    if anchor:
+        body = body[anchor.end():]
+
+    # Trim at common end markers
+    cut_patterns = [
+        r"Install\s+Free\s+Sangeet\s+Book\s+App",
+        r"REVIEW\s+OVERVIEW",
+        r"LEAVE\s+A\s+REPLY",
+        r"TAGS\s*<",
+        r'class="td-post-sharing"',
+        r"<footer",
+    ]
+    for pat in cut_patterns:
+        m = re.search(pat, body, re.IGNORECASE)
+        if m:
+            body = body[:m.start()]
+            break
+
+    # Remove scripts, styles, nav, sidebars
+    body = re.sub(r"<script[^>]*>.*?</script>", "", body, flags=re.DOTALL)
+    body = re.sub(r"<style[^>]*>.*?</style>", "", body, flags=re.DOTALL)
+    body = re.sub(r"<nav[^>]*>.*?</nav>", "", body, flags=re.DOTALL)
+
+    # Preserve line boundaries
+    body = re.sub(r"<br\s*/?>", "\n", body)
+    body = re.sub(r"</p>", "\n", body)
+    body = re.sub(r"</li>", "\n", body)
+    body = re.sub(r"</h[1-6]>", "\n", body)
+    body = re.sub(r"<h[1-6][^>]*>", "\n", body)
+    body = re.sub(r"</div>", "\n", body)
+
+    body = re.sub(r"<[^>]+>", "", body)
+    body = html_mod.unescape(body)
+
+    lines = [l.strip() for l in body.split("\n")]
+    return [l for l in lines if l]
+
 def extract_title_from_html(raw_html: str) -> str:
     """Extract page <title> from HTML."""
     m = re.search(r"<title[^>]*>(.*?)</title>", raw_html, re.DOTALL)
@@ -196,6 +250,12 @@ def extract_title_from_html(raw_html: str) -> str:
 
 # Common sargam tokens in letter notation
 _SARGAM_LETTERS = set("SRGmMPDNrgdn")
+
+# Hindi (Devanagari) sargam tokens for sangeetbook.com
+_HINDI_SARGAM_TOKENS = {"सा", "रे", "ग", "म", "प", "ध", "नि"}
+_HINDI_SARGAM_RE = re.compile(
+    r"(?:सा|रे|ग|म|प|ध|नि|सां|रें|गं|मं|पं|धं|निं)"
+)
 
 # Regex for detecting sargam/notation lines (letter-style)
 _SARGAM_LINE_RE = re.compile(
@@ -241,6 +301,19 @@ _SKIP_PATTERNS = [
     re.compile(r"^\s*(Movie|Lyricist|Singers?|Music\s*Director|Music|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:", re.IGNORECASE),
     # Scale info line (we extract this separately in metadata)
     re.compile(r"^\s*SCALE\s+(OF\s+)?(THE\s+)?(FLUTE|SONG)\s+IS", re.IGNORECASE),
+    # sangeetbook.com boilerplate
+    re.compile(r"^\s*Install\s+Free\s+Sangeet\s+Book\s+App", re.IGNORECASE),
+    re.compile(r"^\s*How\s+to\s+Play\b.*\bon\s+Harmonium", re.IGNORECASE),
+    re.compile(r"^\s*How\s+To\s+Read\s+Sargam\s+Notes", re.IGNORECASE),
+    re.compile(r"^\s*Original\s+Scale", re.IGNORECASE),
+    re.compile(r"^\s*Vikrit\s+swar", re.IGNORECASE),
+    re.compile(r"^\s*Rhythm\s*[-–]", re.IGNORECASE),
+    re.compile(r"^\s*Music\s+Details", re.IGNORECASE),
+    re.compile(r"^\s*Video\s*[-–]?\s*$", re.IGNORECASE),
+    re.compile(r"^\s*REVIEW\s+OVERVIEW", re.IGNORECASE),
+    re.compile(r"^\s*OVERALL\s+SCORE", re.IGNORECASE),
+    re.compile(r"^\s*SUMMARY\b", re.IGNORECASE),
+    re.compile(r"उपर्युक्त\s+पंक्ति\s+के\s+समान", re.IGNORECASE),
 ]
 
 def _is_prose_paragraph(line: str) -> bool:
@@ -312,6 +385,22 @@ def _is_sargam_line(line: str) -> bool:
         if len(tokens) >= 3:
             return True
 
+    # sangeetbook.com Hindi sargam notation (Devanagari):
+    # e.g. "ग(k) रे / सा – सा / सा सा सा / सा रे / (सा).नि(k) – / रे – रे –"
+    hindi_matches = _HINDI_SARGAM_RE.findall(t)
+    if len(hindi_matches) >= 2:
+        # Verify it's mostly sargam by checking ratio of Hindi sargam chars
+        # to total Devanagari characters (reject pure Hindi lyrics)
+        devanagari_chars = re.findall(r"[\u0900-\u097F]", t)
+        if devanagari_chars:
+            # Check if the line contains "/" separators (strong indicator of notation)
+            if "/" in t and len(hindi_matches) >= 2:
+                return True
+            # Or if the ratio of sargam-related Devanagari is high
+            sargam_char_count = sum(len(m) for m in hindi_matches)
+            if sargam_char_count / len(devanagari_chars) >= 0.6 and len(hindi_matches) >= 3:
+                return True
+
     return False
 
 def _is_lyrics_line(line: str) -> bool:
@@ -328,7 +417,7 @@ def _is_section_header(line: str) -> bool:
     """Detect section markers like INTRO, MUKHDA, ANTARA, INTERLUDE, REPEAT, etc."""
     t = line.strip().upper()
     section_words = {
-        "INTRO", "INTRODUCTION", "MUKHDA", "MUKHRA", "STHAYI",
+        "INTRO", "INTRODUCTION", "MUKHDA", "MUKHRA", "STHAYI", "STHAI",
         "ANTARA", "ANTARAA", "INTERLUDE", "OUTRO", "CHORUS",
         "REPEAT", "HUMMING", "PRELUDE", "SARGAM",
     }
@@ -336,9 +425,13 @@ def _is_section_header(line: str) -> bool:
     cleaned = re.sub(r"[:\-–—\s]+$", "", t).strip()
     if cleaned in section_words:
         return True
-    # Also match patterns like "ANTARA 1", "CHORUS 2"
-    m = re.match(r"^(\w+)\s*\d*$", cleaned)
+    # Also match patterns like "ANTARA 1", "CHORUS 2", "STANZA – 1"
+    m = re.match(r"^(\w+)\s*[-–]?\s*\d*$", cleaned)
     if m and m.group(1) in section_words:
+        return True
+    # sangeetbook.com uses "Stanza – 1", "Stanza – 2" for antaras
+    m = re.match(r"^STANZA\s*[-–]?\s*\d*$", cleaned)
+    if m:
         return True
     return False
 
@@ -553,6 +646,92 @@ def _extract_metadata(title: str, lines: List[str]) -> Tuple[str, List[str]]:
 # Main extraction pipeline
 # ---------------------------------------------------------------------------
 
+def _extract_sangeetbook_metadata(raw_html: str, page_title: str) -> Tuple[str, List[str]]:
+    """
+    Extract metadata from sangeetbook.com pages.
+
+    These pages have structured metadata like:
+      Song : Tere Vaaste
+      Singer – Varun Jain, Sachin-Jigar
+      Music – Sachin-Jigar
+      Lyrics – Amitabh Bhattacharya
+      Movie : Zara Hatke Zara Bachke
+      Original Scale – Gm
+    """
+    info: List[str] = []
+
+    # Clean the title: remove "Sargam Notes In Hindi-..." suffix
+    clean_title = page_title.strip()
+    for suffix_pat in [
+        r"\s*[-–]\s*Sargam\s+Notes\s+In\s+Hindi.*$",
+        r"\s+Sargam\s+Notes\s+In\s+Hindi.*$",
+        r"\s+Sargam\s+Notes.*$",
+    ]:
+        cleaned = re.sub(suffix_pat, "", clean_title, flags=re.IGNORECASE).strip()
+        if cleaned != clean_title:
+            clean_title = cleaned
+            break
+
+    # Extract structured metadata from the HTML (look for text in <p> or <strong> tags)
+    # Use a cleaned text version for metadata to avoid partial HTML
+    meta_body = raw_html
+    # Narrow to article content area if possible
+    article_m = re.search(r'<div class="td-post-content[^"]*"[^>]*>(.*?)</div>\s*(?:<div class="td-post-sharing|<footer)', meta_body, re.DOTALL)
+    if not article_m:
+        article_m = re.search(r'<article[^>]*>(.*?)</article>', meta_body, re.DOTALL)
+    if article_m:
+        meta_body = article_m.group(1)
+
+    # Strip tags for metadata extraction
+    meta_text = re.sub(r"<[^>]+>", " ", meta_body)
+    meta_text = html_mod.unescape(meta_text)
+    meta_text = re.sub(r"\s+", " ", meta_text)
+
+    # Song name
+    m = re.search(r"Song\s*:\s*([^\n]+?)(?:\s{2,}|Singer|Music|Lyrics|Movie|$)", meta_text)
+    if m:
+        song_name = m.group(1).strip()
+        if song_name and len(song_name) < 100:
+            clean_title = song_name
+
+    # Singer
+    m = re.search(r"Singer\s*[-–:]\s*([^\n]+?)(?:\s{2,}|Music|Lyrics|Movie|Release|$)", meta_text)
+    if m:
+        singer = m.group(1).strip()
+        if singer and len(singer) < 200:
+            info.append(f"Singer: {singer}")
+
+    # Music
+    m = re.search(r"Music\s*[-–:]\s*([^\n]+?)(?:\s{2,}|Lyrics|Movie|Release|$)", meta_text)
+    if m:
+        music = m.group(1).strip()
+        if music and len(music) < 100:
+            info.append(f"Music: {music}")
+
+    # Lyricist
+    m = re.search(r"Lyrics\s*[-–:]\s*([^\n]+?)(?:\s{2,}|Movie|Release|$)", meta_text)
+    if m:
+        lyricist = m.group(1).strip()
+        if lyricist and len(lyricist) < 100:
+            info.append(f"Lyricist: {lyricist}")
+
+    # Movie
+    m = re.search(r"Movie\s*:\s*([^\n]+?)(?:\s{2,}|Release|Singer|Scale|$)", meta_text)
+    if m:
+        movie = m.group(1).strip().replace("\xa0", " ").strip()
+        if movie and len(movie) < 100:
+            info.append(f"Movie: {movie}")
+
+    # Original Scale
+    m = re.search(r"Original\s+Scale\s*[-–:]\s*(\w+)", meta_text)
+    if m:
+        scale = m.group(1).strip()
+        if scale:
+            info.append(f"Scale: {scale}")
+
+    return clean_title, info
+
+
 def extract_song_from_url(
     url: str,
     *,
@@ -569,12 +748,21 @@ def extract_song_from_url(
 
     host = (urlparse(url).netloc or "").lower()
     is_notesandsargam = "notesandsargam.com" in host
+    is_sangeetbook = "sangeetbook.com" in host
 
     page_title = extract_title_from_html(raw_html)
-    lines = notesandsargam_html_to_lines(raw_html) if is_notesandsargam else html_to_lines(raw_html)
+    if is_sangeetbook:
+        lines = sangeetbook_html_to_lines(raw_html)
+    elif is_notesandsargam:
+        lines = notesandsargam_html_to_lines(raw_html)
+    else:
+        lines = html_to_lines(raw_html)
 
     # Extract metadata
-    title, info = _extract_metadata(page_title, lines)
+    if is_sangeetbook:
+        title, info = _extract_sangeetbook_metadata(raw_html, page_title)
+    else:
+        title, info = _extract_metadata(page_title, lines)
 
     # Override with explicit args if provided
     if song_title:
@@ -587,7 +775,31 @@ def extract_song_from_url(
 
     # Filter out boilerplate lines
     content_lines = []
-    if is_notesandsargam:
+    if is_sangeetbook:
+        # sangeetbook.com English Lyrics section: find section headers and notation
+        start_idx = None
+        for idx, line in enumerate(lines):
+            if _is_section_header(line):
+                start_idx = idx
+                break
+        if start_idx is None:
+            for idx, line in enumerate(lines):
+                if _is_sargam_line(line):
+                    start_idx = max(0, idx - 1) if idx > 0 and _is_lyrics_line(lines[idx - 1]) else idx
+                    break
+        scan_lines = lines[start_idx:] if start_idx is not None else lines
+        for line in scan_lines:
+            if _is_skip_line(line):
+                continue
+            if _is_prose_paragraph(line):
+                continue
+            # Skip "same as ..." reference lines
+            if re.search(r"\.\.\.\s*same\s+as\b", line, re.IGNORECASE):
+                continue
+            if re.search(r"उपर्युक्त\s+पंक्ति\s+के\s+समान", line):
+                continue
+            content_lines.append(line)
+    elif is_notesandsargam:
         # Start from first section marker (MUKHDA/ANTARA/INTERLUDE) to skip intro metadata.
         start_idx = None
         for idx, line in enumerate(lines):
@@ -627,11 +839,11 @@ def extract_song_from_url(
                 content_lines.append(line)
 
     # Pair lyrics and notation lines.
-    # Keep symbolic notation for notesandsargam pages where case/prefix/suffix
-    # convey pitch and swar semantics.
+    # Keep symbolic notation for notesandsargam/sangeetbook pages where
+    # case/prefix/suffix convey pitch and swar semantics.
     sections = _pair_lyrics_and_notation(
         content_lines,
-        keep_symbolic=is_notesandsargam,
+        keep_symbolic=(is_notesandsargam or is_sangeetbook),
     )
 
     # Add western notation to every line using the shared mapping.

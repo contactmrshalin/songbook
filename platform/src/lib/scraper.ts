@@ -2,7 +2,7 @@
  * Song notation scraper — TypeScript port of scripts/scrape_notation_url.py
  *
  * Scrapes song notations from web pages (notationsworld.com, notesandsargam.com,
- * and generic pages with alternating lyrics / sargam lines).
+ * sangeetbook.com, and generic pages with alternating lyrics / sargam lines).
  *
  * Runs server-side only (API routes).
  */
@@ -222,6 +222,60 @@ function notesandsargamHtmlToLines(rawHtml: string): string[] {
     .filter((l) => l && l !== "================");
 }
 
+function sangeetbookHtmlToLines(rawHtml: string): string[] {
+  let body = rawHtml;
+
+  // Find the "English Lyrics" section heading
+  const anchorMatch = body.match(/<h3[^>]*>\s*English\s+Lyrics\s*[-–]?\s*<\/h3>/i);
+  if (anchorMatch && anchorMatch.index !== undefined) {
+    body = body.slice(anchorMatch.index + anchorMatch[0].length);
+  } else {
+    const fallback = body.match(/English\s+Lyrics\s*[-–]/i);
+    if (fallback && fallback.index !== undefined) {
+      body = body.slice(fallback.index + fallback[0].length);
+    }
+  }
+
+  // Trim at common end markers
+  const cutPatterns = [
+    /Install\s+Free\s+Sangeet\s+Book\s+App/i,
+    /REVIEW\s+OVERVIEW/i,
+    /LEAVE\s+A\s+REPLY/i,
+    /TAGS\s*</i,
+    /class="td-post-sharing"/i,
+    /<footer/i,
+  ];
+  for (const pat of cutPatterns) {
+    const m = body.match(pat);
+    if (m && m.index !== undefined) {
+      body = body.slice(0, m.index);
+      break;
+    }
+  }
+
+  // Remove scripts, styles, nav
+  body = body.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "");
+  body = body.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "");
+  body = body.replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, "");
+
+  // Block elements → newlines
+  body = body.replace(/<br\s*\/?>/gi, "\n");
+  body = body.replace(/<\/p>/gi, "\n");
+  body = body.replace(/<\/li>/gi, "\n");
+  body = body.replace(/<\/h[1-6]>/gi, "\n");
+  body = body.replace(/<h[1-6][^>]*>/gi, "\n");
+  body = body.replace(/<\/div>/gi, "\n");
+
+  // Strip remaining tags
+  body = body.replace(/<[^>]+>/g, "");
+  body = unescapeHtml(body);
+
+  return body
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(Boolean);
+}
+
 function extractTitleFromHtml(rawHtml: string): string {
   const m = rawHtml.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
   if (m) {
@@ -243,6 +297,9 @@ function extractTitleFromHtml(rawHtml: string): string {
 // ---------------------------------------------------------------------------
 
 const SARGAM_LETTERS = new Set("SRGmMPDNrgdn".split(""));
+
+// Hindi (Devanagari) sargam regex for sangeetbook.com
+const HINDI_SARGAM_RE = /(?:सा|रे|ग|म|प|ध|नि|सां|रें|गं|मं|पं|धं|निं)/g;
 
 const SKIP_PATTERNS: RegExp[] = [
   /^\s*(Also Read|You May Also Like|Categories|Tags)\b/i,
@@ -275,6 +332,19 @@ const SKIP_PATTERNS: RegExp[] = [
   /^\s*(Movie|Lyricist|Singers?|Music\s*Director|Music|Raag|Scale|Pitch|Flute\s+used\s+for\s+notations)\s*:/i,
   /^\s*Sargam\s+for\s+Song\s*:/i,
   /^\s*SCALE\s+(OF\s+)?(THE\s+)?(FLUTE|SONG)\s+IS/i,
+  // sangeetbook.com boilerplate
+  /^\s*Install\s+Free\s+Sangeet\s+Book\s+App/i,
+  /^\s*How\s+to\s+Play\b.*\bon\s+Harmonium/i,
+  /^\s*How\s+To\s+Read\s+Sargam\s+Notes/i,
+  /^\s*Original\s+Scale/i,
+  /^\s*Vikrit\s+swar/i,
+  /^\s*Rhythm\s*[-–]/i,
+  /^\s*Music\s+Details/i,
+  /^\s*Video\s*[-–]?\s*$/i,
+  /^\s*REVIEW\s+OVERVIEW/i,
+  /^\s*OVERALL\s+SCORE/i,
+  /^\s*SUMMARY\b/i,
+  /उपर्युक्त\s+पंक्ति\s+के\s+समान/,
 ];
 
 function isSkipLine(line: string): boolean {
@@ -321,6 +391,21 @@ function isSargamLine(line: string): boolean {
     if (tokens && tokens.length >= 3) return true;
   }
 
+  // sangeetbook.com Hindi (Devanagari) sargam notation:
+  // e.g. "ग(k) रे / सा – सा / सा सा सा / सा रे / (सा).नि(k) – / रे – रे –"
+  const hindiMatches = t.match(HINDI_SARGAM_RE) || [];
+  if (hindiMatches.length >= 2) {
+    const devanagariChars = t.match(/[\u0900-\u097F]/g) || [];
+    if (devanagariChars.length > 0) {
+      // "/" separators are a strong indicator of notation on sangeetbook
+      if (t.includes("/") && hindiMatches.length >= 2) return true;
+      // High ratio of sargam-related Devanagari
+      const sargamCharCount = hindiMatches.reduce((a, m) => a + m.length, 0);
+      if (sargamCharCount / devanagariChars.length >= 0.6 && hindiMatches.length >= 3)
+        return true;
+    }
+  }
+
   return false;
 }
 
@@ -339,6 +424,7 @@ function isSectionHeader(line: string): boolean {
     "MUKHDA",
     "MUKHRA",
     "STHAYI",
+    "STHAI",
     "ANTARA",
     "ANTARAA",
     "INTERLUDE",
@@ -351,8 +437,10 @@ function isSectionHeader(line: string): boolean {
   ]);
   const cleaned = t.replace(/[:\-–—\s]+$/, "").trim();
   if (SECTION_WORDS.has(cleaned)) return true;
-  const m = cleaned.match(/^(\w+)\s*\d*$/);
+  const m = cleaned.match(/^(\w+)\s*[-–]?\s*\d*$/);
   if (m && SECTION_WORDS.has(m[1])) return true;
+  // sangeetbook.com uses "Stanza – 1", "Stanza – 2" for antaras
+  if (/^STANZA\s*[-–]?\s*\d*$/.test(cleaned)) return true;
   return false;
 }
 
@@ -571,6 +659,81 @@ function extractMetadata(
   return { cleanTitle, info };
 }
 
+function extractSangeetbookMetadata(
+  rawHtml: string,
+  pageTitle: string
+): { cleanTitle: string; info: string[] } {
+  const info: string[] = [];
+
+  // Clean the title: remove "Sargam Notes In Hindi-..." suffix
+  let cleanTitle = pageTitle.trim();
+  const suffixPatterns = [
+    /\s*[-–]\s*Sargam\s+Notes\s+In\s+Hindi.*$/i,
+    /\s+Sargam\s+Notes\s+In\s+Hindi.*$/i,
+    /\s+Sargam\s+Notes.*$/i,
+  ];
+  for (const pat of suffixPatterns) {
+    const cleaned = cleanTitle.replace(pat, "").trim();
+    if (cleaned !== cleanTitle) {
+      cleanTitle = cleaned;
+      break;
+    }
+  }
+
+  // Strip HTML to plain text for metadata extraction
+  let metaBody = rawHtml;
+  const articleMatch =
+    metaBody.match(/<div class="td-post-content[^"]*"[^>]*>([\s\S]*?)<\/div>\s*(?:<div class="td-post-sharing|<footer)/i) ||
+    metaBody.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
+  if (articleMatch) metaBody = articleMatch[1];
+
+  const metaText = unescapeHtml(metaBody.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ");
+
+  // Song name
+  const songMatch = metaText.match(/Song\s*:\s*([^\n]+?)(?:\s{2,}|Singer|Music|Lyrics|Movie|$)/);
+  if (songMatch) {
+    const songName = songMatch[1].trim();
+    if (songName && songName.length < 100) cleanTitle = songName;
+  }
+
+  // Singer
+  const singerMatch = metaText.match(/Singer\s*[-–:]\s*([^\n]+?)(?:\s{2,}|Music|Lyrics|Movie|Release|$)/);
+  if (singerMatch) {
+    const singer = singerMatch[1].trim();
+    if (singer && singer.length < 200) info.push(`Singer: ${singer}`);
+  }
+
+  // Music
+  const musicMatch = metaText.match(/Music\s*[-–:]\s*([^\n]+?)(?:\s{2,}|Lyrics|Movie|Release|$)/);
+  if (musicMatch) {
+    const music = musicMatch[1].trim();
+    if (music && music.length < 100) info.push(`Music: ${music}`);
+  }
+
+  // Lyrics
+  const lyricsMatch = metaText.match(/Lyrics\s*[-–:]\s*([^\n]+?)(?:\s{2,}|Movie|Release|$)/);
+  if (lyricsMatch) {
+    const lyricist = lyricsMatch[1].trim();
+    if (lyricist && lyricist.length < 100) info.push(`Lyricist: ${lyricist}`);
+  }
+
+  // Movie
+  const movieMatch = metaText.match(/Movie\s*:\s*([^\n]+?)(?:\s{2,}|Release|Singer|Scale|$)/);
+  if (movieMatch) {
+    const movie = movieMatch[1].trim().replace(/\u00a0/g, " ").trim();
+    if (movie && movie.length < 100) info.push(`Movie: ${movie}`);
+  }
+
+  // Original Scale
+  const scaleMatch = metaText.match(/Original\s+Scale\s*[-–:]\s*(\w+)/);
+  if (scaleMatch) {
+    const scale = scaleMatch[1].trim();
+    if (scale) info.push(`Scale: ${scale}`);
+  }
+
+  return { cleanTitle, info };
+}
+
 // ---------------------------------------------------------------------------
 // Pair lyrics & notation
 // ---------------------------------------------------------------------------
@@ -650,13 +813,25 @@ export async function extractSongFromUrl(
   const rawHtml = await fetchHtml(url);
   const host = new URL(url).hostname.toLowerCase();
   const isNotesAndSargam = host.includes("notesandsargam.com");
+  const isSangeetbook = host.includes("sangeetbook.com");
 
   const pageTitle = extractTitleFromHtml(rawHtml);
-  const lines = isNotesAndSargam
-    ? notesandsargamHtmlToLines(rawHtml)
-    : htmlToLines(rawHtml);
+  let lines: string[];
+  if (isSangeetbook) {
+    lines = sangeetbookHtmlToLines(rawHtml);
+  } else if (isNotesAndSargam) {
+    lines = notesandsargamHtmlToLines(rawHtml);
+  } else {
+    lines = htmlToLines(rawHtml);
+  }
 
-  const { cleanTitle, info } = extractMetadata(pageTitle, lines);
+  let cleanTitle: string;
+  let info: string[];
+  if (isSangeetbook) {
+    ({ cleanTitle, info } = extractSangeetbookMetadata(rawHtml, pageTitle));
+  } else {
+    ({ cleanTitle, info } = extractMetadata(pageTitle, lines));
+  }
 
   const title = options?.songTitle || cleanTitle;
   const songId = options?.songId || slugify(title);
@@ -666,7 +841,33 @@ export async function extractSongFromUrl(
   // Filter content lines
   let contentLines: string[];
 
-  if (isNotesAndSargam) {
+  if (isSangeetbook) {
+    // sangeetbook.com English Lyrics section
+    let startIdx: number | null = null;
+    for (let idx = 0; idx < lines.length; idx++) {
+      if (isSectionHeader(lines[idx])) {
+        startIdx = idx;
+        break;
+      }
+    }
+    if (startIdx === null) {
+      for (let idx = 0; idx < lines.length; idx++) {
+        if (isSargamLine(lines[idx])) {
+          startIdx =
+            idx > 0 && isLyricsLine(lines[idx - 1]) ? idx - 1 : idx;
+          break;
+        }
+      }
+    }
+    const scanLines = startIdx !== null ? lines.slice(startIdx) : lines;
+    contentLines = scanLines.filter(
+      (l) =>
+        !isSkipLine(l) &&
+        !isProseParagraph(l) &&
+        !/\.\.\.\s*same\s+as\b/i.test(l) &&
+        !/उपर्युक्त\s+पंक्ति\s+के\s+समान/.test(l)
+    );
+  } else if (isNotesAndSargam) {
     let startIdx: number | null = null;
     for (let idx = 0; idx < lines.length; idx++) {
       if (isSectionHeader(lines[idx])) {
@@ -707,7 +908,10 @@ export async function extractSongFromUrl(
     }
   }
 
-  const sections = pairLyricsAndNotation(contentLines, isNotesAndSargam);
+  const sections = pairLyricsAndNotation(
+    contentLines,
+    isNotesAndSargam || isSangeetbook
+  );
 
   const song: Song = {
     id: songId,
