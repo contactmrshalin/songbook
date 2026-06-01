@@ -7,6 +7,7 @@ on:
       - 'mobile-app/**'
       - 'package-lock.json'
       - '.github/workflows/build-android.yml'
+  workflow_dispatch:
 
 jobs:
   build:

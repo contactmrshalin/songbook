@@ -5,6 +5,23 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const SONGBOOK_URL = "https://songnotations.vercel.app";
 
+const INJECTED_JS = `
+  (function() {
+    var meta = document.querySelector('meta[name="viewport"]');
+    if (!meta) {
+      meta = document.createElement('meta');
+      meta.name = 'viewport';
+      document.head.appendChild(meta);
+    }
+    meta.content = 'width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes';
+
+    var style = document.createElement('style');
+    style.textContent = 'html, body { max-width: 100vw; overflow-x: hidden; } * { box-sizing: border-box; }';
+    document.head.appendChild(style);
+  })();
+  true;
+`;
+
 export default function SongbookScreen() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -46,10 +63,13 @@ export default function SongbookScreen() {
               setError(`Server error (${nativeEvent.statusCode})`);
             }
           }}
+          injectedJavaScript={INJECTED_JS}
+          scalesPageToFit={true}
           javaScriptEnabled
           domStorageEnabled
           startInLoadingState
           allowsBackForwardNavigationGestures
+          overScrollMode="never"
         />
       )}
       {loading && !error && (
