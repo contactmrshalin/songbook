@@ -13,10 +13,17 @@ const INJECTED_JS = `
       meta.name = 'viewport';
       document.head.appendChild(meta);
     }
-    meta.content = 'width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes';
+    meta.content = 'width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, shrink-to-fit=no';
 
     var style = document.createElement('style');
-    style.textContent = 'html, body { max-width: 100vw; overflow-x: hidden; } * { box-sizing: border-box; }';
+    style.textContent = [
+      'html, body { max-width: 100vw !important; overflow-x: hidden !important; }',
+      '*, *::before, *::after { box-sizing: border-box !important; }',
+      'img, video, iframe, table, pre { max-width: 100% !important; height: auto !important; }',
+      '.notation-line, .notation-text, .lyrics-text { word-break: break-word !important; overflow-wrap: break-word !important; }',
+      '.notation-text { flex-wrap: wrap !important; }',
+      'pre, code { white-space: pre-wrap !important; word-break: break-all !important; }',
+    ].join(' ');
     document.head.appendChild(style);
   })();
   true;

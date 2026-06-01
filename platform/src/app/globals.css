@@ -402,6 +402,53 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Mobile WebView — prevent horizontal overflow
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.notation-line {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.notation-text {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.lyrics-text {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+  .section-header {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  .notation-line {
+    padding: 6px 8px;
+  }
+
+  .notation-text {
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
+  }
+
+  .lyrics-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    Google AdSense — Ad container styling
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .ad-container {
