@@ -13,6 +13,7 @@ export default function TabLayout() {
           height: 60,
           paddingBottom: 8,
         },
+        sceneStyle: { backgroundColor: "#fff" },
         headerStyle: {
           backgroundColor: "#1a1a2e",
         },

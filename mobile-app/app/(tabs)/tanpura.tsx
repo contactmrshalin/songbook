@@ -10,8 +10,9 @@ import {
   Platform,
 } from "react-native";
 import Slider from "@react-native-community/slider";
-import { WebView } from "react-native-webview";
 import { LinearGradient } from "expo-linear-gradient";
+
+import { WebView } from "react-native-webview";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
