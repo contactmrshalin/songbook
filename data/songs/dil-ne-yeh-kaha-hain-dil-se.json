@@ -1,0 +1,111 @@
+{
+  "id": "dil-ne-yeh-kaha-hain-dil-se",
+  "title": "Dil Ne Yeh Kaha Hain Dil Se",
+  "export": true,
+  "info": [
+    "Film/Artist: Dhadkan",
+    "Scale: A# BASS/MIDDLE"
+  ],
+  "thumbnail": "images/dil-ne-yeh-kaha-hain-dil-se.jpg",
+  "background": "images/dil-ne-yeh-kaha-hain-dil-se.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dil ne yeh kaha hai dil se",
+          "indian": "Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Mohabbat ho gayi hai tumse",
+          "indian": "Dha Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Dil ne yeh kaha hai dil se",
+          "indian": "Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Mohabbat ho gayi hai tumse",
+          "indian": "Dha Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Meri jaan mere dilbar",
+          "indian": "Dha Ni Sa' Ga' Re' Sa' Re' Ga' Re'"
+        },
+        {
+          "lyrics": "Mera aitbar kar lo",
+          "indian": "Pa Dha Ni Re' Sa' Ni Sa' Re' Sa'"
+        },
+        {
+          "lyrics": "Jitna bekaraar hoon main",
+          "indian": "Dha Ni Sa' Ga' Re' Sa' Re' Ga' Re'"
+        },
+        {
+          "lyrics": "Khud ko bekaraar kar lo",
+          "indian": "Pa Dha Ni Re' Sa' Ni Sa' Re' Sa'"
+        },
+        {
+          "lyrics": "Meri dhadkanon ko samjho",
+          "indian": "ma Pa Dha Sa' Ni Dha Ni Sa' Ni"
+        },
+        {
+          "lyrics": "Tum bhi mujhse pyaar kar lo",
+          "indian": "Ni Dha Dha(k) Dha(k) Ni Ni Ni Dha Dha:"
+        },
+        {
+          "lyrics": "Dil ne yeh kaha hai dil se",
+          "indian": "Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Mohabbat ho gayi hai tumse",
+          "indian": "Dha Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Meri jaan mere dilbar",
+          "indian": "Dha Ni Sa' Ga' Re' Sa' Re' Ga' Re'"
+        },
+        {
+          "lyrics": "Mera aitbar kar lo",
+          "indian": "Pa Dha Ni Re' Sa' Ni Sa' Re' Sa'"
+        },
+        {
+          "lyrics": "Jitna bekaraar hoon main",
+          "indian": "Dha Ni Sa' Ga' Re' Sa' Re' Ga' Re'"
+        },
+        {
+          "lyrics": "Khud ko bekaraar kar lo",
+          "indian": "Pa Dha Ni Re' Sa' Ni Sa' Re' Sa'"
+        },
+        {
+          "lyrics": "Meri dhadkanon ko samjho",
+          "indian": "ma Pa Dha Sa' Ni Dha Ni Sa' Ni"
+        },
+        {
+          "lyrics": "Tum bhi mujhse pyaar kar lo",
+          "indian": "Ni Dha Dha(k) Dha(k) Ni Ni Ni Dha Dha:"
+        },
+        {
+          "lyrics": "Dil ne yeh kaha hai dil se",
+          "indian": "Dha Ni Re' Ni Dha: D(K).N Dha"
+        },
+        {
+          "lyrics": "Tum jo keh do to chaand taaron ko",
+          "indian": "Ga' Re' Re' Sa' Sa' Ga' Re' Re' Sa' Sa'"
+        },
+        {
+          "lyrics": "Tod laaunga main",
+          "indian": "Ga' Re' Re' Sa' Re' Sa' Ni"
+        },
+        {
+          "lyrics": "In havaon ko in ghataaon ko",
+          "indian": "Re' Sa' Sa' Ni Ni Re' Sa' Sa' Ni Ni"
+        },
+        {
+          "lyrics": "Mod laaunga main",
+          "indian": "Re' Sa' Sa' Ni Sa' Ni Dha"
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/dil-ne-yeh-kaha-hain-dil-se.musicxml"
+}
