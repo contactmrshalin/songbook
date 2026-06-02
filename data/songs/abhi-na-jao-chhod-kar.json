@@ -6,7 +6,8 @@
     "Singers: Mohammed Rafi, Asha Bhosle",
     "Lyricist: Sahir Ludhianvi",
     "Music Director: Jaidev",
-    "Raag: Yaman (film usage)"
+    "Raag: Yaman (film usage)",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/abhi_na_jao_chhodkar.png",
   "background": "images/abhi_na_jao_chhodkar.png",
@@ -98,5 +99,12 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/abhi-na-jao-chhod-kar.musicxml"
+  "musicxml": "musicxml/abhi-na-jao-chhod-kar.musicxml",
+  "description": "Abhi Na Jao Chhod Kar\" is an evergreen romantic duet that beautifully encapsulates the tender reluctance of lovers to part. Composed by Jaidev and sung by the legendary Mohammed Rafi and Asha Bhosle, its melody, rooted in Raag Yaman, exudes a serene yet passionate charm. Sahir Ludhianvi's poignant lyrics perfectly complement the song's bittersweet mood, making it a timeless classic of Hindi cinema.",
+  "trivia": [
+    "This song is considered one of the most iconic romantic duets in Indian cinema, celebrated for the unparalleled vocal chemistry between Mohammed Rafi and Asha Bhosle.",
+    "Music director Jaidev masterfully based the composition on Raag Yaman, a classical evening raga known for its majestic and romantic mood, lending the song its distinctive melodic beauty and emotional depth.",
+    "Lyricist Sahir Ludhianvi's poetic genius shines through in the tender and evocative lines, which perfectly capture the universal sentiment of a lover pleading for a moment more.",
+    "The song's enduring popularity has led to numerous covers and renditions over the decades, cementing its status as a quintessential romantic anthem."
+  ]
 }
