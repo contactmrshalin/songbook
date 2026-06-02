@@ -1,0 +1,107 @@
+{
+  "id": "mere-rang-mein-rangne-wali-easy",
+  "title": "Mere Rang Mein Rangne Wali (Easy)",
+  "export": true,
+  "info": [
+    "Film/Artist: Easy Version",
+    "Scale: E BASS/MIDDLE",
+    "Singer: S. P. Balasubrahmanyam",
+    "Music: Raamlaxman",
+    "Lyrics: Dev Kohli",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
+  ],
+  "thumbnail": "images/mere-rang-mein-rangne-wali-easy.jpg",
+  "background": "images/mere-rang-mein-rangne-wali-easy.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Mere rang mein rangne waali",
+          "indian": "ni ni ni Pa Pa: Pa Dha Ni Dha: Pa:"
+        },
+        {
+          "lyrics": "Pari ho ya ho pariyon ki rani",
+          "indian": "dha dha: Ma Ma: Ma: Ga Ma Pa Ma: Ga"
+        },
+        {
+          "lyrics": "Ya ho meri prem kahaani",
+          "indian": "pa: pa Ga Ga: Ga: Ga(k) Ga Ma Ga: Ga(k)"
+        },
+        {
+          "lyrics": "Mere savaalon ka jawaab do",
+          "indian": "Ga Ga: Ga Ma: Pa: Sa': Ni Dha: Pa Ni:"
+        },
+        {
+          "lyrics": "Do na",
+          "indian": "Ma: Ga:"
+        },
+        {
+          "lyrics": "Mere rang mein rangne waali",
+          "indian": "ni ni ni Pa Pa: Pa Dha Ni Dha: Pa:"
+        },
+        {
+          "lyrics": "Pari ho ya ho pariyon ki rani",
+          "indian": "dha dha: Ma Ma: Ma: Ga Ma Pa Ma: Ga"
+        },
+        {
+          "lyrics": "Ya ho meri prem kahaani",
+          "indian": "pa: pa Ga Ga: Ga: Ga(k) Ga Ma Ga: Ga(k)"
+        },
+        {
+          "lyrics": "Mere savaalon ka jawaab do",
+          "indian": "Ga Ga: Ga Ma: Pa: Sa': Ni Dha: Pa Ni:"
+        },
+        {
+          "lyrics": "Do na",
+          "indian": "Ma: Ga:"
+        },
+        {
+          "lyrics": "Bolo na kyon ye chaand sitaare",
+          "indian": "Ni Dha Pa Ni: Dha Pa Ni: Dha Pa Dha: Dha"
+        },
+        {
+          "lyrics": "Takte hain yoon mukhde ko tumhaare",
+          "indian": "Dha Pa Ma Dha: Pa Ma Dha: Pa Ma Pa: Pa"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Bolo na kyon ye chaand sitaare",
+          "indian": "Ni Dha Pa Ni: Dha Pa Ni: Dha Pa Dha: Dha"
+        },
+        {
+          "lyrics": "Takte hain yoon mukhde ko tumhaare",
+          "indian": "Dha Pa Ma Dha: Pa Ma Dha: Pa Ma Pa: Pa"
+        },
+        {
+          "lyrics": "Chhooke badan ko hava kyon mehki",
+          "indian": "Pa Ma Ga Pa: Ma Ga Pa: Ma Ga Ma: Ma"
+        },
+        {
+          "lyrics": "Raat bhi hai behki behki",
+          "indian": "Ma Ga ni Ma: Ga ni Ma: Ga Ga(k) Ga: Ga"
+        },
+        {
+          "lyrics": "Mere savaalon ka jawaab do",
+          "indian": "Ga Ga: Ga Ma: Pa: Sa': Ni Dha: Pa Ni:"
+        },
+        {
+          "lyrics": "Do na",
+          "indian": "Ma: Ga:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic romantic ballad perfectly captures the innocent charm and burgeoning love story of 'Maine Pyar Kiya'. S. P. Balasubrahmanyam's soulful rendition, coupled with Raamlaxman's melodious composition, made it an instant classic that continues to resonate with lovers of Hindi film music. Its gentle rhythm and heartfelt lyrics create an atmosphere of pure, unadulterated affection.",
+  "trivia": [
+    "The song played a pivotal role in establishing Salman Khan as a romantic hero, with S. P. Balasubrahmanyam's voice becoming synonymous with his early on-screen persona.",
+    "Composed in Raag Yaman, the song beautifully showcases the raag's characteristic teevra madhyam (sharp fourth) and shuddha nishad (natural seventh), lending it a serene and romantic evening feel.",
+    "Maine Pyar Kiya was a massive blockbuster and its soundtrack, including 'Mere Rang Mein Rangne Wali', was instrumental in its success, selling millions of copies.",
+    "This song is often cited as one of the most enduring love anthems in Bollywood, frequently covered and referenced in popular culture."
+  ],
+  "musicxml": "musicxml/mere-rang-mein-rangne-wali-easy.musicxml"
+}
