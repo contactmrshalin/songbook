@@ -1,0 +1,120 @@
+{
+  "id": "ye-zamin-gaa-rahi-hai",
+  "title": "Ye Zamin Gaa Rahi Hai",
+  "export": true,
+  "info": [
+    "Film/Artist: Teri Kasam",
+    "Scale: D BASS/MIDDLE",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi",
+    "Year: 1982"
+  ],
+  "thumbnail": "images/ye-zamin-gaa-rahi-hai.jpg",
+  "background": "images/ye-zamin-gaa-rahi-hai.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yeh zameen ga rahi hai",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Aasman ga raha hai",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Sath mere yeh sara",
+          "indian": "Re Ga Sa: Ga Ma Re: Ma"
+        },
+        {
+          "lyrics": "Jahan ga raha hai",
+          "indian": "Ma Ga Ma Ga Ma: Ga Re Re Re"
+        },
+        {
+          "lyrics": "Yeh zameen ga rahi hai",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Aasman ga raha hai",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Sath mere yeh sara",
+          "indian": "Re Ga Sa: Ga Ma Re: Ma"
+        },
+        {
+          "lyrics": "Jahan ga raha hai",
+          "indian": "Ma Ga Ma Ga Ma: Ga Re Re Re"
+        },
+        {
+          "lyrics": "Shokh kaliyon ke ghoonghat",
+          "indian": "Re' Sa' Ni Ni: Ni Dha Pa Ni"
+        },
+        {
+          "lyrics": "Sarakane lage hain",
+          "indian": "Pa Dha: Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "Shokh kaliyon ke ghoonghat",
+          "indian": "Re' Sa' Ni Ni: Ni Dha Pa Ni"
+        },
+        {
+          "lyrics": "Sarakane lage hain",
+          "indian": "Pa Dha: Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "Mast phoolon ke dil bhi",
+          "indian": "Re' Sa' Ni: Ni Dha Pa Ni"
+        },
+        {
+          "lyrics": "Dhadakane lage hain",
+          "indian": "Pa Dha: Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "Yeh baharon ka dilakash",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Sama ga raha hai",
+          "indian": "Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Sath mere yeh sara",
+          "indian": "Re Ga Sa: Ga Ma Re: Ma"
+        },
+        {
+          "lyrics": "Jahan ga raha hai",
+          "indian": "Ma Ga Ma Ga Ma: Ga Re Re Re"
+        },
+        {
+          "lyrics": "Yeh zameen ga rahi hai",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Aasman ga raha hai",
+          "indian": "Re Ga Dha: Pa Ga Ga Pa"
+        },
+        {
+          "lyrics": "Sath mere yeh sara",
+          "indian": "Re Ga Sa: Ga Ma Re: Ma"
+        },
+        {
+          "lyrics": "Jahan ga raha hai",
+          "indian": "Ma Ga Ma Ga Ma: Ga Re Re Re"
+        }
+      ]
+    }
+  ],
+  "description": "\"Ye Zamin Gaa Rahi Hai\" is a quintessential Kishore Kumar masterpiece, showcasing his incredible vocal range and emotional depth. Composed by the legendary R.D. Burman, this song from \"Teri Kasam\" beautifully blends classical sensibilities with a popular appeal, creating a timeless melody that evokes a sense of serene beauty and introspection. Its gentle orchestration and heartfelt lyrics make it a soothing and memorable listen.",
+  "trivia": [
+    "This song is a classic example of R.D. Burman's ability to compose melodious, semi-classical tunes even amidst his reputation for fast-paced, experimental music.",
+    "Kishore Kumar's rendition is particularly acclaimed for its delicate nuances and emotional delivery, making it one of his most beloved slow numbers from the early 80s.",
+    "The song is based on Raag Bhairavi, a morning raga known for its devotional and melancholic character, which perfectly complements the song's reflective mood.",
+    "\"Teri Kasam\" marked the acting debut of Kumar Gaurav, and the film's soundtrack, including this song, was a major factor in its initial popularity."
+  ],
+  "musicxml": "musicxml/ye-zamin-gaa-rahi-hai.musicxml"
+}
