@@ -12,127 +12,87 @@
   "background": "images/abhi_na_jao_chhodkar.png",
   "sections": [
     {
-      "name": "INTERLUDE :",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "",
-          "indian": "PN DN PN DN PN DP G"
+          "lyrics": "Abhi na jao chhod kar",
+          "indian": "Ga Ga ma Ga Re Ga Re Sa ni dha ni Re"
         },
         {
-          "lyrics": "",
-          "indian": "SG RG SG RG SS DP S (2)"
+          "lyrics": "Ke dil abi bhara nahi",
+          "indian": "Re Re Ga ni: Re Pa: ma Ga Re Ga: Re Sa Ga"
         },
         {
-          "lyrics": "Abhi | abhi | to | aayi | hoo",
-          "indian": "GG | GM~G | P | M~GP | M~G"
+          "lyrics": "Abhi na jao chhod kar",
+          "indian": "Ga Ga ma Ga Re Ga Re Sa ni dha ni Re"
         },
         {
-          "lyrics": "abhi | abhi | to",
-          "indian": "MG~R | G~M | P"
+          "lyrics": "Ke dil abi bhara nahi",
+          "indian": "Re Ma: Ma Pa: ma Ga Re Ga: Re Sa"
         },
         {
-          "lyrics": "Interlude: PGSP",
-          "indian": ""
+          "lyrics": "Abhi abhi to aayi ho",
+          "indian": "Ga Ga: Ga ma Ga Pa ma Ga Pa ma"
         },
         {
-          "lyrics": "Abhi | abhi | to | aayi | hoo",
-          "indian": "GG | GM~G | P | M~GP | M~G"
+          "lyrics": "Abhi abhi to…",
+          "indian": "Ga Re Ga Re: Ga ma Pa:"
         },
         {
-          "lyrics": "bahar | banke | chhayi | ho",
-          "indian": "MG~RG | M~GP | M~GP | M~G"
+          "lyrics": "Abhi abhi to aayi ho",
+          "indian": "Ga Ga: Ga ma Ga Pa ma Ga Pa ma"
         },
         {
-          "lyrics": "Hawa | zara | mahak | to | le",
-          "indian": "SG | G GN' | D'P'M | P' | M~G"
+          "lyrics": "Bahar banke chhayi ho",
+          "indian": "Ga Re Ga Re: Ga ma Ga Pa ma Ga Pa ma"
         },
         {
-          "lyrics": "nazar | jara | bahek | to | le",
-          "indian": "MG~R | GM~G | PM~G | P | M~G"
+          "lyrics": "Hawa zara mehak to le",
+          "indian": "Sa Ga: Ga Ga Ni: Dha Pa Ma Pa ma"
         },
         {
-          "lyrics": "Ye | shaam | dhal | to | le | zara",
-          "indian": "M | D'D' | n'D' | S' | D'~M | S' {D'S' D'S' D'S'}"
+          "lyrics": "Nazar zara behak to le",
+          "indian": "Ga Ga: Ga ma Ga Pa ma Ga Pa ma"
         },
         {
-          "lyrics": "Interlude: M’ G’ S’ D’ M’ S’ D’ M’ S’ D’",
-          "indian": ""
+          "lyrics": "Yeh shaam dhal to le zara",
+          "indian": "ma Dha: Dha Ni(k) Dha Sa' Ni(k) ma Sa' Ni(k):"
         },
         {
-          "lyrics": "Ye | shaam | dhal | to | le | zara",
-          "indian": "M | D'D' | n'~D' | S' | N~D | S N~D"
+          "lyrics": "Yeh shaam dhal to le zara",
+          "indian": "ma Dha: Dha Ni(k) Dha Sa' Ni(k) Dha Sa' Ni(k)"
         },
         {
-          "lyrics": "Ye | dil | samhal | to | le | zara",
-          "indian": "N' | D'~P' | D'n'~D' | S' | N~D | S N~D"
+          "lyrics": "Yeh dil sambhal to le zara",
+          "indian": "ma Dha: Dha Ni(k) Dha Sa' Ni(k) Dha Sa' Ni(k)"
         },
         {
-          "lyrics": "Main | thodi | der | jee | to | lun",
-          "indian": "G | GM | {PDNSN} | NDPD | P | M~G"
+          "lyrics": "Main thodi deir jee to loon",
+          "indian": "Ga Ga: Ga ma Pa Sa': Ni(k) Dha Pa ma Ga"
         },
         {
-          "lyrics": "nashe | ke | ghoont | pi | to | lun",
-          "indian": "MGR | G | M~GP | M~G | P | M~G"
+          "lyrics": "Nashe ke ghoont pee to loon",
+          "indian": "Ga Ga Re Ga ma Ga Pa ma Ga Pa ma"
         },
         {
-          "lyrics": "abhi | to | kuchh | kaha | nahin",
-          "indian": "MP~N | N | S'N' | R' N'~S' | D'P'"
+          "lyrics": "Nashe ke ghoont pee to loon",
+          "indian": "Ga Ga Re Ga ma Ga Pa ma Ga Pa ma"
         },
         {
-          "lyrics": "Abhi | to | kuchh | suna | nahin",
-          "indian": "MR | G | MG | P G~M | RS"
+          "lyrics": "Abhi to kuchh kaha nahi",
+          "indian": "Ga Ga ma Pa Ni Sa': Sa' N(K).D Ni(k) Dha Pa"
         },
         {
-          "lyrics": "Abhi na jaao chod kar ke dil abhi bhara nahin",
-          "indian": ""
+          "lyrics": "Abhi to kuchh sun nahi",
+          "indian": "ma Ga Re Ga ma Pa ma Ga ma Re Sa"
         },
         {
-          "lyrics": "Sitaren | jhilmila | uthe… 2",
-          "indian": "PP(D)P | M~R RP | PP"
+          "lyrics": "Abhi na jao chhod kar",
+          "indian": "Ga Ga ma Ga Re Ga Re Sa ni dha ni Re"
         },
         {
-          "lyrics": "Charag | jagmaga | uthe",
-          "indian": "RP(D)P | M~R RP | P{PDN}"
-        },
-        {
-          "lyrics": "Bas | ab | na | mujhko | tokna… – 2",
-          "indian": "N' | N'N' | N' | S'N'R' | N'~P'R'N'"
-        },
-        {
-          "lyrics": "Na | badhke | raah | rokna",
-          "indian": "P | NN | SNR | {NSDPMG}"
-        },
-        {
-          "lyrics": "Agar | main | ruk | gayi | abhi",
-          "indian": "GG | G | M~G | PM~G | PM~G"
-        },
-        {
-          "lyrics": "to | jaa | na | paungi | kabhi",
-          "indian": "M | G~R | G | M~GP M~G | PM~G"
-        },
-        {
-          "lyrics": "Yehi | kahoge | tum | sada",
-          "indian": "GMPN | NSNR' | NS | DP"
-        },
-        {
-          "lyrics": "ke | dil | abhi | nahin | bhara",
-          "indian": "G | R | GM | PGM | RS"
-        },
-        {
-          "lyrics": "Jo | khatm | ho | kisi | jagah",
-          "indian": "GG | MG | RG | RSND | NR"
-        },
-        {
-          "lyrics": "ye | aisa | silsila | nahin",
-          "indian": "R | NR | RPMMGR | RS"
-        },
-        {
-          "lyrics": "Abhi | nahin | abhi | nahin",
-          "indian": "GG~M | GR~G | SSND | NR"
-        },
-        {
-          "lyrics": "Nahin | nahin | nahin nahin",
-          "indian": "MM | D MD(N)DP | M MGRG | RS"
+          "lyrics": "Ke dil abi bhara nahi",
+          "indian": "Re Re Ga ni: Re Pa: ma Ga Re Ga: Re Sa"
         }
       ]
     }
