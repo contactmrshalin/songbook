@@ -1,0 +1,150 @@
+{
+  "id": "zindagi-ki-yahi-reet-hai",
+  "title": "Zindagi Ki Yahi Reet Hai",
+  "export": true,
+  "info": [
+    "Film/Artist: Mr. India",
+    "Scale: F BASS/MIDDLE",
+    "Singer: Kishore Kumar",
+    "Music: Laxmikant-Pyarelal",
+    "Lyrics: Javed Akhtar",
+    "Year: 1987"
+  ],
+  "thumbnail": "images/zindagi-ki-yahi-reet-hai.jpg",
+  "background": "images/zindagi-ki-yahi-reet-hai.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "Sa Re Ga: Pa: Dha Pa: Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Haar ke baad hi jeet hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        },
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "Sa Re Ga: Pa: Dha Pa: Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Haar ke baad hi jeet hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        },
+        {
+          "lyrics": "Thode aansu hai",
+          "indian": "Sa' Ni Dha: Dha: Dha ma"
+        },
+        {
+          "lyrics": "Thodi hasi",
+          "indian": "ma Pa: Dha Pa:"
+        },
+        {
+          "lyrics": "Aaj gham hai to",
+          "indian": "Pa Pa Pa: Dha: Pa"
+        },
+        {
+          "lyrics": "Kal hai khushi…",
+          "indian": "ma: Ga: Sa Re: Re ma ma Ga Re"
+        },
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "Sa Re Ga: Pa: Dha Pa: Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Haar ke baad hi jeet hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        },
+        {
+          "lyrics": "Thode aansu hai",
+          "indian": "Sa' Ni Dha: Dha: Dha ma"
+        },
+        {
+          "lyrics": "Thodi hasi",
+          "indian": "ma Pa: Dha Pa:"
+        },
+        {
+          "lyrics": "Aaj gham hai to",
+          "indian": "Pa Pa Pa: Dha: Pa"
+        },
+        {
+          "lyrics": "Kal hai khushi…",
+          "indian": "ma: Ga: Sa Re: Re ma ma Ga Re"
+        },
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "Sa Re Ga: Pa: Dha Pa: Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Haar ke baad hi jeet hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        },
+        {
+          "lyrics": "Zindagi raat bhi hai",
+          "indian": "Pa ma Ga: Pa: Pa Pa Pa"
+        },
+        {
+          "lyrics": "Savera bhi hai zindagi",
+          "indian": "Ga Pa Dha Ni Dha: Pa Pa Pa"
+        },
+        {
+          "lyrics": "Zindagi raat bhi hai",
+          "indian": "Pa ma Ga: Pa: Pa Pa Pa"
+        },
+        {
+          "lyrics": "Savera bhi hai zindagi",
+          "indian": "Ga Pa Dha Ni Dha: Pa Pa Pa"
+        },
+        {
+          "lyrics": "Zindagi hai safar aur",
+          "indian": "Pa ma Ga: ma: ma ma ma"
+        },
+        {
+          "lyrics": "Basera bhi hai zindagi",
+          "indian": "Dha Dha Dha Ni Ni: Pa Pa Pa"
+        },
+        {
+          "lyrics": "Zindagi hai safar aur",
+          "indian": "Pa ma Ga: ma: ma ma Dha"
+        },
+        {
+          "lyrics": "Basera bhi hai zindagi",
+          "indian": "Dha Dha Dha Ni Ni: Pa Pa Pa"
+        },
+        {
+          "lyrics": "Ek pal dard ka daanv hai",
+          "indian": "Pa Pa Pa Ga Pa: Dha: Pa ma Ga Re:"
+        },
+        {
+          "lyrics": "Dusra sukh bhari chhaaon hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        },
+        {
+          "lyrics": "Har naye pal naya geet hai",
+          "indian": "Sa Re Ga: Pa: Dha Pa: Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        },
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "Sa Re Ga: Pa: Dha Pa: Ga: Sa Re:"
+        },
+        {
+          "lyrics": "Zindagi ki yehi reet hai",
+          "indian": "pa dha ni: ni: Sa Ga: Re: Sa Sa:"
+        }
+      ]
+    }
+  ],
+  "description": "This poignant song from 'Mr. India' is a philosophical reflection on life's cyclical nature, beautifully rendered by Kishore Kumar. Its simple yet profound melody, coupled with Javed Akhtar's insightful lyrics, offers solace and perspective. The song's contemplative mood provides a stark contrast to the film's adventurous narrative, showcasing the emotional depth of its soundtrack.",
+  "trivia": [
+    "This song is one of Kishore Kumar's last major hits before his demise in October 1987, making it a significant piece in his illustrious discography.",
+    "The lyrics by Javed Akhtar are celebrated for their timeless wisdom, encapsulating the essence of human existence and resilience.",
+    "Laxmikant-Pyarelal's composition for 'Zindagi Ki Yahi Reet Hai' is minimalistic yet deeply impactful, relying on the strength of the melody and Kishore Kumar's emotive voice.",
+    "Despite 'Mr. India' being primarily an action-comedy, this song stands out for its profound philosophical message, adding a layer of emotional gravitas to the film."
+  ],
+  "musicxml": "musicxml/zindagi-ki-yahi-reet-hai.musicxml"
+}
