@@ -1,0 +1,84 @@
+{
+  "id": "bahon-ke-darmiyan",
+  "title": "Bahon Ke Darmiyan",
+  "export": true,
+  "info": [
+    "Film/Artist: Khamoshi",
+    "Scale: A BASS/MIDDLE",
+    "Singer: Alka Yagnik, Hariharan",
+    "Music: Jatin-Lalit",
+    "Lyrics: Majrooh Sultanpuri",
+    "Raag: Yaman (inspired)",
+    "Thaat: Kalyan",
+    "Year: 1996"
+  ],
+  "thumbnail": "images/bahon-ke-darmiyan.jpg",
+  "background": "images/bahon-ke-darmiyan.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Bahon ke darmiyan",
+          "indian": "Sa: Re: Sa Re: Ga Re:"
+        },
+        {
+          "lyrics": "Do pyar mil rahe hai",
+          "indian": "Sa: Re: Sa Re: ma Ga: Re Sa dha"
+        },
+        {
+          "lyrics": "Bahon ke darmiyan",
+          "indian": "Sa: Re: Sa Re: Ga Re:"
+        },
+        {
+          "lyrics": "Do pyar mil rahe hai",
+          "indian": "Sa: Re: Sa Re: ma Ga: Re Sa dha"
+        },
+        {
+          "lyrics": "Jaane kya bole mann",
+          "indian": "dha Sa dha Sa: Re Sa ni:"
+        },
+        {
+          "lyrics": "Dole sun Ke badan",
+          "indian": "dha ni dha ni: dha ni ni dha:"
+        },
+        {
+          "lyrics": "Dhadkan bani zuban",
+          "indian": "dha: Sa: Re Ga: ma Ga:"
+        },
+        {
+          "lyrics": "Bahon ke darmiyan",
+          "indian": "Sa': Re': Sa' Re': Ga' Re':"
+        },
+        {
+          "lyrics": "Do pyar mil rahe hai",
+          "indian": "Sa': Re': Sa' Re': ma' Ga': Re' Sa' Dha"
+        },
+        {
+          "lyrics": "Jaane kya bole mann",
+          "indian": "Dha Sa' Dha Sa': Re' Sa' Ni:"
+        },
+        {
+          "lyrics": "Dole sun Ke badan",
+          "indian": "Dha Ni Dha Ni: Dha Ni Ni Dha:"
+        },
+        {
+          "lyrics": "Dhadkan bani zuban",
+          "indian": "Dha: Sa': Re' Ga': ma' Ga':"
+        },
+        {
+          "lyrics": "Bahon ke darmiyan",
+          "indian": "Sa': Re': Sa' Re': ma' Ga': Ga' Re':"
+        }
+      ]
+    }
+  ],
+  "description": "This soulful duet from 'Khamoshi: The Musical' is a timeless romantic classic, known for its gentle melody and heartfelt vocals. The song beautifully captures an intimate moment of longing and affection, creating a serene and deeply emotional atmosphere. Its melodic structure, reminiscent of Raag Yaman, adds a layer of classical elegance to its popular appeal.",
+  "trivia": [
+    "The film 'Khamoshi: The Musical' marked Sanjay Leela Bhansali's directorial debut, and its music, composed by Jatin-Lalit, was highly acclaimed.",
+    "Majrooh Sultanpuri, a legendary lyricist, penned the poignant words for this song, showcasing his mastery in crafting simple yet profound romantic poetry.",
+    "The song's serene and romantic mood is often attributed to the masterful orchestration by Jatin-Lalit, which blends traditional Indian instruments with contemporary arrangements.",
+    "Alka Yagnik and Hariharan's vocal chemistry in 'Bahon Ke Darmiyan' is considered one of their most iconic duets, perfectly conveying the tender emotions of the lyrics."
+  ],
+  "musicxml": "musicxml/bahon-ke-darmiyan.musicxml"
+}
