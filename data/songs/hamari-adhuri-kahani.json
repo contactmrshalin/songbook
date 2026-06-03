@@ -5,7 +5,10 @@
   "info": [
     "Film/Artist: Title Song",
     "Scale: F BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/hamari-adhuri-kahani-sargam-and-flute-notes.html"
+    "Singer: Arijit Singh",
+    "Music: Jeet Gannguli",
+    "Lyrics: Rashmi Virag",
+    "Year: Hamari Adhuri Kahani (2015)"
   ],
   "thumbnail": "images/hamari-adhuri-kahani.png",
   "background": "images/hamari-adhuri-kahani.png",
@@ -15,7 +18,7 @@
       "lines": [
         {
           "lyrics": "Paas aaye",
-          "indian": "Ni(k) Dha(k) Ni(k):"
+          "indian": "ni dha ni:"
         },
         {
           "lyrics": "Dooriyaan phir bhi kam naa hui",
@@ -23,7 +26,7 @@
         },
         {
           "lyrics": "Ek adhuri",
-          "indian": "Ni(k) Ni(k) Dha(k) Ni(k):"
+          "indian": "ni ni dha ni:"
         },
         {
           "lyrics": "Si hamari kahani rahi",
@@ -240,5 +243,12 @@
       ]
     }
   ],
-  "musicxml": "musicxml/hamari-adhuri-kahani.musicxml"
+  "musicxml": "musicxml/hamari-adhuri-kahani.musicxml",
+  "description": "The title track from the 2015 film, \"Hamari Adhuri Kahani\" is a deeply emotional ballad rendered with profound sensitivity by Arijit Singh. It perfectly captures the film's themes of unfulfilled love and longing, becoming an anthem for melancholic romance. The song's poignant melody and heartfelt lyrics create an immersive experience, making it a standout in Arijit Singh's repertoire of soulful renditions.",
+  "trivia": [
+    "The song's emotional core perfectly aligns with the film's narrative, which explores a complex and tragic love story.",
+    "Arijit Singh's rendition was critically acclaimed, further cementing his status as one of the most sought-after voices for romantic and melancholic songs in Bollywood.",
+    "Music director Jeet Gannguli, known for his melodious compositions, crafted this tune to evoke deep sentimentality, making it instantly recognizable.",
+    "The lyrics by Rashmi Virag are lauded for their simplicity yet profound depth, articulating the pain of an incomplete love story with striking clarity."
+  ]
 }
