@@ -868,22 +868,31 @@ export async function extractSongFromUrl(
         !/उपर्युक्त\s+पंक्ति\s+के\s+समान/.test(l)
     );
   } else if (isNotesAndSargam) {
-    let startIdx: number | null = null;
+    // Find the first section header and first notation line, use whichever
+    // comes first so we don't skip an opening stanza that precedes the
+    // first explicit section marker (e.g. "Interlude:").
+    let firstSectionIdx: number | null = null;
     for (let idx = 0; idx < lines.length; idx++) {
       if (isSectionHeader(lines[idx])) {
-        startIdx = idx;
+        firstSectionIdx = idx;
         break;
       }
     }
-    // If no section header found, start from first notation line
-    if (startIdx === null) {
-      for (let idx = 0; idx < lines.length; idx++) {
-        if (isSargamLine(lines[idx])) {
-          startIdx =
-            idx > 0 && isLyricsLine(lines[idx - 1]) ? idx - 1 : idx;
-          break;
-        }
+    let firstNotationIdx: number | null = null;
+    for (let idx = 0; idx < lines.length; idx++) {
+      if (isSargamLine(lines[idx])) {
+        firstNotationIdx =
+          idx > 0 && isLyricsLine(lines[idx - 1]) ? idx - 1 : idx;
+        break;
       }
+    }
+    let startIdx: number | null = null;
+    if (firstNotationIdx !== null && firstSectionIdx !== null) {
+      startIdx = Math.min(firstNotationIdx, firstSectionIdx);
+    } else if (firstNotationIdx !== null) {
+      startIdx = firstNotationIdx;
+    } else if (firstSectionIdx !== null) {
+      startIdx = firstSectionIdx;
     }
     const scanLines = startIdx !== null ? lines.slice(startIdx) : lines;
     contentLines = scanLines.filter(

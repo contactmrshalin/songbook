@@ -800,19 +800,28 @@ def extract_song_from_url(
                 continue
             content_lines.append(line)
     elif is_notesandsargam:
-        # Start from first section marker (MUKHDA/ANTARA/INTERLUDE) to skip intro metadata.
-        start_idx = None
+        # Find the first section header and first notation line, use whichever
+        # comes first so we don't skip an opening stanza that precedes the
+        # first explicit section marker (e.g. "Interlude:").
+        first_section_idx = None
         for idx, line in enumerate(lines):
             if _is_section_header(line):
-                start_idx = idx
+                first_section_idx = idx
                 break
-        # If no section header found, start from the first notation line.
-        if start_idx is None:
-            for idx, line in enumerate(lines):
-                if _is_sargam_line(line):
-                    # Include the line before if it looks like lyrics (paired)
-                    start_idx = max(0, idx - 1) if idx > 0 and _is_lyrics_line(lines[idx - 1]) else idx
-                    break
+        first_notation_idx = None
+        for idx, line in enumerate(lines):
+            if _is_sargam_line(line):
+                # Include the line before if it looks like lyrics (paired)
+                first_notation_idx = max(0, idx - 1) if idx > 0 and _is_lyrics_line(lines[idx - 1]) else idx
+                break
+        # Use whichever anchor appears first in the document.
+        start_idx = None
+        if first_notation_idx is not None and first_section_idx is not None:
+            start_idx = min(first_notation_idx, first_section_idx)
+        elif first_notation_idx is not None:
+            start_idx = first_notation_idx
+        elif first_section_idx is not None:
+            start_idx = first_section_idx
         scan_lines = lines[start_idx:] if start_idx is not None else lines
         for line in scan_lines:
             if _is_skip_line(line):
