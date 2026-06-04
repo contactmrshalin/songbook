@@ -1,0 +1,121 @@
+{
+  "id": "yeh-dosti-hum-nahi-todenge",
+  "title": "Yeh Dosti Hum Nahi Todenge",
+  "export": true,
+  "info": [
+    "Scale: G BASS/MIDDLE",
+    "Film: Sholay (1975)",
+    "Singer: Kishore Kumar, Manna Dey",
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi"
+  ],
+  "thumbnail": "images/yeh-dosti-hum-nahi-todenge.jpg",
+  "background": "images/yeh-dosti-hum-nahi-todenge.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yeh dosti",
+          "indian": "Ga: Re Sa Sa pa:"
+        },
+        {
+          "lyrics": "Hum nahin todenge",
+          "indian": "pa Dha Pa: Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Todenge dam magar",
+          "indian": "Ga Ga ma Pa ma: Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Tera saath na chhodenge",
+          "indian": "Re Re Ga: Ga Ga: Re: Sa Sa"
+        },
+        {
+          "lyrics": "Yeh dosti",
+          "indian": "Ga: Re Sa Sa pa:"
+        },
+        {
+          "lyrics": "Hum nahin todenge",
+          "indian": "pa Dha Pa: Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Todenge dam magar",
+          "indian": "Ga Ga ma Pa ma: Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Tera saath na chhodenge",
+          "indian": "Re Re Ga: Ga Ga: Re: Sa Sa"
+        },
+        {
+          "lyrics": "Ae meri jeet teri jeet",
+          "indian": "Pa Pa Pa Pa Pa: Dha Dha Dha"
+        },
+        {
+          "lyrics": "Teri haar meri haar",
+          "indian": "Pa Pa Pa: Dha Dha Dha"
+        },
+        {
+          "lyrics": "Sun ae mere yaar",
+          "indian": "Pa: Pa: ma Pa ma Ga:"
+        },
+        {
+          "lyrics": "Tera gham mera gham",
+          "indian": "Pa Pa Pa: Dha Dha Dha"
+        },
+        {
+          "lyrics": "meri jaan teri jaan",
+          "indian": "Pa Pa Pa: Dha Dha Dha"
+        },
+        {
+          "lyrics": "Aisa apna pyaar",
+          "indian": "Pa: Pa: ma Pa ma Ga:"
+        },
+        {
+          "lyrics": "Jaan pe bhi khelenge",
+          "indian": "Ga: ma Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Tere liye le lenge",
+          "indian": "Re Re Ga ma Ga Ga Ga"
+        },
+        {
+          "lyrics": "Jaan pe bhi khelenge",
+          "indian": "Ga: ma Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Tere liye le lenge",
+          "indian": "Re Re Ga ma Ga Ga Ga"
+        },
+        {
+          "lyrics": "Sab se dushmani",
+          "indian": "Ga: Ga: Re: Sa Sa"
+        },
+        {
+          "lyrics": "Yeh dosti",
+          "indian": "Ga: Re Sa Sa pa:"
+        },
+        {
+          "lyrics": "Hum nahin todenge",
+          "indian": "pa Dha Pa: Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Todenge dam magar",
+          "indian": "Ga Ga ma Pa ma: Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Tera saath na chhodenge",
+          "indian": "Re Re Ga: Ga Ga: Re: Sa Sa"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic song is the quintessential anthem of friendship in Indian cinema, celebrating the unbreakable bond between Jai and Veeru from the legendary film 'Sholay'. Its energetic melody, powerful vocals, and heartfelt lyrics have made it a timeless classic, symbolizing loyalty and camaraderie for generations. The song's enduring popularity is a testament to its universal appeal and its ability to evoke strong emotions of companionship.",
+  "trivia": [
+    "Sung by two titans of playback singing, Kishore Kumar and Manna Dey, their distinct voices perfectly capture the personalities of the on-screen friends, Jai (Amitabh Bachchan) and Veeru (Dharmendra).",
+    "Composed by the maestro R.D. Burman, the song features a catchy, upbeat rhythm and memorable harmonica riffs that have become instantly recognizable.",
+    "The lyrics by Anand Bakshi beautifully articulate the depth and sincerity of friendship, making phrases like 'Yeh Dosti Hum Nahi Todenge' (We won't break this friendship) a common idiom in Indian culture.",
+    "Its picturization in 'Sholay' is legendary, showcasing the camaraderie and playful banter between Dharmendra and Amitabh Bachchan, cementing its status as a cultural touchstone for friendship."
+  ],
+  "musicxml": "musicxml/yeh-dosti-hum-nahi-todenge.musicxml"
+}
