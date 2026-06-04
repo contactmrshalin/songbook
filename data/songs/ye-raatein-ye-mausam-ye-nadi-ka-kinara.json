@@ -14,59 +14,107 @@
   "background": "images/ye-raatein-ye-mausam-ye-nadi-ka-kinara.jpg",
   "sections": [
     {
-      "name": "INTERLUDE:",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "",
-          "indian": "P d P g...."
+          "lyrics": "Yeh raatein yeh mausam",
+          "indian": "Re ma Ga: Re ma Ga:"
         },
         {
-          "lyrics": "",
-          "indian": "Mg Mg RS g..."
+          "lyrics": "Nadi kaa kinaara",
+          "indian": "Re ma Ga: Re Re(k) dha"
         },
         {
-          "lyrics": "",
-          "indian": "P N P R"
+          "lyrics": "Yeh chanchal hawaa",
+          "indian": "dha Ga Ga: Re Re"
         },
         {
-          "lyrics": "",
-          "indian": "RS RS NP S"
+          "lyrics": "Yeh raatein yeh mausam",
+          "indian": "Re ma Ga: Re ma Ga:"
         },
         {
-          "lyrics": "Ye | kya | baat | hai",
-          "indian": "P' | P'S' | S n | P'"
+          "lyrics": "Nadi kaa kinaara",
+          "indian": "Re ma Ga: Re Re(k) dha"
         },
         {
-          "lyrics": "aaj | ki | chaandani | men",
-          "indian": "MM | MP' | g M Pd | P"
+          "lyrics": "Yeh chanchal hawaa",
+          "indian": "dha Ga Ga: Re Re"
         },
         {
-          "lyrics": "",
-          "indian": "Interlude : n'.... S'g' R' n'S' {N(S)NdP}"
+          "lyrics": "Kaha doo dilon ne",
+          "indian": "Pa Dha Dha: Pa Dha Ni(k)"
         },
         {
-          "lyrics": "ke | ham | kho | gaye",
-          "indian": "P' | P'S' | S | n P'"
+          "lyrics": "Ki mil karr kabhi hum",
+          "indian": "N(K).D Pa: ma Pa Dha"
         },
         {
-          "lyrics": "pyaar | ki | raagini | men",
-          "indian": "MM | MP' | g M Pd | P"
+          "lyrics": "Na hongee juda",
+          "indian": "Dha Pa ma Pa ma Ga."
         },
         {
-          "lyrics": "Ye | baahon | men | baahen,",
-          "indian": "P | P~n n | d | nd S'"
+          "lyrics": "Yeh raatein yeh mausam",
+          "indian": "Re ma Ga: Re ma Ga:"
         },
         {
-          "lyrics": "ye | bahaki | nigaahen",
-          "indian": "d' | n n | d n d S'"
+          "lyrics": "Nadi kaa kinaara",
+          "indian": "Re ma Ga: Re Re(k) dha"
         },
         {
-          "lyrics": "lo | aane | laga | zindagi | ka | maza",
-          "indian": "d' | n dn~P | PP M | P M R~S | R | M g"
+          "lyrics": "Yeh chanchal hawaa",
+          "indian": "dha Ga Ga: Re Re"
         },
         {
-          "lyrics": "Ye raaten, ye mausam….",
+          "lyrics": "Music",
           "indian": ""
+        },
+        {
+          "lyrics": "Ye kyaa baat haii aaj",
+          "indian": "Dha Dha Re' Re' Sa' Ni(k) Dha"
+        },
+        {
+          "lyrics": "Kii chaandanii mein",
+          "indian": "Pa Pa Dha Ma Pa Dha N(K).D"
+        },
+        {
+          "lyrics": "Ye kyaa baat haii aaj",
+          "indian": "Dha Dha Re' Re' Sa' Ni(k) Dha"
+        },
+        {
+          "lyrics": "Kii chaandanii mein",
+          "indian": "Pa Pa Dha Ma Pa Dha N(K).D"
+        },
+        {
+          "lyrics": "Kee hum khoo gayee",
+          "indian": "Dha Dha Re' Re' Sa' Ni(k) Dha"
+        },
+        {
+          "lyrics": "Pyaar kii raagini mein",
+          "indian": "Pa Pa Dha Ma Pa Dha N(K).D"
+        },
+        {
+          "lyrics": "Yeh baahon mein baahein",
+          "indian": "Dha Sa' Sa': Sa' Ni Sa'"
+        },
+        {
+          "lyrics": "Yeh bahakii nigaahein",
+          "indian": "Dha Sa' Sa': Sa' Ni Sa'"
+        },
+        {
+          "lyrics": "Loo aanee laga zindagi kaa maza",
+          "indian": "Dha Sa' Ni(k): Dha Pa ma: Ga Re Ga: Dha ma"
+        },
+        {
+          "lyrics": "Yeh raatein yeh mausam",
+          "indian": "Re ma Ga: Re ma Ga:"
+        },
+        {
+          "lyrics": "Nadi kaa kinaara",
+          "indian": "Re ma Ga: Re Re(k) dha"
+        },
+        {
+          "lyrics": "Yeh chanchal hawaa",
+          "indian": "dha Ga Ga: Re Re"
         }
       ]
     }
