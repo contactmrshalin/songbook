@@ -1,0 +1,88 @@
+{
+  "id": "bol-na-halke-halke",
+  "title": "Bol Na Halke Halke",
+  "export": true,
+  "info": [
+    "Film/Artist: Jhoom Barabar Jhoom",
+    "Scale: G BASS/MIDDLE",
+    "Singer: Rahat Fateh Ali Khan, Mahalakshmi Iyer",
+    "Music: Shankar-Ehsaan-Loy",
+    "Lyrics: Gulzar",
+    "Raag: Yaman Kalyan",
+    "Thaat: Kalyan",
+    "Year: 2007"
+  ],
+  "thumbnail": "images/bol-na-halke-halke.jpg",
+  "background": "images/bol-na-halke-halke.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dhaage tod laaoo chandni see noor kee",
+          "indian": "Ga: Dha: Ga Re Ga: Pa: ma Ga Re: ni: Sa Re Ga:"
+        },
+        {
+          "lyrics": "Ghoonghat hii banalaao roshnii see noor kee",
+          "indian": "Ga: Dha: Ga Re Ga: Pa: ma Ga Re: ni: Sa Re Ga:"
+        },
+        {
+          "lyrics": "Sharmaa gayii toh",
+          "indian": "Ga Ma Pa Pa Dha: Pa Ma Ga"
+        },
+        {
+          "lyrics": "Aagosh meinn loo",
+          "indian": "Ga Ma Pa Pa Dha: Pa Ma Ga"
+        },
+        {
+          "lyrics": "Hoo saanso see uljhi",
+          "indian": "Ma: Ma Ma Ga Re: Re Sa"
+        },
+        {
+          "lyrics": "Rahii merii saansein",
+          "indian": "Sa Re Ga Pa Re Pa: Ga Re Sa ni dha."
+        },
+        {
+          "lyrics": "Bol naa halkee halkee",
+          "indian": "dha: dha ni pa dha Re"
+        },
+        {
+          "lyrics": "Bol naa halkee halkee",
+          "indian": "dha: dha ni pa dha Re"
+        },
+        {
+          "lyrics": "Hooth see halkee halkee",
+          "indian": "dha: dha ni pa dha Re"
+        },
+        {
+          "lyrics": "Bol naa halkee halkee",
+          "indian": "Ga: Re Sa ni dha."
+        },
+        {
+          "lyrics": "Bol naa halkee halkee",
+          "indian": "dha: dha ni pa dha Re"
+        },
+        {
+          "lyrics": "Bol naa halkee halkee",
+          "indian": "dha: dha ni pa dha Re"
+        },
+        {
+          "lyrics": "Hooth see halkee halkee",
+          "indian": "dha: dha ni pa dha Re"
+        },
+        {
+          "lyrics": "Bol naa halkee halkee",
+          "indian": "Ga: Re Sa ni dha."
+        }
+      ]
+    }
+  ],
+  "description": "This soulful romantic duet from 'Jhoom Barabar Jhoom' is celebrated for its exquisite melody and poetic depth. Rahat Fateh Ali Khan's evocative vocals, paired with Mahalakshmi Iyer's tender delivery, create a mesmerizing atmosphere of gentle longing and affection. The song beautifully blends classical Indian music sensibilities with contemporary Bollywood orchestration.",
+  "trivia": [
+    "The lyrics, penned by the legendary Gulzar, are a masterclass in subtlety and imagery, using delicate metaphors to describe the blossoming of love.",
+    "Shankar-Ehsaan-Loy's composition draws heavily from Raag Yaman Kalyan, imparting a serene and introspective mood that is characteristic of this evening raag.",
+    "Rahat Fateh Ali Khan's rendition showcases his unique ability to infuse classical nuances and Sufi-inspired vocalizations into a popular film song, making it instantly recognizable.",
+    "Despite the film's mixed reception, 'Bol Na Halke Halke' was widely praised and became one of the most beloved romantic songs of its year, often featured in romantic playlists and live performances."
+  ],
+  "musicxml": "musicxml/bol-na-halke-halke.musicxml"
+}
