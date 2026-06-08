@@ -1,0 +1,95 @@
+{
+  "id": "pyar-diwana-hota-hai",
+  "title": "Pyar Diwana Hota Hai",
+  "export": true,
+  "info": [
+    "Film/Artist: Kati Patang",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi",
+    "Raag: Yaman Kalyan",
+    "Thaat: Kalyan",
+    "Year: 1971"
+  ],
+  "thumbnail": "images/pyar-diwana-hota-hai.jpg",
+  "background": "images/pyar-diwana-hota-hai.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Pyaar deewaana hota hai mastaana hotaa hai",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Har khushee se har gam se beegana hotaa haii",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Pyaar deewaana hota hai mastaana hotaa hai",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Har khushee se har gam se beegana hotaa haii",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Shama kehe parawanee see",
+          "indian": "Ni Sa' Re' Ni Sa' Re' Re' Re' Re' Re'"
+        },
+        {
+          "lyrics": "Pare chalaa jaa",
+          "indian": "Ni Re' Pa' ma' Ga': ."
+        },
+        {
+          "lyrics": "Meree tarah jal jaayegaa",
+          "indian": "ma' Ga' Re' ma' Ga' Re' Re' Re' Re' Re'"
+        },
+        {
+          "lyrics": "Yahaa nahee aa",
+          "indian": "Dha Ni Re' Sa' Ni: ."
+        },
+        {
+          "lyrics": "Shama kehe parawanee see",
+          "indian": "Ni Sa' Re' Ni Sa' Re' Re' Re' Re' Re'"
+        },
+        {
+          "lyrics": "Pare chalaa jaa",
+          "indian": "Ni Re' Pa' ma' Ga': ."
+        },
+        {
+          "lyrics": "Meree tarah jal jaayegaa",
+          "indian": "ma' Ga' Re' ma' Ga' Re' Re' Re' Re' Re'"
+        },
+        {
+          "lyrics": "Yahaa nahee aa",
+          "indian": "Dha Ni Re' Sa' Ni: ."
+        },
+        {
+          "lyrics": "Woh nahee sunataa usakoo jal janaa hota haii",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Har khushee se har gam se beegana hotaa haii",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Pyaar deewaana hota hai mastaana hotaa hai",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Sa' Ni"
+        },
+        {
+          "lyrics": "Har khushee se har gam se beegana hotaa haii",
+          "indian": "Ni Re' Ni Pa Dha Sa' Dha ma Pa Ni Dha Pa Pa"
+        }
+      ]
+    }
+  ],
+  "description": "This evergreen classic from 'Kati Patang' is a quintessential romantic anthem, beautifully sung by Kishore Kumar and picturised on the charismatic Rajesh Khanna. R.D. Burman's composition, with its simple yet profound melody, perfectly captures the innocent and all-consuming nature of love. It remains a beloved song for its timeless appeal and heartwarming sentiment.",
+  "trivia": [
+    "The song is widely considered one of Kishore Kumar's most iconic and enduring hits, solidifying his status as 'The Voice of Rajesh Khanna'.",
+    "R.D. Burman's innovative arrangement features a distinctive use of accordion and a light, breezy rhythm that became a hallmark of his early 70s sound.",
+    "Lyricist Anand Bakshi's simple yet deeply philosophical lines about love's irrationality resonated deeply with audiences and contributed significantly to the song's success.",
+    "Despite its popular film song structure, many classical musicians identify a strong influence of Raag Yaman Kalyan in its melodic progression, particularly in the ascending phrases."
+  ],
+  "musicxml": "musicxml/pyar-diwana-hota-hai.musicxml"
+}
