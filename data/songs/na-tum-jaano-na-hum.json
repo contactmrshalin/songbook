@@ -1,0 +1,114 @@
+{
+  "id": "na-tum-jaano-na-hum",
+  "title": "Na Tum Jaano Na Hum",
+  "export": true,
+  "info": [
+    "Film/Artist: Kaho Naa Pyaar Hai",
+    "Scale: A BASS/MIDDLE",
+    "Singer: Lucky Ali, Ramya",
+    "Music: Rajesh Roshan",
+    "Lyrics: Ibrahim Ashq",
+    "Year: 2000"
+  ],
+  "thumbnail": "images/na-tum-jaano-na-hum.jpg",
+  "background": "images/na-tum-jaano-na-hum.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kyun chalti hai pavan",
+          "indian": "Ga Ga Re Re Sa Sa Sa Re:"
+        },
+        {
+          "lyrics": "Kyun jhoome hai gagan",
+          "indian": "Ga Ga Re Re Sa Sa Sa Re:"
+        },
+        {
+          "lyrics": "Kyun machalta hai man",
+          "indian": "Re Ga ma Pa ma Ga ma Ga Re: Ga Re Sa ni"
+        },
+        {
+          "lyrics": "Na tum jaano na hum",
+          "indian": "pa Re Sa ni Re Sa:"
+        },
+        {
+          "lyrics": "Na tum jaano na hum",
+          "indian": "pa Re Sa ni Re Sa:"
+        },
+        {
+          "lyrics": "Kyun aati hai bahaar",
+          "indian": "Ga Ga Re Re Sa Sa Sa Re:"
+        },
+        {
+          "lyrics": "Kyun lutta hai karaar",
+          "indian": "Ga Ga Re Re Sa Sa Sa Re:"
+        },
+        {
+          "lyrics": "Kyun hota hai pyaar",
+          "indian": "Re Ga ma Pa ma Ga ma Ga Re: Ga Re Sa ni"
+        },
+        {
+          "lyrics": "Na tum jaano na hum",
+          "indian": "pa Re Sa ni Re Sa:"
+        },
+        {
+          "lyrics": "Na tum jaano na hum",
+          "indian": "pa Re Sa ni Re Sa:"
+        },
+        {
+          "lyrics": "Yeh madhoshiyan",
+          "indian": "Ga ma Pa Pa ma Dha Pa:"
+        },
+        {
+          "lyrics": "Yeh tanhaiyaan",
+          "indian": "Ga ma Pa Pa ma Dha Pa: Dha Pa."
+        },
+        {
+          "lyrics": "Tasavvur mein hain kiski parchhaiyaan",
+          "indian": "Re Ga ma: ma: Ga ma: ma: Ga Re: ma: Ga Ga:"
+        },
+        {
+          "lyrics": "Yeh bheega sama",
+          "indian": "Ga ma Pa Pa ma Dha Pa:"
+        },
+        {
+          "lyrics": "Umangein jawaan",
+          "indian": "Ga ma Pa Pa ma Dha Pa: Dha Pa."
+        },
+        {
+          "lyrics": "Mujhe ishq le ja raha hai kahan",
+          "indian": "Re Ga ma: ma: Ga ma: ma: Ga Re: ma: Ga Ga:"
+        },
+        {
+          "lyrics": "Kyun ghum hai har disha",
+          "indian": "Ga Ga Re Re Sa Sa Sa Re:"
+        },
+        {
+          "lyrics": "Kyun hota hai nasha",
+          "indian": "Ga Ga Re Re Sa Sa Sa Re:"
+        },
+        {
+          "lyrics": "Kyun aata hai maza",
+          "indian": "Re Ga ma Pa ma Ga ma Ga Re: Ga Re Sa ni"
+        },
+        {
+          "lyrics": "Na tum jaano na hum",
+          "indian": "pa Re Sa ni Re Sa:"
+        },
+        {
+          "lyrics": "Na tum jaano na hum",
+          "indian": "pa Re Sa ni Re Sa:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic track from Hrithik Roshan's debut film is a gentle, introspective romantic ballad, beautifully rendered by Lucky Ali's distinctive, soulful voice. Its simple yet profound lyrics perfectly capture the hesitant yet hopeful feelings of new love, creating an enduring melody that resonates with a sense of quiet wonder and longing. The song's understated arrangement allows the melody and vocals to shine, making it a timeless favorite.",
+  "trivia": [
+    "The song was a massive hit and played a significant role in the blockbuster success of 'Kaho Naa Pyaar Hai', which marked Hrithik Roshan's debut.",
+    "Lucky Ali's unique, slightly raw vocal style became synonymous with this song, earning him widespread acclaim and a Filmfare Award for Best Male Playback Singer.",
+    "The music, composed by Rajesh Roshan, was praised for its fresh and contemporary sound, blending traditional Indian melodies with modern pop sensibilities.",
+    "The song's picturization, featuring Hrithik Roshan and Ameesha Patel in picturesque locations, further enhanced its romantic appeal and became instantly memorable."
+  ],
+  "musicxml": "musicxml/na-tum-jaano-na-hum.musicxml"
+}
