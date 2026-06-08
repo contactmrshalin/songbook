@@ -253,6 +253,34 @@ type DetectedNote = {
   absoluteSemitone: number;
 };
 
+// ── Octave design tokens ──────────────────────────────────────────────────────
+
+const OCTAVE_THEME = {
+  mandra: {
+    accent:    "#818CF8",   // indigo-400
+    glow:      "rgba(129, 140, 248, 0.35)",
+    bg:        "rgba(129, 140, 248, 0.07)",
+    border:    "rgba(129, 140, 248, 0.4)",
+    dotActive: "#818CF8",
+  },
+  madhya: {
+    accent:    "#FBBF24",   // amber-400
+    glow:      "rgba(251, 191, 36, 0.35)",
+    bg:        "rgba(251, 191, 36, 0.07)",
+    border:    "rgba(251, 191, 36, 0.4)",
+    dotActive: "#FBBF24",
+  },
+  taar: {
+    accent:    "#F472B6",   // pink-400
+    glow:      "rgba(244, 114, 182, 0.35)",
+    bg:        "rgba(244, 114, 182, 0.07)",
+    border:    "rgba(244, 114, 182, 0.4)",
+    dotActive: "#F472B6",
+  },
+} as const;
+
+type OctaveId = keyof typeof OCTAVE_THEME;
+
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function TunerPage() {
@@ -404,7 +432,7 @@ export default function TunerPage() {
   }, []);
 
   /**
-   * Starts a 3-second window to collect the user's Sa frequency.
+   * Starts a 10-second window to collect the user's Sa frequency.
    * Automatically starts the tuner if it isn't already running.
    */
   const startCalibration = useCallback(async () => {
@@ -540,41 +568,80 @@ export default function TunerPage() {
     : calibAbsCents <= 25 ? "#F5A623"
     : "#EF4444";
 
+  // Helper: octave theme for a given semitone
+  const octaveThemeFor = (semitone: number) =>
+    semitone < 0
+      ? OCTAVE_THEME.mandra
+      : semitone < 12
+      ? OCTAVE_THEME.madhya
+      : OCTAVE_THEME.taar;
+
   // ── Render ──────────────────────────────────────────────────────────────────
 
   return (
-    <div className="flex flex-col items-center gap-6">
-      <h2 className="text-2xl font-bold text-[var(--text-primary)]">Flute Tuner</h2>
+    <div className="flex flex-col items-center gap-6 pb-8">
 
-      {/* View toggle */}
-      <div className="flex rounded-xl overflow-hidden border border-[var(--border-medium)]">
+      {/* ── Header ── */}
+      <div className="text-center">
+        <h2
+          className="text-3xl font-extrabold tracking-tight bg-clip-text text-transparent"
+          style={{ backgroundImage: "linear-gradient(135deg, #6C63FF 0%, #FF6584 100%)" }}
+        >
+          Bansuri Studio
+        </h2>
+        <p className="text-xs text-[var(--text-muted)] mt-0.5 tracking-widest uppercase">
+          Pitch &middot; Tune &middot; Master
+        </p>
+      </div>
+
+      {/* ── View toggle ── */}
+      <div
+        className="flex p-1 rounded-2xl border border-[var(--border-light)] shadow-sm"
+        style={{ background: "var(--bg-secondary)" }}
+      >
         {(["tuner", "range"] as View[]).map((v) => (
           <button
             key={v}
             onClick={() => setView(v)}
-            className={`px-5 py-2 text-sm font-medium transition-colors ${
+            className="px-5 py-2 rounded-xl text-sm font-semibold transition-all duration-200"
+            style={
               view === v
-                ? "bg-[var(--accent-primary)] text-white"
-                : "bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-[var(--border-light)]"
-            }`}
+                ? {
+                    background: "white",
+                    color: "#6C63FF",
+                    boxShadow: "0 2px 8px rgba(108,99,255,0.18)",
+                  }
+                : { color: "var(--text-muted)" }
+            }
           >
-            {v === "tuner" ? "Tuner" : "Range Trainer"}
+            {v === "tuner" ? "🎵 Tuner" : "🎯 Range Trainer"}
           </button>
         ))}
       </div>
 
-      {/* Base scale selector — shared across both views */}
+      {/* ── Sa selector ── */}
       <div className="flex flex-wrap items-center justify-center gap-2">
-        <span className="text-sm text-[var(--text-secondary)] font-medium">Sa =</span>
+        <span className="text-xs font-bold tracking-wider uppercase text-[var(--text-muted)]">
+          Sa =
+        </span>
         {BASE_SCALES.map((scale, idx) => (
           <button
             key={scale.label}
             onClick={() => setBaseScaleIndex(idx)}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+            className="px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-150"
+            style={
               idx === baseScaleIndex
-                ? "bg-[var(--accent-primary)] text-white shadow-md"
-                : "bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-[var(--border-light)]"
-            }`}
+                ? {
+                    background: "linear-gradient(135deg, #6C63FF, #9B59B6)",
+                    color: "white",
+                    boxShadow: "0 3px 10px rgba(108,99,255,0.35)",
+                  }
+                : {
+                    background: "var(--bg-secondary)",
+                    color: "var(--text-secondary)",
+                    border: "1px solid var(--border-light)",
+                  }
+            }
           >
             {scale.label}
           </button>
@@ -582,23 +649,52 @@ export default function TunerPage() {
       </div>
 
       {/* ════════════════════════════════════════════════
-          TUNER VIEW  — circular note display
+          TUNER VIEW
           ════════════════════════════════════════════════ */}
       {view === "tuner" && (
         <>
-          <p className="text-sm text-[var(--text-muted)]">
-            Detects pitch from your microphone and shows the nearest sargam note
-          </p>
-
-          {/* Circular note display */}
-          <div className="relative w-72 h-72 sm:w-80 sm:h-80">
-            <svg viewBox="0 0 300 300" className="w-full h-full">
+          {/* Dark tuner orb */}
+          <div
+            className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-full flex items-center justify-center"
+            style={{
+              background: "radial-gradient(circle at 38% 32%, #1E1B4B 0%, #0C0A1A 100%)",
+              boxShadow: detectedNote
+                ? `0 0 40px 6px ${getCentsColor(detectedNote.cents)}40, 0 8px 40px rgba(0,0,0,0.45)`
+                : "0 8px 40px rgba(0,0,0,0.35)",
+              transition: "box-shadow 0.3s ease",
+            }}
+          >
+            <svg viewBox="0 0 300 300" className="w-full h-full absolute inset-0">
+              {/* Outer decorative ring */}
               <circle
-                cx="150" cy="150" r="140"
-                fill="var(--bg-secondary)"
-                stroke="var(--border-light)"
-                strokeWidth="2"
+                cx="150" cy="150" r="141"
+                fill="none"
+                stroke="rgba(255,255,255,0.04)"
+                strokeWidth="1"
               />
+              <circle
+                cx="150" cy="150" r="134"
+                fill="none"
+                stroke="rgba(255,255,255,0.04)"
+                strokeWidth="1"
+              />
+
+              {/* Accuracy ring — glows based on cents */}
+              {detectedNote && (
+                <circle
+                  cx="150" cy="150" r="138"
+                  fill="none"
+                  stroke={getCentsColor(detectedNote.cents)}
+                  strokeWidth="2.5"
+                  opacity="0.7"
+                  style={{
+                    filter: `drop-shadow(0 0 7px ${getCentsColor(detectedNote.cents)})`,
+                    transition: "stroke 0.2s ease, filter 0.2s ease",
+                  }}
+                />
+              )}
+
+              {/* Note dots around the ring */}
               {CIRCLE_NOTES.map((note, idx) => {
                 const angle = (idx / CIRCLE_NOTES.length) * 2 * Math.PI - Math.PI / 2;
                 const r = 110;
@@ -609,16 +705,21 @@ export default function TunerPage() {
                   <g key={note}>
                     <circle
                       cx={x} cy={y} r={22}
-                      fill={isActive ? "var(--accent-primary)" : "var(--bg-card)"}
-                      stroke={isActive ? "var(--accent-primary)" : "var(--border-medium)"}
-                      strokeWidth="2"
-                      style={{ transition: "all 0.15s ease" }}
+                      fill={isActive ? "#6C63FF" : "rgba(255,255,255,0.05)"}
+                      stroke={isActive ? "#9B8EFF" : "rgba(255,255,255,0.1)"}
+                      strokeWidth="1.5"
+                      style={{
+                        transition: "all 0.15s ease",
+                        filter: isActive ? "drop-shadow(0 0 8px #6C63FF)" : "none",
+                      }}
                     />
                     <text
                       x={x} y={y}
-                      textAnchor="middle" dominantBaseline="central"
-                      className="text-sm font-bold"
-                      fill={isActive ? "white" : "var(--text-secondary)"}
+                      textAnchor="middle"
+                      dominantBaseline="central"
+                      fontSize="11"
+                      fontWeight="700"
+                      fill={isActive ? "white" : "rgba(255,255,255,0.38)"}
                       style={{ transition: "all 0.15s ease" }}
                     >
                       {note}
@@ -626,25 +727,60 @@ export default function TunerPage() {
                   </g>
                 );
               })}
-              {/* Centre: note name / status */}
+
+              {/* Centre: note name */}
               <text
-                x="150" y={detectedNote ? "140" : "155"}
-                textAnchor="middle" dominantBaseline="central"
-                className="text-2xl font-bold"
-                fill="var(--text-primary)"
+                x="150"
+                y={detectedNote ? "135" : "155"}
+                textAnchor="middle"
+                dominantBaseline="central"
+                fontSize={detectedNote ? "42" : "18"}
+                fontWeight="800"
+                fill={
+                  detectedNote
+                    ? getCentsColor(detectedNote.cents)
+                    : "rgba(255,255,255,0.25)"
+                }
+                style={{
+                  transition: "fill 0.2s ease, font-size 0.2s ease",
+                  filter: detectedNote
+                    ? `drop-shadow(0 0 12px ${getCentsColor(detectedNote.cents)})`
+                    : "none",
+                }}
               >
                 {detectedNote
                   ? detectedNote.sargam
-                  : isListening ? "Listening\u2026" : "Tap Start"}
+                  : isListening
+                  ? "~"
+                  : "\u266A"}
               </text>
+
+              {!detectedNote && (
+                <text
+                  x="150" y="178"
+                  textAnchor="middle"
+                  fontSize="11"
+                  fill="rgba(255,255,255,0.25)"
+                >
+                  {isListening ? "Listening\u2026" : "Tap Start"}
+                </text>
+              )}
+
               {detectedNote && (
                 <>
-                  <text x="150" y="165" textAnchor="middle" className="text-xs" fill="var(--text-muted)">
+                  <text
+                    x="150" y="164"
+                    textAnchor="middle"
+                    fontSize="11"
+                    fill="rgba(255,255,255,0.45)"
+                  >
                     {detectedNote.detectedFreq.toFixed(1)} Hz
                   </text>
                   <text
-                    x="150" y="185" textAnchor="middle"
-                    className="text-xs font-medium"
+                    x="150" y="183"
+                    textAnchor="middle"
+                    fontSize="13"
+                    fontWeight="700"
                     fill={getCentsColor(detectedNote.cents)}
                   >
                     {Math.abs(detectedNote.cents) <= 5
@@ -658,22 +794,45 @@ export default function TunerPage() {
             </svg>
           </div>
 
-          {/* Cents bar */}
+          {/* Cents deviation bar */}
           {detectedNote && (
-            <div className="w-full max-w-xs flex items-center gap-2">
-              <span className="text-xs text-[var(--text-muted)]">-50</span>
-              <div className="flex-1 h-3 rounded-full bg-[var(--bg-secondary)] relative overflow-hidden">
-                <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-[var(--border-medium)]" />
+            <div className="w-full max-w-xs flex flex-col gap-1.5">
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-mono text-[var(--text-muted)] w-6 text-right">-50</span>
                 <div
-                  className="absolute top-0.5 w-3 h-2 rounded-full transition-all duration-100"
+                  className="flex-1 h-3 rounded-full relative overflow-hidden"
                   style={{
-                    left: `${Math.max(0, Math.min(100, 50 + detectedNote.cents))}%`,
-                    transform: "translateX(-50%)",
-                    backgroundColor: getCentsColor(detectedNote.cents),
+                    background: "var(--bg-secondary)",
+                    boxShadow: "inset 0 1px 3px rgba(0,0,0,0.12)",
                   }}
-                />
+                >
+                  {/* ±5¢ safe zone */}
+                  <div
+                    className="absolute inset-y-0 rounded-full"
+                    style={{
+                      left: "calc(50% - 5%)",
+                      width: "10%",
+                      background: "rgba(39,174,96,0.18)",
+                    }}
+                  />
+                  {/* Centre tick */}
+                  <div className="absolute top-0 bottom-0 left-1/2 w-px bg-[var(--border-medium)]" />
+                  {/* Glowing indicator dot */}
+                  <div
+                    className="absolute top-0.5 w-2 h-2 rounded-full transition-all duration-100"
+                    style={{
+                      left: `${Math.max(2, Math.min(96, 50 + detectedNote.cents))}%`,
+                      transform: "translateX(-50%)",
+                      backgroundColor: getCentsColor(detectedNote.cents),
+                      boxShadow: `0 0 8px 2px ${getCentsColor(detectedNote.cents)}`,
+                    }}
+                  />
+                </div>
+                <span className="text-xs font-mono text-[var(--text-muted)] w-6">+50</span>
               </div>
-              <span className="text-xs text-[var(--text-muted)]">+50</span>
+              <p className="text-center text-[0.7rem] text-[var(--text-muted)]">
+                cents deviation from target
+              </p>
             </div>
           )}
         </>
@@ -685,75 +844,100 @@ export default function TunerPage() {
       {view === "range" && (
         <div className="w-full max-w-2xl flex flex-col gap-5">
 
-          {/* ── Calibration card ────────────────────────────────────────────── */}
-          <div className="rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] p-4 shadow-sm">
-
-            {/* idle — prompt user to calibrate */}
+          {/* ── Calibration card ── */}
+          <div
+            className="rounded-2xl p-4 shadow-sm"
+            style={{
+              background: "var(--bg-card)",
+              border: "1px solid var(--border-light)",
+              borderLeft: "4px solid #6C63FF",
+            }}
+          >
+            {/* idle */}
             {calibrationPhase === "idle" && (
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">
-                    Calibrate to your bansuri
+                  <p className="text-sm font-bold text-[var(--text-primary)] mb-1">
+                    🎋 Calibrate to your bansuri
                   </p>
                   <p className="text-xs text-[var(--text-muted)] leading-relaxed max-w-sm">
                     Play your <strong>Sa</strong> note for 10 s to detect your instrument&apos;s
-                    actual tuning. All note accuracy and mastery tracking will then be relative to
-                    your bansuri, not equal temperament — so playing technique is assessed
-                    regardless of how the instrument is tuned.
+                    actual tuning. Mastery tracking will be relative to your bansuri — not
+                    equal temperament — so technique is assessed regardless of how the
+                    instrument is tuned.
                   </p>
                 </div>
                 <button
                   onClick={startCalibration}
-                  className="shrink-0 px-4 py-2 text-xs font-semibold rounded-lg bg-[var(--accent-primary)] text-white hover:opacity-90 transition-opacity whitespace-nowrap"
+                  className="shrink-0 px-4 py-2 text-xs font-bold rounded-xl text-white whitespace-nowrap transition-opacity hover:opacity-90"
+                  style={{
+                    background: "linear-gradient(135deg, #6C63FF, #9B59B6)",
+                    boxShadow: "0 3px 10px rgba(108,99,255,0.3)",
+                  }}
                 >
                   {isListening ? "Calibrate Sa" : "Start \u0026 Calibrate"}
                 </button>
               </div>
             )}
 
-            {/* sampling — show progress */}
+            {/* sampling */}
             {calibrationPhase === "sampling" && (
               <div className="flex flex-col gap-3">
                 <div className="flex items-center justify-between">
-                  <p className="text-sm font-semibold text-[var(--text-primary)]">
-                    {"Hold your "}<strong>Sa</strong>{" note steadily\u2026"}
+                  <p className="text-sm font-bold text-[var(--text-primary)]">
+                    {"Hold your "}
+                    <strong style={{ color: "#6C63FF" }}>Sa</strong>
+                    {" note steadily\u2026"}
                   </p>
                   <span className="text-xs tabular-nums text-[var(--text-muted)]">
                     {detectedNote
-                      ? `${detectedNote.detectedFreq.toFixed(1)} Hz detected`
+                      ? `${detectedNote.detectedFreq.toFixed(1)} Hz`
                       : "Listening\u2026"}
                   </span>
                 </div>
-                {/* Progress bar */}
-                <div className="h-2.5 rounded-full bg-[var(--bg-secondary)] overflow-hidden">
+                <div
+                  className="h-2.5 rounded-full overflow-hidden"
+                  style={{ background: "var(--bg-secondary)" }}
+                >
                   <div
-                    className="h-full rounded-full bg-[var(--accent-primary)]"
-                    style={{ width: `${calibrationProgress * 100}%`, transition: "width 50ms linear" }}
+                    className="h-full rounded-full"
+                    style={{
+                      width: `${calibrationProgress * 100}%`,
+                      background: "linear-gradient(90deg, #6C63FF, #FF6584)",
+                      transition: "width 50ms linear",
+                      boxShadow: "0 0 8px rgba(108,99,255,0.5)",
+                    }}
                   />
                 </div>
                 <div className="flex items-center justify-between text-xs text-[var(--text-muted)]">
-                  <span>Collecting samples ({Math.round(calibrationProgress * CALIBRATION_DURATION_MS / 1000)}s / 10s)</span>
-                  <button onClick={clearCalibration} className="hover:text-[var(--text-secondary)] transition-colors">
+                  <span>
+                    {Math.round(calibrationProgress * CALIBRATION_DURATION_MS / 1000)}s / 10s
+                  </span>
+                  <button
+                    onClick={clearCalibration}
+                    className="hover:text-[var(--text-secondary)] transition-colors"
+                  >
                     Cancel
                   </button>
                 </div>
               </div>
             )}
 
-            {/* done — show calibration result */}
+            {/* done + result */}
             {calibrationPhase === "done" && calibDesc && calibratedSaFreq && (
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  {/* Headline: detected freq + nearest equal-temperament note */}
                   <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                    <span className="text-sm font-semibold text-[var(--text-primary)]">
-                      Sa detected: {calibratedSaFreq.toFixed(1)} Hz
+                    <span className="text-sm font-bold text-[var(--text-primary)]">
+                      {"Sa \u2192 "}
+                      {calibratedSaFreq.toFixed(1)} Hz
                     </span>
                     <span
-                      className="text-xs font-medium px-2 py-0.5 rounded-full"
+                      className="text-xs font-semibold px-2.5 py-0.5 rounded-full"
                       style={{
-                        backgroundColor: `${calibQualityColor}22`,
+                        backgroundColor: `${calibQualityColor}20`,
                         color: calibQualityColor,
+                        border: `1px solid ${calibQualityColor}40`,
                       }}
                     >
                       {calibDesc.label}
@@ -764,44 +948,47 @@ export default function TunerPage() {
                         : " \u2713"}
                     </span>
                     <span
-                      className="text-xs font-medium px-2 py-0.5 rounded-full"
+                      className="text-xs font-semibold px-2.5 py-0.5 rounded-full"
                       style={{
-                        backgroundColor: `${calibQualityColor}22`,
+                        backgroundColor: `${calibQualityColor}20`,
                         color: calibQualityColor,
+                        border: `1px solid ${calibQualityColor}40`,
                       }}
                     >
                       {calibQuality}
                     </span>
                   </div>
-
-                  {/* Detail line */}
                   <p className="text-xs text-[var(--text-muted)] leading-relaxed max-w-sm">
                     {calibAbsCents <= 10
                       ? "Bansuri is close to equal temperament."
-                      : `Bansuri is ${calibAbsCents}\u00A2 ${calibDesc.cents > 0 ? "sharp" : "flat"} of ${calibDesc.label} — a real-instrument offset.`}
-                    {" "}Mastery and cents accuracy are now relative to your instrument&apos;s Sa,
-                    so playing technique is evaluated independently of the tuning drift.
+                      : `Bansuri is ${calibAbsCents}\u00A2 ${calibDesc.cents > 0 ? "sharp" : "flat"} of ${calibDesc.label} \u2014 a real-instrument offset.`}
+                    {" "}Mastery and cents accuracy are now relative to your instrument&apos;s Sa.
                   </p>
                 </div>
                 <button
                   onClick={clearCalibration}
-                  className="shrink-0 px-3 py-1.5 text-xs rounded-lg border border-[var(--border-medium)] text-[var(--text-muted)] hover:bg-[var(--bg-secondary)] transition-colors"
+                  className="shrink-0 px-3 py-1.5 text-xs font-semibold rounded-xl transition-colors hover:bg-[var(--bg-secondary)]"
+                  style={{
+                    border: "1px solid var(--border-medium)",
+                    color: "var(--text-muted)",
+                  }}
                 >
                   Recalibrate
                 </button>
               </div>
             )}
 
-            {/* done but no samples — fallback */}
+            {/* done but no samples */}
             {calibrationPhase === "done" && !calibratedSaFreq && (
               <div className="flex items-center justify-between gap-4">
                 <p className="text-xs text-[var(--text-muted)]">
-                  No pitch detected during calibration — make sure the tuner is on and you are
-                  playing your Sa clearly.
+                  No pitch detected during calibration. Make sure the tuner is on and play
+                  your Sa clearly.
                 </p>
                 <button
                   onClick={startCalibration}
-                  className="shrink-0 px-3 py-1.5 text-xs rounded-lg bg-[var(--accent-primary)] text-white hover:opacity-90 transition-opacity"
+                  className="shrink-0 px-3 py-1.5 text-xs font-bold rounded-xl text-white hover:opacity-90"
+                  style={{ background: "linear-gradient(135deg, #6C63FF, #9B59B6)" }}
                 >
                   Try Again
                 </button>
@@ -809,65 +996,103 @@ export default function TunerPage() {
             )}
           </div>
 
-          {/* Progress header */}
-          <div className="flex items-center justify-between gap-4">
+          {/* ── Progress header ── */}
+          <div
+            className="flex items-center justify-between gap-4 px-4 py-3 rounded-2xl"
+            style={{
+              background: "var(--bg-card)",
+              border: "1px solid var(--border-light)",
+            }}
+          >
             <div className="flex flex-col gap-1.5">
-              <span className="text-sm font-semibold text-[var(--text-primary)]">
-                {masteredCount} / {TOTAL_NOTES} notes played this session
+              <span className="text-sm font-bold text-[var(--text-primary)]">
+                {masteredCount} / {TOTAL_NOTES}
+                <span className="font-normal text-[var(--text-muted)] ml-1.5">
+                  notes played this session
+                </span>
               </span>
-              <div className="w-52 h-2 rounded-full bg-[var(--bg-secondary)] overflow-hidden">
+              <div
+                className="w-52 h-2 rounded-full overflow-hidden"
+                style={{ background: "var(--bg-secondary)" }}
+              >
                 <div
                   className="h-full rounded-full transition-all duration-500"
                   style={{
                     width: `${(masteredCount / TOTAL_NOTES) * 100}%`,
-                    backgroundColor:
+                    background:
                       masteredCount === TOTAL_NOTES
-                        ? "var(--accent-success)"
-                        : "var(--accent-primary)",
+                        ? "linear-gradient(90deg, #22C55E, #16A34A)"
+                        : "linear-gradient(90deg, #6C63FF, #FF6584)",
+                    boxShadow:
+                      masteredCount > 0
+                        ? "0 0 6px rgba(108,99,255,0.4)"
+                        : "none",
                   }}
                 />
               </div>
             </div>
             <button
               onClick={resetMastery}
-              className="shrink-0 px-3 py-1.5 text-xs rounded-lg border border-[var(--border-medium)] text-[var(--text-muted)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-secondary)] transition-colors"
+              className="shrink-0 px-3 py-1.5 text-xs font-semibold rounded-xl transition-colors hover:bg-[var(--bg-secondary)]"
+              style={{
+                border: "1px solid var(--border-medium)",
+                color: "var(--text-muted)",
+              }}
             >
               Reset
             </button>
           </div>
 
-          {/* Range style sub-toggle + hold duration — same row */}
+          {/* ── Sub-toggle row: range style + hold duration ── */}
           <div className="flex flex-wrap items-center gap-3">
             {/* View style */}
-            <div className="flex rounded-lg overflow-hidden border border-[var(--border-light)]">
+            <div
+              className="flex p-0.5 rounded-xl overflow-hidden"
+              style={{ background: "var(--bg-secondary)", border: "1px solid var(--border-light)" }}
+            >
               {(["grid", "bansuri"] as RangeStyle[]).map((s) => (
                 <button
                   key={s}
                   onClick={() => setRangeStyle(s)}
-                  className={`px-4 py-1.5 text-xs font-medium transition-colors ${
+                  className="px-4 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150"
+                  style={
                     rangeStyle === s
-                      ? "bg-[var(--accent-primary)] text-white"
-                      : "bg-[var(--bg-card)] text-[var(--text-muted)] hover:bg-[var(--bg-secondary)]"
-                  }`}
+                      ? {
+                          background: "white",
+                          color: "#6C63FF",
+                          boxShadow: "0 1px 4px rgba(108,99,255,0.2)",
+                        }
+                      : { color: "var(--text-muted)" }
+                  }
                 >
                   {s === "grid" ? "Grid" : "\uD83C\uDF8B Bansuri"}
                 </button>
               ))}
             </div>
 
-            {/* Hold duration (long note practice) */}
+            {/* Hold duration */}
             <div className="flex items-center gap-1.5">
-              <span className="text-xs text-[var(--text-muted)] whitespace-nowrap">Hold:</span>
-              <div className="flex rounded-lg overflow-hidden border border-[var(--border-light)]">
+              <span className="text-xs text-[var(--text-muted)] whitespace-nowrap font-medium">
+                Hold:
+              </span>
+              <div
+                className="flex p-0.5 rounded-xl overflow-hidden"
+                style={{ background: "var(--bg-secondary)", border: "1px solid var(--border-light)" }}
+              >
                 {HOLD_OPTIONS.map((opt) => (
                   <button
                     key={opt.ms}
                     onClick={() => { setHoldMs(opt.ms); resetMastery(); }}
-                    className={`px-3 py-1.5 text-xs font-medium transition-colors ${
+                    className="px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150"
+                    style={
                       holdMs === opt.ms
-                        ? "bg-[var(--accent-primary)] text-white"
-                        : "bg-[var(--bg-card)] text-[var(--text-muted)] hover:bg-[var(--bg-secondary)]"
-                    }`}
+                        ? {
+                            background: "white",
+                            color: "#6C63FF",
+                            boxShadow: "0 1px 4px rgba(108,99,255,0.2)",
+                          }
+                        : { color: "var(--text-muted)" }
+                    }
                   >
                     {opt.label}
                   </button>
@@ -878,29 +1103,57 @@ export default function TunerPage() {
 
           {/* Full-range celebration */}
           {masteredCount === TOTAL_NOTES && (
-            <div className="text-center py-3 px-4 rounded-xl bg-green-50 border border-green-200 text-green-700 text-sm font-medium">
-              🎉 Full range achieved! You have played all {TOTAL_NOTES} notes across all three octaves.
+            <div
+              className="text-center py-3 px-4 rounded-2xl text-sm font-bold"
+              style={{
+                background: "linear-gradient(135deg, rgba(34,197,94,0.12), rgba(22,163,74,0.08))",
+                border: "1px solid rgba(34,197,94,0.3)",
+                color: "#16A34A",
+              }}
+            >
+              {"🎉 Full range achieved! You played all "}
+              {TOTAL_NOTES}
+              {" notes across all three octaves."}
             </div>
           )}
 
-          {/* ── Grid view (Option 1) ── */}
+          {/* ══ GRID VIEW ══ */}
           {rangeStyle === "grid" && (
             <>
-              {/* One row per octave */}
               {BANSURI_OCTAVES.map((octave) => {
+                const theme = OCTAVE_THEME[octave.id as OctaveId];
                 const octaveMastered = octave.notes.filter((n) => masteredNotes.has(n.semitone)).length;
 
                 return (
-                  <div key={octave.id} className="flex flex-col gap-2">
+                  <div
+                    key={octave.id}
+                    className="flex flex-col gap-2 p-3 rounded-2xl"
+                    style={{
+                      background: theme.bg,
+                      border: `1px solid ${theme.border}`,
+                      borderLeft: `4px solid ${theme.accent}`,
+                    }}
+                  >
                     {/* Octave label */}
                     <div className="flex items-center justify-between">
-                      <div className="flex flex-col">
-                        <span className="text-sm font-semibold text-[var(--text-primary)]">
+                      <div>
+                        <span
+                          className="text-sm font-bold"
+                          style={{ color: theme.accent }}
+                        >
                           {octave.name}
                         </span>
-                        <span className="text-xs text-[var(--text-muted)]">{octave.subtitle}</span>
+                        <span className="text-xs text-[var(--text-muted)] ml-2">
+                          {octave.subtitle}
+                        </span>
                       </div>
-                      <span className="text-xs tabular-nums text-[var(--text-muted)]">
+                      <span
+                        className="text-xs font-bold tabular-nums px-2 py-0.5 rounded-full"
+                        style={{
+                          background: `${theme.accent}20`,
+                          color: theme.accent,
+                        }}
+                      >
                         {octaveMastered}/{octave.notes.length}
                       </span>
                     </div>
@@ -918,48 +1171,82 @@ export default function TunerPage() {
                             : 0;
                         const sustainPct = (sustainCount / hitFramesRequired) * 100;
 
+                        let cellStyle: React.CSSProperties = {};
+                        let textColor = "var(--text-secondary)";
+
+                        if (isHit) {
+                          cellStyle = {
+                            background: "linear-gradient(135deg, #22C55E, #16A34A)",
+                            boxShadow: "0 2px 10px rgba(34,197,94,0.35)",
+                            border: "1px solid #22C55E",
+                          };
+                          textColor = "white";
+                        } else if (isCandidate) {
+                          cellStyle = {
+                            background: "linear-gradient(135deg, #F5A623, #EF4444)",
+                            boxShadow: `0 2px 12px rgba(245,166,35,0.45)`,
+                            border: "1px solid #F5A623",
+                            transform: "scale(1.07)",
+                          };
+                          textColor = "white";
+                        } else if (isDetecting) {
+                          cellStyle = {
+                            background: "var(--bg-card)",
+                            border: `2px solid ${theme.accent}`,
+                            boxShadow: `0 0 8px ${theme.glow}`,
+                          };
+                          textColor = theme.accent;
+                        } else if (note.komal) {
+                          cellStyle = {
+                            background: "var(--bg-secondary)",
+                            border: "1px solid var(--border-light)",
+                            opacity: 0.75,
+                          };
+                          textColor = "var(--text-muted)";
+                        } else {
+                          cellStyle = {
+                            background: "var(--bg-card)",
+                            border: "1px solid var(--border-light)",
+                            borderLeft: `3px solid ${theme.accent}`,
+                          };
+                          textColor = "var(--text-secondary)";
+                        }
+
                         return (
                           <div
                             key={note.semitone}
                             className={[
                               "relative flex flex-col items-center justify-center",
-                              "rounded-xl select-none transition-all duration-150 overflow-hidden",
+                              "rounded-xl select-none overflow-hidden transition-all duration-150",
                               note.komal ? "w-10 h-10" : "w-12 h-12",
-                              isHit
-                                ? "bg-green-500 text-white shadow-md"
-                                : isCandidate
-                                ? "text-white shadow-md scale-105"
-                                : isDetecting
-                                ? "border-2 border-[var(--accent-primary)] bg-[var(--bg-card)] text-[var(--text-primary)]"
-                                : note.komal
-                                ? "bg-[var(--bg-secondary)] text-[var(--text-muted)] border border-[var(--border-light)] opacity-80"
-                                : "bg-[var(--bg-secondary)] text-[var(--text-secondary)] border border-[var(--border-light)]",
                             ].join(" ")}
-                            style={
-                              isCandidate && !isHit
-                                ? { backgroundColor: "var(--accent-warm)" }
-                                : undefined
-                            }
+                            style={cellStyle}
                           >
-                            {/* Sustain fill — grows from bottom while holding the note */}
+                            {/* Sustain fill rising from bottom */}
                             {isCandidate && !isHit && (
                               <div
-                                className="absolute bottom-0 left-0 right-0 bg-white/20 transition-none"
-                                style={{ height: `${sustainPct}%` }}
+                                className="absolute bottom-0 left-0 right-0 transition-none"
+                                style={{
+                                  height: `${sustainPct}%`,
+                                  background: "rgba(255,255,255,0.22)",
+                                }}
                               />
                             )}
 
                             <span
-                              className={[
-                                "relative z-10 font-semibold leading-tight text-center",
-                                note.komal ? "text-[0.6rem]" : "text-[0.7rem]",
-                              ].join(" ")}
+                              className="relative z-10 font-bold leading-tight text-center"
+                              style={{
+                                fontSize: note.komal ? "0.6rem" : "0.7rem",
+                                color: textColor,
+                              }}
                             >
                               {note.display}
                             </span>
 
                             {isHit && (
-                              <span className="relative z-10 text-[0.5rem] opacity-90">\u2713</span>
+                              <span className="relative z-10 text-[0.5rem] text-white opacity-90">
+                                {"\u2713"}
+                              </span>
                             )}
                             {!isHit && note.komal && !isCandidate && !isDetecting && (
                               <span className="relative z-10 text-[0.45rem] opacity-40 leading-none italic">
@@ -975,15 +1262,30 @@ export default function TunerPage() {
               })}
 
               {/* Legend */}
-              <div className="flex flex-wrap gap-x-4 gap-y-1.5 pt-2 border-t border-[var(--border-light)]">
+              <div
+                className="flex flex-wrap gap-x-4 gap-y-1.5 pt-3 border-t"
+                style={{ borderColor: "var(--border-light)" }}
+              >
                 {[
-                  { bg: "bg-[var(--bg-secondary)] border border-[var(--border-light)]", label: "Not yet played" },
-                  { bg: "border-2 border-[var(--accent-primary)] bg-[var(--bg-card)]",  label: "Detecting (±30¢)" },
-                  { bg: "bg-[var(--accent-warm)]", label: `In range \u2014 hold ${HOLD_OPTIONS.find(o => o.ms === holdMs)?.label ?? ""}` },
-                  { bg: "bg-green-500",                                                  label: "Played \u2713" },
-                ].map(({ bg, label }) => (
+                  {
+                    style: { background: "var(--bg-card)", border: "1px solid var(--border-light)", borderRadius: 4 } as React.CSSProperties,
+                    label: "Not yet played",
+                  },
+                  {
+                    style: { background: "var(--bg-card)", border: `2px solid #6C63FF`, borderRadius: 4, boxShadow: "0 0 5px rgba(108,99,255,0.4)" } as React.CSSProperties,
+                    label: "Detecting (\u00B130\u00A2)",
+                  },
+                  {
+                    style: { background: "linear-gradient(135deg, #F5A623, #EF4444)", borderRadius: 4 } as React.CSSProperties,
+                    label: `In range \u2014 hold ${HOLD_OPTIONS.find(o => o.ms === holdMs)?.label ?? ""}`,
+                  },
+                  {
+                    style: { background: "linear-gradient(135deg, #22C55E, #16A34A)", borderRadius: 4 } as React.CSSProperties,
+                    label: "Played \u2713",
+                  },
+                ].map(({ style, label }) => (
                   <div key={label} className="flex items-center gap-1.5 text-xs text-[var(--text-muted)]">
-                    <div className={`w-3.5 h-3.5 rounded ${bg}`} />
+                    <div className="w-3.5 h-3.5" style={style} />
                     {label}
                   </div>
                 ))}
@@ -991,20 +1293,42 @@ export default function TunerPage() {
             </>
           )}
 
-          {/* ── Bansuri view (Option 2) ── */}
+          {/* ══ BANSURI VIEW ══ */}
           {rangeStyle === "bansuri" && (
             <div className="flex flex-col gap-4">
 
-              {/* Current note display */}
-              <div className="flex items-baseline justify-center gap-2 py-1 min-h-[2.75rem]">
+              {/* Current note + octave + cents */}
+              <div
+                className="flex items-baseline justify-center gap-3 py-3 px-4 rounded-2xl min-h-[3.5rem]"
+                style={{
+                  background: "var(--bg-card)",
+                  border: "1px solid var(--border-light)",
+                }}
+              >
+                {activeSemitone !== null && (
+                  <div
+                    className="w-1.5 h-8 rounded-full shrink-0"
+                    style={{
+                      background: octaveThemeFor(activeSemitone).accent,
+                      boxShadow: `0 0 8px ${octaveThemeFor(activeSemitone).glow}`,
+                    }}
+                  />
+                )}
                 <span
-                  className="text-4xl font-bold tabular-nums transition-colors duration-150"
+                  className="text-4xl font-extrabold tabular-nums transition-all duration-150"
                   style={{
                     color: masteredActive
                       ? "#22C55E"
                       : candidateActive
                       ? "#F5A623"
+                      : activeSemitone !== null
+                      ? octaveThemeFor(activeSemitone).accent
                       : "var(--text-primary)",
+                    textShadow: candidateActive
+                      ? "0 0 20px rgba(245,166,35,0.5)"
+                      : masteredActive
+                      ? "0 0 20px rgba(34,197,94,0.5)"
+                      : "none",
                   }}
                 >
                   {detectedNote ? detectedNote.sargam : "\u2014"}
@@ -1014,7 +1338,7 @@ export default function TunerPage() {
                 )}
                 {detectedNote && (
                   <span
-                    className="text-sm font-medium"
+                    className="text-sm font-bold"
                     style={{ color: getCentsColor(detectedNote.cents) }}
                   >
                     {Math.abs(detectedNote.cents) <= 5
@@ -1026,8 +1350,18 @@ export default function TunerPage() {
                 )}
               </div>
 
-              {/* SVG Bansuri — horizontal top-down view */}
-              <div className="w-full overflow-x-auto">
+              {/* SVG Bansuri */}
+              <div
+                className="w-full overflow-x-auto rounded-2xl p-3"
+                style={{
+                  background: "linear-gradient(160deg, #0F1020 0%, #141830 100%)",
+                  border: "1px solid rgba(255,255,255,0.07)",
+                  boxShadow: tubeGlowColor && tubeGlowOpacity > 0
+                    ? `0 0 30px ${tubeGlowColor}${Math.round(tubeGlowOpacity * 80).toString(16).padStart(2, "0")}`
+                    : "none",
+                  transition: "box-shadow 0.3s ease",
+                }}
+              >
                 <svg
                   viewBox="0 0 660 80"
                   width="100%"
@@ -1036,22 +1370,27 @@ export default function TunerPage() {
                 >
                   <defs>
                     <linearGradient id="bamboo-grad" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%"   stopColor="#DEB96A" />
-                      <stop offset="45%"  stopColor="#C8953E" />
-                      <stop offset="100%" stopColor="#9B6B1A" />
+                      <stop offset="0%"   stopColor="#E8C97A" />
+                      <stop offset="40%"  stopColor="#C8953E" />
+                      <stop offset="100%" stopColor="#7A4A10" />
                     </linearGradient>
                     <linearGradient id="bamboo-cap-grad" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="0%"   stopColor="#7A4A10" />
                       <stop offset="100%" stopColor="#3D2008" />
                     </linearGradient>
+                    <radialGradient id="hole-glow" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stopColor="#F5A623" stopOpacity="0.7" />
+                      <stop offset="100%" stopColor="#F5A623" stopOpacity="0" />
+                    </radialGradient>
                   </defs>
 
-                  {/* Tube glow — opacity scales with sustain progress */}
+                  {/* Tube ambient glow — scales with sustain */}
                   {tubeGlowColor && tubeGlowOpacity > 0 && (
                     <rect
-                      x={6} y={12} width={648} height={56} rx={28}
+                      x={4} y={10} width={652} height={60} rx={30}
                       fill={tubeGlowColor}
-                      opacity={tubeGlowOpacity}
+                      opacity={tubeGlowOpacity * 0.55}
+                      style={{ filter: `blur(4px)` }}
                     />
                   )}
 
@@ -1059,9 +1398,13 @@ export default function TunerPage() {
                   <rect
                     x={15} y={20} width={630} height={40} rx={20}
                     fill="url(#bamboo-grad)"
-                    stroke="#7A4A10"
+                    stroke="#5C3208"
                     strokeWidth={1.5}
                   />
+
+                  {/* Subtle grain lines */}
+                  <line x1={15} y1={36} x2={645} y2={36} stroke="rgba(0,0,0,0.08)" strokeWidth={1} />
+                  <line x1={15} y1={44} x2={645} y2={44} stroke="rgba(255,255,255,0.06)" strokeWidth={1} />
 
                   {/* Left end cap */}
                   <rect
@@ -1072,39 +1415,80 @@ export default function TunerPage() {
                   />
 
                   {/* Bamboo knot rings */}
-                  <rect x={345} y={22} width={4} height={36} rx={2} fill="#7A4A10" opacity={0.5} />
-                  <rect x={578} y={22} width={4} height={36} rx={2} fill="#7A4A10" opacity={0.5} />
+                  <rect x={345} y={22} width={4} height={36} rx={2} fill="#5C3208" opacity={0.6} />
+                  <rect x={578} y={22} width={4} height={36} rx={2} fill="#5C3208" opacity={0.6} />
 
                   {/* Blow hole */}
-                  <ellipse cx={90} cy={40} rx={13} ry={10} fill="#1A0D00" stroke="#5C3D0F" strokeWidth={1.5} />
-                  <text x={90} y={72} textAnchor="middle" fontSize={8} fill="#8888A0">blow</text>
+                  <ellipse cx={90} cy={40} rx={14} ry={10}
+                    fill="#110800"
+                    stroke="#7A4A10"
+                    strokeWidth={1.5}
+                  />
+                  <text x={90} y={74} textAnchor="middle" fontSize={7.5} fill="rgba(255,255,255,0.3)">
+                    blow
+                  </text>
 
-                  {/* L/R hand divider */}
-                  <text x={358} y={13} textAnchor="middle" fontSize={7} fill="#8888A0">
+                  {/* L/R label */}
+                  <text x={358} y={13} textAnchor="middle" fontSize={7} fill="rgba(255,255,255,0.3)">
                     {"L \u00B7 R"}
                   </text>
 
                   {/* 6 finger holes */}
                   {BANSURI_HOLE_X.map((hx, i) => {
-                    const state = displayFingering[i];
+                    const state    = displayFingering[i];
+                    const isActive = activeFingering !== null;
+                    const holeClosed = state === 1;
+                    const holeHalf   = state === 0.5;
+
                     return (
                       <g key={i}>
+                        {/* Glow halo when note active */}
+                        {isActive && (
+                          <circle
+                            cx={hx} cy={40} r={16}
+                            fill="none"
+                            stroke={tubeGlowColor ?? "#6C63FF"}
+                            strokeWidth={2}
+                            opacity={0.4 + sustainFraction * 0.4}
+                            style={{ filter: `blur(2px)` }}
+                          />
+                        )}
+
                         <circle
-                          cx={hx} cy={40} r={9}
-                          fill={state === 1 ? "#1A0D00" : "white"}
-                          stroke="#5C3D0F"
+                          cx={hx} cy={40} r={9.5}
+                          fill={holeClosed ? "#0D0600" : "#F5EDD8"}
+                          stroke={holeClosed ? "#3D2008" : "#8C6030"}
                           strokeWidth={1.5}
+                          style={{
+                            filter: isActive && holeClosed
+                              ? `drop-shadow(0 0 4px ${tubeGlowColor ?? "#F5A623"})`
+                              : "none",
+                          }}
                         />
-                        {state === 0.5 && (
+
+                        {holeHalf && (
                           <>
                             <path
-                              d={`M${hx},${40 - 9} A9,9 0 0,0 ${hx},${40 + 9} Z`}
-                              fill="#1A0D00"
+                              d={`M${hx},${40 - 9.5} A9.5,9.5 0 0,0 ${hx},${40 + 9.5} Z`}
+                              fill="#0D0600"
                             />
-                            <circle cx={hx} cy={40} r={9} fill="none" stroke="#5C3D0F" strokeWidth={1.5} />
+                            <circle
+                              cx={hx} cy={40} r={9.5}
+                              fill="none"
+                              stroke="#5C3D0F"
+                              strokeWidth={1.5}
+                            />
                           </>
                         )}
-                        <text x={hx} y={72} textAnchor="middle" fontSize={8} fill="#8888A0">{i + 1}</text>
+
+                        <text
+                          x={hx} y={74}
+                          textAnchor="middle"
+                          fontSize={7.5}
+                          fill="rgba(255,255,255,0.28)"
+                        >
+                          {i + 1}
+                        </text>
                       </g>
                     );
                   })}
@@ -1119,70 +1503,109 @@ export default function TunerPage() {
                   { label: "Closed", closed: true,  half: false },
                 ] as const).map(({ label, closed, half }) => (
                   <div key={label} className="flex items-center gap-1.5">
-                    <svg width={12} height={12} viewBox="-6 -6 12 12">
-                      <circle r={5} fill={closed ? "#1A0D00" : "white"} stroke="#5C3D0F" strokeWidth={1.2} />
-                      {half && <path d="M0,-5 A5,5 0 0,0 0,5 Z" fill="#1A0D00" />}
+                    <svg width={14} height={14} viewBox="-7 -7 14 14">
+                      <circle
+                        r={5.5}
+                        fill={closed ? "#0D0600" : "#F5EDD8"}
+                        stroke="#5C3D0F"
+                        strokeWidth={1.2}
+                      />
+                      {half && <path d="M0,-5.5 A5.5,5.5 0 0,0 0,5.5 Z" fill="#0D0600" />}
                     </svg>
                     {label}
                   </div>
                 ))}
               </div>
 
-              {/* Mastery dots */}
-              <div className="flex flex-col gap-1.5 pt-1">
-                {BANSURI_OCTAVES.map((octave) => (
-                  <div key={octave.id} className="flex items-center gap-2">
-                    <span className="text-[0.65rem] text-[var(--text-muted)] w-14 shrink-0 text-right">
-                      {octave.name.split(" ")[0]}
-                    </span>
-                    <div className="flex gap-1 flex-wrap">
-                      {octave.notes.map((note) => {
-                        const isM = masteredNotes.has(note.semitone);
-                        const isA = activeSemitone === note.semitone;
-                        return (
-                          <div
-                            key={note.semitone}
-                            title={note.display}
-                            className="w-3 h-3 rounded-full transition-colors duration-200"
-                            style={{
-                              backgroundColor: isM
-                                ? "#22C55E"
-                                : isA
-                                ? "#F5A623"
-                                : "var(--border-medium)",
-                            }}
-                          />
-                        );
-                      })}
+              {/* Mastery dots — octave-colored */}
+              <div className="flex flex-col gap-2 pt-1">
+                {BANSURI_OCTAVES.map((octave) => {
+                  const theme = OCTAVE_THEME[octave.id as OctaveId];
+                  return (
+                    <div key={octave.id} className="flex items-center gap-2">
+                      <span
+                        className="text-[0.6rem] font-bold w-14 shrink-0 text-right"
+                        style={{ color: theme.accent }}
+                      >
+                        {octave.name.split(" ")[0]}
+                      </span>
+                      <div className="flex gap-1.5 flex-wrap">
+                        {octave.notes.map((note) => {
+                          const isM = masteredNotes.has(note.semitone);
+                          const isA = activeSemitone === note.semitone;
+                          return (
+                            <div
+                              key={note.semitone}
+                              title={note.display}
+                              className="w-3.5 h-3.5 rounded-full transition-all duration-200"
+                              style={{
+                                backgroundColor: isM
+                                  ? "#22C55E"
+                                  : isA
+                                  ? theme.accent
+                                  : "rgba(255,255,255,0.12)",
+                                boxShadow: isM
+                                  ? "0 0 5px rgba(34,197,94,0.5)"
+                                  : isA
+                                  ? `0 0 6px ${theme.glow}`
+                                  : "none",
+                                transform: isA ? "scale(1.25)" : "scale(1)",
+                              }}
+                            />
+                          );
+                        })}
+                      </div>
+                      <span
+                        className="text-[0.6rem] font-semibold"
+                        style={{ color: theme.accent }}
+                      >
+                        {octave.notes.filter((n) => masteredNotes.has(n.semitone)).length}
+                        {"/"}
+                        {octave.notes.length}
+                      </span>
                     </div>
-                    <span className="text-[0.6rem] text-[var(--text-muted)]">
-                      {octave.notes.filter((n) => masteredNotes.has(n.semitone)).length}/
-                      {octave.notes.length}
-                    </span>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
-
             </div>
           )}
 
-          {/* Instruction text — shared */}
+          {/* Instruction text */}
           {!isListening && (
             <p className="text-sm text-center text-[var(--text-muted)] leading-relaxed">
-              Start the tuner and play each note of your bansuri across all three octaves.<br />
-              Hold each note steadily for {HOLD_OPTIONS.find(o => o.ms === holdMs)?.label} within \u00B115\u00A2 to mark it as played.
+              Start the tuner and play each note of your bansuri across all three octaves.
+              <br />
+              Hold each note steadily for{" "}
+              {HOLD_OPTIONS.find((o) => o.ms === holdMs)?.label} within{" "}
+              {"\u00B115\u00A2"} to mark it as played.
             </p>
           )}
 
-          {/* Live mini-tuner bar — shared */}
+          {/* Live mini-tuner bar */}
           {isListening && (
-            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-[var(--bg-secondary)] border border-[var(--border-light)]">
-              <span className="text-base font-bold text-[var(--text-primary)] w-12 shrink-0">
+            <div
+              className="flex items-center gap-3 px-4 py-3 rounded-2xl"
+              style={{
+                background: "var(--bg-secondary)",
+                border: "1px solid var(--border-light)",
+              }}
+            >
+              <span
+                className="text-base font-extrabold w-12 shrink-0"
+                style={{
+                  color: detectedNote
+                    ? getCentsColor(detectedNote.cents)
+                    : "var(--text-primary)",
+                }}
+              >
                 {detectedNote ? detectedNote.sargam : "\u2013"}
               </span>
               <div className="flex-1 flex flex-col gap-1">
-                <div className="w-full h-2 rounded-full bg-[var(--bg-card)] relative overflow-hidden">
-                  <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-[var(--border-medium)]" />
+                <div
+                  className="w-full h-2 rounded-full relative overflow-hidden"
+                  style={{ background: "var(--bg-card)", boxShadow: "inset 0 1px 3px rgba(0,0,0,0.08)" }}
+                >
+                  <div className="absolute top-0 bottom-0 left-1/2 w-px bg-[var(--border-medium)]" />
                   {detectedNote && (
                     <div
                       className="absolute top-0 h-2 w-2.5 rounded-full transition-all duration-75"
@@ -1190,6 +1613,7 @@ export default function TunerPage() {
                         left: `${Math.max(0, Math.min(100, 50 + detectedNote.cents))}%`,
                         transform: "translateX(-50%)",
                         backgroundColor: getCentsColor(detectedNote.cents),
+                        boxShadow: `0 0 6px ${getCentsColor(detectedNote.cents)}`,
                       }}
                     />
                   )}
@@ -1215,21 +1639,36 @@ export default function TunerPage() {
 
       {/* Error */}
       {error && (
-        <p className="text-sm text-[var(--accent-secondary)] bg-red-50 px-4 py-2 rounded-lg">
-          {error}
-        </p>
+        <div
+          className="text-sm px-4 py-3 rounded-xl flex items-center gap-2"
+          style={{
+            background: "rgba(239,68,68,0.08)",
+            border: "1px solid rgba(239,68,68,0.2)",
+            color: "#EF4444",
+          }}
+        >
+          <span>⚠️</span>
+          <span>{error}</span>
+        </div>
       )}
 
       {/* Start / Stop */}
       <button
         onClick={isListening ? stopListening : startListening}
-        className={`px-8 py-3 rounded-xl text-white font-medium text-lg shadow-lg transition-all ${
+        className="px-10 py-3.5 rounded-2xl text-white font-bold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
+        style={
           isListening
-            ? "bg-[var(--accent-secondary)] hover:opacity-90"
-            : "bg-[var(--accent-primary)] hover:opacity-90"
-        }`}
+            ? {
+                background: "linear-gradient(135deg, #FF6584, #EF4444)",
+                boxShadow: "0 4px 20px rgba(255,101,132,0.4)",
+              }
+            : {
+                background: "linear-gradient(135deg, #6C63FF, #9B59B6)",
+                boxShadow: "0 4px 20px rgba(108,99,255,0.4)",
+              }
+        }
       >
-        {isListening ? "Stop Tuner" : "Start Tuner"}
+        {isListening ? "⏹ Stop Tuner" : "▶ Start Tuner"}
       </button>
     </div>
   );
