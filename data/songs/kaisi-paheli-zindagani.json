@@ -1,0 +1,78 @@
+{
+  "id": "kaisi-paheli-zindagani",
+  "title": "Kaisi Paheli Zindagani",
+  "export": true,
+  "info": [
+    "Film/Artist: Parineeta",
+    "Scale: A# BASS/MIDDLE",
+    "Singer: Sunidhi Chauhan",
+    "Music: Shantanu Moitra",
+    "Lyrics: Swanand Kirkire",
+    "Year: 2005"
+  ],
+  "thumbnail": "images/kaisi-paheli-zindagani.jpg",
+  "background": "images/kaisi-paheli-zindagani.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Nayi nahin nahin yeh baaten",
+          "indian": "Sa' Pa: Dha Ni Sa' Ni Dha Sa' Pa"
+        },
+        {
+          "lyrics": "Yeh baaten hain purani",
+          "indian": "Dha Ni Sa' Ni Dha Pa Re:"
+        },
+        {
+          "lyrics": "Kaisi paheli hai yeh kaisi",
+          "indian": "Pa Re: Ga ma Pa ma Ga Pa Re"
+        },
+        {
+          "lyrics": "Paheli zindagani",
+          "indian": "Ga ma Ga Pa Ga Re Sa:"
+        },
+        {
+          "lyrics": "Thaama haan roka isko kisne",
+          "indian": "Sa' Pa: Dha Ni Sa' Ni Dha Sa' Pa"
+        },
+        {
+          "lyrics": "Haan yeh to behta paani",
+          "indian": "Dha Ni Sa' Ni Dha Pa Re:"
+        },
+        {
+          "lyrics": "Kaisi paheli hai yeh kaisi",
+          "indian": "Pa Re: Ga ma Pa ma Ga Pa Re"
+        },
+        {
+          "lyrics": "Paheli zindagani",
+          "indian": "Ga ma Ga Pa Ga Re Sa:"
+        },
+        {
+          "lyrics": "La la la… la la la la",
+          "indian": "Pa Dha Ni Sa': Sa' Ni Pa ma:"
+        },
+        {
+          "lyrics": "Zu zu zu.. zu zu zu zu zu",
+          "indian": "Pa Dha Ni(k) Ni: Ni: Dha Ni Ni Ni Ga"
+        },
+        {
+          "lyrics": "Pee le ise ismein nasha",
+          "indian": "Pa Dha Ni Sa': Sa' Ni Pa ma:"
+        },
+        {
+          "lyrics": "Jisne piya woh gham mein bhi hansa",
+          "indian": "Pa Dha Ni(k) Ni Ni(k) Ni: Ni Pa Ni Re' Ni Sa'"
+        }
+      ]
+    }
+  ],
+  "description": "Kaisi Paheli Zindagani is a captivating track that masterfully blends a nostalgic cabaret jazz feel with contemporary Bollywood sensibilities. Sunidhi Chauhan's sultry vocals perfectly capture the song's enigmatic mood, reflecting on life's mysteries with a playful yet profound introspection. Its unique soundscape set it apart, becoming a standout piece in the film Parineeta.",
+  "trivia": [
+    "The song's distinct jazz-lounge style was a deliberate choice by music director Shantanu Moitra, aiming to evoke the sophisticated, pre-independence Calcutta era depicted in the film.",
+    "Sunidhi Chauhan, primarily known for her high-energy dance numbers, showcased remarkable versatility with this track, delivering a nuanced and sultry performance that earned her widespread critical acclaim.",
+    "The lyrics by Swanand Kirkire beautifully ponder the complexities and unpredictable nature of life, using simple yet evocative language that resonates deeply with listeners.",
+    "The song's visual representation in the film, featuring Vidya Balan's character Lalita performing in a cabaret setting, further cemented its iconic status and contributed to the film's period authenticity."
+  ],
+  "musicxml": "musicxml/kaisi-paheli-zindagani.musicxml"
+}
