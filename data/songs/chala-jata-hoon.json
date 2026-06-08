@@ -7,7 +7,9 @@
     "Scale: E BASS/MIDDLE",
     "Singer: Kishore Kumar",
     "Music: R.D. Burman",
-    "Lyrics: Majrooh Sultanpuri"
+    "Lyrics: Majrooh Sultanpuri",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
   ],
   "thumbnail": "images/chala-jata-hoon.jpg",
   "background": "images/chala-jata-hoon.jpg",
@@ -86,12 +88,12 @@
       ]
     }
   ],
-  "description": "This iconic Kishore Kumar song is a joyful anthem of carefree living, perfectly capturing a youthful spirit. Its infectious melody and upbeat rhythm make it an evergreen favorite, showcasing Kishore Da's unparalleled ability to infuse songs with his unique blend of charm and exuberance. The song's simple yet profound message of embracing life's journey resonates deeply, making it a timeless classic.",
+  "description": "This iconic song is a quintessential Kishore Kumar masterpiece, exuding a carefree and joyful spirit. R.D. Burman's vibrant composition, coupled with Majrooh Sultanpuri's lighthearted lyrics, creates an infectious melody that perfectly captures the mood of youthful exuberance. It's a timeless feel-good anthem, showcasing Kishore Kumar's unique vocal charm and yodeling prowess.",
   "trivia": [
-    "It's one of Kishore Kumar's most beloved songs, often cited as a quintessential example of his playful and optimistic singing style.",
-    "The music, composed by R.D. Burman, features a distinctive Western pop influence, particularly in its instrumentation and rhythmic structure, characteristic of many of his compositions from that era.",
-    "The song was filmed on superstar Rajesh Khanna, who shared a legendary on-screen chemistry with Kishore Kumar's voice, making their collaborations highly successful.",
-    "The lyrics by Majrooh Sultanpuri are simple yet profound, celebrating the joy of living in the moment and the beauty of life's journey, without dwelling on the past or future."
+    "The song is famously picturized on Kishore Kumar driving a car, a scene that has become iconic in Bollywood history for its sheer joy and spontaneity.",
+    "R.D. Burman's arrangement features a distinctive guitar riff and a lively rhythm section, characteristic of his innovative musical style of the early 70s.",
+    "While a light film song, 'Chala Jata Hoon' subtly incorporates elements of Raag Bhairavi, particularly in its melodic contours and overall melancholic-yet-hopeful mood, a common practice for R.D. Burman to infuse classical nuances into popular tunes.",
+    "The song's enduring popularity makes it a staple on radio and in compilations, celebrated for its ability to uplift spirits and evoke a sense of nostalgic joy."
   ],
   "musicxml": "musicxml/chala-jata-hoon.musicxml"
 }
