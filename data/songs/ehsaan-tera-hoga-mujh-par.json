@@ -1,0 +1,148 @@
+{
+  "id": "ehsaan-tera-hoga-mujh-par",
+  "title": "Ehsaan Tera Hoga Mujh Par",
+  "export": true,
+  "info": [
+    "Movie: Junglee (1961)",
+    "Singer: Rafi",
+    "Music: Shankar Jaikishan",
+    "Raag: Yaman",
+    "Lyrics: Hasrat Jaipuri",
+    "Thaat: Kalyan"
+  ],
+  "thumbnail": "images/ehsaan-tera-hoga-mujh-par.jpg",
+  "background": "images/ehsaan-tera-hoga-mujh-par.jpg",
+  "sections": [
+    {
+      "name": "MUKHDA :",
+      "lines": [
+        {
+          "lyrics": "Ehasaan | tera",
+          "indian": "GG~R R~GR(G)R | S S ,N~,DN~,D"
+        },
+        {
+          "lyrics": "hoga | mujhapar",
+          "indian": ",D~S | S S S"
+        },
+        {
+          "lyrics": "Dil | chahta | hai",
+          "indian": "SRSR.. S,N | ,N~S R~G | R"
+        },
+        {
+          "lyrics": "wo | kahane | do",
+          "indian": "(G)R~S | S R G~M | G..."
+        },
+        {
+          "lyrics": "Mujhe | tumse | mohabbat",
+          "indian": "GG | S...G | RG GG"
+        },
+        {
+          "lyrics": "ho | gayi | hai",
+          "indian": "S | G... | M~R"
+        },
+        {
+          "lyrics": "Mujhe | palko | ki",
+          "indian": "R R | R~G G~M | M~D"
+        },
+        {
+          "lyrics": "chhaanw | men",
+          "indian": "P...M... | ~R"
+        },
+        {
+          "lyrics": "rahane | do",
+          "indian": "G~R R~S | S"
+        },
+        {
+          "lyrics": "Ehsan tera hoga…",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "S'N | DS'N | PND | MP MG"
+        },
+        {
+          "lyrics": "",
+          "indian": "N S RGMP M | G RG G | R SRGR S"
+        },
+        {
+          "lyrics": "",
+          "indian": ",N,D,P"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1:",
+      "lines": [
+        {
+          "lyrics": "Tumne | mujh ko",
+          "indian": "P (N)D N | S S S"
+        },
+        {
+          "lyrics": "hasna | sikhaaya",
+          "indian": "NN R' | G' N~G'R'S'... RSRS SN"
+        },
+        {
+          "lyrics": "",
+          "indian": "NSNS N DNDN D P"
+        },
+        {
+          "lyrics": "Tum ne mujhako",
+          "indian": ""
+        },
+        {
+          "lyrics": "hasna sikhaaya",
+          "indian": ""
+        },
+        {
+          "lyrics": "Rone kahoge",
+          "indian": "M..D | N MNDPM~G"
+        },
+        {
+          "lyrics": "ro | lenge | ab",
+          "indian": "M | M P MP | MG"
+        },
+        {
+          "lyrics": "Rone kahoge",
+          "indian": ""
+        },
+        {
+          "lyrics": "ro lenge ab",
+          "indian": ""
+        },
+        {
+          "lyrics": "(Repeat Mukhda for the following…)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ansu ka hamaare",
+          "indian": ""
+        },
+        {
+          "lyrics": "gam na karo",
+          "indian": ""
+        },
+        {
+          "lyrics": "Wo bahate hain",
+          "indian": ""
+        },
+        {
+          "lyrics": "to bahane do",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "description": "This timeless romantic ballad, exquisitely sung by Mohammed Rafi, is a quintessential example of Shankar Jaikishan's genius in crafting melodies rooted in Indian classical music for mainstream cinema. Based on the evocative Raag Yaman, the song beautifully conveys a sense of profound gratitude and tender love, creating an atmosphere of serene passion. Its enduring appeal lies in its melodic purity and emotional depth, making it a beloved classic.",
+  "trivia": [
+    "The song is famously picturized on Shammi Kapoor, whose energetic and charismatic performance, often featuring him romancing Saira Banu amidst snow-capped mountains, became iconic and defined his 'rebel star' persona.",
+    "Mohammed Rafi's rendition is considered one of his masterpieces, showcasing his incredible control over subtle nuances and his ability to convey deep emotion with effortless grace.",
+    "Shankar Jaikishan's composition is a brilliant and accessible interpretation of Raag Yaman, known for its evening mood and romantic character, making it perfectly suited for the song's theme.",
+    "The film 'Junglee' was a major box office success and played a crucial role in establishing Shammi Kapoor as a leading romantic hero, with its music, particularly this song, being a significant highlight."
+  ],
+  "musicxml": "musicxml/ehsaan-tera-hoga-mujh-par.musicxml"
+}
