@@ -1,0 +1,159 @@
+{
+  "id": "tose-naina",
+  "title": "Tose Naina",
+  "export": true,
+  "info": [
+    "Film/Artist: Mickey Virus",
+    "Scale: E BASS/MIDDLE",
+    "Singer: Arijit Singh",
+    "Music: Vivek Kar",
+    "Lyrics: Kumaar",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
+  ],
+  "thumbnail": "images/tose-naina.jpg",
+  "background": "images/tose-naina.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Is lamhe ko rok doon",
+          "indian": "Ga Re Ga Re Ga Re Ga Pa ma Ga:"
+        },
+        {
+          "lyrics": "Ya main khud ko is mein jhonk doon",
+          "indian": "Ga Re Ga Re Ga Re Ga Re Ga Ga Pa ma Ga:"
+        },
+        {
+          "lyrics": "Kya karun kya karun kya karun",
+          "indian": "ma Ga Re Ga Re Sa Re Sa Sa ni ni dha:"
+        },
+        {
+          "lyrics": "Is lamhe main kuchh bhi jaanu na",
+          "indian": "ma Ga Re Re: Ga Re Sa Sa ni Sa Sa Re:"
+        },
+        {
+          "lyrics": "Naina naina laage",
+          "indian": "Re Sa Re Sa Sa Sa"
+        },
+        {
+          "lyrics": "Naina naina laage",
+          "indian": "Re Sa Re Sa Re Ga Ga"
+        },
+        {
+          "lyrics": "Naina naina laage",
+          "indian": "Re Sa Re Sa Sa Sa"
+        },
+        {
+          "lyrics": "Naina naina laage",
+          "indian": "Re Sa Re Sa Re Ga Ga"
+        },
+        {
+          "lyrics": "Tose naina jab se mile",
+          "indian": "ni ni Sa Sa: ni Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Tose naina",
+          "indian": "pa ni Sa Ga Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Jab se mile",
+          "indian": "Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Ban gaye",
+          "indian": "Re Sa ni: Sa ni dha"
+        },
+        {
+          "lyrics": "Silsile",
+          "indian": "ni ni Sa Sa ni ni dha"
+        },
+        {
+          "lyrics": "Tose naina jab se mile",
+          "indian": "ni ni Sa Sa: ni Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Tose naina",
+          "indian": "pa ni Sa Ga Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Jab se mile",
+          "indian": "Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Ban gaye",
+          "indian": "Re Sa ni: Sa ni dha"
+        },
+        {
+          "lyrics": "Silsile",
+          "indian": "ni ni Sa Sa ni ni dha"
+        },
+        {
+          "lyrics": "Tose naina jab se mile",
+          "indian": "ni ni Sa Sa: ni Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "O sudh-budh khoyi hai khoyi maine",
+          "indian": "Ga Re Ga Re Ga ni Sa: Sa Sa pa pa Ga Re"
+        },
+        {
+          "lyrics": "Haan jaan ganwaai, ganwaai maine",
+          "indian": "Ga Re Ga Re Ga ni Sa: Sa Sa pa pa Ga Re"
+        },
+        {
+          "lyrics": "Haan tujhko basaya hai dhadkan mein",
+          "indian": "Ga Re Ga Re Ga ni Sa: Sa Sa pa pa Ga Re"
+        },
+        {
+          "lyrics": "Saanware",
+          "indian": "ni ni Sa:"
+        },
+        {
+          "lyrics": "O sudh-budh khoyi hai khoyi maine",
+          "indian": "Ga Re Ga Re Ga ni Sa: Sa Sa pa pa Ga Re"
+        },
+        {
+          "lyrics": "Haan jaan ganwaai, ganwaai maine",
+          "indian": "Ga Re Ga Re Ga ni Sa: Sa Sa pa pa Ga Re"
+        },
+        {
+          "lyrics": "Haan tujhko basaya hai dhadkan mein",
+          "indian": "Ga Re Ga Re Ga ni Sa: Sa Sa pa pa Ga Re"
+        },
+        {
+          "lyrics": "Saanware",
+          "indian": "ni ni Sa:"
+        },
+        {
+          "lyrics": "Tose naina jab se mile",
+          "indian": "ni ni Sa Sa: ni Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Tose naina",
+          "indian": "pa ni Sa Ga Re Ga: Re Sa"
+        },
+        {
+          "lyrics": "Jab se mile",
+          "indian": "Re Sa ni dha ni Sa:"
+        },
+        {
+          "lyrics": "Ban gaye",
+          "indian": "Re Sa ni: Sa ni dha"
+        },
+        {
+          "lyrics": "Silsile",
+          "indian": "ni ni Sa Sa ni ni dha"
+        }
+      ]
+    }
+  ],
+  "description": "Tose Naina is a soulful and romantic ballad that beautifully showcases Arijit Singh's emotive vocal prowess. Its melody is deeply rooted in Hindustani classical music, primarily Raag Yaman, lending it a timeless and poignant quality. The song's gentle orchestration and heartfelt lyrics create an atmosphere of tender longing and devotion, making it a beloved piece for its classical elegance and modern appeal.",
+  "trivia": [
+    "This song is considered one of Arijit Singh's early breakthrough hits, solidifying his position as a leading playback singer in Bollywood after the massive success of \"Tum Hi Ho.\"",
+    "The composition is a beautiful modern interpretation of Raag Yaman, characterized by its use of tivra Madhyam (sharp fourth) and shuddha Nishad (natural seventh), creating a serene yet intense mood.",
+    "Despite being from a relatively lesser-known film, \"Mickey Virus,\" \"Tose Naina\" gained immense popularity and critical acclaim, becoming a staple in romantic playlists.",
+    "The song's arrangement subtly blends contemporary sounds with traditional Indian classical elements, making it accessible to a wide audience while retaining its classical integrity."
+  ],
+  "musicxml": "musicxml/tose-naina.musicxml"
+}
