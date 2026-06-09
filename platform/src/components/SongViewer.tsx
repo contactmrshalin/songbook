@@ -475,8 +475,8 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
         </div>
       </main>
 
-      {/* Footer with copyright / image disclaimer */}
-      <Footer />
+      {/* Footer with copyright / image disclaimer — pb-24 clears the fixed audio player bar */}
+      <Footer playerOffset />
 
       {/* Audio player floating bar */}
       <AudioPlayer song={song} />

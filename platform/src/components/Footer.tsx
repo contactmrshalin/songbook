@@ -1,6 +1,15 @@
-export default function Footer() {
+interface FooterProps {
+  /** Extra bottom padding to clear a fixed bar (e.g. the audio player). Defaults to pb-24. */
+  playerOffset?: boolean;
+}
+
+export default function Footer({ playerOffset = false }: FooterProps) {
   return (
-    <footer className="border-t border-[var(--border-light)] py-6 text-center text-sm text-[var(--text-muted)]">
+    <footer
+      className={`border-t border-[var(--border-light)] py-6 text-center text-sm text-[var(--text-muted)] ${
+        playerOffset ? "pb-24" : ""
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center gap-3">
         {/* Primary links row */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6">
