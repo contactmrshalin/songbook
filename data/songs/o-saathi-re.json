@@ -1,0 +1,70 @@
+{
+  "id": "o-saathi-re",
+  "title": "O Saathi Re",
+  "export": true,
+  "info": [
+    "Film: Muqaddar Ka Sikandar (1978)",
+    "Singer: Kishore Kumar",
+    "Music: Kalyanji-Anandji",
+    "Lyrics: Anjaan",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
+  ],
+  "thumbnail": "images/o-saathi-re.jpg",
+  "background": "images/o-saathi-re.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "O saathi re, tere binaa bhi kya jeena, tere binaa bhi kya jeena",
+          "indian": "D- S R G....,R R S RR G...S..SD-...,R R S RR G...SS"
+        },
+        {
+          "lyrics": "phulon mein kaliyon men sapno ki galiyon mein",
+          "indian": "PPP...PDPG.. PPP P D P G"
+        },
+        {
+          "lyrics": "tere bina kuch kahin na",
+          "indian": "G D P G R S R G"
+        },
+        {
+          "lyrics": "tere bina bhi kya jeena, tere binaa bhi kya jeena",
+          "indian": "R R S RR G....S..SD-..., R R S RRG....SS"
+        },
+        {
+          "lyrics": "har dhadkan men, pyaas hai teri, sanson men teri khushboo hai",
+          "indian": "SSS S R S D-, SSS S R S D-, RRR RGR SR GG.. SSSS."
+        },
+        {
+          "lyrics": "is dharthi se, us ambar tak, meri nazar men tu hi tu hai",
+          "indian": "SSS S R S D-, SSS S R S D-, RRR RGR SR GG.. SSSS"
+        },
+        {
+          "lyrics": "pyaar yeh tute naa",
+          "indian": "PPP... PDPG...MMM"
+        },
+        {
+          "lyrics": "pyaar yeh tute naa, tu mujhse roothe naa",
+          "indian": "PPP...PDPG,.. PPP P D P G"
+        },
+        {
+          "lyrics": "saath yeh choote kabhi naa",
+          "indian": "G D P G R S R G"
+        },
+        {
+          "lyrics": "tere bin abhi kya jeena",
+          "indian": "R R S RR G....S..SD-..., R R S RRG....SS"
+        }
+      ]
+    }
+  ],
+  "description": "O Saathi Re is a timeless masterpiece that showcases Kishore Kumar's unparalleled ability to convey deep emotion through his voice. Composed by Kalyanji-Anandji, its melancholic melody and poignant lyrics evoke a profound sense of longing and introspection. This song remains a benchmark for expressive singing in Indian cinema, resonating with listeners across generations.",
+  "trivia": [
+    "The film features two iconic versions: a male rendition by Kishore Kumar and a female rendition by Asha Bhosle, both equally celebrated for their emotional depth.",
+    "Kishore Kumar's rendition is widely regarded as one of his most soulful and emotionally charged performances, often cited as a prime example of his legendary vocal artistry.",
+    "The melody is deeply rooted in Raag Bhairavi, a poignant and devotional raga that perfectly encapsulates the song's themes of longing, separation, and introspection.",
+    "Picturized on Amitabh Bachchan in the film, the song beautifully conveys the character's profound sense of solitude and unrequited love, making it a powerful narrative element."
+  ],
+  "musicxml": "musicxml/o-saathi-re.musicxml"
+}
