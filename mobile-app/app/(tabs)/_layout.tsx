@@ -34,6 +34,7 @@ export default function TabLayout() {
         name="metronome"
         options={{
           title: "Metronome",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="timer-outline" size={size} color={color} />
           ),
@@ -43,6 +44,7 @@ export default function TabLayout() {
         name="tuner"
         options={{
           title: "Tuner",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="mic-outline" size={size} color={color} />
           ),
@@ -52,10 +54,7 @@ export default function TabLayout() {
         name="tanpura"
         options={{
           title: "Tanpura",
-          headerStyle: {
-            backgroundColor: "#0d0705",
-          },
-          headerTintColor: "#E8C99A",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="radio-outline" size={size} color={color} />
           ),
