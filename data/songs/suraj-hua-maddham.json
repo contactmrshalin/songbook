@@ -1,0 +1,120 @@
+{
+  "id": "suraj-hua-maddham",
+  "title": "Suraj Hua Maddham",
+  "export": true,
+  "info": [
+    "Film/Artist: Kabhi Khushi Kabhi Gham",
+    "Scale: A# BASS/MIDDLE",
+    "Singer: Sonu Nigam, Alka Yagnik",
+    "Music: Jatin-Lalit",
+    "Lyrics: Anil Pandey",
+    "Raag: Yaman (influenced)",
+    "Thaat: Kalyan",
+    "Year: 2001"
+  ],
+  "thumbnail": "images/suraj-hua-maddham.jpg",
+  "background": "images/suraj-hua-maddham.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Aaaa.. aaaa…",
+          "indian": "Dha: Sa' Ni: Pa Ga Dha: Sa' Ni"
+        },
+        {
+          "lyrics": "Aaaa.. aaaa…",
+          "indian": "Dha: Sa' Ni: Pa Ga Dha:"
+        },
+        {
+          "lyrics": "Suraj hua maddham chaand jalne laga",
+          "indian": "Ga Dha Dha Ga Pa Ga Dha: Ni Sa' Dha Ni Pa"
+        },
+        {
+          "lyrics": "Aasmaan yeh haai kyun pighalne laga",
+          "indian": "Ga: Dha Ga Pa Ga Dha: Ni Sa' Dha Ni Pa"
+        },
+        {
+          "lyrics": "Suraj hua maddham chaand jalne laga",
+          "indian": "Ga Dha Dha Ga Pa Ga Dha: Ni Sa' Dha Ni Pa"
+        },
+        {
+          "lyrics": "Aasmaan yeh haai kyun pighalne laga",
+          "indian": "Ga: Dha Ga Pa Ga Dha: Ni Sa' Dha Ni Pa"
+        },
+        {
+          "lyrics": "Main thehra raha zameen chalne lagi",
+          "indian": "Dha Dha Dha Pa Dha Ni Ni Pa Ga Pa: Dha Dha:"
+        },
+        {
+          "lyrics": "Dhadka yeh dil saans thamne lagi",
+          "indian": "Dha Dha Ni Dha Pa Ni Ni Pa Ga Pa: Dha Dha:"
+        },
+        {
+          "lyrics": "Oh",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kya yeh mera pehla pehla pyar hai",
+          "indian": "Ni Ni Pa Dha Ni Re' Ni Pa Dha: Dha Dha:"
+        },
+        {
+          "lyrics": "Sajna…",
+          "indian": "Sa' Sa' Ni: Dha Pa Dha Pa"
+        },
+        {
+          "lyrics": "Kya yeh mera pehla pehla pyar hai",
+          "indian": "Ni Ni Pa Dha Ni Re' Ni Pa Dha: Dha Dha:"
+        },
+        {
+          "lyrics": "Ohooo…",
+          "indian": "Dha: Sa' Ni: Pa Ga Dha: Sa' Ni"
+        },
+        {
+          "lyrics": "Aa aa aa…",
+          "indian": "Dha: Sa' Ni: Pa Ga Dha:"
+        },
+        {
+          "lyrics": "Suraj hua maddham chaand jalne laga",
+          "indian": "Ga Dha Dha Ga Pa Ga Dha: Ni Sa' Dha Ni Pa"
+        },
+        {
+          "lyrics": "Aasmaan yeh haai kyun pighalne laga",
+          "indian": "Ga: Dha Ga Pa Ga Dha: Ni Sa' Dha Ni Pa"
+        },
+        {
+          "lyrics": "Main thehri rahi zameen chalne lagi",
+          "indian": "Dha Dha Dha Pa Dha Ni Ni Pa Ga Pa: Dha Dha:"
+        },
+        {
+          "lyrics": "Dhadka yeh dil saans thamne lagi",
+          "indian": "Dha Dha Ni Dha Pa Ni Ni Pa Ga Pa: Dha Dha:"
+        },
+        {
+          "lyrics": "Haan",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kya yeh mera pehla pehla pyar hai",
+          "indian": "Ni Ni Pa Dha Ni Re' Ni Pa Dha: Dha Dha:"
+        },
+        {
+          "lyrics": "Sajna…",
+          "indian": "Sa' Sa' Ni: Dha Pa Dha Pa"
+        },
+        {
+          "lyrics": "Kya yeh mera pehla pehla pyar hai",
+          "indian": "Ni Ni Pa Dha Ni Re' Ni Pa Dha: Dha Dha:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic romantic ballad from \"Kabhi Khushi Kabhie Gham\" is celebrated for its lush orchestration and the enchanting vocal chemistry between Sonu Nigam and Alka Yagnik. Filmed in the stunning landscapes of Egypt, its dreamy melody perfectly captures the essence of blossoming love and longing, making it a timeless favorite for generations. The song's gentle pace and rich harmonies evoke a sense of serene romance.",
+  "trivia": [
+    "The song was famously shot in the picturesque locations of the Pyramids of Giza and the Sphinx in Egypt, adding to its grand visual appeal and making it one of Bollywood's most visually stunning romantic numbers.",
+    "It marked one of the most successful collaborations between singers Sonu Nigam and Alka Yagnik, who delivered numerous chart-topping hits together, solidifying their status as the voices of romantic duets in the early 2000s.",
+    "The music duo Jatin-Lalit were highly acclaimed for their melodic compositions in the late 90s and early 2000s, and \"Suraj Hua Maddham\" is considered one of their signature romantic compositions, showcasing their mastery of tuneful melodies.",
+    "The song's enduring popularity led to several cover versions and it remains a staple at romantic themed events, reality shows, and is frequently cited as one of Bollywood's most beloved love songs."
+  ],
+  "musicxml": "musicxml/suraj-hua-maddham.musicxml"
+}
