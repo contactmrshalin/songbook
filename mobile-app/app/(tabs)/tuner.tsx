@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { WebView, WebViewPermissionRequest } from "react-native-webview";
 
-const TUNER_URL = "https://songnotations.vercel.app/tools/tuner";
+const TUNER_URL = "https://songnotations.vercel.app/tools/tuner?mobile=true";
 
 /**
  * Injected before content loads to hide the web nav bar without a flash.

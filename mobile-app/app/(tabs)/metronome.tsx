@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { WebView } from "react-native-webview";
 
-const METRONOME_URL = "https://songnotations.vercel.app/tools/metronome";
+const METRONOME_URL = "https://songnotations.vercel.app/tools/metronome?mobile=true";
 
 const HIDE_NAV_JS = `
 (function () {
