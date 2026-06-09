@@ -57,6 +57,13 @@ export default function SongCard({ song }: SongCardProps) {
           {/* Overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
+          {/* Image attribution — shown only when thumbnail is present */}
+          {song.thumbnail && (
+            <span className="absolute bottom-1 right-1 text-[0.55rem] text-white/50 leading-none select-none pointer-events-none">
+              © owner
+            </span>
+          )}
+
           {/* Scale badge */}
           {meta.scale && (
             <span className="absolute top-2 right-2 badge bg-black/50 text-white text-[0.65rem] backdrop-blur-sm">

@@ -3,6 +3,7 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "./Footer";
 import {
   ArrowLeft,
   Music2,
@@ -473,6 +474,9 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
           </div>{/* end 3-col flex */}
         </div>
       </main>
+
+      {/* Footer with copyright / image disclaimer */}
+      <Footer />
 
       {/* Audio player floating bar */}
       <AudioPlayer song={song} />

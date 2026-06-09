@@ -2,6 +2,7 @@ import { getAllSongs } from "@/lib/songs";
 import Header from "@/components/Header";
 import SongGallery from "@/components/SongGallery";
 import AdBanner from "@/components/AdBanner";
+import Footer from "@/components/Footer";
 import { AD_SLOTS } from "@/lib/ads.config";
 
 export default function Home() {
@@ -152,15 +153,7 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-[var(--border-light)] py-6 text-center text-sm text-[var(--text-muted)]">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6">
-          <span>© {new Date().getFullYear()} Songbook</span>
-          <a href="/privacy" className="hover:text-[var(--accent-primary)] transition-colors underline">
-            Privacy Policy
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
