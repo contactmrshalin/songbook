@@ -1,0 +1,94 @@
+{
+  "id": "rimjhim-rimjhim-rumjhum-rumjhum",
+  "title": "Rimjhim Rimjhim Rumjhum Rumjhum",
+  "export": true,
+  "info": [
+    "Film: 1942: A Love Story (1994)",
+    "Singer: Kumar Sanu, Kavita Krishnamurthy",
+    "Music: R.D. Burman",
+    "Lyrics: Javed Akhtar",
+    "Raag: Shivranjani",
+    "Thaat: Kaafi"
+  ],
+  "thumbnail": "images/rimjhim-rimjhim-rumjhum-rumjhum.jpg",
+  "background": "images/rimjhim-rimjhim-rumjhum-rumjhum.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Rimjhim | rimjhim | rumjhum | rumjhum",
+          "indian": "R RD | R R | R~M G R | S S"
+        },
+        {
+          "lyrics": "Bhigi | bhigi | rut | me",
+          "indian": "S G | R S | n | n"
+        },
+        {
+          "lyrics": "tum | ham | ham | tum",
+          "indian": "n R | S n | D | D"
+        },
+        {
+          "lyrics": "chalte | hain",
+          "indian": "r RG~R | R....RG GMG R r"
+        },
+        {
+          "lyrics": "chalte | hain",
+          "indian": "r RG~R | R....RG GMG R r"
+        },
+        {
+          "lyrics": "Bajata | hai | jaltarang",
+          "indian": "R G | R | M M M"
+        },
+        {
+          "lyrics": "tin | ki | chhat | pe | jab",
+          "indian": "R G | R | M | M | M"
+        },
+        {
+          "lyrics": "Motiyo | jaisa | jal | barse",
+          "indian": "R D P | M G | R | G G"
+        },
+        {
+          "lyrics": "Bundo | ki | yeh | jhadi",
+          "indian": "S G | S | S | S S"
+        },
+        {
+          "lyrics": "layi | hai | woh | ghadi",
+          "indian": "S G | S | S | S S N"
+        },
+        {
+          "lyrics": "Jiske | liye | ham | tarse",
+          "indian": "N N | N R | R | R~D D"
+        },
+        {
+          "lyrics": "Ha ha ha | rimjhim | rimjhim | rumjhum | rumjhum",
+          "indian": "R R R | R RD | R R | R~M G R | S S"
+        },
+        {
+          "lyrics": "Bhigi | bhigi | rut | me",
+          "indian": "S G | R S | n | n"
+        },
+        {
+          "lyrics": "tum | ham | ham | tum",
+          "indian": "n R | S n | D | D"
+        },
+        {
+          "lyrics": "Ho… | chalte | hain",
+          "indian": "r... | r RG(M)G | GR....RG G(M)G R r"
+        },
+        {
+          "lyrics": "chalte | hain",
+          "indian": "r RG | R"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic romantic duet beautifully captures the magic of monsoon romance, set against the backdrop of a poignant love story. R.D. Burman's melodious composition, one of his last masterpieces, perfectly complements Javed Akhtar's evocative lyrics, creating a timeless classic. The song's gentle rhythm and heartfelt vocals make it a perennial favorite for lovers of classic Hindi film music.",
+  "trivia": [
+    "This song is part of the soundtrack for '1942: A Love Story,' which was one of R.D. Burman's final works before his passing in 1994, making the album a poignant swansong for the legendary composer.",
+    "The melody is strongly rooted in Raag Shivranjani, a pentatonic (audav-audav) raga known for its serene, romantic, and sometimes melancholic mood, perfectly suiting the song's theme of longing and love in the rain.",
+    "The film's music, including 'Rimjhim Rimjhim,' garnered immense critical acclaim, with R.D. Burman posthumously winning the Filmfare Award for Best Music Director.",
+    "The song's orchestration features a prominent use of flute and strings, showcasing R.D. Burman's signature style of blending Indian classical sensibilities with Western arrangements."
+  ],
+  "musicxml": "musicxml/rimjhim-rimjhim-rumjhum-rumjhum.musicxml"
+}
