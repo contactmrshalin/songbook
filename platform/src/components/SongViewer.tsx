@@ -332,16 +332,41 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
                       </span>
                     </div>
                     {/* Content */}
-                    <div className="bg-[var(--bg-card)] px-4 py-4">
-                      <div className="relative pl-3">
-                        <div
-                          className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
-                          style={{ background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))" }}
-                        />
-                        <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                          {song.meaning}
-                        </p>
-                      </div>
+                    <div className="bg-[var(--bg-card)] px-4 py-4 space-y-4">
+                      {typeof song.meaning === "string" ? (
+                        <div className="relative pl-3">
+                          <div
+                            className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                            style={{ background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))" }}
+                          />
+                          <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                            {song.meaning}
+                          </p>
+                        </div>
+                      ) : (
+                        <>
+                          <div className="relative pl-3">
+                            <div
+                              className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                              style={{ background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))" }}
+                            />
+                            <p className="text-[10px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1">Core Theme &amp; Meaning</p>
+                            <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                              {song.meaning.coreTheme}
+                            </p>
+                          </div>
+                          <div className="relative pl-3">
+                            <div
+                              className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                              style={{ background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))" }}
+                            />
+                            <p className="text-[10px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1">Lyric Symbolism</p>
+                            <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                              {song.meaning.lyricSymbolism}
+                            </p>
+                          </div>
+                        </>
+                      )}
                     </div>
                   </div>
                 )}
@@ -440,18 +465,47 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
                       )}
                     </button>
 
-                    {showMeaning && <div className="bg-[var(--bg-card)] px-5 py-4">
-                      <div className="relative pl-4">
-                        <div
-                          className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
-                          style={{
-                            background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))",
-                          }}
-                        />
-                        <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-                          {song.meaning}
-                        </p>
-                      </div>
+                    {showMeaning && <div className="bg-[var(--bg-card)] px-5 py-4 space-y-4">
+                      {typeof song.meaning === "string" ? (
+                        <div className="relative pl-4">
+                          <div
+                            className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                            style={{
+                              background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))",
+                            }}
+                          />
+                          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                            {song.meaning}
+                          </p>
+                        </div>
+                      ) : (
+                        <>
+                          <div className="relative pl-4">
+                            <div
+                              className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                              style={{
+                                background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))",
+                              }}
+                            />
+                            <p className="text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1">Core Theme &amp; Meaning</p>
+                            <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                              {song.meaning.coreTheme}
+                            </p>
+                          </div>
+                          <div className="relative pl-4">
+                            <div
+                              className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                              style={{
+                                background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))",
+                              }}
+                            />
+                            <p className="text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1">Lyric Symbolism</p>
+                            <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                              {song.meaning.lyricSymbolism}
+                            </p>
+                          </div>
+                        </>
+                      )}
                     </div>}
                   </div>
                 )}

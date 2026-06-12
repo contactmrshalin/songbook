@@ -95,7 +95,9 @@ Your job is to provide accurate metadata and engaging content about songs. Follo
 - lyrics: lyricist(s), comma-separated
 - description: 2–3 engaging sentences about the song's significance, mood, and musical style. Make it interesting for a learner.
 - trivia: array of 3–4 genuinely interesting facts. Can include: historical context, recording stories, musical techniques, awards, cultural impact, connection to classical music.
-- meaning: 3–4 sentences explaining the song's theme, metaphors, slang, core message, and why it was written. For regional/foreign songs, translate and explain cultural references. For story-driven songs, include backstory/inspiration. For cryptic songs, discuss popular interpretations.`;
+- meaning: a JSON object with two keys:
+  - "coreTheme": 2–3 sentences on the song's central theme, emotional arc, and why it was written or what inspired it. For story-driven songs include backstory.
+  - "lyricSymbolism": 2–3 sentences explaining key metaphors, poetic devices, cultural references, or slang used in the lyrics. For regional/foreign-language songs, translate and decode symbolic phrases.`;
 
 /** Fetch with exponential back-off on 429 / 503 quota errors */
 async function fetchWithRetry(url, init, maxRetries = 3) {
@@ -118,7 +120,7 @@ async function enrichSong(title, info, missingMeta, needsDescription, needsTrivi
     ...missingMeta,
     ...(needsDescription ? ["description"] : []),
     ...(needsTrivia ? ["trivia (array of strings)"] : []),
-    ...(needsMeaning ? ["meaning"] : []),
+    ...(needsMeaning ? ["Core Theme and Meaning and Lyric Symbolism"] : []),
   ];
 
   const prompt = [
@@ -194,8 +196,9 @@ async function enrichSong(title, info, missingMeta, needsDescription, needsTrivi
       : null;
 
   const meaning =
-    needsMeaning && typeof parsed.meaning === "string" && parsed.meaning.trim()
-      ? parsed.meaning.trim()
+    needsMeaning && parsed.meaning && typeof parsed.meaning === "object" &&
+    typeof parsed.meaning.coreTheme === "string" && typeof parsed.meaning.lyricSymbolism === "string"
+      ? { coreTheme: parsed.meaning.coreTheme.trim(), lyricSymbolism: parsed.meaning.lyricSymbolism.trim() }
       : null;
 
   return { newFields, description, trivia, meaning };
@@ -230,7 +233,7 @@ async function main() {
     const missingMeta = ["movie", "singer", "music", "lyrics", "raag", "thaat", "year"].filter((k) => !existing[k]);
     const needsDescription = !song.description && !SKIP_TRIVIA;
     const needsTrivia = (!song.trivia || song.trivia.length === 0) && !SKIP_TRIVIA;
-    const needsMeaning = !song.meaning && !SKIP_TRIVIA;
+    const needsMeaning = (!song.meaning || typeof song.meaning === "string") && !SKIP_TRIVIA;
 
     if (missingMeta.length === 0 && !needsDescription && !needsTrivia && !needsMeaning) {
       console.log(`  ✅  ${song.title} — complete, skipping`);
@@ -256,7 +259,7 @@ async function main() {
         newFields.forEach((f) => console.log(`       • ${f}`));
         if (description) console.log(`       • Description (${description.length} chars)`);
         if (trivia?.length) console.log(`       • ${trivia.length} trivia facts`);
-        if (meaning) console.log(`       • Behind the Beats (${meaning.length} chars)`);
+        if (meaning) console.log(`       • Behind the Beats (coreTheme: ${meaning.coreTheme.length} chars, lyricSymbolism: ${meaning.lyricSymbolism.length} chars)`);
 
         if (!DRY_RUN) {
           song.info = [...song.info, ...newFields];

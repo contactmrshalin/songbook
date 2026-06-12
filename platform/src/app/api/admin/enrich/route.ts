@@ -81,7 +81,7 @@ export async function POST(request: Request) {
 
     const needsDescription = !song.description;
     const needsTrivia = !song.trivia || song.trivia.length === 0;
-    const needsMeaning = !song.meaning;
+    const needsMeaning = !song.meaning || typeof song.meaning === "string";
 
     if (missingMeta.length === 0 && !needsDescription && !needsTrivia && !needsMeaning) {
       return Response.json({
@@ -155,8 +155,10 @@ export async function POST(request: Request) {
         : null;
 
     const meaning =
-      needsMeaning && typeof parsed.meaning === "string" && parsed.meaning.trim()
-        ? parsed.meaning.trim()
+      needsMeaning && parsed.meaning && typeof parsed.meaning === "object" &&
+      typeof (parsed.meaning as Record<string, unknown>).coreTheme === "string" &&
+      typeof (parsed.meaning as Record<string, unknown>).lyricSymbolism === "string"
+        ? { coreTheme: ((parsed.meaning as Record<string, string>).coreTheme).trim(), lyricSymbolism: ((parsed.meaning as Record<string, string>).lyricSymbolism).trim() }
         : null;
 
     return Response.json({ success: true, newFields, description, trivia, meaning });
@@ -260,7 +262,9 @@ Your job is to provide accurate metadata and engaging content about songs. Follo
 - lyrics: lyricist(s), comma-separated
 - description: 2–3 engaging sentences about the song's significance, mood, and musical style. Make it interesting for a learner.
 - trivia: array of 3–4 genuinely interesting facts. Can include: historical context, recording stories, musical techniques, awards, cultural impact, connection to classical music.
-- meaning: 3–4 sentences explaining the song's theme, metaphors, slang, core message, and why it was written. For regional/foreign songs, translate and explain cultural references. For story-driven songs, include backstory/inspiration. For cryptic songs, discuss popular interpretations.`;
+- meaning: a JSON object with two keys:
+  - "coreTheme": 2–3 sentences on the song's central theme, emotional arc, and why it was written or what inspired it. For story-driven songs include backstory.
+  - "lyricSymbolism": 2–3 sentences explaining key metaphors, poetic devices, cultural references, or slang used in the lyrics. For regional/foreign-language songs, translate and decode symbolic phrases.`;
 
 function buildPrompt(
   title: string,

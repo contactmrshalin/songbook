@@ -278,7 +278,7 @@ export default function AdminSongEditor({ password }: Props) {
       const newFields: string[] = data.newFields ?? [];
       const description: string | null = data.description ?? null;
       const trivia: string[] | null = data.trivia ?? null;
-      const meaning: string | null = data.meaning ?? null;
+      const meaning: { coreTheme: string; lyricSymbolism: string } | null = data.meaning ?? null;
 
       const added: string[] = [];
       if (newFields.length > 0) added.push(...newFields.map((f: string) => f.split(":")[0]));
@@ -504,7 +504,7 @@ export default function AdminSongEditor({ password }: Props) {
           const newFields: string[] = enrichData.newFields ?? [];
           const description: string | null = enrichData.description ?? null;
           const trivia: string[] | null = enrichData.trivia ?? null;
-          const meaning: string | null = enrichData.meaning ?? null;
+          const meaning: { coreTheme: string; lyricSymbolism: string } | null = enrichData.meaning ?? null;
           const added: string[] = [];
           if (newFields.length) added.push(...newFields.map((f: string) => f.split(":")[0]));
           if (description) added.push("Description");
@@ -1324,7 +1324,7 @@ export default function AdminSongEditor({ password }: Props) {
               {/* Behind the Beats - Meaning */}
               <div className="mt-4">
                 <div className="flex items-center justify-between mb-1">
-                  <label className="admin-label mb-0">Behind the Beats (Meaning & Gist)</label>
+                  <label className="admin-label mb-0">Behind the Beats</label>
                   {song.meaning && (
                     <button
                       onClick={() => setSong({ ...song, meaning: undefined })}
@@ -1334,12 +1334,27 @@ export default function AdminSongEditor({ password }: Props) {
                     </button>
                   )}
                 </div>
+                <label className="text-xs text-[var(--text-muted)] mb-0.5 block">Core Theme & Meaning</label>
                 <textarea
-                  value={song.meaning ?? ""}
-                  onChange={(e) =>
-                    setSong({ ...song, meaning: e.target.value || undefined })
-                  }
-                  placeholder="Explain the song's theme, metaphors, cultural references, backstory, and why it was written. For cryptic songs, include popular interpretations…"
+                  value={typeof song.meaning === "string" ? song.meaning : (song.meaning?.coreTheme ?? "")}
+                  onChange={(e) => {
+                    const cur = typeof song.meaning === "object" && song.meaning ? song.meaning : { coreTheme: "", lyricSymbolism: "" };
+                    const val = e.target.value;
+                    setSong({ ...song, meaning: val || cur.lyricSymbolism ? { ...cur, coreTheme: val } : undefined });
+                  }}
+                  placeholder="Central theme, emotional arc, why this song was written, backstory or inspiration…"
+                  rows={3}
+                  className="admin-input resize-none text-sm"
+                />
+                <label className="text-xs text-[var(--text-muted)] mt-2 mb-0.5 block">Lyric Symbolism</label>
+                <textarea
+                  value={typeof song.meaning === "object" && song.meaning ? (song.meaning.lyricSymbolism ?? "") : ""}
+                  onChange={(e) => {
+                    const cur = typeof song.meaning === "object" && song.meaning ? song.meaning : { coreTheme: typeof song.meaning === "string" ? song.meaning : "", lyricSymbolism: "" };
+                    const val = e.target.value;
+                    setSong({ ...song, meaning: val || cur.coreTheme ? { ...cur, lyricSymbolism: val } : undefined });
+                  }}
+                  placeholder="Key metaphors, poetic devices, cultural references, slang, and their decoded meanings…"
                   rows={3}
                   className="admin-input resize-none text-sm"
                 />
