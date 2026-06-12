@@ -5,7 +5,11 @@
   "background": "images/awwara-angaara.jpeg",
   "info": [
     "Song: Aawaara Angaara (Tere Ishk Mein)",
-    "Scale note: Flute scale is A (Bass/Middle) as provided"
+    "Scale note: Flute scale is A (Bass/Middle) as provided",
+    "Singer: Kailash Kher",
+    "Music: Kailash Kher",
+    "Lyrics: Kailash Kher",
+    "Year: 2006"
   ],
   "sections": [
     {
@@ -121,5 +125,13 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/aawaara-angaara-tere-ishk-mein.musicxml"
+  "musicxml": "musicxml/aawaara-angaara-tere-ishk-mein.musicxml",
+  "description": "This track is a quintessential Kailash Kher offering, showcasing his signature raw, powerful, and soulful vocals. It's a passionate declaration of love, characterized by its energetic rhythm, folk-rock instrumentation, and a melody that deeply resonates with Sufi and devotional influences. The song embodies the intensity and spiritual yearning often found in Kher's compositions, making it a captivating listen.",
+  "trivia": [
+    "This song is from Kailash Kher's highly successful album \"Tere Ishq Mein,\" which further cemented his unique position in the Indian music industry after his debut with \"Kailasa.\"",
+    "Kailash Kher is known for his distinct vocal texture, which blends folk, Sufi, and classical elements, creating a sound often described as 'rustic' yet deeply spiritual. \"Aawaara Angaara\" is a prime example of this signature style.",
+    "The album \"Tere Ishq Mein\" was a critical and commercial success, featuring several popular tracks and contributing significantly to the rise of independent non-film music in India during the mid-2000s.",
+    "The song's energetic arrangement, often featuring traditional Indian percussion alongside modern rock elements, is characteristic of Kailash Kher's band, Kailasa, which he formed to create his unique sound."
+  ],
+  "meaning": "\"Aawaara Angaara (Tere Ishq Mein)\" translates to \"Wandering Ember (In Your Love).\" The lyrics metaphorically portray the lover as a restless, burning ember, constantly wandering and consumed by the fire of their beloved's love. It speaks of an all-encompassing, almost maddening passion where the lover finds their entire existence defined and driven by this intense affection. The song delves into themes of devotion, surrender, and the intoxicating power of love that makes one lose themselves completely."
 }

@@ -5,7 +5,12 @@
   "background": "images/ae-mere-pyare-watan.png",
   "info": [
     "Movie: Kabuliwala",
-    "Scale note: Flute scale is G# (Bass/Middle) as provided"
+    "Scale note: Flute scale is G# (Bass/Middle) as provided",
+    "Singer: Manna Dey",
+    "Music: Salil Chowdhury",
+    "Lyrics: Prem Dhawan",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
   ],
   "sections": [
     {
@@ -118,5 +123,13 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/ae-mere-pyare-watan.musicxml"
+  "musicxml": "musicxml/ae-mere-pyare-watan.musicxml",
+  "description": "This iconic patriotic song, rendered soulfully by Manna Dey, captures the profound longing and love for one's homeland. Salil Chowdhury's masterful composition beautifully blends Indian classical sensibilities with a poignant, folk-inspired melody, making it a timeless anthem of nostalgia and national pride. It perfectly encapsulates the emotional core of the film's protagonist, a Pashtun dry fruit seller in Calcutta yearning for his family and Afghanistan.",
+  "trivia": [
+    "The song is from the film 'Kabuliwala' (1961), an adaptation of Rabindranath Tagore's famous short story of the same name.",
+    "Manna Dey's rendition is considered one of his most memorable and emotionally charged performances, showcasing his incredible vocal range and depth.",
+    "Salil Chowdhury's composition for this song is a brilliant example of his ability to create melodies that are both deeply rooted in Indian classical music (Raag Bhairavi) and universally appealing.",
+    "Despite being a patriotic song, its melancholic tone and theme of longing for home resonate with anyone who has experienced separation from their roots or loved ones."
+  ],
+  "meaning": "The song is a heartfelt ode to one's motherland, expressing deep affection, nostalgia, and a yearning to return. It speaks of the beauty, cherished memories, and the spiritual connection one feels with their homeland, even when far away. In the context of 'Kabuliwala,' it poignantly reflects the protagonist Rehmat Khan's profound longing for Afghanistan and his daughter, whom he left behind, highlighting the universal theme of home and belonging."
 }
