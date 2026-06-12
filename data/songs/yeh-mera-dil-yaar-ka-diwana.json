@@ -5,7 +5,10 @@
   "info": [
     "Film/Artist: Don",
     "Scale: D# BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/yeh-mera-dil-yaar-ka-diwana-sargam-harmonium-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/yeh-mera-dil-yaar-ka-diwana-sargam-harmonium-and-flute-notes.html",
+    "Singer: Asha Bhosle",
+    "Music: Kalyanji-Anandji",
+    "Lyrics: Indeevar"
   ],
   "thumbnail": "images/yeh-mera-dil-yaar-ka-diwana",
   "background": "images/yeh-mera-dil-yaar-ka-diwana",
@@ -120,5 +123,13 @@
       ]
     }
   ],
-  "musicxml": "musicxml/yeh-mera-dil-yaar-ka-diwana.musicxml"
+  "musicxml": "musicxml/yeh-mera-dil-yaar-ka-diwana.musicxml",
+  "description": "This iconic track from the original 'Don' is a quintessential disco-cabaret number, instantly recognizable for its pulsating rhythm and Asha Bhosle's seductive vocals. It perfectly captures the glamorous yet dangerous mood of the film, becoming a timeless classic that defined an era of Bollywood music. The song's energetic arrangement and catchy melody make it an enduring dance floor favorite.",
+  "trivia": [
+    "The song is famously picturized on the legendary dancer Helen, whose electrifying performance became synonymous with the track and set a benchmark for cabaret numbers in Hindi cinema.",
+    "Asha Bhosle's unique vocal delivery, blending sensuality with a playful edge, is often cited as one of her most memorable performances, showcasing her versatility across genres.",
+    "Kalyanji-Anandji, known for their melodic compositions, experimented with a more modern, disco-influenced sound for 'Don', and 'Yeh Mera Dil' was a prime example of their successful foray into this contemporary style.",
+    "The song was remade for the 2006 'Don' remake, featuring Sunidhi Chauhan's vocals, but the original remains a benchmark for its raw energy and classic appeal."
+  ],
+  "meaning": "The song's title, 'Yeh Mera Dil Yaar Ka Diwana,' translates to 'This heart of mine is madly in love with my beloved.' It's a passionate declaration from a woman deeply smitten and utterly devoted to her lover. The lyrics convey an intense, almost obsessive love, where her heart has completely surrendered to her beloved. In the context of the film, it serves as a seductive performance, expressing allure and unwavering commitment, even amidst a world of intrigue and danger."
 }
