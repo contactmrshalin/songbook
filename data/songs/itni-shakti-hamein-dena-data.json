@@ -1,0 +1,118 @@
+{
+  "id": "itni-shakti-hamein-dena-data",
+  "title": "Itni Shakti Hamein Dena Data",
+  "export": true,
+  "info": [
+    "Film: Ankush (1986)",
+    "Singer: Pushpa Pagdhare, Sushma Shrestha (Poornima)",
+    "Music: Kuldeep Singh",
+    "Lyrics: Abhilash",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
+  ],
+  "thumbnail": "images/itni-shakti-hamein-dena-data.jpg",
+  "background": "images/itni-shakti-hamein-dena-data.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Itni shakti hume dena data",
+          "indian": "Pa Pa Ma Ma Pa Pa: Pa Pa Pa: Ma Pa Dha:"
+        },
+        {
+          "lyrics": "Man ka vishwas kamzor ho na",
+          "indian": "Re Re Dha Dha: Dha Ni(k) Dha: Pa Dha: Pa:"
+        },
+        {
+          "lyrics": "Itni shakti hume dena data",
+          "indian": "Pa Pa Ma Ma Pa Pa: Pa Pa Pa: Ma Pa Dha:"
+        },
+        {
+          "lyrics": "Man ka vishwas kamzor ho na",
+          "indian": "Re Re Dha Dha: Dha Ni(k) Dha: Pa Dha: Pa:"
+        },
+        {
+          "lyrics": "Hum chalen nek raste pe hamse",
+          "indian": "Ni Ni Ni Ni: Ni Ni Dha Sa': Ni Dha Pa ma Ga(k)"
+        },
+        {
+          "lyrics": "Bhoolkar bhi koi bhool ho na",
+          "indian": "Sa Sa Sa Re Re Re ma Ga(k) ma Dha Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Itni shakti hume dena data",
+          "indian": "Pa Pa Ma Ma Pa Pa: Pa Pa Pa: Ma Pa Dha:"
+        },
+        {
+          "lyrics": "Man ka vishwas kamzor ho na",
+          "indian": "Re Re Dha Dha: Dha Ni(k) Dha: Pa Dha: Pa:"
+        },
+        {
+          "lyrics": "Hum chalen nek raste pe hamse",
+          "indian": "Ni Ni Ni Ni: Ni Ni Dha Sa': Ni Dha Pa ma Ga(k)"
+        },
+        {
+          "lyrics": "Bhoolkar bhi koi bhool ho na",
+          "indian": "Sa Sa Sa Re Re Re ma Ga(k) ma Dha Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Itni shakti hume dena data",
+          "indian": "Pa Pa Ma Ma Pa Pa: Pa Pa Pa: Ma Pa Dha:"
+        },
+        {
+          "lyrics": "Man ka vishwas kamzor ho na",
+          "indian": "Re Re Dha Dha: Dha Ni(k) Dha: Pa Dha: Pa:"
+        },
+        {
+          "lyrics": "Door agyaan ke hon andhere",
+          "indian": "Re' Re' Re' Re': Re' Re' Ni(k): Pa Dha Ni(k) Re':"
+        },
+        {
+          "lyrics": "Tu hamein gyaan ki roshni de",
+          "indian": "Re' Re' Re' Sa' Sa': Sa' Sa' Ga' Ga' ma' Re':"
+        },
+        {
+          "lyrics": "Har buraai se bachte rahein hum",
+          "indian": "Re' Re' Re' Ga': Re' Ni(k) Dha Pa: Pa Dha Ni(k) Re':"
+        },
+        {
+          "lyrics": "Jitni bhi de bhali zindagi de",
+          "indian": "Re' Re' Re' Re' Sa' Sa': Sa' Ni(k): Dha Pa Ni(k) Dha: Ni(k) Dha"
+        },
+        {
+          "lyrics": "Bair ho na kisi ka kisi se",
+          "indian": "Pa Ma Ma Pa Pa: Pa Pa Pa: Ma Pa Dha:"
+        },
+        {
+          "lyrics": "Bhaawana man mein badle ki ho na",
+          "indian": "Re Re Dha Dha: Dha Ni(k) Dha: Pa Dha: Pa:"
+        },
+        {
+          "lyrics": "Hum chalein nek raste pe hamse",
+          "indian": "Ni Ni Ni Ni: Ni Ni Dha Sa': Ni Dha Pa ma Ga(k)"
+        },
+        {
+          "lyrics": "Bhoolkar bhi koi bhool ho na",
+          "indian": "Sa Sa Sa Re Re Re ma Ga(k) ma Dha Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Itni shakti humein dena data",
+          "indian": "Pa Pa Ma Ma Pa Pa: Pa Pa Pa: Ma Pa Dha:"
+        },
+        {
+          "lyrics": "Man ka vishwas kamzor ho na",
+          "indian": "Re Re Dha Dha: Dha Ni(k) Dha: Pa Dha: Pa:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic prayer song from the film 'Ankush' transcends its cinematic origins to become a universal anthem of hope and resilience. Its simple, heartfelt melody, rooted in the devotional spirit of Raag Bhairavi, makes it accessible and deeply moving. The song's profound lyrics, seeking strength and compassion, resonate across generations, making it a staple in schools and public gatherings.",
+  "trivia": [
+    "Despite being from a relatively lesser-known film, 'Itni Shakti Hamein Dena Data' achieved immense popularity and is widely regarded as one of India's most beloved devotional songs.",
+    "The song is frequently sung in schools, prayer meetings, and public events across India, often without knowledge of its film origin, highlighting its cultural impact.",
+    "Lyricist Abhilash reportedly wrote the song in just 15 minutes, inspired by the film's theme of social justice and the need for inner strength.",
+    "Music director Kuldeep Singh composed the tune with a simple, flowing structure, making it easy to learn and sing, which contributed significantly to its widespread adoption."
+  ],
+  "musicxml": "musicxml/itni-shakti-hamein-dena-data.musicxml"
+}
