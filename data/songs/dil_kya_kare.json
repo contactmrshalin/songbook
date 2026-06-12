@@ -2,7 +2,14 @@
   "id": "dil_kya_kare",
   "title": "Dil Kya Kare Jab Kisi Se Pyaar Ho Jaye",
   "export": true,
-  "info": [],
+  "info": [
+    "Film: Julie (1975)",
+    "Singer: Kishore Kumar",
+    "Music: Rajesh Roshan",
+    "Lyrics: Anand Bakshi",
+    "Raag: Bilawal",
+    "Thaat: Bilawal"
+  ],
   "thumbnail": "images/dil_kya_kare.png",
   "background": "images/dil_kya_kare.png",
   "sections": [
@@ -74,5 +81,13 @@
       ]
     }
   ],
-  "musicxml": "musicxml/dil_kya_kare.musicxml"
+  "musicxml": "musicxml/dil_kya_kare.musicxml",
+  "description": "This iconic song is a poignant exploration of love's irresistible nature, rendered unforgettable by Kishore Kumar's soulful voice. It perfectly captures the bittersweet emotions of falling in love, blending a sense of helplessness with an underlying current of hope. The melody, composed by Rajesh Roshan, is simple yet deeply evocative, making it a timeless romantic classic.",
+  "trivia": [
+    "This song marked the debut of renowned music director Rajesh Roshan, brother of Rakesh Roshan and son of Roshan. It was an instant hit and launched his career successfully.",
+    "The film 'Julie' was a groundbreaking movie for its time, dealing with the sensitive topic of an unwed mother, and its music played a crucial role in its success.",
+    "Kishore Kumar's rendition is considered one of his most expressive and heartfelt performances, showcasing his ability to convey deep emotion with effortless grace.",
+    "The song's enduring popularity has led to several covers and remixes over the decades, a testament to its timeless appeal and universal theme."
+  ],
+  "meaning": "The song's title, 'Dil Kya Kare Jab Kisi Se Pyaar Ho Jaye,' translates to 'What can the heart do when one falls in love?' It delves into the universal experience of love as an uncontrollable force. The lyrics express the sentiment that love is not a choice but an inevitable feeling that takes over the heart, leaving one powerless yet joyful. It beautifully articulates the confusion, surrender, and ultimate acceptance of love's profound impact on an individual's life, highlighting its transformative power."
 }
