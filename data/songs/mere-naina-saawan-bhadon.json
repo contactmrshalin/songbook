@@ -1,0 +1,146 @@
+{
+  "id": "mere-naina-saawan-bhadon",
+  "title": "Mere Naina Saawan Bhadon",
+  "export": true,
+  "info": [
+    "Film: Mehbooba (1976)",
+    "Singer: Kishore Kumar",
+    "Source: https://www.sargambook.com/mere-naina-saawan-bhadon-sargam-notes-mehbooba/"
+  ],
+  "thumbnail": "images/mere-naina-saawan-bhadon.png",
+  "background": "images/mere-naina-saawan-bhadon.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Mere naina saawan bhadon",
+          "indian": "Pa Dha Sa' Dha Sa' Sa' Dha, Re' Sa' Dha Pa, Pa Dha Dha Pa"
+        },
+        {
+          "lyrics": "Phir bhi mera man pyasa",
+          "indian": "Pa Dha Dha Pa Pa Ga(k), Ga(k) Re Re Ga(k), Re Ga(k) Pa Re Ga(k) Re Sa"
+        },
+        {
+          "lyrics": "Phir bhi mera man pyasa",
+          "indian": "Sa Re Ga(k) Pa Dha Pa Ga(k) Dha Pa, Ga(k) Re, Ga(k) Re Sa Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Aye dil deewane",
+          "indian": "Sa Re Ga(k) Pa, Dha Pa Ga(k) Dha Pa Ga(k) Re, Ga(k) Re Sa"
+        },
+        {
+          "lyrics": "Khel hai kya jaane",
+          "indian": "Sa Re Ga(k) Pa, Dha Pa Ga(k) Dha, Dha Pa Pa"
+        },
+        {
+          "lyrics": "Dard bhara yeh geet kahaan se",
+          "indian": "Ga Pa Pa Pa, Dha Ni(k) Dha Pa, Ga Pa Pa Pa, Dha Ni(k) Dha Pa"
+        },
+        {
+          "lyrics": "In hothon pe aaye",
+          "indian": "Ga Pa Pa Dha Sa', Re' Sa' Re' Ga'(k)"
+        },
+        {
+          "lyrics": "Door kahin le jaaye",
+          "indian": ""
+        },
+        {
+          "lyrics": "Bhool gaya kya",
+          "indian": ""
+        },
+        {
+          "lyrics": "Bhool ke bhi hai",
+          "indian": ""
+        },
+        {
+          "lyrics": "Mujhko yaad zara sa",
+          "indian": ""
+        },
+        {
+          "lyrics": "Phir bhi mera man pyasa",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Baat puraani hai",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ek kahaani hai",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ab sochoon tumhein yaad nahi hai",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ab sochoon nahi bhoole",
+          "indian": ""
+        },
+        {
+          "lyrics": "Woh saawan ke jhoole",
+          "indian": ""
+        },
+        {
+          "lyrics": "Rut aaye rut jaaye de kar",
+          "indian": ""
+        },
+        {
+          "lyrics": "Jhootha ek dilaasa",
+          "indian": ""
+        },
+        {
+          "lyrics": "Phir bhi mera man pyasa",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 3",
+      "lines": [
+        {
+          "lyrics": "Barson beet gaye",
+          "indian": ""
+        },
+        {
+          "lyrics": "Humko mile bichhade",
+          "indian": ""
+        },
+        {
+          "lyrics": "Bijuri ban kar gagan pe chamki",
+          "indian": ""
+        },
+        {
+          "lyrics": "Beethe samay ki rekha",
+          "indian": ""
+        },
+        {
+          "lyrics": "Maine tumko dekha",
+          "indian": ""
+        },
+        {
+          "lyrics": "Man sang aankh micholi khele",
+          "indian": ""
+        },
+        {
+          "lyrics": "Asha aur niraasha",
+          "indian": ""
+        },
+        {
+          "lyrics": "Phir bhi mera man pyasa",
+          "indian": ""
+        }
+      ]
+    }
+  ]
+}
