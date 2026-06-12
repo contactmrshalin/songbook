@@ -81,18 +81,20 @@ export async function POST(request: Request) {
 
     const needsDescription = !song.description;
     const needsTrivia = !song.trivia || song.trivia.length === 0;
+    const needsMeaning = !song.meaning;
 
-    if (missingMeta.length === 0 && !needsDescription && !needsTrivia) {
+    if (missingMeta.length === 0 && !needsDescription && !needsTrivia && !needsMeaning) {
       return Response.json({
         success: true,
         newFields: [],
         description: null,
         trivia: null,
+        meaning: null,
         message: "All fields already present — nothing to enrich.",
       });
     }
 
-    const prompt = buildPrompt(song.title, song.info, missingMeta, needsDescription, needsTrivia);
+    const prompt = buildPrompt(song.title, song.info, missingMeta, needsDescription, needsTrivia, needsMeaning);
 
     // gemini-2.5-flash: current-gen model available to all accounts on v1beta.
     // gemini-2.0-flash-lite is retired for new accounts; gemini-flash-latest may still work for older ones.
@@ -152,7 +154,12 @@ export async function POST(request: Request) {
             .slice(0, 4)
         : null;
 
-    return Response.json({ success: true, newFields, description, trivia });
+    const meaning =
+      needsMeaning && typeof parsed.meaning === "string" && parsed.meaning.trim()
+        ? parsed.meaning.trim()
+        : null;
+
+    return Response.json({ success: true, newFields, description, trivia, meaning });
   } catch (err) {
     console.error("[enrich]", err);
     return Response.json(
@@ -252,14 +259,16 @@ Your job is to provide accurate metadata and engaging content about songs. Follo
 - music: music director(s), comma-separated
 - lyrics: lyricist(s), comma-separated
 - description: 2–3 engaging sentences about the song's significance, mood, and musical style. Make it interesting for a learner.
-- trivia: array of 3–4 genuinely interesting facts. Can include: historical context, recording stories, musical techniques, awards, cultural impact, connection to classical music.`;
+- trivia: array of 3–4 genuinely interesting facts. Can include: historical context, recording stories, musical techniques, awards, cultural impact, connection to classical music.
+- meaning: 3–4 sentences explaining the song's theme, metaphors, slang, core message, and why it was written. For regional/foreign songs, translate and explain cultural references. For story-driven songs, include backstory/inspiration. For cryptic songs, discuss popular interpretations.`;
 
 function buildPrompt(
   title: string,
   info: string[],
   missingMeta: string[],
   needsDescription: boolean,
-  needsTrivia: boolean
+  needsTrivia: boolean,
+  needsMeaning: boolean
 ): string {
   const lines: string[] = [];
   lines.push(`Song title: "${title}"`);
@@ -276,11 +285,12 @@ function buildPrompt(
   const needed: string[] = [...missingMeta];
   if (needsDescription) needed.push("description");
   if (needsTrivia) needed.push("trivia (array of strings)");
+  if (needsMeaning) needed.push("meaning");
 
   lines.push(`Please provide: ${needed.join(", ")}`);
   lines.push("");
   lines.push(
-    `Return a JSON object with keys: ${[...missingMeta, ...(needsDescription ? ["description"] : []), ...(needsTrivia ? ["trivia"] : [])].join(", ")}`
+    `Return a JSON object with keys: ${[...missingMeta, ...(needsDescription ? ["description"] : []), ...(needsTrivia ? ["trivia"] : []), ...(needsMeaning ? ["meaning"] : [])].join(", ")}`
   );
   lines.push(`For any metadata key you are unsure about, set it to null.`);
 

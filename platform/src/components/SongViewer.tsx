@@ -59,6 +59,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
   );
   const [showNotationGuide, setShowNotationGuide] = useState(false);
   const [showAbout, setShowAbout] = useState(true);
+  const [showMeaning, setShowMeaning] = useState(true);
   const lineRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   const meta = extractMeta(song.info);
@@ -266,51 +267,84 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
 
           {/* Left column: About this song on xl+ (empty spacer when no enriched data) */}
           <div className="hidden xl:block xl:w-56 xl:flex-shrink-0 sticky top-20 self-start">
-            {(song.description || (song.trivia && song.trivia.length > 0)) && (
-              <div className="rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
-                {/* Header */}
-                <div
-                  className="flex items-center gap-2 px-4 py-3 border-b border-[var(--border-light)]"
-                  style={{ background: "linear-gradient(135deg, rgba(108,99,255,0.07) 0%, rgba(255,101,132,0.04) 100%)" }}
-                >
-                  <Sparkles className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
-                  <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
-                    About
-                  </span>
-                </div>
-                {/* Content */}
-                <div className="bg-[var(--bg-card)] px-4 py-4 space-y-3">
-                  {song.description && (
-                    <div className="relative pl-3">
-                      <div
-                        className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
-                        style={{ background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))" }}
-                      />
-                      <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                        {song.description}
-                      </p>
+            {(song.description || (song.trivia && song.trivia.length > 0) || song.meaning) && (
+              <div className="space-y-4">
+                {/* About section */}
+                {(song.description || (song.trivia && song.trivia.length > 0)) && (
+                  <div className="rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+                    {/* Header */}
+                    <div
+                      className="flex items-center gap-2 px-4 py-3 border-b border-[var(--border-light)]"
+                      style={{ background: "linear-gradient(135deg, rgba(108,99,255,0.07) 0%, rgba(255,101,132,0.04) 100%)" }}
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
+                      <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                        About
+                      </span>
                     </div>
-                  )}
-                  {song.trivia && song.trivia.length > 0 && (
-                    <ul className="space-y-2">
-                      {song.trivia.map((fact, i) => (
-                        <li
-                          key={i}
-                          className="flex items-start gap-2 rounded-xl px-2.5 py-2 text-xs"
-                          style={{ background: "rgba(108,99,255,0.05)" }}
-                        >
-                          <span
-                            className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center text-[0.6rem] font-bold text-white mt-0.5"
-                            style={{ background: "var(--accent-primary)" }}
-                          >
-                            {i + 1}
-                          </span>
-                          <span className="text-[var(--text-muted)] leading-relaxed">{fact}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
+                    {/* Content */}
+                    <div className="bg-[var(--bg-card)] px-4 py-4 space-y-3">
+                      {song.description && (
+                        <div className="relative pl-3">
+                          <div
+                            className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                            style={{ background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))" }}
+                          />
+                          <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                            {song.description}
+                          </p>
+                        </div>
+                      )}
+                      {song.trivia && song.trivia.length > 0 && (
+                        <ul className="space-y-2">
+                          {song.trivia.map((fact, i) => (
+                            <li
+                              key={i}
+                              className="flex items-start gap-2 rounded-xl px-2.5 py-2 text-xs"
+                              style={{ background: "rgba(108,99,255,0.05)" }}
+                            >
+                              <span
+                                className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center text-[0.6rem] font-bold text-white mt-0.5"
+                                style={{ background: "var(--accent-primary)" }}
+                              >
+                                {i + 1}
+                              </span>
+                              <span className="text-[var(--text-muted)] leading-relaxed">{fact}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* Behind the Beats section */}
+                {song.meaning && (
+                  <div className="rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+                    {/* Header */}
+                    <div
+                      className="flex items-center gap-2 px-4 py-3 border-b border-[var(--border-light)]"
+                      style={{ background: "linear-gradient(135deg, rgba(255,101,132,0.07) 0%, rgba(108,99,255,0.04) 100%)" }}
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-[var(--accent-secondary)]" />
+                      <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                        Behind the Beats
+                      </span>
+                    </div>
+                    {/* Content */}
+                    <div className="bg-[var(--bg-card)] px-4 py-4">
+                      <div className="relative pl-3">
+                        <div
+                          className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                          style={{ background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))" }}
+                        />
+                        <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                          {song.meaning}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             )}
           </div>
@@ -319,63 +353,108 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
           <div className="flex-1 min-w-0 max-w-4xl mx-auto xl:mx-0 xl:max-w-none">
 
             {/* About this song — mobile/tablet only (shown above notation on small screens) */}
-            {(song.description || (song.trivia && song.trivia.length > 0)) && (
-              <div className="xl:hidden mb-6 rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
-                {/* Card header — click to collapse/expand */}
-                <button
-                  onClick={() => setShowAbout((v) => !v)}
-                  className="w-full flex items-center justify-between gap-2 px-5 py-3 border-b border-[var(--border-light)] transition-colors hover:brightness-95"
-                  style={{
-                    background: "linear-gradient(135deg, rgba(108,99,255,0.07) 0%, rgba(255,101,132,0.04) 100%)",
-                  }}
-                >
-                  <div className="flex items-center gap-2">
-                    <Sparkles className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
-                    <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
-                      About this song
-                    </span>
-                  </div>
-                  {showAbout ? (
-                    <ChevronUp className="w-4 h-4 text-[var(--text-muted)]" />
-                  ) : (
-                    <ChevronDown className="w-4 h-4 text-[var(--text-muted)]" />
-                  )}
-                </button>
+            {(song.description || (song.trivia && song.trivia.length > 0) || song.meaning) && (
+              <div className="xl:hidden mb-6 space-y-4">
+                {/* About/Behind the Beats toggles */}
+                {(song.description || (song.trivia && song.trivia.length > 0)) && (
+                  <div className="rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+                    {/* Card header — click to collapse/expand */}
+                    <button
+                      onClick={() => setShowAbout((v) => !v)}
+                      className="w-full flex items-center justify-between gap-2 px-5 py-3 border-b border-[var(--border-light)] transition-colors hover:brightness-95"
+                      style={{
+                        background: "linear-gradient(135deg, rgba(108,99,255,0.07) 0%, rgba(255,101,132,0.04) 100%)",
+                      }}
+                    >
+                      <div className="flex items-center gap-2">
+                        <Sparkles className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
+                        <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                          About this song
+                        </span>
+                      </div>
+                      {showAbout ? (
+                        <ChevronUp className="w-4 h-4 text-[var(--text-muted)]" />
+                      ) : (
+                        <ChevronDown className="w-4 h-4 text-[var(--text-muted)]" />
+                      )}
+                    </button>
 
-                {showAbout && <div className="bg-[var(--bg-card)] px-5 py-4 space-y-4">
-                  {song.description && (
-                    <div className="relative pl-4">
-                      <div
-                        className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
-                        style={{
-                          background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))",
-                        }}
-                      />
-                      <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-                        {song.description}
-                      </p>
-                    </div>
-                  )}
-                  {song.trivia && song.trivia.length > 0 && (
-                    <ul className="space-y-2">
-                      {song.trivia.map((fact, i) => (
-                        <li
-                          key={i}
-                          className="flex items-start gap-3 rounded-xl px-3 py-2.5 text-sm"
-                          style={{ background: "rgba(108,99,255,0.05)" }}
-                        >
-                          <span
-                            className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-[0.65rem] font-bold text-white mt-0.5"
-                            style={{ background: "var(--accent-primary)" }}
-                          >
-                            {i + 1}
-                          </span>
-                          <span className="text-[var(--text-muted)] leading-relaxed">{fact}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>}
+                    {showAbout && <div className="bg-[var(--bg-card)] px-5 py-4 space-y-4">
+                      {song.description && (
+                        <div className="relative pl-4">
+                          <div
+                            className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                            style={{
+                              background: "linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary))",
+                            }}
+                          />
+                          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                            {song.description}
+                          </p>
+                        </div>
+                      )}
+                      {song.trivia && song.trivia.length > 0 && (
+                        <ul className="space-y-2">
+                          {song.trivia.map((fact, i) => (
+                            <li
+                              key={i}
+                              className="flex items-start gap-3 rounded-xl px-3 py-2.5 text-sm"
+                              style={{ background: "rgba(108,99,255,0.05)" }}
+                            >
+                              <span
+                                className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-[0.65rem] font-bold text-white mt-0.5"
+                                style={{ background: "var(--accent-primary)" }}
+                              >
+                                {i + 1}
+                              </span>
+                              <span className="text-[var(--text-muted)] leading-relaxed">{fact}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>}
+                  </div>
+                )}
+
+                {/* Behind the Beats section */}
+                {song.meaning && (
+                  <div className="rounded-2xl border border-[var(--border-light)] overflow-hidden shadow-sm">
+                    {/* Card header — click to collapse/expand */}
+                    <button
+                      onClick={() => setShowMeaning((v) => !v)}
+                      className="w-full flex items-center justify-between gap-2 px-5 py-3 border-b border-[var(--border-light)] transition-colors hover:brightness-95"
+                      style={{
+                        background: "linear-gradient(135deg, rgba(255,101,132,0.07) 0%, rgba(108,99,255,0.04) 100%)",
+                      }}
+                    >
+                      <div className="flex items-center gap-2">
+                        <Sparkles className="w-3.5 h-3.5 text-[var(--accent-secondary)]" />
+                        <span className="text-xs font-semibold text-[var(--text-secondary)] uppercase tracking-wider">
+                          Behind the Beats
+                        </span>
+                      </div>
+                      {showMeaning ? (
+                        <ChevronUp className="w-4 h-4 text-[var(--text-muted)]" />
+                      ) : (
+                        <ChevronDown className="w-4 h-4 text-[var(--text-muted)]" />
+                      )}
+                    </button>
+
+                    {showMeaning && <div className="bg-[var(--bg-card)] px-5 py-4">
+                      <div className="relative pl-4">
+                        <div
+                          className="absolute left-0 top-0 bottom-0 w-[3px] rounded-full"
+                          style={{
+                            background: "linear-gradient(to bottom, var(--accent-secondary), var(--accent-primary))",
+                          }}
+                        />
+                        <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                          {song.meaning}
+                        </p>
+                      </div>
+                    </div>}
+                  </div>
+                )}
               </div>
             )}
 

@@ -278,11 +278,13 @@ export default function AdminSongEditor({ password }: Props) {
       const newFields: string[] = data.newFields ?? [];
       const description: string | null = data.description ?? null;
       const trivia: string[] | null = data.trivia ?? null;
+      const meaning: string | null = data.meaning ?? null;
 
       const added: string[] = [];
       if (newFields.length > 0) added.push(...newFields.map((f: string) => f.split(":")[0]));
       if (description) added.push("Description");
       if (trivia?.length) added.push("Trivia");
+      if (meaning) added.push("Behind the Beats");
 
       if (added.length === 0) {
         setEnrichResult({ success: true, message: "All fields already present — nothing to add." });
@@ -297,6 +299,7 @@ export default function AdminSongEditor({ password }: Props) {
           info: [...(prev.info ?? []), ...newFields],
           ...(description ? { description } : {}),
           ...(trivia?.length ? { trivia } : {}),
+          ...(meaning ? { meaning } : {}),
         };
       });
       setEnrichResult({
@@ -501,10 +504,12 @@ export default function AdminSongEditor({ password }: Props) {
           const newFields: string[] = enrichData.newFields ?? [];
           const description: string | null = enrichData.description ?? null;
           const trivia: string[] | null = enrichData.trivia ?? null;
+          const meaning: string | null = enrichData.meaning ?? null;
           const added: string[] = [];
           if (newFields.length) added.push(...newFields.map((f: string) => f.split(":")[0]));
           if (description) added.push("Description");
           if (trivia?.length) added.push("Trivia");
+          if (meaning) added.push("Behind the Beats");
 
           if (added.length > 0) {
             loadedSong = {
@@ -512,6 +517,7 @@ export default function AdminSongEditor({ password }: Props) {
               info: [...loadedSong.info, ...newFields],
               ...(description ? { description } : {}),
               ...(trivia?.length ? { trivia } : {}),
+              ...(meaning ? { meaning } : {}),
             };
             initialEnrichResult = {
               success: true,
@@ -1313,6 +1319,30 @@ export default function AdminSongEditor({ password }: Props) {
                     </div>
                   ))}
                 </div>
+              </div>
+
+              {/* Behind the Beats - Meaning */}
+              <div className="mt-4">
+                <div className="flex items-center justify-between mb-1">
+                  <label className="admin-label mb-0">Behind the Beats (Meaning & Gist)</label>
+                  {song.meaning && (
+                    <button
+                      onClick={() => setSong({ ...song, meaning: undefined })}
+                      className="text-xs text-red-400 hover:underline"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+                <textarea
+                  value={song.meaning ?? ""}
+                  onChange={(e) =>
+                    setSong({ ...song, meaning: e.target.value || undefined })
+                  }
+                  placeholder="Explain the song's theme, metaphors, cultural references, backstory, and why it was written. For cryptic songs, include popular interpretations…"
+                  rows={3}
+                  className="admin-input resize-none text-sm"
+                />
               </div>
 
               {/* Image URL */}

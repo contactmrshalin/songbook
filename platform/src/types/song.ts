@@ -26,6 +26,8 @@ export interface Song {
   description?: string;
   /** Interesting trivia facts about the song (AI-generated, user-editable) */
   trivia?: string[];
+  /** Meaning, gist, theme, and backstory of the song (AI-generated, user-editable) */
+  meaning?: string;
   /**
    * Path to a MusicXML file for this song, relative to the data/ directory.
    * Set by scrape_musicxml.py (downloaded from URL) or build_songbook.py

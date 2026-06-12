@@ -94,7 +94,8 @@ Your job is to provide accurate metadata and engaging content about songs. Follo
 - music: music director(s), comma-separated
 - lyrics: lyricist(s), comma-separated
 - description: 2–3 engaging sentences about the song's significance, mood, and musical style. Make it interesting for a learner.
-- trivia: array of 3–4 genuinely interesting facts. Can include: historical context, recording stories, musical techniques, awards, cultural impact, connection to classical music.`;
+- trivia: array of 3–4 genuinely interesting facts. Can include: historical context, recording stories, musical techniques, awards, cultural impact, connection to classical music.
+- meaning: 3–4 sentences explaining the song's theme, metaphors, slang, core message, and why it was written. For regional/foreign songs, translate and explain cultural references. For story-driven songs, include backstory/inspiration. For cryptic songs, discuss popular interpretations.`;
 
 /** Fetch with exponential back-off on 429 / 503 quota errors */
 async function fetchWithRetry(url, init, maxRetries = 3) {
@@ -112,11 +113,12 @@ async function fetchWithRetry(url, init, maxRetries = 3) {
   }
 }
 
-async function enrichSong(title, info, missingMeta, needsDescription, needsTrivia) {
+async function enrichSong(title, info, missingMeta, needsDescription, needsTrivia, needsMeaning) {
   const needed = [
     ...missingMeta,
     ...(needsDescription ? ["description"] : []),
     ...(needsTrivia ? ["trivia (array of strings)"] : []),
+    ...(needsMeaning ? ["meaning"] : []),
   ];
 
   const prompt = [
@@ -126,7 +128,7 @@ async function enrichSong(title, info, missingMeta, needsDescription, needsTrivi
     "",
     `Please provide: ${needed.join(", ")}`,
     "",
-    `Return a JSON object with keys: ${[...missingMeta, ...(needsDescription ? ["description"] : []), ...(needsTrivia ? ["trivia"] : [])].join(", ")}`,
+    `Return a JSON object with keys: ${[...missingMeta, ...(needsDescription ? ["description"] : []), ...(needsTrivia ? ["trivia"] : []), ...(needsMeaning ? ["meaning"] : [])].join(", ")}`,
     "For any metadata key you are unsure about, set it to null.",
   ].join("\n");
 
@@ -191,7 +193,12 @@ async function enrichSong(title, info, missingMeta, needsDescription, needsTrivi
           .slice(0, 4)
       : null;
 
-  return { newFields, description, trivia };
+  const meaning =
+    needsMeaning && typeof parsed.meaning === "string" && parsed.meaning.trim()
+      ? parsed.meaning.trim()
+      : null;
+
+  return { newFields, description, trivia, meaning };
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────
@@ -223,23 +230,24 @@ async function main() {
     const missingMeta = ["movie", "singer", "music", "lyrics", "raag", "thaat", "year"].filter((k) => !existing[k]);
     const needsDescription = !song.description && !SKIP_TRIVIA;
     const needsTrivia = (!song.trivia || song.trivia.length === 0) && !SKIP_TRIVIA;
+    const needsMeaning = !song.meaning && !SKIP_TRIVIA;
 
-    if (missingMeta.length === 0 && !needsDescription && !needsTrivia) {
+    if (missingMeta.length === 0 && !needsDescription && !needsTrivia && !needsMeaning) {
       console.log(`  ✅  ${song.title} — complete, skipping`);
       skipped++;
       processed++;
       continue;
     }
 
-    const needed = [...missingMeta, ...(needsDescription ? ["desc"] : []), ...(needsTrivia ? ["trivia"] : [])];
+    const needed = [...missingMeta, ...(needsDescription ? ["desc"] : []), ...(needsTrivia ? ["trivia"] : []), ...(needsMeaning ? ["meaning"] : [])];
     process.stdout.write(`  🔍  ${song.title} (need: ${needed.join(", ")}) … `);
 
     try {
-      const { newFields, description, trivia } = await enrichSong(
-        song.title, song.info, missingMeta, needsDescription, needsTrivia
+      const { newFields, description, trivia, meaning } = await enrichSong(
+        song.title, song.info, missingMeta, needsDescription, needsTrivia, needsMeaning
       );
 
-      const changed = newFields.length + (description ? 1 : 0) + (trivia?.length ? 1 : 0);
+      const changed = newFields.length + (description ? 1 : 0) + (trivia?.length ? 1 : 0) + (meaning ? 1 : 0);
       if (changed === 0) {
         console.log("Gemini returned no new data");
         skipped++;
@@ -248,11 +256,13 @@ async function main() {
         newFields.forEach((f) => console.log(`       • ${f}`));
         if (description) console.log(`       • Description (${description.length} chars)`);
         if (trivia?.length) console.log(`       • ${trivia.length} trivia facts`);
+        if (meaning) console.log(`       • Behind the Beats (${meaning.length} chars)`);
 
         if (!DRY_RUN) {
           song.info = [...song.info, ...newFields];
           if (description) song.description = description;
           if (trivia?.length) song.trivia = trivia;
+          if (meaning) song.meaning = meaning;
           fs.writeFileSync(filePath, JSON.stringify(song, null, 2) + "\n", "utf8");
         }
         enriched++;
