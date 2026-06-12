@@ -92,5 +92,8 @@
     "Its immense popularity in India led filmmaker Mahesh Bhatt to license the track for the Bollywood movie 'Kalyug' (2005), which officially introduced Atif Aslam's voice to the Indian film industry."
   ],
   "musicxml": "musicxml/aadat.musicxml",
-  "meaning": "The song \"Aadat\" (meaning 'habit' or 'addiction') delves into the profound emotional struggle of being unable to move on from a past love. It portrays the protagonist's deep-seated longing and the painful 'habit' of constantly remembering and missing someone who is no longer present. The lyrics express a sense of helplessness and obsession, where every moment and every thought leads back to the lost beloved, making it an inescapable cycle of heartbreak and remembrance. It's a poignant exploration of enduring love, loss, and the difficulty of letting go."
+  "meaning": {
+    "coreTheme": "The song 'Aadat' delves into the profound and often painful experience of an obsessive love that has transformed into an inescapable habit or addiction. It portrays the protagonist's struggle with separation or unrequited affection, where the beloved's memory and presence have become an integral, almost involuntary, part of their existence. The core theme revolves around the helplessness and longing associated with being unable to break free from this deep emotional dependency.",
+    "lyricSymbolism": "The central and most powerful metaphor in the lyrics is 'aadat' (habit/addiction), symbolizing an intense, almost involuntary attachment to the beloved. Phrases like 'teri aadat ho gayi hai' directly convey this emotional dependency. The lyrics also use imagery of being 'gum' (lost) in memories and 'tanha' (alone) in a world without the beloved, emphasizing the void and disorientation caused by their absence. The simplicity and directness of the language make the emotional weight of the 'habit' resonate deeply, portraying love as an all-consuming force."
+  }
 }

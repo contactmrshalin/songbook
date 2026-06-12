@@ -289,7 +289,7 @@ function buildPrompt(
   const needed: string[] = [...missingMeta];
   if (needsDescription) needed.push("description");
   if (needsTrivia) needed.push("trivia (array of strings)");
-  if (needsMeaning) needed.push("meaning");
+  if (needsMeaning) needed.push("Core Theme and Meaning and Lyric Symbolism");
 
   lines.push(`Please provide: ${needed.join(", ")}`);
   lines.push("");

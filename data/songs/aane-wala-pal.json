@@ -9,7 +9,8 @@
     "Raag: Kirwani",
     "Flute scale (as provided): F (bass/middle)",
     "Spotify: https://open.spotify.com/track/3Tel7yJVZrPclGFsMsxZcV",
-    "Sargam / Harmonium / Flute notes"
+    "Sargam / Harmonium / Flute notes",
+    "Thaat: Bhairavi"
   ],
   "thumbnail": "images/aane-wala-pal.png",
   "background": "images/aane-wala-pal.png",
@@ -192,5 +193,8 @@
     "The opening acoustic guitar arpeggio is one of the most recognized intros in Indian cinema history, instantly setting the song's contemplative and reflective mood."
   ],
   "musicxml": "musicxml/aane-wala-pal.musicxml",
-  "meaning": "This iconic song by Gulzar is a profound meditation on the fleeting nature of time and the importance of living in the present moment. The core message, 'Aane wala pal jaane wala hai, ho sake to isme zindagi bita do' (The coming moment is going to pass, if possible, live your life in it), urges listeners to cherish the 'now' rather than dwelling on the past or anxiously anticipating the future. It's a philosophical call to embrace life's transient beauty, finding joy and meaning in each passing second. In the context of the film 'Golmaal', it serves as a reflective interlude, adding a layer of introspection to the comedic narrative, reminding the protagonist and audience alike to appreciate the simple truths of existence amidst life's complexities."
+  "meaning": {
+    "coreTheme": "This philosophical gem from 'Golmaal' reflects on the transient nature of time and the importance of living fully in the present moment. It encourages listeners to cherish each passing second, as once gone, it can never be reclaimed. The song serves as a gentle reminder to embrace life's experiences rather than dwelling on the past or constantly anticipating the future.",
+    "lyricSymbolism": "Gulzar's lyrics beautifully personify time, referring to 'aane wala pal' (the coming moment) as something that is 'jaane wala hai' (going to pass), emphasizing its fleeting existence. The 'parde pe yaadon ke' (on the screen of memories) metaphorically describes how past moments are replayed in our minds, highlighting the bittersweet nature of nostalgia. The simplicity of the language belies the profound message, using everyday imagery to convey deep existential truths about impermanence and the value of now."
+  }
 }
