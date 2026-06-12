@@ -5,10 +5,13 @@
   "info": [
     "Film: Mehbooba (1976)",
     "Singer: Kishore Kumar",
-    "Source: https://www.sargambook.com/mere-naina-saawan-bhadon-sargam-notes-mehbooba/"
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi",
+    "Raag: Shivranjani",
+    "Thaat: Kaafi"
   ],
-  "thumbnail": "images/mere-naina-saawan-bhadon.png",
-  "background": "images/mere-naina-saawan-bhadon.png",
+  "thumbnail": "images/mere-naina-saawan-bhadon.jpg",
+  "background": "images/mere-naina-saawan-bhadon.jpg",
   "sections": [
     {
       "name": "STHAYI",
@@ -48,19 +51,19 @@
         },
         {
           "lyrics": "Door kahin le jaaye",
-          "indian": ""
+          "indian": "Sa Re Ga(k) Pa, Dha Pa Ga(k) Dha Pa Ga(k) Re, Ga(k) Re Sa"
         },
         {
           "lyrics": "Bhool gaya kya",
-          "indian": ""
+          "indian": "Sa Re Ga(k) Pa, Dha Pa Ga(k) Dha, Dha Pa Pa"
         },
         {
           "lyrics": "Bhool ke bhi hai",
-          "indian": ""
+          "indian": "Ga Pa Pa Pa, Dha Ni(k) Dha Pa, Ga Pa Pa Pa, Dha Ni(k) Dha Pa"
         },
         {
           "lyrics": "Mujhko yaad zara sa",
-          "indian": ""
+          "indian": "Ga Pa Pa Dha Sa', Re' Sa' Re' Ga'(k)"
         },
         {
           "lyrics": "Phir bhi mera man pyasa",
@@ -142,5 +145,13 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "This iconic song is a poignant masterpiece, beautifully capturing the agony of separation and longing through its melancholic melody. R.D. Burman masterfully infuses Raag Shivranjani's characteristic pathos, creating a timeless classic that resonates deeply with listeners. Kishore Kumar's soulful rendition adds layers of emotional depth, making it one of his most memorable performances.",
+  "trivia": [
+    "The song exists in two equally famous versions, one sung by Kishore Kumar and the other by Lata Mangeshkar, both featuring the same composition but with distinct emotional nuances.",
+    "It is a prime example of R.D. Burman's genius in blending classical Indian ragas with popular film music, making complex melodies accessible and appealing to a wide audience.",
+    "Raag Shivranjani, known for its five-note scale (pentatonic) and inherent sadness, is the backbone of this composition, lending it its profound emotional quality.",
+    "The lyrics by Anand Bakshi vividly describe the monsoon season (Saawan Bhadon) as a metaphor for tears and sorrow, perfectly complementing the song's melancholic mood."
+  ],
+  "musicxml": "musicxml/mere-naina-saawan-bhadon.musicxml"
 }
