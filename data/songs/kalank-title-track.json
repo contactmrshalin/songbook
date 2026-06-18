@@ -7,7 +7,9 @@
     "Movie: Kalank",
     "Singer: Arijit Singh",
     "Music Director: Pritam",
-    "Lyricist: Amitabh Bhattacharya"
+    "Lyricist: Amitabh Bhattacharya",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
   "sections": [
     {
@@ -168,5 +170,16 @@
     }
   ],
   "export": true,
-  "musicxml": "musicxml/kalank-title-track.musicxml"
+  "musicxml": "musicxml/kalank-title-track.musicxml",
+  "description": "The 'Kalank Title Track' is a poignant and deeply emotional ballad that perfectly encapsulates the film's tragic romance. Arijit Singh's soulful rendition, coupled with Pritam's grand yet melancholic composition, creates an immersive experience of longing and destined sorrow. It masterfully blends classical Indian melodic sensibilities with contemporary orchestral arrangements, making it a standout track for its lyrical depth and vocal prowess.",
+  "trivia": [
+    "The song was originally composed by Pritam and sung by Arijit Singh, but a female version was also released, sung by Shreya Ghoshal, offering a different emotional perspective.",
+    "Lyricist Amitabh Bhattacharya penned the profound words, which delve into themes of forbidden love, sacrifice, and the enduring pain of a 'blemish' or 'stigma' on love.",
+    "The song's melodic structure, particularly its use of the teevra Madhyam and overall mood, strongly hints at the classical Raag Yaman, known for its evening serenity and romantic, often melancholic, character.",
+    "The 'Kalank Title Track' became immensely popular, lauded for its emotional depth and Arijit Singh's evocative delivery, solidifying its place as one of the most memorable romantic ballads of the year."
+  ],
+  "meaning": {
+    "coreTheme": "The core theme of the 'Kalank Title Track' revolves around the profound and often painful nature of forbidden love, destiny, and sacrifice. It speaks to a love so intense that it transcends societal norms and personal suffering, yet is marked by an inescapable 'kalank' or blemish. The song serves as the emotional backbone of the film, narrating the protagonists' doomed romance and their yearning for a love that is both beautiful and tragically flawed.",
+    "lyricSymbolism": "The word 'Kalank' itself is the central metaphor, representing a stigma or blemish that marks the lovers' fate. Lyrics like 'Humari kahani pe kalank ka hai saaya' (Our story is shadowed by a blemish) directly address this. Poetic devices such as 'aag ka dariya' (river of fire) symbolize the trials and tribulations the lovers must endure, while 'doob ke jaana hai' (must cross by drowning) suggests the ultimate sacrifice and surrender to their destiny, highlighting the intensity and tragic beauty of their bond."
+  }
 }
