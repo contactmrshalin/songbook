@@ -4854,6 +4854,20 @@
         }
       ],
       "export": true
+    },
+    {
+      "id": "tera-chehra-jab-nazar-aaye",
+      "title": "Tera Chehra Jab Nazar Aaye",
+      "thumbnail": "",
+      "background": "",
+      "export": true
+    },
+    {
+      "id": "chehra-hai-ya-chand-khila-hai",
+      "title": "Chehra Hai Ya Chand Khila Hai",
+      "thumbnail": "",
+      "background": "",
+      "export": true
     }
   ]
 }
