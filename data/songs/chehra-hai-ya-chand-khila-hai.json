@@ -1,0 +1,128 @@
+{
+  "id": "chehra-hai-ya-chand-khila-hai",
+  "title": "Chehra Hai Ya Chand Khila Hai",
+  "export": true,
+  "info": [
+    "Film: Saagar (1985)",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Javed Akhtar",
+    "Scale: C#",
+    "Source: https://sargamnotes.com/chehra-hai-ya-chand-khila-hai-sargam-notes/"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Chehra hai ya chaand khila hai",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ga Ga ma Ga Ga"
+        },
+        {
+          "lyrics": "Zulf ghaneri shaam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha Pa"
+        },
+        {
+          "lyrics": "Saagar jaisi aankhon waali",
+          "indian": "Pa Ni Sa' Re' Sa' Ni Dha Pa Pa Ma Pa Ma Pa Ma Pa"
+        },
+        {
+          "lyrics": "Ye to bata tera naam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (REPEAT)",
+      "lines": [
+        {
+          "lyrics": "Chehra hai ya chaand khila hai",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ga Ga ma Ga Ga"
+        },
+        {
+          "lyrics": "Zulf ghaneri shaam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha Pa"
+        },
+        {
+          "lyrics": "Saagar jaisi aankhon waali",
+          "indian": "Pa Ni Sa' Re' Sa' Ni Dha Pa Pa Ma Pa Ma Pa Ma Pa"
+        },
+        {
+          "lyrics": "Ye to bata tera naam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Are tu kya jaane teri khaatir",
+          "indian": "Ga' Ga' Ga' Ga(k)' Ga' Sa' Sa' Ni Ni Dha Dha Dha(k) Dha Ni Ni Ni"
+        },
+        {
+          "lyrics": "Kitna hai betaab ye dil",
+          "indian": "Sa' Ni Ni Dha Dha Ni Ni Ga' Sa' Ni Sa'"
+        },
+        {
+          "lyrics": "Tu kya jaane dekh raha hai",
+          "indian": "Ga' Ga(k)' Ga' Sa' Sa' Ni Ni Dha Dha Dha(k) Dha Ni Ni Ni"
+        },
+        {
+          "lyrics": "Kaise kaise khwaab ye dil",
+          "indian": "Sa' Ni Ni Dha Dha Pa Ni Dha Dha(k) Dha"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Dil kehta hai",
+          "indian": "Sa' Ni Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "Tu hai yahaan to",
+          "indian": "Sa' Ni Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "Jaata lamha tham jaaye",
+          "indian": "Sa' Ni Ni Dha Dha Dha Ni Dha(k) Dha Ni Ni"
+        },
+        {
+          "lyrics": "Waqt ka dariya",
+          "indian": "Re(k)' Re(k)' Re(k)' Re(k)' Re(k)' Re(k)'"
+        },
+        {
+          "lyrics": "Behte behte",
+          "indian": "Re' Re' Re(k)' Re' Re(k)' Re'"
+        },
+        {
+          "lyrics": "Is manzar mein jam jaaye",
+          "indian": "Pa Ni Sa' Re' Sa' Ni Ni Dha Dha Dha(k) Dha Dha(k) Dha"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (REPRISE)",
+      "lines": [
+        {
+          "lyrics": "Tune deewana dil ko banaya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ga Ga ma Ga Ga"
+        },
+        {
+          "lyrics": "Is dil pe ilzaam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha Pa"
+        },
+        {
+          "lyrics": "Saagar jaisi aankhon waali",
+          "indian": "Pa Ni Sa' Re' Sa' Ni Dha Pa Pa Ma Pa Ma Pa Ma Pa"
+        },
+        {
+          "lyrics": "Ye to bata tera naam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha"
+        }
+      ]
+    }
+  ]
+}

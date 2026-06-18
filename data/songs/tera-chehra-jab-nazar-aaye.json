@@ -1,0 +1,160 @@
+{
+  "id": "tera-chehra-jab-nazar-aaye",
+  "title": "Tera Chehra Jab Nazar Aaye",
+  "export": true,
+  "info": [
+    "Film: Tera Chehra (2002)",
+    "Singer: Adnan Sami",
+    "Music: Adnan Sami",
+    "Lyrics: Sameer",
+    "Scale: A",
+    "Source: https://sargamnotes.com/tera-chehra-jab-nazar-aaye-sargam-notes/"
+  ],
+  "sections": [
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Ye zameen ruk jaaye",
+          "indian": "Ga ma Pa Pa Ga ma Ga Re Re"
+        },
+        {
+          "lyrics": "Aasmaan jhuk jaaye",
+          "indian": "Ga ma Pa Pa Ga ma Ga Re Re"
+        },
+        {
+          "lyrics": "Tera chehra",
+          "indian": "Re Ga(k) Re Sa Sa"
+        },
+        {
+          "lyrics": "Jab nazar aaye",
+          "indian": "Re Re Ni(k) Ni(k) Re Sa"
+        },
+        {
+          "lyrics": "Ho tera chehra",
+          "indian": "Ga Ga Ga Re Re Re"
+        },
+        {
+          "lyrics": "Jab nazar aaye",
+          "indian": "Re Re Ni(k) Ni(k) Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (VARIATION)",
+      "lines": [
+        {
+          "lyrics": "Ye zameen ruk jaaye",
+          "indian": "Ga ma Pa Pa Ga ma Ga Re Re"
+        },
+        {
+          "lyrics": "Aasmaan jhuk jaaye",
+          "indian": "Ga ma Pa Pa Dha ma Ga Re Re"
+        },
+        {
+          "lyrics": "Tera chehra",
+          "indian": "Re Ga(k) Re Sa Sa"
+        },
+        {
+          "lyrics": "Jab nazar aaye",
+          "indian": "Re Re Ni(k) Ni(k) Re Sa"
+        },
+        {
+          "lyrics": "Ho tera chehra",
+          "indian": "Ga Ga Ga Re Re Re"
+        },
+        {
+          "lyrics": "Jab nazar aaye",
+          "indian": "Re Re Ni(k) Ni(k) Re Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Tu ijaazat de agar",
+          "indian": "Ga Ga(k) Ga Ga Sa dha Sa pa"
+        },
+        {
+          "lyrics": "Tujhse thoda pyaar main kar loon",
+          "indian": "Ga Ga Ga(k) Ga Ga Sa dha Sa pa dha Re"
+        },
+        {
+          "lyrics": "Jaan-e-jaan",
+          "indian": "Ga Sa dha Sa"
+        },
+        {
+          "lyrics": "Baith mere saamne",
+          "indian": "Ga Ga(k) Ga Ga Sa dha Sa pa"
+        },
+        {
+          "lyrics": "Khaali dil khaali nazar bhar loon",
+          "indian": "Ga Ga(k) Ga Ga Sa dha Sa pa dha Re"
+        },
+        {
+          "lyrics": "Ooo...",
+          "indian": "Ga ma Ga Ga Re"
+        },
+        {
+          "lyrics": "Jaan-e-jaan",
+          "indian": "Ga Sa dha Sa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Tu khafa ho jaaye",
+          "indian": "Ga ma Pa Pa Ga ma Ga Re Re"
+        },
+        {
+          "lyrics": "Raat abhi ho jaaye",
+          "indian": "Ga ma Pa Pa Dha ma Ga Re Re"
+        },
+        {
+          "lyrics": "Din tere",
+          "indian": "Re Ga(k) Sa"
+        },
+        {
+          "lyrics": "Aanchal mein chhup jaaye",
+          "indian": "Sa Re Re Ni(k) Ni(k) Re Sa"
+        },
+        {
+          "lyrics": "Chhup jaaye",
+          "indian": "Re Re Re Ga Re Ga Sa"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA (REPRISE)",
+      "lines": [
+        {
+          "lyrics": "Ye zameen ruk jaaye",
+          "indian": "Ga ma Pa Pa Ga ma Ga Re Re"
+        },
+        {
+          "lyrics": "Aasmaan jhuk jaaye",
+          "indian": "Ga ma Pa Pa Dha ma Ga Re Re"
+        },
+        {
+          "lyrics": "Tera chehra",
+          "indian": "Re Ga(k) Re Sa Sa"
+        },
+        {
+          "lyrics": "Jab nazar aaye",
+          "indian": "Re Re Ni(k) Ni(k) Re Sa"
+        },
+        {
+          "lyrics": "Ho tera chehra",
+          "indian": "Ga Ga Ga Re Re Re"
+        },
+        {
+          "lyrics": "Jab nazar aaye",
+          "indian": "Re Re Ni(k) Ni(k) Re Sa"
+        }
+      ]
+    }
+  ]
+}
