@@ -1,0 +1,113 @@
+{
+  "id": "saagar-kinare",
+  "title": "Saagar Kinare",
+  "export": true,
+  "info": [
+    "Film/Artist: Saagar",
+    "Scale: F# BASS/MIDDLE",
+    "Singer: Kishore Kumar, Lata Mangeshkar",
+    "Music: R.D. Burman",
+    "Lyrics: Javed Akhtar"
+  ],
+  "thumbnail": "images/saagar-kinare.jpg",
+  "background": "images/saagar-kinare.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Sagar kinare",
+          "indian": "ni Sa ni dha ni Sa: Ga:"
+        },
+        {
+          "lyrics": "Dil ye pukare",
+          "indian": "Ga ma Ga Re Ga Ga: Pa ma:"
+        },
+        {
+          "lyrics": "Tu jo nahi to mera",
+          "indian": "Ga ma Ga Re Ga ni: Re: Pa: Ma: Re."
+        },
+        {
+          "lyrics": "Koi nahi hai hoo oo o",
+          "indian": "Re ma Ga Re Re Ga: Sa: ni Sa dha ni pa"
+        },
+        {
+          "lyrics": "Sagar kinare",
+          "indian": "Sa: ni dha ni Sa: Ga:"
+        },
+        {
+          "lyrics": "Sagar kinare",
+          "indian": "ni Sa ni dha ni Sa: Ga:"
+        },
+        {
+          "lyrics": "Dil ye pukare",
+          "indian": "Ga ma Ga Re Ga Ga: Pa ma:"
+        },
+        {
+          "lyrics": "Tu jo nahi to mera",
+          "indian": "Ga ma Ga Re Ga ni: Re: Pa: Ma: Re."
+        },
+        {
+          "lyrics": "Koi nahi hai hoo oo o",
+          "indian": "Re ma Ga Re Re Ga: Sa: ni Sa dha ni pa"
+        },
+        {
+          "lyrics": "Sagar kinare",
+          "indian": "Sa: ni dha ni Sa: Ga:"
+        },
+        {
+          "lyrics": "Jaage najare jaagi hawayein",
+          "indian": "Pa Pa Sa' Dha: Pa ma ma Dha Pa Pa: Pa"
+        },
+        {
+          "lyrics": "Jaage najare jaagi hawayein",
+          "indian": "Pa Pa Sa' Dha: Pa ma ma Dha Pa Pa: Pa"
+        },
+        {
+          "lyrics": "Jab pyar jaaga jaagi fizayein",
+          "indian": "Pa Pa Sa' Dha: Pa ma ma Dha Pa Pa: Pa"
+        },
+        {
+          "lyrics": "Ho pal bhar ko dil ki duniya",
+          "indian": "Pa: Pa ma ma Ga Ga Re: Re: Re Re Sa Re ma"
+        },
+        {
+          "lyrics": "Soyi nahi hai aeae aeae ae",
+          "indian": "ma: Ga Re Ga Re Sa: Sa: ni Sa dha ni pa"
+        },
+        {
+          "lyrics": "Sagar kinare",
+          "indian": "ni Sa ni dha ni Sa: Ga:"
+        },
+        {
+          "lyrics": "Dil ye pukare",
+          "indian": "Ga ma Ga Re Ga Ga: Pa ma:"
+        },
+        {
+          "lyrics": "Tu jo nahi to mera",
+          "indian": "Ga ma Ga Re Ga ni: Re: Pa: Ma: Re."
+        },
+        {
+          "lyrics": "Koi nahi hai hoo oo o",
+          "indian": "Re ma Ga Re Re Ga: Sa: ni Sa dha ni pa"
+        },
+        {
+          "lyrics": "Sagar kinare",
+          "indian": "Sa: ni dha ni Sa: Ga:"
+        }
+      ]
+    }
+  ],
+  "description": "Saagar Kinare is an iconic romantic duet that perfectly encapsulates the film's coastal setting and the blossoming love story. R.D. Burman's masterful composition blends a dreamy melody with a gentle rhythm, creating an atmosphere of tender longing and serene affection. The song remains a timeless classic, celebrated for its exquisite vocals by Kishore Kumar and Lata Mangeshkar and its evocative portrayal of love by the sea.",
+  "trivia": [
+    "The song was filmed on Dimple Kapadia and Rishi Kapoor, becoming one of their most memorable on-screen pairings.",
+    "It marked Dimple Kapadia's comeback to films after a long hiatus, and her stunning appearance in the song was highly anticipated.",
+    "R.D. Burman's arrangement features a beautiful use of string sections and a subtle percussive beat, creating a lush yet understated soundscape.",
+    "Javed Akhtar's lyrics beautifully weave the imagery of the sea (saagar) and its shore (kinare) as a metaphor for two souls destined to meet and merge."
+  ],
+  "meaning": {
+    "coreTheme": "The song's core theme revolves around the profound connection between two lovers, using the vastness and constancy of the sea as a metaphor for their destiny and enduring affection. It expresses the joy and wonder of finding one's soulmate, suggesting that their meeting was preordained, much like the waves always returning to the shore.",
+    "lyricSymbolism": "The recurring imagery of \"saagar\" (sea) and \"kinare\" (shore) symbolizes two individuals who are distinct yet eternally drawn to each other, destined to meet and complete one another. Phrases like \"hum do dil hain, ek kahani\" (we are two hearts, one story) emphasize their inseparable bond, while the gentle ebb and flow of the ocean mirror the natural, inevitable progression of their love."
+  },
+  "musicxml": "musicxml/saagar-kinare.musicxml"
+}
