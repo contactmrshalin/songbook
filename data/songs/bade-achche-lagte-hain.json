@@ -19,10 +19,6 @@
           "indian": "RGR | SND | NS | G"
         },
         {
-          "lyrics": "(Kyaa…)",
-          "indian": ""
-        },
-        {
           "lyrics": "Yeh | Dharti | yeh | nadiyaa,",
           "indian": "G | GPM | R | RMG"
         },
@@ -41,11 +37,11 @@
       "lines": [
         {
           "lyrics": "Bade Acchee lagte hai",
-          "indian": ""
+          "indian": "RGR | SND | NS | G"
         },
         {
           "lyrics": "Yeh Dharti ,yeh nadiyaa, yeh rainaa",
-          "indian": ""
+          "indian": "G | GPM | R | RMG S | SGR(G)R |"
         },
         {
           "lyrics": "Aur | tum mm mmmm",
@@ -98,20 +94,12 @@
           "indian": "S | SGR(G)R |"
         },
         {
-          "lyrics": "",
-          "indian": "Aur | tum mm mmmmmm"
-        },
-        {
-          "lyrics": "",
+          "lyrics": "Aur | tum mm mmmmmm",
           "indian": "N | S RGRS"
         },
         {
           "lyrics": "End Music:",
           "indian": "P... R... S..."
-        },
-        {
-          "lyrics": "Post Views: 884",
-          "indian": ""
         }
       ]
     }
