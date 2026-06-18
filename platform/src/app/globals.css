@@ -133,14 +133,14 @@ body {
 
 .lyrics-text {
   font-family: 'Inter', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: var(--text-primary);
   line-height: 1.6;
 }
 
 .notation-text {
   font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1.5;
@@ -398,7 +398,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .notation-text {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -445,7 +445,7 @@ html, body {
   }
 
   .lyrics-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 

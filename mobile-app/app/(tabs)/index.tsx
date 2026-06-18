@@ -21,7 +21,8 @@ const INJECTED_JS = `
       '*, *::before, *::after { box-sizing: border-box !important; }',
       'img, video, iframe, table, pre { max-width: 100% !important; height: auto !important; }',
       '.notation-line, .notation-text, .lyrics-text { word-break: break-word !important; overflow-wrap: break-word !important; }',
-      '.notation-text { flex-wrap: wrap !important; }',
+      '.notation-text { flex-wrap: wrap !important; font-size: 1.2rem !important; }',
+      '.lyrics-text { font-size: 1.1rem !important; }',
       'pre, code { white-space: pre-wrap !important; word-break: break-all !important; }',
     ].join(' ');
     document.head.appendChild(style);
