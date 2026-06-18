@@ -651,7 +651,8 @@ body {
 }
 .notation-text {
   font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
-  font-size: 1.35rem;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: var(--accent-primary);
   line-height: 1.5;
   letter-spacing: 0.5px;
