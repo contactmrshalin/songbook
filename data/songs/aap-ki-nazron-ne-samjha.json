@@ -1,0 +1,99 @@
+{
+  "id": "aap-ki-nazron-ne-samjha",
+  "title": "Aap Ki Nazron Ne Samjha",
+  "export": true,
+  "info": [
+    "Film/Artist: Anpadh",
+    "Scale: D BASS/MIDDLE",
+    "Singer: Lata Mangeshkar",
+    "Music: Madan Mohan",
+    "Lyrics: Raja Mehdi Ali Khan",
+    "Raag: Khamaj",
+    "Thaat: Khamaj"
+  ],
+  "thumbnail": "images/aap-ki-nazron-ne-samjha.jpg",
+  "background": "images/aap-ki-nazron-ne-samjha.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Aapki nazron ne samjha",
+          "indian": "Dha: Dha Dha: Ni Pa Dha: Dha Pa: Ga"
+        },
+        {
+          "lyrics": "Pyar ke kabil mujhe",
+          "indian": "Sa': Sa' Re': Ni: Dha: Pa Ni Dha ma Pa"
+        },
+        {
+          "lyrics": "Dil ki ae dhadkan thaher",
+          "indian": "Ni: Dha Dha Ni Pa Dha: Dha Pa: Ga"
+        },
+        {
+          "lyrics": "Ja mil gayi manzil mujhe",
+          "indian": "Sa': Sa' Re': Ni: Dha: Pa Ni Dha ma Pa"
+        },
+        {
+          "lyrics": "Aapki nazron ne samjha",
+          "indian": "Ni: Dha Dha: Ni Pa Dha: Dha Dha: Dha:"
+        },
+        {
+          "lyrics": "Ji hame manzoor hai",
+          "indian": "Dha Pa Dha: Dha Sa' Ni Dha Pa: ma Ga: Re Ga"
+        },
+        {
+          "lyrics": "Aapka ye faisla",
+          "indian": "Pa: Ga Sa ni Sa Pa: ma Ga Sa' Ni Pa"
+        },
+        {
+          "lyrics": "Ji hame manzoor hai",
+          "indian": "Dha: Pa Dha Dha Sa' Ni Dha Pa: ma Ga: Re Ga"
+        },
+        {
+          "lyrics": "Aapka ye faisla",
+          "indian": "Pa: Ga Sa ni Sa Pa: ma Ga ma Pa Dha"
+        },
+        {
+          "lyrics": "Kah rahi hai har nazar",
+          "indian": "Ni Ni Ni Ni: Ni Sa': Ni Sa' Ni Dha Pa"
+        },
+        {
+          "lyrics": "Banda parvar shukriya",
+          "indian": "ma: Pa Ni Re' Sa' Ni Dha Dha Pa Dha: ma Pa"
+        },
+        {
+          "lyrics": "Hanske apni zindagi mein",
+          "indian": "Ni Dha Dha Dha: Ni Pa Dha: Dha Pa: Ga"
+        },
+        {
+          "lyrics": "Kar liya shamil mujhe",
+          "indian": "Sa': Sa' Re': Ni: Dha: Pa Ni Dha ma Pa"
+        },
+        {
+          "lyrics": "Dil ki ae dhadkan thaher",
+          "indian": "Ni: Dha Dha Ni Pa Dha: Dha Pa: Ga"
+        },
+        {
+          "lyrics": "Ja mil gayi manzil mujhe",
+          "indian": "Sa': Sa' Re': Ni: Dha: Pa Ni Dha ma Pa"
+        },
+        {
+          "lyrics": "Aapki nazron ne samjha",
+          "indian": "Ni: Dha Dha: Ni Pa Dha: Dha Dha: Dha:"
+        }
+      ]
+    }
+  ],
+  "description": "This timeless classic from \"Anpadh\" is a masterpiece of romantic melody, showcasing Lata Mangeshkar's unparalleled vocal artistry. Composed by the legendary Madan Mohan, its gentle orchestration and soulful lyrics create an atmosphere of profound tenderness and yearning. The song beautifully captures the delicate emotions of a heart touched by love, making it an enduring favorite across generations.",
+  "trivia": [
+    "Often considered one of Lata Mangeshkar's most iconic and beloved renditions, it perfectly encapsulates her ability to convey deep emotion with subtlety.",
+    "Madan Mohan, known as the \"King of Ghazals,\" composed this song, which is a prime example of his mastery in blending classical nuances with popular appeal.",
+    "The song is based on Raag Khamaj, a romantic and light classical raga often associated with thumris and ghazals, lending it a melancholic yet sweet quality.",
+    "Picturised on actress Mala Sinha in the film \"Anpadh,\" the song became synonymous with her graceful portrayal of a woman finding her voice through love."
+  ],
+  "meaning": {
+    "coreTheme": "The song explores the profound impact of a beloved's gaze, which is depicted as having the power to understand, accept, and transform a shy, hesitant heart. It's a declaration of love and gratitude, where the protagonist feels seen and validated, gaining the courage to express her deepest feelings.",
+    "lyricSymbolism": "The phrase \"Aap ki nazron ne samjha\" (Your eyes understood) uses 'nazron' as a powerful metaphor for deep empathy and recognition, suggesting that the beloved's gaze pierced through all inhibitions. \"Dil ki ai dhadkan thehar ja\" (Oh heartbeat of my heart, stop) personifies the heart's rapid beating as a sign of overwhelming emotion, urging it to calm down to fully absorb the moment. \"Parda uthaaya\" (lifted the veil) symbolizes the removal of shyness and the revelation of true feelings."
+  },
+  "musicxml": "musicxml/aap-ki-nazron-ne-samjha.musicxml"
+}
