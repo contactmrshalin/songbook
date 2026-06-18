@@ -2,59 +2,82 @@
   "id": "hothon-se-chhu-lo-tum",
   "title": "Hothon Se Chhu Lo Tum",
   "info": [
-    "Song: Hothon Se Chhu Lo Tum"
+    "Song: Hothon Se Chhu Lo Tum",
+    "Film: Prem Geet (1981)",
+    "Singer: Jagjit Singh",
+    "Music: Jagjit Singh",
+    "Lyrics: Indeevar",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/hothon_se_chhu_lo_tum_thumb.png",
   "background": "images/hothon_se_chhu_lo_tum_bg.png",
   "sections": [
     {
-      "name": "MAIN PHRASE",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Phrase 1",
-          "indian": "Ga Re Ga Re Sa"
+          "lyrics": "Hotonn see chuu loo tumm",
+          "indian": "Ga Re Ga Re Sa: Sa: Re Sa ni"
         },
         {
-          "lyrics": "Phrase 2",
-          "indian": "Sa Re Sa Ni"
+          "lyrics": "Meraa geett amarr karr dooo",
+          "indian": "ni Sa Re Re Sa Ga Ga Re Sa Sa"
         },
         {
-          "lyrics": "Phrase 3",
-          "indian": "Ni Sa Sa Re Re Sa"
+          "lyrics": "Banjaaoo meet meree",
+          "indian": "Ga Re Ga Re Sa: Sa: Re Sa ni"
         },
         {
-          "lyrics": "Phrase 4",
-          "indian": "Ga : Re Sa Sa"
-        }
-      ]
-    },
-    {
-      "name": "TIVRA MA PHRASE",
-      "lines": [
-        {
-          "lyrics": "Phrase 5",
-          "indian": "Ga Ma(T) Ma(T) Pa Pa"
+          "lyrics": "Merii preet amarr karr doo",
+          "indian": "ni Sa Re Re Sa Ga Ga Re Sa Sa"
         },
         {
-          "lyrics": "Phrase 6",
-          "indian": "Ma(T) Dha Pa Ma(T) Ga"
+          "lyrics": "Hotonn see chuu loo tumm",
+          "indian": "Ga Re Ga Re Sa: Sa: Re Sa ni"
         },
         {
-          "lyrics": "Phrase 7",
-          "indian": "Ga Ma(T) Ma(T) Pa Pa"
-        }
-      ]
-    },
-    {
-      "name": "ENDING",
-      "lines": [
+          "lyrics": "Meraa geett amarr karr dooo",
+          "indian": "ni Sa Re Re Sa Ga Ga Re Sa Sa"
+        },
         {
-          "lyrics": "Phrase 8",
-          "indian": "Ga Re Sa Re Ga"
+          "lyrics": "Naa umrr kii seemaa hooo",
+          "indian": "Ga Ma Ma Pa Pa Pa Ma Dha: Pa Ma Ma Ga"
+        },
+        {
+          "lyrics": "Naaa janamm ka hoo bandhan",
+          "indian": "Ga Ma Pa: Pa Pa Sa: Re Re Ga"
+        },
+        {
+          "lyrics": "Jabb pyaar karee koiii",
+          "indian": "Ga Ma Ma Pa Pa Pa Ma Dha: Pa Ma Ma Ga"
+        },
+        {
+          "lyrics": "Too dekhaa kevall mann",
+          "indian": "Ga Ma Pa: Pa Pa Sa: Re Re Ga"
+        },
+        {
+          "lyrics": "Nayii reet chalakarr tumm",
+          "indian": "Ga Re Ga Re Sa: Sa: Re Sa ni"
+        },
+        {
+          "lyrics": "Yehh reet amarr karr dooo",
+          "indian": "ni Sa Re Re Sa Ga Ga Re Sa Sa"
         }
       ]
     }
   ],
   "export": true,
-  "musicxml": "musicxml/hothon-se-chhu-lo-tum.musicxml"
+  "musicxml": "musicxml/hothon-se-chhu-lo-tum.musicxml",
+  "description": "This iconic ghazal by Jagjit Singh is a timeless masterpiece, celebrated for its soulful melody and profound lyrics. It beautifully encapsulates the essence of romantic longing and philosophical depth, characteristic of the ghazal form. The song's gentle yet powerful rendition by Jagjit Singh solidified his legacy as the 'Ghazal King'.",
+  "trivia": [
+    "\"Hothon Se Chhu Lo Tum\" is widely regarded as one of Jagjit Singh's most defining and popular ghazals, becoming synonymous with his name.",
+    "Jagjit Singh not only sang this ghazal but also composed its music, showcasing his dual talent as a vocalist and music director.",
+    "The film 'Prem Geet' played a crucial role in bringing ghazals to a wider mainstream audience in Indian cinema, largely due to the immense success of this song.",
+    "The lyrics by Indeevar are celebrated for their poetic simplicity and profound emotional resonance, making the song accessible yet deeply moving."
+  ],
+  "meaning": {
+    "coreTheme": "The song is a poignant expression of eternal love and the desire for a beloved's touch to grant immortality to the moment and the self. It speaks to the yearning for a love so profound that it transcends the boundaries of time and memory, leaving an indelible mark on the soul.",
+    "lyricSymbolism": "The central phrase \"Hothon Se Chhu Lo Tum\" (Touch me with your lips) is a tender metaphor for an intimate, soul-stirring connection, symbolizing not just a physical kiss but a spiritual union. \"Amar kar do\" (make me immortal) signifies the belief that true love has the power to elevate and preserve one's essence beyond mortal existence, making the beloved's memory and presence eternal."
+  }
 }
