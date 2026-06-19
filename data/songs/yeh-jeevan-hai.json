@@ -1,0 +1,124 @@
+{
+  "id": "yeh-jeevan-hai",
+  "title": "Yeh Jeevan Hai",
+  "export": true,
+  "info": [
+    "Film: Piya Ka Ghar (1972)",
+    "Singer: Kishore Kumar",
+    "Music: Laxmikant-Pyarelal",
+    "Lyrics: Anand Bakshi"
+  ],
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Ye Jeevan Hai Is Jeevan Ka",
+          "indian": "Re Sa ni Sa Ga Ga Ga Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Yahin Hai, Yahin Hai, Yahin Hai Rang Roop",
+          "indian": "ma Dha ma Re Ga Pa Ga Sa Re ma Re Re ni Sa"
+        },
+        {
+          "lyrics": "Ye Jeevan Hai Is Jeevan Ka",
+          "indian": "Re Sa ni Sa Ga Ga Ga Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Yahin Hai, Yahin Hai, Yahin Hai Rang Roop",
+          "indian": "ma Dha ma Re Ga Pa Ga Sa Re ma Re Re ni Sa"
+        },
+        {
+          "lyrics": "Thode Gam Hai Thodi Khushiyan",
+          "indian": "Re Sa ni Sa Pa Ga Ga Ga Ga Ga Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Yahin Hai, Yahin Hai, Yahin Hai Chhanv Dhoop",
+          "indian": "ma Dha ma Re Ga Pa Ga Sa Re ma Re Re ni Sa"
+        },
+        {
+          "lyrics": "Ye Jeevan Hai",
+          "indian": "Re Sa ni Sa Ga"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Ye Na Socho Isme Apne",
+          "indian": "Re Ga Sa Sa Sa Sa Re ma ma ma ma"
+        },
+        {
+          "lyrics": "Haar Hai Ki Jeet Hai",
+          "indian": "Ga ma Ga Re Re Ga Re Sa Ga Ga"
+        },
+        {
+          "lyrics": "Ye Na Socho Isme Apni Haar Hai Ki Jeet Hai",
+          "indian": "Re Ga Sa Sa Sa Sa Re ma ma ma ma Ga ma Ga Re Re Ga Re Sa Ga Ga"
+        },
+        {
+          "lyrics": "Apna Lo Jo Bhi Jeevan Ki Reet Hai",
+          "indian": "Re Ga Sa Sa Sa Sa Re ma ma ma ma Ga ma Ga Re Re Ga Re Sa Ga Ga"
+        },
+        {
+          "lyrics": "Ye Jid Chhodo Yun Na Todo",
+          "indian": "ma ma Dha Dha Dha Re Re Pa Pa Pa"
+        },
+        {
+          "lyrics": "Har Pal Ek Darpan Hai",
+          "indian": "Pa Pa Dha Pa ma Ga Re Ga"
+        },
+        {
+          "lyrics": "Ye Jeevan Hai Is Jeevan Ka",
+          "indian": "Re Sa ni Sa Ga Ga Ga Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Yahin Hai",
+          "indian": "ma Dha ma Re"
+        },
+        {
+          "lyrics": "Ye Jeevan Hai",
+          "indian": "Re Sa ni Sa Ga"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "Dhan Se Na Duniya Se Ghar Se Na Dwaar Se",
+          "indian": ""
+        },
+        {
+          "lyrics": "Saanson Ki Dor Badhi Hai Pritam Ke Pyaar Se",
+          "indian": ""
+        },
+        {
+          "lyrics": "Duniya Chhoote Ye Kaisa Bandhan Hai",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ye Jeevan Hai Is Jeevan Ka",
+          "indian": "Re Sa ni Sa Ga Ga Ga Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Yahin Hai",
+          "indian": "ma Dha ma Re"
+        },
+        {
+          "lyrics": "Thode Gam Hai Thodi Khushiyan",
+          "indian": "Re Sa ni Sa Pa Ga Ga Ga Ga Ga Pa ma Ga Re"
+        },
+        {
+          "lyrics": "Yahin Hai",
+          "indian": "ma Dha ma Re"
+        },
+        {
+          "lyrics": "Ye Jeevan Hai",
+          "indian": "Re Sa ni Sa Ga"
+        }
+      ]
+    }
+  ]
+}

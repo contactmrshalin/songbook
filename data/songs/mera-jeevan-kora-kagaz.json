@@ -1,0 +1,117 @@
+{
+  "id": "mera-jeevan-kora-kagaz",
+  "title": "Mera Jeevan Kora Kagaz",
+  "export": true,
+  "info": [
+    "Film: Mera Jeevan Kora Kagaz (1974)",
+    "Singer: Kishore Kumar",
+    "Music: Kalyanji-Anandji",
+    "Lyrics: M.G. Hashmat"
+  ],
+  "sections": [
+    {
+      "name": "PRELUDE",
+      "lines": [
+        {
+          "lyrics": "(Instrumental)",
+          "indian": "Re Pa Ni | Sa Ni Pa ma | Pa | Pa Pa"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA",
+      "lines": [
+        {
+          "lyrics": "Mera Jeevan Kora Kagaz",
+          "indian": "Pa Pa Pa Pa Dha Dha ma Pa Dha"
+        },
+        {
+          "lyrics": "Kora Hi Rah Gaya",
+          "indian": "Ni Ni Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Re Pa Ni | Sa Ni Pa ma | Pa"
+        },
+        {
+          "lyrics": "Mera Jeevan Kora Kagaz",
+          "indian": "Pa Pa Pa Pa Dha Dha ma Pa Dha"
+        },
+        {
+          "lyrics": "Kora Hi Rah Gaya",
+          "indian": "Ni Ni Ni Dha Pa Pa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1",
+      "lines": [
+        {
+          "lyrics": "Jo Likha Tha Aa Aa",
+          "indian": "Re Re Re Re Sa Re"
+        },
+        {
+          "lyrics": "Jo Likhata Aasuvon Ke",
+          "indian": "Re Re Re Re Ga Ga Re Sa Sa"
+        },
+        {
+          "lyrics": "Sang Behe Gaya Aaa",
+          "indian": "Re Sa Ni Dha Sa Ni Dha Pa"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2",
+      "lines": [
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Re Pa Ni | Sa Ni Pa ma | Pa | Pa Pa"
+        },
+        {
+          "lyrics": "Ek Hava Ka Jhoka Aaya",
+          "indian": "Re Re Sa Ni Dha Ni Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "(Interlude)",
+          "indian": "Re Pa Ni | Sa Ni Pa ma | Pa | Pa Pa"
+        },
+        {
+          "lyrics": "Ho Ek Hava Ka Jhoka Aaya",
+          "indian": "Re Re Re Sa Ni Dha Ni Pa Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Toota Dali Se Phool",
+          "indian": "Ni Ni Ni Sa Re Sa"
+        },
+        {
+          "lyrics": "Toota Dali Se Phool",
+          "indian": "Re Re Sa Ni Dha Ni Pa Pa"
+        },
+        {
+          "lyrics": "Na Pavan Ki Naa Chaman Ki",
+          "indian": "Re Re Sa Ni Dha Ni Pa Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Kis Ki Hai Ye Bhool",
+          "indian": "Ni Ni Ni Sa Re Sa"
+        },
+        {
+          "lyrics": "Kis Ki Hai Ye Bhool",
+          "indian": "Re Re Sa Ni Dha Ni Pa Pa"
+        },
+        {
+          "lyrics": "Kho Gayee E E",
+          "indian": "Re Re Re Sa Re"
+        },
+        {
+          "lyrics": "Kho Gayi Khusbhu Hawa Mein",
+          "indian": "Re Re Re Re Re Ga Ga Sa Sa"
+        },
+        {
+          "lyrics": "Kuch Na Rahe Gaya A A",
+          "indian": "Re Re Sa Ni Dha Sa Ni Dha Pa"
+        }
+      ]
+    }
+  ]
+}
