@@ -21,12 +21,20 @@
 import { NextResponse } from "next/server";
 import { existsSync, readFileSync } from "fs";
 import path from "path";
-import { getSongById } from "@/lib/songs";
+import { getSongById, getAllSongs } from "@/lib/songs";
 import { songToMusicXml } from "@/lib/toMusicXml";
 
 // For static export compatibility, allow this route to be prerendered
 export const dynamic = "force-static";
 export const revalidate = 3600; // 1 hour
+
+// Generate static params for all songs so they can be prerendered during static export
+export async function generateStaticParams() {
+  const songs = getAllSongs();
+  return songs.map((song) => ({
+    id: song.id,
+  }));
+}
 
 // Check for a pre-generated file (backward compat with existing static files)
 function findMusicXml(safeId: string): string | null {
