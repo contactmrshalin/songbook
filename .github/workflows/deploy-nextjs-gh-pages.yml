@@ -36,12 +36,12 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Install dependencies
-        working-directory: platform
         run: npm install --legacy-peer-deps
+        working-directory: .
 
       - name: Generate song bundle
         working-directory: platform
-        run: node scripts/prebuild.mjs
+        run: npm run prebuild
 
       - name: Build Next.js app (static export)
         working-directory: platform
