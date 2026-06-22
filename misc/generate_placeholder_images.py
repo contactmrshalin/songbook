@@ -4,7 +4,7 @@ Generate placeholder PNG thumbnails/backgrounds for songs.
 
 Why placeholders?
 - Streaming-service album art is typically copyrighted, so we avoid auto-downloading it.
-- Placeholders ensure Hugo cards + PDF backgrounds still render cleanly.
+- Placeholders ensure web cards and PDF backgrounds still render cleanly.
 
 This script generates one image per song: images/<song-id>.png
 and is intended to be used with song JSON files that set:
