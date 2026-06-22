@@ -37,7 +37,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: platform
-        run: npm install --legacy-peer-deps --ignore-scripts
+        run: npm install --legacy-peer-deps
 
       - name: Generate song bundle
         working-directory: platform
