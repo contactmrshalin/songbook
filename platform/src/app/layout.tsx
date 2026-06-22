@@ -51,7 +51,7 @@ export const metadata: Metadata = {
       "Free sargam notations for 190+ Bollywood and Indian classical songs.",
   },
   verification: {
-    google: "PzwPM1rF5gb4T0vjn5SW4RV_ylaYkYMV0fBkNh-nmdc",
+    google: "v2LGt0oEFLfhuLBQjA_SFJugB1Mqd3uooygWMRwxK80",
   },
   robots: {
     index: true,
