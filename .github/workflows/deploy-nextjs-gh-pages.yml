@@ -44,8 +44,7 @@ jobs:
         run: npm run prebuild
 
       - name: Build Next.js app (static export)
-        working-directory: platform
-        run: npm run build
+        run: npm run build --workspace=platform
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ env.NEXT_PUBLIC_BASE_PATH }}
           NEXT_BUILD_STANDALONE: ${{ env.NEXT_BUILD_STANDALONE }}
