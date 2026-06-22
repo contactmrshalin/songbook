@@ -10,7 +10,7 @@ source of truth.
 | **PDF** | Mobile-friendly A5/Letter with thumbnails, backgrounds, and Indian + Western notation |
 | **EPUB** | Reflowable e-book for phones and e-readers |
 | **MusicXML** | One file per song — open in MuseScore, Finale, or Sibelius |
-| **Website** | Hugo static site deployed to GitHub Pages with search and notation toggle |
+| **Website** | Next.js web app deployed to Vercel and GitHub Pages |
 
 ---
 
@@ -43,7 +43,7 @@ songbook_pipeline_project/
 │   └── octave_notes             #   Octave reference chart
 ├── misc/                        # Helper / one-off scripts
 │   └── generate_placeholder_images.py
-├── site/                        # Hugo website source
+├── site/                        # Legacy Hugo website source (optional)
 │   ├── hugo.toml
 │   ├── layouts/
 │   ├── assets/
@@ -53,7 +53,7 @@ songbook_pipeline_project/
 ├── output/                      # Generated files land here
 ├── setup.sh                     # One-time environment setup
 └── .github/workflows/
-    └── deploy-gh-pages.yml      # CI/CD: auto-deploy on push to main
+    └── deploy-nextjs-gh-pages.yml  # CI/CD: deploy Next.js export to gh-pages
 ```
 
 ---
@@ -74,13 +74,10 @@ source .venv/bin/activate      # macOS / Linux
 pip install reportlab pillow python-docx tkinterdnd2
 ```
 
-### 3. Install Hugo (for website)
+### 3. Install Node dependencies (for website)
 
 ```bash
-# macOS
-brew install hugo
-
-# or download from https://gohugo.io/installation/
+npm install --legacy-peer-deps
 ```
 
 ---
@@ -277,31 +274,32 @@ python scripts/gui_songbook.py
 
 ---
 
-## Website (Hugo / GitHub Pages)
+## Website (Next.js / Vercel / GitHub Pages)
 
 ### Preview locally
 
 ```bash
-# 1. Generate Hugo content from song files
-python site/scripts/generate_content.py
+# 1. Build generated song bundle
+npm run prebuild --workspace=platform
 
-# 2. Start the Hugo dev server
-hugo server --source site --disableFastRender
+# 2. Start Next.js dev server
+npm run dev --workspace=platform
 ```
 
-Open **http://localhost:1313** — this mirrors what GitHub Pages will look like.
+Open **http://localhost:3000**.
 
 ### Deploy automatically
 
 Push to `main`. The GitHub Actions workflow
-(`.github/workflows/deploy-gh-pages.yml`) will:
+(`.github/workflows/deploy-nextjs-gh-pages.yml`) will:
 
-1. Generate Hugo content from `songs/` (or `songs.json` as fallback).
-2. Build the Hugo site with `--minify`.
-3. Deploy to the `gh-pages` branch.
+1. Build the Next.js app in static export mode.
+2. Publish the generated files to the `gh-pages` branch.
 
 Your site will be live at
 `https://<username>.github.io/<repo-name>/`.
+
+Vercel continues to deploy from the same source as the primary production host.
 
 ### Website features
 
@@ -390,7 +388,7 @@ python scripts/minimize_songs_json.py --songs-dir songs/
   `indian` field using `notation_mapping.json`.
 - **Fonts** (`fonts/`) are embedded in the PDF to ensure consistent rendering
   across platforms (DejaVu for Unicode text, Symbola/Noto for emoji).
-- **Hugo theme**: `hugo-theme-gallery` (Git submodule in `site/themes/gallery/`).
+- **Legacy Hugo site** remains in `site/` for archival/reference use only.
 
 ---
 
@@ -402,7 +400,7 @@ python scripts/minimize_songs_json.py --songs-dir songs/
 | Build PDF only | `python scripts/build_songbook.py --format pdf` |
 | Build EPUB only | `python scripts/build_songbook.py --format epub` |
 | Build MusicXML only | `python scripts/build_songbook.py --format musicxml` |
-| Preview website | `python site/scripts/generate_content.py && hugo server --source site` |
+| Preview website | `npm run prebuild --workspace=platform && npm run dev --workspace=platform` |
 | Add song from DOCX | `python scripts/convert_docx_to_json.py song.docx` |
 | Scrape song from URL | `python scripts/scrape_notation_url.py URL` |
 | Normalize notation | `python scripts/normalize_indian_notation.py` |
