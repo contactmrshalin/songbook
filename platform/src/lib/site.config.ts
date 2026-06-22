@@ -30,3 +30,19 @@ export const SITE_CONFIG = {
 export function getSiteUrl(path: string = ""): string {
   return `${SITE_CONFIG.url}${path.startsWith("/") ? path : `/${path}`}`;
 }
+
+/**
+ * Prefix internal app paths with Next.js basePath when configured.
+ * This keeps static assets working on GitHub Pages subpaths (for example /songbook).
+ */
+export function withBasePath(path: string): string {
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+  if (!basePath) {
+    return normalizedPath;
+  }
+
+  const normalizedBasePath = basePath.startsWith("/") ? basePath : `/${basePath}`;
+  return `${normalizedBasePath}${normalizedPath}`;
+}

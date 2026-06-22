@@ -5,6 +5,7 @@ import { Shuffle, Music2, Film } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import type { Song } from "@/types/song";
+import { withBasePath } from "@/lib/site.config";
 
 interface RandomSongSuggestionsProps {
   /** All songs excluding the current one */
@@ -94,8 +95,9 @@ export default function RandomSongSuggestions({
                   {/* Thumbnail */}
                   <div className="flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden bg-[var(--bg-secondary)]">
                     {song.thumbnail ? (
+
                       <Image
-                        src={`/song-images/${song.thumbnail.replace("images/", "")}`}
+                        src={withBasePath(`/song-images/${song.thumbnail.replace("images/", "")}`)}
                         alt={song.title}
                         width={56}
                         height={56}

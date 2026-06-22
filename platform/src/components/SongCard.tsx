@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Music2, Film, Mic2 } from "lucide-react";
 import type { Song } from "@/types/song";
+import { withBasePath } from "@/lib/site.config";
 
 interface SongCardProps {
   song: Song;
@@ -27,7 +28,11 @@ function extractMeta(info: string[]): Record<string, string> {
 }
 
 export default function SongCard({ song }: SongCardProps) {
+
   const meta = extractMeta(song.info);
+  const thumbnailSrc = song.thumbnail
+    ? withBasePath(`/song-images/${song.thumbnail.replace("images/", "")}`)
+    : "";
   const totalLines = song.sections.reduce(
     (sum, s) => sum + s.lines.length,
     0
@@ -41,7 +46,7 @@ export default function SongCard({ song }: SongCardProps) {
           <div className="song-card-thumb relative">
             {song.thumbnail ? (
               <Image
-                src={`/song-images/${song.thumbnail.replace("images/", "")}`}
+                src={thumbnailSrc}
                 alt={song.title}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

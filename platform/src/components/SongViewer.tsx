@@ -25,6 +25,7 @@ import NotationGuideModal from "./NotationGuideModal";
 import SheetMusicViewer from "./SheetMusicViewer";
 import { AD_SLOTS, ADS_CONFIG } from "@/lib/ads.config";
 import type { Song } from "@/types/song";
+import { withBasePath } from "@/lib/site.config";
 
 interface SongViewerProps {
   song: Song;
@@ -53,7 +54,14 @@ function extractMeta(info: string[]): Record<string, string> {
 }
 
 export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
+
   const { currentNoteIndex, notationMode } = useAppStore();
+  const thumbnailSrc = song.thumbnail
+    ? withBasePath(`/song-images/${song.thumbnail.replace("images/", "")}`)
+    : "";
+  const backgroundSrc = song.background
+    ? withBasePath(`/song-images/${song.background.replace("images/", "")}`)
+    : "";
   const [expandedSections, setExpandedSections] = useState<Set<number>>(
     () => new Set(song.sections.map((_, i) => i))
   );
@@ -115,7 +123,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
         <div
           className="fixed inset-0 z-0 pointer-events-none"
           style={{
-            backgroundImage: `url('/song-images/${song.background.replace("images/", "")}')`,
+            backgroundImage: `url('${backgroundSrc}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -172,7 +180,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
             <div className="flex-shrink-0 w-20 h-20 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg">
               {song.thumbnail ? (
                 <Image
-                  src={`/song-images/${song.thumbnail.replace("images/", "")}`}
+                  src={thumbnailSrc}
                   alt={song.title}
                   width={112}
                   height={112}
