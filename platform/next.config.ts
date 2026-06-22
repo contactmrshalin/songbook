@@ -28,7 +28,8 @@ const nextConfig: NextConfig = {
               "img-src 'self' data: https:",
               "font-src 'self' data:",
               "connect-src 'self' https:",
-              "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
+
+              "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://*.adtrafficquality.google https://www.google.com",
               "frame-ancestors 'self'",
             ].join("; "),
           },
