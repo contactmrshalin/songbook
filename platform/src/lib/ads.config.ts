@@ -58,6 +58,7 @@ export const AD_SLOTS = {
 // ⚙️  Ad display settings
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 export const ADS_CONFIG = {
+
   /** Set to false to disable all ads (useful during development) */
   enabled: true,
 
@@ -65,7 +66,10 @@ export const ADS_CONFIG = {
   midContentInterval: 3,
 
   /** Insert a feed ad after every N song cards on homepage */
-  homeFeedInterval: 8,
+  homeFeedInterval: 24,
+
+  /** Hard cap for number of in-feed ads rendered on homepage */
+  maxHomeFeedAds: 2,
 } as const;
 
 /**

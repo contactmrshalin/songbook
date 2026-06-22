@@ -183,8 +183,9 @@ export default function SongGallery({ songs }: SongGalleryProps) {
                     <SongCard key={song.id} song={song} />
                   ))}
                 </div>
+
                 {/* In-feed ad between chunks (not after the last one) */}
-                {chunkIdx < chunks.length - 1 && (
+                {chunkIdx < chunks.length - 1 && chunkIdx < ADS_CONFIG.maxHomeFeedAds && (
                   <div className="my-4">
                     <AdBanner
                       slot={AD_SLOTS.HOME_FEED}
