@@ -76,13 +76,15 @@ jobs:
           path: artifact
 
       - name: Extract and deploy
+        shell: bash
         run: |
           # Extract the artifact (it's a tar file)
           cd artifact
           tar -xf artifact.tar
           cd ..
           
-          # Copy contents to root
+          # Copy contents and deploy
+          shopt -s extglob
           rm -rf !(\.git|\.github|artifact)
           cp -r artifact/* .
           rm -rf artifact
