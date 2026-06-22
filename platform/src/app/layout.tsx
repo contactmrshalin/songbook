@@ -72,7 +72,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head />
+      <head>
+        <meta name="google-site-verification" content="v2LGt0oEFLfhuLBQjA_SFJugB1Mqd3uooygWMRwxK80" />
+      </head>
       <body className="min-h-full flex flex-col antialiased paper-bg">
         <AdSenseLoader />
         {children}
