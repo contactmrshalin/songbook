@@ -3,7 +3,7 @@ import { downloadImage } from "@/lib/scraper";
 import { songToMusicXml } from "@/lib/toMusicXml";
 import type { Song } from "@/types/song";
 
-export const dynamic = "force-dynamic";
+// Not force-dynamic for static export compatibility
 
 /**
  * POST /api/admin/publish

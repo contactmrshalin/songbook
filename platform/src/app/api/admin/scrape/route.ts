@@ -1,6 +1,6 @@
 import { extractSongFromUrl } from "@/lib/scraper";
 
-export const dynamic = "force-dynamic";
+// Not force-dynamic for static export compatibility
 
 /**
  * POST /api/admin/scrape

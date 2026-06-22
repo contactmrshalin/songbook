@@ -1,6 +1,6 @@
 import { deleteFiles, getFileContent, commitFiles, listRepoDir } from "@/lib/github";
 
-export const dynamic = "force-dynamic";
+// Not force-dynamic for static export compatibility
 
 /**
  * POST /api/admin/delete

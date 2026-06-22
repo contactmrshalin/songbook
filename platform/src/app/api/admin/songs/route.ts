@@ -2,7 +2,7 @@ import { getFileContent } from "@/lib/github";
 import { getAllSongs } from "@/lib/songs";
 import type { Song } from "@/types/song";
 
-export const dynamic = "force-dynamic";
+// Not force-dynamic for static export compatibility
 
 /**
  * POST /api/admin/songs

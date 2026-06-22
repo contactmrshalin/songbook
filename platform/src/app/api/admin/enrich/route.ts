@@ -1,6 +1,6 @@
 import type { Song } from "@/types/song";
 
-export const dynamic = "force-dynamic";
+// Not force-dynamic for static export compatibility
 // Extend Vercel function timeout to 60 s (Pro plan) so retries have room to breathe.
 // On Hobby (10 s cap) the function may still time out during heavy Gemini demand —
 // the user will just see "Try again" which is the right behaviour.
