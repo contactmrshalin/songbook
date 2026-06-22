@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import AdSenseLoader from "@/components/AdSenseLoader";
+import { SITE_CONFIG } from "@/lib/site.config";
 import "./globals.css";
 
 const inter = Inter({
@@ -32,13 +33,13 @@ export const metadata: Metadata = {
     "hindi songs sargam",
     "piano notes bollywood",
   ],
-  metadataBase: new URL("https://songnotations.vercel.app"),
+  metadataBase: new URL(SITE_CONFIG.url),
   alternates: { canonical: "/" },
   openGraph: {
     title: "Songbook | Sargam Notations for Bollywood & Indian Songs",
     description:
       "Free sargam notations for 190+ Bollywood and Indian classical songs. Play along on flute, harmonium, piano, or any instrument.",
-    url: "https://songnotations.vercel.app",
+    url: SITE_CONFIG.url,
     siteName: "Songbook",
     type: "website",
     locale: "en_IN",

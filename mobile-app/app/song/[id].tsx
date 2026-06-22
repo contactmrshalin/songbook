@@ -11,8 +11,9 @@ import {
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { WebView } from "react-native-webview";
+import { SITE_CONFIG, getSiteUrl } from "../../platform/src/lib/site.config";
 
-const SONGBOOK_BASE_URL = "https://songnotations.vercel.app";
+const SONGBOOK_BASE_URL = SITE_CONFIG.url;
 
 export default function SongDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();

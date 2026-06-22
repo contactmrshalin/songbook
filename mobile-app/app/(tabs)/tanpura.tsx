@@ -9,7 +9,9 @@ import {
 } from "react-native";
 import { WebView } from "react-native-webview";
 
-const TANPURA_URL = "https://songnotations.vercel.app/tools/tanpura?mobile=true";
+import { SITE_CONFIG } from "../../platform/src/lib/site.config";
+
+const TANPURA_URL = `${SITE_CONFIG.url}/tools/tanpura?mobile=true`;
 
 const HIDE_NAV_JS = `
 (function () {

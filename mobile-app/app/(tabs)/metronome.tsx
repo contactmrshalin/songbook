@@ -8,8 +8,9 @@ import {
   View,
 } from "react-native";
 import { WebView } from "react-native-webview";
+import { SITE_CONFIG } from "../../platform/src/lib/site.config";
 
-const METRONOME_URL = "https://songnotations.vercel.app/tools/metronome?mobile=true";
+const METRONOME_URL = `${SITE_CONFIG.url}/tools/metronome?mobile=true`;
 
 const HIDE_NAV_JS = `
 (function () {

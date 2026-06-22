@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getAllSongs, getSongById } from "@/lib/songs";
 import SongViewer from "@/components/SongViewer";
 import JsonLd from "@/components/JsonLd";
+import { getSiteUrl } from "@/lib/site.config";
 import type { Song } from "@/types/song";
 
 // Generate static params for all songs at build time
@@ -26,7 +27,7 @@ export async function generateMetadata({
   }
 
   const description = `Sargam notation for ${song.title}. ${song.info.join(". ")}`;
-  const url = `https://songnotations.vercel.app/songs/${id}`;
+  const url = getSiteUrl(`/songs/${id}`);
 
   return {
     title: `${song.title} – Sargam Notation | Songbook`,

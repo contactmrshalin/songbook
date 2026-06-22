@@ -1,3 +1,4 @@
+import { SITE_CONFIG, getSiteUrl } from "@/lib/site.config";
 import type { Song } from "@/types/song";
 
 interface JsonLdProps {
@@ -10,13 +11,12 @@ export default function JsonLd({ song, type }: JsonLdProps) {
     const schema = {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Songbook",
-      url: "https://songnotations.vercel.app",
-      description:
-        "Free sargam notations for 190+ Bollywood and Indian classical songs.",
+      name: SITE_CONFIG.name,
+      url: SITE_CONFIG.url,
+      description: SITE_CONFIG.description,
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://songnotations.vercel.app/?q={search_term_string}",
+        target: getSiteUrl("/?q={search_term_string}"),
         "query-input": "required name=search_term_string",
       },
     };
@@ -35,13 +35,13 @@ export default function JsonLd({ song, type }: JsonLdProps) {
       "@type": "MusicComposition",
       name: song.title,
       description: `Sargam notation for ${song.title}. ${song.info.join(". ")}`,
-      url: `https://songnotations.vercel.app/songs/${song.id}`,
+      url: getSiteUrl(`/songs/${song.id}`),
       inLanguage: "hi",
       genre: "Bollywood",
       isPartOf: {
         "@type": "MusicPlaylist",
         name: "Songbook Notation Collection",
-        url: "https://songnotations.vercel.app",
+        url: SITE_CONFIG.url,
       },
     };
 

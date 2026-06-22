@@ -2,8 +2,9 @@ import React, { useState, useRef } from "react";
 import { StyleSheet, View, ActivityIndicator, Text, TouchableOpacity } from "react-native";
 import { WebView } from "react-native-webview";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { SITE_CONFIG } from "../../platform/src/lib/site.config";
 
-const SONGBOOK_URL = "https://songnotations.vercel.app";
+const SONGBOOK_URL = SITE_CONFIG.url;
 
 const INJECTED_JS = `
   (function() {

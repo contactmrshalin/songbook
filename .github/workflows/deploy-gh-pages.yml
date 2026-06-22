@@ -1,9 +1,19 @@
-name: Deploy website to gh-pages
+name: Deploy website to gh-pages (Hugo - Legacy)
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - "site/**"
+      - "data/songs/**"
+      - "data/book.json"
+      - ".github/workflows/deploy-gh-pages.yml"
   workflow_dispatch:
+
+# NOTE: The Next.js platform (platform/) is now the primary GitHub Pages deployment.
+# This Hugo workflow is kept for backwards compatibility and can be removed once
+# the Next.js deployment is fully verified. Both workflows will create artifacts
+# in the gh-pages branch; ensure only one is active to avoid conflicts.
 
 permissions:
   contents: write
