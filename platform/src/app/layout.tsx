@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import AdSenseLoader from "@/components/AdSenseLoader";
+import { ADSENSE_PUBLISHER_ID } from "@/lib/ads.config";
 import { SITE_CONFIG } from "@/lib/site.config";
 import "./globals.css";
 
@@ -17,6 +18,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+
   title: {
     default: "Songbook | Sargam Notations for Bollywood & Indian Songs",
     template: "%s | Songbook",
@@ -53,6 +55,9 @@ export const metadata: Metadata = {
   verification: {
     google: "v2LGt0oEFLfhuLBQjA_SFJugB1Mqd3uooygWMRwxK80",
   },
+  other: {
+    "google-adsense-account": ADSENSE_PUBLISHER_ID,
+  },
   robots: {
     index: true,
     follow: true,
@@ -72,9 +77,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head>
-        <meta name="google-site-verification" content="v2LGt0oEFLfhuLBQjA_SFJugB1Mqd3uooygWMRwxK80" />
-      </head>
+      <head />
       <body className="min-h-full flex flex-col antialiased paper-bg">
         <AdSenseLoader />
         {children}
