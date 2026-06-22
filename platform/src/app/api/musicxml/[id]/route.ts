@@ -24,6 +24,10 @@ import path from "path";
 import { getSongById } from "@/lib/songs";
 import { songToMusicXml } from "@/lib/toMusicXml";
 
+// For static export compatibility, allow this route to be prerendered
+export const dynamic = "force-static";
+export const revalidate = 3600; // 1 hour
+
 // Check for a pre-generated file (backward compat with existing static files)
 function findMusicXml(safeId: string): string | null {
   const dir = path.join(process.cwd(), "public", "musicxml");
