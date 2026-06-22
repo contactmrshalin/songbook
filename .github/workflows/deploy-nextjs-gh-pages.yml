@@ -78,21 +78,21 @@ jobs:
       - name: Extract and deploy
         shell: bash
         run: |
-          # Extract the artifact (it's a tar file)
-          cd artifact
-          tar -xf artifact.tar
-          cd ..
-          
-          # Copy contents and deploy
+
+          # Extract the artifact tar into a temp folder so the tar itself is never committed.
+          mkdir -p extracted
+          tar -xf artifact/artifact.tar -C extracted
+
+          # Copy only extracted site contents into gh-pages worktree.
           shopt -s extglob
-          rm -rf !(\.git|\.github|artifact)
-          cp -r artifact/* .
-          rm -rf artifact
-          
+          rm -rf !(\.git|\.github|extracted)
+          cp -a extracted/. .
+          rm -rf extracted artifact
+
           # Configure git
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          
+
           # Commit and push
           git add -A
           git commit -m "Deploy: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" --allow-empty
