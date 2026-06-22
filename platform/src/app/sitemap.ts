@@ -2,6 +2,10 @@ import type { MetadataRoute } from "next";
 import { getAllSongs } from "@/lib/songs";
 import { SITE_CONFIG } from "@/lib/site.config";
 
+// Force static generation for static export
+export const dynamic = "force-static";
+export const revalidate = false;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const songs = getAllSongs();
 
