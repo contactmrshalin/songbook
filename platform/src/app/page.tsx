@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import SongGallery from "@/components/SongGallery";
 import AdBanner from "@/components/AdBanner";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 import { AD_SLOTS } from "@/lib/ads.config";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 
   return (
     <>
+      <JsonLd type="website" />
       <Header />
       <main className="flex-1 w-full">
 

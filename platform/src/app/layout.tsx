@@ -16,17 +16,49 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Songbook | Musical Notation Platform",
+  title: {
+    default: "Songbook | Sargam Notations for Bollywood & Indian Songs",
+    template: "%s | Songbook",
+  },
   description:
-    "Interactive musical notation platform for Indian classical and Bollywood songs. Browse, play, and edit sargam notations for flute, harmonium, and more.",
+    "Free sargam notations for 190+ Bollywood and Indian classical songs. Play along on flute, harmonium, piano, or any instrument with our interactive notation viewer.",
   keywords: [
-    "sargam",
-    "notation",
-    "flute",
-    "bollywood",
-    "indian music",
-    "harmonium",
+    "sargam notation",
+    "bollywood songs notation",
+    "flute notes",
+    "harmonium notes",
+    "indian music notation",
+    "sa re ga ma",
+    "hindi songs sargam",
+    "piano notes bollywood",
   ],
+  metadataBase: new URL("https://songnotations.vercel.app"),
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Songbook | Sargam Notations for Bollywood & Indian Songs",
+    description:
+      "Free sargam notations for 190+ Bollywood and Indian classical songs. Play along on flute, harmonium, piano, or any instrument.",
+    url: "https://songnotations.vercel.app",
+    siteName: "Songbook",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Songbook | Sargam Notations for Bollywood & Indian Songs",
+    description:
+      "Free sargam notations for 190+ Bollywood and Indian classical songs.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+    },
+  },
 };
 
 export default function RootLayout({

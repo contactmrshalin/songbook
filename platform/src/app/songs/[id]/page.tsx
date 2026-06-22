@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAllSongs, getSongById } from "@/lib/songs";
 import SongViewer from "@/components/SongViewer";
+import JsonLd from "@/components/JsonLd";
 import type { Song } from "@/types/song";
 
 // Generate static params for all songs at build time
@@ -24,9 +25,25 @@ export async function generateMetadata({
     return { title: "Song Not Found | Songbook" };
   }
 
+  const description = `Sargam notation for ${song.title}. ${song.info.join(". ")}`;
+  const url = `https://songnotations.vercel.app/songs/${id}`;
+
   return {
-    title: `${song.title} | Songbook`,
-    description: `Sargam notation for ${song.title}. ${song.info.join(". ")}`,
+    title: `${song.title} – Sargam Notation | Songbook`,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${song.title} – Sargam Notation`,
+      description,
+      url,
+      siteName: "Songbook",
+      type: "article",
+    },
+    twitter: {
+      card: "summary",
+      title: `${song.title} – Sargam Notation`,
+      description,
+    },
   };
 }
 
@@ -44,5 +61,10 @@ export default async function SongPage({
 
   const otherSongs: Song[] = getAllSongs().filter((s) => s.id !== id);
 
-  return <SongViewer song={song} otherSongs={otherSongs} />;
+  return (
+    <>
+      <JsonLd type="song" song={song} />
+      <SongViewer song={song} otherSongs={otherSongs} />
+    </>
+  );
 }
