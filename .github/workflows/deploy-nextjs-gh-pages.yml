@@ -58,12 +58,41 @@ jobs:
           path: "platform/out"
 
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      contents: write
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: artifact
+
+      - name: Extract and deploy
+        run: |
+          # Extract the artifact (it's a tar file)
+          cd artifact
+          tar -xf artifact.tar
+          cd ..
+          
+          # Copy contents to root
+          rm -rf !(\.git|\.github|artifact)
+          cp -r artifact/* .
+          rm -rf artifact
+          
+          # Configure git
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          # Commit and push
+          git add -A
+          git commit -m "Deploy: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" --allow-empty
+          git push origin gh-pages
+
