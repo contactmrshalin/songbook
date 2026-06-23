@@ -5,6 +5,9 @@ import { ADSENSE_PUBLISHER_ID } from "@/lib/ads.config";
 import { SITE_CONFIG } from "@/lib/site.config";
 import "./globals.css";
 
+const ENABLE_PROPELLER_GLOBAL_TAG =
+  process.env.NEXT_PUBLIC_ENABLE_PROPELLER_GLOBAL_TAG === "true";
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -80,7 +83,14 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full`}>
       <head>
 
-        <script src="https://quge5.com/88/tag.min.js" data-zone="252932" async data-cfasync="false"></script>
+        {ENABLE_PROPELLER_GLOBAL_TAG ? (
+          <script
+            src="https://quge5.com/88/tag.min.js"
+            data-zone="252932"
+            async
+            data-cfasync="false"
+          ></script>
+        ) : null}
       </head>
       <body className="min-h-full flex flex-col antialiased paper-bg">
         <AdSenseLoader />
