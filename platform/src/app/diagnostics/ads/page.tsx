@@ -1,7 +1,14 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { ADSENSE_PUBLISHER_ID } from "@/lib/ads.config";
+import {
+  AD_PROVIDER_HOOK_SCRIPT_PATH,
+  AD_RUNTIME_MODE,
+  ADSENSE_PUBLISHER_ID,
+  AD_FALLBACK_PROVIDER,
+  getPlannedFallbackProviderLabel,
+  shouldUseFallbackHookRuntime,
+} from "@/lib/ads.config";
 
 type SlotInfo = {
   slot: string;
@@ -13,6 +20,12 @@ type SlotInfo = {
 type Diagnostics = {
   checkedAt: string;
   host: string;
+  runtimeMode: string;
+  hookRuntimeEnabled: boolean;
+  hookScriptPath: string;
+  hookScriptPresent: boolean;
+  fallbackProvider: string;
+  fallbackProviderLabel: string;
   adsTxtStatus: string;
   adsTxtContainsPublisher: boolean;
   adsTxtPreview: string;
@@ -52,7 +65,6 @@ export default function AdsDiagnosticsPage() {
     setError("");
 
     try {
-
       const [adsTxtRes, homeRes] = await Promise.all([
         fetch("/ads.txt", { cache: "no-store" }),
         fetch("/", { cache: "no-store" }),
@@ -63,6 +75,7 @@ export default function AdsDiagnosticsPage() {
 
       const pageMeta = document.querySelector('meta[name="google-adsense-account"]');
       const adScript = document.querySelector('script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      const hookScript = document.querySelector('script[data-ad-provider-hook="true"]');
 
       const slotNodes = Array.from(document.querySelectorAll("ins.adsbygoogle"));
       const slots: SlotInfo[] = slotNodes.map((node) => ({
@@ -82,6 +95,12 @@ export default function AdsDiagnosticsPage() {
       const data: Diagnostics = {
         checkedAt: new Date().toISOString(),
         host: window.location.host,
+        runtimeMode: AD_RUNTIME_MODE,
+        hookRuntimeEnabled: shouldUseFallbackHookRuntime(),
+        hookScriptPath: AD_PROVIDER_HOOK_SCRIPT_PATH,
+        hookScriptPresent: Boolean(hookScript),
+        fallbackProvider: AD_FALLBACK_PROVIDER,
+        fallbackProviderLabel: getPlannedFallbackProviderLabel(),
         adsTxtStatus: String(adsTxtRes.status),
         adsTxtContainsPublisher: adsTxtText.includes("pub-6628890818019640"),
         adsTxtPreview: adsTxtText || "(empty)",
@@ -138,6 +157,12 @@ export default function AdsDiagnosticsPage() {
         <p className="text-xs text-[var(--text-muted)] mt-2">
           Publisher: {ADSENSE_PUBLISHER_ID}
         </p>
+        <p className="text-xs text-[var(--text-muted)] mt-1">
+          Planned fallback (scaffold only): {report?.fallbackProviderLabel || getPlannedFallbackProviderLabel()} ({report?.fallbackProvider || AD_FALLBACK_PROVIDER})
+        </p>
+        <p className="text-xs text-[var(--text-muted)] mt-1">
+          Runtime mode: {report?.runtimeMode || AD_RUNTIME_MODE} | hook enabled: {String(report?.hookRuntimeEnabled ?? shouldUseFallbackHookRuntime())}
+        </p>
       </div>
 
       <button
@@ -161,6 +186,10 @@ export default function AdsDiagnosticsPage() {
             <h2 className="font-medium mb-2">Crawl-style checks</h2>
             <ul className="space-y-1">
               <li>Host: {report.host}</li>
+              <li>Fallback scaffold: {report.fallbackProviderLabel}</li>
+              <li>Runtime mode: {report.runtimeMode}</li>
+              <li>Hook script path: {report.hookScriptPath}</li>
+              <li>Hook script present: {String(report.hookScriptPresent)}</li>
               <li>ads.txt status: {report.adsTxtStatus}</li>
               <li>ads.txt contains publisher: {String(report.adsTxtContainsPublisher)}</li>
               <li>Home HTML has adsense meta: {String(report.homeHasPublisherMeta)}</li>

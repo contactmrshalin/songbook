@@ -1,0 +1,29 @@
+// Copy this file to ad-provider-hook.js when you're ready to activate a fallback provider.
+// Runtime trigger:
+//   NEXT_PUBLIC_AD_RUNTIME_MODE=hook
+//   NEXT_PUBLIC_AD_FALLBACK_PROVIDER=propellerads|ezoic
+//
+// The app will call window.songbookAdProviderActivate({ provider }).
+// This file should inject the vendor script and fill [data-ad-provider-slot] containers.
+
+window.songbookAdProviderActivate = function songbookAdProviderActivate(ctx) {
+  var provider = (ctx && ctx.provider) || "none";
+  var slots = document.querySelectorAll("[data-ad-provider-slot]");
+
+  if (!slots.length) return;
+
+  // Placeholder implementation to prove wiring works without breaking UI.
+  // Replace this block with official vendor script + slot rendering logic.
+  slots.forEach(function (el) {
+    if (!el || el.hasAttribute("data-ad-provider-initialized")) return;
+    el.setAttribute("data-ad-provider-initialized", "true");
+    el.style.minHeight = "90px";
+    el.style.display = "block";
+    el.style.border = "1px dashed rgba(120,120,120,0.35)";
+    el.style.borderRadius = "8px";
+    el.style.padding = "8px";
+    el.style.fontSize = "12px";
+    el.style.color = "#666";
+    el.textContent = "Fallback ad hook active (" + provider + ")";
+  });
+};

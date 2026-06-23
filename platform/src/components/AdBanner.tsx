@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { ADSENSE_PUBLISHER_ID, isAdSenseConfigured } from "@/lib/ads.config";
+import {
+  AD_FALLBACK_PROVIDER,
+  ADSENSE_PUBLISHER_ID,
+  isAdSenseConfigured,
+  shouldUseFallbackHookRuntime,
+} from "@/lib/ads.config";
 
 interface AdBannerProps {
   /** AdSense ad slot ID */
@@ -32,10 +37,14 @@ export default function AdBanner({
   layout = "",
   layoutKey,
 }: AdBannerProps) {
+
   const adRef = useRef<HTMLModElement>(null);
   const isLoaded = useRef(false);
+  const useHookRuntime = shouldUseFallbackHookRuntime();
 
   useEffect(() => {
+
+    if (useHookRuntime) return;
     if (!isAdSenseConfigured()) return;
     if (isLoaded.current) return;
 
@@ -68,7 +77,17 @@ export default function AdBanner({
       }, 200);
       return () => clearInterval(interval);
     }
-  }, []);
+  }, [useHookRuntime]);
+
+  if (useHookRuntime) {
+    return (
+      <div
+        className={`ad-container ${className}`}
+        data-ad-provider-slot={slot}
+        data-ad-provider={AD_FALLBACK_PROVIDER}
+      />
+    );
+  }
 
   // Don't render anything if AdSense isn't configured
   if (!isAdSenseConfigured()) {

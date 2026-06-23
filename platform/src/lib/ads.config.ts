@@ -4,8 +4,16 @@
  * ⚠️  SETUP REQUIRED:
  * 1. Sign up at https://www.google.com/adsense/
  * 2. Get your Publisher ID (starts with "ca-pub-")
- * 3. Replace the PUBLISHER_ID below with your actual ID
+ * 3. Set NEXT_PUBLIC_ADSENSE_PUBLISHER_ID in your environment
  * 4. Create ad units in AdSense dashboard and update the slot IDs below
+ *
+ * Optional fallback scaffold (no runtime switch yet):
+ * - NEXT_PUBLIC_AD_FALLBACK_PROVIDER=none|propellerads|ezoic
+ *   Records your planned fallback target for quick future activation.
+ * - NEXT_PUBLIC_AD_RUNTIME_MODE=adsense|hook (default: adsense)
+ *   When set to hook, app loads a tiny external hook script and skips AdSense runtime calls.
+ * - NEXT_PUBLIC_AD_PROVIDER_HOOK_SCRIPT_PATH=/ad-provider-hook.js
+ *   Script added later to activate PropellerAds/Ezoic without component rewrites.
  *
  * Ad placements on song pages:
  * ┌──────────────────────────────┐
@@ -28,10 +36,47 @@
  * └──────────────────────────────┘
  */
 
-// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-// 🔑  Replace this with your actual Google AdSense Publisher ID
-// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-export const ADSENSE_PUBLISHER_ID: string = "ca-pub-6628890818019640";
+export const ADSENSE_PUBLISHER_ID: string =
+  process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID || "ca-pub-6628890818019640";
+
+export type FallbackAdProvider = "none" | "propellerads" | "ezoic";
+
+const fallbackProviderFromEnv =
+  (process.env.NEXT_PUBLIC_AD_FALLBACK_PROVIDER || "none").toLowerCase();
+
+export const AD_FALLBACK_PROVIDER: FallbackAdProvider =
+  fallbackProviderFromEnv === "propellerads" ||
+  fallbackProviderFromEnv === "ezoic"
+    ? fallbackProviderFromEnv
+    : "none";
+
+export type AdRuntimeMode = "adsense" | "hook";
+
+const runtimeModeFromEnv =
+  (process.env.NEXT_PUBLIC_AD_RUNTIME_MODE || "adsense").toLowerCase();
+
+export const AD_RUNTIME_MODE: AdRuntimeMode =
+  runtimeModeFromEnv === "hook" ? "hook" : "adsense";
+
+export const AD_PROVIDER_HOOK_SCRIPT_PATH: string =
+  process.env.NEXT_PUBLIC_AD_PROVIDER_HOOK_SCRIPT_PATH || "/ad-provider-hook.js";
+
+/**
+ * Scaffold-only signal for planned ad fallback platform.
+ * Runtime ad rendering remains AdSense-only for now.
+ */
+export function getPlannedFallbackProviderLabel(): string {
+  if (AD_FALLBACK_PROVIDER === "propellerads") return "PropellerAds";
+  if (AD_FALLBACK_PROVIDER === "ezoic") return "Ezoic";
+  return "None";
+}
+
+/**
+ * Runtime hook switch (safe default: false).
+ */
+export function shouldUseFallbackHookRuntime(): boolean {
+  return ADS_CONFIG.enabled && AD_RUNTIME_MODE === "hook" && AD_FALLBACK_PROVIDER !== "none";
+}
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // 🎯  Ad Slot IDs — create these in your AdSense dashboard

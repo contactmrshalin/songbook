@@ -56,6 +56,7 @@ export const metadata: Metadata = {
     google: "v2LGt0oEFLfhuLBQjA_SFJugB1Mqd3uooygWMRwxK80",
   },
   other: {
+
     "google-adsense-account": ADSENSE_PUBLISHER_ID,
   },
   robots: {
@@ -77,7 +78,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head />
+      <head>
+
+        <script src="https://quge5.com/88/tag.min.js" data-zone="252932" async data-cfasync="false"></script>
+      </head>
       <body className="min-h-full flex flex-col antialiased paper-bg">
         <AdSenseLoader />
         {children}
