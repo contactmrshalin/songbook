@@ -4,7 +4,9 @@ import { useEffect, useRef } from "react";
 import {
   AD_FALLBACK_PROVIDER,
   ADSENSE_PUBLISHER_ID,
+  getPropellerVisibleZoneForAdSlot,
   isAdSenseConfigured,
+  PROPELLER_INVOKE_DOMAIN,
   shouldUseFallbackHookRuntime,
 } from "@/lib/ads.config";
 
@@ -80,11 +82,15 @@ export default function AdBanner({
   }, [useHookRuntime]);
 
   if (useHookRuntime) {
+
+    const propellerZone = getPropellerVisibleZoneForAdSlot(slot);
     return (
       <div
         className={`ad-container ${className}`}
         data-ad-provider-slot={slot}
         data-ad-provider={AD_FALLBACK_PROVIDER}
+        data-ad-provider-zone={propellerZone}
+        data-ad-provider-invoke-domain={PROPELLER_INVOKE_DOMAIN}
       />
     );
   }

@@ -61,6 +61,9 @@ export const AD_RUNTIME_MODE: AdRuntimeMode =
 export const AD_PROVIDER_HOOK_SCRIPT_PATH: string =
   process.env.NEXT_PUBLIC_AD_PROVIDER_HOOK_SCRIPT_PATH || "/ad-provider-hook.js";
 
+export const PROPELLER_INVOKE_DOMAIN: string =
+  process.env.NEXT_PUBLIC_PROPELLER_INVOKE_DOMAIN || "";
+
 /**
  * Scaffold-only signal for planned ad fallback platform.
  * Runtime ad rendering remains AdSense-only for now.
@@ -98,6 +101,24 @@ export const AD_SLOTS = {
   /** Homepage — top banner below header */
   HOME_TOP: "5237987606",
 } as const;
+
+type AdSlotName = keyof typeof AD_SLOTS;
+
+export const PROPELLER_VISIBLE_ZONE_BY_SLOT: Record<AdSlotName, string> = {
+  SONG_TOP: process.env.NEXT_PUBLIC_PROPELLER_ZONE_SONG_TOP || "",
+  SONG_MID: process.env.NEXT_PUBLIC_PROPELLER_ZONE_SONG_MID || "",
+  SONG_BOTTOM: process.env.NEXT_PUBLIC_PROPELLER_ZONE_SONG_BOTTOM || "",
+  HOME_FEED: process.env.NEXT_PUBLIC_PROPELLER_ZONE_HOME_FEED || "",
+  HOME_TOP: process.env.NEXT_PUBLIC_PROPELLER_ZONE_HOME_TOP || "",
+};
+
+export function getPropellerVisibleZoneForAdSlot(adSlot: string): string {
+  const matched = (Object.keys(AD_SLOTS) as AdSlotName[]).find(
+    (key) => AD_SLOTS[key] === adSlot,
+  );
+  if (!matched) return "";
+  return PROPELLER_VISIBLE_ZONE_BY_SLOT[matched] || "";
+}
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // ⚙️  Ad display settings
