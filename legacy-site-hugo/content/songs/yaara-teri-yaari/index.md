@@ -1,0 +1,14 @@
+---
+title: "Yaara Teri Yaari"
+type: "song"
+description: "Source: https://www.notationsworld.com/yaara-teri-yaari-sargam-and-flute-notes.html"
+resources:
+  - src: "yaara-teri-yaari.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "yaara-teri-yaari", "title": "Yaara Teri Yaari", "info": ["Source: https://www.notationsworld.com/yaara-teri-yaari-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Teree jaisaa yaar kahaaaa", "indian": "Re Pa Dha Sa' Ni Dha Ni Pa Pa Ni Dha: Ni Dha", "western": "D G A C' B A B G G B A: B A"}, {"lyrics": "Kahaa aaisaa yaaraanaa", "indian": "Re Ma Pa Ni Dha Pa Dha Pa Ga Pa: Ni Dha Pa Dha Pa Ma Ga Re", "western": "D F# G B A G A G E G: B A G A G F# E D"}, {"lyrics": "Yaaad karegii duniyaaa", "indian": "Re Pa Dha Sa' Ni Dha Ni Pa Pa Ni Dha: Ni Dha", "western": "D G A C' B A B G G B A: B A"}, {"lyrics": "Teraa meraaa afsaanaa", "indian": "Re Ma Pa Ni Dha Pa Dha Pa Ga Pa Ni Dha Pa Dha Pa Ma Ga Re", "western": "D F# G B A G A G E G B A G A G F# E D"}, {"lyrics": "Teree jaisaa yaar kahaaaa", "indian": "Re Pa Dha Sa' Ni Dha Ni Pa Pa Ni Dha: Ni Dha", "western": "D G A C' B A B G G B A: B A"}, {"lyrics": "Kahaa aaisaa yaaraanaa", "indian": "Re Ma Pa Ni Dha Pa Dha Pa Ga Pa: Ni Dha Pa Dha Pa Ma Ga Re", "western": "D F# G B A G A G E G: B A G A G F# E D"}, {"lyrics": "Merii zindgii sawaarii", "indian": "Ni Ni Sa' Sa' Re' Re' Re(k)'.Re'.", "western": "B B C' C' D' D' Db'.D'."}, {"lyrics": "Mujhh koo galee lagaa keee", "indian": "Ni Ni Sa' Sa' Re' Re' Re(k)'.Re'.", "western": "B B C' C' D' D' Db'.D'."}, {"lyrics": "Bethaaa diyaa falakk paii", "indian": "Dha Ni Sa' Sa'. Sa' Ni Sa'.", "western": "A B C' C'. C' B C'."}, {"lyrics": "Mujhee khwaaab saa uthaa kee", "indian": "Sa' Ga' Re' Sa' Re' Sa' Ni Ni", "western": "C' E' D' C' D' C' B B"}, {"lyrics": "Merii zindgii sawaarii", "indian": "Ni Ni Sa' Sa' Re' Re' Re(k)'.Re'.", "western": "B B C' C' D' D' Db'.D'."}, {"lyrics": "Mujhh koo galee lagaa keee", "indian": "Ni Ni Sa' Sa' Re' Re' Re(k)'.Re'.", "western": "B B C' C' D' D' Db'.D'."}, {"lyrics": "Bethaaa diyaa falakk paii", "indian": "Dha Ni Sa' Sa'. Sa' Ni Sa'.", "western": "A B C' C'. C' B C'."}, {"lyrics": "Mujhee khwaaab saa uthaa kee", "indian": "Sa' Ga' Re' Sa' Re' Sa' Ni Ni", "western": "C' E' D' C' D' C' B B"}]}], "background": "yaara-teri-yaari.png"}
+---
+
+ 

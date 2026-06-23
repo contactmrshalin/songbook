@@ -1,0 +1,14 @@
+---
+title: "Sandese Aate Hain"
+type: "song"
+description: "Movie: Border (1997)"
+resources:
+  - src: "sandese_aate_hain.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "sandese-aate-hain", "title": "Sandese Aate Hain", "info": ["Movie: Border (1997)", "Singers: Sonu Nigam, Roop Kumar Rathod", "Music Director: Anu Malik", "Lyricist: Javed Akhtar"], "sections": [{"name": "INTRO", "lines": [{"lyrics": "Ooo hoo hoo hoo", "indian": "Ga ma Dha Pa", "western": "E F A G"}, {"lyrics": "Hoo hoo hoo oohoo ho", "indian": "ma Ga Re Ga Pa ma", "western": "F E D E G F"}, {"lyrics": "Hoo hoo hoo ", "indian": "Sa Re Ga", "western": "C D E"}, {"lyrics": "Oohh Oohh Oohh", "indian": "Re Sa Ni Dha Re Sa", "western": "D C B A D C"}]}, {"name": "MUKHDA", "lines": [{"lyrics": "Sandese aate hain, humein tadpaate hain", "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga", "western": "G G G E D E | G G G E D E"}, {"lyrics": "Jo chitthi aati hai, wo poochhe jaati hai", "indian": "Pa Pa Pa Ga Re Ga | Pa Pa Pa Ga Re Ga", "western": "G G G E D E | G G G E D E"}, {"lyrics": "Ke ghar kab aaoge, ke ghar kab aaoge", "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha", "western": "C C B A G A B A G A"}, {"lyrics": "Likho kab aaoge", "indian": "Sa Sa Ni Dha Pa Dha Ni Dha Pa Dha", "western": "C C B A G A B A G A"}, {"lyrics": "Ke tum bin ye ghar soona, soona hai", "indian": "Re Re Re Re Ga Ga Re Re Ga Ga Re Pa ma Ga", "western": "D D D D E E D D E E D G F E"}]}], "background": "sandese_aate_hain.png"}
+---
+
+ 

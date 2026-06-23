@@ -1,0 +1,14 @@
+---
+title: "Hori Khele Raghuveera Awadh Mein"
+type: "song"
+description: "Movie: Baghban"
+resources:
+  - src: "holi.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hori_khele_raghuveera_awadh_mein", "title": "Hori Khele Raghuveera Awadh Mein", "info": ["Movie: Baghban"], "sections": [{"name": "Chorus", "lines": [{"lyrics": "Hori khele raghuveera", "indian": "Sa' Sa' Sa' Sa' Sa' Re' Ni Ni Ni Dha Pa Pa Dha", "western": "C' C' C' C' C' D' B B B A G G A"}, {"lyrics": "Hori khele raghuveera", "indian": "Ni Ni Sa' Ni Dha Dha Pa Pa Pa", "western": "B B C' B A A G G G"}, {"lyrics": "Hori khele raghuveera awadh mein", "indian": "Sa' Sa' Sa' Sa' Sa' Re' Ni Ni Ni Dha Pa Pa Dha", "western": "C' C' C' C' C' D' B B B A G G A"}, {"lyrics": "Hori khele raghuveera", "indian": "Ni Ni Sa' Ni Dha Dha Pa Pa Pa", "western": "B B C' B A A G G G"}]}, {"name": "Verse 1", "lines": [{"lyrics": "Hil mil aave log lugai", "indian": "Ma(T) Ma(T) Ma(T) Pa Pa Dha Dha Ni(k) Dha Pa Pa", "western": "F# F# F# G G A A Bb A G G"}, {"lyrics": "Hil mil aave log lugai", "indian": "Ma(T) Ma(T) Ma(T) Pa Pa Dha Dha Ni(k) Dha Pa Pa", "western": "F# F# F# G G A A Bb A G G"}, {"lyrics": "Hil mil aave log lugai", "indian": "Ma(T) Ma(T) Ma(T) Pa Pa Dha Dha Ni(k) Dha Pa Pa", "western": "F# F# F# G G A A Bb A G G"}, {"lyrics": "Bhai mehalan mein bhira awadh mein", "indian": "Sa' Sa' Sa' Sa' Sa' Re' Ni Ni Ni Dha Pa Pa Dha", "western": "C' C' C' C' C' D' B B B A G G A"}]}, {"name": "Verse 2", "lines": [{"lyrics": "Tanik sharam nahi aaye", "indian": "Pa Pa Pa Pa Dha Dha Pa Pa ma", "western": "G G G G A A G G F"}, {"lyrics": "Dekhe nahi apni umariya", "indian": "ma Ni(k) Ni(k) Ni(k) Dha Dha Pa Pa Pa Pa", "western": "F Bb Bb Bb A A G G G G"}, {"lyrics": "Tanik sharam nahi aaye", "indian": "Pa Pa Pa Pa Dha Dha Pa Pa ma", "western": "G G G G A A G G F"}, {"lyrics": "Dekhe nahi apni umariya", "indian": "ma Ni(k) Ni(k) Ni(k) Dha Dha Pa Pa Pa Pa", "western": "F Bb Bb Bb A A G G G G"}]}, {"name": "Verse 3", "lines": [{"lyrics": "Saath baras mein ishq ladaye", "indian": "Ni Ni Ni Sa' Sa' Sa' Dha Dha Ni(k) Dha Pa Pa", "western": "B B B C' C' C' A A Bb A G G"}, {"lyrics": "Saath baras mein ishq ladaye", "indian": "Ni Ni Ni Sa' Sa' Sa' Dha Dha Ni(k) Dha Pa Pa", "western": "B B B C' C' C' A A Bb A G G"}, {"lyrics": "Mukhde pe rang lagaye", "indian": "Pa Pa Pa Pa Dha Dha Pa Pa ma", "western": "G G G G A A G G F"}, {"lyrics": "Bada rangeela sawariya", "indian": "ma Ni(k) Ni(k) Ni(k) Dha Dha Pa Pa Pa Pa", "western": "F Bb Bb Bb A A G G G G"}, {"lyrics": "Mukhde pe rang lagaye", "indian": "Pa Pa Pa Pa Dha Dha Pa Pa ma", "western": "G G G G A A G G F"}, {"lyrics": "Bada rangeela sawariya", "indian": "ma Ni(k) Ni(k) Ni(k) Dha Dha Pa Pa Pa Pa", "western": "F Bb Bb Bb A A G G G G"}]}], "background": "holi.png"}
+---
+
+ 

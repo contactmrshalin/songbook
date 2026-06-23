@@ -1,0 +1,14 @@
+---
+title: "Hero Flute Tune"
+type: "song"
+description: "Type: Instrumental (flute)"
+resources:
+  - src: "hero-theme-flute.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hero-flute-tune", "title": "Hero Flute Tune", "info": ["Type: Instrumental (flute)", "Note: comma-prefix like ,S indicates lower octave"], "sections": [{"name": "EASY (Simple)", "lines": [{"lyrics": "Phrase 1 (x2)", "indian": "Re Dha: Ni Dha Ni Dha ma Re~ ma: Ga Re (x2)", "western": "D A: B A B A F D~ F: E D (x2)"}, {"lyrics": "Phrase 2", "indian": "ma ma Ga~ Dha(k) Dha Ni: | Ni Re Sa, Ni Dha Dha(k) ma Ga", "western": "F F E~ Ab A B: | B D C, B A Ab F E"}]}, {"name": "EXPERT (Next Level)", "lines": [{"lyrics": "Phrase 1 (x2)", "indian": "Re Dha: Ni Re Sa Re Sa Dha, Sa Re Sa Dha: ma Re: ma: Ga Re (x2)", "western": "D A: B D C D C A, C D C A: F D: F: E D (x2)"}, {"lyrics": "Phrase 2", "indian": "Re ma ma Ga, Dha Dha Ni: Ni Re Re Sa:", "western": "D F F E, A A B: B D D C:"}, {"lyrics": "Ending", "indian": "Ni Dha Dha~ ma Ga", "western": "B A A~ F E"}]}], "background": "hero-theme-flute_bg.png"}
+---
+
+ 

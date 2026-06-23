@@ -1,0 +1,14 @@
+---
+title: "Chand Chupa Badal Mein"
+type: "song"
+description: "Film: Hum Dil De Chuke Sanam (1999)"
+resources:
+  - src: "chand-chupa-badal-mein.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "chand-chupa-badal-mein", "title": "Chand Chupa Badal Mein", "info": ["Film: Hum Dil De Chuke Sanam (1999)", "Scale: D bass/middle (flute)", "Notation: . = low octave, ' = high octave, .. = hold, D(k) = komal Dha"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Chand chupaa badal meinn", "indian": "'Sa   Ga  'Sa  'Sa  Ga  ma  Ga  Ga  Re", "western": "'C   E  'C  'C  E  F  E  E  D"}, {"lyrics": "Sharmaa kee merii jaana", "indian": "Ni   Re  Ni  'Sa  Ni  Dha  Dha", "western": "B   D  B  'C  B  A  A"}]}, {"name": "MUSIC", "lines": [{"lyrics": "Chand chupaa badal meinn", "indian": "'Sa   Ga  'Sa  'Sa  Ga  ma  Ga  Ga  Re", "western": "'C   E  'C  'C  E  F  E  E  D"}, {"lyrics": "Sharmaa kee merii jaana", "indian": "Ni   Re  Ni  Re Re Ga  Re  Sa  Re  Ga  Dha(k)  Dha  Ni", "western": "B   D  B  D D E  D  C  D  E  Ab  A  B"}]}, {"name": "ANTARA", "lines": [{"lyrics": "Seene see lag jaa tuu", "indian": "'Sa   Ga  'Sa  Ga  ma  Ga  Ga  Re", "western": "'C   E  'C  E  F  E  E  D"}, {"lyrics": "Bal khaake merii jaana", "indian": "Ni   Re  Ni  'Sa  Ni  Dha  Dha", "western": "B   D  B  'C  B  A  A"}, {"lyrics": "Gumsum saa haii gupchup saa haii", "indian": "Dha(k) Dha Ni  Dha Ni  Dha(k) Dha Ni  Dha Ni", "western": "Ab A B  A B  Ab A B  A B"}, {"lyrics": "Madhosh haii khaamosh haii", "indian": "Dha(k) Dha 'Sa  'Sa. 'Sa  Dha(k) Dha 'Sa  'Sa. 'Sa", "western": "Ab A 'C  'c 'C  Ab A 'C  'c 'C"}, {"lyrics": "Yee samaa haan yee samaa kuch aur haii", "indian": "'Re  'Re. 'Re  'Ga  Ni  Ni Ni  Ni Dha Ni Dha Dha(k)", "western": "'D  'd 'D  'E  B  B B  B A B A Ab"}, {"lyrics": "Haan haan haan chaand chupaa baadal meinn", "indian": "Ga  Dha  Ni  'Sa   Ga  'Sa  'Sa  Ga  ma  Ga  Ga  Re", "western": "E  A  B  'C   E  'C  'C  E  F  E  E  D"}, {"lyrics": "Sharmaa ke meri jaanaa", "indian": "Ni   Re  Ni  Re Re Ga  Re  Sa  Re  Ga  Dha(k)  Dha  Ni", "western": "B   D  B  D D E  D  C  D  E  Ab  A  B"}, {"lyrics": "Seene see lag jaa tuu", "indian": "'Sa   Ga  'Sa  Ga  ma  Ga  Ga  Re", "western": "'C   E  'C  E  F  E  E  D"}, {"lyrics": "Bal khaake merii jaana", "indian": "Ni   Re  Ni  'Sa  Ni  Dha  Dha", "western": "B   D  B  'C  B  A  A"}]}], "background": "chand-chupa-badal-mein.png"}
+---
+
+ 

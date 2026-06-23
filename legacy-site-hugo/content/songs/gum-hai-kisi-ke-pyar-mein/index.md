@@ -1,0 +1,14 @@
+---
+title: "Gum Hai Kisi Ke Pyar Mein"
+type: "song"
+description: "Movie: Raampur Ka Lakshman (1972)"
+resources:
+  - src: "gum_hai_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "gum-hai-kisi-ke-pyar-mein", "title": "Gum Hai Kisi Ke Pyar Mein", "info": ["Movie: Raampur Ka Lakshman (1972)", "Singer: Lata Mangeshkar, Kishore Kumar", "Lyricist: Majrooh Sultanpuri", "Music Director: Rahul Dev Burman (R. D. Burman)"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Gum hai | kisike | pyaar | mein", "indian": "Ga(k) | Re | Ga(k)Re~Sa | Sa Sa | Sa~Pa,", "western": "Eb | D | EbD~C | C C | C~G,"}, {"lyrics": "Dil | subah | shaam", "indian": "Sa Re | Ga(k) Ga(k)~Ma(T) | Ga(k) | Ga(k) Re(k) Sa Re(k)", "western": "C D | Eb Eb~F# | Eb | Eb Db C Db"}, {"lyrics": "Par | tumhe | likh | nahin | paaun", "indian": "Ni | Ni Ma(T) | Ni | Sa | Ni Ni.~Pa.", "western": "B | B F# | B | C | B b~g"}, {"lyrics": "Main | usaka | naam", "indian": "Pa | Ni Ni | Sa…", "western": "G | B B | C…"}, {"lyrics": "Haaye | raam", "indian": "Ga(k)maGa(k) | Re…", "western": "EbFEb | D…"}, {"lyrics": "Haaye | raam", "indian": "Ga(k)maGa(k) | Re…", "western": "EbFEb | D…"}, {"lyrics": "Kah | daalun | apane", "indian": "PaPa | Pa Ni(k) Dha(k)' | Dha(k)'~PaMa(T)~Re", "western": "GG | G Bb Ab' | Ab'~GF#~D"}, {"lyrics": "sab | haal | dil | ke", "indian": "ReRe | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)", "western": "DD | F#F# | G | G…F#~Eb"}, {"lyrics": "Aur | kar | dun | jiwan", "indian": "Ma(T)Ma(T) | Ma(T) | Ma(T) | Ni Ni Ma(T)Ma(T)", "western": "F#F# | F# | F# | B B F#F#"}, {"lyrics": "usake | hawaale", "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re (ma){Ga(k)Re}…ma", "western": "Eb~C Eb | Eb Eb…D (F){EbD}…F"}, {"lyrics": "Phir | chhod | de | chaahe", "indian": "Ma(T) Ma(T) | Ma(T) Ma(T) | Ma(T) | Pa Ma(T) Pa Ma(T)", "western": "F# F# | F# F# | F# | G F# G F#"}, {"lyrics": "apana | bana | le", "indian": "Ga(k)~Sa Ga(k) | Ga(k) Ga(k)…Re {SaNiSa}", "western": "Eb~C Eb | Eb Eb…D {CBC}"}, {"lyrics": "Main | to | usaka | re", "indian": "Pa | Sa | Ga(k)Re… | (Sa)Re", "western": "G | C | EbD… | (C)D"}, {"lyrics": "hua | diwaana", "indian": "Ga(k)ReSa | Ga(k)ReSa Sa", "western": "EbDC | EbDC C"}, {"lyrics": "Ab | to | jaisa | bhi", "indian": "Pa | Sa | Ga(k)Re…Ga(k) | (Sa)Re", "western": "G | C | EbD…Eb | (C)D"}, {"lyrics": "mera | ho | anjaam | hooo", "indian": "Ga(k)ReSa | Ga(k) | Re Sa Sa | (Re)Ga(k)", "western": "EbDC | Eb | D C C | (D)Eb"}, {"lyrics": "(Repeat)", "indian": "GuMa hai kisike…", "western": "GuF# hai kisike…"}]}, {"name": "ANTARA", "lines": [{"lyrics": "Socha | hai | ek | din", "indian": "PaPa | Pa | Dha(k)Dha(k) | PaMa(T)", "western": "GG | G | AbAb | GF#"}, {"lyrics": "main | usase | mil | ke", "indian": "Re | Ma(T)Ma(T) | Pa | Pa…Ma(T)~Ga(k)", "western": "D | F#F# | G | G…F#~Eb"}]}], "background": "gum_hai_thumb.png"}
+---
+
+ 

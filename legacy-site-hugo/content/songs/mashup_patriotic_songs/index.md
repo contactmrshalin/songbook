@@ -1,0 +1,14 @@
+---
+title: "Patriotic Songs Mashup"
+type: "song"
+description: "Songs: Jahaan se Achchha, Aye Mere Watan k Logon, Jan Gan Man"
+resources:
+  - src: "mashup_patriotic_songs.jpg"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "mashup_patriotic_songs", "title": "Patriotic Songs Mashup", "info": ["Songs: Jahaan se Achchha, Aye Mere Watan k Logon, Jan Gan Man"], "sections": [{"name": "Song 1", "lines": [{"lyrics": "Sare jahan se achchha...", "indian": "ma  ma Ga Re Ga  Re(k) Re  Re", "western": "F  F E D E  Db D  D"}]}, {"lines": [{"lyrics": "Hindustaan Hamaara...", "indian": "Dha Ni Re  Ga Ma(T)  Pa Ma(T)  Ma(T)", "western": "A B D  E F#  G F#  F#"}]}, {"lines": [{"lyrics": "Hamaara...", "indian": "Ga Pa Ma(T) Ga Re", "western": "E G F# E D"}]}, {"lines": [{"lyrics": "Sare jahan se achchha...", "indian": "ma  ma Ga Re Ga  Re(k) Re  Re", "western": "F  F E D E  Db D  D"}]}, {"lines": [{"lyrics": "Hindustaan Hamaara...", "indian": "Dha Ni Re  Ga Ma(T)  Pa Ma(T)  Ma(T)", "western": "A B D  E F#  G F#  F#"}]}, {"lines": [{"lyrics": "Hamaara...", "indian": "Ga Pa Ma(T) Ga Re", "western": "E G F# E D"}]}, {"lines": [{"lyrics": "Hum bulbule hai uski...", "indian": "Ma(T) Pa Dha  Dha Dha  Ma(T) PaNiDha", "western": "F# G A  A A  F# GBA"}]}, {"lines": [{"lyrics": "Yeh gulsitaan hamaara...", "indian": "Ma(T) Pa Dha  Pa ma  Ga Re Re Re", "western": "F# G A  G F  E D D D"}]}, {"lines": [{"lyrics": "Hamaara...", "indian": "Re Re(k) Ni Dha", "western": "D Db B A"}]}, {"name": "Song 2", "lines": [{"lyrics": "Ae mere watan ke logon...", "indian": "Dha Dha Re  Re Re Re  Ga Re Sa Sa  Sa", "western": "A A D  D D D  E D C C  C"}]}, {"lines": [{"lyrics": "Zara aankh me bharlo paani...", "indian": "Dha Dha Re  Re Re Re  Ga Re Sa Sa  Sa", "western": "A A D  D D D  E D C C  C"}]}, {"lines": [{"lyrics": "Jo shahid huye hai unki...", "indian": "DhaSa SaGa GaGaGaMaGaRe ReGaGaMa(T)", "western": "AC CE EEEF#ED DEEF#"}]}, {"lines": [{"lyrics": "Zara yaad karo kurbaani", "indian": "Ma(T) Ga Ga Re ReReSa GaReRe Re", "western": "F# E E D DDC EDD D"}]}, {"name": "Song 3", "lines": [{"lyrics": "Jai hind, Jai Hind, Jai Hind", "indian": "Pa Ma(T) Pa  Ma(T) Ga Ma(T)  Ga Re Ga", "western": "G F# G  F# E F#  E D E"}]}, {"lines": [{"lyrics": "Jai Jai Jai Jai Hain", "indian": "Dha Dha Ni Ni Re(k) Re(k) Ni Re(k) Re", "western": "A A B B Db Db B Db D"}]}], "background": "mashup_patriotic_songs.jpg"}
+---
+
+ 

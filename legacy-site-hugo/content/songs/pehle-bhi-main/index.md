@@ -1,0 +1,14 @@
+---
+title: "Pehle Bhi Main"
+type: "song"
+description: "Movie: Animal"
+resources:
+  - src: "pehle-bhi-main.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "pehle-bhi-main", "title": "Pehle Bhi Main", "info": ["Movie: Animal", "Scale (flute): C# (bass/middle)", "Sargam / Harmonium / Flute notes"], "sections": [{"name": "Verse", "lines": [{"lyrics": "Pehle bhi main tumse mila hoon", "indian": "Ga Re Sa Re Ga  Ga Re Sa Re Ga .Re", "western": "E D C D E  E D C D E .D"}, {"lyrics": "Pehli dafa hi milke laga", "indian": "Ga Re Sa Re Ga .Re  Ga Re Sa Ni(k) Ni(k)", "western": "E D C D E .D  E D C Bb Bb"}, {"lyrics": "Toone chhua zakhmon ko mere", "indian": "Ga Re Sa Re Ga .Pa .Ga  Ga Re Sa Re Ga .Re", "western": "E D C D E .G .E  E D C D E .D"}, {"lyrics": "Marham marham dil pe laga", "indian": "Ga Re Sa Re Ga .Re  Ga Re Sa Ni(k) Ni(k)", "western": "E D C D E .D  E D C Bb Bb"}]}, {"name": "Chorus", "lines": [{"lyrics": "Paagal paagal hain thode", "indian": "Sa' Sa'  Sa' Sa' Dha Pa Dha", "western": "C' C'  C' C' A G A"}, {"lyrics": "Baadal baadal hain dono", "indian": "Sa' Sa'  Sa' Sa' Dha Pa Dha", "western": "C' C'  C' C' A G A"}, {"lyrics": "Khul ke barse bheege aa zara", "indian": "Sa' Sa'  Sa' Sa' Dha Dha Sa' Ga'.Re' .", "western": "C' C'  C' C' A A C' E'.D' ."}]}, {"name": "Verse (Higher)", "lines": [{"lyrics": "Pehle bhi main tumse mila hoon", "indian": "Ga' Re' Sa' Re' Ga'  Ga' Re' Sa' Re' Ga' .Re'", "western": "E' D' C' D' E'  E' D' C' D' E' .D'"}, {"lyrics": "Pehli dafa hi milke laga…", "indian": "Ga' Re' Sa' Re' Ga' .Re'  Ga' Re' Sa' Ni Ni Dha.Ni Sa' Re' .", "western": "E' D' C' D' E' .D'  E' D' C' B B aB C' D' ."}, {"lyrics": "Toone chhua zakhmon ko mere", "indian": "Ga' Re' Sa' Re' Ga' .Pa' .Ga'  Ga' Re' Sa' Re' Ga' .Re'", "western": "E' D' C' D' E' .G' .E'  E' D' C' D' E' .D'"}, {"lyrics": "Marham marham dil pe laga", "indian": "Ga' Re' Sa' Re' Ga' .Re'  Ga' Re' Sa' Ni Ni Dha.Ni", "western": "E' D' C' D' E' .D'  E' D' C' B B aB"}]}], "background": "pehle-bhi-main.png"}
+---
+
+ 

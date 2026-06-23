@@ -1,0 +1,14 @@
+---
+title: "O Re Piya"
+type: "song"
+description: "Movie: Aaja Nachle (2007)"
+resources:
+  - src: "o_re_piya_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "o-re-piya-aaja-nachle", "title": "O Re Piya", "info": ["Movie: Aaja Nachle (2007)", "Singer: Rahat Fateh Ali Khan", "Music Director: Salim–Sulaiman", "Lyricist: Jaideep Sahni", "Raag feel: Kafi / Bhairavi mix (folk–sufi style)", "Scale: Sa = C", "Ornaments: ~ meend, : hold, (k) kan"], "sections": [{"name": "ALAAP (Flute Intro)", "lines": [{"lyrics": "Aaah...", "indian": "Sa~Re Ga~Re Sa: Sa~Ni(k) Sa:", "western": "C~D E~D C: C~Bb C:"}, {"lyrics": "Hmmmmm", "indian": "Re Ga ma~Ga Re Sa:", "western": "D E F~E D C:"}]}, {"name": "MUKHDA", "lines": [{"lyrics": "O re piya", "indian": "Sa Re Ga~Re Sa:", "western": "C D E~D C:"}, {"lyrics": "Haaye…", "indian": "Ni(k)~Sa:", "western": "Bb~C:"}, {"lyrics": "O re piya", "indian": "Sa Re Ga~Re Sa:", "western": "C D E~D C:"}, {"lyrics": "Haaye…", "indian": "Ni(k)~Sa:", "western": "Bb~C:"}, {"lyrics": "Udne laga kyon mann baawra", "indian": "Ga ma Pa ma Ga Re Sa~Ni(k) Sa Re Ga:", "western": "E F G F E D C~Bb C D E:"}, {"lyrics": "Aaya kahaan se mann baawra", "indian": "Ga ma Pa ma Ga Re Sa~Ni(k) Sa:", "western": "E F G F E D C~Bb C:"}]}, {"name": "BRIDGE", "lines": [{"lyrics": "Dole re dole re mann mora", "indian": "Re Ga ma Pa ma Ga Re Sa:", "western": "D E F G F E D C:"}, {"lyrics": "Jhoome re jhoome re tan mora", "indian": "Re Ga ma Pa Dha~Pa ma Ga Re:", "western": "D E F G A~G F E D:"}]}, {"name": "ANTARA 1", "lines": [{"lyrics": "Naina thag lenge", "indian": "ma Pa Dha Pa ma Ga Re", "western": "F G A G F E D"}, {"lyrics": "Chain chura lenge", "indian": "ma Pa Dha Ni(k) Dha Pa ma:", "western": "F G A Bb A G F:"}, {"lyrics": "Bairi piya bole", "indian": "Ga ma Pa ma Ga Re Sa", "western": "E F G F E D C"}, {"lyrics": "O re piya haaye", "indian": "Sa Re Ga~Re Sa: Ni(k)~Sa:", "western": "C D E~D C: Bb~C:"}]}, {"name": "ANTARA 2 (Higher Pitch)", "lines": [{"lyrics": "Sajna aa bhi jaa", "indian": "Pa Dha Ni(k) Sa'~Ni(k) Dha Pa:", "western": "G A Bb C'~Bb A G:"}, {"lyrics": "Dil mein samaa jaa", "indian": "Pa Dha Ni(k) Sa' Re' Sa' Ni(k) Dha", "western": "G A Bb C' D' C' Bb A"}, {"lyrics": "O re piya", "indian": "Sa' Ni(k) Dha Pa ma Ga Re Sa:", "western": "C' Bb A G F E D C:"}]}, {"name": "ENDING ALAAP", "lines": [{"lyrics": "Aaah haaye…", "indian": "Sa Re Ga ma~Ga Re Sa Ni(k)~Sa:", "western": "C D E F~E D C Bb~C:"}]}], "background": "o_re_piya_thumb.png"}
+---
+
+ 

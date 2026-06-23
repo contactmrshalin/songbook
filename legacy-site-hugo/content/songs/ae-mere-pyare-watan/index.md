@@ -1,0 +1,14 @@
+---
+title: "Aye Mere Pyare Watan"
+type: "song"
+description: "Movie: Kabuliwala"
+resources:
+  - src: "ae-mere-pyare-watan.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "ae-mere-pyare-watan", "title": "Aye Mere Pyare Watan", "info": ["Movie: Kabuliwala", "Scale note: Flute scale is G# (Bass/Middle) as provided"], "sections": [{"name": "Piano & Keyboards", "lines": [{"lyrics": "Aye mere pyaare watan", "indian": "Sa…Sa Sa…Sa…Ga Re Ga ma…Ga Re", "western": "C…C C…C…E D E F…E D"}, {"lyrics": "Aye mere bichhade chaman", "indian": "Re…Ga Re…Sa Sa Ga Re Ga ma…Ga Re", "western": "D…E D…C C E D E F…E D"}, {"lyrics": "Tujh pe dil qurabaan", "indian": "Re Re ma Ga…Re Sa Sa", "western": "D D F E…D C C"}]}, {"name": "Guitars", "lines": [{"lyrics": "Aye mere pyaare watan", "indian": "Sa…Sa Sa…Sa…Ga Re Ga ma…Ga Re", "western": "C…C C…C…E D E F…E D"}, {"lyrics": "Aye mere bichhade chaman", "indian": "Re…Ga Re…Sa Sa Ga Re Ga ma…Ga Re", "western": "D…E D…C C E D E F…E D"}, {"lyrics": "Tujh pe dil qurabaan", "indian": "Re Re ma Ga…Re Sa Sa", "western": "D D F E…D C C"}]}, {"name": "Musical Instruments", "lines": [{"lyrics": "Tu hi meri aarazu", "indian": "ni(k)…ni(k) Sa…Sa  Pa…ma Pa ma Ga", "western": "b…b C…C  G…F G F E"}, {"lyrics": "Tu hi meri aabaru", "indian": "Ga…Ga Ga Re Ga  ma…Ga ma Ga Re", "western": "E…E E D E  F…E F E D"}, {"lyrics": "Tu hi meri jaan", "indian": "Re…Ga Re…Sa…Sa…", "western": "D…E D…C…C…"}, {"lyrics": "Aye mere pyaare watan", "indian": "Sa…Sa Sa…Sa…Ga Re Ga ma…Ga Re", "western": "C…C C…C…E D E F…E D"}, {"lyrics": "Tere daaman", "indian": "Pa…Pa Pa…Pa", "western": "G…G G…G"}, {"lyrics": "Se jo aaye", "indian": "Pa…Dha(k) Dha(k).Sa' Ni Sa' Ni Dha(k) Pa", "western": "G…Ab abC' B C' B Ab G"}, {"lyrics": "Un havaaon ko salaam", "indian": "Pa…Dha(k) Pa ma ma…Ga Re Ga ma…", "western": "G…Ab G F F…E D E F…"}]}, {"name": "Bollywood & South Asian Film", "lines": [{"lyrics": "Chum lun main", "indian": "Pa…Pa Pa…Pa", "western": "G…G G…G"}, {"lyrics": "Us zubaan ko", "indian": "Pa…Dha(k) Dha(k).Sa' Ni Sa' Ni Dha(k) Pa", "western": "G…Ab abC' B C' B Ab G"}, {"lyrics": "Jisape aae teraa naam", "indian": "Pa Pa Dha(k) Pa ma ma…Ga Re Ga ma…", "western": "G G Ab G F F…E D E F…"}, {"lyrics": "Sabase pyaari subah teri", "indian": "Sa Sa Sa Sa…Sa  Ga Ga Re ma…Ga Re", "western": "C C C C…C  E E D F…E D"}, {"lyrics": "Sabase rangin teri shaam", "indian": "Re Re Ga Re…Sa  Ga Re Ga ma…Ga Re", "western": "D D E D…C  E D E F…E D"}, {"lyrics": "Tujh pe dil qurabaan", "indian": "Re Re ma Ga…Re Sa Sa…", "western": "D D F E…D C C…"}, {"lyrics": "Tu hi meri aarazu", "indian": "ni(k)…ni(k) Sa…Sa  Pa…ma Pa ma Ga", "western": "b…b C…C  G…F G F E"}, {"lyrics": "Tu hi meri aabaru", "indian": "Ga…Ga Ga Re Ga  ma…Ga ma Ga Re", "western": "E…E E D E  F…E F E D"}, {"lyrics": "Tu hi meri jaan", "indian": "Re…Ga Re…Sa…Sa…", "western": "D…E D…C…C…"}]}], "background": "ae-mere-pyare-watan.png"}
+---
+
+ 

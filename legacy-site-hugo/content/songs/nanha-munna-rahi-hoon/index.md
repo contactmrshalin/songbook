@@ -1,0 +1,14 @@
+---
+title: "Nanha Munna Rahi Hoon"
+type: "song"
+description: "Film/Artist: Son Of India"
+resources:
+  - src: "nanha-munna-rahi-hoon.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "nanha-munna-rahi-hoon", "title": "Nanha Munna Rahi Hoon", "info": ["Film/Artist: Son Of India", "Scale: B BASS/MIDDLE", "Source: https://notationsworld.com/nanha-munna-rahi-hoon-son-of-india-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Nanna munna raahi hoon", "indian": "Sa Ga Ga Re Sa Re Re", "western": "C E E D C D D"}, {"lyrics": "Desh Ka sipaahi hoon", "indian": "Sa Ga Ga Re Sa Re Re", "western": "C E E D C D D"}, {"lyrics": "Boolo mere sang", "indian": "Ga Ga Re Re Sa", "western": "E E D D C"}, {"lyrics": "Jay hind jay hind jay hind", "indian": "Pa: Ga: Re: Sa Re Ga ma", "western": "G: E: D: C D E F"}, {"lyrics": "Jay hind jay hind", "indian": "Ga Re Ga dha ni Sa", "western": "E D E a b C"}, {"lyrics": "Nanna munna raahi hoon", "indian": "Sa Ga Ga Re Sa Re Re", "western": "C E E D C D D"}, {"lyrics": "Desh Ka sipaahi hoon", "indian": "Sa Ga Ga Re Sa Re Re", "western": "C E E D C D D"}, {"lyrics": "Boolo mere sang", "indian": "Ga Ga Re Re Sa", "western": "E E D D C"}, {"lyrics": "Jay hind jay hind jay hind", "indian": "Pa: Ga: Re: Sa Re Ga ma", "western": "G: E: D: C D E F"}, {"lyrics": "Jay hind jay hind", "indian": "Ga Re Ga dha ni Sa", "western": "E D E a b C"}, {"lyrics": "Raste pee chaluungaa naa dar dar kee", "indian": "Pa Sa' Sa' Ni Re' Sa' Sa' Sa' Ni Pa Dha Pa Sa'", "western": "G C' C' B D' C' C' C' B G A G C'"}, {"lyrics": "Chaahe mujhe jinaa padhe mar mar kee", "indian": "ma Dha Dha Dha ma Dha Dha Dha Pa Pa Ga ma Pa", "western": "F A A A F A A A G G E F G"}, {"lyrics": "Manzil see pahale naa lunga kahi dum", "indian": "Sa' Sa' Pa Dha Pa Pa Pa Dha Pa ma Ga", "western": "C' C' G A G G G A G F E"}, {"lyrics": "Aage hii aage badhaungaa kadam", "indian": "Dha Dha ma Pa Pa ma Ga Re ni Re Sa", "western": "A A F G G F E D b D C"}, {"lyrics": "Deinee baaenn Deinee baaenn tham", "indian": ""}, {"lyrics": "Nanna munna raahi hoon", "indian": "Sa Ga Ga Re Sa Re Re", "western": "C E E D C D D"}, {"lyrics": "Desh Ka sipaahi hoon", "indian": "Sa Ga Ga Re Sa Re Re", "western": "C E E D C D D"}, {"lyrics": "Boolo mere sang", "indian": "Ga Ga Re Re Sa", "western": "E E D D C"}, {"lyrics": "Jay hind jay hind jay hind", "indian": "Pa: Ga: Re: Sa Re Ga ma", "western": "G: E: D: C D E F"}, {"lyrics": "Jay hind jay hind", "indian": "Ga Re Ga dha ni Sa", "western": "E D E a b C"}]}], "background": "nanha-munna-rahi-hoon.png"}
+---
+
+ 

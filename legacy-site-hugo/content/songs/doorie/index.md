@@ -1,0 +1,14 @@
+---
+title: "Doorie"
+type: "song"
+description: "Film/Artist: Atif Aslam"
+resources:
+  - src: "doorie.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "doorie", "title": "Doorie", "info": ["Film/Artist: Atif Aslam", "Scale: A BASS/MIDDLE", "Source: https://www.notationsworld.com/doorie-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Doorie", "indian": "Ga ma Pa:", "western": "E F G:"}, {"lyrics": "Doorie", "indian": "Ga ma Pa:", "western": "E F G:"}, {"lyrics": "Doorie", "indian": "Ga Pa Dha Pa", "western": "E G A G"}, {"lyrics": "Sahi jae na", "indian": "Re Re Sa ni Sa: Re Ga Re", "western": "D D C b C: D E D"}, {"lyrics": "Sahi jai na", "indian": "Re Re Sa ni Sa: Re Ga Re", "western": "D D C b C: D E D"}, {"lyrics": "Sahi jai na", "indian": "Re Re Ga ma Ga: ma Ga Re Sa ni", "western": "D D E F E: F E D C b"}, {"lyrics": "Sahi jai na", "indian": "Re Re Sa ni Sa: pa dha ni dha pa", "western": "D D C b C: g a b a g"}, {"lyrics": "Music", "indian": ""}, {"lyrics": "Khamoshiya yeh", "indian": "Ga Ga Re Ga ma Ga Re Sa", "western": "E E D E F E D C"}, {"lyrics": "seh na saku", "indian": "Sa Sa Ga Re: Ga Re Ga Re Sa", "western": "C C E D: E D E D C"}, {"lyrics": "Awaz de kay mujhay tu", "indian": "Sa Sa dha Sa Sa Ga Re Ga Re Sa", "western": "C C a C C E D E D C"}, {"lyrics": "dai jaa sukoon", "indian": "Sa Sa Ga Re:", "western": "C C E D:"}, {"lyrics": "Yehh hai hai haii", "indian": "Pa ma Ga Re Ga", "western": "G F E D E"}, {"lyrics": "Khamoshiya yeh", "indian": "Ga Ga Re Ga ma Ga Re Sa", "western": "E E D E F E D C"}, {"lyrics": "seh na saku", "indian": "Sa Sa Ga Re: Ga Re Re Ga", "western": "C C E D: E D D E"}, {"lyrics": "Awaz de kay mujhay tu", "indian": "Sa Sa dha Sa Sa Ga Re Ga Re Sa", "western": "C C a C C E D E D C"}, {"lyrics": "dai jaa sukoon", "indian": "Sa Sa Ga Re: Pa: Dha Pa ma Ga", "western": "C C E D: G: A G F E"}, {"lyrics": "Doorie", "indian": "Ga ma Pa:", "western": "E F G:"}, {"lyrics": "Doorie", "indian": "Ga ma Pa:", "western": "E F G:"}, {"lyrics": "Sahi jae na", "indian": "Re Re Sa ni Sa: Re Ga Re", "western": "D D C b C: D E D"}, {"lyrics": "Sahi jai na", "indian": "Re Re Sa ni Sa: Re Ga Re", "western": "D D C b C: D E D"}, {"lyrics": "Sahi jai na", "indian": "Re Re Ga ma Ga: ma Ga Re Sa ni", "western": "D D E F E: F E D C b"}, {"lyrics": "Sahi jai na", "indian": "Re Re Sa ni Sa: pa dha ni dha pa", "western": "D D C b C: g a b a g"}]}], "background": "doorie.png"}
+---
+
+ 

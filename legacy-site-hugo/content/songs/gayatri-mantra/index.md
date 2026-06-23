@@ -1,0 +1,14 @@
+---
+title: "Gayatri Mantra"
+type: "song"
+description: "Devotional (Mantra)"
+resources:
+  - src: "gayatri-mantra.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "gayatri-mantra", "title": "Gayatri Mantra", "info": ["Devotional (Mantra)", "Scale (flute): D (bass/middle)", "Sargam / Harmonium / Flute notes", "Lyrics: Om Bhur Bhuvaḥ Svaḥ, Tat Savitur Vareṇyaṃ, Bhargo Devasya Dhīmahi, Dhiyo Yo Naḥ Prachodayāt. (AI)"], "sections": [{"name": "Mantra", "lines": [{"lyrics": "Om bhurr bhuvah swaaha", "indian": "Ga Ga Re.Ga Pa.Ga", "western": "E E dE gE"}, {"lyrics": "Tat saviturr varenyam", "indian": "Ga Ga.Ga.Ga Dha.Pa Ga.Re Re.Re", "western": "E eeE aG eD dD"}, {"lyrics": "Bhargo devasya dhimahi", "indian": "Ni(k) Re Re Re Re.Ni(k) Re.Re", "western": "Bb D D D dBb dD"}, {"lyrics": "Dhiyo yo nah pracho dayatehh", "indian": "Sa.Sa Re Ga Re.Ga.Re Sa.Sa", "western": "cC D E deD cC"}, {"lyrics": "Om bhurr bhuvah swaaha", "indian": "Ga Ga Re.Ga Pa.Ga", "western": "E E dE gE"}, {"lyrics": "Tat saviturr varenyam", "indian": "Ga Ga.Ga.Ga Dha.Pa Ga.Re Re.Re", "western": "E eeE aG eD dD"}, {"lyrics": "Bhargo devasya dhimahi", "indian": "Ni(k) Re Re Re Re.Ni(k) Re.Re", "western": "Bb D D D dBb dD"}, {"lyrics": "Dhiyo yo nah pracho dayatehh", "indian": "Sa.Sa Re Ga Re.Ga.Re Sa.Sa", "western": "cC D E deD cC"}, {"lyrics": "Om bhurr bhuvah swaaha", "indian": "Pa Pa Pa.Dha Dha.Dha", "western": "G G gA aA"}]}], "background": "gayatri-mantra.png", "description": "The Gayatri Mantra is one of the most revered and ancient Vedic mantras, found in the Rig Veda. It is a universal prayer for wisdom, enlightenment, and spiritual guidance, invoking the divine light of the sun (Savitur) to illuminate the intellect. Its simple yet profound structure makes it a powerful tool for meditation and spiritual contemplation, transcending religious boundaries.", "trivia": ["The Gayatri Mantra is found in Mandala 3, Sukta 62, Verse 10 of the Rig Veda, one of the oldest sacred texts of Hinduism, dating back to around 1500-1200 BCE.", "It is often referred to as 'Ved Mata' (Mother of the Vedas) and is considered the essence of all Vedic knowledge, embodying the supreme truth.", "The mantra translates to a prayer for the divine light to illuminate our intellect, guiding us towards wisdom and righteousness.", "Chanting the Gayatri Mantra is believed to purify the mind, bring peace, enhance concentration, and foster spiritual growth, making it a cornerstone of daily spiritual practice for many."]}
+---
+
+ 

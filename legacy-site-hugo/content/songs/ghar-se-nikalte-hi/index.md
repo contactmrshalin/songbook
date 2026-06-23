@@ -1,0 +1,14 @@
+---
+title: "Ghar Se Nikalte Hi"
+type: "song"
+description: "Movie: Papa Kehte Hai"
+resources:
+  - src: "ghar-se-nikalte-hi.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "ghar-se-nikalte-hi", "title": "Ghar Se Nikalte Hi", "info": ["Movie: Papa Kehte Hai", "Singer: Lata Mangeshkar", "Music Director: Shankar–Ehsaan–Loy", "Lyricist: Gulzar"], "sections": [{"name": "Intro", "lines": [{"lyrics": "Instrumental", "indian": "Sa Re Ga ma | Ga Re Sa", "western": "C D E F | E D C"}]}, {"name": "Mukhda", "lines": [{"lyrics": "Ghar se nikalte hi", "indian": "Sa Re Ga ma | Pa ma Ga Re", "western": "C D E F | G F E D"}, {"lyrics": "Kuch door chalte hi", "indian": "Sa Re Ga ma | Pa Dha Pa ma", "western": "C D E F | G A G F"}, {"lyrics": "Raste mein hai uska ghar", "indian": "ma Pa Dha Ni | Dha Pa ma Ga | Re Sa", "western": "F G A B | A G F E | D C"}]}, {"name": "Mukhda Repeat", "lines": [{"lyrics": "Kal subah dekha to", "indian": "Sa Re Ga ma | Pa ma Ga Re", "western": "C D E F | G F E D"}, {"lyrics": "Baal banaati woh", "indian": "Sa Re Ga ma | Pa Dha Pa ma", "western": "C D E F | G A G F"}, {"lyrics": "Khidki mein aayi nazar", "indian": "ma Pa Dha Ni | Sa' Ni Dha Pa | ma Ga Re Sa", "western": "F G A B | C' B A G | F E D C"}]}, {"name": "Antara", "lines": [{"lyrics": "Masoom chehra neechi nigahein", "indian": "Ga ma Pa Dha | Ni Dha Pa ma | Ga ma Pa Dha | Ni Sa'", "western": "E F G A | B A G F | E F G A | B C'"}, {"lyrics": "Bholi si ladki bholi adaayein", "indian": "Sa' Ni Dha Pa | ma Ga Re Sa | Re Ga ma Pa | Dha Pa ma", "western": "C' B A G | F E D C | D E F G | A G F"}, {"lyrics": "Na apsara hai na woh pari hai", "indian": "Ga ma Pa Dha | Ni Sa' Ni Dha | Pa ma Ga Re | Sa", "western": "E F G A | B C' B A | G F E D | C"}, {"lyrics": "Lekin yeh uski jaadugari hai", "indian": "Re Ga ma Pa | Dha Ni Sa' | Ni Dha Pa ma | Ga Re Sa", "western": "D E F G | A B C' | B A G F | E D C"}]}], "background": "ghar-se-nikalte-hi.png"}
+---
+
+ 

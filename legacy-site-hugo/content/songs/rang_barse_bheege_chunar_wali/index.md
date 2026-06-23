@@ -1,0 +1,14 @@
+---
+title: "Rang Barse Bheege Chunar Wali"
+type: "song"
+description: "Movie: Silsila"
+resources:
+  - src: "rang_barse_bheege_chunar_wali.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "rang_barse_bheege_chunar_wali", "title": "Rang Barse Bheege Chunar Wali", "info": ["Movie: Silsila", "Notation Style: Indian Classical (Sargam)"], "sections": [{"name": "Chorus", "lines": [{"lyrics": "Rang barse bheege chunar wali", "indian": "Sa Ni(k) Sa Re  Ga(k) Re Sa Sa Re Ga(k)", "western": "C Bb C D  Eb D C C D Eb"}, {"lyrics": "Rang barse", "indian": "Re Sa Re Sa Sa", "western": "D C D C C"}, {"lyrics": "O rang barse bheege chunar wali", "indian": "ma ma ma Ga ma  Ga(k) Re Sa Sa Re Ga(k)", "western": "F F F E F  Eb D C C D Eb"}, {"lyrics": "Rang barse", "indian": "Re Sa Re Sa Sa", "western": "D C D C C"}]}, {"name": "Verse 1", "lines": [{"lyrics": "Sone ki thali mein", "indian": "Sa Ga ma Pa Pa Pa", "western": "C E F G G G"}, {"lyrics": "Jona parosa", "indian": "Ga ma ma Ga(k) Sa", "western": "E F F Eb C"}, {"lyrics": "Haan sone ki thali mein", "indian": "Sa Sa Ga ma Pa Pa Pa", "western": "C C E F G G G"}, {"lyrics": "Arey khaye gori ka yaar bola tarse", "indian": "Sa Sa Ni(k) Sa Re  Ga(k) Re Sa Sa Re Ga(k)", "western": "C C Bb C D  Eb D C C D Eb"}, {"lyrics": "Rang barse", "indian": "Re Sa Re Sa Sa", "western": "D C D C C"}]}], "background": "rang_barse_bheege_chunar_wali.png"}
+---
+
+ 

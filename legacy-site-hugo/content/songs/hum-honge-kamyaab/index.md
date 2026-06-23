@@ -1,0 +1,14 @@
+---
+title: "Hum Honge Kamyaab"
+type: "song"
+description: "Type: Patriotic / motivational song"
+resources:
+  - src: "hum_honge_kamyab_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hum-honge-kamyaab", "title": "Hum Honge Kamyaab", "info": ["Type: Patriotic / motivational song", "Language: Hindi"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Hum | honge | kamyaab", "indian": "Ga ma | Pa Pa | Pa~Dha Dha Pa ma Ga", "western": "E F | G G | G~A A G F E"}, {"lyrics": "Hum | honge | kamyaab", "indian": "Ga ma | Pa Pa | Pa~Dha Dha Pa ma Ga", "western": "E F | G G | G~A A G F E"}, {"lyrics": "Hum | honge | kamyaab", "indian": "Ga ma | Pa Pa | Dha Ni Sa:", "western": "E F | G G | A B C:"}, {"lyrics": "Ek | din", "indian": "Sa'~Re' Sa' | Ni: Dha~Ni Dha Pa", "western": "C'~D' C' | B: A~B A G"}, {"lyrics": "Ho ho | man | me | hai | vishwas", "indian": "Dha Ni | Sa': | Sa': | Ni | Dha Pa", "western": "A B | C': | C': | B | A G"}, {"lyrics": "Pura | hai | vishwas", "indian": "Dha Dha | Pa: | ma Ga", "western": "A A | G: | F E"}, {"lyrics": "Hum | honge | kamyaab | ek din", "indian": "Ga ma | Pa Pa | Sa ma Ga | Re Re Sa:", "western": "E F | G G | C F E | D D C:"}]}], "background": "hum_honge_kamyab_bg.png"}
+---
+
+ 

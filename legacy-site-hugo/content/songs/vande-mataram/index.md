@@ -1,0 +1,14 @@
+---
+title: "Vande Mataram"
+type: "song"
+description: "Film/Artist: Easy Version"
+resources:
+  - src: "vande-mataram.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "vande-mataram", "title": "Vande Mataram", "info": ["Film/Artist: Easy Version", "Source: https://www.notationsworld.com/vande-mataram-easy-version-sargam-harmonium-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Vande mataram", "indian": "pa: dha: Sa Re Sa Re:", "western": "g: a: C D C D:"}, {"lyrics": "Vande mataram", "indian": "Sa: Re: ma Pa ma Pa:", "western": "C: D: F G F G:"}, {"lyrics": "Sujalam", "indian": "Pa Dha ma: Ga Re", "western": "G A F: E D"}, {"lyrics": "Suphalam", "indian": "Re Ga Sa: ni dha", "western": "D E C: b a"}, {"lyrics": "Malayaja shitalam", "indian": "dha Re Sa Sa ni dha: ni pa:", "western": "a D C C b a: b g:"}, {"lyrics": "Shasyashyamalam", "indian": "pa: dha Sa Re Sa Re:", "western": "g: a C D C D:"}, {"lyrics": "Mataram", "indian": "Re ma Ga Ga Re:", "western": "D F E E D:"}, {"lyrics": "Vande mataram", "indian": "Sa: Re: ma Pa ma Pa:", "western": "C: D: F G F G:"}, {"lyrics": "Shubhrajyotsna", "indian": "Sa: Re: ma: ma", "western": "C: D: F: F"}, {"lyrics": "Pulakitayaminim", "indian": "ma ma Pa ma Pa: ma Pa:", "western": "F F G F G: F G:"}, {"lyrics": "Phullakusumita", "indian": "ma: ma ma Pa ma Pa", "western": "F: F F G F G"}, {"lyrics": "Drumadala shobhinim", "indian": "Pa Dha Pa ma ma Ga ma Ga Re:", "western": "G A G F F E F E D:"}, {"lyrics": "Suhasinim", "indian": "dha dha Sa ni ni dha:", "western": "a a C b b a:"}, {"lyrics": "Sumadhura bhashinim", "indian": "dha ma Ga ma Ga Re: Ga Re:", "western": "a F E F E D: E D:"}, {"lyrics": "Sukhadam varadam", "indian": "Sa Re ma: ma ma ma:", "western": "C D F: F F F:"}, {"lyrics": "Mataram", "indian": "ma Pa ma Pa:", "western": "F G F G:"}, {"lyrics": "Vande mataram", "indian": "Sa: Re: ma Pa ma Pa:", "western": "C: D: F G F G:"}, {"lyrics": "Vande mataram", "indian": "Sa: Re: ma Pa ma Pa:", "western": "C: D: F G F G:"}]}], "background": "vande-mataram.png"}
+---
+
+ 

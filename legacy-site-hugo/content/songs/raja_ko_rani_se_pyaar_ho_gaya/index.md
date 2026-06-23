@@ -1,0 +1,14 @@
+---
+title: "Raja Ko Rani Se Pyaar Ho Gaya"
+type: "song"
+description: "Singer: Alka Yagnik, Udit Narayan"
+resources:
+  - src: "raja_ko_rani_se_pyaar_ho_gaya.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "raja_ko_rani_se_pyaar_ho_gaya", "title": "Raja Ko Rani Se Pyaar Ho Gaya", "info": ["Singer: Alka Yagnik, Udit Narayan", "Composer: Jatin-Lalit", "Lyricist: Majrooh Sultanpuri", "Notation Source: Sargam-style pattern (tutorial aligned)"], "sections": [{"name": "Chorus – Raja ko rani se pyaar ho gaya", "lines": [{"lyrics": "Raja ko rani se pyaar ho gaya", "indian": "Ga Dha Sa' Ni Dha Sa' Ni ma _ _ Pa ma Ga", "western": "E A C' B A C' B F _ _ G F E"}, {"lyrics": "Pehli nazar mein pehla pyaar ho gaya", "indian": "Ga Dha Sa' Ni Dha Ga' Sa' Re_ _ Re'Ga' Re", "western": "E A C' B A E' C' D_ _ D'E' D"}]}, {"name": "Verse", "lines": [{"lyrics": "Dil jigar dono ghaayal huye", "indian": "Re' Re' Ga' ma' __ Ga' Re' Sa' Sa' Re' Ga'", "western": "D' D' E' F' __ E' D' C' C' D' E'"}, {"lyrics": "Teer-e-nazar dil le paar ho gaya", "indian": "Pa Ga Sa Ni, Ni Sa ReGa Sa SaRe Ni NiSa Dha Ni SaNi Dha", "western": "G E C B, B C DE C CD B BC A B CB A"}, {"lyrics": "O, Rani ko dekho", "indian": "Ga' _ _ Ga' Re' Sa' Re' Ga'", "western": "E' _ _ E' D' C' D' E'"}, {"lyrics": "Nazrein mili toh", "indian": "NiSa' _ Re'Sa' NiDha Dha", "western": "BC' _ D'C' BA A"}, {"lyrics": "aankhen, churane lagi", "indian": "Re' Re' Re' ma' , GaRe ReGa Ga Re Sa ReGa", "western": "D' D' D' F' , ED DE E D C DE"}, {"lyrics": "Ho karti bhi kya woh", "indian": "Ga' _ _ Ga' Re' Sa' Re' Ga'", "western": "E' _ _ E' D' C' D' E'"}, {"lyrics": "Sar ko jhuka ke kangna ghumane lagi", "indian": "NiSa' _ Re'Sa' NiDha Dha", "western": "BC' _ D'C' BA A"}, {"lyrics": "aankhen, churane lagi", "indian": "Re' Re' Re' ma' , GaRe ReGa Ga", "western": "D' D' D' F' , ED DE E"}, {"lyrics": "O, Raja ne aisa jaadu chalaya", "indian": "ma' ma Re Sa Ni Dha Pa Ni Sa Re ma ma Ga", "western": "F' F D C B A G B C D F F E"}, {"lyrics": "Raja ne aisa jaadu chalaya", "indian": "ma Re Sa Ni Dha Pa Ni Sa Re ma ma Ga", "western": "F D C B A G B C D F F E"}, {"lyrics": "Na karte karte", "indian": "Ga Ni Ni Ni", "western": "E B B B"}, {"lyrics": "ikraar ho gaya", "indian": "Ni Sa ReGa Sa SaRe Ni NiSa Dha Ni SaNi Dha", "western": "B C DE C CD B BC A B CB A"}]}], "background": "raja_ko_rani_se_pyaar_ho_gaya.png"}
+---
+
+ 

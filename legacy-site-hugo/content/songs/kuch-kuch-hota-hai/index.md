@@ -1,0 +1,14 @@
+---
+title: "Kuch Kuch Hota Hai"
+type: "song"
+description: "Film/Artist: Title Song"
+resources:
+  - src: "kuch-kuch-hota-hai.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "kuch-kuch-hota-hai", "title": "Kuch Kuch Hota Hai", "info": ["Film/Artist: Title Song", "Scale: G BASS/MIDDLE", "Source: https://www.notationsworld.com/kuch-kuch-hota-hai-title-song-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Tum paas aayee", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Yoon muskraaye", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Tum paas aayee", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Yoon muskraaye", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Tumnee naa jaane kyaa", "indian": "Re Ga Re Sa ni Re pa", "western": "D E D C b D g"}, {"lyrics": "Sapnee dikhaye", "indian": "Re Sa Ga Sa Sa Sa", "western": "D C E C C C"}, {"lyrics": "Tum paas aayee", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Yoon muskraaye", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Tumnee naa jaane kyaa", "indian": "Re Ga Re Sa ni Re pa", "western": "D E D C b D g"}, {"lyrics": "Sapnee dikhaye", "indian": "Re Sa Ga Sa Sa Sa", "western": "D C E C C C"}, {"lyrics": "Ab toh meera dil", "indian": "Sa Sa Re Ga Dha Pa", "western": "C C D E A G"}, {"lyrics": "Jaage naa sotaa haa", "indian": "Sa Re Ga Dha Dha Pa", "western": "C D E A A G"}, {"lyrics": "Kyaa karoon haaye", "indian": "Re Ga Re Sa ni dha ni dha pa", "western": "D E D C b a b a g"}, {"lyrics": "Kuch kuch hootaa hai", "indian": "Re Sa Re Sa Sa Sa Sa Re Ga", "western": "D C D C C C C D E"}, {"lyrics": "Kyaa karoon haaye", "indian": "Re Ga Re Sa ni dha ni dha pa", "western": "D E D C b a b a g"}, {"lyrics": "Kuch kuch hootaa hai", "indian": "Re Sa ma Ga Sa Sa Sa", "western": "D C F E C C C"}, {"lyrics": "Tum paas aayee", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Yoon muskraaye", "indian": "Ga ma Ga Re Sa Ga", "western": "E F E D C E"}, {"lyrics": "Tumnee naa jaane kyaa", "indian": "Re Ga Re Sa ni Re pa", "western": "D E D C b D g"}, {"lyrics": "Sapnee dikhaye", "indian": "Re Sa Ga Sa Sa Sa", "western": "D C E C C C"}, {"lyrics": "Ab toh meera dil", "indian": "Sa Sa Re Ga Dha Pa", "western": "C C D E A G"}, {"lyrics": "Jaage naa sotaa haa", "indian": "Sa Re Ga Dha Dha Pa", "western": "C D E A A G"}, {"lyrics": "Kyaa karoon haaye", "indian": "Re Ga Re Sa ni dha ni dha pa", "western": "D E D C b a b a g"}, {"lyrics": "Kuch kuch hootaa hai", "indian": "Re Sa Re Sa Sa Sa Sa Re Ga", "western": "D C D C C C C D E"}, {"lyrics": "Kyaa karoon haaye", "indian": "Re Ga Re Sa ni dha ni dha pa", "western": "D E D C b a b a g"}, {"lyrics": "Kuch kuch hootaa hai", "indian": "Re Sa Re Sa Sa Sa Sa", "western": "D C D C C C C"}]}], "background": "kuch-kuch-hota-hai.png"}
+---
+
+ 

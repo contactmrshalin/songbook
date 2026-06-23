@@ -1,0 +1,14 @@
+---
+title: "Ajeeb Daastaan Hai Yeh"
+type: "song"
+description: "Movie: Dil Apna Aur Preet Parai (1960)"
+resources:
+  - src: "ajeeb_dastan.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "ajeeb-daastaan-hai-yeh_ankita_nath", "title": "Ajeeb Daastaan Hai Yeh", "info": ["Movie: Dil Apna Aur Preet Parai (1960)", "Singer: Lata Mangeshkar", "Lyricist: Shailendra", "Music Director: Shankar–Jaikishan", "Raag: Yaman (light / film usage)"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Ajeeb daastaan hai yeh", "indian": "Dha PaDha PaGa ReSa Ga", "western": "A GA GE DC E"}, {"lyrics": "Kahan shuru kahan khatam", "indian": "Dha PaDha PaGa ReSa Re", "western": "A GA GE DC D"}, {"lyrics": "Yeh manzilen hain kaunsi", "indian": "Ga ReGa ReSa NiDha Ni Dha", "western": "E DE DC BA B A"}, {"lyrics": "Na woh samajh sake na hum", "indian": "Pa PaDha PaGa ReSaDha Sa Pa", "western": "G GA GE DCA C G"}]}, {"name": "ANTARA", "lines": [{"lyrics": "Yeh roshni ke saath kyun", "indian": "Sa ReGa maGa maRe ma", "western": "C DE FE FD F"}, {"lyrics": "Dhuaan utha chiraag se", "indian": "Dha PaDha Pama maDha Pa", "western": "A GA GF FA G"}, {"lyrics": "Yeh roshni ke saath kyun", "indian": "Sa ReGa maGa maRe ma", "western": "C DE FE FD F"}, {"lyrics": "Dhuaan utha chiraag se", "indian": "Dha PaDha Pama maDha Pa", "western": "A GA GF FA G"}, {"lyrics": "Yeh khwaab dekhti hoon main", "indian": "Ni NiDha NiDha NiDha Pa ma", "western": "B BA BA BA G F"}, {"lyrics": "Ke jaag padi hoon khwaab se", "indian": "Pa PaDha PaGa ReSa Sa Pa", "western": "G GA GE DC C G"}]}, {"name": "MUKHDA (REPEAT)", "lines": [{"lyrics": "Ajeeb daastaan hai yeh", "indian": "Re'~Sa' Re' Sa' Dha Pa ma Dha:", "western": "D'~C' D' C' A G F A:"}, {"lyrics": "Kahan shuru kahan khatam", "indian": "Re'~Sa' Re' Sa' Dha Pa ma Pa:", "western": "D'~C' D' C' A G F G:"}]}], "background": "ajeeb_dastan.png"}
+---
+
+ 

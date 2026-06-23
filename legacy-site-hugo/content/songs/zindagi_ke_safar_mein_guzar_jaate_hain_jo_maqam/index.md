@@ -1,0 +1,14 @@
+---
+title: "Zindagi Ke Safar Mein Guzar Jaate Hain Jo Maqam"
+type: "song"
+description: "Movie: Dil Apna Aur Preet Parai"
+resources:
+  - src: "zindagi_ke_safar_mein_guzar_jaate_hain_jo_maqam.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "zindagi_ke_safar_mein_guzar_jaate_hain_jo_maqam", "title": "Zindagi Ke Safar Mein Guzar Jaate Hain Jo Maqam", "info": ["Movie: Dil Apna Aur Preet Parai", "Year: 1960", "Singer: Lata Mangeshkar", "Composer: Shankar–Jaikishan", "Lyricist: Shailendra"], "sections": [{"name": "Mukhda (M1)", "lines": [{"lyrics": "Zindagi ke safar mein", "indian": "Sa (Ni) Sa Ga ma Pa Ni", "western": "C (B) C E F G B"}, {"lyrics": "Guzar jaate hain jo maqam", "indian": "Ni Sa (Ni) (Dha) Pa ma Ga ma Dha Ga", "western": "B C (B) (A) G F E F A E"}, {"lyrics": "Woh phir nahi aate", "indian": "Pa ma Ga Sa (Ni) Dha Re", "western": "G F E C (B) A D"}, {"lyrics": "Woh phir nahi aate (repeat)", "indian": "Pa ma Ga Sa (Ni) Re Sa", "western": "G F E C (B) D C"}]}, {"name": "Antara (M2)", "lines": [{"lyrics": "Phool khilte hain log milte hain", "indian": "Ga ma Ga Re ma (Ga) Ga ma Ga Re ma (Ga)", "western": "E F E D F (E) E F E D F (E)"}, {"lyrics": "Phool khilte hain log milte hain magar", "indian": "Ga ma Ga Re Sa ma Ga Ga Ga, Ga ma Ga Re Sa ma Ga Ga Ga", "western": "E F E D C F E E E, E F E D C F E E E"}, {"lyrics": "Patjhad mein jo phool murjha jaate hain", "indian": "ma (Ga) ma ma Ga, ma ma Ga, Ga ma Dha Pa ma Ga", "western": "F (E) F F E, F F E, E F A G F E"}, {"lyrics": "Woh baharon ke aane se khilte nahi", "indian": "ma Ga ma Dha Dha, Dha Sa Ni Pa Ni Dha Pa", "western": "F E F A A, A C B G B A G"}, {"lyrics": "Kuch log ek roz jo bichhad jaate hain", "indian": "Pa ma Pa Pa ma Pa Pa ma ma Dha Pa ma Ga", "western": "G F G G F G G F F A G F E"}, {"lyrics": "Woh hazaron ke aane se milte nahi", "indian": "ma Ga ma Dha Dha, Dha Sa Ni Pa Ni Dha Pa", "western": "F E F A A, A C B G B A G"}, {"lyrics": "Umr bhar chahe koi", "indian": "Sa (Ni) Sa Ga ma Pa Ni", "western": "C (B) C E F G B"}, {"lyrics": "Pukara kare unka naam", "indian": "Ni Sa (Ni) (Dha) Pa ma Ga ma Dha Ga", "western": "B C (B) (A) G F E F A E"}, {"lyrics": "Woh phir nahi aate", "indian": "Pa ma Ga Sa (Ni) Dha Re", "western": "G F E C (B) A D"}, {"lyrics": "Woh phir nahi aate (repeat)", "indian": "Pa ma Ga Sa (Ni) Re Sa", "western": "G F E C (B) D C"}]}], "background": "zindagi_ke_safar_mein_guzar_jaate_hain_jo_maqam.png"}
+---
+
+ 

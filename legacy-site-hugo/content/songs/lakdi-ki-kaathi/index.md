@@ -1,0 +1,14 @@
+---
+title: "Lakdi Ki Kaathi"
+type: "song"
+description: "Movie: Masoom (1983)"
+resources:
+  - src: "lakdi-ki-kaathi.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "lakdi-ki-kaathi", "title": "Lakdi Ki Kaathi", "info": ["Movie: Masoom (1983)", "Scale: D# Major (Sa = D#)", "Sargam / Harmonium / Flute notes"], "sections": [{"name": "Mukhda", "lines": [{"lyrics": "Lakdii kii kaathi kaathii ppeee ghodaa", "indian": "Sa Sa Re Ga Pa: Ga Re | Sa Re Ga Pa: Ga Re", "western": "C C D E G: E D | C D E G: E D"}, {"lyrics": "Ghodaa dii dum peee joo maaraa hathoraa", "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:", "western": "C: D E G: E D C D E G G:"}, {"lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa", "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa", "western": "A A A A G G F F E E D D C C"}, {"lyrics": "(Repeat x3)", "indian": ""}]}, {"name": "Antara", "lines": [{"lyrics": "Ghodaa phaunchaa chauk main chaukk main thaa naaii", "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha", "western": "G G C' A A A | G G C' A A"}, {"lyrics": "Ghodee jii kii naai nee hazaamat joo banaii", "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga ma Pa", "western": "G G G C' C' B B A | G A G E F G"}, {"lyrics": "Tabak tabakk tabak tabakk", "indian": ""}, {"lyrics": "Ghodaa phaunchaa chauk main chaukk main thaa naaii", "indian": "Pa Pa Sa' Dha Dha Dha | Pa Pa Sa' Dha Dha", "western": "G G C' A A A | G G C' A A"}, {"lyrics": "Ghodee jii kii naai nee hazaamat joo banaii", "indian": "Pa Pa Pa Sa' Sa' Ni Ni Dha | Pa Dha Pa Ga ma Pa", "western": "G G G C' C' B B A | G A G E F G"}, {"lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa", "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa", "western": "A A A A G G F F E E D D C C"}]}, {"name": "Mukhda (Repeat)", "lines": [{"lyrics": "Lakdii kii kaathi kaathii ppeee ghodaa", "indian": "Sa Sa Re Ga Pa: Ga Re | Sa Re Ga Pa: Ga Re", "western": "C C D E G: E D | C D E G: E D"}, {"lyrics": "Ghodaa dii dum peee joo maaraa hathoraa", "indian": "Sa: Re Ga Pa: Ga Re Sa Re Ga Pa Pa:", "western": "C: D E G: E D C D E G G:"}, {"lyrics": "Dhaudaa dhaudda dhaudaa dhaudda dum uthakee dauddaa", "indian": "Dha Dha Dha Dha Pa Pa ma ma Ga Ga Re Re Sa Sa", "western": "A A A A G G F F E E D D C C"}]}], "background": "lakdi-ki-kaathi.png"}
+---
+
+ 

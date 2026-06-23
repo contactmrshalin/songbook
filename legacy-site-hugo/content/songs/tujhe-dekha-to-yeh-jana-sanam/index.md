@@ -1,0 +1,14 @@
+---
+title: "Tujhe Dekha To Yeh Jana Sanam"
+type: "song"
+description: "Film/Artist: DDLJ"
+resources:
+  - src: "tujhe-dekha-to-yeh-jana-sanam.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "tujhe-dekha-to-yeh-jana-sanam", "title": "Tujhe Dekha To Yeh Jana Sanam", "info": ["Film/Artist: DDLJ", "Scale: G MAJOR", "Source: https://www.notationsworld.com/tujhe-dekha-to-yeh-jana-sanam-ddlj-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Tujhee dekhaa too yeh jaanaa sanamm", "indian": "dha dha dha Ga Re Ga Sa Re ma Ga", "western": "a a a E D E C D F E"}, {"lyrics": "Pyaarr hotaa haii diwaanaa sanamm", "indian": "dha dha dha Ga Re Ga Sa Re Sa ni", "western": "a a a E D E C D C b"}, {"lyrics": "Tujhee dekhaa too yeh jaanaa sanamm", "indian": "dha dha dha Ga Re Ga Sa Re ma Ga", "western": "a a a E D E C D F E"}, {"lyrics": "Pyaarr hotaa haii diwaanaa sanamm", "indian": "dha dha dha Ga Re Ga Sa Re Sa ni", "western": "a a a E D E C D C b"}, {"lyrics": "Abb yahaann see kahaa jaayee humm", "indian": "dha ni pa dha ni pa dha Sa ni", "western": "a b g a b g a C b"}, {"lyrics": "Terii bahoo mee marr jaayee humm", "indian": "ni Sa Re Pa ma Ga Sa Re Ga Re Sa ni dha", "western": "b C D G F E C D E D C b a"}, {"lyrics": "Tujhee dekhaa too yeh jaanaa sanamm", "indian": "dha dha dha Ga Re Ga Sa Re ma Ga", "western": "a a a E D E C D F E"}, {"lyrics": "Pyaarr hotaa haii diwaanaa sanamm", "indian": "dha dha dha Ga Re Ga Sa Re Sa ni", "western": "a a a E D E C D C b"}, {"lyrics": "Abb yahaann see kahaa jaayee humm", "indian": "dha ni pa dha ni pa dha Sa ni", "western": "a b g a b g a C b"}, {"lyrics": "Terii bahoo mee marr jaayee humm", "indian": "ni Sa Re Pa ma Ga Sa Re Ga Re Sa ni dha", "western": "b C D G F E C D E D C b a"}]}], "background": "tujhe-dekha-to-yeh-jana-sanam.png"}
+---
+
+ 

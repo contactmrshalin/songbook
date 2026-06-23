@@ -1,0 +1,14 @@
+---
+title: "Yeh Haseen Waadiyan"
+type: "song"
+description: "Movie: Roja"
+resources:
+  - src: "yeh-haseen-waadiyan.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "yeh-haseen-waadiyan", "title": "Yeh Haseen Waadiyan", "info": ["Movie: Roja", "Composer: A R Rahman", "Instrument: Flute (Bansuri)", "Scale: D Natural (works on any Sa)", "Notes System: S R G Ma(t) P Dha(k) Ni (k = komal, t = tivra)"], "sections": [{"name": "Mukhda", "lines": [{"lyrics": "Ye haseen waadiyan", "indian": "PaDh Sa niSanisa Dh", "western": "GDh C bCbsa Dh"}, {"lyrics": "Ye khula aasmaan", "indian": "PaDh Re(Sa) SaniSa^^^Dh", "western": "GDh D(C) CbC^^^Dh"}, {"lyrics": "Aa gaye hum kahan ae mere saajna", "indian": "PaDh Sa niSqnisa Sa^Dh Padha^^ Re(Sa) SaniSa^^ Dh", "western": "GDh C bSqbsa C^Dh Ga^^ D(C) CbC^^ Dh"}, {"lyrics": "In baharon mein dil ki kali khil gayi", "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh", "western": "GDhD DEDC EEFE DCbCbC^^Dh"}, {"lyrics": "Mujhko tum jo mile har khushi mil gayi", "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh", "western": "GDhD DEDC EEFE DCbCbC^^Dh"}, {"lyrics": "Tere hothon pe hain husn ki bijliyan", "indian": "PaDh Sa niSanisa Dh | PaDh Re(Sa) SaniSa^^^Dh", "western": "GDh C bCbsa Dh | GDh D(C) CbC^^^Dh"}, {"lyrics": "Tere daaman ki khushboo se mehke chaman", "indian": "PaDhRe ReGaReSa GaGamaGa ReSaniSaniSa^^Dh", "western": "GDhD DEDC EEFE DCbCbC^^Dh"}]}, {"name": "Cross", "lines": [{"lyrics": "Meri jaane jaan main teri chandni", "indian": "Gama'Pa  .ma'Gama'^^^Ni .NiNiGa^^ReGa^^^Re", "western": "EF'G  .F'EF'^^^B .BBE^^DE^^^D"}, {"lyrics": "Ched lo tum aaj koi pyaar ki raagini", "indian": "Gama'PaDhPa   .ma'ma'Gama'Ni  .NiNiGaPama'Dh^^^^Pa", "western": "EF'GDhG   .F'F'EF'B  .BBEGF'Dh^^^^G"}]}, {"name": "Antara", "lines": [{"lyrics": "Ye bandhan hai pyaar ka", "indian": "Re  SamaRe ReSa SaniSaniSa Dh", "western": "D  CFD DC CbCbC Dh"}, {"lyrics": "Dekho toote na sajni", "indian": "PaDhRe SamaRe SaniSa^^^Dh", "western": "GDhD CFD CbC^^^Dh"}, {"lyrics": "Tere aanchal ki chhaon ke tale", "indian": "ReRe PanininiSa SaDhDh", "western": "DD GbbbC CDhDh"}, {"lyrics": "Meri manzil mujhe mil gayi", "indian": "ReReninininini SaSa^^^Dh", "western": "DDbbbbb CC^^^Dh"}, {"lyrics": "Teri palkon ki chhaon ke tale", "indian": "ReRe PanininiSa SaDdhDh", "western": "DD GbbbC CDdhDh"}, {"lyrics": "Mohabbat mujhe mil gayi", "indian": "ReRe DhPamaReSaniDh", "western": "DD DhGFDCbDh"}]}], "background": "yeh-haseen-waadiyan.png"}
+---
+
+ 

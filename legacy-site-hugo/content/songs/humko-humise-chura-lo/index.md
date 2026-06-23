@@ -1,0 +1,14 @@
+---
+title: "Humko Humise Chura Lo"
+type: "song"
+description: "Film/Artist: Mohabbatein"
+resources:
+  - src: "humko-humise-chura-lo.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "humko-humise-chura-lo", "title": "Humko Humise Chura Lo", "info": ["Film/Artist: Mohabbatein", "Scale: F BASS/MIDDLE", "Source: https://www.notationsworld.com/humko-humise-chura-lo-sargam-harmonium-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Humko humise chura lo", "indian": "Re: Dha: Pa Dha: Pa ma ma Pa Pa Ga:", "western": "D: A: G A: G F F G G E:"}, {"lyrics": "Dil mein kahin tum chupa lo", "indian": "Sa: Pa: ma Pa: ma Ga Ga ma ma Re:", "western": "C: G: F G: F E E F F D:"}, {"lyrics": "Humko humise chura lo", "indian": "Re: Dha: Pa Dha: Pa ma ma Pa Pa Ga:", "western": "D: A: G A: G F F G G E:"}, {"lyrics": "Dil mein kahin tum chupa lo", "indian": "Sa: Pa: ma Pa: ma Ga Ga ma ma Re:", "western": "C: G: F G: F E E F F D:"}, {"lyrics": "Hum akele kho na jaayen", "indian": "ma Ga Re Ga Re: Ga Re Sa Re Sa:", "western": "F E D E D: E D C D C:"}, {"lyrics": "Door tumse ho na jaayen", "indian": "ma Ga Re Ga Re: Ga Re Sa Re Sa:", "western": "F E D E D: E D C D C:"}, {"lyrics": "Paas aao gale se laga lo", "indian": "dha: dha ma: ma ma Pa Dha Ga ma Ga Re:", "western": "a: a F: F F G A E F E D:"}, {"lyrics": "Humko humise chura lo", "indian": "Re: Dha: Pa Dha: Pa ma ma Pa Pa Ga:", "western": "D: A: G A: G F F G G E:"}, {"lyrics": "Dil mein kahin tum chupa lo", "indian": "Sa: Pa: ma Pa: ma Ga Ga ma ma Re:", "western": "C: G: F G: F E E F F D:"}, {"lyrics": "Hum akele kho na jaayen", "indian": "ma Ga Re Ga Re: Ga Re Sa Re Sa:", "western": "F E D E D: E D C D C:"}, {"lyrics": "Door tumse ho na jaayen", "indian": "ma Ga Re Ga Re: Ga Re Sa Re Sa:", "western": "F E D E D: E D C D C:"}, {"lyrics": "Paas aao gale se laga lo", "indian": "dha: dha ma: ma ma Pa Dha Ga ma Ga Re:", "western": "a: a F: F F G A E F E D:"}, {"lyrics": "Humko humise chura lo", "indian": "Re: Dha: Pa Dha: Pa ma ma Pa Pa Ga:", "western": "D: A: G A: G F F G G E:"}, {"lyrics": "Dil mein kahin tum chupa lo", "indian": "Sa: Pa: ma Pa: ma Ga Ga ma ma Re:", "western": "C: G: F G: F E E F F D:"}]}], "background": "humko-humise-chura-lo.png"}
+---
+
+ 

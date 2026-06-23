@@ -1,0 +1,14 @@
+---
+title: "Kaho Naa Pyaar Hai"
+type: "song"
+description: "Film/Artist: Title Song"
+resources:
+  - src: "kaho-naa-pyaar-hai.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "kaho-naa-pyaar-hai", "title": "Kaho Naa Pyaar Hai", "info": ["Film/Artist: Title Song", "Scale: A BASS/MIDDLE", "Source: https://www.notationsworld.com/kaho-naa-pyaar-hai-sargam-harmonium-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Dil mera har baar yeh", "indian": "ma Ga Re: Ga ma Ga Re: Ga Ga", "western": "F E D: E F E D: E E"}, {"lyrics": "Sunne ko bekarar hai", "indian": "ma Ga Re: Ga Ga Ga ma: Ga Re: Sa ni", "western": "F E D: E E E F: E D: C b"}, {"lyrics": "Kaho na pyar hai", "indian": "ni ni: Sa: Re: ni Sa: ni dha", "western": "b b: C: D: b C: b a"}, {"lyrics": "Kaho na pyar hai", "indian": "ni ni: Sa: Re: ni Sa:", "western": "b b: C: D: b C:"}, {"lyrics": "Haan tumse pyar hai", "indian": "Re ni: Sa: Re: ni Sa: ni dha", "western": "D b: C: D: b C: b a"}, {"lyrics": "Ke tumse pyar hai", "indian": "ni ni: Sa: Re: ni Sa:", "western": "b b: C: D: b C:"}, {"lyrics": "In pyaari baaton mein", "indian": "ma Ga Re: Ga ma Ga Re: Ga", "western": "F E D: E F E D: E"}, {"lyrics": "Anjana ikraar hai", "indian": "ma Ga Re: Ga Ga Ga ma: Ga Re: Sa ni", "western": "F E D: E E E F: E D: C b"}, {"lyrics": "Kaho na pyar hai", "indian": "ni ni: Sa: Re: ni Sa: ni dha", "western": "b b: C: D: b C: b a"}, {"lyrics": "Kaho na pyar hai", "indian": "ni ni: Sa: Re: ni Sa:", "western": "b b: C: D: b C:"}, {"lyrics": "Kaha na pyar hai", "indian": "Re ni: Sa: Re: ni Sa: ni dha", "western": "D b: C: D: b C: b a"}, {"lyrics": "Kaha na pyar hai", "indian": "ni ni Sa Re ma Ga Re: Ga Re Sa:", "western": "b b C D F E D: E D C:"}]}], "background": "kaho-naa-pyaar-hai.png"}
+---
+
+ 

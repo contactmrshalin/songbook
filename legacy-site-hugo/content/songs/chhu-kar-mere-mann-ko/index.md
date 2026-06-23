@@ -1,0 +1,14 @@
+---
+title: "Chhu Kar Mere Mann Ko"
+type: "song"
+description: "Movie: Yaarana (1981)"
+resources:
+  - src: "chhu_kar_mere_mann_ko_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "chhu-kar-mere-mann-ko", "title": "Chhu Kar Mere Mann Ko", "info": ["Movie: Yaarana (1981)", "Singer: Kishore Kumar", "Lyrics: Anjan", "Music Director: Rajesh Roshan"], "sections": [{"name": "MUKHDA", "lines": [{"lyrics": "Chhoo kar | Mere | Man | Ko", "indian": "Ga Ga | Re Sa | Ni | Re", "western": "E E | D C | B | D"}, {"lyrics": "Kiya | tuney | Kya | Ishara", "indian": "Pa Dha | Ni Ni | Sa Re | Ga Sa", "western": "G A | B B | C D | E C"}, {"lyrics": "(Flute Interlude)", "indian": "Pa' Dha' Pa' ma | Ga ma Ga ma Re Pa'", "western": "G' A' G' F | E F E F D G'"}, {"lyrics": "Chhoo kar | Mere | Man | Ko", "indian": "Ga Ga | Re Sa | Ni | Re", "western": "E E | D C | B | D"}, {"lyrics": "Kiya | tuney | Kya | Ishara", "indian": "Pa Dha | Ni Ni | Sa Re | Ga Sa", "western": "G A | B B | C D | E C"}, {"lyrics": "Badalaaa | ye | mausam", "indian": "Pa Pa | ma Ga | ma Dha", "western": "G G | F E | F A"}, {"lyrics": "lage | pyaaraa | jag | saaraa", "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')", "western": "B' B' | B' B' | A' B' | C' C' (A C')"}]}, {"name": "ANTARA", "lines": [{"lyrics": "TuJo | Kahe | Jeevan Bhar", "indian": "Ga ma | ma Ga | Sa Pa | Ga", "western": "E F | F E | C G | E"}, {"lyrics": "Tere | Liye | Main | Gaaoon (1)", "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha | Dha Sa'~Pa", "western": "E G | G A | A G | G A | A C'~G"}, {"lyrics": "Tere | Liye | Main | Gaaoon (2)", "indian": "Pa Dha | Ni(k) Dha | ma | Ga Re Ga Pa", "western": "G A | Bb A | F | E D E G"}, {"lyrics": "(Repeat for following…)", "indian": ""}, {"lyrics": "Geet Tere Bolon Pe", "indian": ""}, {"lyrics": "Likhta Chala Jaaoon (2)", "indian": ""}, {"lyrics": "Mer…e | Geeton | Mein", "indian": "Pa Pa (Dha)Pa | ma Ga ma | Dha", "western": "G G (A)G | F E F | A"}, {"lyrics": "Tujhe Dhoonde Jag Saara", "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')", "western": "B' B' | B' B' | A' B' | C' C' (A C')"}, {"lyrics": "Chhoo kar Mere Man Ko", "indian": ""}]}], "background": "chhu_kar_mere_mann_ko_thumb.png"}
+---
+
+ 

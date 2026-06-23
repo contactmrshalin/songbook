@@ -1,0 +1,14 @@
+---
+title: "O Sanam"
+type: "song"
+description: "Artist: Lucky Ali"
+resources:
+  - src: "o-sanam-lucky-ali.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "o-sanam-lucky-ali", "title": "O Sanam", "info": ["Artist: Lucky Ali", "Lyrics: Syed Aslam Noor", "Music: Lucky Ali", "Scale (JSON standard): Sa = C", "Source flute scale (original): G bass/middle"], "sections": [{"name": "MUKHDA", "lines": [{"lyrics": "Hmmm…………….", "indian": "Pa…Ga.ma.Dha.Pa.ma…Ga Re", "western": "G…efagF…E D"}, {"lyrics": "R…M. M..M..P..G..M..P…", "indian": "Re…ma. ma ma Pa Ga ma Pa…", "western": "D…f F F G E F G…"}, {"lyrics": "P..m..G..m..G..S..", "indian": "Pa ma Ga ma Ga Sa", "western": "G F E F E C"}, {"lyrics": "Shaam sawere teri yaadein aati hain", "indian": "Ga…Ga…Re Re Re Re Sa ma ma.Ga Sa Re Re…", "western": "E…E…D D D D C F fE C D D…"}, {"lyrics": "Aake dil ko mere yun tadpaati hain", "indian": "Ga…Ga…Re Re Re Sa ma ma.Ga Sa Re.Sa.Ni(k)…", "western": "E…E…D D D C F fE C dcBb…"}, {"lyrics": "O Sanam mohabbat ki kasam…", "indian": "ma…Sa.Re.Re  p ma ma Sa Re.Sa.Ni(k) Sa.Ni(k).Dha(k) Ni(k) Sa…", "western": "F…cdD  p F F C dcBb cbbAb Bb C…"}]}, {"name": "MUKHDA (repeat)", "lines": []}, {"name": "VERSE 2", "lines": [{"lyrics": "Milke bichhad naa to dastoor ho gaya", "indian": "Ga…Ga…Re Re Re Re Sa ma ma.Ga Sa Re Re…", "western": "E…E…D D D D C F fE C D D…"}, {"lyrics": "Yadoon mein teri majboor ho gaya", "indian": "Ga Ga Ga Re Re Re Sa ma ma.Ga Sa Re.Sa.Ni(k)…", "western": "E E E D D D C F fE C dcBb…"}, {"lyrics": "O Sanam teri yadoon ki kasam", "indian": "ma…Sa.Re.Re  p.p.ma ma Sa Re.Sa.Ni(k) Sa.Ni(k).Dha(k) Ni(k) Sa…", "western": "F…cdD  p.p.F F C dcBb cbbAb Bb C…"}]}, {"name": "VERSE 3", "lines": [{"lyrics": "Samjhe zamaana ke dil hai khilona", "indian": "p…p…Ga Ga…Ga Sa Re…Re…Sa Re Sa Ga Re", "western": "p…p…E E…E C D…D…C D C E D"}, {"lyrics": "Jaana hai ab kya hai dil ka lagana", "indian": "Dha(k)…Sa…Sa…Sa  ma Ga Re…Re…Sa Re Sa Ga Re", "western": "Ab…C…C…C  F E D…D…C D C E D"}, {"lyrics": "Nazron se ab naa humko girana", "indian": "Dha(k)…Dha(k)…p Dha(k)  ma…Re…Re…Sa Re Sa Ga Re", "western": "Ab…Ab…p Ab  F…D…D…C D C E D"}, {"lyrics": "Mar bhi gaye to bhul na jaana", "indian": "Dha(k)…Sa…Sa…Sa  Dha Pa Pa…Pa…Ga.Pa.Pa Ga.Re.Sa", "western": "Ab…C…C…C  A G G…G…egG edC"}]}, {"name": "VERSE 4", "lines": [{"lyrics": "Aankhon mein basi ho par door ho kahin", "indian": "Ga Ga Ga Re Re Re  Sa ma…Sa Re Re…", "western": "E E E D D D  C F…C D D…"}, {"lyrics": "Dil ke kareeb ho ye mujhko hai yakin", "indian": "Ga Ga Ga Re…Re Sa ma ma.Ga Sa Re.Sa.Ni(k)…", "western": "E E E D…D C F fE C dcBb…"}, {"lyrics": "O Sanam tere pyar ki kasam", "indian": "ma…Sa.Re.Re…p p ma…Sa Re.Sa.Ni(k) Sa.Ni(k).Dha(k) Ni(k) Sa…", "western": "F…cdD…p p F…C dcBb cbbAb Bb C…"}]}], "background": "o-sanam-lucky-ali.png"}
+---
+
+ 

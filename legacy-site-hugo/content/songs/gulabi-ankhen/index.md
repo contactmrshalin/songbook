@@ -1,0 +1,14 @@
+---
+title: "Gulabi Ankhen"
+type: "song"
+description: "Film/Artist: The Train"
+resources:
+  - src: "gulabi-ankhen.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "gulabi-ankhen", "title": "Gulabi Ankhen", "info": ["Film/Artist: The Train", "Scale: C BASS/MIDDDLE", "Source: https://www.notationsworld.com/gulabi-ankhen-the-train-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Gulabii ankhee", "indian": "Ga Ga Ga Sa' Sa'", "western": "E E E C' C'"}, {"lyrics": "Jo teri dekhii", "indian": "Sa' Ni Sa' Re' Ni", "western": "C' B C' D' B"}, {"lyrics": "Sharaabi yeh dil", "indian": "Ni Dha Ni Sa' Dha", "western": "B A B C' A"}, {"lyrics": "Hoo gayaa", "indian": "Dha Dha(k).Dha Ni", "western": "A abA B"}, {"lyrics": "Sambhaalo mujhkoo", "indian": "Ga Ga Ga Sa' Sa'", "western": "E E E C' C'"}, {"lyrics": "Oo meree yaaron", "indian": "Sa' Ni Sa' Re' Ni", "western": "C' B C' D' B"}, {"lyrics": "Sambhalnaa mushkil", "indian": "Ni Dha Ni Sa' Dha", "western": "B A B C' A"}, {"lyrics": "Hoo gayaa", "indian": "Dha Dha(k).Dha Ni", "western": "A abA B"}, {"lyrics": "Dil main meree", "indian": "Ga ma Dha Ga", "western": "E F A E"}, {"lyrics": "Khwaab teree", "indian": "ma Dha Sa' ma", "western": "F A C' F"}, {"lyrics": "Tasveer kaise ho deewar pee", "indian": "ma Pa Dha Ni Dha Sa' Ni Dha ma Pa Ga", "western": "F G A B A C' B A F G E"}, {"lyrics": "Tujh pee fidaa", "indian": "Ga ma Dha Ga", "western": "E F A E"}, {"lyrics": "Main kyoon huaa", "indian": "ma Dha Sa' ma", "western": "F A C' F"}, {"lyrics": "Aataa hai gussa mujhe pyaar pee", "indian": "ma Pa Dha Ni Dha Sa' Ni Dha ma Pa Ga", "western": "F G A B A C' B A F G E"}, {"lyrics": "Main lut gayaa", "indian": "Ni Sa' Re' Ga'", "western": "B C' D' E'"}, {"lyrics": "Maan kee dil kaa kahaa", "indian": "ma' Ga' ma' Ga' Re' Sa' Ni Sa' Re'", "western": "F' E' F' E' D' C' B C' D'"}, {"lyrics": "Main kahi kaa naa rahaa", "indian": "Ga' Re' Ga' Re' Sa' Ni Dha Ni Sa'", "western": "E' D' E' D' C' B A B C'"}, {"lyrics": "Kyaa karoon mai dilrubaa", "indian": "Re' Sa' Re' Sa' Ni Dha Dha(k).Dha Ni", "western": "D' C' D' C' B A abA B"}]}], "background": "gulabi-ankhen.png"}
+---
+
+ 

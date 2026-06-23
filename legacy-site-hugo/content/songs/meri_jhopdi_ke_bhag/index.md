@@ -1,0 +1,14 @@
+---
+title: "Meri Jhopdi Ke Bhag Aaj Khul Jayenge"
+type: "song"
+description: "Type: Devotional Bhajan"
+resources:
+  - src: "meri_jhopdi_ke_bhag.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "meri_jhopdi_ke_bhag", "title": "Meri Jhopdi Ke Bhag Aaj Khul Jayenge", "info": ["Type: Devotional Bhajan", "Theme: Lord Ram Arrival", "Style: Simple Bhajan Tune", "Scale: Sa based (as per tutorial)"], "sections": [{"name": "Part 1", "lines": [{"lyrics": "Meri jhopdi ke bhag", "indian": "Sa Sa Sa Re Re Ga Ga", "western": "C C C D D E E"}]}, {"name": "Part 2", "lines": [{"lyrics": "Aaj khul jayenge", "indian": "Re Sa Sa Re Re Ga Ga", "western": "D C C D D E E"}]}, {"name": "Part 3", "lines": [{"lyrics": "Raam ayenge", "indian": "Re Sa Re Sa Sa", "western": "D C D C C"}]}, {"name": "Part 4 – Main Chorus", "lines": [{"lyrics": "Raam ayenge ayenge Raam ayenge", "indian": "Pa Pa Pa Dha Pa ma Ga Re ma Ga Re Sa Sa", "western": "G G G A G F E D F E D C C"}]}, {"name": "Repetition", "lines": [{"lyrics": "Raam ayenge ayenge Raam ayenge", "indian": "Pa Pa Pa Dha Pa ma Ga Re ma Ga Re Sa Sa", "western": "G G G A G F E D F E D C C"}]}], "background": "meri_jhopdi_ke_bhag.png"}
+---
+
+ 

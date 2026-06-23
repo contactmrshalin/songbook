@@ -1,0 +1,14 @@
+---
+title: "Hare Krishna Hare Krishna Dhun"
+type: "song"
+description: "Type: Devotional Dhun"
+resources:
+  - src: "hare_krishna_dhun.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hare_krishna_dhun", "title": "Hare Krishna Hare Krishna Dhun", "info": ["Type: Devotional Dhun", "Mantra: Hare Krishna Hare Krishna Krishna Krishna Hare Hare", "Tradition: ISKCON / Bhajan Style", "Scale: Based on tutorial (Sa assumed as base)"], "sections": [{"name": "Part 1", "lines": [{"lyrics": "Hare Krishna Hare Krishna", "indian": "Ni Ni Sa Sa Ni Dha Ni Ni", "western": "B B C C B A B B"}]}, {"name": "Part 2", "lines": [{"lyrics": "Krishna Krishna Hare Hare", "indian": "Pa Pa Dha Dha Sa Ni Dha Pa", "western": "G G A A C B A G"}]}, {"name": "Repeat Cycle", "lines": [{"lyrics": "Hare Krishna Hare Krishna", "indian": "Ni Ni Sa Sa Ni Dha Ni Ni", "western": "B B C C B A B B"}, {"lyrics": "Krishna Krishna Hare Hare", "indian": "Pa Pa Dha Dha Sa Ni Dha Pa", "western": "G G A A C B A G"}]}, {"name": "Variation Phrase", "lines": [{"lyrics": "Hare Rama Hare Rama", "indian": "Ni Dha Pa Ni Dha Pa", "western": "B A G B A G"}, {"lyrics": "Rama Rama Hare Hare", "indian": "Pa Dha Ni Sa' Ni Dha Pa", "western": "G A B C' B A G"}]}], "background": "hare_krishna_dhun.png"}
+---
+
+ 

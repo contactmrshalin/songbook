@@ -43,11 +43,11 @@ songbook_pipeline_project/
 │   └── octave_notes             #   Octave reference chart
 ├── misc/                        # Helper / one-off scripts
 │   └── generate_placeholder_images.py
-├── site/                        # Legacy Hugo website source (optional)
+├── legacy-site-hugo/            # ARCHIVED: Original Hugo site (v1, do not modify)
 │   ├── hugo.toml
 │   ├── layouts/
 │   ├── assets/
-│   ├── content/notation-guide/  #   How-to-read-notation page
+│   ├── content/notation-guide/  #   Historical notation guide
 │   └── scripts/generate_content.py
 ├── songbook-player/             # Node.js player app (Docker)
 ├── output/                      # Generated files land here
@@ -388,7 +388,9 @@ python scripts/minimize_songs_json.py --songs-dir songs/
   `indian` field using `notation_mapping.json`.
 - **Fonts** (`fonts/`) are embedded in the PDF to ensure consistent rendering
   across platforms (DejaVu for Unicode text, Symbola/Noto for emoji).
-- **Legacy Hugo site** remains in `site/` for archival/reference use only.
+- **ARCHIVED:** Original Hugo site preserved in `legacy-site-hugo/` for historical reference.
+  - Do not modify this folder.
+  - The active web platform is now Next.js (in `platform/`).
 
 ---
 

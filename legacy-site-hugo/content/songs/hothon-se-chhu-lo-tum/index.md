@@ -1,0 +1,14 @@
+---
+title: "Hothon Se Chhu Lo Tum"
+type: "song"
+description: "Song: Hothon Se Chhu Lo Tum"
+resources:
+  - src: "hothon_se_chhu_lo_tum_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hothon-se-chhu-lo-tum", "title": "Hothon Se Chhu Lo Tum", "info": ["Song: Hothon Se Chhu Lo Tum"], "sections": [{"name": "MAIN PHRASE", "lines": [{"lyrics": "Phrase 1", "indian": "Ga Re Ga Re Sa", "western": "E D E D C"}, {"lyrics": "Phrase 2", "indian": "Sa Re Sa Ni", "western": "C D C B"}, {"lyrics": "Phrase 3", "indian": "Ni Sa Sa Re Re Sa", "western": "B C C D D C"}, {"lyrics": "Phrase 4", "indian": "Ga : Re Sa Sa", "western": "E : D C C"}]}, {"name": "TIVRA MA PHRASE", "lines": [{"lyrics": "Phrase 5", "indian": "Ga Ma(T) Ma(T) Pa Pa", "western": "E F# F# G G"}, {"lyrics": "Phrase 6", "indian": "Ma(T) Dha Pa Ma(T) Ga", "western": "F# A G F# E"}, {"lyrics": "Phrase 7", "indian": "Ga Ma(T) Ma(T) Pa Pa", "western": "E F# F# G G"}]}, {"name": "ENDING", "lines": [{"lyrics": "Phrase 8", "indian": "Ga Re Sa Re Ga", "western": "E D C D E"}]}], "background": "hothon_se_chhu_lo_tum_bg.png"}
+---
+
+ 

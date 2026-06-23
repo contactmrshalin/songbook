@@ -1,0 +1,14 @@
+---
+title: "Saawan Ka Mahina Pawan Kare Shor"
+type: "song"
+description: "Movie: Milan (1967)"
+resources:
+  - src: "saawan_ka_mahina_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "saawan-ka-mahina-pawan-kare-shor", "title": "Saawan Ka Mahina Pawan Kare Shor", "info": ["Movie: Milan (1967)", "Singers: Lata Mangeshkar, Mukesh", "Music Director: Laxmikant–Pyarelal", "Lyricist: Anand Bakshi", "Scale (Western): Sa = C", "Ornaments: ~ meend, : hold, (k)=kan, ' = high octave"], "sections": [{"name": "MUKHDA", "lines": [{"lyrics": "Saawan ka mahina", "indian": "Dha Pa Pa Ga Ga Ga Re Re Ga", "western": "A G G E E E D D E"}, {"lyrics": "Pawan kare shor", "indian": "Re Re Re Ga Re Sa Re~Pa' (x2)", "western": "D D D E D C D~G' (x2)"}, {"lyrics": "Jiyara re jhoome aise", "indian": "Re Re Re ma ma ma Ga Re Ga Re Sa Ni", "western": "D D D F F F E D E D C B"}, {"lyrics": "Jaise banma naache mor", "indian": "Ni Ni Sa Re Ga Re Ga Re Sa Sa", "western": "B B C D E D E D C C"}]}, {"name": "FLUTE MUSIC", "lines": [{"lyrics": "Flute Music", "indian": "Pa: Pa Pa Pa Dha Ni Dha Ni Dha Pa Re, Ga ma Ga ma Ga Re Sa Sa Dha Pa Dha~Pa", "western": "G: G G G A B A B A G D, E F E F E D C C A G A~G"}]}, {"name": "ANTARA", "lines": [{"lyrics": "Ram gajab dhaaye, ye purvaiya", "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa", "western": "G G G G G G G C, C D D G G G G"}, {"lyrics": "Naiya sambhaalo kit, khoye ho khivaiya", "indian": "Pa Dha Pa ma Ga Pa ma Ga Re, ma Re ma Ga Ga Ga", "western": "G A G F E G F E D, F D F E E E"}, {"lyrics": "Ram gajab dhaaye, ye purvaiya", "indian": "Pa Pa Pa Pa Pa Pa Pa Sa, Sa Re Re Pa Pa Pa Pa", "western": "G G G G G G G C, C D D G G G G"}, {"lyrics": "Naiya sambhaalo kit, khoye ho khivaiya", "indian": "Pa Dha Pa ma Ga Pa ma Ga Re, ma Ga Re~ Ga Re Sa Sa", "western": "G A G F E G F E D, F E D~ E D C C"}]}], "background": "saawan_ka_mahina_thumb.png"}
+---
+
+ 

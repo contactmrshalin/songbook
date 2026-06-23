@@ -1,0 +1,14 @@
+---
+title: "Dhadak"
+type: "song"
+description: "Film/Artist: Title Song"
+resources:
+  - src: "dhadak.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "dhadak", "title": "Dhadak", "info": ["Film/Artist: Title Song", "Scale: A# BASS/MIDDLE", "Source: https://www.notationsworld.com/dhadak-title-song-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Marhamii saa chandd hai tuu", "indian": "dha Sa ni Sa: ni Sa ni dha pa ni dha pa:", "western": "a C b C: b C b a g b a g:"}, {"lyrics": "Diljalaa saa main anddheraa", "indian": "pa ni dha ni: ni Sa Sa ni dha: ni dha dha(k)", "western": "g b a b: b C C b a: b a a"}, {"lyrics": "Ekk doojee kee liyee hainn", "indian": "dha Sa ni Sa: ni Sa ni dha pa ni dha pa:", "western": "a C b C: b C b a g b a g:"}, {"lyrics": "Neendd merii khwabb teraa", "indian": "pa ni dha ni: ni Sa Sa ni dha:", "western": "g b a b: b C C b a:"}, {"lyrics": "Tuu ghataa hai phuhaar kii", "indian": "dha Pa ma Ga: ma Re: ni pa", "western": "a G F E: F D: b g"}, {"lyrics": "Mainn ghadiii intzaarr kii", "indian": "pa ma Ga Re: Ga Sa: ni pa", "western": "g F E D: E C: b g"}, {"lyrics": "Apnaa milnaa  likhaa iissii baras haii naa", "indian": "pa Ga Re Re: Ga Re: dha ni: ni Sa ni dha(k) dha ni:", "western": "g E D D: E D: a b: b C b a a b:"}, {"lyrics": "Joo meri manziloo kii jaatii haii", "indian": "dha ni Sa: Re Sa: Re Sa: Re Sa Re Ga ma Ga:", "western": "a b C: D C: D C: D C D E F E:"}, {"lyrics": "Teree naam kii koii sadakk hai naa", "indian": "Re Ga ma: Ga Re: Sa ni: ni Sa Re Sa ni dha: ni dha dha(k)", "western": "D E F: E D: C b: b C D C b a: b a a"}, {"lyrics": "Joo meree dil koo dill banatii haii", "indian": "dha ni Sa: Re Sa: Re Sa: Re Sa Re Ga ma Ga:", "western": "a b C: D C: D C: D C D E F E:"}, {"lyrics": "Teree namm kii koii dhadakk hai naa", "indian": "Re Ga ma: Ga Re: Sa ni: ni Sa Re Sa ni dha:", "western": "D E F: E D: C b: b C D C b a:"}]}], "background": "dhadak.png"}
+---
+
+ 

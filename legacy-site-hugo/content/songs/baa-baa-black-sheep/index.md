@@ -1,0 +1,14 @@
+---
+title: "Baa Baa Black Sheep"
+type: "song"
+description: "Scale: C MAJOR"
+resources:
+  - src: "baa-baa-black-sheep.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "baa-baa-black-sheep", "title": "Baa Baa Black Sheep", "info": ["Scale: C MAJOR", "Source: https://www.notationsworld.com/baa-baa-black-sheep-sargam-and-flute-notes.html"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Baa baa black sheep", "indian": "Sa Sa Pa Pa", "western": "C C G G"}, {"lyrics": "Have you any wool", "indian": "Dha Dha Dha Dha Pa", "western": "A A A A G"}, {"lyrics": "Yes sir yes sir", "indian": "ma ma Ga Ga", "western": "F F E E"}, {"lyrics": "Three bags full", "indian": "Re Re Sa", "western": "D D C"}, {"lyrics": "One for the master", "indian": "Pa Pa Pa ma ma", "western": "G G G F F"}, {"lyrics": "One for the dame", "indian": "Ga Ga Ga Re", "western": "E E E D"}, {"lyrics": "One for the little boy", "indian": "Pa Pa Pa ma ma ma", "western": "G G G F F F"}, {"lyrics": "Who lives down the lane", "indian": "ma Ga Ga Re", "western": "F E E D"}, {"lyrics": "Baa baa black sheep", "indian": "Sa Sa Pa Pa", "western": "C C G G"}, {"lyrics": "have you any wool", "indian": "Dha Dha Dha Dha Pa", "western": "A A A A G"}, {"lyrics": "Yes sir yes sir", "indian": "ma ma Ga Ga", "western": "F F E E"}, {"lyrics": "Three bags full", "indian": "Re Re Sa", "western": "D D C"}]}], "background": "baa-baa-black-sheep.png", "description": "Baa Baa Black Sheep is a timeless English nursery rhyme, globally recognized for its simple, memorable melody and question-and-answer format. While not originating from Indian film or classical music, its universal appeal has led to countless adaptations and renditions worldwide, often serving as an early introduction to music for children. Its straightforward melodic structure makes it easily recognizable across diverse cultures.", "trivia": ["The earliest known printed version of the rhyme dates back to 1731 in 'Tommy Thumb's Pretty Song Book,' though its oral tradition is likely much older.", "The tune commonly associated with 'Baa Baa Black Sheep' is the same as that of 'Twinkle, Twinkle, Little Star' and 'Alphabet Song' (ABC song), all sharing a simple, diatonic melody.", "The rhyme is sometimes thought to have connections to the medieval wool trade and the taxation of wool, though this interpretation is debated among folklorists.", "Despite its simplicity, 'Baa Baa Black Sheep' remains one of the most recognized and widely sung nursery rhymes, translated and adapted into numerous languages worldwide, including many Indian languages for children's education."]}
+---
+
+ 

@@ -1,0 +1,14 @@
+---
+title: "Holi Mashup"
+type: "song"
+description: "Song1: Hori Khele Raghuveera Awadh Mein"
+resources:
+  - src: "holi.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hori_mashup", "title": "Holi Mashup", "info": ["Song1: Hori Khele Raghuveera Awadh Mein", "Song2: Rang Barse Bhige Chunarvali", "Song3: Hare Krishna"], "sections": [{"name": "Chorus", "lines": [{"lyrics": "Hori khele raghuveera", "indian": "Sa' Sa' Sa' Sa' Sa' Re' Ni Ni Ni Dha Pa Pa Dha", "western": "C' C' C' C' C' D' B B B A G G A"}, {"lyrics": "Hori khele raghuveera", "indian": "Ni Ni Sa' Ni Dha Dha Pa Pa Pa", "western": "B B C' B A A G G G"}, {"lyrics": "Hori khele raghuveera awadh mein", "indian": "Sa' Sa' Sa' Sa' Sa' Re' Ni Ni Ni Dha Pa Pa Dha", "western": "C' C' C' C' C' D' B B B A G G A"}, {"lyrics": "Hori khele raghuveera", "indian": "Ni Ni Sa' Ni Dha Dha Pa Pa Pa", "western": "B B C' B A A G G G"}]}, {"name": "Verse 1", "lines": [{"lyrics": "Hil mil aave log lugai", "indian": "Ma(T) Ma(T) Ma(T) Pa Pa Dha Dha Ni(k) Dha Pa Pa", "western": "F# F# F# G G A A Bb A G G"}, {"lyrics": "Hil mil aave log lugai", "indian": "Ma(T) Ma(T) Ma(T) Pa Pa Dha Dha Ni(k) Dha Pa Pa", "western": "F# F# F# G G A A Bb A G G"}, {"lyrics": "Hil mil aave log lugai", "indian": "Ma(T) Ma(T) Ma(T) Pa Pa Dha Dha Ni(k) Dha Pa Pa", "western": "F# F# F# G G A A Bb A G G"}, {"lyrics": "Bhai mehalan mein bhira awadh mein", "indian": "Sa' Sa' Sa' Sa' Sa' Re' Ni Ni Ni Dha Pa Pa Dha", "western": "C' C' C' C' C' D' B B B A G G A"}]}, {"name": "Rang Barse- Chorus", "lines": [{"lyrics": "Rang barse bheege chunar wali", "indian": "ma ma ma padha Ni Dha Pa Pa dhanipadhani", "western": "F F F ga B A G G abgab"}, {"lyrics": "Rang barse", "indian": "Dha Pa Dha ma Pa", "western": "A G A F G"}, {"lyrics": "O rang barse bheege chunar wali", "indian": "ma ma ma padha Ni Dha Pa Pa dhanipadhani", "western": "F F F ga B A G G abgab"}, {"lyrics": "Rang barse", "indian": "Dha Pa Dha ma Pa", "western": "A G A F G"}]}, {"name": "Rang Barse Verse 1", "lines": [{"lyrics": "Sone ki thali mein", "indian": "Pa Ni Sa Re Re Re Ni Sa Sa Ni Dha Pa", "western": "G B C D D D B C C B A G"}, {"lyrics": "Jona parosa", "indian": "Pa Ni Sa Re Re Re", "western": "G B C D D D"}, {"lyrics": "Haan sone ki thali mein", "indian": "Pa Ni Sa Re Re Re Ni Sa Sa Ni Dha Pa", "western": "G B C D D D B C C B A G"}, {"lyrics": "Arey khaye gori ka yaar bola tarse", "indian": "ma ma ma padha Ni Dha Pa Pa dhanipadhani", "western": "F F F ga B A G G abgab"}, {"lyrics": "Rang barse", "indian": "Dha Pa Dha ma Pa", "western": "A G A F G"}]}, {"name": "Hare Krishna", "lines": [{"lyrics": "Hare Krishna Hare Krishna", "indian": "Ni Ni Sa Sa Ni Dha Ni Ni", "western": "B B C C B A B B"}, {"lyrics": "Krishna Krishna Hare Hare", "indian": "Pa Pa Dha Dha Sa Ni Dha Pa", "western": "G G A A C B A G"}]}], "background": "holi.png"}
+---
+
+ 

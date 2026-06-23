@@ -1,0 +1,14 @@
+---
+title: "Meri Bheegi Bheegi Si"
+type: "song"
+description: "Singer: Kishore Kumar"
+resources:
+  - src: "meri_bheegi_bheegi_si.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "meri_bheegi_bheegi_si_1", "title": "Meri Bheegi Bheegi Si", "info": ["Singer: Kishore Kumar", "Composer: R.D. Burman", "Scale: Tutorial Based", "Movie: Anamika", "Year: 1973"], "sections": [{"name": "Mukhda", "lines": [{"lyrics": "Meri bheegi bheegi si", "indian": "Ni' Sa' Ga' Ga' Ga' Ga' Ga'", "western": "B' C' E' E' E' E' E'"}, {"lyrics": "Palkon pe reh gaye", "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha", "western": "B' C' D' E' D' C' B A"}]}, {"name": "Continuation", "lines": [{"lyrics": "Jaise mere sapne bikhar ke", "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha", "western": "B' C' E' C' B A A A"}, {"lyrics": "Jaise mere sapne", "indian": "Ni' Sa' Ga'", "western": "B' C' E'"}]}, {"name": "Bridge Phrase", "lines": [{"lyrics": "Jale man tera bhi", "indian": "ma' Ga' Pa' ma' Ga' Ga'", "western": "F' E' G' F' E' E'"}]}, {"name": "Repeat Mukhda Pattern", "lines": [{"lyrics": "Meri bheegi bheegi si", "indian": "Ni' Sa' Re' Ga' Re' Sa' Ni Dha", "western": "B' C' D' E' D' C' B A"}, {"lyrics": "Palkon pe reh gaye", "indian": "Ni' Sa' Ga' Sa' Ni Dha Dha Dha", "western": "B' C' E' C' B A A A"}]}, {"name": "Ending Phrase", "lines": [{"lyrics": "Anamika…", "indian": "Ni' Re' Sa' Ni'", "western": "B' D' C' B'"}]}], "background": "meri_bheegi_bheegi_si.png"}
+---
+
+ 

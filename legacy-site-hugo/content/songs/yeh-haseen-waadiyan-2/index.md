@@ -1,0 +1,14 @@
+---
+title: "Yeh Haseen Waadiyan"
+type: "song"
+description: "Movie: Roja"
+resources:
+  - src: "yeh-haseen-waadiyan.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "yeh-haseen-waadiyan-2", "title": "Yeh Haseen Waadiyan", "info": ["Movie: Roja", "Composer: A R Rahman", "Instrument: Flute (Bansuri)", "Scale: D Natural (works on any Sa)", "Notes System: S R G Ma(t) P Dha(k) Ni (k = komal, t = tivra)"], "sections": [{"name": "Part 1", "lines": [{"lyrics": "Intro phrase", "indian": "Dha Ni Re Sa Re Sa Re Ni .", "western": "A B D C D C D B ."}]}, {"name": "Part 2", "lines": [{"lyrics": "Continuation phrase", "indian": "Dha Ni Ni Ga  Re Sa Sa Re Re Ni", "western": "A B B E  D C C D D B"}]}, {"name": "Part 3", "lines": [{"lyrics": "Main theme build", "indian": "Dha Ni Ga Ga Re Ma(T) Ma(T) Ga Re Re(k) Re Re(k) Re Re(k) Ni", "western": "A B E E D F# F# E D Db D Db D Db B"}]}, {"name": "Part 4", "lines": [{"lyrics": "Higher phrase", "indian": "Ma(T) Dha(k) Dha     Dha(k) Dha Dha(k) . Ga Re(k)", "western": "F# Ab A     Ab A Ab . E Db"}]}, {"name": "Part 5", "lines": [{"lyrics": "Bridge run", "indian": "Re(k)  Ma(T) . Ga Ma(T) .", "western": "Db  F# . E F# ."}]}, {"name": "Part 6", "lines": [{"lyrics": "Ending phrase", "indian": "Re(k) Re(k) Ma(T)  Dha(k) . Dha  Ni", "western": "Db Db F#  Ab . A  B"}]}], "background": "yeh-haseen-waadiyan.png"}
+---
+
+ 

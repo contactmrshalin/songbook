@@ -1,0 +1,14 @@
+---
+title: "Hum Bewafa Hargiz Na Thay"
+type: "song"
+description: "Movie: Shalimar"
+resources:
+  - src: "hum-bewafa.jpeg"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "hum-bewafa-hargiz-na-thay", "title": "Hum Bewafa Hargiz Na Thay", "info": ["Movie: Shalimar", "Scale note: Flute scale is E (Bass/Middle) as provided"], "sections": [{"name": "Piano & Keyboards", "lines": [{"lyrics": "Hum bewafa hargiz na the", "indian": "Ga Re Sa Ga… Ga ma Pa Pa ma…", "western": "E D C E… E F G G F…"}, {"lyrics": "Par hum wafa kar na sakhe", "indian": "ma Dha Dha Dha Ni(k)… Dha ma Dha Pa…", "western": "F A A A Bb… A F A G…"}, {"lyrics": "Humko mili uski sazaa", "indian": "Ga Re Sa Ga… Ga ma Pa Pa ma…", "western": "E D C E… E F G G F…"}, {"lyrics": "Hum jo khata kar na sakhe", "indian": "ma Dha Dha Dha Ni(k)… Dha ma Dha Pa…", "western": "F A A A Bb… A F A G…"}, {"lyrics": "Hum bewafa hargiz na the (repeat)", "indian": "Ga Re Sa Ga… Ga ma Pa Pa ma…", "western": "E D C E… E F G G F…"}, {"lyrics": "Par hum wafa kar na sakhe (repeat)", "indian": "ma Dha Dha Dha Ni(k)… Dha ma Dha Pa…", "western": "F A A A Bb… A F A G…"}]}, {"name": "Guitars", "lines": [{"lyrics": "Kitni akeli thi woh", "indian": "Pa Dha Sa' Sa' Sa' Sa'…Sa' Pa", "western": "G A C' C' C' C'…C' G"}, {"lyrics": "Raahe hum jinpe", "indian": "Sa' Pa Sa' Ni(k) Dha…Dha…", "western": "C' G C' Bb A…A…"}, {"lyrics": "Ab takk akele", "indian": "ma Dha Dha Dha Dha…Ni(k)…", "western": "F A A A A…Bb…"}]}, {"name": "Musical Instruments", "lines": [{"lyrics": "Chalte rahein", "indian": "Ni(k) Ni(k) Ni(k) Sa'…", "western": "Bb Bb Bb C'…"}, {"lyrics": "Tujhse bichadke bhi", "indian": "Pa Dha Sa' Sa' Sa' Sa'…Sa' Sa'", "western": "G A C' C' C' C'…C' C'"}, {"lyrics": "O bekhabar", "indian": "Sa' Pa Sa' Ni(k) Dha…", "western": "C' G C' Bb A…"}, {"lyrics": "Tere hi gham mein", "indian": "ma Dha Dha Dha Dha…Ni(k)…", "western": "F A A A A…Bb…"}, {"lyrics": "Jalte rahein", "indian": "Dha ma Dha Pa…", "western": "A F A G…"}, {"lyrics": "Tune kiya jo shikva", "indian": "Ga Re Sa Ga… Ga ma Pa Pa ma…", "western": "E D C E… E F G G F…"}, {"lyrics": "Hum woh gila kar na sakhe", "indian": "ma Dha Dha Dha Ni(k)… Dha ma Dha Pa…", "western": "F A A A Bb… A F A G…"}, {"lyrics": "Hum bewafa hargiz na the", "indian": "Ga Re Sa Ga… Ga ma Pa Pa ma…", "western": "E D C E… E F G G F…"}, {"lyrics": "Par hum wafa kar na sakhe", "indian": "ma Dha Dha Dha Ni(k)… Dha ma Dha Pa…", "western": "F A A A Bb… A F A G…"}]}], "background": "hum-bewafa.jpeg"}
+---
+
+ 

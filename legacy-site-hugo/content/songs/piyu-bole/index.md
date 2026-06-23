@@ -1,0 +1,14 @@
+---
+title: "Piyu Bole (Piya Bole)"
+type: "song"
+description: "Movie: Parineeta (2005)."
+resources:
+  - src: "piyu_bole_thumb.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "piyu-bole", "title": "Piyu Bole (Piya Bole)", "info": ["Movie: Parineeta (2005).", "Singers: Sonu Nigam and Shreya Ghoshal.", "Music Director: Shantanu Moitra.", "Lyricist: Swanand Kirkire."], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Piyu bole piya bole", "indian": "Sa Ni(k) Sa Re… Ga.Re Ga Pa.ma Ga…", "western": "C Bb C D… eD E gF E…"}, {"lyrics": "Hmm hmm hmm hmm jaanu na", "indian": "Sa Ni(k) Sa Re…Sa Ni(k) Sa…", "western": "C Bb C D…C Bb C…"}, {"lyrics": "Jiya dole hole hole", "indian": "Sa Ni(k) Sa Re… Ga.Re Ga Pa.ma Ga…", "western": "C Bb C D… eD E gF E…"}, {"lyrics": "Kyon yeh dole jaanu na", "indian": "Sa Ni(k) Sa Re…Sa Ni(k) Sa…", "western": "C Bb C D…C Bb C…"}, {"lyrics": "Dil ki jo baatein hain", "indian": "Sa Pa ma Re Pa ma", "western": "C G F D G F"}, {"lyrics": "Baatein jo dil ki hain", "indian": "Sa Pa ma Re Pa ma", "western": "C G F D G F"}, {"lyrics": "Dil hi mein rakhna piya", "indian": "Sa Pa ma Ga.Re.Ga ma Ga…Re.Sa", "western": "C G F edE F E…dC"}, {"lyrics": "Lab to na kholoon main", "indian": "Sa Pa ma Re Pa ma", "western": "C G F D G F"}, {"lyrics": "Kholoon na lab to par", "indian": "Sa Pa ma Re Pa ma", "western": "C G F D G F"}, {"lyrics": "Aakhon se sab keh diya", "indian": "Sa Pa ma Ga.Re.Ga ma Ga…Re.Sa", "western": "C G F edE F E…dC"}, {"lyrics": "Piyu bole piya bole", "indian": "Sa Ni(k) Sa Re… Ga.Re Ga Pa.ma Ga…", "western": "C Bb C D… eD E gF E…"}, {"lyrics": "Kya yeh bole jaanu na", "indian": "Sa Ni(k) Sa Re…Sa Ni(k) Sa…", "western": "C Bb C D…C Bb C…"}, {"lyrics": "Jiya dole hole hole", "indian": "Sa Ni(k) Sa Re… Ga.Re Ga Pa.ma Ga…", "western": "C Bb C D… eD E gF E…"}, {"lyrics": "Kyon yeh dole jaanu na", "indian": "Sa Ni(k) Sa Re…Sa Ni(k) Sa…", "western": "C Bb C D…C Bb C…"}]}], "background": "piyu_bole_bg.png"}
+---
+
+ 

@@ -1,0 +1,14 @@
+---
+title: "Titanic"
+type: "song"
+description: "Music from the motion picture Titanic"
+resources:
+  - src: "titanic.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "titanic", "title": "Titanic", "info": ["Music from the motion picture Titanic", "Music composed and conducted by James Horner", "Notation: S R G m P D N (Sa Ri Ga Ma Pa Dha Ni); ' = high octave"], "sections": [{"name": "Titanic", "lines": [{"lyrics": "", "indian": "Sa Re Ga  ma Ga Re Sa Re Pa   Ga Re Sa 'Dha Sa 'Pa", "western": "C D E  F E D C D G   E D C 'A C 'G"}, {"lyrics": "", "indian": "Sa Re Ga  ma Ga Re Sa Re Pa   Ga Pa Dha Pa Re", "western": "C D E  F E D C D G   E G A G D"}]}, {"name": "Theme", "lines": [{"lyrics": "", "indian": "Sa Sa Sa Sa 'Ni Sa Sa 'Ni Sa Re Ga Re Sa Sa Sa Sa 'Ni Sa Sa 'Pa", "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'G"}, {"lyrics": "", "indian": "Sa Sa Sa Sa 'Ni Sa Sa 'Ni Sa Re Ga Re Sa Sa Sa Sa 'Ni Sa Sa 'Pa", "western": "C C C C 'B C C 'B C D E D C C C C 'B C C 'G"}, {"lyrics": "", "indian": "Sa      Re      'Pa Pa ma Ga Re Ga ma Ga  Re Sa 'Ni Sa 'Ni 'Dha  'Pa", "western": "C      D      'G G F E D E F E  D C 'B C 'B 'A  'G"}, {"lyrics": "", "indian": "Sa      Re      'Pa Pa ma Ga Re Ga ma Ga  Re Sa 'Ni Sa 'Ni 'Ni Sa Re Ga Re Sa", "western": "C      D      'G G F E D E F E  D C 'B C 'B 'B C D E D C"}]}], "background": "titanic.png"}
+---
+
+ 

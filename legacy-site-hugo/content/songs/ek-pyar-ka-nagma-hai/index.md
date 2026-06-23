@@ -1,0 +1,14 @@
+---
+title: "Ek Pyar Ka Nagma Hai"
+type: "song"
+description: "Movie: Shor (1972)"
+resources:
+  - src: "ek_pyar_ka_nagma_hai.png"
+    params:
+      cover: true
+params:
+  songJson: |
+    {"id": "ek-pyar-ka-nagma-hai", "title": "Ek Pyar Ka Nagma Hai", "info": ["Movie: Shor (1972)", "Singers: Lata Mangeshkar, Mukesh", "Lyricist: Santosh Anand", "Music Director: Laxmikant Pyarelal", "Raag: Yaman Kalyan (based)"], "sections": [{"name": "STHAYI", "lines": [{"lyrics": "Ek pyaar ka nagmaa haii", "indian": "Sa Re Ga…ma Pa ma ma Ga Ga", "western": "C D E…F G F F E E"}, {"lyrics": "Mauzon ki rawani haii", "indian": "Sa Re Ga Ga ma Pa ma ma Ga Ga", "western": "C D E E F G F F E E"}, {"lyrics": "Zindagi aur kuch bhii nahii", "indian": "Ga ma Pa Ni…Dha Pa ma Pa Dha", "western": "E F G B…A G F G A"}, {"lyrics": "Terii meri kahani haii", "indian": "Pa ma Re…Pa…Pa ma…Dha.Pa.ma Ga", "western": "G F D…G…G F…agF E"}, {"lyrics": "(Repeat) Ek pyaar ka nagmaa haii", "indian": "Sa Re Ga…ma Pa ma ma Ga Ga", "western": "C D E…F G F F E E"}, {"lyrics": "(Repeat) Mauzon ki rawani haii", "indian": "Sa Re Ga Ga ma Pa ma ma Ga Ga", "western": "C D E E F G F F E E"}]}, {"name": "MUSIC", "lines": [{"lyrics": "Laaa laa la la la laa", "indian": "Sa Re Dha(k) Sa Ga ma…", "western": "C D Ab C E F…"}, {"lyrics": "Laaa laa la la la laa", "indian": "Ga Ga Ga Re Re Ga…", "western": "E E E D D E…"}]}, {"name": "ANTARA 1", "lines": [{"lyrics": "Kuch pakar khonaa haii", "indian": "Pa Pa Sa'…Sa' Sa' Sa'…Re' Sa' Ni", "western": "G G C'…C' C' C'…D' C' B"}, {"lyrics": "Kuch khokar paana hai", "indian": "Pa Pa Sa'…Sa' Sa' Sa'…Ga'.Re'.Sa' Ni", "western": "G G C'…C' C' C'…E'.D'.C' B"}, {"lyrics": "Jeewan ka matlab toh", "indian": "Pa…Ni(k)…Ni(k)…Ni(k) Sa' Ni(k) Pa Dha…", "western": "G…Bb…Bb…Bb C' Bb G A…"}, {"lyrics": "Aana or jaana hai", "indian": "Dha Sa' Dha Sa' Ni Dha Pa…Dha Pa Pa Ga", "western": "A C' A C' B A G…A G G E"}, {"lyrics": "Doo pal kee jeewan see", "indian": "Sa Re Ga Ga ma Pa ma ma Ga Ga", "western": "C D E E F G F F E E"}, {"lyrics": "Ek umra churanii hai", "indian": "Sa Re Ga Ga ma Pa ma ma Ga Ga", "western": "C D E E F G F F E E"}]}], "background": "ek_pyar_ka_nagma_hai_bg.png"}
+---
+
+ 
