@@ -90,6 +90,13 @@ export default function RootLayout({
           }}
         />
 
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(s){s.dataset.zone='11193233',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
+          }}
+        />
+
         {ENABLE_PROPELLER_GLOBAL_TAG ? (
           <script
             src="https://quge5.com/88/tag.min.js"
