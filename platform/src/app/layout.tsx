@@ -83,6 +83,13 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full`}>
       <head>
 
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(s){s.dataset.zone='11193230',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
+          }}
+        />
+
         {ENABLE_PROPELLER_GLOBAL_TAG ? (
           <script
             src="https://quge5.com/88/tag.min.js"
