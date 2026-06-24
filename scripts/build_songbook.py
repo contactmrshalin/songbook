@@ -873,6 +873,32 @@ def make_pdf(
         except Exception:
             pass
 
+    def try_spotify_image(song: Dict[str, Any], cache_dir: Path) -> Optional[Path]:
+        """
+        Try to download Spotify album art as fallback thumbnail.
+        Returns path to cached image, or None if unavailable/failed.
+        """
+        spotify_url = song.get("spotifyImageUrl")
+        if not spotify_url:
+            return None
+        
+        # Cache to local images dir
+        song_id = song.get("id", "unknown")
+        cache_path = cache_dir / f"{song_id}-spotify.jpg"
+        
+        # Use cached if exists
+        if cache_path.exists():
+            return cache_path
+        
+        # Try to download
+        try:
+            import urllib.request
+            cache_dir.mkdir(parents=True, exist_ok=True)
+            urllib.request.urlretrieve(str(spotify_url), str(cache_path))
+            return cache_path
+        except Exception:
+            return None
+    
     def draw_header(song: Dict[str, Any]) -> float:
         thumb = safe_path(base_dir, song.get("thumbnail", ""))
         y = H - margin
@@ -887,6 +913,16 @@ def make_pdf(
                 has_thumb = True
             except Exception:
                 has_thumb = False
+        
+        # Fallback: try Spotify image
+        if not has_thumb:
+            spotify_thumb = try_spotify_image(song, base_dir / "images")
+            if spotify_thumb:
+                try:
+                    c.drawImage(str(spotify_thumb), x, y - thumb_h, width=thumb_w, height=thumb_h, mask="auto")
+                    has_thumb = True
+                except Exception:
+                    has_thumb = False
 
         if not has_thumb:
             c.rect(x, y - thumb_h, thumb_w, thumb_h, stroke=1, fill=0)

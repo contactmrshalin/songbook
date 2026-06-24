@@ -1,0 +1,38 @@
+# Vercel Build Configuration
+# Tell Vercel to only build the platform directory (Next.js)
+# Ignore mobile app and data processing scripts
+
+# Mobile app (uses React Native, different deps)
+mobile-app/
+
+# Data and scripts (not needed for web deployment)
+data/
+scripts/
+tests/
+misc/
+legacy-site-hugo/
+
+# Python venvs and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Git files
+.git/
+.gitignore
+
+# Lock files (only need one per workspace)
+package-lock.json
+
+# Editor and system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+dist/
+out/
+.next/
