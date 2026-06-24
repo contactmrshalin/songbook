@@ -1,13 +1,13 @@
 # Vercel Build Configuration
-# Tell Vercel to only build the platform directory (Next.js)
-# Ignore mobile app and data processing scripts
+# Note: Root directory is set to "platform" in Vercel dashboard
+# Only ignore root-level directories; platform/* is the actual deployment root
 
 # Mobile app (uses React Native, different deps)
 mobile-app/
 
-# Data and scripts (not needed for web deployment)
+# Root-level data and scripts (not needed for web deployment)
+# Platform has its own scripts directory that MUST be included
 data/
-scripts/
 tests/
 misc/
 legacy-site-hugo/
