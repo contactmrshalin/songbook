@@ -899,8 +899,31 @@ def make_pdf(
         except Exception:
             return None
     
+    def resolve_image_path(rel_path: str) -> Optional[Path]:
+        """
+        Resolve image path. Handles both old format (images/...) and new format (data/images/...).
+        Falls back to data/images/ directory for backward compatibility.
+        """
+        if not rel_path:
+            return None
+        
+        # Try direct path first
+        p = safe_path(base_dir, rel_path)
+        if p:
+            return p
+        
+        # Fallback: try in data/images directory if path is just filename or images/...
+        if not rel_path.startswith("data/"):
+            # Remove "images/" prefix if present
+            filename = rel_path.replace("images/", "")
+            fallback = safe_path(base_dir, f"data/images/{filename}")
+            if fallback:
+                return fallback
+        
+        return None
+    
     def draw_header(song: Dict[str, Any]) -> float:
-        thumb = safe_path(base_dir, song.get("thumbnail", ""))
+        thumb = resolve_image_path(song.get("thumbnail", ""))
         y = H - margin
         x = margin
         thumb_w = 1.0 * inch
@@ -1077,10 +1100,10 @@ def make_pdf(
     first_bg = None
     cover_rel = str((book_meta.get("cover_image") or "")).strip()
     if cover_rel:
-        first_bg = safe_path(base_dir, cover_rel)
+        first_bg = resolve_image_path(cover_rel)
     if not first_bg:
         for s in songs:
-            bg = safe_path(base_dir, s.get("background", ""))
+            bg = resolve_image_path(s.get("background", ""))
             if bg:
                 first_bg = bg
                 break
@@ -1112,7 +1135,7 @@ def make_pdf(
 
     # Song pages
     for s in songs:
-        bg = safe_path(base_dir, s.get("background", ""))
+        bg = resolve_image_path(s.get("background", ""))
         per_song_mode = (s.get("background_mode") or "").strip()
         dest = f"dest_{s['id']}"
 

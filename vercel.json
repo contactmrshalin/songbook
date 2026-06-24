@@ -1,7 +1,8 @@
 {
-  "framework": "nextjs",
+  "buildCommand": "cd platform && node scripts/prebuild.mjs && next build",
   "installCommand": "yarn install --no-lockfile --ignore-scripts",
-  "buildCommand": "node scripts/prebuild.mjs && next build",
+  "outputDirectory": "platform/.next",
+  "framework": "nextjs",
   "git": {
     "deploymentEnabled": {
       "gh-pages": false
