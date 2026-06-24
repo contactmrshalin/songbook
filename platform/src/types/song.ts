@@ -12,6 +12,19 @@ export interface SongSection {
   lines: SongLine[];
 }
 
+export interface SpotifyAttribution {
+  /** Direct link to track on Spotify */
+  trackUrl: string;
+  /** Direct link to album on Spotify */
+  albumUrl: string;
+  /** Artist name(s) */
+  artists: string[];
+  /** Album name */
+  album: string;
+  /** Release date (e.g., "1976") */
+  releaseDate: string;
+}
+
 export interface Song {
   id: string;
   title: string;
@@ -35,6 +48,10 @@ export interface Song {
    * Example: "musicxml/pal-pal-dil-ke-paas.musicxml"
    */
   musicxml?: string;
+  /** URL to album art image from Spotify (stored as URL, never downloaded locally) */
+  spotifyImageUrl?: string;
+  /** Attribution and metadata from Spotify (artists, album, track link) */
+  spotifyAttribution?: SpotifyAttribution;
 }
 
 export interface BookMeta {
