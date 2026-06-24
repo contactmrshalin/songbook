@@ -1,6 +1,6 @@
 {
-  "buildCommand": "node scripts/prebuild.mjs && npm run build",
-  "installCommand": "yarn install --no-lockfile --ignore-scripts --frozen-lockfile false",
+  "buildCommand": "yarn build",
+  "installCommand": "yarn install --no-lockfile --ignore-scripts",
   "outputDirectory": "platform/.next",
   "buildDirectory": "platform",
   "framework": "nextjs",
