@@ -1,12 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import AdSenseLoader from "@/components/AdSenseLoader";
-import { ADSENSE_PUBLISHER_ID } from "@/lib/ads.config";
+import { ADSENSE_PUBLISHER_ID, ADS_CONFIG } from "@/lib/ads.config";
 import { SITE_CONFIG } from "@/lib/site.config";
 import "./globals.css";
 
+const ENABLE_ADS = ADS_CONFIG.enabled;
 const ENABLE_PROPELLER_GLOBAL_TAG =
-  process.env.NEXT_PUBLIC_ENABLE_PROPELLER_GLOBAL_TAG === "true";
+  ENABLE_ADS && process.env.NEXT_PUBLIC_ENABLE_PROPELLER_GLOBAL_TAG === "true";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -83,26 +84,30 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full`}>
       <head>
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "(function(s){s.dataset.zone='11193230',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
-          }}
-        />
+        {ENABLE_ADS ? (
+          <>
+            <script
+              dangerouslySetInnerHTML={{
+                __html:
+                  "(function(s){s.dataset.zone='11193230',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
+              }}
+            />
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "(function(s){s.dataset.zone='11193233',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
-          }}
-        />
+            <script
+              dangerouslySetInnerHTML={{
+                __html:
+                  "(function(s){s.dataset.zone='11193233',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
+              }}
+            />
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "(function(s){s.dataset.zone='11193226',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
-          }}
-        />
+            <script
+              dangerouslySetInnerHTML={{
+                __html:
+                  "(function(s){s.dataset.zone='11193226',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
+              }}
+            />
+          </>
+        ) : null}
 
         {ENABLE_PROPELLER_GLOBAL_TAG ? (
           <script

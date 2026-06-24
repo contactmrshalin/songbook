@@ -7,6 +7,10 @@
  * 3. Set NEXT_PUBLIC_ADSENSE_PUBLISHER_ID in your environment
  * 4. Create ad units in AdSense dashboard and update the slot IDs below
  *
+ * Global ad kill switch:
+ * - NEXT_PUBLIC_ENABLE_ADS=true|false (default: false)
+ *   Set to true to enable all ad rendering and ad network script loading.
+ *
  * Optional fallback scaffold (no runtime switch yet):
  * - NEXT_PUBLIC_AD_FALLBACK_PROVIDER=none|propellerads|ezoic
  *   Records your planned fallback target for quick future activation.
@@ -126,7 +130,7 @@ export function getPropellerVisibleZoneForAdSlot(adSlot: string): string {
 export const ADS_CONFIG = {
 
   /** Set to false to disable all ads (useful during development) */
-  enabled: true,
+  enabled: process.env.NEXT_PUBLIC_ENABLE_ADS === "true",
 
   /** Insert a mid-content ad after every N sections */
   midContentInterval: 3,
