@@ -1,7 +1,8 @@
 {
-  "buildCommand": "cd platform && node scripts/prebuild.mjs && next build",
-  "installCommand": "yarn install --no-lockfile --ignore-scripts",
+  "buildCommand": "node scripts/prebuild.mjs && npm run build",
+  "installCommand": "yarn install --no-lockfile --ignore-scripts --frozen-lockfile false",
   "outputDirectory": "platform/.next",
+  "buildDirectory": "platform",
   "framework": "nextjs",
   "git": {
     "deploymentEnabled": {
