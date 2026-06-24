@@ -2,6 +2,7 @@
   "buildCommand": "yarn build",
   "installCommand": "yarn install --no-lockfile --ignore-scripts",
   "framework": "nextjs",
+  "rootDirectory": ".",
   "git": {
     "deploymentEnabled": {
       "gh-pages": false

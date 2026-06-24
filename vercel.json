@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd platform && yarn build",
+  "installCommand": "cd platform && yarn install --no-lockfile --ignore-scripts",
+  "framework": "nextjs",
+  "rootDirectory": "platform"
+}
