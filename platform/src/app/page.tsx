@@ -1,6 +1,6 @@
 import { getAllSongs } from "@/lib/songs";
 import Header from "@/components/Header";
-import SongGallery from "@/components/SongGallery";
+import LiveSongGallery from "@/components/LiveSongGallery";
 import AdBanner from "@/components/AdBanner";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
@@ -151,7 +151,7 @@ export default function Home() {
             />
           </div>
 
-          <SongGallery songs={songs} />
+          <LiveSongGallery fallbackSongs={songs} />
         </div>
       </main>
 
