@@ -12,17 +12,17 @@ export interface SongSection {
   lines: SongLine[];
 }
 
-export interface SpotifyAttribution {
-  /** Direct link to track on Spotify */
-  trackUrl: string;
-  /** Direct link to album on Spotify */
-  albumUrl: string;
-  /** Artist name(s) */
-  artists: string[];
-  /** Album name */
-  album: string;
-  /** Release date (e.g., "1976") */
-  releaseDate: string;
+export interface ImageAttribution {
+  /** Source of the image (e.g., "Spotify", "IMDB", "User-provided") */
+  source: string;
+  /** Copyright holder or creator */
+  copyright?: string;
+  /** License type (e.g., "Spotify API", "CC-BY", "Fair Use") */
+  license?: string;
+  /** Link to original source */
+  sourceUrl?: string;
+  /** Date added or last updated */
+  addedDate?: string;
 }
 
 export interface Song {
@@ -34,6 +34,10 @@ export interface Song {
   thumbnail: string;
   background: string;
   background_mode?: "cover" | "tile" | "contain";
+  /** Attribution metadata for thumbnail image */
+  thumbnailAttribution?: ImageAttribution;
+  /** Attribution metadata for background image */
+  backgroundAttribution?: ImageAttribution;
   sections: SongSection[];
   /** Short engaging description of the song (AI-generated, user-editable) */
   description?: string;
@@ -48,10 +52,6 @@ export interface Song {
    * Example: "musicxml/pal-pal-dil-ke-paas.musicxml"
    */
   musicxml?: string;
-  /** URL to album art image from Spotify (stored as URL, never downloaded locally) */
-  spotifyImageUrl?: string;
-  /** Attribution and metadata from Spotify (artists, album, track link) */
-  spotifyAttribution?: SpotifyAttribution;
 }
 
 export interface BookMeta {

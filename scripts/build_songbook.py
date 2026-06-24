@@ -913,21 +913,24 @@ def make_pdf(
                 has_thumb = True
             except Exception:
                 has_thumb = False
-        
-        # Fallback: try Spotify image
-        if not has_thumb:
-            spotify_thumb = try_spotify_image(song, base_dir / "images")
-            if spotify_thumb:
-                try:
-                    c.drawImage(str(spotify_thumb), x, y - thumb_h, width=thumb_w, height=thumb_h, mask="auto")
-                    has_thumb = True
-                except Exception:
-                    has_thumb = False
 
         if not has_thumb:
             c.rect(x, y - thumb_h, thumb_w, thumb_h, stroke=1, fill=0)
             c.setFont(text_fonts.italic, 8.5)
             c.drawCentredString(x + thumb_w / 2, y - thumb_h / 2, "Thumbnail")
+
+        # Display thumbnail attribution if available
+        attr = song.get("thumbnailAttribution", {})
+        if attr and has_thumb:
+            c.setFont(text_fonts.italic, 7.5)
+            attr_text = "© " if attr.get("copyright") else ""
+            attr_text += attr.get("copyright", "")
+            if attr.get("source"):
+                attr_text += f" | {attr['source']}"
+            if attr.get("license"):
+                attr_text += f" | {attr['license']}"
+            # Draw attribution below thumbnail
+            draw_text_with_emoji_fallback(x, y - thumb_h - 0.12 * inch, attr_text, base_font=text_fonts.italic, base_size=7.5)
 
         tx = x + thumb_w + 0.25 * inch
         c.setFont(text_fonts.bold, 14)
