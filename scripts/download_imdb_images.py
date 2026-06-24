@@ -128,7 +128,7 @@ def get_imdb_poster_url(imdb_id: str) -> Optional[str]:
     """
     try:
         headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
         
         # Try direct API endpoint first
@@ -136,16 +136,26 @@ def get_imdb_poster_url(imdb_id: str) -> Optional[str]:
         response = requests.get(api_url, headers=headers, timeout=10)
         response.raise_for_status()
         
-        # Extract image URL from page HTML
-        # IMDB stores poster image in og:image meta tag
-        match = re.search(r'<meta property="og:image"[^>]*content="([^"]+)"', response.text)
-        if match:
-            img_url = match.group(1)
-            # IMDB image URLs can be resized by adding @.jpg parameters
-            # Convert to high resolution: UX###_CR###,###,###,### format
-            # Remove existing size params and request maximum resolution
-            img_url = re.sub(r'@.*\.jpg', '@._V1_UX1500_.jpg', img_url)
-            return img_url
+        # Extract image URL from page HTML - try multiple patterns
+        patterns = [
+            r'"posterUrl":"([^"]+)"',  # JSON data
+            r'<meta property="og:image"[^>]*content="([^"]+)"',  # Open graph
+            r'src="([^"]*imdb_pro[^"]*\.jpg)',  # Poster img
+            r'<img[^>]*class="[^"]*ipc-image[^"]*"[^>]*src="([^"]+)"[^>]*alt="Poster"',  # IPC image
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, response.text)
+            if match:
+                img_url = match.group(1)
+                # Decode HTML entities
+                img_url = img_url.replace("\\", "").replace('","', ',')
+                
+                # If it's a relative URL or needs resolution upgrade
+                if img_url and ('jpg' in img_url or 'jpeg' in img_url):
+                    # Try to upgrade resolution
+                    img_url = re.sub(r'@.*\.jpg', '@._V1_UX1500_.jpg', img_url)
+                    return img_url
         
         return None
     except Exception as e:
