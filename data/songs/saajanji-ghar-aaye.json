@@ -1,0 +1,130 @@
+{
+  "id": "saajanji-ghar-aaye",
+  "title": "Saajanji Ghar Aaye",
+  "export": true,
+  "info": [
+    "Film/Artist: Kuch Kuch Hota Hai",
+    "Scale: B BASS/MIDDLE",
+    "Singer: Kumar Sanu, Alka Yagnik, Kavita Krishnamurthy",
+    "Music: Jatin-Lalit",
+    "Lyrics: Sameer",
+    "Year: 1998"
+  ],
+  "thumbnail": "images/saajanji-ghar-aaye.jpg",
+  "background": "images/saajanji-ghar-aaye.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kab se aaye hain tere",
+          "indian": "Dha Ga': ma' Ga': Re' Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Dulhe raja",
+          "indian": "Dha Ga': ma' Ga'"
+        },
+        {
+          "lyrics": "Ab der na kar",
+          "indian": "Dha Ga': ma' Ga': Re' Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Jaldi aaja",
+          "indian": "Dha Ga': ma' Ga'"
+        },
+        {
+          "lyrics": "Kab se aaye hain tere",
+          "indian": "Dha Ga': ma' Ga': Re' Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Dulhe raja",
+          "indian": "Dha Ga': ma' Ga'"
+        },
+        {
+          "lyrics": "Ab der na kar",
+          "indian": "Dha Ga': ma' Ga': Re' Sa' Ni Dha"
+        },
+        {
+          "lyrics": "Jaldi aaja",
+          "indian": "Dha Ga': ma' Ga'"
+        },
+        {
+          "lyrics": "Hooo….",
+          "indian": "Sa' Ni Dha Pa Ni: .S' Re' Ga'"
+        },
+        {
+          "lyrics": "Hooo….",
+          "indian": "Sa' Ni Dha Pa Dha: .P ma Dha"
+        },
+        {
+          "lyrics": "Tere ghar aaya",
+          "indian": "Sa' Sa' Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Main aaya tujhko lene",
+          "indian": "Dha Pa Pa: Pa Ni Ni: Ni Dha Dha: Dha"
+        },
+        {
+          "lyrics": "Dil ke badle mein",
+          "indian": "Sa' Sa': Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Dil ka nazrana dene",
+          "indian": "Dha Pa Pa: Pa Ni Ni: Ni Dha Dha: Dha"
+        },
+        {
+          "lyrics": "Tere ghar aaya",
+          "indian": "Sa' Sa': Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Main aaya tujhko lene",
+          "indian": "Dha Pa Pa: Pa Ni Ni: Ni Dha Dha: Dha"
+        },
+        {
+          "lyrics": "Dil ke badle mein",
+          "indian": "Sa' Sa': Ni Dha Ni Ni"
+        },
+        {
+          "lyrics": "Dil ka nazrana dene",
+          "indian": "Dha Pa Pa: Pa Ni Ni: Ni Dha Dha: Dha"
+        },
+        {
+          "lyrics": "Meri har dhadkan kya bole",
+          "indian": "Ga' Ga': Re' Sa' Re' Re': Sa' Ni Sa' Sa':"
+        },
+        {
+          "lyrics": "Hai sun sun sun sun",
+          "indian": "Ga' Ga' Ga' Ga' Ga'"
+        },
+        {
+          "lyrics": "Saajan ji ghar aaye",
+          "indian": "Dha Dha Dha Dha Dha Ni: Dha Pa"
+        },
+        {
+          "lyrics": "Saajan ji ghar aaye",
+          "indian": "Pa Pa Ni Ni Dha Dha: Dha"
+        },
+        {
+          "lyrics": "Dulhan kyun sharmaye",
+          "indian": "Dha Dha Dha Dha Dha Ni: Dha Pa"
+        },
+        {
+          "lyrics": "Saajan ji ghar aaye",
+          "indian": "Pa Pa Ni Ni Dha Dha: Dha"
+        }
+      ]
+    }
+  ],
+  "description": "This vibrant and celebratory track is a quintessential Bollywood wedding anthem, capturing the joyous anticipation of a groom's arrival. Its energetic rhythm, catchy melody, and powerful vocals create an atmosphere of festive grandeur, making it a staple at Indian weddings even decades later. The song perfectly encapsulates the film's blend of romance, friendship, and family values.",
+  "trivia": [
+    "The song features a memorable entry for Salman Khan's character, Aman Mehra, adding a grand scale to the wedding sequence in the film.",
+    "It was picturised on a lavish set designed to resemble a traditional Indian wedding, complete with elaborate decorations and a large ensemble of dancers.",
+    "The music by Jatin-Lalit, known for their melodic compositions, perfectly blended traditional Indian festive sounds with contemporary Bollywood orchestration.",
+    "The song's enduring popularity has made it a cultural reference point for wedding celebrations across India."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme revolves around the immense joy and excitement surrounding a wedding, specifically the moment when the groom ('Saajanji') arrives at the bride's home. It expresses the collective happiness of the family and friends, celebrating the union and the beginning of a new chapter for the couple.",
+    "lyricSymbolism": "The title 'Saajanji Ghar Aaye' directly translates to 'My beloved has come home,' symbolizing the culmination of anticipation for the bride and her family. The lyrics use simple yet evocative imagery of celebration, happiness, and blessings, common in Indian wedding songs, without relying on complex metaphors. Phrases like 'dhol bajne lage' (drums started playing) and 'shehnai gunj uthi' (shehnai resonated) are direct cultural references to traditional wedding music, signifying the festive mood."
+  },
+  "musicxml": "musicxml/saajanji-ghar-aaye.musicxml"
+}
