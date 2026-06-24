@@ -1,8 +1,6 @@
 {
   "buildCommand": "yarn build",
   "installCommand": "yarn install --no-lockfile --ignore-scripts",
-  "outputDirectory": "platform/.next",
-  "buildDirectory": "platform",
   "framework": "nextjs",
   "git": {
     "deploymentEnabled": {
