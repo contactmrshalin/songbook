@@ -7,7 +7,7 @@ Usage:
   python3 scripts/enrich_spotify.py [options]
 
 Options:
-  --song <id>        Enrich a single song by ID.
+  --song <id|title>  Enrich a single song by ID (filename) or title.
   --all              Enrich all songs (default).
   --dry-run          Show what would be enriched; don't save files.
 
@@ -16,6 +16,9 @@ Environment:
   SPOTIFY_CLIENT_SECRET  Required. Spotify Developer app client secret.
 
 Examples:
+  SPOTIFY_CLIENT_ID=abc... SPOTIFY_CLIENT_SECRET=xyz... \\
+    python3 scripts/enrich_spotify.py --song "Bol Na Halke Halke"
+  
   SPOTIFY_CLIENT_ID=abc... SPOTIFY_CLIENT_SECRET=xyz... \\
     python3 scripts/enrich_spotify.py --song bol-na-halke-halke
   
@@ -61,6 +64,25 @@ def load_song(song_id: str) -> Optional[Dict[str, Any]]:
     except Exception as e:
         print(f"❌ Failed to load {song_id}: {e}")
         return None
+
+
+def find_song_id_by_title(title: str) -> Optional[str]:
+    """Find song ID by title. Returns ID if found, None otherwise."""
+    # Try exact ID match first
+    if load_song(title) is not None:
+        return title
+    
+    # Search by title in all songs
+    book = load_book_json()
+    song_ids = book.get("song_order", [])
+    
+    title_lower = title.lower().strip()
+    for song_id in song_ids:
+        song = load_song(song_id)
+        if song and song.get("title", "").lower().strip() == title_lower:
+            return song_id
+    
+    return None
 
 def save_song(song_id: str, song: Dict[str, Any]) -> bool:
     """Save song JSON."""
@@ -207,7 +229,7 @@ def main():
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument("--song", type=str, help="Enrich single song by ID")
+    parser.add_argument("--song", type=str, help="Enrich single song by ID or title")
     parser.add_argument("--all", action="store_true", help="Enrich all songs (default)")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without saving")
     
@@ -239,11 +261,17 @@ def main():
         sys.exit(1)
     
     if args.song:
-        # Single song
-        if enrich_song(args.song, token, dry_run=args.dry_run):
-            print(f"\n✓ Enriched {args.song} with Spotify metadata")
+        # Single song - resolve by ID or title
+        song_id = find_song_id_by_title(args.song)
+        if not song_id:
+            print(f"❌ Song not found: {args.song}")
+            print("   Try using the song ID (filename) or exact title")
+            sys.exit(1)
+        
+        if enrich_song(song_id, token, dry_run=args.dry_run):
+            print(f"\n✓ Enriched {song_id} with Spotify metadata")
         else:
-            print(f"\nℹ No Spotify match for {args.song}")
+            print(f"\nℹ No Spotify match for {song_id}")
     else:
         # All songs
         print(f"\nProcessing {len(song_ids)} songs...\n")
