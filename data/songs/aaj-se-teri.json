@@ -1,0 +1,78 @@
+{
+  "id": "aaj-se-teri",
+  "title": "Aaj Se Teri",
+  "export": true,
+  "info": [
+    "Film/Artist: Padman"
+  ],
+  "thumbnail": "images/aaj-se-teri.jpg",
+  "background": "images/aaj-se-teri.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Aaj see teri saari galiyan merii hoo gayi",
+          "indian": "Re Pa Pa ma Ga ma ma Ga Re Ga Re Ga Sa Sa Re"
+        },
+        {
+          "lyrics": "Aaj see mera ghar tera hoo gayaa",
+          "indian": "Re Pa Pa ma Ga ma Ga Re Ga: Re Sa Re"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Aaj see teri saari galiyan merii hoo gayi",
+          "indian": "Re Pa Pa ma Ga ma ma Ga Re Ga Re Ga Sa Sa Re"
+        },
+        {
+          "lyrics": "Aaj see mera ghar tera hoo gayaa",
+          "indian": "Re Pa Pa ma Ga ma Ga Re Ga: Re Sa Re"
+        },
+        {
+          "lyrics": "Aaj see meri saari khushiyan terii hoo gayi",
+          "indian": "Re Pa Pa ma Ga ma ma Ga Re Ga Re Ga Sa Sa Re"
+        },
+        {
+          "lyrics": "Aaj se tera gham meraa ho gayaa",
+          "indian": "Re Pa Pa ma Ga ma Ga Re Ga: Re Sa Re"
+        },
+        {
+          "lyrics": "O tere kaandhee ka jo til haii",
+          "indian": "Dha Dha Dha. Pa Dha Dha Dha. Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "O tere seeme mein jo dil haii",
+          "indian": "Pa Pa Pa Pa. ma Pa Pa Pa ma Pa ma Ga"
+        },
+        {
+          "lyrics": "O teri bijli kaa jo nil haii",
+          "indian": "Dha Dha Dha. Pa Dha Dha Dha. Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "Aaj see mera hoo gaya",
+          "indian": "Pa Pa Pa Pa Dha Pa ma Ga Re."
+        },
+        {
+          "lyrics": "O mere khwabon kaa ambar",
+          "indian": "Dha Dha Dha. Pa Dha Dha Dha. Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "O meri khushiyon kaa samandar",
+          "indian": "Pa Pa Pa Pa. ma Pa Pa Pa ma Pa ma Ga"
+        },
+        {
+          "lyrics": "O meree pin code kaa number",
+          "indian": "Dha Dha Dha. Pa Dha Dha Dha. Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "Aaj see tera hoo gaya",
+          "indian": "Pa Pa Pa Pa Dha Pa ma Ga Re."
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/aaj-se-teri.musicxml"
+}
