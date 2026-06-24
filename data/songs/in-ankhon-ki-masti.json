@@ -1,0 +1,116 @@
+{
+  "id": "in-ankhon-ki-masti",
+  "title": "In Ankhon Ki Masti",
+  "export": true,
+  "info": [
+    "Film/Artist: Asha Bhosle",
+    "Scale: F BASS/MIDDLE",
+    "Singer: Asha Bhosle",
+    "Music: Khayyam",
+    "Lyrics: Shahryar",
+    "Raag: Charukeshi",
+    "Thaat: Charukeshi",
+    "Year: 1981"
+  ],
+  "thumbnail": "images/in-ankhon-ki-masti.jpg",
+  "background": "images/in-ankhon-ki-masti.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Inn aankho ki masti ke",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Inn aankho ki masti ke",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Mastaane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Mastaane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Inn aankho se vabasta",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Inn aankho se vabasta",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Afsaane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Afsaane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Inn aankho ki masti ke",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Ek tum hi nahi tanha",
+          "indian": "Ga Pa Pa: Pa Pa Dha Pa Dha Pa Pa: Ga"
+        },
+        {
+          "lyrics": "Ek tum hi nahi tanha",
+          "indian": "Ga Pa Pa: Pa Pa Dha Pa Dha Pa Pa: Ga"
+        },
+        {
+          "lyrics": "Ulfat me meri rusva",
+          "indian": "Ga Dha Pa Ga Ga Re Re Re Ga ma Ga ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Ulfat me meri rusva",
+          "indian": "Re Ga Ga: Ga Re Re Re Ga ma Ga ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Iss shaher me tum jaise",
+          "indian": "Sa Sa Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Iss shaher me tum jaise",
+          "indian": "Sa Sa Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Deewane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Deewane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Inn aankho ki masti ke",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Mastaane hajaaro hain",
+          "indian": "Re Ga Ga: Ga Ga Ga Re: Re Ga ma Ga Re Sa Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Inn aankho ki masti ke",
+          "indian": "Sa: Sa: Re Re Ga Re Sa Sa: Sa"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic ghazal from 'Umrao Jaan' is a masterpiece of Indian film music, showcasing Asha Bhosle's unparalleled ability to convey deep emotion and sensuality. Khayyam's haunting composition, steeped in classical nuances, perfectly complements Shahryar's poetic lyrics, creating an atmosphere of alluring melancholy. It remains a timeless classic, celebrated for its exquisite beauty and profound emotional depth.",
+  "trivia": [
+    "The song is picturised on Rekha, whose portrayal of the courtesan Umrao Jaan is considered one of her career-defining performances, with her expressions perfectly embodying the song's mood.",
+    "Khayyam's music for 'Umrao Jaan' is widely regarded as one of his finest works, earning him the National Film Award for Best Music Direction.",
+    "The lyrics, penned by the poet Shahryar, are rich in Urdu ghazal tradition, using metaphors of intoxication and longing to describe the captivating power of a courtesan's gaze.",
+    "Asha Bhosle won the National Film Award for Best Female Playback Singer for her rendition of songs in 'Umrao Jaan', including this one, solidifying her status as a versatile legend."
+  ],
+  "meaning": {
+    "coreTheme": "The song delves into the intoxicating power of a courtesan's eyes and the profound impact they have on those who gaze upon them. It speaks of the allure, the pain, and the unrequited love often associated with the life of a tawaif (courtesan), reflecting Umrao Jaan's own complex emotional journey and her ability to captivate, yet remain emotionally distant.",
+    "lyricSymbolism": "The phrase 'In ankhon ki masti' (the intoxication of these eyes) is central, symbolizing the seductive and almost hypnotic charm of the courtesan. 'Mastane hazaaron hain' (thousands are intoxicated) highlights her widespread appeal, while 'saki' (wine server) and 'paimana' (wine cup) are classic ghazal metaphors for the beloved and the intoxicating effect of their presence or love, respectively, suggesting a spiritual or emotional intoxication rather than a literal one."
+  },
+  "musicxml": "musicxml/in-ankhon-ki-masti.musicxml"
+}
