@@ -12,94 +12,83 @@
   "background": "images/bade_achhe_lagte_hain_thumb.jpeg",
   "sections": [
     {
-      "name": "PRELUDE:",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Bade | Acchee | lagte | hai",
-          "indian": "RGR | SND | NS | G"
+          "lyrics": "Bade achche lagte hain",
+          "indian": "Re Ga: Sa ni dha ni Sa Ga:"
         },
         {
-          "lyrics": "Yeh | Dharti | yeh | nadiyaa,",
-          "indian": "G | GPM | R | RMG"
+          "lyrics": "Yeh dharti yeh nadiya",
+          "indian": "Ga Ga Pa ma: Re Re ma Ga:"
         },
         {
-          "lyrics": "yeh | rainaa | (aur)",
-          "indian": "S | SGR(G)R |"
+          "lyrics": "Yeh raina aur tum",
+          "indian": "Sa Sa Ga Re ni ni Sa"
         },
         {
-          "lyrics": "Aur | tum",
-          "indian": "N | S"
-        }
-      ]
-    },
-    {
-      "name": "MUKHDA:",
-      "lines": [
-        {
-          "lyrics": "Bade Acchee lagte hai",
-          "indian": "RGR | SND | NS | G"
+          "lyrics": "Bade achche lagte hain",
+          "indian": "Re Ga: Sa ni dha: ni Sa Ga:"
         },
         {
-          "lyrics": "Yeh Dharti ,yeh nadiyaa, yeh rainaa",
-          "indian": "G | GPM | R | RMG S | SGR(G)R |"
+          "lyrics": "Yeh dharti yeh nadiya",
+          "indian": "Ga Ga Pa ma: Re Re ma Ga:"
         },
         {
-          "lyrics": "Aur | tum mm mmmm",
-          "indian": "N | S RGRS"
-        }
-      ]
-    },
-    {
-      "name": "INTERLUDE:",
-      "lines": [
-        {
-          "lyrics": "O o O | MAjhi | re…….e",
-          "indian": "N'D'D' | N'N' | S' N'N' D'D' P'D'n'D'P'"
+          "lyrics": "Yeh raina aur tum",
+          "indian": "Sa Sa Ga Re ni ni Sa Ga Re Ga Re Sa"
         },
         {
-          "lyrics": "Jai | ho | piya | ke | de….sh",
-          "indian": "G | P' | P'N' D'P' D'N' D'P' | P'.... S'"
-        }
-      ]
-    },
-    {
-      "name": "ANTARA 1:",
-      "lines": [
-        {
-          "lyrics": "Hum | tum | kitane | paas | hai",
-          "indian": "S | S | SSS | S~GRG | R"
+          "lyrics": "Hum tum kitne paas hain kitne",
+          "indian": "Sa Sa Sa Sa Sa Ga Re Ga: Re Sa ni"
         },
         {
-          "lyrics": "kitane | duur | hain | chaand | sitaare",
-          "indian": "SN | N | N | N(S)ND | NNS"
+          "lyrics": "Door hain chaand sitare",
+          "indian": "ni: ni ni dha: ni ni Sa:"
         },
         {
-          "lyrics": "Sach | poochho | to | maan | ko | jhoothe",
-          "indian": "GG | G G | G | GP | M | G~RR"
+          "lyrics": "Sach poochho to",
+          "indian": "Ga Ga: Ga Ga"
         },
         {
-          "lyrics": "lagate | hain | yeh | saare",
-          "indian": "RR | M | M | MP"
+          "lyrics": "Man ko jhoote",
+          "indian": "Ga Pa ma: Ga Re"
         },
         {
-          "lyrics": "Magar | saccche | lagate | hai",
-          "indian": "RGR | SND | NS | G"
+          "lyrics": "Lagte hain yeh saare",
+          "indian": "Re Re: Ma Ma: Ma Pa:"
         },
         {
-          "lyrics": "Yeh | Dharti | yeh | nadiyaa,",
-          "indian": "G | GPM | R | RMG"
+          "lyrics": "Hum tum kitne paas hain kitne",
+          "indian": "Sa Sa Sa Sa Sa Ga Re Ga: Re Sa ni"
         },
         {
-          "lyrics": "yeh | rainaa | (aur)",
-          "indian": "S | SGR(G)R |"
+          "lyrics": "Door hain chaand sitare",
+          "indian": "ni: ni ni dha: ni ni Sa:"
         },
         {
-          "lyrics": "Aur | tum mm mmmmmm",
-          "indian": "N | S RGRS"
+          "lyrics": "Sach poochho to",
+          "indian": "Ga Ga: Ga Ga"
         },
         {
-          "lyrics": "End Music:",
-          "indian": "P... R... S..."
+          "lyrics": "Man ko jhoote",
+          "indian": "Ga Pa ma: Ga Re"
+        },
+        {
+          "lyrics": "Lagte hain yeh saare",
+          "indian": "Re Re: Ma Ma: Ma Pa:"
+        },
+        {
+          "lyrics": "Magar sachche lagte hain",
+          "indian": "Re Ga Sa ni dha ni Sa Ga:"
+        },
+        {
+          "lyrics": "Yeh dharti yeh nadiya",
+          "indian": "Ga Ga Pa ma: Re Re ma Ga:"
+        },
+        {
+          "lyrics": "Yeh raina aur tum",
+          "indian": "Sa Sa Ga Re ni ni Sa Ga Re Ga Re Sa"
         }
       ]
     }
