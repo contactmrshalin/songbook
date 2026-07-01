@@ -4,10 +4,14 @@
   "export": true,
   "info": [
     "Film/Artist: Chhichhore",
-    "Scale: D# BASS/MIDDLE"
+    "Scale: D# BASS/MIDDLE",
+    "Singer: Arijit Singh",
+    "Music: Pritam",
+    "Lyrics: Amitabh Bhattacharya",
+    "Year: 2019"
   ],
-  "thumbnail": "images/khairiyat.png",
-  "background": "images/khairiyat.png",
+  "thumbnail": "images/khairiyat.jpg",
+  "background": "images/khairiyat.jpg",
   "sections": [
     {
       "name": "STHAYI",
@@ -99,6 +103,16 @@
       ]
     }
   ],
-  "description": "https://i.scdn.co/image/ab67616d0000b273eaa6b4bfb5954ee5a5a8ce9e",
-  "musicxml": "musicxml/khairiyat.musicxml"
+  "description": "This soulful ballad from 'Chhichhore' is a poignant reflection on lost love and cherished memories, delivered with Arijit Singh's signature emotional depth. Pritam's melodious composition, coupled with Amitabh Bhattacharya's heartfelt lyrics, creates an atmosphere of tender nostalgia and longing. It perfectly encapsulates the film's themes of friendship, past regrets, and the enduring impact of relationships.",
+  "musicxml": "musicxml/khairiyat.musicxml",
+  "trivia": [
+    "\"Khairiyat\" became one of the most popular and streamed songs of 2019, resonating deeply with audiences for its emotional honesty.",
+    "Arijit Singh's rendition was widely lauded for its raw vulnerability and ability to convey profound sadness and hope simultaneously.",
+    "The song plays a crucial role in the film's narrative, underscoring the protagonist's emotional journey and his reflections on his past relationships.",
+    "Pritam's arrangement beautifully balances contemporary production with a classic, melancholic melody, making it accessible yet deeply moving."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of \"Khairiyat\" is a silent, heartfelt inquiry into the well-being of a loved one who is no longer present in one's life. It explores the enduring pain of separation, the bittersweet nature of cherished memories, and the persistent hope for the happiness of someone deeply missed. The song acts as a narrative device within the film, reflecting the protagonist's deep longing and concern for his estranged wife.",
+    "lyricSymbolism": "The lyrics employ simple yet powerful language to convey profound emotion. The repeated phrase \"Khairiyat poochho kabhi toh kaifiyat poochho\" (Ask about my well-being, sometimes ask about my condition) is a direct plea for connection and acknowledgement. Phrases like \"Poocho na kitna waqt guzra\" (Don't ask how much time has passed) emphasize the timelessness of the pain and longing. The song uses common Hindi/Urdu expressions of concern and memory, making the emotional core universally relatable."
+  }
 }
