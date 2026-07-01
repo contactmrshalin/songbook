@@ -11,80 +11,126 @@
   "background": "images/chhu_kar_mere_mann_ko_thumb.png",
   "sections": [
     {
-      "name": "MUKHDA",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Chhoo kar | Mere | Man | Ko",
-          "indian": "Ga Ga | Re Sa | Ni | Re"
+          "lyrics": "Chookar meree man koo",
+          "indian": "Ga Ga Re Sa ni Re"
         },
         {
-          "lyrics": "Kiya | tuney | Kya | Ishara",
-          "indian": "Pa Dha | Ni Ni | Sa Re | Ga Sa"
+          "lyrics": "Kiyaa tunee kyaa ishara",
+          "indian": "pa dha ni ni Sa Re Ga Sa"
         },
         {
-          "lyrics": "(Flute Interlude)",
-          "indian": "Pa' Dha' Pa' ma | Ga ma Ga ma Re Pa'"
+          "lyrics": "Chookar meree man koo",
+          "indian": "Ga Ga Re Sa ni Re"
         },
         {
-          "lyrics": "Chhoo kar | Mere | Man | Ko",
-          "indian": "Ga Ga | Re Sa | Ni | Re"
+          "lyrics": "Kiyaa tunee kyaa ishara",
+          "indian": "pa dha ni ni Sa Re Ga Sa"
         },
         {
-          "lyrics": "Kiya | tuney | Kya | Ishara",
-          "indian": "Pa Dha | Ni Ni | Sa Re | Ga Sa"
+          "lyrics": "Badlaa yeh mausam",
+          "indian": "Pa Pa: ma Ga ma Dha"
         },
         {
-          "lyrics": "Badalaaa | ye | mausam",
-          "indian": "Pa Pa | ma Ga | ma Dha"
+          "lyrics": "Lagey pyaara jag saaraa",
+          "indian": "Ni Ni Ni Ni Dha Ni Sa' Sa' Dha Sa'"
         },
         {
-          "lyrics": "lage | pyaaraa | jag | saaraa",
-          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')"
-        }
-      ]
-    },
-    {
-      "name": "ANTARA",
-      "lines": [
-        {
-          "lyrics": "TuJo | Kahe | Jeevan Bhar",
-          "indian": "Ga ma | ma Ga | Sa Pa | Ga"
+          "lyrics": "Chookar meree man koo",
+          "indian": "Ga Ga Re Sa ni Re"
         },
         {
-          "lyrics": "Tere | Liye | Main | Gaaoon (1)",
-          "indian": "Ga Pa | Pa Dha | Dha Pa | Pa Dha | Dha Sa'~Pa"
+          "lyrics": "Kiyaa tunee kya isharaa",
+          "indian": "pa dha ni ni Sa Re Ga Sa"
         },
         {
-          "lyrics": "Tere | Liye | Main | Gaaoon (2)",
-          "indian": "Pa Dha | Ni(k) Dha | ma | Ga Re Ga Pa"
+          "lyrics": "Badlaa yeh mausam",
+          "indian": "Pa Pa: ma Ga ma Dha"
         },
         {
-          "lyrics": "(Repeat for following…)",
-          "indian": ""
+          "lyrics": "Lagee pyaraa jag saaraa",
+          "indian": "Ni Ni Ni Ni Dha Ni Sa' Sa'"
         },
         {
-          "lyrics": "Geet Tere Bolon Pe",
-          "indian": ""
+          "lyrics": "Chookar meree man koo",
+          "indian": "Ga Ga Re Sa ni Re"
         },
         {
-          "lyrics": "Likhta Chala Jaaoon (2)",
-          "indian": ""
+          "lyrics": "Kiyaa tunee kyaa ishara",
+          "indian": "pa dha ni ni Sa Re Ga Sa"
         },
         {
-          "lyrics": "Mer…e | Geeton | Mein",
-          "indian": "Pa Pa (Dha)Pa | ma Ga ma | Dha"
+          "lyrics": "Tu jo kahee jeevan bharr",
+          "indian": "Ga Ga ma Ga Sa pa Ga:"
         },
         {
-          "lyrics": "Tujhe Dhoonde Jag Saara",
-          "indian": "Ni' Ni' | Ni' Ni' | Dha' Ni' | Sa' Sa' (Dha Sa')"
+          "lyrics": "Teree liyee main gaaoon",
+          "indian": "Ga Pa Pa Dha Dha Pa Dha Dha Sa"
         },
         {
-          "lyrics": "Chhoo kar Mere Man Ko",
-          "indian": ""
+          "lyrics": "Teree liyee main gaaoon",
+          "indian": "Pa Dha N(K).D ma Ga Re Ga Pa"
+        },
+        {
+          "lyrics": "Geet teree bolon pee",
+          "indian": "Ga ma Ga Sa pa Ga:"
+        },
+        {
+          "lyrics": "Likhtaa chalaa jaaoon",
+          "indian": "Ga Pa Pa Dha Dha Pa Dha Dha Sa"
+        },
+        {
+          "lyrics": "Likhtaa chalaa jaaoon",
+          "indian": "Pa Dha N(K).D ma Ga Re Ga Pa"
+        },
+        {
+          "lyrics": "Meree geeton mein",
+          "indian": "Pa Pa: ma Ga ma Dha"
+        },
+        {
+          "lyrics": "Tujhee dhoonde jag saaraa",
+          "indian": "Ni Ni Ni Ni Dha Ni Sa' Sa' Dha Sa'"
+        },
+        {
+          "lyrics": "Chookar meree man koo",
+          "indian": "Ga Ga Re Sa ni Re"
+        },
+        {
+          "lyrics": "Kiyaa tunee kyaa ishara",
+          "indian": "pa dha ni ni Sa Re Ga Sa"
+        },
+        {
+          "lyrics": "Badlaa yeh mausam",
+          "indian": "Pa Pa: ma Ga ma Dha"
+        },
+        {
+          "lyrics": "Lagee pyaara jag saaraa",
+          "indian": "Ni Ni Ni Ni Dha Ni Sa' Sa' Dha Sa'"
+        },
+        {
+          "lyrics": "Chookar meree man koo",
+          "indian": "Ga Ga Re Sa ni Re"
+        },
+        {
+          "lyrics": "Kiyaa tunee kyaa ishara",
+          "indian": "pa dha ni ni Sa Re Ga Sa"
         }
       ]
     }
   ],
   "export": true,
-  "musicxml": "musicxml/chhu-kar-mere-mann-ko.musicxml"
+  "musicxml": "musicxml/chhu-kar-mere-mann-ko.musicxml",
+  "description": "This iconic romantic ballad, sung by the legendary Kishore Kumar, is a timeless expression of love and devotion. Rajesh Roshan's melodious composition, combined with Anjan's heartfelt lyrics, creates an enchanting atmosphere that perfectly captures the euphoria of being deeply touched by someone special. Its simple yet profound melody has cemented its place as a quintessential Bollywood love song.",
+  "trivia": [
+    "Despite a striking melodic similarity, 'Chhu Kar Mere Mann Ko' (1981) actually predates Chris de Burgh's international hit 'Lady in Red' (1986), making the resemblance a fascinating coincidence rather than an inspiration.",
+    "The song features Amitabh Bachchan lip-syncing, showcasing his charismatic screen presence even in romantic numbers, though he was primarily known for his 'angry young man' roles at the time.",
+    "Rajesh Roshan's composition is noted for its catchy, easy-to-hum tune, which became a hallmark of his popular romantic songs during that era.",
+    "Kishore Kumar's unparalleled ability to convey both playfulness and deep emotion shines through, making this one of his most beloved romantic renditions."
+  ],
+  "meaning": {
+    "coreTheme": "The song is a heartfelt declaration of profound love and emotional transformation. It speaks of how the beloved's presence has deeply impacted the singer's heart and mind, bringing color and joy into his world and making him feel utterly captivated and 'madly in love.' It's an ode to the magical, life-altering power of new love.",
+    "lyricSymbolism": "The central phrase 'Chhu Kar Mere Mann Ko' literally means 'touching my heart/mind,' symbolizing the deep emotional connection and impact the beloved has had. 'Bana Diya Deewana' (made me crazy/madly in love) conveys the overwhelming nature of this affection. The lyrics also use imagery like 'jahan ko mere rangin bana diya' (made my world colorful) to represent the newfound vibrancy and happiness brought by love, transforming a previously dull existence."
+  }
 }
