@@ -11,77 +11,67 @@
   "background_mode": "cover",
   "sections": [
     {
-      "name": "Mukhda",
+      "name": "STHAYI",
       "lines": [
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
-        }
-      ]
-    },
-    {
-      "name": "Verse",
-      "lines": [
-        {
-          "lyrics": "Tuu hi maata tu hi pitaa hai",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha Pa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
         },
         {
           "lyrics": "Tuu hi maata tu hi pitaa hai",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha Pa"
+          "indian": "Ga: Ga Ga Re Ga Sa: Re Sa dha pa"
+        },
+        {
+          "lyrics": "Tuu hi maata tu hi pitaa hai",
+          "indian": "Ga: Ga Ga Re Ga Sa: Re Sa dha pa"
         },
         {
           "lyrics": "Tuu hi toh radhaa kaa shyaam",
-          "indian": "Pa Pa Pa Pa Pa Ga ma Ga Sa Re Ga Sa"
+          "indian": "Pa Pa Pa Pa Pa Ga ma Ga Sa Re: Ga Sa."
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
         },
         {
           "lyrics": "Tu antaryaami sabkaa swami",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha Pa"
+          "indian": "Ga: Ga Ga Re Ga Sa: Re Sa dha pa"
         },
         {
           "lyrics": "Teree charno mein chaaro dhaam",
-          "indian": "Pa Pa Pa Pa Pa Ga ma Ga Sa Re Ga Sa"
-        }
-      ]
-    },
-    {
-      "name": "Verse (Alt)",
-      "lines": [
-        {
-          "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "Pa Pa Pa Pa Pa Ga ma Ga Sa Re: Ga Sa."
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
+        },
+        {
+          "lyrics": "Heyy ram heyy ram",
+          "indian": "pa Sa: Re: Ga Re Sa:"
         },
         {
           "lyrics": "Tuu hi bigaade tu hi sawaaren",
-          "indian": "Ga Ga Ga Re Ga | Sa Re Sa Dha Pa"
+          "indian": "Ga: Ga Ga Re Ga Sa: Re Sa dha pa"
         },
         {
           "lyrics": "Iss jag kee saare kaam",
-          "indian": "Pa Pa Pa Pa Pa Ga ma Ga Sa Re Ga Sa"
+          "indian": "Pa Pa Pa Pa Pa Ga ma Ga Sa Re: Ga Sa."
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
         },
         {
           "lyrics": "Heyy ram heyy ram",
-          "indian": "Pa Sa Re Ga Re Sa"
+          "indian": "pa Sa: Re: Ga Re Sa:"
         }
       ]
     }
