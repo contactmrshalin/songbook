@@ -1,0 +1,136 @@
+{
+  "id": "tere-bina-zindagi-se",
+  "title": "Tere Bina Zindagi Se",
+  "export": true,
+  "info": [
+    "Film/Artist: Aandhi",
+    "Scale: E BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/tere-bina-zindagi-se-sargam-harmonium-and-flute-notes.html",
+    "Singer: Lata Mangeshkar, Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Gulzar",
+    "Raag: Pilu",
+    "Thaat: Kafi"
+  ],
+  "thumbnail": "images/tere-bina-zindagi-se.jpg",
+  "background": "images/tere-bina-zindagi-se.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Tere bina zindagi se koi",
+          "indian": "Ga ma Dha Ni Dha ma Dha ma Ga: Re Sa"
+        },
+        {
+          "lyrics": "Shikwa to nahin",
+          "indian": "Pa Pa Pa Ga Pa Pa Pa ma"
+        },
+        {
+          "lyrics": "Shikwa nahin shikwa nahin",
+          "indian": "Ga Sa Ga Ga Re Re Ga ma Pa Pa"
+        },
+        {
+          "lyrics": "Shikwa nahin",
+          "indian": "ma Re ma ma Ga:"
+        },
+        {
+          "lyrics": "Tere bina zindagi bhi lekin",
+          "indian": "Ga ma Dha Ni Dha ma Dha ma Ga: Re Sa"
+        },
+        {
+          "lyrics": "Zindagi to nahin",
+          "indian": "Pa Pa Pa Ga Pa Pa Pa ma"
+        },
+        {
+          "lyrics": "Zindagi nahin zindagi nahin",
+          "indian": "Ga Sa Ga Ga Re Re Ga ma Pa Pa"
+        },
+        {
+          "lyrics": "Zindagi nahin",
+          "indian": "ma Re ma ma Ga:"
+        },
+        {
+          "lyrics": "Tere bina zindagi se shikwa",
+          "indian": "Ga ma Dha Ni Dha ma Dha ma Ga Ga Re Sa"
+        },
+        {
+          "lyrics": "To nahin",
+          "indian": "Pa Pa Pa Ga"
+        },
+        {
+          "lyrics": "Kaash aisa ho",
+          "indian": "Dha: Dha Dha(k): Dha(k): Dha"
+        },
+        {
+          "lyrics": "Tere kadmon se",
+          "indian": "Dha: Dha Pa: Pa: Dha"
+        },
+        {
+          "lyrics": "Chun ke manzil chale",
+          "indian": "Dha: Dha Dha: Ma: Dha Ma:"
+        },
+        {
+          "lyrics": "Aur kahin door kahin",
+          "indian": "Ma Dha Re' Ni: Dha Pa Ni Dha:"
+        },
+        {
+          "lyrics": "Kaash aisa ho",
+          "indian": "Dha: Dha Dha(k): Dha(k): Dha"
+        },
+        {
+          "lyrics": "Tere kadmon se",
+          "indian": "Dha: Dha Pa: Pa: Dha"
+        },
+        {
+          "lyrics": "Chun ke manzil chale",
+          "indian": "Dha: Dha Dha: Ma: Dha Ma:"
+        },
+        {
+          "lyrics": "Aur kahin door kahin",
+          "indian": "Ma Dha Re' Ni: Dha Pa Ni Dha: Dha Ni."
+        },
+        {
+          "lyrics": "Tum gar saath ho",
+          "indian": "Ni Pa Pa: Pa Pa"
+        },
+        {
+          "lyrics": "Manzilon ki",
+          "indian": "Ni Ma Ma: Ma:"
+        },
+        {
+          "lyrics": "Kami to nahin",
+          "indian": "Re Ga: Ma: Re Ma Ga: Ga ma Dha"
+        },
+        {
+          "lyrics": "Tere bina zindagi se koi",
+          "indian": "Ga ma Dha Ni Dha ma Dha ma Ga: Re Sa"
+        },
+        {
+          "lyrics": "Shikwa to nahin",
+          "indian": "Pa Pa Pa Ga Pa Pa Pa ma"
+        },
+        {
+          "lyrics": "Shikwa nahin shikwa nahin",
+          "indian": "Ga Sa Ga Ga Re Re Ga ma Pa Pa"
+        },
+        {
+          "lyrics": "Shikwa nahin",
+          "indian": "ma Re ma ma Ga:"
+        }
+      ]
+    }
+  ],
+  "description": "This timeless duet from 'Aandhi' is a poignant masterpiece, weaving together the soulful voices of Lata Mangeshkar and Kishore Kumar with R.D. Burman's evocative composition. It captures the bittersweet essence of lost love and unspoken longing, making it one of Indian cinema's most cherished and emotionally resonant songs. The melody, often associated with the light classical Raag Pilu, perfectly conveys a sense of melancholic beauty.",
+  "trivia": [
+    "The film 'Aandhi' was directed by Gulzar, who also penned the lyrics for this song, making it a complete artistic vision from him.",
+    "The song won the Filmfare Award for Best Lyricist (Gulzar) and Best Male Playback Singer (Kishore Kumar) in 1976.",
+    "R.D. Burman's composition is noted for its minimalist yet deeply expressive arrangement, allowing the vocals and lyrics to take center stage.",
+    "The film 'Aandhi' was reportedly inspired by the life of then-Prime Minister Indira Gandhi, leading to its temporary ban during the Emergency period in India."
+  ],
+  "meaning": {
+    "coreTheme": "The song explores the profound emptiness and unfulfilled longing experienced by estranged lovers. It delves into the pain of separation, the 'what ifs' of a past relationship, and the lingering desire for comfort and understanding, even when reconciliation seems impossible. It's a dialogue of two souls grappling with regret and the indelible mark left by a significant other.",
+    "lyricSymbolism": "Gulzar's lyrics are rich with poetic imagery, using phrases like 'Tere bina zindagi se koi shikwa nahi, tere bina zindagi bhi lekin zindagi nahi' (Without you, I have no complaint with life, but without you, life isn't life either) to convey the central paradox of existence without a loved one. The lines 'jee mein aata hai tere daaman mein sar jhuka ke hum rote rahein' (I feel like resting my head in your lap and just crying) symbolize a deep yearning for solace and emotional release, highlighting the raw vulnerability of the characters."
+  },
+  "musicxml": "musicxml/tere-bina-zindagi-se.musicxml"
+}
