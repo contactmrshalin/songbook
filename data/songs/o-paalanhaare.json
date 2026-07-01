@@ -1,0 +1,115 @@
+{
+  "id": "o-paalanhaare",
+  "title": "O Paalanhaare",
+  "export": true,
+  "info": [
+    "Film/Artist: Lagaan",
+    "Scale: D BASS/MIDDLE",
+    "Singer: Lata Mangeshkar, Udit Narayan",
+    "Music: A.R. Rahman",
+    "Lyrics: Javed Akhtar",
+    "Raag: Ahir Bhairav",
+    "Thaat: Bhairav"
+  ],
+  "thumbnail": "images/o-paalanhaare.jpg",
+  "background": "images/o-paalanhaare.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "O paalanhaare",
+          "indian": "Re Ga Re Pa ma:"
+        },
+        {
+          "lyrics": "Nirgun o nyaare",
+          "indian": "Re Ga Re ma Ga: Re Sa"
+        },
+        {
+          "lyrics": "O paalanhaare",
+          "indian": "Re Ga Re Pa ma:"
+        },
+        {
+          "lyrics": "Nirgun o nyaare",
+          "indian": "Re Ga Re ma Ga: Re Sa"
+        },
+        {
+          "lyrics": "Tumre bin hamra",
+          "indian": "Sa Re Sa ni Sa Sa Re"
+        },
+        {
+          "lyrics": "Kauno nahin",
+          "indian": "Ga ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Hamri uljhan",
+          "indian": "Re Ga Re Pa ma:"
+        },
+        {
+          "lyrics": "Suljhao bhagwan",
+          "indian": "Re Ga Re ma Ga: Re Sa"
+        },
+        {
+          "lyrics": "Tumre bin hamra",
+          "indian": "Sa Re Sa ni Sa Sa Re"
+        },
+        {
+          "lyrics": "Kauno nahin",
+          "indian": "Ga ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Tumhe hamka",
+          "indian": "Ga Ga ma ma ma"
+        },
+        {
+          "lyrics": "Ho sambhale",
+          "indian": "Re Ga ma Ga Ga Re Sa."
+        },
+        {
+          "lyrics": "Tumhe hamre",
+          "indian": "Ga Ga ma ma Pa Dha Pa ma"
+        },
+        {
+          "lyrics": "Rakhwaale",
+          "indian": "Re Ga ma Ga Ga Re Sa."
+        },
+        {
+          "lyrics": "Tumre bin hamra",
+          "indian": "Sa Re Sa ni Sa Sa Re"
+        },
+        {
+          "lyrics": "Kauno nahin",
+          "indian": "Ga ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Tumre bin hamra",
+          "indian": "Sa Re Sa ni Sa Sa Re"
+        },
+        {
+          "lyrics": "Kauno nahin",
+          "indian": "Ga ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Tumre bin hamra",
+          "indian": "Sa Re Sa ni Sa Sa Re"
+        },
+        {
+          "lyrics": "Kauno nahin",
+          "indian": "Ga ma Ga Re Ga Re Sa"
+        }
+      ]
+    }
+  ],
+  "description": "This deeply spiritual and moving prayer from 'Lagaan' is a poignant appeal to a higher power, beautifully rendered by Lata Mangeshkar and Udit Narayan. A.R. Rahman's minimalist yet profound composition, combined with Javed Akhtar's heartfelt lyrics, creates an atmosphere of profound hope and surrender. It stands out for its serene melody and the emotional depth it brings to the film's narrative.",
+  "trivia": [
+    "\"O Paalanhaare\" marked one of the last collaborations between legendary singer Lata Mangeshkar and music maestro A.R. Rahman, making it a significant recording in their respective careers.",
+    "The song is primarily a prayer, sung by the villagers in 'Lagaan' seeking divine intervention during their dire circumstances of drought and the impending cricket match.",
+    "A.R. Rahman chose a very classical and devotional sound for this track, contrasting with some of the more upbeat and folk-infused songs in the film's soundtrack.",
+    "Javed Akhtar's lyrics are rich in traditional devotional poetry, using simple yet powerful language to convey a universal plea for sustenance and protection."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of \"O Paalanhaare\" is an earnest prayer for divine sustenance and protection in times of extreme adversity. It embodies the villagers' collective hope and unwavering faith, appealing to God to alleviate their suffering from drought and guide them towards victory in the crucial cricket match. The song serves as a spiritual anchor, reflecting their complete surrender and trust in a higher power.",
+    "lyricSymbolism": "The lyrics are a direct address to God, referred to as \"Paalanhaare\" (the sustainer/protector) and \"Nirgun aur nyaare\" (formless and unique). Phrases like \"Dukh harna, sukh bharna\" (remove sorrow, fill with joy) encapsulate the core human desire for relief from suffering and the bestowal of happiness. The song uses simple, direct devotional language, rich in the cultural tradition of Bhakti poetry, to express profound spiritual yearning and dependence on the divine."
+  },
+  "musicxml": "musicxml/o-paalanhaare.musicxml"
+}
