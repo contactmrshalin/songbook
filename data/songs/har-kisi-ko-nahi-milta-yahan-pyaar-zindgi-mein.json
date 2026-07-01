@@ -1,0 +1,95 @@
+{
+  "id": "har-kisi-ko-nahi-milta-yahan-pyaar-zindgi-mein",
+  "title": "Har Kisi Ko Nahi Milta Yahan Pyaar Zindgi Mein",
+  "export": true,
+  "info": [
+    "Film/Artist: Boss",
+    "Source: https://www.notationsworld.com/har-kisi-ko-nahi-milta-yahan-pyaar-zindgi-mein-boss-sargam-and-flute-notes.html#google_vignette"
+  ],
+  "thumbnail": "images/har-kisi-ko-nahi-milta-yahan-pyaar-zindgi-mein.png",
+  "background": "images/har-kisi-ko-nahi-milta-yahan-pyaar-zindgi-mein.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Startingg Music",
+          "indian": "Pa ma Ga Sa Pa ma Ga Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa ma Ga Sa Pa ma Ga Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Doo lafz ki haii",
+          "indian": "Sa Re Sa Ga Re Ga"
+        },
+        {
+          "lyrics": "Baatt eek hii hai",
+          "indian": "Re Re Sa pa dha"
+        },
+        {
+          "lyrics": "Kyunn darmiyaann fir rukii rukii",
+          "indian": "dha Sa Re Re Re Sa Sa Sa Re Ga"
+        },
+        {
+          "lyrics": "Kehh bhi naa paayee",
+          "indian": "Sa Re Sa Pa Ga"
+        },
+        {
+          "lyrics": "Rehh bhii naa paae",
+          "indian": "Re Re Sa pa dha"
+        },
+        {
+          "lyrics": "kyunn bewajaa haii yee bewasii",
+          "indian": "dha Sa Re Re Re Sa Sa Sa Re Ga"
+        },
+        {
+          "lyrics": "Tumm mein hum haii",
+          "indian": "Pa Pa ma Ga"
+        },
+        {
+          "lyrics": "Humm see tum hoo",
+          "indian": "Pa Pa ma Ga"
+        },
+        {
+          "lyrics": "Tumsee hum haii",
+          "indian": "Ga ma Ga Sa"
+        },
+        {
+          "lyrics": "Humm se tumm hoo",
+          "indian": "Ga ma Ga Sa"
+        },
+        {
+          "lyrics": "Kismatoo see miltee haii doo dil yahann",
+          "indian": "Sa Re Ga(k) Re Sa Re Ga(k) Re Sa Sa Re Sa Re"
+        },
+        {
+          "lyrics": "Hurr kisi koo nahii miltaa",
+          "indian": "Sa Sa Sa Ga Re Sa Sa Re"
+        },
+        {
+          "lyrics": "Yahan pyaar zindgii mainn",
+          "indian": "Sa Ni(k) Re(k) Ga(k) Re(k) Sa Sa"
+        },
+        {
+          "lyrics": "Hurr kisi koo nahii miltaa",
+          "indian": "Sa Sa Sa Ga Re Sa Sa Re"
+        },
+        {
+          "lyrics": "Yahan pyaar zindgii mainn",
+          "indian": "Sa Ni(k) Re(k) Ga(k) Re(k) Sa Sa"
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/har-kisi-ko-nahi-milta-yahan-pyaar-zindgi-mein.musicxml"
+}
