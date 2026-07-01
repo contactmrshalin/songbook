@@ -8,8 +8,8 @@
     "Singer: Asha Bhosle",
     "Music: Khayyam",
     "Lyrics: Shahryar",
-    "Raag: Charukeshi",
-    "Thaat: Charukeshi",
+    "Raag: Yaman Kalyan",
+    "Thaat: Kalyan",
     "Year: 1981"
   ],
   "thumbnail": "images/in-ankhon-ki-masti.jpg",
@@ -101,16 +101,16 @@
       ]
     }
   ],
-  "description": "This iconic ghazal from 'Umrao Jaan' is a masterpiece of Indian film music, showcasing Asha Bhosle's unparalleled ability to convey deep emotion and sensuality. Khayyam's haunting composition, steeped in classical nuances, perfectly complements Shahryar's poetic lyrics, creating an atmosphere of alluring melancholy. It remains a timeless classic, celebrated for its exquisite beauty and profound emotional depth.",
+  "description": "This iconic ghazal from 'Umrao Jaan' is a masterpiece of Indian film music, showcasing Asha Bhosle's unparalleled ability to convey profound emotion and sensuality. Composed by Khayyam, its elegant melody, rooted in classical traditions, perfectly captures the allure and mystique of a courtesan's gaze. The song's timeless appeal lies in its exquisite poetry and the soulful rendition that makes it a benchmark for classical ghazal singing in Bollywood.",
   "trivia": [
-    "The song is picturised on Rekha, whose portrayal of the courtesan Umrao Jaan is considered one of her career-defining performances, with her expressions perfectly embodying the song's mood.",
-    "Khayyam's music for 'Umrao Jaan' is widely regarded as one of his finest works, earning him the National Film Award for Best Music Direction.",
-    "The lyrics, penned by the poet Shahryar, are rich in Urdu ghazal tradition, using metaphors of intoxication and longing to describe the captivating power of a courtesan's gaze.",
-    "Asha Bhosle won the National Film Award for Best Female Playback Singer for her rendition of songs in 'Umrao Jaan', including this one, solidifying her status as a versatile legend."
+    "Asha Bhosle won the National Film Award for Best Female Playback Singer for her work in 'Umrao Jaan', which included this song, 'Dil Cheez Kya Hai', and 'Yeh Kya Jagah Hai Dosto'.",
+    "Music director Khayyam's compositions for 'Umrao Jaan' are considered some of his finest works, earning him a National Film Award for Best Music Direction.",
+    "The film 'Umrao Jaan' is based on the 1905 Urdu novel 'Umrao Jaan Ada' by Mirza Hadi Ruswa, depicting the life of a 19th-century Lucknow courtesan.",
+    "The lyrics by Shahryar, a renowned Urdu poet, are celebrated for their poetic depth and classical ghazal structure, making the song a literary as well as musical gem."
   ],
   "meaning": {
-    "coreTheme": "The song delves into the intoxicating power of a courtesan's eyes and the profound impact they have on those who gaze upon them. It speaks of the allure, the pain, and the unrequited love often associated with the life of a tawaif (courtesan), reflecting Umrao Jaan's own complex emotional journey and her ability to captivate, yet remain emotionally distant.",
-    "lyricSymbolism": "The phrase 'In ankhon ki masti' (the intoxication of these eyes) is central, symbolizing the seductive and almost hypnotic charm of the courtesan. 'Mastane hazaaron hain' (thousands are intoxicated) highlights her widespread appeal, while 'saki' (wine server) and 'paimana' (wine cup) are classic ghazal metaphors for the beloved and the intoxicating effect of their presence or love, respectively, suggesting a spiritual or emotional intoxication rather than a literal one."
+    "coreTheme": "The song's central theme revolves around the intoxicating and captivating power of a beloved's eyes. It's an ode to the enigmatic allure and profound depth found within a gaze, suggesting that these eyes hold countless stories, secrets, and a potent charm that can intoxicate and mesmerize. In the context of the film, it's Umrao Jaan expressing her own captivating beauty and the profound impact of her presence.",
+    "lyricSymbolism": "The phrase 'In ankhon ki masti' literally translates to 'the intoxication/playfulness of these eyes,' symbolizing the mesmerizing and almost intoxicating effect of the beloved's gaze. 'Hazaron afsane' (thousands of stories) suggests that these eyes carry a wealth of experiences and narratives, hinting at a deep, complex past. 'Maikhane' (wine cellars) is used metaphorically to describe the eyes themselves as a source of intoxicating pleasure, likening the beloved's gaze to fine wine that can make one 'mad' with love."
   },
   "musicxml": "musicxml/in-ankhon-ki-masti.musicxml"
 }
