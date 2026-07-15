@@ -4,6 +4,8 @@ import { getGitHubRepoConfig } from "@/lib/github-config";
 
 const GITHUB_RAW_URL = getGitHubRepoConfig().rawBaseUrl;
 
+const SONG_FETCH_CONCURRENCY = 20;
+
 /**
  * Fetch songs directly from GitHub raw content API.
  * Works on GitHub Pages static sites and anywhere with network access.
@@ -22,27 +24,31 @@ export async function fetchSongsFromGitHub(): Promise<Song[]> {
     // Fetch all songs in order
     const songs: Song[] = [];
 
-    for (const songId of songOrder) {
-      try {
-        const songRes = await fetch(
-          `${GITHUB_RAW_URL}/data/songs/${songId}.json`,
-          { cache: "no-store" }
-        );
+    for (let i = 0; i < songOrder.length; i += SONG_FETCH_CONCURRENCY) {
+      const chunk = songOrder.slice(i, i + SONG_FETCH_CONCURRENCY);
+      const chunkSongs = await Promise.all(
+        chunk.map(async (songId) => {
+          try {
+            const songRes = await fetch(
+              `${GITHUB_RAW_URL}/data/songs/${songId}.json`,
+              { cache: "no-store" }
+            );
 
-        if (!songRes.ok) {
-          console.warn(`Failed to fetch song ${songId}: ${songRes.status}`);
-          continue;
-        }
+            if (!songRes.ok) {
+              console.warn(`Failed to fetch song ${songId}: ${songRes.status}`);
+              return null;
+            }
 
-        const song: Song = await songRes.json();
+            const song: Song = await songRes.json();
+            return song.export !== false ? song : null;
+          } catch (err) {
+            console.warn(`Error fetching song ${songId}:`, err);
+            return null;
+          }
+        })
+      );
 
-        // Only include exported songs
-        if (song.export !== false) {
-          songs.push(song);
-        }
-      } catch (err) {
-        console.warn(`Error fetching song ${songId}:`, err);
-      }
+      songs.push(...chunkSongs.filter((song): song is Song => Boolean(song)));
     }
 
     return songs;

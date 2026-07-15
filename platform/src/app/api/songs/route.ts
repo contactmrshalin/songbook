@@ -1,6 +1,18 @@
 import { getFileContent } from "@/lib/github";
 import type { Song, BookMeta } from "@/types/song";
 
+const SONGS_CACHE_TTL_MS = 60 * 1000;
+const SONG_FETCH_CONCURRENCY = 20;
+
+type SongsListResponse = {
+  success: true;
+  songs: Song[];
+  total: number;
+  source: "github";
+};
+
+let songsCache: { expiresAt: number; payload: SongsListResponse } | null = null;
+
 /**
  * GET /api/songs
  * Fetches all songs directly from GitHub (live data source).
@@ -28,34 +40,59 @@ export async function GET(request: Request) {
     }
 
     // ── All songs (list) ──────────────────────────────────────────────────
+
+    if (songsCache && Date.now() < songsCache.expiresAt) {
+      return Response.json(songsCache.payload, {
+        headers: {
+          "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+        },
+      });
+    }
+
     // Get book.json from GitHub for the live song order
     const bookRaw = await getFileContent("data/book.json");
     const book: BookMeta = bookRaw ? JSON.parse(bookRaw) : { song_order: [] };
     const songOrder: string[] = book.song_order || [];
 
-    // Fetch all song files from GitHub
+    // Fetch all song files from GitHub in bounded parallel chunks.
     const songs: Song[] = [];
 
-    for (const songId of songOrder) {
-      try {
-        const content = await getFileContent(`data/songs/${songId}.json`);
-        if (content) {
-          const song: Song = JSON.parse(content);
-          if (song.export !== false) {
-            songs.push(song);
+    for (let i = 0; i < songOrder.length; i += SONG_FETCH_CONCURRENCY) {
+      const chunk = songOrder.slice(i, i + SONG_FETCH_CONCURRENCY);
+      const chunkSongs = await Promise.all(
+        chunk.map(async (id) => {
+          try {
+            const content = await getFileContent(`data/songs/${id}.json`);
+            if (!content) return null;
+
+            const song: Song = JSON.parse(content);
+            return song.export !== false ? song : null;
+          } catch (err) {
+            console.warn(`Failed to fetch song ${id}:`, err);
+            return null;
           }
-        }
-      } catch (err) {
-        console.warn(`Failed to fetch song ${songId}:`, err);
-        // Continue with next song
-      }
+        })
+      );
+
+      songs.push(...chunkSongs.filter((song): song is Song => Boolean(song)));
     }
 
-    return Response.json({
+    const payload: SongsListResponse = {
       success: true,
       songs,
       total: songs.length,
       source: "github",
+    };
+
+    songsCache = {
+      expiresAt: Date.now() + SONGS_CACHE_TTL_MS,
+      payload,
+    };
+
+    return Response.json(payload, {
+      headers: {
+        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+      },
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
