@@ -5,10 +5,11 @@
  * Configured in Vercel dashboard: Settings → Environment Variables
  */
 
+import { getGitHubRepoConfig } from "@/lib/github-config";
+
 const GITHUB_API = "https://api.github.com";
-const REPO_OWNER = "contactmrshalin";
-const REPO_NAME = "songbook";
-const BRANCH = "main";
+const { owner: REPO_OWNER, name: REPO_NAME, branch: BRANCH } =
+  getGitHubRepoConfig();
 
 interface GitHubFile {
   path: string;

@@ -1,5 +1,7 @@
 import { deleteFiles, getFileContent, commitFiles, listRepoDir } from "@/lib/github";
 
+import { getGitHubRepoConfig } from "@/lib/github-config";
+
 // Not force-dynamic for static export compatibility
 
 /**
@@ -163,10 +165,10 @@ async function deleteAndUpdateCommit(
   // deleteFiles-style null sha entries alongside normal blob entries.
 
   // Import the internal helpers by duplicating the logic here:
+
   const GITHUB_API = "https://api.github.com";
-  const REPO_OWNER = "contactmrshalin";
-  const REPO_NAME = "songbook";
-  const BRANCH = "main";
+  const { owner: REPO_OWNER, name: REPO_NAME, branch: BRANCH } =
+    getGitHubRepoConfig();
 
   const token = process.env.GITHUB_TOKEN;
   if (!token) return { success: false, error: "GITHUB_TOKEN not set" };

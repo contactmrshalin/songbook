@@ -1,6 +1,8 @@
 import type { Song, BookMeta } from "@/types/song";
 
-const GITHUB_RAW_URL = "https://raw.githubusercontent.com/contactmrshalin/songbook/main";
+import { getGitHubRepoConfig } from "@/lib/github-config";
+
+const GITHUB_RAW_URL = getGitHubRepoConfig().rawBaseUrl;
 
 /**
  * Fetch songs directly from GitHub raw content API.

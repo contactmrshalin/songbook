@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+
+import { getGitHubRepoConfig } from "@/lib/github-config";
 import {
   Music,
   Globe,
@@ -42,6 +44,8 @@ interface SongListItem {
   inOrder: boolean;
   enriched: boolean;
 }
+
+const { repoUrl } = getGitHubRepoConfig();
 
 export default function AdminSongEditor({ password }: Props) {
   // Tab + step management
@@ -1591,7 +1595,8 @@ export default function AdminSongEditor({ password }: Props) {
 
             {publishResult.commitSha && (
               <a
-                href={`https://github.com/contactmrshalin/songbook/commit/${publishResult.commitSha}`}
+
+                href={`${repoUrl}/commit/${publishResult.commitSha}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm text-[var(--accent-primary)] hover:underline mb-8"
