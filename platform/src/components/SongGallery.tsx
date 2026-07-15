@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useDeferredValue } from "react";
 import { Search, Music2 } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import SongCard from "./SongCard";
@@ -36,8 +36,27 @@ function normaliseLabel(raw: string): string {
 
 export default function SongGallery({ songs }: SongGalleryProps) {
   const { searchQuery, setSearchQuery } = useAppStore();
+
+  const deferredSearchQuery = useDeferredValue(searchQuery);
   const [activeFilter, setActiveFilter] = useState<string>("all");
   const [filterType, setFilterType] = useState<"raag" | "thaat">("raag");
+
+  // Precompute searchable text once per songs update for fast filtering.
+
+  const searchIndex = useMemo(
+    () =>
+      songs.map((song) => ({
+        song,
+        searchableText: [
+          song.title,
+          ...song.info,
+          ...song.sections.flatMap((s) => s.lines.map((l) => l.lyrics)),
+        ]
+          .join(" ")
+          .toLowerCase(),
+      })),
+    [songs]
+  );
 
   // Extract unique raags and thaats for filter chips
   const { raags, thaats } = useMemo(() => {
@@ -62,18 +81,12 @@ export default function SongGallery({ songs }: SongGalleryProps) {
     let result = songs;
 
     // Text search
-    if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
-      result = result.filter((song) => {
-        const searchable = [
-          song.title,
-          ...song.info,
-          ...song.sections.flatMap((s) => s.lines.map((l) => l.lyrics)),
-        ]
-          .join(" ")
-          .toLowerCase();
-        return searchable.includes(q);
-      });
+    if (deferredSearchQuery.trim()) {
+
+      const q = deferredSearchQuery.toLowerCase();
+      result = searchIndex
+        .filter((entry) => entry.searchableText.includes(q))
+        .map((entry) => entry.song);
     }
 
     // Raag / Thaat filter
@@ -86,7 +99,7 @@ export default function SongGallery({ songs }: SongGalleryProps) {
     }
 
     return result;
-  }, [songs, searchQuery, activeFilter, filterType]);
+  }, [songs, searchIndex, deferredSearchQuery, activeFilter, filterType]);
 
   return (
     <div>

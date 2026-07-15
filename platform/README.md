@@ -40,6 +40,13 @@ Exported files are generated in `platform/out`.
 
 That workflow builds static export artifacts and publishes them to `gh-pages`.
 
+## Song data mode
+
+- Default behavior is bundled songs from `src/generated/song-bundle.json`.
+- New/updated songs appear after each push-triggered deploy (recommended for speed/stability).
+- Optional live mode can be enabled by setting `NEXT_PUBLIC_ENABLE_LIVE_SONGS=true`.
+  In live mode, the client will refresh songs from GitHub/API after first render.
+
 ## Notes
 
 - Ads are disabled by default. To enable later, set `NEXT_PUBLIC_ENABLE_ADS=true` in your environment before starting/building the app.

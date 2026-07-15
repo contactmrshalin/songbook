@@ -14,6 +14,10 @@ interface UseLiveSongsResult {
   error: Error | null;
 }
 
+interface UseLiveSongsOptions {
+  enabled?: boolean;
+}
+
 /**
  * Hook to fetch songs live from GitHub.
  * - On Vercel/local: Uses /api/songs endpoint (server-side fetching)
@@ -21,13 +25,21 @@ interface UseLiveSongsResult {
  * Uses client-side caching to avoid repeated API calls.
  * Falls back to bundled songs if GitHub is unavailable.
  */
-export function useLiveSongs(): UseLiveSongsResult {
+
+export function useLiveSongs(options: UseLiveSongsOptions = {}): UseLiveSongsResult {
+  const { enabled = true } = options;
   const [songs, setSongs] = useState<Song[] | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(enabled);
   const [error, setError] = useState<Error | null>(null);
   const hasInitialized = useRef(false);
 
   useEffect(() => {
+
+    if (!enabled) {
+      setLoading(false);
+      return;
+    }
+
     if (hasInitialized.current) return;
     hasInitialized.current = true;
 
@@ -78,7 +90,7 @@ export function useLiveSongs(): UseLiveSongsResult {
     };
 
     fetchSongs();
-  }, []);
+  }, [enabled]);
 
   return { songs, loading, error };
 }
