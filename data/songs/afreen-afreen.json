@@ -5,7 +5,12 @@
   "info": [
     "Film/Artist: Coke Studio",
     "Scale: G# MAJOR",
-    "Source: https://www.notationsworld.com/afreen-afreen-coke-studio-sargam-and-flute-notes.html"
+    "Source: https://www.notationsworld.com/afreen-afreen-coke-studio-sargam-and-flute-notes.html",
+    "Singer: Rahat Fateh Ali Khan, Momina Mustehsan",
+    "Music: Faakhir Mehmood (Producer), Shuja Haider (Music Director)",
+    "Lyrics: Javed Akhtar",
+    "Raag: Khamaj (influenced)",
+    "Thaat: Khamaj"
   ],
   "thumbnail": "images/afreen-afreen.png",
   "background": "images/afreen-afreen.png",
@@ -88,5 +93,16 @@
       ]
     }
   ],
-  "musicxml": "musicxml/afreen-afreen.musicxml"
+  "musicxml": "musicxml/afreen-afreen.musicxml",
+  "description": "This iconic Coke Studio rendition breathes new life into Nusrat Fateh Ali Khan's legendary qawwali. Featuring Rahat Fateh Ali Khan's powerful vocals alongside Momina Mustehsan's ethereal presence, it masterfully blends traditional Sufi melodies with contemporary arrangements, creating a mesmerizing and widely acclaimed fusion track.",
+  "trivia": [
+    "The original 'Afreen Afreen' was a groundbreaking qawwali composed and performed by the legendary Nusrat Fateh Ali Khan in 1996, featuring lyrics by Javed Akhtar.",
+    "The Coke Studio Season 9 version became a massive viral hit, particularly noted for Momina Mustehsan's debut and her captivating performance alongside Rahat Fateh Ali Khan.",
+    "The song's success on Coke Studio introduced it to a new generation of listeners globally, solidifying its status as a modern classic while honoring its Sufi qawwali roots.",
+    "The musical arrangement for the Coke Studio version was produced by Faakhir Mehmood and directed by Shuja Haider, who carefully crafted a contemporary soundscape without losing the essence of the original."
+  ],
+  "meaning": {
+    "coreTheme": "The song is a profound ode to beauty, particularly the enchanting allure of a beloved. It expresses admiration and wonder for the beloved's captivating presence, comparing their beauty to divine blessings and natural phenomena, evoking a sense of awe and devotion.",
+    "lyricSymbolism": "The title 'Afreen Afreen' itself is an exclamation of praise and wonder, meaning 'bravo!' or 'magnificent!' The lyrics are rich with poetic imagery, such as 'husn-e-jaana' (beauty of the beloved) and 'noor-e-khuda' (light of God), elevating the beloved's beauty to a spiritual plane. Phrases like 'aankhein jaadu' (eyes are magic) and 'chehra aftaab' (face is the sun) use hyperbole and metaphor to convey intense admiration and the overwhelming effect of their charm."
+  }
 }
