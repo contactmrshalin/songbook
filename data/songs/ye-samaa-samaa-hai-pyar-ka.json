@@ -1,0 +1,124 @@
+{
+  "id": "ye-samaa-samaa-hai-pyar-ka",
+  "title": "Ye Samaa Samaa Hai Pyar Ka",
+  "export": true,
+  "info": [
+    "Film/Artist: Jab Jab Phool Khile",
+    "Scale: G# BASS/MIDDLE",
+    "Singer: Lata Mangeshkar",
+    "Music: Kalyanji-Anandji",
+    "Lyrics: Anand Bakshi",
+    "Raag: Pahadi",
+    "Thaat: Bilawal",
+    "Year: 1965"
+  ],
+  "thumbnail": "images/ye-samaa-samaa-hai-pyar-ka.jpg",
+  "background": "images/ye-samaa-samaa-hai-pyar-ka.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yeh sama",
+          "indian": "dha: dha dha:"
+        },
+        {
+          "lyrics": "Sama hain yeh pyar kaa",
+          "indian": "dha ni Sa Ga Sa Re: Re Re:"
+        },
+        {
+          "lyrics": "Kisi ke intazar kaa",
+          "indian": "dha ni Sa Ga Sa Re: Re Re:"
+        },
+        {
+          "lyrics": "Dil na chura le kahi mera",
+          "indian": "ma Ga Sa: ni dha dha dha dha ni Sa ni"
+        },
+        {
+          "lyrics": "Mausam bahar kaa",
+          "indian": "Sa Re Sa: ni dha: dha dha:"
+        },
+        {
+          "lyrics": "Yeh sama",
+          "indian": "dha: dha dha:"
+        },
+        {
+          "lyrics": "Sama hain yeh pyar kaa",
+          "indian": "dha ni Sa Ga Sa Re: Re Re:"
+        },
+        {
+          "lyrics": "Kisi ke intazar kaa",
+          "indian": "dha ni Sa Ga Sa Re: Re Re:"
+        },
+        {
+          "lyrics": "Dil na chura le kahi mera",
+          "indian": "ma Ga Sa: ni dha dha dha dha ni Sa ni"
+        },
+        {
+          "lyrics": "Mausam bahar kaa",
+          "indian": "Sa Re Sa: ni dha: dha dha:"
+        },
+        {
+          "lyrics": "Basane lage aakhon me",
+          "indian": "Ga Ga Ga: ma Pa: ma: Ga: Ga"
+        },
+        {
+          "lyrics": "Kuchh aise sapne",
+          "indian": "Ga ma Re: Re(k) Re: Re(k) Re Re(k) Re"
+        },
+        {
+          "lyrics": "Basane lage aakhon me",
+          "indian": "Ga Ga Ga: ma Pa: ma: Ga: Ga"
+        },
+        {
+          "lyrics": "Kuchh aise sapne",
+          "indian": "Ga ma Re: Re(k) Re: Re(k) Re:"
+        },
+        {
+          "lyrics": "Koyi bulaye jaise",
+          "indian": "Ga: Ga: Ga Ga: Ga: ma ma Pa Pa Dha"
+        },
+        {
+          "lyrics": "Nainon se apne",
+          "indian": "Ga Dha Dha(k): Ga Pa: ma: Ga ma Ga Re Sa Re"
+        },
+        {
+          "lyrics": "Nainon se apne",
+          "indian": "Sa Re Sa: ni dha: dha: Ga:"
+        },
+        {
+          "lyrics": "Yeh sama",
+          "indian": "dha: dha dha:"
+        },
+        {
+          "lyrics": "Sama hain didar ka",
+          "indian": "dha ni Sa Ga Sa Re: Re Re:"
+        },
+        {
+          "lyrics": "Kisike intjar kaa",
+          "indian": "dha ni Sa Ga Sa Re: Re Re:"
+        },
+        {
+          "lyrics": "Dil na chura le kahi mera",
+          "indian": "ma Ga Sa: ni dha dha dha dha ni Sa ni"
+        },
+        {
+          "lyrics": "Mausam bahar kaa",
+          "indian": "Sa Re Sa: ni dha: dha dha:"
+        }
+      ]
+    }
+  ],
+  "description": "This timeless classic is a quintessential romantic melody, capturing the intoxicating feeling of love in a beautiful moment. Lata Mangeshkar's ethereal voice, combined with Kalyanji-Anandji's gentle orchestration, creates a serene yet deeply passionate atmosphere. It remains a beloved song for its simple elegance and enduring charm, perfectly embodying the golden era of Bollywood romance.",
+  "trivia": [
+    "The song is picturised on the beautiful actress Nanda, serenading Shashi Kapoor, as they enjoy a shikara ride on the serene waters of Dal Lake in Kashmir.",
+    "It was one of the early major hits for the music director duo Kalyanji-Anandji, solidifying their position in the industry.",
+    "Lyricist Anand Bakshi's simple yet profound words perfectly encapsulate the mood, making the song instantly relatable and memorable.",
+    "The film 'Jab Jab Phool Khile' was a massive box office success and is often credited with boosting Shashi Kapoor's career as a romantic lead."
+  ],
+  "meaning": {
+    "coreTheme": "The song's core theme is the celebration of a perfect romantic moment, where the atmosphere itself seems to be imbued with love. It expresses the overwhelming joy and wonder of being in love, urging the beloved to embrace the present, as such magical moments are fleeting and precious. It's a tender declaration of affection set against a picturesque backdrop.",
+    "lyricSymbolism": "The phrase \"Ye Samaa Samaa Hai Pyar Ka\" directly translates to \"This moment, this moment is of love,\" emphasizing the pervasive romantic aura. \"Kuchh bhi suno bas chup raho\" (Just listen, remain silent) suggests that the feeling is so profound it transcends words, requiring only shared presence. The lyrics use simple, direct imagery of nature and the present moment to convey the purity and intensity of nascent love, making it universally understandable and deeply resonant."
+  },
+  "musicxml": "musicxml/ye-samaa-samaa-hai-pyar-ka.musicxml"
+}
