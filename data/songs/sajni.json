@@ -1,0 +1,117 @@
+{
+  "id": "sajni",
+  "title": "Sajni",
+  "export": true,
+  "info": [
+    "Film/Artist: Laapataa Ladies",
+    "Scale: F BASS/MIDDLE",
+    "Singer: Arijit Singh",
+    "Music: Ram Sampath",
+    "Lyrics: Prashant Pandey"
+  ],
+  "thumbnail": "images/sajni.jpg",
+  "background": "images/sajni.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Oh sajni re",
+          "indian": "Ma Ga Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Kaise kate din raat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Kaise ho tujhse baat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Teri yaad satave re",
+          "indian": "Re Re Pa: Ma: Ga: Ga Sa Ga Re:"
+        },
+        {
+          "lyrics": "Oh sajni re",
+          "indian": "Ma Ga Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Kaisey kate din raat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Kese milein tera sath",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Teri yaad teri yaad satave re",
+          "indian": "Re Re Re Ma Pa Ni Dha Pa Ma: Ma Ga Re Pa:"
+        },
+        {
+          "lyrics": "Kaisey ghane re badhra girey",
+          "indian": "ni Re ni dha ni Re Ga Re: Re Ga Ma Ga Ga:"
+        },
+        {
+          "lyrics": "Teri kami ki baarish liye",
+          "indian": "Pa Ma Dha Pa Ma Ga Re Sa: Sa Re Ga Re Re:"
+        },
+        {
+          "lyrics": "Sailaab joh mere seene mein hai",
+          "indian": "Re Ga Ma Pa Pa: Dha Pa Ma Ga: Ga Ma Pa Ma Ma: Pa Ma:"
+        },
+        {
+          "lyrics": "Koyi btaye ye kaisey thamein",
+          "indian": "Dha Dha Pa Ma: Pa Ma Ga Re: Ga Re ni dha ni:"
+        },
+        {
+          "lyrics": "Tere bina abb kese jiye",
+          "indian": "Ni Ni Dha Dha: Ni Dha Pa Ma: Ma Pa Dha Pa Pa"
+        },
+        {
+          "lyrics": "Oh sajni re",
+          "indian": "Ma Ga Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Kese kate din raat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Kaisey ho tujhse baat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Teri yaad satave re",
+          "indian": "Re Re Pa: Ma: Ga: Ma Ga Re Pa:"
+        },
+        {
+          "lyrics": "Oh sajni re",
+          "indian": "Ma Ga Ga Ma Pa:"
+        },
+        {
+          "lyrics": "Kaisey kate din raat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Kaisey ho tujhse baat",
+          "indian": "Pa Ma: Ma Pa Dha Pa Ma Ga Re"
+        },
+        {
+          "lyrics": "Teri yaad teri yaad satave re",
+          "indian": "Re Re Re Ma Pa Ni Dha Pa Ma: Ma Ga Re Pa:"
+        }
+      ]
+    }
+  ],
+  "description": "Sajni is a deeply moving ballad from \"Laapataa Ladies,\" beautifully rendered by Arijit Singh. It captures the profound longing and emotional turmoil of separation, set against a backdrop of traditional Indian folk melodies. The song's gentle instrumentation and soulful vocals create an atmosphere of heartfelt yearning, perfectly complementing the film's narrative of lost and found identities.",
+  "trivia": [
+    "This song marks the first collaboration between acclaimed singer Arijit Singh and music director Ram Sampath.",
+    "\"Sajni\" quickly resonated with audiences for its emotional depth and traditional sound, becoming a standout track from the film's soundtrack.",
+    "The film \"Laapataa Ladies\" is directed by Kiran Rao and produced by Aamir Khan Productions, known for its focus on socially relevant and engaging narratives.",
+    "The lyrics by Prashant Pandey are praised for their simplicity and evocative power, effectively conveying complex emotions of love, longing, and hope."
+  ],
+  "meaning": {
+    "coreTheme": "Sajni explores the poignant theme of separation and the agonizing wait for a loved one. It encapsulates the emotional journey of characters grappling with the absence of their partners, expressing their deep yearning, hope, and the pain of uncertainty. The song serves as an emotional anchor in the film, reflecting the inner turmoil of the 'lost ladies' and their families.",
+    "lyricSymbolism": "The lyrics use simple yet powerful imagery to convey longing. 'Sajni' itself is an endearing term for a beloved woman, often used in folk and classical poetry to address a sweetheart. Phrases like 'raah takein' (waiting on the path) symbolize the endless anticipation and the unwavering hope for reunion, while the overall poetry is direct, focusing on the emotional core rather than complex metaphors, making the pain of separation universally relatable."
+  },
+  "musicxml": "musicxml/sajni.musicxml"
+}
