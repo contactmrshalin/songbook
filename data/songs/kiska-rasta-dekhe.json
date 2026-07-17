@@ -135,16 +135,16 @@
       ]
     }
   ],
-  "description": "This iconic song from 'Joshila' is a masterpiece of melancholic introspection, brought to life by Kishore Kumar's soulful rendition. R.D. Burman's minimalist yet deeply evocative composition perfectly complements Sahir Ludhianvi's poignant lyrics, creating an atmosphere of profound longing and existential questioning. It stands as a timeless classic, showcasing the golden era's ability to blend deep emotion with simple, unforgettable melodies.",
+  "description": "This melancholic masterpiece from 'Joshila' is a poignant expression of longing and unfulfilled waiting, brought to life by Kishore Kumar's soulful rendition. R.D. Burman's evocative composition perfectly complements Sahir Ludhianvi's heart-wrenching lyrics, creating an atmosphere of deep introspection and yearning. It remains a timeless classic for its emotional depth and musical brilliance.",
   "trivia": [
-    "The film 'Joshila' starred Dev Anand and Hema Malini, and while it was a suspense thriller, this song offered a moment of profound emotional depth.",
-    "Kishore Kumar's rendition of 'Kiska Rasta Dekhe' is often cited as one of his most moving and introspective performances, highlighting his incredible versatility beyond his more upbeat numbers.",
-    "R.D. Burman's arrangement is notable for its sparse yet impactful instrumentation, allowing the raw emotion of the vocals and lyrics to take center stage.",
-    "Sahir Ludhianvi's lyrics are a prime example of his philosophical and poetic prowess, exploring themes of waiting, uncertainty, and the human condition with remarkable simplicity and depth."
+    "Kishore Kumar's ability to convey profound sadness and vulnerability through his voice is a highlight of this song, making it one of his most iconic melancholic numbers.",
+    "R.D. Burman's arrangement, though simple, is incredibly effective, using minimal instrumentation to underscore the emotional weight of the lyrics without overpowering them.",
+    "Sahir Ludhianvi's lyrics are a poetic exploration of separation and hope, showcasing his mastery in capturing complex human emotions with simple yet profound words.",
+    "The song features in the film 'Joshila' (1973), starring Dev Anand and Hema Malini, and is picturised on Dev Anand, reflecting his character's internal turmoil and yearning."
   ],
   "meaning": {
-    "coreTheme": "The song delves into the universal human experience of waiting and longing, questioning the purpose and object of one's anticipation. It captures a deep sense of introspection, a heart adrift in uncertainty, and the melancholic realization that sometimes, the wait itself becomes the journey, with no clear destination or awaited person in sight. It's a lament for lost time, unfulfilled desires, and the existential dilemma of a future unknown.",
-    "lyricSymbolism": "The central phrase 'Kiska rasta dekhe' (Whose path do I await?) serves as a powerful metaphor for aimless longing and a search for meaning in solitude. 'Kya pata kya ho kal' (Who knows what tomorrow holds?) reflects the pervasive theme of uncertainty and the futility of planning when destiny is unknown. The imagery of a lonely heart and unanswered questions symbolizes the internal struggle of a soul grappling with its own existence and the absence of a guiding light or companion."
+    "coreTheme": "The central theme of 'Kiska Rasta Dekhe' is the agonizing wait for a beloved who is absent, possibly forever. It delves into the pain of separation, the fading hope of reunion, and the profound loneliness that accompanies such a state of longing. The song captures the universal human experience of waiting for someone or something that may never arrive, embodying a sense of wistful despair.",
+    "lyricSymbolism": "The phrase 'Kiska Rasta Dekhe' literally means 'Whose path am I watching/waiting for?', symbolizing an endless, often futile, expectation of someone's return. The lyrics use imagery of a solitary journey and the passage of time ('din guzar gaya') to emphasize the prolonged suffering and the fading light of hope. It's a classic poetic device to represent emotional emptiness through physical absence and the act of waiting."
   },
   "musicxml": "musicxml/kiska-rasta-dekhe.musicxml"
 }
