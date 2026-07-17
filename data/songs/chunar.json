@@ -1,0 +1,129 @@
+{
+  "id": "chunar",
+  "title": "Chunar",
+  "export": true,
+  "info": [
+    "Film/Artist: ABCD 2",
+    "Scale: F# BASS/MIDDLE",
+    "Singer: Arijit Singh",
+    "Music: Sachin-Jigar",
+    "Lyrics: Mayur Puri"
+  ],
+  "thumbnail": "images/chunar.jpg",
+  "background": "images/chunar.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "O jheena jheena jheena re",
+          "indian": "Sa: Sa Re Ga ma Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Udaa gulaal",
+          "indian": "Sa Ga: Ga ma: Ga Re."
+        },
+        {
+          "lyrics": "Maai teri chunariya",
+          "indian": "Re Pa ma Pa Ga Re ma Ga Re Sa:"
+        },
+        {
+          "lyrics": "Lehraai..",
+          "indian": "Sa Sa Ni(k) Dha(k): Ni(k) pa"
+        },
+        {
+          "lyrics": "Jheena jheena jheena re",
+          "indian": "Sa Re Ga Re Ga Ga Re Sa"
+        },
+        {
+          "lyrics": "Udaa gulaal",
+          "indian": "Sa Ga: Ga ma: Pa"
+        },
+        {
+          "lyrics": "Maai teri chunariya",
+          "indian": "Re Pa ma Pa Ga Re ma Ga Re Sa:"
+        },
+        {
+          "lyrics": "Lehraai..",
+          "indian": "Sa Sa Sa: Sa"
+        },
+        {
+          "lyrics": "Rang teri reet ka",
+          "indian": "Pa Pa Pa Pa ma Ga Re Ga:"
+        },
+        {
+          "lyrics": "Rang teri preet ka",
+          "indian": "ma ma ma ma ma Pa Dha(k):"
+        },
+        {
+          "lyrics": "Rang teri jeet ka hai",
+          "indian": "Ni(k) Ni(k) Ni(k) Ni(k) Dha(k) ma Ni(k) Dha(k)"
+        },
+        {
+          "lyrics": "Laayi laayi laayi..",
+          "indian": "Pa: Pa: Dha(k): Pa: Dha(k): Pa: Pa Dha(k) Sa'"
+        },
+        {
+          "lyrics": "Rang teri reet ka",
+          "indian": "Sa' Sa' Sa' Sa' Ni(k): Sa' Ni(k) Dha(k) Pa"
+        },
+        {
+          "lyrics": "Rang teri preet ka",
+          "indian": "Pa Ni(k) Dha Ni(k) Pa: Dha(k) Pa ma Ga"
+        },
+        {
+          "lyrics": "Maai teri chunariya",
+          "indian": "Ga Ga Ga Ga ma: Ga Ga Re"
+        },
+        {
+          "lyrics": "Lehraai..",
+          "indian": "Sa Sa Ni(k) Dha(k): Ni(k) pa"
+        },
+        {
+          "lyrics": "Jab jab mujhpe hai",
+          "indian": "Sa Re Ga Re Ga Ga Re Sa"
+        },
+        {
+          "lyrics": "Utha sawaal",
+          "indian": "Sa Ga: Ga ma: Pa"
+        },
+        {
+          "lyrics": "Maai teri chunariya",
+          "indian": "Re Pa ma Pa Ga Re ma Ga Re Sa:"
+        },
+        {
+          "lyrics": "Lehraai..",
+          "indian": "Sa Sa Ni(k) Dha(k): Ni(k) pa"
+        },
+        {
+          "lyrics": "Jheena jheena re",
+          "indian": "Ga: Re: Ga: Re Sa"
+        },
+        {
+          "lyrics": "Udaa gulaal",
+          "indian": "Sa Ga: Ga ma: Pa"
+        },
+        {
+          "lyrics": "Maai teri chunariya",
+          "indian": "Re Pa ma Pa Ga Re ma Ga Re Sa:"
+        },
+        {
+          "lyrics": "Lehraai..",
+          "indian": "Sa Sa Ga Re ma Ga Sa:"
+        }
+      ]
+    }
+  ],
+  "description": "Chunar is a deeply emotional and poignant ballad from \"ABCD 2,\" beautifully rendered by Arijit Singh. It explores the profound bond between a mother and her child, resonating with themes of love, sacrifice, and unwavering support. The song's soulful melody and heartfelt lyrics make it a powerful expression of filial devotion.",
+  "trivia": [
+    "The song is picturised on Varun Dhawan's character, Suresh, who dedicates it to his mother, expressing his gratitude and longing.",
+    "Arijit Singh's emotive vocals are often highlighted as a key factor in the song's widespread appeal and emotional impact, making it a fan favorite.",
+    "The music by Sachin-Jigar blends contemporary orchestration with a traditional, devotional feel, enhancing its poignant mood without strictly adhering to a classical raga.",
+    "\"Chunar\" became a popular choice for dedications and performances celebrating mothers, solidifying its place as a modern ode to motherhood in Indian cinema."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of \"Chunar\" is the unconditional love and sacrifice of a mother. It's a heartfelt tribute from a child expressing immense gratitude, longing for their mother's presence, and acknowledging her pivotal role in their life, especially during struggles and achievements. In \"ABCD 2,\" it underscores Suresh's emotional journey and his mother's unwavering belief in his dreams.",
+    "lyricSymbolism": "The title \"Chunar\" (a traditional scarf or dupatta) itself is a powerful symbol of a mother's blessing, protection, and warmth. Phrases like \"Tere maathe pe jo bindiya hai, woh chamke sada\" (May the bindi on your forehead always shine) and \"Tere haathon ki garmi, tere saanson ki khushboo\" (The warmth of your hands, the fragrance of your breath) evoke sensory memories and the comforting presence of a mother. The lyrics metaphorically portray the mother as a guiding light and a source of strength, whose blessings are like a protective 'chunar'."
+  },
+  "musicxml": "musicxml/chunar.musicxml"
+}
