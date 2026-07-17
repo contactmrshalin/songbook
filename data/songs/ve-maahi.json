@@ -1,0 +1,97 @@
+{
+  "id": "ve-maahi",
+  "title": "Ve maahi",
+  "export": true,
+  "info": [
+    "Film/Artist: Kesari",
+    "Scale: C MAJOR",
+    "Singer: Arijit Singh, Asees Kaur",
+    "Music: Tanishk Bagchi",
+    "Lyrics: Tanishk Bagchi"
+  ],
+  "thumbnail": "images/ve-maahi.jpg",
+  "background": "images/ve-maahi.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "O maaahi vee..",
+          "indian": "Ga Re Re Ga: ma Ga Re Sa dha Sa"
+        },
+        {
+          "lyrics": "O maaahi vee..",
+          "indian": "Ga Re Re Ga: ma Ga Re Sa dha Sa"
+        },
+        {
+          "lyrics": "Mahii meni chaddeyo naa",
+          "indian": "dha dha Sa Sa Sa Sa Re Ga Sa Re Pa"
+        },
+        {
+          "lyrics": "Kee tera bin dil nahio lagna",
+          "indian": "Pa ma Ga Re Sa Sa Re Re Sa Re Sa Sa"
+        },
+        {
+          "lyrics": "Jithee vi tu chalna ae",
+          "indian": "dha dha Sa Sa Sa Sa Re Ga Sa Re Pa"
+        },
+        {
+          "lyrics": "Mahii main tera picha picha chalna",
+          "indian": "Pa ma Ga Re Sa Sa Re Re Sa Re Sa Sa"
+        },
+        {
+          "lyrics": "Tuu ji sakdi nahi",
+          "indian": "Sa ni dha dha dha dha"
+        },
+        {
+          "lyrics": "Mainn jee sakdi nahi",
+          "indian": "Re Sa ni pa dha pa pa"
+        },
+        {
+          "lyrics": "kooi doosri main shartan vi sakhda nai",
+          "indian": "Sa ni dha dha dha dha Re Sa ni pa dha pa pa"
+        },
+        {
+          "lyrics": "Kyaa tera saajon mera",
+          "indian": "pa pa dha dha ni: ni Sa: Sa Re: Sa Sa"
+        },
+        {
+          "lyrics": "Saacchiyan mohabbatan ve",
+          "indian": "dha dha Sa Sa Sa Sa Re Ga Sa Re Pa"
+        },
+        {
+          "lyrics": "Hoo maahi kithe hor nahio milna",
+          "indian": "Pa ma Ga Re Sa Sa Re Re Sa Re Sa Sa"
+        },
+        {
+          "lyrics": "Jithee vi tu chalna ae",
+          "indian": "dha dha Sa Sa Sa Sa Re Ga Sa Re Pa"
+        },
+        {
+          "lyrics": "Mahii main tera picha picha chalna",
+          "indian": "Pa ma Ga Re Sa Sa Re Re Sa Re Sa Sa"
+        },
+        {
+          "lyrics": "O maaahi vee..",
+          "indian": "Ga Re Re Ga: ma Ga Re Sa dha Sa"
+        },
+        {
+          "lyrics": "O maaahi vee..",
+          "indian": "Ga Re Re Ga: ma Ga Re Sa dha Sa"
+        }
+      ]
+    }
+  ],
+  "description": "This soulful romantic ballad from the film \"Kesari\" became an instant hit, celebrated for its tender melody and heartfelt vocals. \"Ve Maahi\" beautifully captures the essence of deep love and longing, providing a poignant emotional anchor in the historical war drama. Its simple yet profound composition makes it a staple for romantic playlists.",
+  "trivia": [
+    "The song was composed, written, and programmed by Tanishk Bagchi, making it a complete solo effort from him in terms of creation.",
+    "Despite 'Kesari' being a historical war film, 'Ve Maahi' served as a crucial romantic interlude, highlighting the personal life and emotional connection of the protagonist.",
+    "It was one of the most streamed and popular songs of 2019, cementing its place as a modern romantic anthem.",
+    "The music video features Akshay Kumar and Parineeti Chopra, beautifully depicting the tender moments between their characters."
+  ],
+  "meaning": {
+    "coreTheme": "The core theme of 'Ve Maahi' is unwavering love and devotion, expressing a deep yearning for one's beloved. It portrays the emotional bond between two souls, where one's existence feels incomplete without the other. In the context of 'Kesari', it represents the love story of Havildar Ishar Singh and his wife, serving as a reminder of what he is fighting for.",
+    "lyricSymbolism": "The title 'Ve Maahi' directly translates to 'Oh my beloved,' setting the tone for the entire song. The lyrics are rich with classic romantic imagery, comparing the beloved to life's breath ('saah'), the heart's beat ('dhadkan'), and the very reason for existence. Phrases like 'teri chahat mein toh main khud ko bhula baitha' (in your love, I've forgotten myself) symbolize complete surrender and absorption in love, a common poetic device in Indian romantic songs."
+  },
+  "musicxml": "musicxml/ve-maahi.musicxml"
+}
