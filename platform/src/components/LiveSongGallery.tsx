@@ -23,7 +23,13 @@ export default function LiveSongGallery({
   fallbackSongs,
 }: LiveSongGalleryProps) {
 
-  const liveEnabled = process.env.NEXT_PUBLIC_ENABLE_LIVE_SONGS === "true";
+  // Default to live mode in production so newly published songs show up
+  // even when NEXT_PUBLIC_ENABLE_LIVE_SONGS is not configured.
+  const liveFlag = process.env.NEXT_PUBLIC_ENABLE_LIVE_SONGS;
+  const liveEnabled =
+    liveFlag === undefined
+      ? process.env.NODE_ENV === "production"
+      : liveFlag === "true";
   const { songs: liveSongs, loading, error } = useLiveSongs({
     enabled: liveEnabled,
   });
