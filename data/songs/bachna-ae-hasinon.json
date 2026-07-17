@@ -1,0 +1,141 @@
+{
+  "id": "bachna-ae-hasinon",
+  "title": "Bachna Ae Hasinon",
+  "export": true,
+  "info": [
+    "Scale: D BASS/MIDDLE",
+    "Film: Hum Kisise Kum Naheen (1977)",
+    "Singer: Kishore Kumar",
+    "Music: R.D. Burman",
+    "Lyrics: Anand Bakshi"
+  ],
+  "thumbnail": "images/bachna-ae-hasinon.jpg",
+  "background": "images/bachna-ae-hasinon.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Bachnaa ae haseenon",
+          "indian": "Pa Pa Pa: Dha Ni Pa Dha: Pa Re"
+        },
+        {
+          "lyrics": "Lo main aa gayaa",
+          "indian": "Pa Pa: Dha Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Hay bachnaa ai haseenon",
+          "indian": "Pa Pa Pa Pa: Dha Ni Pa Dha: Pa Re"
+        },
+        {
+          "lyrics": "Lo main aa gayaa",
+          "indian": "Pa Pa: Dha Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Husn ka aashiq",
+          "indian": "Dha Dha Dha Ni Sa': Ni Dha"
+        },
+        {
+          "lyrics": "Husn ka dushman",
+          "indian": "Dha Ni Pa Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Apni ada hai yaaron se judaa",
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Hai ho",
+          "indian": "R'. R'."
+        },
+        {
+          "lyrics": "Bachnaa ae haseenon",
+          "indian": "Pa Pa Pa: Dha Ni Pa Dha: Pa Re"
+        },
+        {
+          "lyrics": "Lo main aa gayaa",
+          "indian": "Pa Pa: Dha Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Hay bachnaa ai haseenon",
+          "indian": "Pa Pa Pa Pa: Dha Ni Pa Dha: Pa Re"
+        },
+        {
+          "lyrics": "Lo main aa gayaa",
+          "indian": "Pa Pa: Dha Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Husn ka aashiq",
+          "indian": "Dha Dha Dha Ni Sa': Ni Dha"
+        },
+        {
+          "lyrics": "Husn ka dushman",
+          "indian": "Dha Ni Pa Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Apni ada hai yaaron se judaa",
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Hai ho",
+          "indian": "R'. R'."
+        },
+        {
+          "lyrics": "Bachnaa ae haseenon",
+          "indian": "Pa Pa Pa: Dha Ni Pa Dha: Pa Re"
+        },
+        {
+          "lyrics": "Lo main aa gayaa",
+          "indian": "Pa Pa: Dha Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Hai duniya mein nahin hai",
+          "indian": "Re': Sa' Ni Dha Ni Sa': Re':"
+        },
+        {
+          "lyrics": "Aaj meraa sa deevaana",
+          "indian": "Re': Sa' Ni Dha Ni Sa' Ni:"
+        },
+        {
+          "lyrics": "Pyaar vaalon ki jubaan pe",
+          "indian": "Re': Sa' Ni Dha Ni Sa': Re':"
+        },
+        {
+          "lyrics": "Hai mera hi taraana",
+          "indian": "Re': Sa' Ni Dha Ni Sa' Ni:"
+        },
+        {
+          "lyrics": "Sabki rang bhari aankhon pe aaj",
+          "indian": "Dha Dha Dha: Dha Ni Sa' Ni Dha: Dha: Pa ma:"
+        },
+        {
+          "lyrics": "Chamak raha hai mera hi nashaa",
+          "indian": "Pa Pa Pa Pa Pa Pa Pa Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Hi ho",
+          "indian": "R'. R'."
+        },
+        {
+          "lyrics": "Hai bachnaa ae haseenon",
+          "indian": "Pa Pa Pa Pa: Dha Ni Pa Dha: Pa Re"
+        },
+        {
+          "lyrics": "Lo main aa gayaa",
+          "indian": "Pa Pa: Dha Ni Pa Dha:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic track is a high-energy anthem of playful flirtation, showcasing Kishore Kumar's inimitable vocal charm and R.D. Burman's innovative musical genius. Its catchy melody, driving rhythm, and Kumar's charismatic delivery made it an instant classic, embodying the carefree spirit of its era. The song remains a timeless favorite, synonymous with youthful exuberance and romantic mischief.",
+  "trivia": [
+    "The song was originally featured in the 1977 film 'Hum Kisise Kum Naheen', starring Rishi Kapoor, who famously performed it on screen.",
+    "Its immense popularity led to its title being used for a 2008 film, 'Bachna Ae Haseeno', which featured a remixed version of the song, performed by Vishal Dadlani and Sumit Kumar.",
+    "R.D. Burman's composition for this song is noted for its fusion of Western rock elements with Indian sensibilities, particularly the prominent use of electric guitar and drums, which was groundbreaking for its time in Bollywood.",
+    "Kishore Kumar's vocal performance is legendary, capturing the song's mischievous and confident tone with effortless cool, making it one of his most memorable tracks."
+  ],
+  "meaning": {
+    "coreTheme": "\"Bachna Ae Hasinon\" is a lighthearted warning from a charming, self-proclaimed playboy to beautiful women, advising them to be wary of his irresistible allure. It's a confident, almost boastful declaration of his romantic prowess, framed as a playful caution rather than a threat, celebrating the thrill of the chase and the joy of flirtation.",
+    "lyricSymbolism": "The phrase \"Bachna Ae Hasinon\" literally translates to \"Beware, oh beautiful women,\" setting the tone for a playful challenge. \"Lo main aa gaya\" (Here I come) signifies his grand entrance and confidence. Metaphors like \"dil churana\" (to steal hearts) and \"shikaar\" (prey) are used playfully to describe his romantic conquests, portraying him as a charming rogue whose intentions are clear but delivered with a wink."
+  },
+  "musicxml": "musicxml/bachna-ae-hasinon.musicxml"
+}
