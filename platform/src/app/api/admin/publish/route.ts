@@ -156,20 +156,12 @@ export async function POST(request: Request) {
     const bundledSongs: Song[] = [];
     for (const id of allSongIds) {
       try {
-        const parsedSong =
-          id === song.id
-            ? song
-            : (() => {
-                const contentPromise = getFileContent(`data/songs/${id}.json`);
-                return contentPromise;
-              })();
-
         if (id === song.id) {
           if (song.export !== false) {
             bundledSongs.push(song);
           }
         } else {
-          const content = await parsedSong;
+          const content = await getFileContent(`data/songs/${id}.json`);
           if (!content) continue;
           const s = JSON.parse(content) as Song;
           if (s.export !== false) {
