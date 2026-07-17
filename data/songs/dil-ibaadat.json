@@ -1,0 +1,113 @@
+{
+  "id": "dil-ibaadat",
+  "title": "Dil Ibaadat",
+  "export": true,
+  "info": [
+    "Film/Artist: Tum Mile",
+    "Scale: F BASS/MIDDLE",
+    "Singer: K.K.",
+    "Music: Pritam",
+    "Lyrics: Sayeed Quadri"
+  ],
+  "thumbnail": "images/dil-ibaadat.jpg",
+  "background": "images/dil-ibaadat.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Dil ibadat kar raha hai",
+          "indian": "Ga: Sa' Ni: Sa': Pa: Ni Dha: Pa:"
+        },
+        {
+          "lyrics": "Dhadkane meri sun",
+          "indian": "ma: ma ma: Pa ma Ga"
+        },
+        {
+          "lyrics": "Tujhko main kar loon hasil",
+          "indian": "Ga Re Sa ni dha: Ga Ga Ga"
+        },
+        {
+          "lyrics": "Lagi hai yahi dhun",
+          "indian": "Ga ma ma Ga Re: Ga:"
+        },
+        {
+          "lyrics": "Zindgi ki shakh se loon",
+          "indian": "Ga: Sa' Ni: Sa': Pa: Ni Dha: Pa:"
+        },
+        {
+          "lyrics": "Kuchh hasin pal le chun",
+          "indian": "ma: ma ma: Pa ma Ga"
+        },
+        {
+          "lyrics": "Tujhko main kar loo hasil",
+          "indian": "Ga Re Sa ni dha: Ga Ga Ga"
+        },
+        {
+          "lyrics": "Lagi hai yahi dhun",
+          "indian": "Ga ma ma Ga Re: Ga"
+        },
+        {
+          "lyrics": "Jo bhi jitne pal jeeyu",
+          "indian": "Dha Ni Sa' Sa' Sa': Sa' Re' Sa' Ni Dha:"
+        },
+        {
+          "lyrics": "Unhe tere sang jeeyu",
+          "indian": "Dha Ni Sa' Sa': Sa' Re' Sa' Ni Dha:"
+        },
+        {
+          "lyrics": "Jo bhi kal ho ab mera",
+          "indian": "Re' Re' Re' Ni: Ni Dha Ni Dha Pa"
+        },
+        {
+          "lyrics": "Use tere sang jeeyu",
+          "indian": "Pa ma ma ma: Pa ma Ga"
+        },
+        {
+          "lyrics": "Jo bhi saanse main bharoo",
+          "indian": "Dha Ni Re' Sa' Sa': Sa' Re' Sa' Ni Dha:"
+        },
+        {
+          "lyrics": "Unhe tere sang bharoo",
+          "indian": "Dha Ni Sa' Sa': Sa' Re' Sa' Ni Dha:"
+        },
+        {
+          "lyrics": "Chahe jo ho rasta",
+          "indian": "Re' Re' Re' Ni: Ni Dha Ni Dha Pa"
+        },
+        {
+          "lyrics": "Use tere sang chalu",
+          "indian": "Pa ma ma ma: Pa ma Ga"
+        },
+        {
+          "lyrics": "Dil ibadat kar raha hai",
+          "indian": "Ga: Sa' Ni: Sa': Pa: Ni Dha: Pa:"
+        },
+        {
+          "lyrics": "Dhadkane meri sun",
+          "indian": "ma: ma ma: Pa ma Ga"
+        },
+        {
+          "lyrics": "Tujhko main kar loon hasil",
+          "indian": "Ga Re Sa ni dha: Ga Ga Ga"
+        },
+        {
+          "lyrics": "Lagi hai yahi dhun",
+          "indian": "Ga ma ma Ga Re: Ga:"
+        }
+      ]
+    }
+  ],
+  "description": "Dil Ibaadat is a poignant romantic ballad from the film Tum Mile, known for its soulful melody and K.K.'s emotive vocals. The song beautifully captures the intensity of devotion in love, comparing the beloved to a divine entity. Its contemporary arrangement, blended with a heartfelt lyrical narrative, made it an instant classic among romantic anthems.",
+  "trivia": [
+    "The song was a massive hit upon its release and remains one of K.K.'s most beloved and frequently requested live performances.",
+    "Pritam's composition for 'Tum Mile' was highly acclaimed, with 'Dil Ibaadat' standing out as a prime example of his ability to craft memorable melodies that resonate deeply with listeners.",
+    "The lyrics by Sayeed Quadri are celebrated for their profound poetic quality, using spiritual metaphors to express the depth of romantic love.",
+    "The film 'Tum Mile' was set against the backdrop of the 2005 Mumbai floods, and 'Dil Ibaadat' provided a tender, emotional core to the love story amidst the chaos."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of 'Dil Ibaadat' is the profound and almost spiritual devotion one feels for a beloved. It portrays love as an act of worship, where the lover's heart (dil) becomes a temple and their feelings for the beloved are akin to prayers (ibaadat). The song explores the longing and complete surrender to love, positioning the beloved as the ultimate focus of one's existence and devotion.",
+    "lyricSymbolism": "The lyrics are rich with spiritual and religious metaphors. 'Dil ibaadat kar raha hai' translates to 'My heart is worshipping,' equating love with a sacred act. Phrases like 'meri rooh ko sukoon de' (give peace to my soul) and 'teri baahon mein milega' (I will find it in your arms) elevate the beloved to a source of ultimate solace and salvation. The repeated use of 'khuda' (God) and 'dua' (prayer) in the context of the beloved signifies an almost divine reverence, suggesting that for the lover, the beloved embodies everything sacred and essential."
+  },
+  "musicxml": "musicxml/dil-ibaadat.musicxml"
+}
