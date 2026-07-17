@@ -1,7 +1,5 @@
 "use client";
 
-import { useMemo } from "react";
-import { useLiveSongs } from "@/hooks/useLiveSongs";
 import SongGallery from "./SongGallery";
 import type { Song } from "@/types/song";
 
@@ -23,31 +21,10 @@ export default function LiveSongGallery({
   fallbackSongs,
 }: LiveSongGalleryProps) {
 
-  // Default to live mode in production so newly published songs show up
-  // even when NEXT_PUBLIC_ENABLE_LIVE_SONGS is not configured.
-  const liveFlag = process.env.NEXT_PUBLIC_ENABLE_LIVE_SONGS;
-  const liveEnabled =
-    liveFlag === undefined
-      ? process.env.NODE_ENV === "production"
-      : liveFlag === "true";
-  const { songs: liveSongs, loading, error } = useLiveSongs({
-    enabled: liveEnabled,
-  });
-
-  // Use live songs if available, otherwise fall back to bundle
-  const songs = useMemo(
-    () => liveSongs || fallbackSongs,
-    [liveSongs, fallbackSongs]
-  );
+  // Bundled mode only: always render the statically generated song list.
+  const songs = fallbackSongs;
 
   return (
-    <>
-      {liveEnabled && error && !liveSongs && (
-        <div className="mb-4 p-3 rounded bg-yellow-50 border border-yellow-200 text-sm text-yellow-700">
-          ⚠️ Could not load live song list. Showing cached data.
-        </div>
-      )}
-      <SongGallery songs={songs} />
-    </>
+    <SongGallery songs={songs} />
   );
 }

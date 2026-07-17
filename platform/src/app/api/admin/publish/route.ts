@@ -1,4 +1,4 @@
-import { commitFiles, getFileContent } from "@/lib/github";
+import { commitFiles, getFileContent, listRepoDir } from "@/lib/github";
 import { downloadImage } from "@/lib/scraper";
 import { songToMusicXml } from "@/lib/toMusicXml";
 import type { Song } from "@/types/song";
@@ -131,7 +131,68 @@ export async function POST(request: Request) {
       content: JSON.stringify(book, null, 2) + "\n",
     });
 
-    // 5. Single atomic commit with everything
+    // 5. Refresh bundled songs JSON so production can stay fully static.
+    const notationRaw = await getFileContent("data/notation_mapping.json");
+    let notationMapping: Record<string, unknown> = {};
+    if (notationRaw) {
+      try {
+        notationMapping = JSON.parse(notationRaw) as Record<string, unknown>;
+      } catch {
+        notationMapping = {};
+      }
+    }
+
+    const songFiles = await listRepoDir("data/songs");
+    const songIdsFromFiles = (songFiles || [])
+      .filter((entry) => entry.type === "file" && entry.name.endsWith(".json"))
+      .map((entry) => entry.name.replace(/\.json$/i, ""));
+
+    const orderedIds = new Set<string>(order);
+    const remainingIds = songIdsFromFiles
+      .filter((id) => !orderedIds.has(id))
+      .sort((a, b) => a.localeCompare(b));
+    const allSongIds = [...order, ...remainingIds];
+
+    const bundledSongs: Song[] = [];
+    for (const id of allSongIds) {
+      try {
+        const parsedSong =
+          id === song.id
+            ? song
+            : (() => {
+                const contentPromise = getFileContent(`data/songs/${id}.json`);
+                return contentPromise;
+              })();
+
+        if (id === song.id) {
+          if (song.export !== false) {
+            bundledSongs.push(song);
+          }
+        } else {
+          const content = await parsedSong;
+          if (!content) continue;
+          const s = JSON.parse(content) as Song;
+          if (s.export !== false) {
+            bundledSongs.push(s);
+          }
+        }
+      } catch {
+        // Skip malformed files but keep publish flow resilient.
+      }
+    }
+
+    const bundlePayload = {
+      bookMeta: book,
+      notationMapping,
+      songs: bundledSongs,
+    };
+
+    filesToCommit.push({
+      path: "platform/src/generated/song-bundle.json",
+      content: JSON.stringify(bundlePayload),
+    });
+
+    // 6. Single atomic commit with everything
     const lineCount = song.sections.reduce(
       (acc, s) => acc + s.lines.length,
       0
