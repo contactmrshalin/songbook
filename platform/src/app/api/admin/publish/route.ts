@@ -17,6 +17,7 @@ import type { Song } from "@/types/song";
  * This triggers GitHub Pages rebuild + Vercel redeploy automatically.
  */
 export async function POST(request: Request) {
+
   try {
     const body = await request.json();
     const { song, password, imageUrl } = body as {
@@ -102,20 +103,33 @@ export async function POST(request: Request) {
       content: songJson,
     });
 
-    // 4. Update book.json — add song to song_order if not already there
+    // 4. Upsert book.json — always ensure song is present in song_order
     const bookRaw = await getFileContent("data/book.json");
+    let book: Record<string, unknown> = {};
+
     if (bookRaw) {
-      const book = JSON.parse(bookRaw);
-      const order: string[] = book.song_order || [];
-      if (!order.includes(song.id)) {
-        order.push(song.id);
-        book.song_order = order;
+      try {
+        book = JSON.parse(bookRaw);
+      } catch {
+        // Keep publishing resilient if book.json is temporarily malformed.
+        book = {};
       }
-      filesToCommit.push({
-        path: "data/book.json",
-        content: JSON.stringify(book, null, 2) + "\n",
-      });
     }
+
+    const order = Array.isArray(book.song_order)
+      ? (book.song_order as string[])
+      : [];
+
+    if (!order.includes(song.id)) {
+      order.push(song.id);
+    }
+
+    book.song_order = order;
+
+    filesToCommit.push({
+      path: "data/book.json",
+      content: JSON.stringify(book, null, 2) + "\n",
+    });
 
     // 5. Single atomic commit with everything
     const lineCount = song.sections.reduce(

@@ -1,4 +1,4 @@
-import { getFileContent } from "@/lib/github";
+import { getFileContent, listRepoDir } from "@/lib/github";
 import type { Song, BookMeta } from "@/types/song";
 
 const SONGS_CACHE_TTL_MS = 60 * 1000;
@@ -22,6 +22,7 @@ let songsCache: { expiresAt: number; payload: SongsListResponse } | null = null;
  * This endpoint reads live from GitHub so new songs appear without redeployment.
  */
 export async function GET(request: Request) {
+
   try {
     const { searchParams } = new URL(request.url);
     const songId = searchParams.get("id");
@@ -49,16 +50,30 @@ export async function GET(request: Request) {
       });
     }
 
-    // Get book.json from GitHub for the live song order
+    // Get book.json from GitHub for preferred song order.
     const bookRaw = await getFileContent("data/book.json");
     const book: BookMeta = bookRaw ? JSON.parse(bookRaw) : { song_order: [] };
-    const songOrder: string[] = book.song_order || [];
+    const songOrder = Array.isArray(book.song_order) ? book.song_order : [];
+
+    // Also include any song files present in data/songs that are not listed
+    // in book.json, so newly published songs are still visible.
+    const dirEntries = await listRepoDir("data/songs");
+    const songIdsFromFiles = (dirEntries || [])
+      .filter((entry) => entry.type === "file" && entry.name.endsWith(".json"))
+      .map((entry) => entry.name.replace(/\.json$/i, ""));
+
+    const seen = new Set<string>();
+    const allSongIds = [...songOrder, ...songIdsFromFiles].filter((id) => {
+      if (!id || seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
 
     // Fetch all song files from GitHub in bounded parallel chunks.
     const songs: Song[] = [];
 
-    for (let i = 0; i < songOrder.length; i += SONG_FETCH_CONCURRENCY) {
-      const chunk = songOrder.slice(i, i + SONG_FETCH_CONCURRENCY);
+    for (let i = 0; i < allSongIds.length; i += SONG_FETCH_CONCURRENCY) {
+      const chunk = allSongIds.slice(i, i + SONG_FETCH_CONCURRENCY);
       const chunkSongs = await Promise.all(
         chunk.map(async (id) => {
           try {
