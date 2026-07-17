@@ -1,0 +1,85 @@
+{
+  "id": "abhi-abhi-toh-mile-ho",
+  "title": "Abhi Abhi Toh Mile Ho",
+  "export": true,
+  "info": [
+    "Film/Artist: Jism 2",
+    "Scale: D BASS/MIDDLE",
+    "Singer: K.K.",
+    "Music: Arko Pravo Mukherjee",
+    "Lyrics: Arko Pravo Mukherjee"
+  ],
+  "thumbnail": "images/abhi-abhi-toh-mile-ho.jpg",
+  "background": "images/abhi-abhi-toh-mile-ho.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Abhi abhi toh mile ho",
+          "indian": "Re Ga Re Ga: Ga Pa Ga Re Ga:"
+        },
+        {
+          "lyrics": "Abhi naa karo chhootne ki baat",
+          "indian": "Re Re: Sa Ni(k) Ni(k) Ni(k) n(k).n(k) Re Sa Sa:"
+        },
+        {
+          "lyrics": "Abhi abhi toh pasand aaye ho",
+          "indian": "Re Ga Re Ga: Ga Ga Pa Ga Re Ga:"
+        },
+        {
+          "lyrics": "Abhi abhi roothne ki baat",
+          "indian": "G(K).G(K): Pa ma: ma ma ma Dha Pa:"
+        },
+        {
+          "lyrics": "Abhi abhi toh roshni aayi",
+          "indian": "Ga Pa Ga Pa: Pa Ga Sa' Ni Dha Pa Dha:"
+        },
+        {
+          "lyrics": "Abhi naa karo munh chhupane ki baat",
+          "indian": "Dha Pa: ma Ga Re: Re Re Re ma Ga Ga:"
+        },
+        {
+          "lyrics": "Abhi abhi zindagi",
+          "indian": "Ni Sa' Ni Sa': Sa' Ga' Re':"
+        },
+        {
+          "lyrics": "Shuru hai",
+          "indian": "Sa' Ni Dha Ni Sa' Ni Sa' Ni Sa' Ni Sa' Ni Sa' Ni Dha Pa"
+        },
+        {
+          "lyrics": "Abhi abhi tham jaane ki baat",
+          "indian": "Dha Dha: Pa Re Re Re Re ma Ga Ga:"
+        },
+        {
+          "lyrics": "Hum toh haare mahiya re",
+          "indian": "Ni Ni Ni Sa': .N Ni Ni Sa':"
+        },
+        {
+          "lyrics": "Moonde naina neendh tihaare",
+          "indian": "Ni Ni Ni Re': .N Ni Ni Ni Sa':"
+        },
+        {
+          "lyrics": "Hum toh haare mahiya re",
+          "indian": "Ni Ni Ni Sa': .N Ni Ni Re' Sa':"
+        },
+        {
+          "lyrics": "Moonde naina neendh tihaare",
+          "indian": "Ni Ni Ni Re': Ga' Re' Ga': Ni Ni Ni Ni Sa':"
+        }
+      ]
+    }
+  ],
+  "description": "This soulful romantic ballad from Jism 2 perfectly encapsulates the intoxicating feeling of a new connection. K.K.'s emotive vocals, combined with Arko Pravo Mukherjee's poignant composition, create an atmosphere of longing and intimacy. It became a significant hit, cherished for its heartfelt melody and K.K.'s signature delivery.",
+  "trivia": [
+    "The song marked a significant success for Arko Pravo Mukherjee, who not only composed the music but also penned the lyrics, showcasing his versatile talent.",
+    "K.K.'s rendition of 'Abhi Abhi Toh Mile Ho' is often cited as one of his most memorable romantic tracks, praised for its emotional depth and vocal control.",
+    "The song's popularity extended beyond the film, becoming a staple on romantic playlists and a favorite for its soothing yet passionate vibe.",
+    "The music video features the lead actors, Sunny Leone and Randeep Hooda, enhancing the song's sensual and romantic appeal within the film's narrative."
+  ],
+  "meaning": {
+    "coreTheme": "The song beautifully captures the essence of nascent love and intense attraction between two individuals who have just met. It expresses the overwhelming desire to prolong the moment, to explore the newfound connection, and to surrender to the intoxicating feelings that arise when hearts instantly resonate.",
+    "lyricSymbolism": "The phrase 'Abhi Abhi Toh Mile Ho' (We've just met) itself is a powerful symbol of immediacy and the unexpected nature of love at first sight. The lyrics use simple, direct language to convey deep emotions, focusing on physical closeness ('baahon mein aa jao') and the longing for an eternal embrace, emphasizing the timelessness of a moment that feels destined."
+  },
+  "musicxml": "musicxml/abhi-abhi-toh-mile-ho.musicxml"
+}
