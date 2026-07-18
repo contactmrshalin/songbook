@@ -1,0 +1,261 @@
+{
+  "id": "kaise-mujhe",
+  "title": "Kaise Mujhe",
+  "export": true,
+  "info": [
+    "Film/Artist: Ghajini",
+    "Scale: A# BASS/MIDDLE",
+    "Singer: Shreya Ghoshal, Benny Dayal",
+    "Music: A.R. Rahman",
+    "Lyrics: Prasoon Joshi"
+  ],
+  "thumbnail": "images/kaise-mujhe.jpg",
+  "background": "images/kaise-mujhe.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Hoo hooo oooo..",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Ga:"
+        },
+        {
+          "lyrics": "Hoo hoo hoo..",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Sa"
+        },
+        {
+          "lyrics": "Oooo hoooo..",
+          "indian": "Sa Sa: Sa Re Ga: Ga Ga"
+        },
+        {
+          "lyrics": "Hooo oooo..",
+          "indian": "Ga Pa Pa: ma ma: Ga: Re: Sa Sa"
+        },
+        {
+          "lyrics": "Hooo hooo…",
+          "indian": "Sa Ga Dha(k) Dha(k) Sa Dha(k) Sa pa:"
+        },
+        {
+          "lyrics": "Kaise mujhe tu mil gayi",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Ga:"
+        },
+        {
+          "lyrics": "Kismat pe aaye naa yaakeen",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Sa"
+        },
+        {
+          "lyrics": "Utar aayi jheel mein",
+          "indian": "Sa Sa: Sa Re Ga: Ga Ga"
+        },
+        {
+          "lyrics": "Jaise chand utarta hai kabhi",
+          "indian": "Ga Pa Pa: ma ma: Ga: Re: Sa Sa"
+        },
+        {
+          "lyrics": "Haule haule dheere se",
+          "indian": "Sa Ga Dha(k) Dha(k) Sa Dha(k) Sa pa:"
+        },
+        {
+          "lyrics": "Gunguni dhoop ki tarah se taranum mein tum",
+          "indian": "Pa Pa Pa Pa: ma Ga Sa: Sa dha Sa: Re Ga Ga"
+        },
+        {
+          "lyrics": "Choo ke mujhe",
+          "indian": "Dha Dha Sa' Sa':"
+        },
+        {
+          "lyrics": "Guzari hu yu",
+          "indian": "Ga Ga Pa Pa:"
+        },
+        {
+          "lyrics": "Dekhu tumhe",
+          "indian": "Pa Ma Dha Dha:"
+        },
+        {
+          "lyrics": "Ya mein sunu",
+          "indian": "Dha Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Tum ho sukoon",
+          "indian": "Dha Dha Sa' Sa':"
+        },
+        {
+          "lyrics": "Tum ho junoon",
+          "indian": "Sa Sa Re Ga: Pa"
+        },
+        {
+          "lyrics": "Kyu pehle naa",
+          "indian": "Pa Dha Pa Ma:"
+        },
+        {
+          "lyrics": "Aayi tum",
+          "indian": "Re Ma Dha Pa:"
+        },
+        {
+          "lyrics": "Kaise mujhe tu mil gayi",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Ga:"
+        },
+        {
+          "lyrics": "Kaise mujhe tu mil gayi",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Sa"
+        },
+        {
+          "lyrics": "Music",
+          "indian": "ma Pa ma ma Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "ma Pa ma ma Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "ma Pa ma ma Ga Re Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "ma Pa ma ma Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "ma Pa ma ma Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "ma Pa ma ma Ga Re Ga"
+        },
+        {
+          "lyrics": "Mein to yeh sochta tha",
+          "indian": "Pa Pa Pa Pa: ma Ga Sa:"
+        },
+        {
+          "lyrics": "Ki aaj kal",
+          "indian": "Sa: Re Ga Ga"
+        },
+        {
+          "lyrics": "Upar wale ko",
+          "indian": "Dha Dha Sa' Sa': Ga."
+        },
+        {
+          "lyrics": "Fursat nahi",
+          "indian": "Ga Ga Pa Pa:"
+        },
+        {
+          "lyrics": "Phir bhi tumhe",
+          "indian": "Pa Ma Dha Dha:"
+        },
+        {
+          "lyrics": "Bana ke woh",
+          "indian": "Dha Dha Pa Pa:"
+        },
+        {
+          "lyrics": "Meri nazar",
+          "indian": "Dha Dha Sa' Sa':"
+        },
+        {
+          "lyrics": "Mein chadh gaya",
+          "indian": "Sa Sa Re Ga: Pa"
+        },
+        {
+          "lyrics": "Rutbe mein woh",
+          "indian": "Pa Dha: Pa Ma:"
+        },
+        {
+          "lyrics": "Aur badh gaya",
+          "indian": "Re Ma Dha Pa:"
+        },
+        {
+          "lyrics": "Aaaa aaaa",
+          "indian": "Sa' Re' Ga' Re' Ga': Re' ma' Ga' Re' Ni Sa':"
+        },
+        {
+          "lyrics": "Aaaa aaaa",
+          "indian": "Ni Re' Sa' Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Aaaa aaaa…..",
+          "indian": "Pa Ni Sa': Ni Re': Sa' Re' Ga' Re' Ga' Sa' Sa'"
+        },
+        {
+          "lyrics": "Badle raaste jharne aur nadi",
+          "indian": "ma Pa ma ma Ga ma Pa ma ma Ga"
+        },
+        {
+          "lyrics": "Badli deep ki timtim",
+          "indian": "ma Pa ma ma Ga Re Ga"
+        },
+        {
+          "lyrics": "Chedhe zindagi dhun koi nayee",
+          "indian": "ma Pa ma ma Ga ma Pa ma ma Ga"
+        },
+        {
+          "lyrics": "Badli barkha ki rimjhim",
+          "indian": "ma Pa ma ma Ga Re Ga"
+        },
+        {
+          "lyrics": "Badlengi rituyein adaa",
+          "indian": "Sa' Sa' Sa' Sa' Sa' Sa' Re' Sa' Ni: Sa'"
+        },
+        {
+          "lyrics": "Par mein rahungi sada",
+          "indian": "Sa': Sa': Ni Ni: Dha Pa Pa Dha"
+        },
+        {
+          "lyrics": "Ussi tarah teri",
+          "indian": "Pa Dha: Ni: Sa': Ni Sa'"
+        },
+        {
+          "lyrics": "Bahon mein baahein daalke",
+          "indian": "Re' Ga' Ga': Ga' Ga': Ga': Re': Sa' Sa'"
+        },
+        {
+          "lyrics": "Har lamha har pal",
+          "indian": "Sa' Ga' Dha(k) Dha(k) Sa' Dha(k) Sa' Pa:"
+        },
+        {
+          "lyrics": "Aaaa aaaa",
+          "indian": "Sa' Re' Ga' Re' Ga': Re' ma' Ga' Re' Ni Sa':"
+        },
+        {
+          "lyrics": "Aaaa aaaa",
+          "indian": "Ni Re' Sa' Ni Pa Dha:"
+        },
+        {
+          "lyrics": "Aaaa aaaa…..",
+          "indian": "Pa Ni Sa': Ni Re': Sa' Re' Ga' Re' Ga' Sa' Sa'"
+        },
+        {
+          "lyrics": "Zindagi sitar ho gayi",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Ga:"
+        },
+        {
+          "lyrics": "Rimjhim malhaar ho gayi",
+          "indian": "ma Pa Dha ma Ga: Sa Sa Sa"
+        },
+        {
+          "lyrics": "Mujhe aata nahi",
+          "indian": "Sa Sa: Sa Re Ga: Ga Ga"
+        },
+        {
+          "lyrics": "Kismat pe apni yakeen",
+          "indian": "Ga Pa Pa: ma ma: Ga: Re: Sa Sa"
+        },
+        {
+          "lyrics": "Kaise mujhko mili tum",
+          "indian": "Sa Ga Dha(k) Dha(k) Sa Dha(k) Sa pa:"
+        }
+      ]
+    }
+  ],
+  "description": "Kaise Mujhe\" is a soul-stirring romantic ballad from the film Ghajini, renowned for its profound emotional depth and lush orchestration. Composed by A.R. Rahman, the song beautifully captures the overwhelming feeling of finding one's destined love, blending poignant melody with powerful vocals to create an unforgettable listening experience. Its sweeping arrangement and heartfelt delivery make it a quintessential modern love anthem.",
+  "trivia": [
+    "A.R. Rahman's composition for \"Kaise Mujhe\" is noted for its rich orchestral arrangement, which features a prominent string section and a grand, cinematic feel, enhancing the song's emotional impact.",
+    "The song has two popular versions: a female rendition by Shreya Ghoshal, celebrated for its delicate yet powerful expression, and a male version by Benny Dayal, which offers a slightly different emotional texture.",
+    "Prasoon Joshi's lyrics are praised for their poetic simplicity and ability to convey complex emotions of wonder and gratitude upon finding true love, resonating deeply with listeners.",
+    "\"Kaise Mujhe\" became an instant hit upon its release, contributing significantly to the film's musical success and remaining a beloved romantic track in Bollywood's modern repertoire."
+  ],
+  "meaning": {
+    "coreTheme": "The song's core theme revolves around the serendipitous and overwhelming experience of finding one's soulmate. It expresses a deep sense of wonder, gratitude, and disbelief at how destiny brings two people together, portraying love as a miraculous and life-altering event. In the context of \"Ghajini,\" it underscores the profound connection between the protagonist, Sanjay, and Kalpana, making her loss even more tragic.",
+    "lyricSymbolism": "The lyrics frequently use metaphors of discovery and completion. Phrases like \"Kaise mujhe tum mil gayi, kismat pe aaye na yakeen\" (How did I find you, I can't believe my fate) symbolize the disbelief and joy of an unexpected, perfect union. The imagery evokes a sense of a missing piece found, completing one's existence, and transforming the world into a more beautiful place through the presence of the beloved."
+  },
+  "musicxml": "musicxml/kaise-mujhe.musicxml"
+}
