@@ -1,0 +1,98 @@
+{
+  "id": "pardesi-pardesi-jana-nahi",
+  "title": "Pardesi Pardesi Jana Nahi",
+  "export": true,
+  "info": [
+    "Film/Artist: Raja Hindustani",
+    "Scale: F# BASS/MIDDLE",
+    "Singer: Alka Yagnik, Udit Narayan, Sapna Awasthi",
+    "Music: Nadeem-Shravan",
+    "Lyrics: Sameer",
+    "Year: 1996"
+  ],
+  "thumbnail": "images/pardesi-pardesi-jana-nahi.jpg",
+  "background": "images/pardesi-pardesi-jana-nahi.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Pardesi pardesi jana nahi",
+          "indian": "Ga: Re Sa Ga: Re Sa Sa Re Sa dha:"
+        },
+        {
+          "lyrics": "Pardesi pardesi jana nahi",
+          "indian": "Ga: Re Sa Ga: Re Sa Sa Re Sa dha:"
+        },
+        {
+          "lyrics": "Mujhe chhod ke..",
+          "indian": "dha Sa Ga(k) Re Re G(k).R Sa Re Ga"
+        },
+        {
+          "lyrics": "Mujhe chhod ke..",
+          "indian": "Ga Ga Re Sa Sa:"
+        },
+        {
+          "lyrics": "Pardesi mere yaara",
+          "indian": "Pa Pa Ga Pa Pa Pa Pa Dha:"
+        },
+        {
+          "lyrics": "Vaada nibhana",
+          "indian": "Pa Dha Pa Ga Ga(k) Ga:"
+        },
+        {
+          "lyrics": "Mujhe yaad rakhna",
+          "indian": "Ga Pa Pa Pa Pa Dha"
+        },
+        {
+          "lyrics": "Kahin bhool na jana",
+          "indian": "Pa Dha Ni(k) Dha Pa Ga Pa Ga Re Sa"
+        },
+        {
+          "lyrics": "Pardesi pardesi jana nahi",
+          "indian": "Ga: Re Sa Ga: Re Sa Sa Re Sa dha:"
+        },
+        {
+          "lyrics": "Pardesi pardesi jana nahi",
+          "indian": "Ga: Re Sa Ga: Re Sa Sa Re Sa dha:"
+        },
+        {
+          "lyrics": "Mujhe chhod ke..",
+          "indian": "dha Sa Ga(k) Re Re G(k).R Sa Re Ga"
+        },
+        {
+          "lyrics": "Mujhe chhod ke..",
+          "indian": "Ga Ga Re Sa Sa:"
+        },
+        {
+          "lyrics": "Pardesi mere yaara",
+          "indian": "Pa Pa Ga Pa Pa Pa Pa Dha:"
+        },
+        {
+          "lyrics": "Vaada nibhana",
+          "indian": "Pa Dha Pa Ga Ga(k) Ga:"
+        },
+        {
+          "lyrics": "Mujhe yaad rakhna",
+          "indian": "Ga Pa Pa Pa Pa Dha"
+        },
+        {
+          "lyrics": "Kahin bhool na jana",
+          "indian": "Pa Dha Ni(k) Dha Pa Ga Pa Ga Re Sa"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic track from 'Raja Hindustani' is a poignant melody that perfectly encapsulates the pain of separation and the desperate plea of a lover. Its folk-infused tune, combined with powerful vocals, made it an anthem of longing in the 90s. The song's emotional depth and memorable composition cemented its place as a timeless Bollywood classic.",
+  "trivia": [
+    "The song was a massive commercial success, becoming one of the biggest hits of the 1990s and a signature track for music directors Nadeem-Shravan.",
+    "Alka Yagnik and Udit Narayan both won Filmfare Awards for Best Female Playback Singer and Best Male Playback Singer respectively for this song.",
+    "The film features two main versions: a solo female version by Alka Yagnik and a longer duet/chorus version featuring Udit Narayan, Alka Yagnik, and Sapna Awasthi. The album also included a male solo by Suresh Wadkar.",
+    "The song's popularity was so immense that it significantly contributed to the film's blockbuster status and is often cited as a prime example of 90s Bollywood romantic music."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of 'Pardesi Pardesi Jana Nahi' is the profound fear of separation and the heartfelt plea of a lover to their beloved not to depart. It captures the anguish of impending loneliness and the desire to hold onto a cherished relationship, reflecting the emotional turmoil faced by the protagonists in 'Raja Hindustani' as their love story confronts societal barriers and geographical distance.",
+    "lyricSymbolism": "The term 'Pardesi' literally translates to 'foreigner' or 'one from another land,' but in the song, it symbolizes the beloved who is about to leave and become distant, thus a 'stranger' to the intimacy they've shared. The repeated phrase 'Jana Nahi' (don't go) serves as a desperate, almost childlike entreaty, emphasizing the depth of attachment and the inability to cope with the impending void. The lyrics use simple yet powerful imagery to convey universal emotions of love, longing, and the pain of parting."
+  },
+  "musicxml": "musicxml/pardesi-pardesi-jana-nahi.musicxml"
+}
