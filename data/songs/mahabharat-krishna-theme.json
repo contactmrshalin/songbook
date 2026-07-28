@@ -1,0 +1,88 @@
+{
+  "id": "mahabharat-krishna-theme",
+  "title": "Mahabharat Krishna Theme",
+  "export": true,
+  "info": [],
+  "thumbnail": "images/mahabharat-krishna-theme.png",
+  "background": "images/mahabharat-krishna-theme.png",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "SCALE OF THE TUNE IS E MAJOR",
+          "indian": "pa ni Sa ni Sa ni. pa ni Sa ni Sa ni"
+        },
+        {
+          "lyrics": "",
+          "indian": "pa ni Sa ni."
+        },
+        {
+          "lyrics": "",
+          "indian": "pa ni Sa ni Sa ni. pa ni Sa ni Sa ni"
+        },
+        {
+          "lyrics": "p.n.S.",
+          "indian": "ni Re Ga Re Ga Re. ni Re Ga Re Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "ni Re Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "ni Re Ga Re Ga Re. ni Re Ga Re Ga Re"
+        },
+        {
+          "lyrics": "",
+          "indian": "ni Re Ga."
+        },
+        {
+          "lyrics": "",
+          "indian": "pa ni Sa pa ni Sa ni Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "pa ni Sa pa ni Sa ni Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "ni Re Ga ni Re Ga Re Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "ni Re Ga ni Re Ga Re Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa Ma Re ma Ga Re Sa ni Sa"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ni Ni Sa': Ni Re'"
+        },
+        {
+          "lyrics": "",
+          "indian": "Sa' Ni Dha Pa Ma: ."
+        },
+        {
+          "lyrics": "",
+          "indian": "Ma Dha Pa Pa Ma Re ma Ga Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ni Ni Sa' Ni Dha Ni Sa' Ga' Re' Ga' Sa': Ni Re'"
+        },
+        {
+          "lyrics": "",
+          "indian": "Sa' Ni Dha Pa Ma: ."
+        },
+        {
+          "lyrics": "",
+          "indian": "Ma Dha Pa Pa Ma Re ma Ga Ga"
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/mahabharat-krishna-theme.musicxml"
+}
