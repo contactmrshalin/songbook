@@ -1,0 +1,116 @@
+{
+  "id": "jane-kyu-log-mohabbat-kiya-karte-ha",
+  "title": "Jane Kyu Log Mohabbat Kiya Karte Ha",
+  "export": true,
+  "info": [
+    "Singer: Lata",
+    "Music: Laxmikant Pyarelal",
+    "Movie: Mehboob ki mehendi (1971)"
+  ],
+  "thumbnail": "images/jane-kyu-log-mohabbat-kiya-karte-ha.jpg",
+  "background": "images/jane-kyu-log-mohabbat-kiya-karte-ha.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Is | Zamaane | Men",
+          "indian": "D' | DD' N'...(R')N' | D'~M"
+        },
+        {
+          "lyrics": "[Repeat for following lines…]",
+          "indian": ""
+        },
+        {
+          "lyrics": "Is Mohabbat ne",
+          "indian": "D' | DD' N'...(R')N' | D'~M"
+        },
+        {
+          "lyrics": "Kitane Dil ToDe",
+          "indian": "D' | DD' N'...(R')N' | D'~M"
+        },
+        {
+          "lyrics": "Kitane | Ghar | Phuunke",
+          "indian": "M D' | M D' | G G"
+        },
+        {
+          "lyrics": "Jaane | Kyon | Log | Mohabbat",
+          "indian": "G(M)G | R~N | R R | G G(M)G R~N"
+        },
+        {
+          "lyrics": "Kiyaa | Karate | Hain",
+          "indian": "MMD' | G G | G"
+        },
+        {
+          "lyrics": "Dil | Ke | Badale | Dard-E-Dil",
+          "indian": "G | (M)G | RNR | R MG R~N"
+        },
+        {
+          "lyrics": "Liyaa Karate Hain",
+          "indian": "MMD' | G G | G"
+        },
+        {
+          "lyrics": "Jaane Kyon Log….",
+          "indian": ""
+        },
+        {
+          "lyrics": "Tanhaai | Milti | Hai,",
+          "indian": "D' D'~d d~D' | M~G G | G"
+        },
+        {
+          "lyrics": "Mahafil | nahin | Milti",
+          "indian": "M N' D' | d M~G | G G"
+        },
+        {
+          "lyrics": "Raahen | Mohabbat | Men",
+          "indian": "G(M)G R~N | NN~P PP | P"
+        },
+        {
+          "lyrics": "Kabhi | Manzil | nahin | Milti",
+          "indian": "P P | D'~n | P~n | D P | M G"
+        },
+        {
+          "lyrics": "Dil | Tut | Jaataa | Hai,",
+          "indian": "R | G M | G G | G"
+        },
+        {
+          "lyrics": "naakaam | Hotaa | Hai",
+          "indian": "R G M | G G | G"
+        },
+        {
+          "lyrics": "Ulfat | Men | Logon Kaa",
+          "indian": "R R(G)R | N | R G R N | R G R"
+        },
+        {
+          "lyrics": "Yahi | Anjaam Hotaa Hai",
+          "indian": "N R G | N M M GG | G G | G"
+        },
+        {
+          "lyrics": "Koi | Kyaa | Jaane,",
+          "indian": "D' D | D' | D'N'...(R')N' | D'~M"
+        },
+        {
+          "lyrics": "[Repeat for following lines…]",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kyon Ye Paravaane,",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kyon Machalate Hain,",
+          "indian": ""
+        },
+        {
+          "lyrics": "Gam Men Jalate Hain",
+          "indian": "M D' | M D' | G G"
+        },
+        {
+          "lyrics": "Aahen Bhar Bhar Ke Divaane",
+          "indian": "G(M)G | R~N | R R | R M~G G~N"
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/jane-kyu-log-mohabbat-kiya-karte-ha.musicxml"
+}
