@@ -1,4 +1,5 @@
 {
+
   "name": "platform",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,8 @@
     "dev": "node scripts/prebuild.mjs && next dev",
     "build": "node scripts/prebuild.mjs && next build",
     "start": "next start",
-    "lint": "eslint",
+
+    "lint": "NODE_PATH=./node_modules eslint",
     "scrape": "tsx scripts/scrape.ts"
   },
   "dependencies": {

@@ -226,7 +226,8 @@ export default function SheetMusicViewer({
   const handleDownload = (e: React.MouseEvent) => {
     e.stopPropagation();
     const link = document.createElement("a");
-    link.href = `/api/musicxml/${song.id}`;
+
+    link.href = withBasePath(`/api/musicxml/${song.id}`);
     link.download = `${song.id}.musicxml`;
     document.body.appendChild(link);
     link.click();

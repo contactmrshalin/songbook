@@ -14,6 +14,7 @@
 
 import { useEffect } from "react";
 import type { RendererProps } from "@/lib/sheetMusicConfig";
+import { withBasePath } from "@/lib/site.config";
 
 // ── Load OSMD from CDN via script tag (avoids bundling the heavy package) ──
 const OSMD_CDN_URL = "https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.9.9/build/opensheetmusicdisplay.min.js";
@@ -75,7 +76,8 @@ export default function OsmdRenderer({ song, containerRef, onReady, onError }: R
     (async () => {
       try {
         // 1. Fetch MusicXML from the API route
-        const res = await fetch(`/api/musicxml/${song.id}`);
+
+        const res = await fetch(withBasePath(`/api/musicxml/${song.id}`));
 
         if (cancelled) return;
 
