@@ -50,6 +50,8 @@ import type { Song } from "@/types/song";
 import { getRenderer, type RendererType } from "@/lib/sheetMusicConfig";
 import type { PlaybackControls } from "@/lib/verovioPlay";
 
+import { withBasePath } from "@/lib/site.config";
+
 // ── Lazy renderer imports ─────────────────────────────────────────────────────
 // Only the selected renderer is ever loaded by the browser.
 const LazyAbcRenderer = lazy(() => import("./renderers/AbcRenderer"));
