@@ -124,39 +124,14 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
           className="fixed inset-0 z-0 pointer-events-none"
           style={{
             backgroundImage: `url('${backgroundSrc}')`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundSize: "auto 110%",
+            backgroundPosition: "center top",
             backgroundRepeat: "no-repeat",
             opacity: 0.13,
-            filter: "saturate(1.1) contrast(1.05)",
+            filter: "saturate(1.1) contrast(1.05)"
           }}
         />
       )}
-
-      {/* Top bar */}
-      <header className="sticky top-0 z-40 glass border-b border-[var(--border-light)]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-          <Link
-            href="/"
-            className="flex items-center gap-2 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span className="hidden sm:inline">Back to Songs</span>
-          </Link>
-
-          <div className="flex items-center gap-3">
-            <NotationToggle />
-            <button
-              onClick={() => setShowNotationGuide(true)}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors
-                         bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:bg-[var(--accent-primary)] hover:text-white"
-              title="How to read notes"
-            >
-              <BookOpen className="w-3.5 h-3.5" />
-            </button>
-          </div>
-        </div>
-      </header>
 
       {/* Song header — dark frosted glass panel over the page-level wallpaper */}
       <div className="relative z-[1]">
@@ -174,7 +149,16 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
           />
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 pt-8 pb-10">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 pt-4 pb-10">
+          {/* Back button inside the hero */}
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors mb-4"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span>Back to Songs</span>
+          </Link>
+
           <div className="flex items-start gap-4 sm:gap-5">
             {/* Thumbnail */}
             <div className="flex-shrink-0 w-20 h-20 sm:w-28 sm:h-28 rounded-xl overflow-hidden shadow-lg">
@@ -270,7 +254,7 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
 
       {/* Notation content — 3-col on xl+: [spacer] [notation] [sidebar] */}
       <main className="flex-1 w-full px-4 sm:px-6 py-6 pb-32 relative z-[1]">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="flex flex-col xl:flex-row xl:items-start xl:gap-10">
 
           {/* Left column: About this song on xl+ (empty spacer when no enriched data) */}
@@ -384,6 +368,18 @@ export default function SongViewer({ song, otherSongs = [] }: SongViewerProps) {
 
           {/* Notation column */}
           <div className="flex-1 min-w-0 max-w-4xl mx-auto xl:mx-0 xl:max-w-none">
+            {/* Notation mode toggle */}
+            <div className="flex items-center justify-end gap-3 mb-4">
+              <NotationToggle />
+              <button
+                onClick={() => setShowNotationGuide(true)}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-colors
+                           bg-[var(--bg-secondary)] text-[var(--text-muted)] hover:bg-[var(--accent-primary)] hover:text-white"
+                title="How to read notes"
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+              </button>
+            </div>
 
             {/* About this song — mobile/tablet only (shown above notation on small screens) */}
             {(song.description || (song.trivia && song.trivia.length > 0) || song.meaning) && (
