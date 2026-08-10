@@ -1,0 +1,111 @@
+{
+  "id": "lambi-judaai",
+  "title": "Lambi Judaai",
+  "export": true,
+  "info": [
+    "Singer: Reshma",
+    "Music: Laxmikant Pyarelal",
+    "Movie: Hero (1983).",
+    "Flute: G#",
+    "Lyrics: Bichhde abhi to hum bas kal parson\nJiyungi main kaise is haal mein barson\nMaut na aayi teri yaad kyun aayi\nHaye lambi judai\nChaar dinon ka saath o rabba\nLambi judai, lambi judai\n\nHonthon pe aahein, aankhon mein paani\nDil mein toofaan hai, saanson mein garmi\nChaar dinon ka saath o rabba\nLambi judai, lambi judai\n\nToote dil ki awaaz suno\nMere afsane ki baat suno\nYaar bina dil mera soona\nHar pal har din har raat suno\nChaar dinon ka saath o rabba\nLambi judai, lambi judai\n\nSajna se milne ki aas lagi hai\nDil mein mere pyaas jagi hai\nChaar dinon ka saath o rabba\nLambi judai, lambi judai\n\nBichhde abhi to hum bas kal parson\nJiyungi main kaise is haal mein barson\nMaut na aayi teri yaad kyun aayi\nHaye lambi judai\nChaar dinon ka saath o rabba\nLambi judai, lambi judai",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
+  ],
+  "thumbnail": "images/lambi-judaai.jpg",
+  "background": "images/lambi-judaai.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Bichhde | abhi | to ham",
+          "indian": "S'S' S' | N R'~S' R~S' | N D(N)D PM"
+        },
+        {
+          "lyrics": "bas | kal | parson…",
+          "indian": "MM | (P)D | S'N S'..."
+        },
+        {
+          "lyrics": "Jioongi | main | kaise",
+          "indian": "S'~N N | S | D~S' N~r'~S' N D PM"
+        },
+        {
+          "lyrics": "is haal | mein | barson",
+          "indian": "MM MDP M | G | G~R G(M)G GRS"
+        },
+        {
+          "lyrics": "Maut | na aayi | teri | yaad | kyon | aayi",
+          "indian": "N N | N N S'...N | R'~S' | N~D NDP | P | P~S'....P"
+        },
+        {
+          "lyrics": "Hay | lambi | judai",
+          "indian": "PG | G~RG | P GR SR~...S"
+        },
+        {
+          "lyrics": "Chaar | dinon ka | pyaar | rabba",
+          "indian": "G G | G RS G | N D(N)D P | M DPDP G"
+        },
+        {
+          "lyrics": "Badi | lambi | judai",
+          "indian": "G G(M)GR | PG GS | S D~S S~G...~g"
+        },
+        {
+          "lyrics": "lambi | judai",
+          "indian": "G G | P GR SR(G)R~...S"
+        },
+        {
+          "lyrics": "Honthon | pe | aaye… | meri | jaan | duhai",
+          "indian": "N N | N | N S'... | R' S' | N DD P | PP~S'~P"
+        },
+        {
+          "lyrics": "Hay | lambi | judai",
+          "indian": "P~G | G~R G | P GR(S)RS"
+        },
+        {
+          "lyrics": "Chaar dinon ka pyaar ho rabba",
+          "indian": "G G | G RS G | N D(N)D P | M DPDP G"
+        },
+        {
+          "lyrics": "Badi lambi judai, lambi judai",
+          "indian": "G G(M)GR | PG GS | S D~S S~G...~g || G G | P GR SR(G)R~...S"
+        },
+        {
+          "lyrics": "Ek to | sajan | mere | paas | nahin | re",
+          "indian": "PP N~D | NS'S' | S'S' | ND~N | S' N~D~N | N~P"
+        },
+        {
+          "lyrics": "Duje | milan di | koi | aas | nahin re",
+          "indian": "P~G G | P G~R R | RR | PG G~S | SS SG GM MP"
+        },
+        {
+          "lyrics": "Duje | milan | di | koi | aas | nahin re",
+          "indian": "P~G G | P G~R R | RR | PG G~S | SS S"
+        },
+        {
+          "lyrics": "Uspe | yeh | sawan | aaya",
+          "indian": "NN N | N | N~S' S'S' | S' ...~N D~N D~P"
+        },
+        {
+          "lyrics": "Uspe | yeh | sawan | aaya",
+          "indian": "NN N | N | N~S' S'S' | S' ..."
+        },
+        {
+          "lyrics": "Aag | lagaayi | hay | lambi | judai",
+          "indian": "N~S'~N | D PS...~P | PG | G~R G | P GR(S)RS"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic song is a poignant masterpiece, perfectly capturing the agony of separation through Reshma's raw, soul-stirring vocals. Laxmikant-Pyarelal's composition masterfully blends folk sensibilities with classical undertones, creating a melody that is both deeply melancholic and universally relatable. Its enduring popularity is a testament to its powerful emotional resonance and timeless appeal.",
+  "trivia": [
+    "\"Lambi Judaai\" marked the grand Bollywood debut of legendary Pakistani folk singer Reshma, whose unique, earthy voice became synonymous with the song's profound pathos.",
+    "Director Subhash Ghai specifically sought out Reshma for this track, believing her distinctive vocal quality was essential to convey the song's raw emotional depth and folk essence.",
+    "The song's melody is heavily influenced by Raag Bhairavi, a raga known for its ability to evoke deep emotions of longing, devotion, and sorrow, making it a perfect fit for the lyrics.",
+    "Despite being released in 1983, the song remains one of the most beloved and frequently referenced expressions of heartbreak and long-distance longing in Indian cinema, often covered and reinterpreted by new artists."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of \"Lambi Judaai\" is the unbearable pain of prolonged separation from a beloved, contrasting a brief period of togetherness with an seemingly endless duration of longing. It expresses the profound desolation and emotional void experienced when a loved one is absent, making life feel like an interminable wait filled with sorrow and yearning for reunion.",
+    "lyricSymbolism": "The lyrics use simple yet powerful imagery to convey the depth of sorrow. Phrases like \"Chaar dinon ka saath o rabba, lambi judai\" (Oh God, just four days together, then a long separation) starkly highlight the brevity of joy against the eternity of pain. \"Toote dil ki awaaz suno\" (Listen to the voice of a broken heart) is a direct, desperate plea for empathy, while \"Yaar bina dil mera soona\" (My heart is empty without my beloved) uses 'soona' (empty/desolate) to symbolize the profound emotional vacuum left by the loved one's absence."
+  },
+  "musicxml": "musicxml/lambi-judaai.musicxml"
+}
