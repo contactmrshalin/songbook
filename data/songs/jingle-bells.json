@@ -1,0 +1,123 @@
+{
+  "id": "jingle-bells",
+  "title": "Jingle Bells",
+  "export": true,
+  "info": [],
+  "thumbnail": "images/jingle-bells.jpg",
+  "background": "images/jingle-bells.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Jingle bells jingle bells",
+          "indian": "Ga Ga Ga: Ga Ga Ga:"
+        },
+        {
+          "lyrics": "Jingle all the wayy",
+          "indian": "Ga Pa Sa: Re Ga:"
+        },
+        {
+          "lyrics": "Oh what fun it is to ridee",
+          "indian": "ma ma ma: ma ma Ga Ga"
+        },
+        {
+          "lyrics": "In a one horse open sleigh heyy",
+          "indian": "Ga Ga Ga Re Re Ga Re: Pa"
+        },
+        {
+          "lyrics": "Jingle bells jingle bells",
+          "indian": "Ga Ga Ga: Ga Ga Ga:"
+        },
+        {
+          "lyrics": "Jingle all the wayy",
+          "indian": "Ga Pa Sa: Re Ga:"
+        },
+        {
+          "lyrics": "Oh what fun it is to ridee",
+          "indian": "ma ma ma: ma ma Ga Ga"
+        },
+        {
+          "lyrics": "In a one horse open sleigh",
+          "indian": "Ga Ga Pa Pa ma Re Sa:"
+        },
+        {
+          "lyrics": "Dashing through the snoww",
+          "indian": "pa Ga Re Sa pa:"
+        },
+        {
+          "lyrics": "In a one horse open sleigh",
+          "indian": "pa pa pa Ga Re Sa dha:"
+        },
+        {
+          "lyrics": "O’er the fields we goo",
+          "indian": "dha ma Ga Re ni:"
+        },
+        {
+          "lyrics": "Laughing all the wayy",
+          "indian": "Pa Pa Ga Re Ga:"
+        },
+        {
+          "lyrics": "Bells on bobtails ring",
+          "indian": "pa Ga Re Sa pa:"
+        },
+        {
+          "lyrics": "Making spirits bright",
+          "indian": "pa Ga Re Sa dha:"
+        },
+        {
+          "lyrics": "What fun it is to ride and sing",
+          "indian": "dha dha ma Ga Re Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "A sleighing song tonight heyy",
+          "indian": "Dha Pa Ga Re Sa Pa"
+        },
+        {
+          "lyrics": "Jingle bells jingle bells",
+          "indian": "Ga Ga Ga: Ga Ga Ga:"
+        },
+        {
+          "lyrics": "Jingle all the wayy",
+          "indian": "Ga Pa Sa: Re Ga:"
+        },
+        {
+          "lyrics": "Oh what fun it is to ridee",
+          "indian": "ma ma ma: ma ma Ga Ga"
+        },
+        {
+          "lyrics": "In a one horse open sleigh heyy",
+          "indian": "Ga Ga Ga Re Re Ga Re: Pa"
+        },
+        {
+          "lyrics": "Jingle bells jingle bells",
+          "indian": "Ga Ga Ga: Ga Ga Ga:"
+        },
+        {
+          "lyrics": "Jingle all the wayy",
+          "indian": "Ga Pa Sa: Re Ga:"
+        },
+        {
+          "lyrics": "Oh what fun it is to ridee",
+          "indian": "ma ma ma: ma ma Ga Ga"
+        },
+        {
+          "lyrics": "In a one horse open sleigh",
+          "indian": "Ga Ga Pa Pa ma Re Sa:"
+        }
+      ]
+    }
+  ],
+  "description": "Jingle Bells is one of the most famous and widely sung secular Christmas songs globally, instantly recognizable for its cheerful melody and festive lyrics. While often associated with Christmas, its original intent was to celebrate the excitement of sleigh riding during winter. Its simple, catchy tune makes it a favorite for holiday gatherings and children's choirs worldwide.",
+  "trivia": [
+    "Despite its strong association with Christmas, 'Jingle Bells' was originally published in 1857 under the title 'One Horse Open Sleigh' and was intended as a Thanksgiving song.",
+    "The song was composed by James Lord Pierpont, an American songwriter, and was first performed at a Sunday School concert in Savannah, Georgia.",
+    "In 1965, 'Jingle Bells' became the first song ever broadcast from space when astronauts Tom Stafford and Wally Schirra aboard Gemini 6 played it on a harmonica, accompanied by sleigh bells.",
+    "There is a historical marker in Medford, Massachusetts, claiming that the song was inspired by the annual sleigh races held there in the mid-19th century, though Savannah, Georgia, also claims its origin."
+  ],
+  "meaning": {
+    "coreTheme": "The core theme of 'Jingle Bells' is the joyous experience of riding in a one-horse open sleigh during winter. It captures the exhilaration of speed, the crisp winter air, and the camaraderie of sharing a fun, festive activity. The song evokes a sense of lighthearted celebration and seasonal cheer, focusing on the simple pleasures of winter recreation.",
+    "lyricSymbolism": "The lyrics of 'Jingle Bells' are largely literal, describing the sights and sounds of a sleigh ride. The 'jingle bells' themselves are not symbolic but refer to the actual bells worn by horses to prevent collisions in the snow. Phrases like 'dashing through the snow' and 'o'er the fields we go' paint a vivid picture of the physical act of sleighing, while 'laughing all the way' emphasizes the joyful mood. There's little deep symbolism; the song's power comes from its direct evocation of a universally appealing winter pastime."
+  },
+  "musicxml": "musicxml/jingle-bells.musicxml"
+}
