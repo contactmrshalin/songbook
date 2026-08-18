@@ -1,0 +1,125 @@
+{
+  "id": "chaand-tare",
+  "title": "Chaand Tare",
+  "export": true,
+  "info": [
+    "Film/Artist: Yes Boss",
+    "Scale: G BASS/MIDDLE",
+    "Singer: Udit Narayan",
+    "Music: Jatin-Lalit",
+    "Lyrics: Javed Akhtar"
+  ],
+  "thumbnail": "images/chaand-tare.jpg",
+  "background": "images/chaand-tare.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Jo bhi chaahoon vo main paoon",
+          "indian": "Pa: Sa Re: Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Zindagi mein jeet jaoon",
+          "indian": "Pa: Sa Re: Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Chaand taare tod laoon",
+          "indian": "Pa: Sa Re: Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Saari duniya par main chhaoon",
+          "indian": "Pa: Sa Re Dha Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Bas itna sa khwaab hai",
+          "indian": "Dha: ma: Ga Re: ma: Pa Pa:"
+        },
+        {
+          "lyrics": "Bas itna sa khwaab hai",
+          "indian": "Dha: ma: Ga Re: ma: Dha Pa:"
+        },
+        {
+          "lyrics": "Chaand taare tod laoon",
+          "indian": "Pa: Sa Re: Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Saari duniya par main chhaoon",
+          "indian": "Pa: Sa Re Dha Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Bas itna sa khwaab hai",
+          "indian": "Dha: ma: Ga Re: ma: Pa Pa:"
+        },
+        {
+          "lyrics": "Bas itna sa khwaab hai",
+          "indian": "Dha: ma: Ga Re: ma: Dha Pa:"
+        },
+        {
+          "lyrics": "Yaar tu bhi sun zara",
+          "indian": "Sa: Sa Ga: Ga ma: Pa Pa"
+        },
+        {
+          "lyrics": "Aarzoo meri hai kya",
+          "indian": "Sa: Sa Ga: Ga ma: Pa Pa"
+        },
+        {
+          "lyrics": "Main kya ban jaana chaahta hoon",
+          "indian": "Ga ma: Ni(k): Dha ma: Dha: ma Pa: Ga:"
+        },
+        {
+          "lyrics": "Main kahan kharaab hoon",
+          "indian": "Sa: Sa Ga: Ga ma: Pa Pa"
+        },
+        {
+          "lyrics": "Main to lajawaab hoon",
+          "indian": "Sa: Sa Ga: Ga ma: Pa Pa"
+        },
+        {
+          "lyrics": "Main ye manvana chaahta hoon",
+          "indian": "Ga ma: Ni(k): Dha ma: Dha: ma Pa: Ga:"
+        },
+        {
+          "lyrics": "Maan ja ay khuda itni si hai dua",
+          "indian": "Ga Re Re: Ga Re Re Ga Re Re: Ga Re Re"
+        },
+        {
+          "lyrics": "Main ban jaoon sabse bada",
+          "indian": "Re Dha: ma: Ga Re: ma: Pa Pa:"
+        },
+        {
+          "lyrics": "Main ban jaoon sabse bada",
+          "indian": "Dha Dha: ma: Ga Re: ma: Dha Pa:"
+        },
+        {
+          "lyrics": "Mere peechhe mere aage",
+          "indian": "Pa: Sa Re: Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Haath jode duniya bhaage",
+          "indian": "Pa: Sa Re Dha Pa Pa: Sa Re ma Re"
+        },
+        {
+          "lyrics": "Bas itna sa khwaab hai",
+          "indian": "Dha: ma: Ga Re: ma: Pa Pa:"
+        },
+        {
+          "lyrics": "Bas itna sa khwaab hai",
+          "indian": "Dha: ma: Ga Re: ma: Pa Pa:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic song from 'Yes Boss' is an anthem of youthful ambition and unwavering love. Udit Narayan's vibrant vocals perfectly capture the protagonist's dream of conquering the world for his beloved, set against Jatin-Lalit's catchy and uplifting melody. It's a quintessential 90s Bollywood romantic number, blending a hopeful outlook with a memorable tune.",
+  "trivia": [
+    "The song became a massive hit upon its release, solidifying Udit Narayan's position as one of the leading male playback singers of the era.",
+    "Shah Rukh Khan's energetic performance in the music video, where he visualizes a grand future, perfectly embodies the song's aspirational spirit.",
+    "Jatin-Lalit's composition for 'Yes Boss' was highly acclaimed, with 'Chaand Tare' being a standout track that contributed significantly to the album's success.",
+    "The film 'Yes Boss' itself was a romantic comedy, and 'Chaand Tare' served as a pivotal song showcasing the hero's earnest desires and dedication."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of 'Chaand Tare' is boundless ambition driven by love. The protagonist, a young man with big dreams, promises to achieve the seemingly impossible – bringing down the moon and stars – for the woman he loves. It's an ode to the power of dreams, the desire to provide the best for a loved one, and the unwavering optimism that fuels such aspirations.",
+    "lyricSymbolism": "The phrase 'Chaand Tare' (moon and stars) is a classic poetic metaphor in Hindi for grand, often unattainable, goals or promises. It symbolizes the ultimate gifts or achievements one can offer. The lyrics use this imagery to convey the depth of the protagonist's love and his commitment to overcoming any obstacle to fulfill his beloved's desires, even if it means reaching for the heavens."
+  },
+  "musicxml": "musicxml/chaand-tare.musicxml"
+}
