@@ -1,0 +1,93 @@
+{
+  "id": "kuch-is-taraha",
+  "title": "Kuch Is Taraha",
+  "export": true,
+  "info": [
+    "Film/Artist: Doorie",
+    "Scale: F MAJOR",
+    "Singer: Atif Aslam",
+    "Music: Atif Aslam, Shiraz Uppal",
+    "Lyrics: Atif Aslam, Shahzad Kajal"
+  ],
+  "thumbnail": "images/kuch-is-taraha.jpg",
+  "background": "images/kuch-is-taraha.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kuch is Tarah teri palke merei palko se mila dee",
+          "indian": "Pa ma Ga Re Re Ga Re Sa ni ni ni Sa Re Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Anso tere sare meri palko pe saja dee",
+          "indian": "Pa ma Ga Re Sa Re Sa ni ni Sa Re: Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Kuch is Tarah teri palke merei palko se mila dee",
+          "indian": "Pa ma Ga Re Re Ga Re Sa ni ni ni Sa Re Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Anso tere sare meri palko pe saja dee",
+          "indian": "Pa ma Ga Re Ga Re Ga Re Sa Re Sa ni ni Sa Re Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Kuch is Tarah teri palke merei palko se mila dee",
+          "indian": "Pa ma Ga Re Re Ga Re Sa ni ni ni Sa Re Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kuch is Tarah teri palke merei palko se mila dee",
+          "indian": "Pa ma Ga Re Re Ga Re Sa ni ni ni Sa Re Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Anso tere sare meri palko pe saja dee",
+          "indian": "Pa ma Ga Re Sa Re Sa ni ni Sa Re: Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Tu har ghadi har waqt mere sath raha haii",
+          "indian": "Ga Ga Re Ga ma Ga Re Sa ni ni Sa Sa Sa Re Ga Sa Re Re"
+        },
+        {
+          "lyrics": "Haan yein jism kabhi door kabhi pass raha haii",
+          "indian": "Ga Re Ga Re Re Pa: ni Sa Sa Sa Re Ga Sa Re Re"
+        },
+        {
+          "lyrics": "Joo bhii gamm haii yaa tere",
+          "indian": "Ni Ni Dha Ni Sa' Ni Pa Dha Dha"
+        },
+        {
+          "lyrics": "Unhee tuu meraa pataa dee",
+          "indian": "Pa Dha Dha Dha Sa' Dha Ni Ni:"
+        },
+        {
+          "lyrics": "Kuch is Tarah teri palke merei palko se mila dee",
+          "indian": "Pa ma Ga Re Re Ga Re Sa ni ni ni Sa Re Re Ga Re Sa Re Ga"
+        },
+        {
+          "lyrics": "Anso tere sare meri palko pe saja dee",
+          "indian": "Pa ma Ga Re Sa Re Sa ni ni Sa Re: Re Ga Re Sa Re Ga"
+        }
+      ]
+    }
+  ],
+  "description": "This melancholic ballad from Atif Aslam's iconic album 'Doorie' showcases his signature soulful voice and emotional delivery. With its simple yet profound melody and heartfelt lyrics, the song became a massive hit, resonating deeply with listeners experiencing the pangs of unrequited love and longing. It perfectly captures the raw vulnerability of a heart yearning for connection.",
+  "trivia": [
+    "\"Kuch Is Taraha\" is one of the most popular tracks from Atif Aslam's second solo album, 'Doorie', which solidified his status as a leading voice in South Asian music.",
+    "The song's music video, featuring Atif Aslam, was widely played and contributed significantly to its popularity, depicting a poignant narrative of love and separation.",
+    "The album 'Doorie' was a massive commercial success, selling millions of copies and topping charts across India and Pakistan, with \"Kuch Is Taraha\" being a major highlight.",
+    "The song is often praised for its relatable lyrics and Atif Aslam's unique vocal texture, which became a defining characteristic of his musical style."
+  ],
+  "meaning": {
+    "coreTheme": "The song's central theme revolves around the pain and yearning of unrequited love. It expresses the deep emotional turmoil of someone who is completely smitten and devoted to another, yet feels their affection is not reciprocated or acknowledged. The lyrics paint a picture of a lover caught in a cycle of hope and despair, desperately wishing for a sign of affection.",
+    "lyricSymbolism": "The lyrics use simple yet powerful imagery to convey profound emotion. Phrases like \"Kuch is taraha teri palkein meri palkon se mila de\" (In such a way, let your eyelids meet mine) symbolize an intense desire for intimacy and closeness. The repeated plea to 'make me yours' (apna bana le) highlights the lover's complete surrender and longing for acceptance, while the idea of 'living without you' being 'impossible' (tere bin jeena mumkin nahi) underscores the depth of their emotional dependency."
+  },
+  "musicxml": "musicxml/kuch-is-taraha.musicxml"
+}
