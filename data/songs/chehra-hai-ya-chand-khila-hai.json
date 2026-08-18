@@ -3,126 +3,125 @@
   "title": "Chehra Hai Ya Chand Khila Hai",
   "export": true,
   "info": [
-    "Film: Saagar (1985)",
+    "Film/Artist: Saagar",
+    "Scale: C# BASS/MIDDLE",
     "Singer: Kishore Kumar",
     "Music: R.D. Burman",
     "Lyrics: Javed Akhtar",
-    "Scale: C#",
-    "Source: https://sargamnotes.com/chehra-hai-ya-chand-khila-hai-sargam-notes/"
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
+  "thumbnail": "images/chehra-hai-ya-chand-khila-hai.jpg",
+  "background": "images/chehra-hai-ya-chand-khila-hai.jpg",
   "sections": [
     {
-      "name": "MUKHDA",
+      "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Chehra hai ya chaand khila hai",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ga Ga ma Ga Ga"
+          "lyrics": "Chehra hai ya chand khila hai",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa': Ga: Ga ma Ga: Ga"
         },
         {
           "lyrics": "Zulf ghaneri shaam hai kya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha Pa"
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha: Dha(k) Dha: Pa"
         },
         {
-          "lyrics": "Saagar jaisi aankhon waali",
+          "lyrics": "Sagar jaisi aankhon waali",
           "indian": "Pa Ni Sa' Re' Sa' Ni Dha Pa Pa Ma Pa Ma Pa Ma Pa"
         },
         {
-          "lyrics": "Ye to bata tera naam hai kya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha"
-        }
-      ]
-    },
-    {
-      "name": "MUKHDA (REPEAT)",
-      "lines": [
+          "lyrics": "Yeh to bata tera naam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha: Dha(k) Dha"
+        },
         {
-          "lyrics": "Chehra hai ya chaand khila hai",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ga Ga ma Ga Ga"
+          "lyrics": "Chehra hai ya chand khila hai",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa': Ga: Ga ma Ga: Ga"
         },
         {
           "lyrics": "Zulf ghaneri shaam hai kya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha Pa"
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha: Dha(k) Dha: Pa"
         },
         {
-          "lyrics": "Saagar jaisi aankhon waali",
+          "lyrics": "Sagar jaisi aankhon waali",
           "indian": "Pa Ni Sa' Re' Sa' Ni Dha Pa Pa Ma Pa Ma Pa Ma Pa"
         },
         {
-          "lyrics": "Ye to bata tera naam hai kya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha"
-        }
-      ]
-    },
-    {
-      "name": "ANTARA 1",
-      "lines": [
-        {
-          "lyrics": "Are tu kya jaane teri khaatir",
-          "indian": "Ga' Ga' Ga' Ga(k)' Ga' Sa' Sa' Ni Ni Dha Dha Dha(k) Dha Ni Ni Ni"
+          "lyrics": "Yeh to bata tera naam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha: Dha(k) Dha"
         },
         {
-          "lyrics": "Kitna hai betaab ye dil",
-          "indian": "Sa' Ni Ni Dha Dha Ni Ni Ga' Sa' Ni Sa'"
+          "lyrics": "Arre tu kya jaane teri khatir",
+          "indian": "Ga' Ga' Ga' Ga(k) Ga' Sa' Sa' Ni Ni Dha Dha Dha(k) Dha Ni Ni: Ni"
+        },
+        {
+          "lyrics": "Kitna hai betaab yeh dil",
+          "indian": "Sa' Ni Ni Dha Dha Ni Ni Ga' Sa': Ni Sa':"
         },
         {
           "lyrics": "Tu kya jaane dekh raha hai",
-          "indian": "Ga' Ga(k)' Ga' Sa' Sa' Ni Ni Dha Dha Dha(k) Dha Ni Ni Ni"
+          "indian": "Ga' Ga(k) Ga' Sa' Sa' Ni Ni Dha Dha Dha(k) Dha Ni Ni: Ni"
         },
         {
-          "lyrics": "Kaise kaise khwaab ye dil",
-          "indian": "Sa' Ni Ni Dha Dha Pa Ni Dha Dha(k) Dha"
-        }
-      ]
-    },
-    {
-      "name": "ANTARA 2",
-      "lines": [
+          "lyrics": "Kaise kaise khwaab yeh dil",
+          "indian": "Sa' Ni Ni Dha Dha Pa Ni: Dha: Dha(k) Dha"
+        },
         {
           "lyrics": "Dil kehta hai",
-          "indian": "Sa' Ni Ni Dha Dha Dha"
+          "indian": "Sa' Ni Ni Dha Dha: Dha"
         },
         {
-          "lyrics": "Tu hai yahaan to",
-          "indian": "Sa' Ni Ni Dha Dha Dha"
+          "lyrics": "Tu hai yahan to",
+          "indian": "Sa' Ni Ni Dha Dha: Dha"
         },
         {
-          "lyrics": "Jaata lamha tham jaaye",
-          "indian": "Sa' Ni Ni Dha Dha Dha Ni Dha(k) Dha Ni Ni"
+          "lyrics": "Jata lamha tham jaaye",
+          "indian": "Sa' Ni Ni Dha Dha: Dha Ni Dha(k): Dha Ni Ni:"
         },
         {
           "lyrics": "Waqt ka dariya",
-          "indian": "Re(k)' Re(k)' Re(k)' Re(k)' Re(k)' Re(k)'"
+          "indian": ""
+        },
+        {
+          "lyrics": "R'(K)…R'(K)..R'(K)..R'(K)..R'(K)..R'(K)..",
+          "indian": ""
         },
         {
           "lyrics": "Behte behte",
-          "indian": "Re' Re' Re(k)' Re' Re(k)' Re'"
+          "indian": "Re': Re' R'(K) Re' R'(K) Re'"
         },
         {
           "lyrics": "Is manzar mein jam jaaye",
           "indian": "Pa Ni Sa' Re' Sa' Ni Ni Dha Dha Dha(k) Dha Dha(k) Dha"
-        }
-      ]
-    },
-    {
-      "name": "MUKHDA (REPRISE)",
-      "lines": [
-        {
-          "lyrics": "Tune deewana dil ko banaya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ga Ga ma Ga Ga"
         },
         {
-          "lyrics": "Is dil pe ilzaam hai kya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha Pa"
+          "lyrics": "Toone deewana dil ko banaya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa': Ga: Ga ma Ga: Ga"
         },
         {
-          "lyrics": "Saagar jaisi aankhon waali",
+          "lyrics": "Is dil pe ilzam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha: Dha(k) Dha: Pa"
+        },
+        {
+          "lyrics": "Sagar jaisi aankhon waali",
           "indian": "Pa Ni Sa' Re' Sa' Ni Dha Pa Pa Ma Pa Ma Pa Ma Pa"
         },
         {
-          "lyrics": "Ye to bata tera naam hai kya",
-          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha Dha(k) Dha"
+          "lyrics": "Yeh to bata tera naam hai kya",
+          "indian": "Ga Dha Dha Ni Sa' Ni Sa' Ni Dha: Dha(k) Dha"
         }
       ]
     }
-  ]
+  ],
+  "description": "This iconic romantic ballad from 'Saagar' is a timeless ode to beauty, masterfully rendered by Kishore Kumar. R.D. Burman's composition blends classical elegance with a contemporary feel, creating a serene yet passionate soundscape. It perfectly captures the intoxicating feeling of being mesmerized by a beloved's charm.",
+  "trivia": [
+    "The song features Rishi Kapoor serenading Dimple Kapadia, marking their reunion on screen after their debut film 'Bobby'.",
+    "R.D. Burman's genius shines in the song's arrangement, which uses a delicate balance of strings, flute, and a gentle rhythm to enhance its romantic mood.",
+    "Javed Akhtar's poetic lyrics are a highlight, using simple yet profound imagery to express deep admiration.",
+    "Despite 'Saagar' being a comeback film for Dimple Kapadia and a significant film for Rishi Kapoor, the music, particularly this song, remains one of its most enduring legacies."
+  ],
+  "meaning": {
+    "coreTheme": "The song's central theme is the overwhelming admiration and enchantment a lover feels for their beloved's unparalleled beauty. It expresses a moment of pure awe, where the beloved's face is so radiant that it transcends ordinary comparisons, evoking a sense of wonder and deep affection.",
+    "lyricSymbolism": "The most prominent symbolism is the comparison of the beloved's 'chehra' (face) to 'chand khila hai' (a blossoming moon). This metaphor elevates her beauty to something celestial and luminous. Phrases like 'zulf ghata hai ya lehrati raat' (are your locks a cloud or a swaying night?) further use natural elements to describe her captivating features, implying depth, mystery, and allure."
+  },
+  "musicxml": "musicxml/chehra-hai-ya-chand-khila-hai.musicxml"
 }
