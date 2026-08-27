@@ -3,14 +3,10 @@
   "title": "Tu Mile Dil Khile",
   "export": true,
   "info": [
-    "Film/Artist: Criminal",
-    "Scale: C BASS/MIDDLE",
-    "Singer: Kumar Sanu, Alka Yagnik",
-    "Music: M. M. Keeravani",
-    "Lyrics: Indeevar",
-    "Raag: Yaman",
-    "Thaat: Kalyan",
-    "Year: 1995"
+    "Singer: Alka Yagnik – Kumar Sanu",
+    "Music: M.M.Kreem,",
+    "Movie: Criminal (1995)",
+    "Raag: Bhimpalasi"
   ],
   "thumbnail": "images/tu-mile-dil-khile.jpg",
   "background": "images/tu-mile-dil-khile.jpg",
@@ -19,66 +15,96 @@
       "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Tu milee dil khilee",
-          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+          "lyrics": "Tu | mile | dil | khile",
+          "indian": "g | (g)d P~D | g | (g)P g P"
         },
         {
-          "lyrics": "Aur jeene ko kyaa chaahiyee",
-          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+          "lyrics": "aur | jine | ko | kya | chaahiye",
+          "indian": "R R | S R~g | R | S~,N | ,D~,P ,D S"
         },
         {
-          "lyrics": "Tu milee dil khilee",
-          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+          "lyrics": "Na | ho | tu | udaas",
+          "indian": ",D | S | g | g g g"
         },
         {
-          "lyrics": "Aur jeene ko kyaa chaahiyee",
-          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+          "lyrics": "tere | paas | paas",
+          "indian": "g g | g g | g g"
         },
         {
-          "lyrics": "Naa hoo tu udaas teree paas paas",
-          "indian": "Re ma Dha Dha Dha Dha Dha Dha Dha Dha"
+          "lyrics": "main | rahunga |zindagi | bhar",
+          "indian": "g | ggP l gPg~R | S"
         },
         {
-          "lyrics": "Mainn rahoonga zindagi bhar",
-          "indian": "Dha Dha Dha Sa' Dha Sa' Dha ma"
+          "lyrics": "Na | ho | tu | udaas",
+          "indian": ",D | S | g | g g g"
         },
         {
-          "lyrics": "Naa hoo tu udaas teree paas paas",
-          "indian": "Re ma Dha Dha Dha Dha Dha Dha Dha Dha"
+          "lyrics": "tere | paas | paas",
+          "indian": "g g | g g | g g"
         },
         {
-          "lyrics": "Mainn rahoonga zindagi bhar",
-          "indian": "Dha Dha Dha Sa' Dha Sa' Dha Sa'"
+          "lyrics": "main | rahunga |zindagi | bhar",
+          "indian": "g | ggP l gP R~g | P"
         },
         {
-          "lyrics": "Saaree sansaar kaa pyaar maine tujhi mein paayaa",
-          "indian": "Dha Sa' Ga' Ga' Re' Ga' Ga' Re' ma' ma' Ga' Re' Sa' Dha Pa"
+          "lyrics": "Saare | snsaar | ka | pyaar",
+          "indian": "g P | P~N NN~D | D~N | NN~D"
         },
         {
-          "lyrics": "Tu milee dil khilee",
-          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+          "lyrics": "maine | tujhhi | me | paaya",
+          "indian": "D~S'S' | N D | P | g R"
         },
         {
-          "lyrics": "Aur jeene ko kyaa chaahiyee",
-          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+          "lyrics": "Tu mile…",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "ANTARA:",
+      "lines": [
+        {
+          "lyrics": "Chanda | tujhe j ho…o..",
+          "indian": "N D | N NDP l D~N D...P...MgM"
         },
         {
-          "lyrics": "Haan tu milee dil khilee",
-          "indian": "Dha Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
+          "lyrics": "dekhne | ko | nikla | karta | hai",
+          "indian": "M MM | M | MMM | P D~N~P | g"
         },
         {
-          "lyrics": "Aur jeenee ko kyaa chaahiyee",
-          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
+          "lyrics": "(Repeat for following…)",
+          "indian": ""
+        },
+        {
+          "lyrics": "Aina bhi j.ho… o…",
+          "indian": ""
+        },
+        {
+          "lyrics": "didaar ko tarasa karta hai,",
+          "indian": ""
+        },
+        {
+          "lyrics": "Itni | hasin | koi | nahin",
+          "indian": "SS g | P gSN | N R | P P"
+        },
+        {
+          "lyrics": "Itni | hasin | koi | nahin",
+          "indian": "SS g | P gPg RSN | N R | P P"
+        },
+        {
+          "lyrics": "Husn | dono | jahaan | ka | ek",
+          "indian": "g P | P~N N | N~D D~N | N | N~D"
+        },
+        {
+          "lyrics": "tujhme | simat | ke aya",
+          "indian": "DS S | N D | P | gR"
+        },
+        {
+          "lyrics": "Tu mile, dil khiler aur jine ko kya chaahiye",
+          "indian": ""
         }
       ]
     }
-  ],
-  "description": "This iconic romantic ballad from 'Criminal' is a testament to M. M. Keeravani's melodic genius, beautifully rendered by Kumar Sanu and Alka Yagnik. Its soulful melody, deeply rooted in Indian classical sensibilities, creates an atmosphere of tender longing and profound love. The song's enduring appeal lies in its elegant composition and the heartfelt emotion it conveys, making it a timeless classic of 90s Bollywood.",
-  "trivia": [
-    "The music director, M. M. Keeravani, is also known as M. M. Kreem in Hindi cinema and later gained international acclaim, winning an Oscar for 'Naatu Naatu' from 'RRR'.",
-    "The film 'Criminal' was a bilingual production, released in both Hindi and Telugu (as 'The Villain'), with Keeravani composing for both versions.",
-    "Besides the popular duet by Kumar Sanu and Alka Yagnik, there is also a beloved female solo version sung by K. S. Chithra, showcasing the song's versatility.",
-    "The song's melody is strongly based on Raag Yaman, a prominent evening raga known for its romantic and devotional mood, characterized by the use of teevra Madhyam."
   ],
   "musicxml": "musicxml/tu-mile-dil-khile.musicxml"
 }
