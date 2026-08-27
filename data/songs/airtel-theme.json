@@ -1,0 +1,58 @@
+{
+  "id": "airtel-theme",
+  "title": "Airtel Music Theme",
+  "export": true,
+  "info": [
+    "Music: A.R. Rahman",
+    "Raag: Reetigowla (Carnatic)"
+  ],
+  "thumbnail": "images/airtel-theme.jpg",
+  "background": "images/airtel-theme.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "",
+          "indian": "Ga Ga Ga Ga Ni"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ma Pa Ma Ga Re Ma"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ga Ma Ga Re Ga Ma Pa: Ma Ga Re ni"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ga' Ni Re' Ni Ni Dha Pa Ga"
+        },
+        {
+          "lyrics": "",
+          "indian": "Pa Dha Ni Sa' Dha: Pa Ma."
+        },
+        {
+          "lyrics": "",
+          "indian": "Ga Ga Ga Ga Ni"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ma Pa Ma Ga Re Ma"
+        },
+        {
+          "lyrics": "",
+          "indian": "Ga Ma Ga Re Ga Ma Pa: Ma Ga Re ni"
+        }
+      ]
+    }
+  ],
+  "description": "The 'Airtel Music Theme' is an iconic instrumental piece that has become synonymous with the telecom brand across India. Composed by the legendary A.R. Rahman, its simple yet profound melody has resonated with millions, serving as a sonic signature that evokes a sense of connection and ubiquity. It's a testament to the power of a well-crafted jingle to transcend its commercial purpose and become a cultural phenomenon.",
+  "trivia": [
+    "Composed by A.R. Rahman, this tune is widely considered one of the most recognizable brand jingles in India's history.",
+    "The melody is reportedly based on the Carnatic raga Reetigowla, known for its distinct and emotive character.",
+    "It holds the Guinness World Record for the most downloaded mobile music tune in the world, with over 150 million downloads by 2010.",
+    "While primarily instrumental, the theme has been adapted into vocal versions for special occasions, such as Airtel's 10th anniversary, featuring lyrics like 'Tu Hi Tu'."
+  ],
+  "musicxml": "musicxml/airtel-theme.musicxml"
+}
