@@ -1,0 +1,114 @@
+{
+  "id": "zindagi-do-pal-ki",
+  "title": "Zindagi Do Pal Ki",
+  "export": true,
+  "info": [
+    "Film/Artist: Kites",
+    "Scale: F# MAJOR",
+    "Singer: KK",
+    "Music: Rajesh Roshan",
+    "Lyrics: Nasir Faraaz",
+    "Year: 2010"
+  ],
+  "thumbnail": "images/zindagi-do-pal-ki.jpg",
+  "background": "images/zindagi-do-pal-ki.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Zindagii",
+          "indian": "Re: Ga Sa:"
+        },
+        {
+          "lyrics": "doo pal kii",
+          "indian": "Ga: ma Re:"
+        },
+        {
+          "lyrics": "Zindagii",
+          "indian": "Re: Ga Sa:"
+        },
+        {
+          "lyrics": "doo pal kii",
+          "indian": "Ga: ma Re:"
+        },
+        {
+          "lyrics": "Intzaaar kab takk",
+          "indian": "Ga: ma Pa: Sa' Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Humm karengee bhalaaa",
+          "indian": "Ga: ma Ga Re Ga Re: Pa: Pa Pa Ga"
+        },
+        {
+          "lyrics": "Tumhee pyaar kabb tak",
+          "indian": "Ga ma Pa: Sa' Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Naa karngeee bhalaaaaaa",
+          "indian": "ma: Ga Re Ga Re Pa: Pa Pa Pa ma ma Ga Ga Re Re Sa"
+        },
+        {
+          "lyrics": "Zindagii doo pal kii",
+          "indian": "Re: Ga Sa:"
+        },
+        {
+          "lyrics": "doo pal kii",
+          "indian": "Ga: ma Re:"
+        },
+        {
+          "lyrics": "Dill mein tumharii chupa di hai maine to apni yeh jaan",
+          "indian": "Pa Sa' Ni Pa Ni Dha ma Dha Pa Ga Pa ma Ga Re Ga ma Pa: Dha Dha Pa"
+        },
+        {
+          "lyrics": "Abb tumhii iskoo sambhaloo humein apna hosh kahaa",
+          "indian": "Pa Sa' Ni Pa Ni Dha ma Dha Pa Ga Pa ma Ga Re Ga ma Pa: Dha Dha Pa"
+        },
+        {
+          "lyrics": "Bekhudii",
+          "indian": "Re: Ga Sa:"
+        },
+        {
+          "lyrics": "Doo pal kii",
+          "indian": "Ga: ma Re:"
+        },
+        {
+          "lyrics": "Zindagii",
+          "indian": "Re: Ga Sa:"
+        },
+        {
+          "lyrics": "doo pal kii",
+          "indian": "Ga: ma Re:"
+        },
+        {
+          "lyrics": "Intzaaar kab takk",
+          "indian": "Ga: ma Pa: Sa' Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Humm karengee bhalaaa",
+          "indian": "Ga: ma Ga Re Ga Re: Pa: Pa Pa Ga"
+        },
+        {
+          "lyrics": "Tumhee pyaar kabb tak",
+          "indian": "Ga ma Pa: Sa' Ni Dha Dha Dha Dha"
+        },
+        {
+          "lyrics": "Naa karngeee bhalaaaaaa",
+          "indian": "ma: Ga Re Ga Re Pa: Pa Pa Pa ma ma Ga Ga Re Re Sa"
+        }
+      ]
+    }
+  ],
+  "description": "Zindagi Do Pal Ki is a melancholic yet hopeful ballad from the film Kites, beautifully rendered by KK. Its poignant melody and introspective lyrics capture the essence of life's fleeting nature, urging listeners to cherish every moment. The song's contemporary arrangement, blending soft rock elements with traditional Bollywood sensibilities, makes it a memorable and emotionally resonant piece.",
+  "trivia": [
+    "The song became one of the most popular tracks from the film \"Kites,\" despite the movie's mixed critical reception, largely due to KK's soulful rendition.",
+    "Music director Rajesh Roshan, known for his melodic compositions, created a tune that perfectly complemented the film's cross-cultural romance and themes of longing.",
+    "The song's music video features Hrithik Roshan and Bárbara Mori, highlighting their on-screen chemistry and the emotional depth of their characters' journey.",
+    "\"Zindagi Do Pal Ki\" is often cited as one of KK's signature songs, showcasing his ability to convey deep emotion with subtlety and power."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of \"Zindagi Do Pal Ki\" revolves around the brevity of life and the importance of living each moment fully, especially when faced with an intense, perhaps forbidden, love. It speaks to the realization that life is short (\"do pal ki\"), and one must embrace love and experience without fear of consequence, as moments slip away quickly.",
+    "lyricSymbolism": "The phrase \"Zindagi do pal ki\" (Life is of two moments) is a powerful metaphor for life's transient nature, emphasizing its fleeting quality. The lyrics also use imagery of \"saagar\" (ocean) and \"lehrein\" (waves) to symbolize the vastness of life's experiences and the unpredictable flow of time, urging one to dive into its depths rather than stand by the shore."
+  },
+  "musicxml": "musicxml/zindagi-do-pal-ki.musicxml"
+}
