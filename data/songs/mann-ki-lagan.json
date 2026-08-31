@@ -1,0 +1,159 @@
+{
+  "id": "mann-ki-lagan",
+  "title": "Mann Ki Lagan",
+  "export": true,
+  "info": [
+    "Film/Artist: Paap",
+    "Scale: A BASS/MIDDLE",
+    "Singer: Rahat Fateh Ali Khan",
+    "Music: Rahat Fateh Ali Khan",
+    "Lyrics: Amjad Islam Amjad",
+    "Raag: Bhairavi",
+    "Thaat: Bhairavi"
+  ],
+  "thumbnail": "images/mann-ki-lagan.jpg",
+  "background": "images/mann-ki-lagan.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Ooo",
+          "indian": "Ni Sa': Ni"
+        },
+        {
+          "lyrics": "Laagi tum se man ki lagan",
+          "indian": "Sa' Ni Ni Dha Dha Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Pa Dha Ni Sa' Re' Sa' Ni Ni Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Gali gali ghume",
+          "indian": "Sa' Re' Ga' Re' Sa' Re':"
+        },
+        {
+          "lyrics": "Dil tujhe dhundhe…",
+          "indian": "Re' Ga' ma' Ga' Re' Ga': Re' Sa'"
+        },
+        {
+          "lyrics": "Gali gali ghume",
+          "indian": "Sa' Re' Ga' Re' Sa' Re'"
+        },
+        {
+          "lyrics": "Dil tujhe dhundhe",
+          "indian": "Re' Ga' ma' Ga' Re' Ga'"
+        },
+        {
+          "lyrics": "Tere bin tarse nayan",
+          "indian": "Ga' ma' Ga' Re': Re' Pa' Pa': Pa' Pa'"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Pa Dha Ni Sa' Re' Sa' Ni Ni Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "ma' ma' Ga' Ga' Sa' Sa' Dha Dha Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Aa ja o meri jaan",
+          "indian": "Sa': Ni: Dha: Ni: Dha Pa Dha Ni Dha:"
+        },
+        {
+          "lyrics": "Mere dil ka jahaan",
+          "indian": "Sa': Ni: Dha: Ni: Dha Pa Ga:"
+        },
+        {
+          "lyrics": "Maange teri khabar",
+          "indian": "Re': Re' Re': Ga': ma': Dha:"
+        },
+        {
+          "lyrics": "Dhundhe tera nishaan",
+          "indian": "ma': Ga': Re' Sa': Re': Sa' Sa':"
+        },
+        {
+          "lyrics": "Laagi tum se man ki lagan",
+          "indian": "Sa' Ni Ni Dha Dha Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Re' Re' Re' Re' Sa' Sa': Dha Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Gali gali ghume",
+          "indian": "Sa' Re' Ga' Re' Sa' Re':"
+        },
+        {
+          "lyrics": "Dil tujhe dhundhe…",
+          "indian": "Re' Ga' ma' Ga' Re' Ga': Re' Sa'"
+        },
+        {
+          "lyrics": "Gali gali ghume",
+          "indian": "Sa' Re' Ga' Re' Sa' Re'"
+        },
+        {
+          "lyrics": "Dil tujhe dhundhe",
+          "indian": "Re' Ga' ma' Ga' Re' Ga'"
+        },
+        {
+          "lyrics": "Tere bin tarse nayan",
+          "indian": "Ga' ma' Ga' Re': Re' Pa' Pa': Pa' Pa'"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Pa Dha Ni Sa' Re' Sa' Ni Ni Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "ma' ma' Ga' Ga' Sa' Sa' Dha Dha Dha: Dha: Dha Dha"
+        },
+        {
+          "lyrics": "Lagan laagi tum se man ki lagan",
+          "indian": "Dha Dha Dha Pa ma Pa Pa Dha: Ni Dha: Pa Pa"
+        }
+      ]
+    }
+  ],
+  "description": "This soulful track marked Rahat Fateh Ali Khan's significant entry into Bollywood, instantly captivating audiences with its profound Sufi essence. \"Mann Ki Lagan\" is a mesmerizing qawwali-style composition, showcasing Rahat's unparalleled vocal prowess and emotional depth, making it a timeless piece of devotional music.",
+  "trivia": [
+    "\"Mann Ki Lagan\" served as Rahat Fateh Ali Khan's official debut as a playback singer in mainstream Bollywood, catapulting him to immense fame in India.",
+    "The song's spiritual and melancholic mood perfectly complemented the film 'Paap,' which explored themes of sin, redemption, and forbidden love in a monastic setting.",
+    "Composed and sung by Rahat Fateh Ali Khan himself, the song beautifully blends traditional Sufi qawwali elements with contemporary film music sensibilities.",
+    "Despite being from a relatively niche film, the song became a massive hit, establishing Rahat Fateh Ali Khan as a leading voice for soulful and classical-based compositions in Bollywood."
+  ],
+  "meaning": {
+    "coreTheme": "The song is a fervent prayer and an expression of intense spiritual yearning, depicting the soul's relentless search for the divine. It speaks of a deep, unwavering devotion (lagan) of the heart (mann) towards God (Maula), portraying love as the ultimate path to spiritual realization and union with the beloved creator.",
+    "lyricSymbolism": "The phrase \"Mann Ki Lagan\" literally translates to 'the heart's devotion' or 'the mind's attachment,' symbolizing an all-consuming spiritual quest. \"Maula\" is an Arabic term meaning 'master' or 'lord,' commonly used in Sufi poetry to refer to God. The lyrics use the metaphor of a lover's ardent longing for their beloved to represent the devotee's intense desire for divine connection and closeness."
+  },
+  "musicxml": "musicxml/mann-ki-lagan.musicxml"
+}
