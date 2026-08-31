@@ -4,17 +4,16 @@
   "export": true,
   "info": [
     "Film/Artist: Veer",
-    "Scale: E BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/surili-akhiyon-wale-veer-sargam-and-flute-notes.html"
+    "Scale: E BASS/MIDDLE"
   ],
-  "thumbnail": "images/surili-akhiyon-wale.png",
-  "background": "images/surili-akhiyon-wale.png",
+  "thumbnail": "images/surili-akhiyon-wale.jpg",
+  "background": "images/surili-akhiyon-wale.jpg",
   "sections": [
     {
       "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Music:-",
+          "lyrics": "",
           "indian": "Ga Ga Pa Re Re Pa Sa Sa ni Re"
         },
         {
@@ -51,11 +50,11 @@
         },
         {
           "lyrics": "Oooo…",
-          "indian": "Sa' Re' Re' Ga': .Re' Sa' Re' Sa' Ni"
+          "indian": "Sa' Re' Re' Ga': .R' Sa' Re' Sa' Ni"
         },
         {
           "lyrics": "Mil jaa kain samay see paree",
-          "indian": "Sa' Ni Re' Sa': . Sa' Sa' Ni Re' Sa': Pa Dha Pa"
+          "indian": "Sa' Ni Re' Sa': . Sa' Sa' Ni Re' Sa': Pa Dha Pa."
         },
         {
           "lyrics": "Samay see paree",
@@ -63,14 +62,14 @@
         },
         {
           "lyrics": "Mil jaa kahin",
-          "indian": "Sa' Ni Re' Sa': Pa Dha Pa"
+          "indian": "Sa' Ni Re' Sa': Pa Dha Pa."
         },
         {
           "lyrics": "Tuu bhi ankhiyon se kabhii meri ankhikon ki sun",
-          "indian": "Pa Dha Ni(k).Ni(k).Dha Pa Dha Dha Pa ma Pa Pa ma Ga Re"
+          "indian": "Pa Dha N(K).N(K).D Pa Dha Dha Pa ma Pa Pa ma Ga Re"
         },
         {
-          "lyrics": "Music:-",
+          "lyrics": "",
           "indian": "Ga Ga Pa Re Re Pa Sa Sa ni Re"
         },
         {
