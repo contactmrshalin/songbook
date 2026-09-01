@@ -16,52 +16,155 @@
       "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Yaaroo dostiii baadi hii haseen haii",
-          "indian": "Ga ma Pa ma Pa Dha Pa Sa' Dha Pa: Ga ma Ga Re Sa"
+          "lyrics": "GUITAR PRELUDE:",
+          "indian": "S R GR S,P ,D,D ,P"
         },
         {
-          "lyrics": "Yeh hoo tohh kyaa phir",
-          "indian": "Sa Re Ga ma Pa ma Pa Dha Pa"
+          "lyrics": "",
+          "indian": ",P,D,N"
         },
         {
-          "lyrics": "Boloo yehh zindgii haii",
-          "indian": "Sa' Dha Pa Ga ma Ga Re Sa"
+          "lyrics": "",
+          "indian": "S R GR S,P ,D,D ,P"
+        }
+      ]
+    },
+    {
+      "name": "MUKHDA:",
+      "lines": [
+        {
+          "lyrics": "Yaaron | dosti |",
+          "indian": "(S)G...(M)P...M | M...(P)D...P"
         },
         {
-          "lyrics": "Koii toh hoo raazdaar",
-          "indian": "Sa Re Ga. Ga Re Ga. Sa Re Sa"
+          "lyrics": "badi | hi | haseen | hai",
+          "indian": "S (P)D... | P | G (G)M...G | R~S"
         },
         {
-          "lyrics": "Begaraj teraa hoo yaar",
-          "indian": "Sa Re Ga. Ga Re Sa pa dha"
+          "lyrics": "Ye | naa | ho | to | kya | phir",
+          "indian": "S | R | G | M | (M)P...M | M... | (P)D...P"
         },
         {
-          "lyrics": "Koii toh hoo raazdaar",
-          "indian": "Sa Re Ga Ga Re Ga. Sa Re. Ga Re Sa"
+          "lyrics": "Bolo | yeh | zindagi | hai",
+          "indian": "S (P)D... | P | PG GM...G | R~S"
         },
         {
-          "lyrics": "Yaaroo mohobaat hii tohh bandgii haii",
-          "indian": "Ga ma Pa ma Pa Dha Pa Sa' Dha Pa: Ga ma Ga Re Sa"
+          "lyrics": "Koi | to | ho | raazdar",
+          "indian": "S~R | R~G | G | RG (S)R...S"
         },
         {
-          "lyrics": "Yeh hoo tohh kyaa phir",
-          "indian": "Sa Re Ga ma Pa ma Pa Dha Pa"
+          "lyrics": "Be-garaz | tera | ho | yaar",
+          "indian": "S R RG | G R | S | (,P),D..."
         },
         {
-          "lyrics": "Boloo yehh zindgii haii",
-          "indian": "Sa' Dha Pa Ga ma Ga Re Sa"
+          "lyrics": "Koi | to | ho | raazdar",
+          "indian": "S~R | R~G | G | RG (S)R(G)R...S"
         },
         {
-          "lyrics": "Koi too dilbar hoo yaarr",
-          "indian": "Sa Re Ga. Ga Re Ga. Sa Re Sa"
+          "lyrics": "Yaaron | mohabbat |",
+          "indian": "(S)G...(M)P...M | MM...(P)D D(N)...P"
         },
         {
-          "lyrics": "Jiskoo tujhsee  hoo pyaar",
-          "indian": "Sa Re Ga. Ga Re Sa pa dha"
+          "lyrics": "hi | toh | bandagi | hai",
+          "indian": "S' | P(D)P | GG (G)M...G | R~S"
         },
         {
-          "lyrics": "Koi too dilbar hoo yaarr",
-          "indian": "Sa Re Ga Ga Re Ga. Sa Re. Ga Re Sa"
+          "lyrics": "Yeh | naa | ho | toh | kya | phir",
+          "indian": "S | R | G | M | (M)P...M | M... | (P)D...P"
+        },
+        {
+          "lyrics": "Bolo | yeh | zindagi | hai",
+          "indian": "S (P)D... | P | PG GM...G | R~S"
+        },
+        {
+          "lyrics": "Koi | to | dilbar | ho | yaar",
+          "indian": "S~R | R~G | G R | G | (S)R...S"
+        },
+        {
+          "lyrics": "Jisko | tujhse | ho | pyaar",
+          "indian": "S R RG | G R | S | (,P),D..."
+        },
+        {
+          "lyrics": "Koi | to | dilbar | ho | yaar",
+          "indian": "S~R | R~G | G R | G | (S)R(G)R...S..."
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1:",
+      "lines": [
+        {
+          "lyrics": "Teri | har | ek, | burai | pe",
+          "indian": "S' N | D | N(S')N | N D P | D(N)D..."
+        },
+        {
+          "lyrics": "daante | wo | dost",
+          "indian": "D P | M | P(D)P..."
+        },
+        {
+          "lyrics": "Gham | ki | ho | dhoop,",
+          "indian": "S' | N | D | N(S')N"
+        },
+        {
+          "lyrics": "toh | saaya | bane",
+          "indian": "N | N D | P D(N)D..."
+        },
+        {
+          "lyrics": "Tera | wo | dost",
+          "indian": "D D | S' | D~P..."
+        },
+        {
+          "lyrics": "Nache | bhi | wo",
+          "indian": "M G | R | M"
+        },
+        {
+          "lyrics": "Teri | khushi | main",
+          "indian": "M G | R G | P....D"
+        },
+        {
+          "lyrics": "Are | yaaron | dosti…",
+          "indian": "S R | G...MP...M | M...(P)D...P"
+        },
+        {
+          "lyrics": "badi | hi | haseen | hai",
+          "indian": "S (P)D... | P | G (G)M...G | R~S"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 2:",
+      "lines": [
+        {
+          "lyrics": "Tan | mann | kare | tupjhpe | fida",
+          "indian": "S' | N | D N(S')N | N D | P D(N)D..."
+        },
+        {
+          "lyrics": "Mahboob | wo..",
+          "indian": "D P M | P(D)P..."
+        },
+        {
+          "lyrics": "Palkon | pe | jo, | rakhe | tujhe",
+          "indian": "S'N | D | N(S')N | N D | P D(N)D..."
+        },
+        {
+          "lyrics": "Mahboob | wo..",
+          "indian": "DD DS'...S' | D~P..."
+        },
+        {
+          "lyrics": "Jiski | wafaa, |",
+          "indian": "M G | R(G)M..."
+        },
+        {
+          "lyrics": "tere | liye | ho..o..",
+          "indian": "M G | R G | P....D"
+        },
+        {
+          "lyrics": "Arre | Yaaron | mohabbat |",
+          "indian": "S R | G...(M)P...M | MM...(P)D D(N)...P"
+        },
+        {
+          "lyrics": "hi | toh | bandagi | hai",
+          "indian": "S' | P(D)P | P G (G)M...G | R~S"
         }
       ]
     }
