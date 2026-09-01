@@ -1,0 +1,81 @@
+{
+  "id": "yaaron-dosti-badi-hi",
+  "title": "Yaaron Dosti Badi Hi",
+  "export": true,
+  "info": [
+    "Film/Artist: K.K.",
+    "Scale: F BASS/MIDDLE",
+    "Singer: K.K.",
+    "Music: Leslie Lewis",
+    "Lyrics: Mehboob"
+  ],
+  "thumbnail": "images/yaaron-dosti-badi-hi.jpg",
+  "background": "images/yaaron-dosti-badi-hi.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Yaaroo dostiii baadi hii haseen haii",
+          "indian": "Ga ma Pa ma Pa Dha Pa Sa' Dha Pa: Ga ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Yeh hoo tohh kyaa phir",
+          "indian": "Sa Re Ga ma Pa ma Pa Dha Pa"
+        },
+        {
+          "lyrics": "Boloo yehh zindgii haii",
+          "indian": "Sa' Dha Pa Ga ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Koii toh hoo raazdaar",
+          "indian": "Sa Re Ga. Ga Re Ga. Sa Re Sa"
+        },
+        {
+          "lyrics": "Begaraj teraa hoo yaar",
+          "indian": "Sa Re Ga. Ga Re Sa pa dha"
+        },
+        {
+          "lyrics": "Koii toh hoo raazdaar",
+          "indian": "Sa Re Ga Ga Re Ga. Sa Re. Ga Re Sa"
+        },
+        {
+          "lyrics": "Yaaroo mohobaat hii tohh bandgii haii",
+          "indian": "Ga ma Pa ma Pa Dha Pa Sa' Dha Pa: Ga ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Yeh hoo tohh kyaa phir",
+          "indian": "Sa Re Ga ma Pa ma Pa Dha Pa"
+        },
+        {
+          "lyrics": "Boloo yehh zindgii haii",
+          "indian": "Sa' Dha Pa Ga ma Ga Re Sa"
+        },
+        {
+          "lyrics": "Koi too dilbar hoo yaarr",
+          "indian": "Sa Re Ga. Ga Re Ga. Sa Re Sa"
+        },
+        {
+          "lyrics": "Jiskoo tujhsee  hoo pyaar",
+          "indian": "Sa Re Ga. Ga Re Sa pa dha"
+        },
+        {
+          "lyrics": "Koi too dilbar hoo yaarr",
+          "indian": "Sa Re Ga Ga Re Ga. Sa Re. Ga Re Sa"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic track, a cornerstone of K.K.'s debut album 'Pal', transcends generations as the ultimate anthem of friendship. Its simple yet profound lyrics, combined with K.K.'s soulful and energetic vocals, perfectly capture the essence of camaraderie and loyalty. The song's enduring popularity makes it a staple at farewells, college events, and any celebration of true companionship.",
+  "trivia": [
+    "Unlike many of K.K.'s popular songs, 'Yaaron' is not from a film but was released as part of his highly successful debut solo album, 'Pal', in 1999.",
+    "The song quickly became an unofficial anthem for friendship across India, particularly popular among school and college students, solidifying K.K.'s status as a voice for the youth.",
+    "The music for 'Yaaron' was composed by Leslie Lewis, a renowned music producer and composer known for his work with various pop artists and bands.",
+    "K.K. often referred to 'Pal' and 'Yaaron' as very close to his heart, as they marked his successful transition from jingles to a mainstream solo artist."
+  ],
+  "meaning": {
+    "coreTheme": "The song's central theme is the celebration of unconditional friendship and the irreplaceable bond between companions. It beautifully articulates the comfort, support, and joy that true friends bring into one's life, emphasizing loyalty and shared experiences through thick and thin. It's an ode to the enduring power of human connection.",
+    "lyricSymbolism": "The lyrics are straightforward and heartfelt, using simple, relatable language to convey deep emotions. Phrases like 'Yaaron dosti badi hi haseen hai' (Friends, friendship is very beautiful) and 'Yeh na ho toh kya phir, bolo yeh zindagi hai' (If it's not there, then what is this life?) directly express the indispensable nature of friendship. There are no complex metaphors, rather direct declarations of affection and loyalty, making the message universally accessible and impactful."
+  },
+  "musicxml": "musicxml/yaaron-dosti-badi-hi.musicxml"
+}
