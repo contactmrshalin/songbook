@@ -1,0 +1,120 @@
+{
+  "id": "parvati",
+  "title": "Parvati",
+  "export": true,
+  "info": [
+    "Film/Artist: Hanuman Ansh",
+    "Scale: G# BASS/MIDDLE",
+    "Source: https://www.notationsworld.com/parvati-sargam-harmonium-and-flute-notes.html"
+  ],
+  "thumbnail": "images/parvati.jpg",
+  "background": "images/parvati.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Jab zid pe aa gayi parvati",
+          "indian": "Dha Dha Dha Dha Pa Ma Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Parvati parvati",
+          "indian": "Ma Re Re Ma: Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Samjhane pahunche saptarishi",
+          "indian": "Dha Dha Dha Pa Ma Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Saptarishi saptarishi",
+          "indian": "Ma Re Re Ma: Pa Pa Pa Pa"
+        },
+        {
+          "lyrics": "Kaay zid kar rahi",
+          "indian": "Sa' Dha Dha Sa' Sa' Sa':"
+        },
+        {
+          "lyrics": "Kaay ko mar rahi",
+          "indian": "Sa' Dha Sa' Sa' Sa':"
+        },
+        {
+          "lyrics": "Kaay zid kar rahi",
+          "indian": "Sa' Dha Dha Sa' Sa' Sa':"
+        },
+        {
+          "lyrics": "Kaay ko mar rahi",
+          "indian": "Sa' Dha Sa' Sa' Sa':"
+        },
+        {
+          "lyrics": "Aise var ke laane",
+          "indian": "Ni Ni Dha Dha Ni Pa"
+        },
+        {
+          "lyrics": "Kaay zid kar rahi",
+          "indian": "Sa' Dha Dha Sa' Sa' Sa':"
+        },
+        {
+          "lyrics": "Kaay ko mar rahi",
+          "indian": "Sa' Dha Sa' Sa' Sa':"
+        },
+        {
+          "lyrics": "Aise var ke laane",
+          "indian": "Ni Ni Dha Dha Ni Pa"
+        },
+        {
+          "lyrics": "Jaake sees pe ganga",
+          "indian": "Pa Pa Dha Dha Dha Sa' Sa'"
+        },
+        {
+          "lyrics": "Aur gale mein",
+          "indian": "Re' Re' Re' Re' ma'"
+        },
+        {
+          "lyrics": "Daare phir rahe saanp",
+          "indian": "Pa' ma' Ga' Ga' Re':"
+        },
+        {
+          "lyrics": "Jaake sees pe ganga",
+          "indian": "Pa Pa Dha Dha Dha Sa' Sa'"
+        },
+        {
+          "lyrics": "Aur gale mein",
+          "indian": "Re' Re' Re' Re' ma'"
+        },
+        {
+          "lyrics": "Daare phir rahe saanp",
+          "indian": "Pa' ma' Ga' Ga' Re':"
+        },
+        {
+          "lyrics": "Itne seedhe saadhe hain",
+          "indian": "Re' Re' Pa' Pa' ma' ma' Ga' Re'"
+        },
+        {
+          "lyrics": "Sab kehte bholenath bholenath",
+          "indian": "Dha Sa' Sa' N(K).N(K) Dha Dha Pa: Dha Ma Ma Pa:"
+        },
+        {
+          "lyrics": "Jaake sees pe ganga",
+          "indian": "Pa Pa Dha Dha Dha Sa' Sa'"
+        },
+        {
+          "lyrics": "Aur gale mein",
+          "indian": "Re' Re' Re' Re' ma'"
+        },
+        {
+          "lyrics": "Daare phir rahe saanp",
+          "indian": "Pa' ma' Ga' Ga' Re':"
+        },
+        {
+          "lyrics": "Itne seedhe saadhe hain",
+          "indian": "Re' Re' Pa' Pa' ma' ma' Ga' Re'"
+        },
+        {
+          "lyrics": "Sab kehte bholenath bholenath",
+          "indian": "Dha Sa' Sa' N(K).N(K) Dha Dha Pa: Dha Ma Ma Pa:"
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/parvati.musicxml"
+}
