@@ -1,0 +1,74 @@
+{
+  "id": "ekadantaya-vakratundaya",
+  "title": "Ekadantaya Vakratundaya",
+  "export": true,
+  "info": [
+    "Scale: F# BASS/MIDDLE"
+  ],
+  "thumbnail": "images/ekadantaya-vakratundaya.jpg",
+  "background": "images/ekadantaya-vakratundaya.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Gananayakaya ganadaivataya",
+          "indian": "ma Re Re Sa ni Sa ma Re Re Sa ni Sa."
+        },
+        {
+          "lyrics": "Ganadhyakshaya dheemahi",
+          "indian": "ma Re Re Sa ni Sa Re ma Pa: ma Re"
+        },
+        {
+          "lyrics": "Guna Shareeraya Guna Manditaya",
+          "indian": "ma Re Re Sa ni Sa ma Re Re Sa ni Sa."
+        },
+        {
+          "lyrics": "Guneshanaya Dheemahi",
+          "indian": "ma Re Re Sa ni Sa Re ma Pa: ma Re"
+        },
+        {
+          "lyrics": "Gunadheethaya Gunadheeshaya",
+          "indian": "Re ma Ni(k) Ni(k) Dha ma Pa Sa' Sa' Sa'"
+        },
+        {
+          "lyrics": "Guna Pravishtaya Dheemahi",
+          "indian": "Pa Dha Ni Dha Ni Dha Pa ma Ni(k) Pa ma Ga(k) Re Sa"
+        },
+        {
+          "lyrics": "Ekadantaya Vakratundaya",
+          "indian": "ni: Sa Re: Re: Re Re: Re Re: Re: Re"
+        },
+        {
+          "lyrics": "Gauri Tanayaya Dheemahi",
+          "indian": "Re: Ga(k): Re Sa Re: Ga(k) Sa: Re ni"
+        },
+        {
+          "lyrics": "Gajeshanaya Bhalchandraya",
+          "indian": "ni Sa: Re: Re: Re Re: Re Re: Re: Re"
+        },
+        {
+          "lyrics": "Shree Ganeshaya Dheemahi",
+          "indian": "Re ma Pa Ni(k) Pa ma Ga(k) Re ma Ga(k) Re Sa"
+        },
+        {
+          "lyrics": "Ekadantaya Vakratundaya",
+          "indian": "ni: Sa Re: Re: Re Re: Re Re: Re: Re"
+        },
+        {
+          "lyrics": "Gauri Tanayaya Dheemahi",
+          "indian": "Re: Ga(k): Re Sa Re: Ga(k) Sa: Re ni"
+        },
+        {
+          "lyrics": "Gajeshanaya Bhalchandraya",
+          "indian": "ni Sa: Re: Re: Re Re: Re Re: Re: Re"
+        },
+        {
+          "lyrics": "Shree Ganeshaya Dheemahi",
+          "indian": "Re ma Pa Ni(k) Pa ma Ga(k) Re ma Ga(k) Re Sa"
+        }
+      ]
+    }
+  ],
+  "musicxml": "musicxml/ekadantaya-vakratundaya.musicxml"
+}
