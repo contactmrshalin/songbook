@@ -1,0 +1,266 @@
+{
+  "id": "kya-hua-tera-wada",
+  "title": "Kya Hua Tera Wada",
+  "export": true,
+  "info": [
+    "Film/Artist: Mohammed Rafi",
+    "Singer: Mohammed Rafi",
+    "Music: R.D. Burman",
+    "Lyrics: Majrooh Sultanpuri",
+    "Raag: Khamaj",
+    "Thaat: Khamaj"
+  ],
+  "thumbnail": "images/kya-hua-tera-wada.jpg",
+  "background": "images/kya-hua-tera-wada.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Bhoolega dil",
+          "indian": "ni ni ni Sa pa:"
+        },
+        {
+          "lyrics": "jis din tumhe",
+          "indian": "ni ni Sa Ga Re:"
+        },
+        {
+          "lyrics": "Woh din zindagi ka",
+          "indian": "Sa Re Ga Re Re Re Ga"
+        },
+        {
+          "lyrics": "Aakhri din hoga",
+          "indian": "Re Ga Re Ga Re ma Ga: Ga"
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "Bhoolega dil",
+          "indian": "ni ni ni Sa pa:"
+        },
+        {
+          "lyrics": "jis din tumhe",
+          "indian": "ni ni Sa Ga Re:"
+        },
+        {
+          "lyrics": "Woh din zindagi ka",
+          "indian": "Sa Re Ga Re Re Re Ga"
+        },
+        {
+          "lyrics": "Aakhri din hoga",
+          "indian": "Re Ga Re Ga Re ma Ga: Ga"
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Yaad hain mujhko",
+          "indian": "Sa': Ni Dha Dha Dha"
+        },
+        {
+          "lyrics": "tune kaha tha",
+          "indian": "Sa' Sa' Ni Dha: Dha"
+        },
+        {
+          "lyrics": "Tumse nahi",
+          "indian": "Dha Dha Dha Pa Dha Ni"
+        },
+        {
+          "lyrics": "roothenge kabhi",
+          "indian": "Dha Pa Pa Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Dil ki tarah se",
+          "indian": "Sa' Sa' Ni Dha: Dha"
+        },
+        {
+          "lyrics": "haath mile hain",
+          "indian": "Sa': Ni Dha: Dha"
+        },
+        {
+          "lyrics": "Kaise bhala",
+          "indian": "Dha Dha Dha Pa Dha Ni"
+        },
+        {
+          "lyrics": "chootenge kabhi",
+          "indian": "Dha Pa Pa Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Teri baahonmein",
+          "indian": "Ga Pa ma: Re ma Ga:"
+        },
+        {
+          "lyrics": "beeti har shaam",
+          "indian": "Sa Ga Re Sa Re"
+        },
+        {
+          "lyrics": "Bewafa yeh bhi kya",
+          "indian": "ma Ga ma: Ga Re Ga:"
+        },
+        {
+          "lyrics": "yaad nahi",
+          "indian": "Sa ni dha ni Sa"
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Bhoolega dil",
+          "indian": "ni ni ni Sa pa:"
+        },
+        {
+          "lyrics": "jis din tumhe",
+          "indian": "ni ni Sa Ga Re:"
+        },
+        {
+          "lyrics": "Woh din zindagi ka",
+          "indian": "Sa Re Ga Re Re Re Ga"
+        },
+        {
+          "lyrics": "Aakhri din hoga",
+          "indian": "Re Ga Re Ga Re ma Ga: Ga"
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Music",
+          "indian": ""
+        },
+        {
+          "lyrics": "O kehne wale",
+          "indian": "Sa' Sa' Ni Dha: Dha"
+        },
+        {
+          "lyrics": "mujhko farebi",
+          "indian": "Sa' Sa' Ni Dha: Dha"
+        },
+        {
+          "lyrics": "Kaun farebi",
+          "indian": "Dha Dha Dha Pa Dha Ni Dha Pa"
+        },
+        {
+          "lyrics": "hain yeh bata",
+          "indian": "Pa Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "O jisne ghum liya",
+          "indian": "Sa' Sa' Ni Dha: Dha Dha"
+        },
+        {
+          "lyrics": "pyar ke khatir",
+          "indian": "Sa': Ni Dha: Dha"
+        },
+        {
+          "lyrics": "Ya jisne pyar ko",
+          "indian": "Dha Dha Dha Pa Dha Ni Dha Pa"
+        },
+        {
+          "lyrics": "bech diya",
+          "indian": "Pa Dha Ni Dha Pa Pa"
+        },
+        {
+          "lyrics": "Nasha daulat ka",
+          "indian": "Ga Pa ma: Re ma Ga:"
+        },
+        {
+          "lyrics": "aesa bhi kya",
+          "indian": "Sa Ga Re Sa Re"
+        },
+        {
+          "lyrics": "Ke tujhe kuch bhi",
+          "indian": "ma Ga ma: Ga Re Ga:"
+        },
+        {
+          "lyrics": "yaad nahi",
+          "indian": "Sa ni dha ni Sa"
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Bhoolega dil",
+          "indian": "ni ni ni Sa pa:"
+        },
+        {
+          "lyrics": "jis din tumhe",
+          "indian": "ni ni Sa Ga Re:"
+        },
+        {
+          "lyrics": "Woh din zindagi ka",
+          "indian": "Sa Re Ga Re Re Re Ga"
+        },
+        {
+          "lyrics": "Aakhri din hoga",
+          "indian": "Re Ga Re Ga Re ma Ga: Ga"
+        },
+        {
+          "lyrics": "Kya hua tera wada",
+          "indian": "Ga Pa Pa ma: Ga Re Ga Pa:"
+        },
+        {
+          "lyrics": "Woh kasam woh irada",
+          "indian": "Ga Pa Pa Dha Pa ma: Ga Re Ga Pa:"
+        }
+      ]
+    }
+  ],
+  "description": "This iconic song is a poignant lament of a broken promise, masterfully delivered by Mohammed Rafi. Its melancholic yet melodious composition, rooted in Raag Khamaj, perfectly captures the anguish of betrayal and unfulfilled love. It remains a timeless classic, celebrated for its emotional depth and Rafi's unparalleled vocal artistry.",
+  "trivia": [
+    "Mohammed Rafi won the Filmfare Award for Best Male Playback Singer for this song, marking a significant comeback for him in the late 1970s.",
+    "The song was composed by the legendary R.D. Burman, showcasing his versatility in handling both upbeat and emotionally heavy tracks.",
+    "It is picturized on Rishi Kapoor in the film 'Hum Kisise Kum Naheen', where he performs it with a guitar, adding to its romantic and slightly rebellious appeal.",
+    "The song's enduring popularity led to a re-recorded version in 2007 by singer Udit Narayan for the film 'Apne', though Rafi's original remains definitive."
+  ],
+  "meaning": {
+    "coreTheme": "The song's central theme revolves around the pain of a broken promise and the emotional turmoil of a lover left heartbroken. It expresses a deep sense of betrayal and longing, questioning the sincerity of past vows and the fleeting nature of love. In the film, it serves as a powerful expression of unrequited love and the protagonist's sorrow over a lost relationship.",
+    "lyricSymbolism": "The lyrics are rich with direct and evocative language, using 'wada' (promise) and 'kasam' (oath) as central metaphors for commitment and trust, which have now been shattered. Phrases like 'dil todne wale' (heartbreaker) directly convey the emotional damage. The repeated questioning, 'Kya hua tera wada?' (What happened to your promise?), emphasizes the bewilderment and pain of the betrayed lover, making the song a universal anthem for lost love and broken vows."
+  },
+  "musicxml": "musicxml/kya-hua-tera-wada.musicxml"
+}
