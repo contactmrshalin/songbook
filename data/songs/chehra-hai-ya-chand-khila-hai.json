@@ -7,9 +7,7 @@
     "Scale: C# BASS/MIDDLE",
     "Singer: Kishore Kumar",
     "Music: R.D. Burman",
-    "Lyrics: Javed Akhtar",
-    "Raag: Yaman",
-    "Thaat: Kalyan"
+    "Lyrics: Javed Akhtar"
   ],
   "thumbnail": "images/chehra-hai-ya-chand-khila-hai.jpg",
   "background": "images/chehra-hai-ya-chand-khila-hai.jpg",
@@ -112,16 +110,16 @@
       ]
     }
   ],
-  "description": "This iconic romantic ballad from 'Saagar' is a timeless ode to beauty, masterfully rendered by Kishore Kumar. R.D. Burman's composition blends classical elegance with a contemporary feel, creating a serene yet passionate soundscape. It perfectly captures the intoxicating feeling of being mesmerized by a beloved's charm.",
+  "description": "This iconic romantic ballad from 'Saagar' is a testament to Kishore Kumar's unparalleled ability to convey deep emotion and R.D. Burman's melodic genius. It's a dreamy ode to beauty, perfectly capturing the essence of nascent love and admiration. The song's lush orchestration and Kumar's tender vocals create an atmosphere of pure enchantment, making it a timeless classic.",
   "trivia": [
-    "The song features Rishi Kapoor serenading Dimple Kapadia, marking their reunion on screen after their debut film 'Bobby'.",
-    "R.D. Burman's genius shines in the song's arrangement, which uses a delicate balance of strings, flute, and a gentle rhythm to enhance its romantic mood.",
-    "Javed Akhtar's poetic lyrics are a highlight, using simple yet profound imagery to express deep admiration.",
-    "Despite 'Saagar' being a comeback film for Dimple Kapadia and a significant film for Rishi Kapoor, the music, particularly this song, remains one of its most enduring legacies."
+    "The film 'Saagar' marked the comeback of Dimple Kapadia after her marriage to Rajesh Khanna and also starred Rishi Kapoor and Kamal Haasan.",
+    "R.D. Burman's composition for 'Saagar' was highly acclaimed, showcasing his versatility across romantic, melancholic, and upbeat genres.",
+    "Javed Akhtar, known for his profound and poetic lyrics, penned the words for this song, adding layers of romantic imagery.",
+    "Despite the film's mixed commercial success, its soundtrack, particularly 'Chehra Hai Ya Chand Khila Hai', became immensely popular and remains cherished by fans."
   ],
   "meaning": {
-    "coreTheme": "The song's central theme is the overwhelming admiration and enchantment a lover feels for their beloved's unparalleled beauty. It expresses a moment of pure awe, where the beloved's face is so radiant that it transcends ordinary comparisons, evoking a sense of wonder and deep affection.",
-    "lyricSymbolism": "The most prominent symbolism is the comparison of the beloved's 'chehra' (face) to 'chand khila hai' (a blossoming moon). This metaphor elevates her beauty to something celestial and luminous. Phrases like 'zulf ghata hai ya lehrati raat' (are your locks a cloud or a swaying night?) further use natural elements to describe her captivating features, implying depth, mystery, and allure."
+    "coreTheme": "The song's core theme is the overwhelming admiration and awe a lover feels for the beauty of their beloved. It's a passionate expression of infatuation, where the beloved's face is compared to the most beautiful elements of nature, signifying a love that is both profound and enchanting. The song captures the initial spark and wonder of falling deeply in love.",
+    "lyricSymbolism": "The lyrics are rich with natural metaphors, most prominently comparing the beloved's face ('chehra') to a blooming moon ('chand khila hai') and a radiant flower ('phool khila hai'). These comparisons emphasize purity, glow, and delicate beauty. Phrases like 'zulfen hain ya raat jhuki hai' (are these tresses or the night has descended) use hyperbole to describe the beloved's captivating features, creating vivid imagery of an almost divine beauty."
   },
   "musicxml": "musicxml/chehra-hai-ya-chand-khila-hai.musicxml"
 }
