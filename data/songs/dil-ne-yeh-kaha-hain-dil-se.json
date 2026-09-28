@@ -4,7 +4,11 @@
   "export": true,
   "info": [
     "Film/Artist: Dhadkan",
-    "Scale: A# BASS/MIDDLE"
+    "Scale: A# BASS/MIDDLE",
+    "Singer: Kumar Sanu, Alka Yagnik, Udit Narayan",
+    "Music: Nadeem-Shravan",
+    "Lyrics: Sameer",
+    "Year: 2000"
   ],
   "thumbnail": "images/dil-ne-yeh-kaha-hain-dil-se.jpg",
   "background": "images/dil-ne-yeh-kaha-hain-dil-se.jpg",
@@ -107,5 +111,16 @@
       ]
     }
   ],
+  "description": "This iconic romantic ballad from 'Dhadkan' perfectly encapsulates the yearning and profound connection between lovers. With its lush orchestration and the distinct voices of Kumar Sanu, Alka Yagnik, and Udit Narayan, the song became a massive hit, defining the sound of early 2000s Bollywood romance. Its melodious charm and heartfelt lyrics continue to resonate, making it a staple in romantic playlists.",
+  "trivia": [
+    "The song is one of the most celebrated compositions by the legendary music director duo Nadeem-Shravan, known for their signature melodious style in the 90s and early 2000s.",
+    "It features three of Bollywood's most prominent playback singers of the era – Kumar Sanu, Alka Yagnik, and Udit Narayan – each lending their unique vocal texture to the narrative.",
+    "The film 'Dhadkan' itself was a major box office success, and its soundtrack, particularly 'Dil Ne Yeh Kaha Hain Dil Se', played a significant role in its popularity.",
+    "The song's enduring popularity is evident in its frequent use in reality shows, cover versions, and as a reference point for classic Bollywood romance."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme revolves around a deep, unspoken love that transcends words, where one heart communicates directly with another. It explores the profound emotional connection and destiny that binds two souls, expressing a lover's unwavering devotion and the belief that their bond is eternal and divinely ordained.",
+    "lyricSymbolism": "The phrase 'Dil Ne Yeh Kaha Hain Dil Se' (The heart has said this to the heart) is a powerful metaphor for intuitive, soul-level communication, suggesting a connection so deep it bypasses verbal expression. 'Ishq Mohabbat Pyaar Ki Baatein' (Talks of passion, affection, love) collectively refers to the multifaceted nature of romantic love, while 'teri saanson mein ghul jaaoon' (I want to dissolve into your breaths) symbolizes an ultimate desire for complete merger and unity with the beloved."
+  },
   "musicxml": "musicxml/dil-ne-yeh-kaha-hain-dil-se.musicxml"
 }
