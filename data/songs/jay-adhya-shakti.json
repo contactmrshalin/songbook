@@ -1,0 +1,110 @@
+{
+  "id": "jay-adhya-shakti",
+  "title": "Jay Adhya Shakti",
+  "export": true,
+  "info": [
+    "Film/Artist: Navratri Aarti",
+    "Scale: G BASS/MIDDLE"
+  ],
+  "thumbnail": "images/jay-adhya-shakti.jpg",
+  "background": "images/jay-adhya-shakti.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "Jay adhya shakti",
+          "indian": "Sa: Sa: Sa: Re Sa ni Sa Re:"
+        },
+        {
+          "lyrics": "Maa jay adhya shakti",
+          "indian": "Re Ga ma: Pa: Dha Pa ma Ga ma Ga Re:"
+        },
+        {
+          "lyrics": "Akhand brahmaand neepavya",
+          "indian": "Re Ga Re Ga ma: ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Akhand brahmaand neepavya",
+          "indian": "Re Ga Re Ga ma: ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Padave pandit ma",
+          "indian": "ni Sa Re: Ga Re Sa ni Sa ni dha:"
+        },
+        {
+          "lyrics": "Om jayo jayo ma jagadambe",
+          "indian": "Re: Re Re: Re Re: Re: Ga Re Sa ni Sa:"
+        },
+        {
+          "lyrics": "Dwitiya bay swarup",
+          "indian": "Re Sa Sa ni Re Sa Sa ni Re Sa Sa"
+        },
+        {
+          "lyrics": "Shivashakti janu",
+          "indian": "Pa Dha Pa ma Ga: Re Sa Sa Ga Re"
+        },
+        {
+          "lyrics": "Maa shivashakti janu",
+          "indian": "Pa: Pa Dha Pa ma Ga: Re Sa Sa Ga Re"
+        },
+        {
+          "lyrics": "Brahma ganapti gaye",
+          "indian": "Re Ga Re Ga ma: ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Brahma ganapti gaye",
+          "indian": "Re Ga Re Ga ma: ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Har gaaye har ma",
+          "indian": "ni Sa Re: Ga Re Sa ni Sa ni dha:"
+        },
+        {
+          "lyrics": "Om jayo jayo ma jagadambe",
+          "indian": "Re: Re Re: Re Re: Re: Ga Re Sa ni Sa:"
+        },
+        {
+          "lyrics": "Tritiya tran swarup",
+          "indian": "Re Sa Sa ni Re Sa Sa ni Re Sa Sa"
+        },
+        {
+          "lyrics": "Tribhuvan ma betha",
+          "indian": "Pa Dha Pa ma Ga: Re Sa Sa Ga Re"
+        },
+        {
+          "lyrics": "Maa tribhuvan ma betha",
+          "indian": "Pa: Pa Dha Pa ma Ga: Re Sa Sa Ga Re"
+        },
+        {
+          "lyrics": "Traya thaki taraveni",
+          "indian": "Re Ga Re Ga ma: ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Traya thaki taraveni",
+          "indian": "Re Ga Re Ga ma: ma Ga Re Ga Re Sa"
+        },
+        {
+          "lyrics": "Tu taraveni ma",
+          "indian": "ni Sa Re: Ga Re Sa ni Sa ni dha:"
+        },
+        {
+          "lyrics": "Om jayo jayo maa jagadambe",
+          "indian": "Re: Re Re: Re Re: Re: Ga Re Sa ni Sa:"
+        }
+      ]
+    }
+  ],
+  "description": "Jay Adhya Shakti is a revered Gujarati Aarti, a devotional hymn sung during the auspicious festival of Navratri to invoke and honor Goddess Ambe (Durga). Its simple yet powerful melody and heartfelt lyrics create an atmosphere of profound devotion and spiritual energy, making it a cornerstone of Navratri celebrations across Gujarat and among the global Gujarati diaspora. The song's repetitive structure and call-and-response nature encourage communal singing, fostering a sense of unity and spiritual fervor.",
+  "trivia": [
+    "\"Jay Adhya Shakti\" is one of the most popular and widely sung Aartis during Navratri, particularly in Gujarat, where the festival is celebrated with immense grandeur.",
+    "The Aarti is traditionally performed with a 'deepak' (lamp) in hand, circling it clockwise before the idol of the Goddess, symbolizing the offering of light and devotion.",
+    "While the exact origins are ancient and unknown, the lyrics are in Gujarati, making it a significant cultural and religious touchstone for Gujarati-speaking communities.",
+    "The song's structure is typical of Aartis, featuring verses that describe the Goddess's various forms, attributes, and powers, followed by a refrain praising her ultimate divine energy."
+  ],
+  "meaning": {
+    "coreTheme": "The central theme of \"Jay Adhya Shakti\" is the glorification and invocation of Adhya Shakti, the primordial cosmic energy personified as Goddess Ambe. It expresses deep reverence, seeking her blessings for protection, strength, and liberation from worldly troubles. The Aarti celebrates her omnipotence and her role as the mother of the universe, inspiring devotees to surrender to her divine will.",
+    "lyricSymbolism": "The lyrics use rich imagery to describe the Goddess's divine attributes, such as her various forms (e.g., Bahucharma, Kalika), her weapons, and her benevolent nature. Phrases like \"Ma Pava Te Gadh Thi Utarya\" refer to specific pilgrimage sites like Pavagadh, a significant Shakti Peeth. The repeated invocation of \"Jay Adhya Shakti\" symbolizes the ultimate triumph of good over evil and the eternal power of the divine feminine. The Aarti itself is a symbolic offering of devotion and light."
+  },
+  "musicxml": "musicxml/jay-adhya-shakti.musicxml"
+}
