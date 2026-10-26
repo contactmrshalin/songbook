@@ -1,0 +1,130 @@
+{
+  "id": "in-dino",
+  "title": "In Dino",
+  "export": true,
+  "info": [
+    "Film/Artist: Life In A Metro",
+    "Scale: C BASS/MIDDLE",
+    "Singer: Shilpa Rao",
+    "Music: Pritam",
+    "Lyrics: Sayeed Quadri",
+    "Year: 2007"
+  ],
+  "thumbnail": "images/in-dino.jpg",
+  "background": "images/in-dino.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "In dino dil mera",
+          "indian": "Ga Re ma Ga: Re Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Mujhse hai keh raha",
+          "indian": "Ga Re ma Ga: Re Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Tu khwaab sajaa",
+          "indian": "Pa: .m: Ga Re Ga Sa Sa:"
+        },
+        {
+          "lyrics": "Tuu jeele zara",
+          "indian": "Pa: .D Pa ma: Ga Re Ga Sa Sa: Sa Ga Re:"
+        },
+        {
+          "lyrics": "Hain tujhe",
+          "indian": "ni ni Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Bhi izaazat",
+          "indian": "Sa ni dha ni Sa Re:"
+        },
+        {
+          "lyrics": "Karle tu",
+          "indian": "Sa ni Sa Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Bhi mohabbat",
+          "indian": "Sa ni dha ni ni Sa:"
+        },
+        {
+          "lyrics": "Hai tujhe",
+          "indian": "ni ni Sa ni Sa pa:"
+        },
+        {
+          "lyrics": "Bhi izaazat",
+          "indian": "pa ni ni Re:"
+        },
+        {
+          "lyrics": "Karle tu",
+          "indian": "Sa ni Sa Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Bhi mohabbat",
+          "indian": "Sa ni dha ni ni Sa:"
+        },
+        {
+          "lyrics": "In dino dil mera",
+          "indian": "Ga Re ma Ga: Re Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Mujhse hai keh raha",
+          "indian": "Ga Re ma Ga: Re Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Tu khwaaab saja",
+          "indian": "Pa: .m: Ga Re Ga Sa Sa:"
+        },
+        {
+          "lyrics": "Tu jeele zara…",
+          "indian": "Pa: .D Pa ma: Ga Re Ga Sa Sa: Sa Ga Re:"
+        },
+        {
+          "lyrics": "Hai tujhe",
+          "indian": "ni ni Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Bhi izaazat",
+          "indian": "Sa ni dha ni Sa Re:"
+        },
+        {
+          "lyrics": "Karle tu",
+          "indian": "Sa ni Sa Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Bhi mohabbat",
+          "indian": "Sa ni dha ni ni Sa:"
+        },
+        {
+          "lyrics": "Hai tujhe",
+          "indian": "ni ni Sa ni Sa pa:"
+        },
+        {
+          "lyrics": "Bhi izaazat",
+          "indian": "pa ni ni Re:"
+        },
+        {
+          "lyrics": "Karle tu",
+          "indian": "Sa ni Sa Sa Ga Re ma Ga:"
+        },
+        {
+          "lyrics": "Bhi mohabbat",
+          "indian": "Sa ni dha ni ni Sa:"
+        }
+      ]
+    }
+  ],
+  "description": "A melancholic yet soothing melody, \"In Dino\" perfectly captures the bittersweet essence of modern urban relationships. Shilpa Rao's soulful vocals, combined with Pritam's contemporary arrangement, create a reflective atmosphere that resonates with anyone navigating the complexities of love and longing in a bustling city. It stands out as a poignant track from a critically acclaimed soundtrack.",
+  "trivia": [
+    "\"In Dino\" marked Shilpa Rao's breakthrough into mainstream Bollywood playback singing, establishing her unique vocal texture and style.",
+    "The song's success was instrumental in solidifying Pritam's reputation for crafting contemporary, emotionally resonant melodies that blend pop sensibilities with Indian musical nuances.",
+    "The film 'Life In A Metro' itself was lauded for its realistic portrayal of urban lives and relationships, with its soundtrack, particularly \"In Dino,\" becoming a significant part of its appeal.",
+    "The song's lyrics, penned by Sayeed Quadri, are celebrated for their simple yet profound expression of complex emotions, making them highly relatable to a wide audience."
+  ],
+  "meaning": {
+    "coreTheme": "The song delves into the uncertainties and emotional turbulence of contemporary relationships, particularly within the context of urban life. It speaks to the feeling of being adrift, questioning the nature of love and connection, and the quiet yearning for stability amidst the transient nature of modern romance. The narrative explores a search for meaning and solace in a world that often feels disconnected.",
+    "lyricSymbolism": "The phrase \"In Dino\" (meaning 'these days' or 'nowadays') sets a reflective tone, grounding the song in the present emotional state. The lyrics use simple, conversational language to convey deep emotional states, avoiding overt metaphors but relying on direct expressions of confusion, hope, and despair. Phrases like 'kabhi main kahoon, kabhi tum kaho' (sometimes I say, sometimes you say) symbolize the hesitant, often unspoken communication and emotional dance between two people, highlighting the delicate balance and unspoken understandings in a relationship."
+  },
+  "musicxml": "musicxml/in-dino.musicxml"
+}
