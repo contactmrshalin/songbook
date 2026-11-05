@@ -1,0 +1,255 @@
+{
+  "id": "ik-bagal-me-chaand-hoga",
+  "title": "Ik Bagal Me Chaand Hoga",
+  "export": true,
+  "info": [
+    "Movie: Gangs of Wasseypur-I (2012)",
+    "Singer: Piyush Mishra",
+    "Music: Sneha Khanwalkar",
+    "Lyrics: Piyush Mishra"
+  ],
+  "thumbnail": "images/ik-bagal-me-chaand-hoga.jpg",
+  "background": "images/ik-bagal-me-chaand-hoga.jpg",
+  "sections": [
+    {
+      "name": "STHAYI",
+      "lines": [
+        {
+          "lyrics": "PRELUDE (Cello guitar) :",
+          "indian": "S | S,P | S (x3)"
+        }
+      ]
+    },
+    {
+      "name": "STHAYI:",
+      "lines": [
+        {
+          "lyrics": "Ik | bagal | mein | chand | hoga",
+          "indian": "S | SG | P | DD | P~D P~n"
+        },
+        {
+          "lyrics": "Ik | bagal | mein | rotiyan",
+          "indian": "n | nD | D~P | P PP"
+        },
+        {
+          "lyrics": "Ik | bagal | mein | neend | hogi",
+          "indian": ""
+        },
+        {
+          "lyrics": "Ik | bagal | mein | loriyan",
+          "indian": ""
+        },
+        {
+          "lyrics": "Hum | chand | pe,",
+          "indian": "S' | S'~N S' | S'~G'... R'~S'..."
+        },
+        {
+          "lyrics": "hum | chand | pe | Roti | ki | chadar",
+          "indian": "S' | S'~N N | N | ND | D | P P"
+        },
+        {
+          "lyrics": "daal | kar | so | jayenge",
+          "indian": "PDP | G~R | R G | G(M)G R R"
+        },
+        {
+          "lyrics": "Aur | neend | se",
+          "indian": "S | S~,N,N | R..."
+        },
+        {
+          "lyrics": "aur | neend | se | Keh | denge",
+          "indian": "S | S~,N,N | R | RR | R R"
+        },
+        {
+          "lyrics": "lori | kal | sunane | aayenge",
+          "indian": "MM | M | MM PG | G GG"
+        },
+        {
+          "lyrics": "Aur | neend | se | keh | denge",
+          "indian": "S | S~,N,N | R | RR | R R"
+        },
+        {
+          "lyrics": "Lori | kal | sunane | aayenge",
+          "indian": "R R~r | r | rr r~S | S SS"
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1:",
+      "lines": [
+        {
+          "lyrics": "Ik | bagal | mein | khan-khanati",
+          "indian": "S | SG | P | D D P~D P~n"
+        },
+        {
+          "lyrics": "seepiyan | ho | jayengi",
+          "indian": "nn D | D~P | P PP"
+        },
+        {
+          "lyrics": "Ik | bagal | mein | kuchh | rulati",
+          "indian": "S | SG | P | D | D P~D P~n"
+        },
+        {
+          "lyrics": "sisikiyan | ho | jayengi",
+          "indian": "nn D | D~P | P PP"
+        },
+        {
+          "lyrics": "Hum | seepiyon | mein….",
+          "indian": "S' | S'~N N S' | S'~G'... R'~S'..."
+        },
+        {
+          "lyrics": "hum | seepiyon | mein | Bhar | ke | saare",
+          "indian": "S' | S'~N N N | N | D | D | P P"
+        },
+        {
+          "lyrics": "taare | chun | ke | aayenge",
+          "indian": "PDP | G~R | R G | G(M)G R R"
+        },
+        {
+          "lyrics": "Aur | siskiyon | ko",
+          "indian": "S | S~,N,N | R..."
+        },
+        {
+          "lyrics": "aur | siskiyon | ko | Gudgudi",
+          "indian": "S | S~,N,N N | N~R | R RR"
+        },
+        {
+          "lyrics": "kar | kar | ke | yun | behlayenge",
+          "indian": "M | M | M | M | PG G GG"
+        },
+        {
+          "lyrics": "Aur | siskiyon | ko | Gudgudi",
+          "indian": "S | S~,N,N N | R | R RR"
+        },
+        {
+          "lyrics": "kar | kar | ke | yun | behlayenge",
+          "indian": "R~r | r | r | r | r~S S SS"
+        },
+        {
+          "lyrics": "ANTARA | 2:",
+          "indian": ""
+        },
+        {
+          "lyrics": "Amma | teri | siskiyon | pe",
+          "indian": "SS | n P | SS N | P"
+        },
+        {
+          "lyrics": "wo hi | rone | aayega",
+          "indian": "S S | S r... {gr gr} | S SS"
+        },
+        {
+          "lyrics": "Wohi | rone | aayega",
+          "indian": "SS | NN | DnD P"
+        },
+        {
+          "lyrics": "Gham | na | kar | jo | aayega | wo",
+          "indian": "S | S | n | P | SS N | P"
+        },
+        {
+          "lyrics": "phir | kabhi | na | jayega",
+          "indian": "S | S S | r... {gr gr} | S SS"
+        },
+        {
+          "lyrics": "Woh | phir | kabhi | na | jayega",
+          "indian": "S | S | Sn | N~D | DnD P"
+        },
+        {
+          "lyrics": "Yaad | rakh | par | koi | anhoni",
+          "indian": "SS | r | G | SS | rG G"
+        },
+        {
+          "lyrics": "nahi | tu | layegi",
+          "indian": "GG~r | r~S | S SS"
+        },
+        {
+          "lyrics": "Layegi | to | phir | kahani",
+          "indian": "SS r | G | S | S r G"
+        },
+        {
+          "lyrics": "aur | kuchh | ho | jayegi",
+          "indian": "GG | r | r~S | S SS"
+        },
+        {
+          "lyrics": "Yaad | rakh | par | koi | anhoni",
+          "indian": ""
+        },
+        {
+          "lyrics": "nahi | tu | layegi",
+          "indian": ""
+        },
+        {
+          "lyrics": "Layegi | to | phir | kahani",
+          "indian": ""
+        },
+        {
+          "lyrics": "aur | kuchh | ho | jayegi",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 3:",
+      "lines": [
+        {
+          "lyrics": "Honi | aur | anhoni | ki | parwah",
+          "indian": "S S | G | P DD | P~D | P~n n"
+        },
+        {
+          "lyrics": "kise | hai | meri | jaan",
+          "indian": "nD | D~P | PP | P"
+        },
+        {
+          "lyrics": "Hadd | se | jyaada | yehi | hoga | ki",
+          "indian": "S | S | G P | D D | P~D P~n | n"
+        },
+        {
+          "lyrics": "yahin | mar | jayenge",
+          "indian": "nD | D~P | PP P"
+        },
+        {
+          "lyrics": "Hum | maut | ko",
+          "indian": "S' | S'~,N,N | S~G'...R'~S'..."
+        },
+        {
+          "lyrics": "hum | maut | ko | Sapna | bata | kar",
+          "indian": "S' | S'~n n | n | nn D | DP | P"
+        },
+        {
+          "lyrics": "uth | khade | honge | yahin",
+          "indian": "PD | P G~R | R G G R | R R"
+        },
+        {
+          "lyrics": "Aur | honi | ko",
+          "indian": "S | S~,N,N | R..."
+        },
+        {
+          "lyrics": "aur | honi | ko | Thenga | dikha",
+          "indian": "S | S~,N,N | N~R | RR | RR"
+        },
+        {
+          "lyrics": "kar| khil-khilte | jayenge",
+          "indian": "M | M MM PG | G GG"
+        },
+        {
+          "lyrics": "Aur | honi | ko | thenga | dikha",
+          "indian": "S | S~,N,N | N~R | RR | RR"
+        },
+        {
+          "lyrics": "Kar | Khilkhilate | jayenge | x | (5)",
+          "indian": "R~r | r | r | r | r~S S SS"
+        }
+      ]
+    }
+  ],
+  "description": "This poignant and raw track from 'Gangs of Wasseypur-I' is a philosophical musing on life's dualities, delivered with a unique spoken-word style by Piyush Mishra. Its rustic melody, sparse instrumentation, and profound lyrics perfectly capture the film's gritty realism and the protagonist's inner world, making it a standout piece in contemporary Indian cinema music.",
+  "trivia": [
+    "Piyush Mishra, a renowned actor, writer, and musician, not only penned the lyrics and sang this song but also played a significant role (Nasir Ahmed) in the 'Gangs of Wasseypur' series.",
+    "The music director, Sneha Khanwalkar, traveled extensively through rural India to collect authentic folk sounds and regional instruments, which she masterfully incorporated into the film's eclectic soundtrack, including this track.",
+    "The song's minimalist arrangement, featuring a harmonium, djembe, and sparse percussion, allows the powerful lyrics and Mishra's evocative voice to take center stage, creating an intimate and reflective atmosphere.",
+    "Despite its unconventional structure and delivery, 'Ik Bagal Me Chaand Hoga' gained immense popularity for its lyrical depth and became an anthem for those grappling with life's complexities and the pursuit of dreams amidst harsh realities."
+  ],
+  "meaning": {
+    "coreTheme": "The song delves into the protagonist's (Sardar Khan's) deep-seated desires and the stark realities of his life. It's a meditation on the human condition, balancing grand aspirations ('chaand' - moon, symbolizing dreams and beauty) with basic survival needs ('rotiyaan' - bread, symbolizing sustenance). It portrays a yearning for a complete life, encompassing both material comfort and spiritual peace, even in the face of inevitable death.",
+    "lyricSymbolism": "The core metaphor lies in the lines 'Ik bagal mein chaand hoga, ik bagal mein rotiyaan' (A moon in one arm, breads in the other), symbolizing the ideal balance between lofty dreams and everyday necessities. 'Ik bagal mein neend hogi, ik bagal mein maut hogi' (Sleep in one arm, death in the other) further extends this duality, representing the cycle of rest and ultimate oblivion, suggesting a desire for peace in both life and death. The simple, direct language carries profound philosophical weight, reflecting a common man's existential pondering."
+  },
+  "musicxml": "musicxml/ik-bagal-me-chaand-hoga.musicxml"
+}
