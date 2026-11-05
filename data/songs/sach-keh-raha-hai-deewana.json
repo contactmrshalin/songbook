@@ -3,9 +3,11 @@
   "title": "Sach keh Raha Hai Deewana",
   "export": true,
   "info": [
-    "Film/Artist: Rehnaa Hai Terre Dil Mein",
+    "Film/Artist: Full Song",
     "Scale: D BASS/MIDDLE",
-    "Source: https://www.notationsworld.com/sach-keh-raha-hai-deewana-sargam-and-flute-notes.html"
+    "Singer: K.K.",
+    "Music: Harris Jayaraj",
+    "Lyrics: Sameer"
   ],
   "thumbnail": "images/sach-keh-raha-hai-deewana.jpg",
   "background": "images/sach-keh-raha-hai-deewana.jpg",
@@ -35,7 +37,7 @@
         },
         {
           "lyrics": "Joothe hai pyaar kee vaade sarein",
-          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha: Dha Ga' Re'"
+          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha: Ni Ga' Re' Sa'"
         },
         {
           "lyrics": "Jhoothi haii pyaar ki kasmein",
@@ -43,15 +45,15 @@
         },
         {
           "lyrics": "Maine har lamhaa",
-          "indian": "Re' Re' Re' Re(k).Re(k)' Re'"
+          "indian": "Re' Re' Re' R(K).R'(K) Re'"
         },
         {
           "lyrics": "Jise chahaa",
-          "indian": "Re Re(k)' Re' Ga' ma' Re'"
+          "indian": "Re R'(K) Re' Ga' ma' Re'"
         },
         {
           "lyrics": "Jise poojaa",
-          "indian": "Re' Re(k)' Re' Ga' ma' Re'"
+          "indian": "Re' R'(K) Re' Ga' ma' Re'"
         },
         {
           "lyrics": "Usine yaaron meraa dil",
@@ -75,7 +77,7 @@
         },
         {
           "lyrics": "Joothe hai pyaar kee vaade sarein",
-          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha: Dha Ga' Re'"
+          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha: Ni Ga' Re' Sa'"
         },
         {
           "lyrics": "Jhoothi hai pyaar kii kasmein",
@@ -83,15 +85,15 @@
         },
         {
           "lyrics": "Maine har lamhaa",
-          "indian": "Re' Re' Re' Re(k).Re(k)' Re'"
+          "indian": "Re' Re' Re' R(K).R'(K) Re'"
         },
         {
           "lyrics": "Jise chahaa",
-          "indian": "Re Re(k)' Re' Ga' ma' Re'"
+          "indian": "Re R'(K) Re' Ga' ma' Re'"
         },
         {
           "lyrics": "Jise poojaa",
-          "indian": "Re' Re(k)' Re' Ga' ma' Re'"
+          "indian": "Re' R'(K) Re' Ga' ma' Re'"
         },
         {
           "lyrics": "Usine yaaron meraa dil",
@@ -104,9 +106,112 @@
         {
           "lyrics": "Tanha tanhaa chodaa",
           "indian": "Dha Dha Ni: Dha Dha Ni Ga' Sa' Ni"
+        },
+        {
+          "lyrics": "Mausam mausam tha suhaana bada",
+          "indian": "Sa Sa Re Sa Sa Sa Re Sa Sa Re Ga ma Ga Re"
+        },
+        {
+          "lyrics": "Mausam mausam maine dekha usse",
+          "indian": "Sa Sa Re Sa Sa Sa Re Sa Sa Re Ga ma Ga Re"
+        },
+        {
+          "lyrics": "Hua main paagal",
+          "indian": "Ma Ma: Ma Ma ni Ma"
+        },
+        {
+          "lyrics": "Bas pal bhar mein",
+          "indian": "Ma Pa Dha Pa Ma Dha Pa:"
+        },
+        {
+          "lyrics": "Aah…",
+          "indian": "Sa': Ni Dha Pa ma Ga"
+        },
+        {
+          "lyrics": "Mausam mausam tha suhaana bada",
+          "indian": "Sa Sa Re Sa Sa Sa Re Sa Sa Re Ga ma Ga Re"
+        },
+        {
+          "lyrics": "Mausam mausam maine dekha usse",
+          "indian": "Sa Sa Re Sa Sa Pa Ga Sa Sa Re Ga ma Ga Re"
+        },
+        {
+          "lyrics": "Hua main paagal",
+          "indian": "Ma Ma: Ma Ma ni Ma"
+        },
+        {
+          "lyrics": "Bas pal bhar mein",
+          "indian": "Ma Pa Dha Pa Ma Dha Pa:"
+        },
+        {
+          "lyrics": "Aake basi hai voh mere mann mein",
+          "indian": "Dha: Dha: Ga Dha: Sa' Ni Dha Pa Pa Ma: Pa"
+        },
+        {
+          "lyrics": "Uski kami hai ab jeevan mein",
+          "indian": "ma: ma: Sa ma: Dha Pa ma Ga Ga Re: Ga"
+        },
+        {
+          "lyrics": "Voh door hai meri nazron se",
+          "indian": "Dha: Dha: Ga Dha: Sa' Ni Dha Pa Pa Ma: Pa"
+        },
+        {
+          "lyrics": "Kyoon usse main chaahoon",
+          "indian": "ma: Sa ma: ma Dha Sa' Ni: Dha Ni Dha Dha(k):"
+        },
+        {
+          "lyrics": "Sach keh raha hai deewanaa",
+          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha"
+        },
+        {
+          "lyrics": "Dil dil na kisise laganaa",
+          "indian": "Ni Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha"
+        },
+        {
+          "lyrics": "Joothe hai pyaar kee vaade sarein",
+          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha: Ni Ga' Re' Sa'"
+        },
+        {
+          "lyrics": "Jhoothi haii pyaar ki kasmein",
+          "indian": "Sa' Sa' Ni Ni Dha Dha Dha(k) Dha(k) Dha Dha"
+        },
+        {
+          "lyrics": "Maine har lamhaa",
+          "indian": "Re' Re' Re' R(K).R'(K) Re'"
+        },
+        {
+          "lyrics": "Jise chahaa",
+          "indian": "Re R'(K) Re' Ga' ma' Re'"
+        },
+        {
+          "lyrics": "Jise poojaa",
+          "indian": "Re' R'(K) Re' Ga' ma' Re'"
+        },
+        {
+          "lyrics": "Usine yaaron meraa dil",
+          "indian": "Ga' Ga' Re' Re' Sa' Sa' Sa' Ni"
+        },
+        {
+          "lyrics": "Toda todaa",
+          "indian": "Dha Dha Ni: Dha Dha Ni:"
+        },
+        {
+          "lyrics": "Tanha tanhaa chodaa",
+          "indian": "Dha Dha Ni: Dha Dha Ni: Ga' Sa' Ni:"
         }
       ]
     }
   ],
+  "description": "Sach Keh Raha Hai Deewana is an iconic heartbreak anthem from the early 2000s, instantly recognizable by K.K.'s raw and emotive vocals. It perfectly captures the anguish of unrequited love and regret, becoming a staple for anyone who has experienced the pain of a lost connection. The song's melancholic melody and poignant lyrics resonate deeply, making it a timeless expression of romantic despair.",
+  "trivia": [
+    "This song is widely considered one of K.K.'s most defining and beloved performances, solidifying his status as a master of emotional ballads.",
+    "The music, composed by Harris Jayaraj, marked his successful debut in Bollywood, bringing a fresh, contemporary sound from the South Indian film industry.",
+    "The song's immense popularity contributed significantly to the cult status of the film 'Rehnaa Hai Terre Dil Mein,' which initially wasn't a box office hit but gained immense popularity over time.",
+    "The phrase 'Sach Keh Raha Hai Deewana' (A madman is speaking the truth) itself became a popular cultural reference for expressing intense, often painful, emotional honesty."
+  ],
+  "meaning": {
+    "coreTheme": "The song revolves around the profound regret and heartbreak of a lover who realizes too late the depth of their feelings and the mistake of letting their beloved go. It's a poignant confession of love, an apology, and a desperate plea for a second chance, born from the pain of separation and the realization of what has been lost.",
+    "lyricSymbolism": "The 'deewana' (madman) in the title symbolizes someone consumed by love, whose intense emotions might seem irrational to others but are profoundly true to himself. Phrases like 'mujhe kya pata tha' (what did I know) and 'kyun na samjha' (why didn't I understand) highlight the protagonist's self-reproach and the bitter irony of understanding love only after it's gone. The lyrics use simple, direct language to convey universal feelings of longing and remorse."
+  },
   "musicxml": "musicxml/sach-keh-raha-hai-deewana.musicxml"
 }
