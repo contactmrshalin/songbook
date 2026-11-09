@@ -19,58 +19,27 @@ const USER_AGENT =
   "Chrome/120.0.0.0 Safari/537.36";
 
 export async function fetchHtml(url: string): Promise<string> {
-  // Use https module directly because Node.js undici fetch has a 10s connect
-  // timeout that is too short for some sites (notesandsargam.com).
-  const { default: https } = await import("https");
-  const { default: http } = await import("http");
-
-  return new Promise<string>((resolve, reject) => {
-    const parsedUrl = new URL(url);
-    const client = parsedUrl.protocol === "https:" ? https : http;
-
-    const req = client.get(
-      url,
-      {
-        headers: {
-          "User-Agent": USER_AGENT,
-          Accept: "text/html,application/xhtml+xml,*/*",
-          "Accept-Language": "en-US,en;q=0.9",
-        },
-        timeout: 30_000,
-        family: 4, // Force IPv4 — avoids IPv6 connect timeouts
-      },
-      (res) => {
-        // Follow redirects
-        if (
-          res.statusCode &&
-          res.statusCode >= 300 &&
-          res.statusCode < 400 &&
-          res.headers.location
-        ) {
-          fetchHtml(res.headers.location).then(resolve, reject);
-          return;
-        }
-        if (res.statusCode && res.statusCode >= 400) {
-          reject(new Error(`HTTP ${res.statusCode}: ${url}`));
-          return;
-        }
-        const chunks: Buffer[] = [];
-        res.on("data", (chunk: Buffer) => chunks.push(chunk));
-        res.on("end", () => {
-          const charset =
-            res.headers["content-type"]?.match(/charset=([^\s;]+)/i)?.[1] ||
-            "utf-8";
-          resolve(Buffer.concat(chunks).toString(charset as BufferEncoding));
-        });
-        res.on("error", reject);
-      }
-    );
-    req.on("timeout", () => {
-      req.destroy();
-      reject(new Error(`Timeout fetching: ${url}`));
-    });
-    req.on("error", reject);
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": USER_AGENT,
+      Accept: "text/html,application/xhtml+xml,*/*",
+      "Accept-Language": "en-US,en;q=0.9",
+    },
+    redirect: "follow",
+    signal: AbortSignal.timeout(30_000),
   });
+
+  if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
+
+  const contentType = res.headers.get("content-type") || "";
+  const charset = contentType.match(/charset=([^\s;]+)/i)?.[1] || "utf-8";
+  const html = await res.arrayBuffer();
+
+  try {
+    return new TextDecoder(charset).decode(html);
+  } catch {
+    return new TextDecoder().decode(html);
+  }
 }
 
 export interface DownloadedImage {
