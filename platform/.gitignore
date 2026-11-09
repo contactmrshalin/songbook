@@ -18,6 +18,9 @@ bun.lock
 /.next/
 /out/
 
+# OpenNext Cloudflare build output
+/.open-next/
+
 # production
 /build
 

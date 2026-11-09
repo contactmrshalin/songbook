@@ -1,9 +1,18 @@
+import { resolve } from "node:path";
 import type { NextConfig } from "next";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
+const repositoryRoot = resolve(import.meta.dirname, "..");
+const buildRoot = repositoryRoot;
+
 const nextConfig: NextConfig = {
   basePath,
+
+  turbopack: {
+    root: buildRoot,
+  },
+  outputFileTracingRoot: buildRoot,
   images: {
     unoptimized: true,
   },

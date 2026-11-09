@@ -34,6 +34,11 @@ Exported files are generated in `platform/out`.
 
 ## Deployment
 
+- Cloudflare Workers deployment runs from `.github/workflows/deploy-cloudflare.yml` on pushes to `main` that change `platform/` or `data/`.
+- Add the GitHub Actions secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` to enable the workflow.
+- Configure Worker runtime secrets with `npx wrangler secret put`: `ADMIN_PASSWORD` and `GITHUB_TOKEN` are required for the admin panel to read and publish songs; `GOOGLE_AI_API_KEY` enables enrichment.
+- The Worker is configured by `wrangler.jsonc` and `open-next.config.ts`; test a deployment build locally with `npx --yes @opennextjs/cloudflare@1 build` from this directory.
+
 - Vercel deploys from the same source as this app.
 - GitHub Pages deploy is handled by:
   - `.github/workflows/deploy-nextjs-gh-pages.yml`
