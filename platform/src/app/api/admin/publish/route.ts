@@ -1,4 +1,5 @@
-import { commitFiles, getFileContent, listRepoDir } from "@/lib/github";
+import { commitFiles } from "@/lib/github";
+import { getAllSongs, getBookMeta, getNotationMapping } from "@/lib/songs";
 import { downloadImage } from "@/lib/scraper";
 import { songToMusicXml } from "@/lib/toMusicXml";
 import type { Song } from "@/types/song";
@@ -103,22 +104,9 @@ export async function POST(request: Request) {
       content: songJson,
     });
 
-    // 4. Upsert book.json — always ensure song is present in song_order
-    const bookRaw = await getFileContent("data/book.json");
-    let book: Record<string, unknown> = {};
-
-    if (bookRaw) {
-      try {
-        book = JSON.parse(bookRaw);
-      } catch {
-        // Keep publishing resilient if book.json is temporarily malformed.
-        book = {};
-      }
-    }
-
-    const order = Array.isArray(book.song_order)
-      ? (book.song_order as string[])
-      : [];
+    // Use the deployed bundle as the catalog base instead of fetching every song.
+    const book = structuredClone(getBookMeta());
+    const order = [...book.song_order];
 
     if (!order.includes(song.id)) {
       order.push(song.id);
@@ -131,51 +119,26 @@ export async function POST(request: Request) {
       content: JSON.stringify(book, null, 2) + "\n",
     });
 
-    // 5. Refresh bundled songs JSON so production can stay fully static.
-    const notationRaw = await getFileContent("data/notation_mapping.json");
-    let notationMapping: Record<string, unknown> = {};
-    if (notationRaw) {
-      try {
-        notationMapping = JSON.parse(notationRaw) as Record<string, unknown>;
-      } catch {
-        notationMapping = {};
-      }
+    // Refresh the static bundle without issuing one GitHub request per song.
+    const songsById = new Map(getAllSongs().map((existingSong) => [existingSong.id, existingSong]));
+    if (song.export === false) {
+      songsById.delete(song.id);
+    } else {
+      songsById.set(song.id, song);
     }
-
-    const songFiles = await listRepoDir("data/songs");
-    const songIdsFromFiles = (songFiles || [])
-      .filter((entry) => entry.type === "file" && entry.name.endsWith(".json"))
-      .map((entry) => entry.name.replace(/\.json$/i, ""));
-
-    const orderedIds = new Set<string>(order);
-    const remainingIds = songIdsFromFiles
-      .filter((id) => !orderedIds.has(id))
-      .sort((a, b) => a.localeCompare(b));
-    const allSongIds = [...order, ...remainingIds];
 
     const bundledSongs: Song[] = [];
-    for (const id of allSongIds) {
-      try {
-        if (id === song.id) {
-          if (song.export !== false) {
-            bundledSongs.push(song);
-          }
-        } else {
-          const content = await getFileContent(`data/songs/${id}.json`);
-          if (!content) continue;
-          const s = JSON.parse(content) as Song;
-          if (s.export !== false) {
-            bundledSongs.push(s);
-          }
-        }
-      } catch {
-        // Skip malformed files but keep publish flow resilient.
-      }
+    for (const id of order) {
+      const existingSong = songsById.get(id);
+      if (!existingSong) continue;
+      bundledSongs.push(existingSong);
+      songsById.delete(id);
     }
+    bundledSongs.push(...[...songsById.values()].sort((a, b) => a.id.localeCompare(b.id)));
 
     const bundlePayload = {
       bookMeta: book,
-      notationMapping,
+      notationMapping: getNotationMapping(),
       songs: bundledSongs,
     };
 
