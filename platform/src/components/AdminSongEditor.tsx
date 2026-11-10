@@ -127,9 +127,24 @@ export default function AdminSongEditor({ password }: Props) {
           password,
         }),
       });
-      const data = await res.json();
+      // Cloudflare can return an HTML 5xx page when a Worker hits a runtime limit.
+      const responseText = await res.text();
+      let data: { success?: boolean; error?: string; song?: Song };
+      try {
+        data = JSON.parse(responseText);
+      } catch {
+        const detail = responseText
+          .replace(/<[^>]*>/g, " ")
+          .replace(/\s+/g, " ")
+          .trim()
+          .slice(0, 240);
+        setScrapeError(
+          `Scrape request failed (${res.status}): ${detail || res.statusText}`
+        );
+        return;
+      }
 
-      if (!res.ok || !data.success) {
+      if (!res.ok || !data.success || !data.song) {
         setScrapeError(data.error || "Scraping failed");
         return;
       }
