@@ -3,10 +3,13 @@
   "title": "Tu Mile Dil Khile",
   "export": true,
   "info": [
-    "Singer: Alka Yagnik – Kumar Sanu",
-    "Music: M.M.Kreem,",
-    "Movie: Criminal (1995)",
-    "Raag: Bhimpalasi"
+    "Film/Artist: Criminal",
+    "Scale: C BASS/MIDDLE",
+    "Singer: Kumar Sanu, Alka Yagnik",
+    "Music: M.M. Keeravani",
+    "Lyrics: Indeevar",
+    "Raag: Yaman",
+    "Thaat: Kalyan"
   ],
   "thumbnail": "images/tu-mile-dil-khile.jpg",
   "background": "images/tu-mile-dil-khile.jpg",
@@ -15,96 +18,70 @@
       "name": "STHAYI",
       "lines": [
         {
-          "lyrics": "Tu | mile | dil | khile",
-          "indian": "g | (g)d P~D | g | (g)P g P"
+          "lyrics": "Tu milee dil khilee",
+          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
         },
         {
-          "lyrics": "aur | jine | ko | kya | chaahiye",
-          "indian": "R R | S R~g | R | S~,N | ,D~,P ,D S"
+          "lyrics": "Aur jeene ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
         },
         {
-          "lyrics": "Na | ho | tu | udaas",
-          "indian": ",D | S | g | g g g"
+          "lyrics": "Tu milee dil khilee",
+          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
         },
         {
-          "lyrics": "tere | paas | paas",
-          "indian": "g g | g g | g g"
+          "lyrics": "Aur jeene ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
         },
         {
-          "lyrics": "main | rahunga |zindagi | bhar",
-          "indian": "g | ggP l gPg~R | S"
+          "lyrics": "Naa hoo tu udaas teree paas paas",
+          "indian": "Re ma Dha Dha Dha Dha Dha Dha Dha Dha"
         },
         {
-          "lyrics": "Na | ho | tu | udaas",
-          "indian": ",D | S | g | g g g"
+          "lyrics": "Mainn rahoonga zindagi bhar",
+          "indian": "Dha Dha Dha Sa' Dha Sa' Dha ma"
         },
         {
-          "lyrics": "tere | paas | paas",
-          "indian": "g g | g g | g g"
+          "lyrics": "Naa hoo tu udaas teree paas paas",
+          "indian": "Re ma Dha Dha Dha Dha Dha Dha Dha Dha"
         },
         {
-          "lyrics": "main | rahunga |zindagi | bhar",
-          "indian": "g | ggP l gP R~g | P"
+          "lyrics": "Mainn rahoonga zindagi bhar",
+          "indian": "Dha Dha Dha Sa' Dha Sa' Dha Sa'"
         },
         {
-          "lyrics": "Saare | snsaar | ka | pyaar",
-          "indian": "g P | P~N NN~D | D~N | NN~D"
+          "lyrics": "Saaree sansaar kaa pyaar maine tujhi mein paayaa",
+          "indian": "Dha Sa' Ga' Ga' Re' Ga' Ga' Re' ma' ma' Ga' Re' Sa' Dha Pa"
         },
         {
-          "lyrics": "maine | tujhhi | me | paaya",
-          "indian": "D~S'S' | N D | P | g R"
+          "lyrics": "Tu milee dil khilee",
+          "indian": "Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
         },
         {
-          "lyrics": "Tu mile…",
-          "indian": ""
-        }
-      ]
-    },
-    {
-      "name": "ANTARA:",
-      "lines": [
-        {
-          "lyrics": "Chanda | tujhe j ho…o..",
-          "indian": "N D | N NDP l D~N D...P...MgM"
+          "lyrics": "Aur jeene ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
         },
         {
-          "lyrics": "dekhne | ko | nikla | karta | hai",
-          "indian": "M MM | M | MMM | P D~N~P | g"
+          "lyrics": "Haan tu milee dil khilee",
+          "indian": "Dha Dha Dha Re' Sa' Re': Dha Dha Sa' Dha Sa"
         },
         {
-          "lyrics": "(Repeat for following…)",
-          "indian": ""
-        },
-        {
-          "lyrics": "Aina bhi j.ho… o…",
-          "indian": ""
-        },
-        {
-          "lyrics": "didaar ko tarasa karta hai,",
-          "indian": ""
-        },
-        {
-          "lyrics": "Itni | hasin | koi | nahin",
-          "indian": "SS g | P gSN | N R | P P"
-        },
-        {
-          "lyrics": "Itni | hasin | koi | nahin",
-          "indian": "SS g | P gPg RSN | N R | P P"
-        },
-        {
-          "lyrics": "Husn | dono | jahaan | ka | ek",
-          "indian": "g P | P~N N | N~D D~N | N | N~D"
-        },
-        {
-          "lyrics": "tujhme | simat | ke aya",
-          "indian": "DS S | N D | P | gR"
-        },
-        {
-          "lyrics": "Tu mile, dil khiler aur jine ko kya chaahiye",
-          "indian": ""
+          "lyrics": "Aur jeenee ko kyaa chaahiyee",
+          "indian": "Dha Pa ma: Dha Pa ma: Sa Re ma"
         }
       ]
     }
   ],
+  "description": "This iconic romantic ballad from 'Criminal' is a testament to the magic created when soulful melodies meet heartfelt lyrics. Composed by the legendary M.M. Keeravani, the song beautifully captures the euphoria and longing of new love, making it a timeless classic that continues to resonate with listeners. Its rich orchestration and the poignant vocals of Kumar Sanu and Alka Yagnik elevate it to a sublime experience.",
+  "trivia": [
+    "The film 'Criminal' was a bilingual production, simultaneously shot in Hindi and Telugu. M.M. Keeravani composed the music for both versions, with the Telugu version titled 'Telusa Manasa'.",
+    "M.M. Keeravani, known as M.M. Kreem in Hindi cinema, is a highly acclaimed music director who later gained international recognition for his work on 'RRR', winning an Oscar for 'Naatu Naatu'.",
+    "The song is widely considered one of the most romantic Hindi film songs of the 1990s and remains a staple on romantic playlists.",
+    "Its melody is deeply rooted in Raag Yaman, a fundamental and beautiful raga in Hindustani classical music, known for evoking feelings of love, devotion, and tranquility."
+  ],
+  "meaning": {
+    "coreTheme": "The song's core theme revolves around the transformative power of love and the profound joy experienced when one finds their soulmate. It expresses the deep longing for a beloved's presence and how their arrival makes life vibrant, beautiful, and complete, turning an ordinary existence into a 'gulzar' (garden).",
+    "lyricSymbolism": "The phrase 'Tu mile dil khile' literally translates to 'When you meet, the heart blossoms,' symbolizing the awakening of joy and happiness. 'Zindagi gulzar' means 'life becomes a garden,' a metaphor for life becoming lush, beautiful, and full of vitality. The lyrics use imagery of light and blossoming to convey the profound impact of love, suggesting that the beloved's presence illuminates and enriches every aspect of life."
+  },
   "musicxml": "musicxml/tu-mile-dil-khile.musicxml"
 }
