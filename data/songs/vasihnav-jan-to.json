@@ -1,0 +1,112 @@
+{
+  "id": "vasihnav-jan-to",
+  "title": "Vasihnav Jan To",
+  "export": true,
+  "info": [
+    "Singer: Various artists",
+    "Flute: C middle.",
+    "Source: https://notesandsargam.com/vasihnav-jan-to/",
+    "Lyrics: Narsinh Mehta",
+    "Raag: Khamaj",
+    "Thaat: Khamaj",
+    "Year: 15th Century"
+  ],
+  "thumbnail": "images/vasihnav-jan-to.jpg",
+  "background": "images/vasihnav-jan-to.jpg",
+  "sections": [
+    {
+      "name": "MUKHDA:",
+      "lines": [
+        {
+          "lyrics": "Vaish nava | ja na | t o |",
+          "indian": "S GG | G G | M GR"
+        },
+        {
+          "lyrics": "te ne | ka hi ye | je",
+          "indian": "GM P | P~D P~D M | G"
+        },
+        {
+          "lyrics": "pee d | pa raa yi |",
+          "indian": "GM P | P PD~P PDn~S'~n |"
+        },
+        {
+          "lyrics": "jaa ne | re e…",
+          "indian": "n~D PM | MP GM RG"
+        },
+        {
+          "lyrics": "pa ra | duh khe | upa kāra |",
+          "indian": "G M | D D | DD DD"
+        },
+        {
+          "lyrics": "ka re | to | ye",
+          "indian": "n n~D P~D | P | MG"
+        },
+        {
+          "lyrics": "mana | a bhi mā na | na |",
+          "indian": "G M | P P PD~P PD | DS'~n"
+        },
+        {
+          "lyrics": "āne | re",
+          "indian": "n~D PM | MP GM RG R~S"
+        },
+        {
+          "lyrics": "Vaishnava jana to…",
+          "indian": ""
+        }
+      ]
+    },
+    {
+      "name": "ANTARA 1:",
+      "lines": [
+        {
+          "lyrics": "Sa ka la | lo ka | mā |",
+          "indian": "G M P | P~n n | n~D"
+        },
+        {
+          "lyrics": "sahu ne | vande,",
+          "indian": "nn S' n | S' S'"
+        },
+        {
+          "lyrics": "nin dā | na | ka re |",
+          "indian": "n D~P | PD | DP PDn~S'~n"
+        },
+        {
+          "lyrics": "ke nī | re,",
+          "indian": "n~D PM | MP GM RG R~S"
+        },
+        {
+          "lyrics": "vā cha | kā cha | ma na |",
+          "indian": "S R | S~G G | G G"
+        },
+        {
+          "lyrics": "niś chala | rā khe,",
+          "indian": "G~M PP | D~P~D MG"
+        },
+        {
+          "lyrics": "dha na | dha na | ja na nī |",
+          "indian": "G M | P P | PD DP PDn~S'~n"
+        },
+        {
+          "lyrics": "tenī | re",
+          "indian": "n~D PM | MP GM RG R~S"
+        },
+        {
+          "lyrics": "Vaishnava jana to…",
+          "indian": ""
+        }
+      ]
+    }
+  ],
+  "description": "This iconic Gujarati bhajan is a timeless devotional masterpiece, penned by the 15th-century poet-saint Narsinh Mehta. It beautifully encapsulates the virtues of a true devotee, emphasizing compassion, empathy, and selfless service to humanity. Its simple yet profound melody has resonated across generations, making it a beloved spiritual anthem.",
+  "trivia": [
+    "\"Vaishnav Jan To\" was Mahatma Gandhi's favorite bhajan and became an integral part of his daily prayer meetings, significantly contributing to its widespread recognition and cultural impact.",
+    "The bhajan defines the ideal human being through a series of moral and ethical attributes, making it a universal hymn for humanism rather than just a religious one.",
+    "Composed in the 15th century, its lyrics are in Gujarati, but its message transcends linguistic barriers and has been translated and performed in numerous languages worldwide.",
+    "In 2018, to commemorate Mahatma Gandhi's 150th birth anniversary, artists from over 150 countries recorded their renditions of \"Vaishnav Jan To,\" showcasing its global appeal and unifying power."
+  ],
+  "meaning": {
+    "coreTheme": "The song serves as a moral compass, outlining the characteristics of an ideal 'Vaishnav' – a devotee of Vishnu, but more broadly, a virtuous human being. It champions qualities like empathy, selflessness, non-violence, truthfulness, and respect for all beings, presenting a blueprint for ethical living and spiritual enlightenment.",
+    "lyricSymbolism": "The opening line, \"Vaishnav Jan To Tene Kahiye Je Peed Paraayi Jaane Re\" (Call them a Vaishnav, who feels the pain of others), immediately establishes the core tenet of empathy. Phrases like \"Par-dukhkhe upkaar kare toye, man abhimaan na aane re\" (One who helps others in their sorrow, yet lets no pride enter their mind) highlight humility in service. The lyrics use direct, accessible language to convey profound spiritual and ethical principles, making them relatable and impactful across diverse audiences."
+  },
+  "musicxml": "musicxml/vasihnav-jan-to.musicxml"
+}
